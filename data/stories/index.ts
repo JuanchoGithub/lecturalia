@@ -16,6 +16,7 @@ import { pulgarcito } from './pulgarcito';
 import { pulgarcitoSastre } from './pulgarcito-sastre';
 import { elGatoConBotas } from './el-gato-con-botas';
 import { laBellaDurmienteGrimm } from './la-bella-durmiente-grimm';
+import { botellaAlMar } from './botella-al-mar';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -35,4 +36,5 @@ export const stories: Story[] = [
   sleepingBeauty,
   laBellaDurmienteGrimm,
   theHappyPrince,
+  botellaAlMar,
 ];
