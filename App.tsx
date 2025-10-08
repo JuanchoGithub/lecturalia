@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { Story, AppState, UserAnswer, AllStoryStats, Question, QuestionCategory, Attempt, AnswerTiming, PageTiming } from './types';
+import { Story, AppState, UserAnswer, AllStoryStats, Question, QuestionCategory, Attempt, AnswerTiming, PageTiming, ReadingSession } from './types';
 import { stories } from './data/stories/index';
 import StorySelection from './components/StorySelection';
 import ReadingView from './components/ReadingView';
@@ -16,6 +16,7 @@ const App: React.FC = () => {
   const [currentPageTimings, setCurrentPageTimings] = useState<PageTiming[]>([]);
   const [lastAttempt, setLastAttempt] = useState<Attempt | null>(null);
   const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
+  const [inProgressStoryId, setInProgressStoryId] = useState<string | null>(null);
 
   const [stats, setStats] = useState<AllStoryStats>(() => {
     try {
@@ -28,14 +29,22 @@ const App: React.FC = () => {
   });
 
   useEffect(() => {
-    try {
-      localStorage.setItem('readingAppStats', JSON.stringify(stats));
-    } catch (error) {
-      console.error("Could not save stats to localStorage", error);
+    if (appState === AppState.SELECTING) {
+      try {
+        const sessionStr = localStorage.getItem('activeReadingSession');
+        if (sessionStr) {
+          const session: ReadingSession = JSON.parse(sessionStr);
+          setInProgressStoryId(session.storyId);
+        } else {
+          setInProgressStoryId(null);
+        }
+      } catch {
+        setInProgressStoryId(null);
+      }
     }
-  }, [stats]);
+  }, [appState]);
 
-  const generateQuiz = (story: Story): Question[] => {
+  const generateQuiz = useCallback((story: Story): Question[] => {
     const quizQuestions: Question[] = [];
     for (const category in story.questions) {
       const questionsInCategory = story.questions[category as QuestionCategory];
@@ -45,27 +54,105 @@ const App: React.FC = () => {
       }
     }
     return quizQuestions.sort(() => Math.random() - 0.5);
-  };
+  }, []);
 
-  const handleStorySelect = useCallback((storyId: string) => {
-    const story = stories.find(s => s.id === storyId);
-    if (story) {
-      const storyStats = stats[storyId];
-      if (storyStats && storyStats.locked) {
-        alert("Esta historia está completada. ¡Pedile a un adulto que la desbloquee desde el Portal para Padres si querés volver a leerla!");
-        return;
+  useEffect(() => {
+    // Attempt to resume a session on initial load
+    if (appState === AppState.SELECTING) { // Only check if we are in the initial state
+      try {
+        const savedSession = localStorage.getItem('activeReadingSession');
+        if (savedSession) {
+          const session: ReadingSession = JSON.parse(savedSession);
+          const story = stories.find(s => s.id === session.storyId);
+          if (story) {
+             const storyStats = stats[session.storyId];
+             if (storyStats && storyStats.locked) {
+                localStorage.removeItem('activeReadingSession');
+                return;
+             }
+            setSelectedStory(story);
+            setCurrentQuiz(generateQuiz(story));
+            setAppState(AppState.READING);
+          } else {
+            localStorage.removeItem('activeReadingSession');
+          }
+        }
+      } catch (error) {
+        console.error("Could not load reading session", error);
+        localStorage.removeItem('activeReadingSession');
       }
-      setSelectedStory(story);
-      setCurrentQuiz(generateQuiz(story));
-      setAppState(AppState.READING);
+    }
+  }, [appState, generateQuiz, stats]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('readingAppStats', JSON.stringify(stats));
+    } catch (error) {
+      console.error("Could not save stats to localStorage", error);
     }
   }, [stats]);
 
-  const handleFinishReading = useCallback((duration: number, pageTimings: PageTiming[]) => {
-    setReadingDuration(duration);
-    setCurrentPageTimings(pageTimings);
+  const handleStorySelect = useCallback((storyId: string) => {
+    const story = stories.find(s => s.id === storyId);
+    if (!story) return;
+
+    const storyStats = stats[storyId];
+    if (storyStats && storyStats.locked) {
+        alert("Esta historia está completada. ¡Pedile a un adulto que la desbloquee desde el Portal para Padres si querés volver a leerla!");
+        return;
+    }
+
+    try {
+        const savedSessionStr = localStorage.getItem('activeReadingSession');
+        if (savedSessionStr) {
+            const session: ReadingSession = JSON.parse(savedSessionStr);
+            if (session.storyId === story.id) {
+                setSelectedStory(story);
+                setCurrentQuiz(generateQuiz(story));
+                setAppState(AppState.READING);
+                return;
+            }
+        }
+
+        const newSession: ReadingSession = {
+            storyId: story.id,
+            startTime: Date.now(),
+            currentPageIndex: 0,
+            pageTimings: [],
+            pageStartTime: Date.now(),
+        };
+        localStorage.setItem('activeReadingSession', JSON.stringify(newSession));
+        setSelectedStory(story);
+        setCurrentQuiz(generateQuiz(story));
+        setAppState(AppState.READING);
+
+    } catch (error) {
+        console.error("Could not save or load reading session", error);
+        alert("No se pudo iniciar la sesión de lectura. Es posible que el almacenamiento de su navegador esté lleno.");
+    }
+}, [stats, generateQuiz]);
+
+
+  const handleFinishReading = useCallback(() => {
+    if (!selectedStory) return;
+
+    const sessionStr = localStorage.getItem('activeReadingSession');
+    if (!sessionStr) {
+      console.error("Finished reading but no active session found.");
+      handleRestart();
+      return;
+    }
+
+    const session: ReadingSession = JSON.parse(sessionStr);
+
+    const totalDuration = Date.now() - session.startTime;
+    const finalPageTimings = session.pageTimings;
+
+    setReadingDuration(totalDuration);
+    setCurrentPageTimings(finalPageTimings);
     setAppState(AppState.QUIZZING);
-  }, []);
+
+  }, [selectedStory]);
 
   const handleQuizComplete = useCallback((answers: UserAnswer[], timings: AnswerTiming[]) => {
     if (!selectedStory) return;
@@ -98,12 +185,23 @@ const App: React.FC = () => {
         },
       };
     });
+    
+    try {
+      localStorage.removeItem('activeReadingSession');
+    } catch (error) {
+      console.error("Could not remove active reading session.", error);
+    }
 
     setLastAttempt(newAttempt);
     setAppState(AppState.RESULTS);
   }, [selectedStory, currentQuiz, readingDuration, currentPageTimings]);
 
   const handleRestart = useCallback(() => {
+    try {
+        localStorage.removeItem('activeReadingSession');
+    } catch (error) {
+        console.error("Could not remove active reading session on restart.", error);
+    }
     setAppState(AppState.SELECTING);
     setSelectedStory(null);
     setReadingDuration(0);
@@ -112,6 +210,20 @@ const App: React.FC = () => {
     setLastAttempt(null);
   }, []);
   
+  const handleReturnToSelection = useCallback(() => {
+    try {
+      localStorage.removeItem('activeReadingSession');
+    } catch (error) {
+        console.error("Could not remove active reading session on return to selection.", error);
+    }
+    setAppState(AppState.SELECTING);
+    setSelectedStory(null);
+    setReadingDuration(0);
+    setCurrentPageTimings([]);
+    setCurrentQuiz([]);
+    setLastAttempt(null);
+  }, []);
+
   const handlePasswordSubmit = (password: string) => {
     if (password !== '3127') {
       alert("Contraseña incorrecta.");
@@ -138,7 +250,7 @@ const App: React.FC = () => {
   const renderContent = () => {
     switch (appState) {
       case AppState.SELECTING:
-        return <StorySelection stories={stories} stats={stats} onSelectStory={handleStorySelect} />;
+        return <StorySelection stories={stories} stats={stats} onSelectStory={handleStorySelect} inProgressStoryId={inProgressStoryId} />;
       case AppState.READING:
         if (selectedStory) {
           return <ReadingView story={selectedStory} onFinishReading={handleFinishReading} />;
@@ -161,7 +273,7 @@ const App: React.FC = () => {
       case AppState.PARENT_DASHBOARD:
         return <ParentDashboard stories={stories} stats={stats} onExit={() => setAppState(AppState.SELECTING)} onUnlockStory={handleUnlockStory} />;
       default:
-        return <StorySelection stories={stories} stats={stats} onSelectStory={handleStorySelect} />;
+        return <StorySelection stories={stories} stats={stats} onSelectStory={handleStorySelect} inProgressStoryId={inProgressStoryId} />;
     }
   };
 
@@ -192,6 +304,14 @@ const App: React.FC = () => {
                 </svg>
                 <span>Portal para Padres</span>
              </button>
+          )}
+           {appState === AppState.READING && (
+              <button onClick={handleReturnToSelection} className="flex items-center space-x-2 text-sm font-semibold text-gray-600 hover:text-brand-purple transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span>Volver a las Historias</span>
+              </button>
           )}
         </div>
       </header>

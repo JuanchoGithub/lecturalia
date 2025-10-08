@@ -6,6 +6,7 @@ interface StorySelectionProps {
   stories: Story[];
   stats: AllStoryStats;
   onSelectStory: (storyId: string) => void;
+  inProgressStoryId: string | null;
 }
 
 const StoryStatsDisplay: React.FC<{ storyStats: AllStoryStats[string] | undefined }> = ({ storyStats }) => {
@@ -35,7 +36,7 @@ const StoryStatsDisplay: React.FC<{ storyStats: AllStoryStats[string] | undefine
     )
 }
 
-const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelectStory }) => {
+const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelectStory, inProgressStoryId }) => {
   return (
     <div className="text-center">
       <h2 className="text-2xl sm:text-3xl font-bold text-dark-text mb-2">¡Elegí tu Aventura!</h2>
@@ -46,6 +47,7 @@ const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelec
         {stories.map((story) => {
           const storyStats = stats[story.id];
           const isLocked = storyStats?.locked;
+          const isInProgress = story.id === inProgressStoryId;
           return (
             <Card 
               key={story.id} 
@@ -58,6 +60,11 @@ const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelec
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
+              )}
+              {isInProgress && !isLocked && (
+                 <div className="absolute top-2 left-2 bg-brand-blue text-white px-3 py-1 rounded-full z-10 text-xs font-bold shadow-lg">
+                   <span>CONTINUAR</span>
+                 </div>
               )}
               <img src={story.coverImage} alt={story.title} className="w-full h-40 object-cover rounded-t-lg" />
               <div className="p-4">

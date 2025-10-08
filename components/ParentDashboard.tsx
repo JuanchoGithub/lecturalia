@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { AllStoryStats, Story, Attempt, StoryStats, PageTiming } from '../types';
+import React, { useState, useEffect } from 'react';
+import { AllStoryStats, Story, Attempt, StoryStats, PageTiming, ReadingSession, QuestionCategory } from '../types';
 import Card from './ui/Card';
 import Button from './ui/Button';
 
@@ -24,7 +24,6 @@ const calculateStudentAverageWPM = (stats: AllStoryStats, stories: Story[]): num
         const storyData = stories.find(s => s.id === storyId);
         if (storyData) {
             stats[storyId].attempts.forEach(attempt => {
-                // We only consider the overall reading duration for the average, not page timings
                 totalWords += storyData.wordCount;
                 totalDurationMs += attempt.readingDuration;
             });
@@ -101,7 +100,7 @@ const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack,
             <h3 className="text-xl font-bold mb-2">Detalle del Intento</h3>
             <p className="text-sm text-gray-500 mb-4">Realizado el {new Date(parseInt(attempt.id)).toLocaleString('es-AR')}</p>
 
-            <div className="grid grid-cols-2 gap-4 mb-6 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-center">
                 <div className="bg-blue-100 p-4 rounded-lg">
                     <div className="text-3xl font-bold text-blue-800">{attempt.score}%</div>
                     <div className="text-sm text-blue-700">Puntaje</div>
@@ -119,7 +118,6 @@ const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack,
 
                     return (
                         <div key={pt.pageIndex} className={`border-l-4 p-4 rounded-r-lg ${bgColor} ${borderColor}`}>
-                            {/* Header */}
                             <div className="flex flex-wrap justify-between items-center text-sm font-semibold">
                                 <span className="text-lg font-bold text-dark-text mr-4">Página {pt.pageIndex + 1}</span>
                                 <div className="flex flex-wrap gap-x-4 gap-y-1 text-gray-600">
@@ -128,13 +126,30 @@ const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack,
                                     <span className={`font-bold ${textColor}`}>{wpm} PPM</span>
                                 </div>
                             </div>
-                            {/* Footer with Observations */}
                             <div className={`mt-3 pt-3 border-t ${borderColor} ${textColor}`}>
                                 <ul className="list-disc list-inside text-sm space-y-1">
                                     {gradeLevelFeedback && <li>{gradeLevelFeedback}</li>}
                                     {personalAvgFeedback && <li>{personalAvgFeedback}</li>}
                                 </ul>
                             </div>
+                        </div>
+                    )
+                })}
+            </div>
+            <h4 className="font-bold mb-4 text-lg mt-6">Análisis de Preguntas</h4>
+            <div className="space-y-4">
+                {attempt.questions.map((q, index) => {
+                    const userAnswer = attempt.answers.find(a => a.questionId === q.id);
+                    const timing = attempt.answerTimings.find(t => t.questionId === q.id);
+                    const isCorrect = userAnswer?.answer === q.correctAnswer;
+
+                    return (
+                        <div key={q.id} className={`p-4 rounded-lg border-l-4 ${isCorrect ? 'bg-green-50 border-green-400' : 'bg-red-50 border-red-400'}`}>
+                            <p className="font-semibold text-dark-text">{index + 1}. {q.questionText}</p>
+                            <p className="text-xs text-gray-500 mb-2">{q.category}</p>
+                            <p className="text-sm"><strong>Respuesta del estudiante:</strong> <span className={isCorrect ? 'text-green-700 font-bold' : 'text-red-700 font-bold'}>{userAnswer?.answer || 'No contestada'}</span></p>
+                            {!isCorrect && <p className="text-sm"><strong>Respuesta correcta:</strong> <span className="text-green-700 font-bold">{q.correctAnswer}</span></p>}
+                            <p className="text-sm text-gray-600 mt-1"><strong>Tiempo para responder:</strong> {((timing?.duration || 0) / 1000).toFixed(1)} segundos</p>
                         </div>
                     )
                 })}
@@ -178,8 +193,21 @@ const StoryDetails: React.FC<{ story: Story; storyStats: StoryStats; onSelectAtt
 const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExit, onUnlockStory }) => {
     const [selectedStoryId, setSelectedStoryId] = useState<string | null>(null);
     const [selectedAttemptId, setSelectedAttemptId] = useState<string | null>(null);
+    const [openSession, setOpenSession] = useState<ReadingSession | null>(null);
+
+    useEffect(() => {
+        try {
+          const sessionStr = localStorage.getItem('activeReadingSession');
+          if (sessionStr) {
+            setOpenSession(JSON.parse(sessionStr));
+          }
+        } catch (error) {
+          console.error("Could not load open session for parent dashboard", error);
+        }
+    }, []);
 
     const studentAverageWPM = calculateStudentAverageWPM(stats, stories);
+    const openSessionStory = openSession ? stories.find(s => s.id === openSession.storyId) : null;
 
     const handleSelectStory = (storyId: string) => {
         setSelectedStoryId(storyId);
@@ -262,6 +290,19 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
                     <h2 className="text-3xl font-bold text-dark-text">Portal para Padres</h2>
                     <Button onClick={onExit} variant="secondary">Salir</Button>
                 </div>
+                {openSession && openSessionStory && (
+                  <Card className="mb-6 bg-yellow-50 border-yellow-300 border">
+                      <div className="p-4">
+                          <h3 className="text-lg font-bold text-yellow-800">Sesión de Lectura Activa</h3>
+                          <p className="text-yellow-700">
+                              El estudiante está leyendo actualmente: <strong>{openSessionStory.title}</strong>.
+                          </p>
+                          <p className="text-sm text-yellow-600">
+                              Comenzó el: {new Date(openSession.startTime).toLocaleString('es-AR')}
+                          </p>
+                      </div>
+                  </Card>
+                )}
                 {renderContent()}
             </div>
         </Card>

@@ -68,3 +68,11 @@ export interface StoryStats {
 export interface AllStoryStats {
   [storyId: string]: StoryStats;
 }
+
+export interface ReadingSession {
+  storyId: string;
+  startTime: number; // Session start timestamp
+  currentPageIndex: number;
+  pageTimings: PageTiming[];
+  pageStartTime: number; // Current page view start timestamp
+}
