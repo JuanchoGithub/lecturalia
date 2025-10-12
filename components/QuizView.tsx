@@ -5,7 +5,7 @@ import ProgressBar from './ui/ProgressBar';
 
 interface QuizViewProps {
   questions: Question[];
-  onQuizComplete: (answers: UserAnswer[], timings: AnswerTiming[]) => void;
+  onQuizComplete: (answers: UserAnswer[], timings: AnswerTiming[], shuffledOptions: { [questionId: string]: string[] }) => void;
 }
 
 const shuffleArray = <T,>(array: T[]): T[] => {
@@ -18,6 +18,7 @@ const QuizView: React.FC<QuizViewProps> = ({ questions, onQuizComplete }) => {
   const [answerTimings, setAnswerTimings] = useState<AnswerTiming[]>([]);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
+  const [shuffledOptionsHistory, setShuffledOptionsHistory] = useState<{ [questionId: string]: string[] }>({});
   const questionStartTime = useRef<number>(Date.now());
 
   const currentQuestion = questions[currentQuestionIndex];
@@ -25,8 +26,14 @@ const QuizView: React.FC<QuizViewProps> = ({ questions, onQuizComplete }) => {
 
   useEffect(() => {
     if (currentQuestion) {
-      setShuffledOptions(shuffleArray(currentQuestion.options));
+      const newShuffledOptions = shuffleArray(currentQuestion.options);
+      setShuffledOptions(newShuffledOptions);
+      setShuffledOptionsHistory(prev => ({
+        ...prev,
+        [currentQuestion.id]: newShuffledOptions,
+      }));
       questionStartTime.current = Date.now();
+      setSelectedOption(null); // Reset for the new question
     }
   }, [currentQuestion]);
   
@@ -53,9 +60,8 @@ const QuizView: React.FC<QuizViewProps> = ({ questions, onQuizComplete }) => {
         
         if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex(prev => prev + 1);
-            setSelectedOption(null);
         } else {
-            onQuizComplete(updatedAnswers, updatedTimings);
+            onQuizComplete(updatedAnswers, updatedTimings, shuffledOptionsHistory);
         }
     }, 800);
   };

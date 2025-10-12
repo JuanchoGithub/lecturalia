@@ -58,6 +58,7 @@ export interface Attempt {
   answerTimings: AnswerTiming[];
   score: number;
   questions: Question[];
+  shuffledOptionsPerQuestion: { [questionId: string]: string[] };
 }
 
 export interface StoryStats {

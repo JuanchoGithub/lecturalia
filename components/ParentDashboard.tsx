@@ -1,14 +1,33 @@
+
 import React, { useState, useEffect } from 'react';
-import { AllStoryStats, Story, Attempt, StoryStats, PageTiming, ReadingSession, QuestionCategory } from '../types';
+import { AllStoryStats, Story, Attempt, StoryStats, PageTiming, ReadingSession, Question, QuestionCategory } from '../types';
 import Card from './ui/Card';
 import Button from './ui/Button';
 
+// FIX: Added interface for component props to resolve type error.
 interface ParentDashboardProps {
   stories: Story[];
   stats: AllStoryStats;
   onExit: () => void;
   onUnlockStory: (storyId: string) => void;
 }
+
+// Utility functions copied from ReadingView for consistent pagination
+const paginateStory = (story: Story): string[] => {
+    const content = story.content;
+    const isAdelaBasch = story.author === 'Adela Basch';
+
+    const splitRegex = isAdelaBasch ? /\n/ : /\n\s*\n/;
+    const joiner = isAdelaBasch ? '\n' : '\n\n';
+    const paragraphsPerPage = isAdelaBasch ? 5 : 2;
+
+    const paragraphs = content.trim().split(splitRegex).filter(p => p.trim() !== '');
+    const pages: string[] = [];
+    for (let i = 0; i < paragraphs.length; i += paragraphsPerPage) {
+        pages.push(paragraphs.slice(i, i + paragraphsPerPage).join(joiner));
+    }
+    return pages;
+};
 
 const calculateWPM = (wordCount: number, durationMs: number): number => {
     if (durationMs <= 0 || wordCount <= 0) return 0;
@@ -81,6 +100,23 @@ const getPageAnalysis = (pt: PageTiming, studentAverageWPM: number) => {
     return { wpm, gradeLevelFeedback, personalAvgFeedback, bgColor, textColor, borderColor };
 };
 
+const PageViewModal: React.FC<{ pageContent: string; pageIndex: number; onClose: () => void }> = ({ pageContent, pageIndex, onClose }) => {
+    return (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 animate-fade-in">
+            <Card className="w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+                <div className="p-6">
+                    <div className="flex justify-between items-center mb-4">
+                        <h3 className="text-xl font-bold text-dark-text">Texto de la Página {pageIndex + 1}</h3>
+                        <button onClick={onClose} className="text-gray-500 hover:text-gray-800 text-3xl font-bold">&times;</button>
+                    </div>
+                    <div className="prose max-w-none text-dark-text text-justify" style={{ whiteSpace: 'pre-wrap' }}>
+                        {pageContent}
+                    </div>
+                </div>
+            </Card>
+        </div>
+    );
+};
 
 interface AttemptDetailsProps {
     attempt: Attempt;
@@ -91,9 +127,18 @@ interface AttemptDetailsProps {
 
 const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack, studentAverageWPM }) => {
     const overallWPM = calculateWPM(story.wordCount, attempt.readingDuration);
+    const [viewingPageIndex, setViewingPageIndex] = useState<number | null>(null);
+    const pages = paginateStory(story);
     
     return (
         <div>
+            {viewingPageIndex !== null && pages[viewingPageIndex] && (
+                <PageViewModal 
+                    pageContent={pages[viewingPageIndex]}
+                    pageIndex={viewingPageIndex}
+                    onClose={() => setViewingPageIndex(null)}
+                />
+            )}
             <Button onClick={onBack} variant="secondary" size="sm" className="mb-4">
                 &larr; Volver a los Intentos
             </Button>
@@ -111,13 +156,13 @@ const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack,
                 </div>
             </div>
 
-            <h4 className="font-bold mb-4 text-lg">Análisis por Página</h4>
+            <h4 className="font-bold mb-4 text-lg">Análisis por Página <span className="text-sm font-normal text-gray-500">(hacé clic para ver el texto)</span></h4>
             <div className="space-y-3">
                 {attempt.pageTimings.sort((a,b) => a.pageIndex - b.pageIndex).map(pt => {
                     const { wpm, gradeLevelFeedback, personalAvgFeedback, bgColor, textColor, borderColor } = getPageAnalysis(pt, studentAverageWPM);
 
                     return (
-                        <div key={pt.pageIndex} className={`border-l-4 p-4 rounded-r-lg ${bgColor} ${borderColor}`}>
+                        <div key={pt.pageIndex} onClick={() => setViewingPageIndex(pt.pageIndex)} className={`border-l-4 p-4 rounded-r-lg ${bgColor} ${borderColor} cursor-pointer hover:shadow-md transition-shadow`}>
                             <div className="flex flex-wrap justify-between items-center text-sm font-semibold">
                                 <span className="text-lg font-bold text-dark-text mr-4">Página {pt.pageIndex + 1}</span>
                                 <div className="flex flex-wrap gap-x-4 gap-y-1 text-gray-600">
@@ -142,14 +187,40 @@ const AttemptDetails: React.FC<AttemptDetailsProps> = ({ attempt, story, onBack,
                     const userAnswer = attempt.answers.find(a => a.questionId === q.id);
                     const timing = attempt.answerTimings.find(t => t.questionId === q.id);
                     const isCorrect = userAnswer?.answer === q.correctAnswer;
+                    const optionsToShow = attempt.shuffledOptionsPerQuestion?.[q.id] || q.options;
 
                     return (
-                        <div key={q.id} className={`p-4 rounded-lg border-l-4 ${isCorrect ? 'bg-green-50 border-green-400' : 'bg-red-50 border-red-400'}`}>
+                        <div key={q.id} className={`p-4 rounded-lg border ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
                             <p className="font-semibold text-dark-text">{index + 1}. {q.questionText}</p>
-                            <p className="text-xs text-gray-500 mb-2">{q.category}</p>
-                            <p className="text-sm"><strong>Respuesta del estudiante:</strong> <span className={isCorrect ? 'text-green-700 font-bold' : 'text-red-700 font-bold'}>{userAnswer?.answer || 'No contestada'}</span></p>
-                            {!isCorrect && <p className="text-sm"><strong>Respuesta correcta:</strong> <span className="text-green-700 font-bold">{q.correctAnswer}</span></p>}
-                            <p className="text-sm text-gray-600 mt-1"><strong>Tiempo para responder:</strong> {((timing?.duration || 0) / 1000).toFixed(1)} segundos</p>
+                            <p className="text-xs text-gray-500 mb-4">{q.category}</p>
+                            <div className="space-y-2 text-sm">
+                                {optionsToShow.map((option, i) => {
+                                    const isUserAnswer = option === userAnswer?.answer;
+                                    const isTheCorrectAnswer = option === q.correctAnswer;
+                                    
+                                    let optionClass = "p-2 rounded border border-gray-300 bg-white/50 flex justify-between items-center";
+                                    let indicator = null;
+
+                                    if (isUserAnswer && isTheCorrectAnswer) {
+                                        optionClass = "p-2 rounded border-2 border-green-500 bg-green-100 flex justify-between items-center";
+                                        indicator = <span className="text-xs font-semibold text-green-800 ml-2">(Tu respuesta - Correcta)</span>;
+                                    } else if (isUserAnswer && !isTheCorrectAnswer) {
+                                        optionClass = "p-2 rounded border-2 border-red-500 bg-red-100 flex justify-between items-center";
+                                        indicator = <span className="text-xs font-semibold text-red-800 ml-2">(Tu respuesta)</span>;
+                                    } else if (isTheCorrectAnswer) {
+                                        optionClass = "p-2 rounded border border-green-400 bg-green-50 flex justify-between items-center";
+                                        indicator = <span className="text-xs font-semibold text-green-800 ml-2">(Respuesta Correcta)</span>;
+                                    }
+
+                                    return (
+                                        <div key={i} className={optionClass}>
+                                            <span>{option}</span>
+                                            {indicator}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                            <p className="text-sm text-gray-600 mt-3"><strong>Tiempo para responder:</strong> {((timing?.duration || 0) / 1000).toFixed(1)} segundos</p>
                         </div>
                     )
                 })}
@@ -190,10 +261,73 @@ const StoryDetails: React.FC<{ story: Story; storyStats: StoryStats; onSelectAtt
     );
 };
 
+const StoryViewerModal: React.FC<{ story: Story; onClose: () => void }> = ({ story, onClose }) => {
+    const [activeTab, setActiveTab] = useState<'content' | 'questions'>('content');
+    const pages = paginateStory(story);
+
+    return (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <Card className="w-full max-w-4xl max-h-[90vh] flex flex-col">
+                <div className="p-4 border-b flex justify-between items-center flex-shrink-0">
+                    <div>
+                        <h3 className="text-2xl font-bold text-brand-purple">{story.title}</h3>
+                        <p className="text-sm text-gray-500">por {story.author}</p>
+                    </div>
+                    <button onClick={onClose} className="text-gray-500 hover:text-gray-800 text-3xl font-bold">&times;</button>
+                </div>
+                <div className="border-b flex-shrink-0">
+                    <nav className="flex space-x-4 px-4">
+                        <button onClick={() => setActiveTab('content')} className={`py-2 px-4 font-semibold ${activeTab === 'content' ? 'border-b-2 border-brand-blue text-brand-blue' : 'text-gray-500 hover:text-brand-blue'}`}>Contenido</button>
+                        <button onClick={() => setActiveTab('questions')} className={`py-2 px-4 font-semibold ${activeTab === 'questions' ? 'border-b-2 border-brand-blue text-brand-blue' : 'text-gray-500 hover:text-brand-blue'}`}>Preguntas</button>
+                    </nav>
+                </div>
+                <div className="overflow-y-auto p-6">
+                    {activeTab === 'content' && (
+                        <div className="space-y-6">
+                            {pages.map((pageContent, index) => (
+                                <div key={index} className="pb-4 border-b last:border-b-0">
+                                    <p className="text-sm font-bold text-gray-500 mb-2">Página {index + 1}</p>
+                                    <div className="prose max-w-none text-dark-text" style={{ whiteSpace: 'pre-wrap' }}>{pageContent}</div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                    {activeTab === 'questions' && (
+                        <div className="space-y-6">
+                           {Object.entries(story.questions).map(([category, questions]) => (
+                               <div key={category}>
+                                   <h4 className="text-xl font-bold text-brand-orange mb-3">{category}</h4>
+                                   <div className="space-y-4">
+                                       {(questions as Question[]).map(q => (
+                                           <div key={q.id} className="p-3 bg-gray-50 rounded-lg border">
+                                               <p className="font-semibold mb-2">{q.questionText}</p>
+                                               <ul className="list-disc list-inside space-y-1 text-sm">
+                                                   {q.options.map(opt => (
+                                                       <li key={opt} className={opt === q.correctAnswer ? 'font-bold text-green-700' : ''}>
+                                                           {opt}
+                                                       </li>
+                                                   ))}
+                                               </ul>
+                                           </div>
+                                       ))}
+                                   </div>
+                               </div>
+                           ))}
+                        </div>
+                    )}
+                </div>
+            </Card>
+        </div>
+    );
+};
+
+
 const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExit, onUnlockStory }) => {
     const [selectedStoryId, setSelectedStoryId] = useState<string | null>(null);
     const [selectedAttemptId, setSelectedAttemptId] = useState<string | null>(null);
     const [openSession, setOpenSession] = useState<ReadingSession | null>(null);
+    const [storyToView, setStoryToView] = useState<Story | null>(null);
+
 
     useEffect(() => {
         try {
@@ -261,9 +395,12 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
                                         <p><strong>Intentos:</strong> {storyStats.attempts.length}</p>
                                         <p><strong>Último puntaje:</strong> {storyStats.attempts[storyStats.attempts.length - 1].score}%</p>
                                     </div>
-                                    <div className="flex space-x-2 mt-3">
+                                    <div className="flex flex-wrap gap-2 mt-3">
                                         <Button onClick={() => handleSelectStory(story.id)} size="sm">
                                             Ver Progreso
+                                        </Button>
+                                         <Button onClick={() => setStoryToView(story)} size="sm" variant="secondary">
+                                            Contenido
                                         </Button>
                                         {isLocked && (
                                             <Button onClick={() => onUnlockStory(story.id)} size="sm" variant="secondary">
@@ -273,7 +410,14 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
                                     </div>
                                 </>
                             ) : (
+                                <>
                                 <p className="text-sm text-gray-500 italic mt-2">Sin intentos aún.</p>
+                                 <div className="mt-3">
+                                     <Button onClick={() => setStoryToView(story)} size="sm" variant="secondary">
+                                        Ver Contenido
+                                    </Button>
+                                </div>
+                                </>
                             )}
                         </div>
                     )
@@ -285,6 +429,7 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
 
     return (
         <Card>
+            {storyToView && <StoryViewerModal story={storyToView} onClose={() => setStoryToView(null)} />}
             <div className="p-6 md:p-8">
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="text-3xl font-bold text-dark-text">Portal para Padres</h2>

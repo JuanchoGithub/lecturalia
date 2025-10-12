@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback, useEffect } from 'react';
 import { Story, AppState, UserAnswer, AllStoryStats, Question, QuestionCategory, Attempt, AnswerTiming, PageTiming, ReadingSession } from './types';
 import { stories } from './data/stories/index';
@@ -133,6 +134,21 @@ const App: React.FC = () => {
 }, [stats, generateQuiz]);
 
 
+  // FIX: Moved handleRestart before handleFinishReading to resolve the "used before its declaration" error.
+  const handleRestart = useCallback(() => {
+    try {
+        localStorage.removeItem('activeReadingSession');
+    } catch (error) {
+        console.error("Could not remove active reading session on restart.", error);
+    }
+    setAppState(AppState.SELECTING);
+    setSelectedStory(null);
+    setReadingDuration(0);
+    setCurrentPageTimings([]);
+    setCurrentQuiz([]);
+    setLastAttempt(null);
+  }, []);
+
   const handleFinishReading = useCallback(() => {
     if (!selectedStory) return;
 
@@ -152,9 +168,9 @@ const App: React.FC = () => {
     setCurrentPageTimings(finalPageTimings);
     setAppState(AppState.QUIZZING);
 
-  }, [selectedStory]);
+  }, [selectedStory, handleRestart]);
 
-  const handleQuizComplete = useCallback((answers: UserAnswer[], timings: AnswerTiming[]) => {
+  const handleQuizComplete = useCallback((answers: UserAnswer[], timings: AnswerTiming[], shuffledOptionsPerQuestion: { [questionId: string]: string[] }) => {
     if (!selectedStory) return;
 
     const correctAnswersCount = answers.filter(ua => {
@@ -172,6 +188,7 @@ const App: React.FC = () => {
       answerTimings: timings,
       score,
       questions: currentQuiz,
+      shuffledOptionsPerQuestion,
     };
     
     setStats(prevStats => {
@@ -195,20 +212,6 @@ const App: React.FC = () => {
     setLastAttempt(newAttempt);
     setAppState(AppState.RESULTS);
   }, [selectedStory, currentQuiz, readingDuration, currentPageTimings]);
-
-  const handleRestart = useCallback(() => {
-    try {
-        localStorage.removeItem('activeReadingSession');
-    } catch (error) {
-        console.error("Could not remove active reading session on restart.", error);
-    }
-    setAppState(AppState.SELECTING);
-    setSelectedStory(null);
-    setReadingDuration(0);
-    setCurrentPageTimings([]);
-    setCurrentQuiz([]);
-    setLastAttempt(null);
-  }, []);
   
   const handleReturnToSelection = useCallback(() => {
     try {
