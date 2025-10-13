@@ -39,6 +39,13 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         options: ['Se convierte en "carreta"', 'Se convierte en "carretera"', 'No pasa nada', 'Se borra'],
         correctAnswer: 'Se convierte en "carreta"',
       },
+      {
+        id: 'cl-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le pasa a la palabra "perro" si se le cae una de las erres?',
+        options: ['Se convierte en "pero"', 'Se convierte en "pera"', 'Se convierte en "porro"', 'No cambia'],
+        correctAnswer: 'Se convierte en "pero"',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -47,6 +54,20 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         questionText: '¿Cuál es el segundo ejemplo que dan las erres para mostrar su poder de cambiar palabras?',
         options: ['Enterando y enterrando', 'Cero y cerro', 'Perro y pero', 'Encerrando y encerando'],
         correctAnswer: 'Perro y pero',
+      },
+      {
+        id: 'cl-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: 'En la historia, ¿qué ejemplo se da después del de "perro" y "pero"?',
+        options: ['El de cero y cerro', 'El de caro y carro', 'El de peras y perra', 'El de enterando y enterrando'],
+        correctAnswer: 'El de peras y perra',
+      },
+      {
+        id: 'cl-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasa justo después de que el pirata decide "encerrar" el tesoro?',
+        options: ['Una erre se va a mirar el mar y el pirata se encuentra "encerando" el piso.', 'El pirata esconde el tesoro.', 'Llegan otros piratas.', 'El barco se hunde.'],
+        correctAnswer: 'Una erre se va a mirar el mar y el pirata se encuentra "encerando" el piso.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -57,6 +78,20 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         options: ['De un solo tema', 'De un lugar específico', 'De diferentes clases o tipos', 'De autores famosos'],
         correctAnswer: 'De diferentes clases o tipos',
       },
+      {
+        id: 'cl-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'En la frase "no sería una afirmación errada", ¿qué significa "errada"?',
+        options: ['Correcta', 'Larga', 'Equivocada', 'Famosa'],
+        correctAnswer: 'Equivocada',
+      },
+      {
+        id: 'cl-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Cuando las erres dicen "sin querer subestimar a nadie", ¿qué significa "subestimar"?',
+        options: ['Dar a algo o alguien un valor mayor del que tiene', 'Ignorar a alguien', 'Saludar a alguien', 'Dar a algo o alguien un valor menor del que tiene'],
+        correctAnswer: 'Dar a algo o alguien un valor menor del que tiene',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -65,6 +100,20 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         questionText: '¿Cuál es la idea principal de esta historia?',
         options: ['La historia de un almirante famoso.', 'Mostrar de forma divertida y creativa la importancia de la letra "erre" y cómo puede cambiar el significado de las palabras.', 'Una lista de palabras con "erre".', 'Por qué la calle Laserre tiene ese nombre.'],
         correctAnswer: 'Mostrar de forma divertida y creativa la importancia de la letra "erre" y cómo puede cambiar el significado de las palabras.',
+      },
+      {
+        id: 'cl-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es la principal capacidad que tienen las erres según el texto?',
+        options: ['Ser la letra más bonita', 'Ser la más difícil de pronunciar', 'Modificar totalmente el significado de una palabra', 'Aparecer en todas las palabras'],
+        correctAnswer: 'Modificar totalmente el significado de una palabra',
+      },
+      {
+        id: 'cl-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué proponen las erres al final para resolver las dudas sobre lo que dicen?',
+        options: ['Leer un diccionario', 'Preguntarle a una maestra', 'Ir a la calle Laserre en Buenos Aires para comprobarlo', 'Escribir muchas palabras con erre'],
+        correctAnswer: 'Ir a la calle Laserre en Buenos Aires para comprobarlo',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -75,6 +124,20 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         options: ['Porque están cansadas de hablar', 'Porque reconocen que todas las letras son importantes para formar palabras', 'Porque no quieren ofender a las otras letras', 'Porque es parte de una broma'],
         correctAnswer: 'Porque reconocen que todas las letras son importantes para formar palabras',
       },
+      {
+        id: 'cl-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué sentimiento expresan las erres sobre su propia importancia?',
+        options: ['Vergüenza', 'Tristeza', 'Orgullo', 'Indiferencia'],
+        correctAnswer: 'Orgullo',
+      },
+      {
+        id: 'cl-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el pirata se sorprende al encontrarse encerando el piso?',
+        options: ['Porque el piso ya estaba limpio', 'Porque es una tarea que detesta y no tenía intención de hacerla', 'Porque no tenía cera', 'Porque otro pirata se lo ordenó'],
+        correctAnswer: 'Porque es una tarea que detesta y no tenía intención de hacerla',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -83,6 +146,20 @@ Pero si alguien duda de la veracidad de lo que aquí decimos, no tiene más que 
         questionText: '¿Cómo son las "erres" que narran la historia?',
         options: ['Tímidas y silenciosas', 'Orgullosas de su importancia y juguetonas', 'Aburridas y serias', 'Enojadas con las otras letras'],
         correctAnswer: 'Orgullosas de su importancia y juguetonas',
+      },
+      {
+        id: 'cl-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: 'Además de orgullosas, ¿qué otra característica tienen las erres al final?',
+        options: ['Son egoístas', 'Son justas, ya que reconocen que las otras letras también son importantes', 'Son mentirosas', 'Son aburridas'],
+        correctAnswer: 'Son justas, ya que reconocen que las otras letras también son importantes',
+      },
+      {
+        id: 'cl-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cualidad demuestran las erres al dar tantos ejemplos?',
+        options: ['Son desordenadas', 'Son confusas', 'Son didácticas y claras', 'Son impacientes'],
+        correctAnswer: 'Son didácticas y claras',
       },
     ],
   },

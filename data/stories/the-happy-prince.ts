@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const theHappyPrince: Story = {
@@ -253,6 +254,13 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
           options: ['Llegó el Alcalde', 'El corazón de plomo de la estatua se partió en dos', 'Empezó a nevar', 'El príncipe lloró'],
           correctAnswer: 'El corazón de plomo de la estatua se partió en dos',
         },
+        {
+          id: 'hp-seq3',
+          category: QuestionCategory.SEQUENCING,
+          questionText: '¿Cuál fue la última buena acción que hizo la golondrina antes de morir?',
+          options: ['Le llevó el segundo zafiro a la vendedora de cerillos', 'Le llevó hojas de oro a los pobres', 'Le cantó una canción al Príncipe', 'Le besó los labios al Príncipe'],
+          correctAnswer: 'Le llevó hojas de oro a los pobres',
+        },
     ],
     [QuestionCategory.VOCABULARY]: [
         {
@@ -265,7 +273,7 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
         {
           id: 'hp-voc2',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'El Alcalde dice que el Príncipe se ve "desaliñado". ¿Qué significa "desaliñado"?',
+          questionText: 'El Alcalde dice que el Príncipe se ve "desaliñado". ¿qué significa "desaliñado"?',
           options: ['Triste y solitario', 'Muy brillante', 'Desarreglado, falto de aliño y compostura', 'Muy alto'],
           correctAnswer: 'Desarreglado, falto de aliño y compostura',
         },
@@ -282,8 +290,8 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
           id: 'hp-main1',
           category: QuestionCategory.MAIN_IDEA,
           questionText: '¿Cuál es la lección principal de la historia?',
-          options: ['No se debe construir estatuas de oro', 'Las golondrinas deben migrar en otoño', 'La verdadera felicidad se encuentra en la compasión y en ayudar a los demás', 'El oro no puede comprar la felicidad'],
-          correctAnswer: 'La verdadera felicidad se encuentra en la compasión y en ayudar a los demás',
+          options: ['No se debe construir estatuas de oro', 'Las golondrinas deben migrar en otoño', 'La verdadera belleza se encuentra en la compasión y en ayudar a los demás', 'El oro no puede comprar la felicidad'],
+          correctAnswer: 'La verdadera belleza se encuentra en la compasión y en ayudar a los demás',
         },
         {
           id: 'hp-main2',
@@ -291,6 +299,13 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
           questionText: '¿Por qué el Príncipe Feliz lloraba a pesar de estar en una alta columna y cubierto de oro?',
           options: ['Porque extrañaba su vida en el palacio', 'Porque desde su altura podía ver toda la miseria y el sufrimiento de la gente de su ciudad', 'Porque estaba solo', 'Porque le dolía el corazón de plomo'],
           correctAnswer: 'Porque desde su altura podía ver toda la miseria y el sufrimiento de la gente de su ciudad',
+        },
+        {
+          id: 'hp-main3',
+          category: QuestionCategory.MAIN_IDEA,
+          questionText: '¿Cuál es el papel del Alcalde y los concejales en la historia?',
+          options: ['Representan la ayuda y la bondad', 'Muestran la indiferencia y la superficialidad de la sociedad', 'Son los que ayudan a la golondrina', 'Cuidan la estatua del Príncipe'],
+          correctAnswer: 'Muestran la indiferencia y la superficialidad de la sociedad',
         },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -307,6 +322,13 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
           questionText: '¿Por qué el corazón de plomo del Príncipe no se derritió en el horno?',
           options: ['Porque el horno no estaba lo suficientemente caliente', 'Porque el plomo es un metal muy resistente', 'Simbólicamente, porque su corazón, lleno de amor y compasión, era lo único real y no podía ser destruido', 'Porque los trabajadores no lo vieron'],
           correctAnswer: 'Simbólicamente, porque su corazón, lleno de amor y compasión, era lo único real y no podía ser destruido',
+        },
+        {
+          id: 'hp-inf3',
+          category: QuestionCategory.INFERENCE,
+          questionText: '¿Por qué Dios consideró el corazón de plomo y el pajarillo muerto las dos cosas más preciosas de la ciudad?',
+          options: ['Porque eran de oro y plomo', 'Porque eran los únicos objetos que quedaban de la estatua', 'Porque representaban el amor desinteresado, el sacrificio y la compasión', 'Porque el ángel no encontró nada más'],
+          correctAnswer: 'Porque representaban el amor desinteresado, el sacrificio y la compasión',
         },
     ],
     [QuestionCategory.CHARACTER]: [

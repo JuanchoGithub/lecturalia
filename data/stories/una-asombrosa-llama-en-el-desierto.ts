@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const unaAsombrosaLlamaEnElDesierto: Story = {
@@ -44,6 +45,13 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         options: ['Un árbol', 'Un río', 'Una llama de amor', 'Una flor'],
         correctAnswer: 'Una llama de amor',
       },
+      {
+        id: 'alld-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: 'Según el texto, ¿qué cosa hacían Ayelén y Martín de la misma manera a pesar de no conocerse?',
+        options: ['Hablar', 'Cantar', 'Reír', 'Llorar'],
+        correctAnswer: 'Reír',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -52,6 +60,20 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         questionText: '¿Qué sucede justo después de que la llama de amor se agiganta?',
         options: ['Se apaga', 'Se transforma en un pájaro de increíbles alas', 'Calienta a Martín y Ayelén', 'Se convierte en un sol'],
         correctAnswer: 'Se transforma en un pájaro de increíbles alas',
+      },
+      {
+        id: 'alld-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hace el pájaro que nace de la llama?',
+        options: ['Vuela muy lejos', 'Canta una canción', 'Riega la tierra con una lluvia de pequeñas llamas', 'Construye un nido'],
+        correctAnswer: 'Riega la tierra con una lluvia de pequeñas llamas',
+      },
+      {
+        id: 'alld-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasa al final con las armas?',
+        options: ['Disparan más fuerte', 'Se derriten con el calor', 'Se tragan el fuego que nunca dio calor', 'Se convierten en flores'],
+        correctAnswer: 'Se tragan el fuego que nunca dio calor',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -62,6 +84,20 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         options: ['Un poco', 'Lentamente', 'De forma exagerada o excesiva', 'De forma ordenada'],
         correctAnswer: 'De forma exagerada o excesiva',
       },
+      {
+        id: 'alld-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La llama produce un intenso calor que se "propaga". ¿Qué significa "propagar"?',
+        options: ['Desaparecer', 'Concentrarse en un solo punto', 'Extenderse o difundirse a muchos lugares', 'Enfriarse'],
+        correctAnswer: 'Extenderse o difundirse a muchos lugares',
+      },
+      {
+        id: 'alld-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El frío abría una "sombría" herida helada. ¿Qué significa "sombría"?',
+        options: ['Alegre y luminosa', 'Pequeña', 'Triste, oscura y melancólica', 'Caliente'],
+        correctAnswer: 'Triste, oscura y melancólica',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -70,6 +106,20 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         questionText: '¿Cuál es el mensaje principal de la historia?',
         options: ['Que diferentes culturas tienen diferentes palabras para las mismas cosas', 'Que el amor es una fuerza poderosa capaz de superar el frío de la guerra y la indiferencia', 'Que los desiertos son lugares muy fríos', 'Que los pájaros pueden crear fuego'],
         correctAnswer: 'Que el amor es una fuerza poderosa capaz de superar el frío de la guerra y la indiferencia',
+      },
+      {
+        id: 'alld-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué problema común enfrentaban todas las personas en la historia?',
+        options: ['El hambre', 'Un frío intenso que lo congelaba todo', 'La falta de agua', 'Una enfermedad'],
+        correctAnswer: 'Un frío intenso que lo congelaba todo',
+      },
+      {
+        id: 'alld-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué efecto tienen las pequeñas llamas que caen del pájaro sobre el mundo?',
+        options: ['Queman los árboles', 'Asustan a la gente', 'Derriten el hielo, calientan los corazones y traen alegría', 'No tienen ningún efecto'],
+        correctAnswer: 'Derriten el hielo, calientan los corazones y traen alegría',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -80,6 +130,20 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         options: ['La nieve que caía', 'El metal de las armas', 'La muerte, la soledad y el sufrimiento causados por la guerra', 'El miedo de los soldados'],
         correctAnswer: 'La muerte, la soledad y el sufrimiento causados por la guerra',
       },
+      {
+        id: 'alld-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el autor menciona las diferentes palabras que usan Ayelén y Martín?',
+        options: ['Para enseñar otro idioma', 'Para mostrar que a pesar de sus diferencias culturales, pueden compartir sentimientos universales como el amor y el frío', 'Porque no se decidía por una palabra', 'Para confundir al lector'],
+        correctAnswer: 'Para mostrar que a pesar de sus diferencias culturales, pueden compartir sentimientos universales como el amor y el frío',
+      },
+      {
+        id: 'alld-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué simboliza el encuentro de Ayelén y Martín en medio de un contexto de pelea y frío?',
+        options: ['Una casualidad sin importancia', 'El inicio de una nueva guerra', 'La esperanza y la posibilidad de que el amor y la unión son más fuertes que el conflicto', 'Un momento de debilidad'],
+        correctAnswer: 'La esperanza y la posibilidad de que el amor y la unión son más fuertes que el conflicto',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -88,6 +152,20 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
         questionText: '¿Qué sentimiento une a Ayelén y Martín a pesar de sus diferencias?',
         options: ['El miedo a la guerra', 'El amor que surge entre ellos', 'El odio hacia sus enemigos', 'La tristeza por el frío'],
         correctAnswer: 'El amor que surge entre ellos',
+      },
+      {
+        id: 'alld-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo era Martín antes de ser enviado a pelear?',
+        options: ['Era una persona agresiva que le gustaba pelear', 'No estaba seguro de querer pelear contra gente que no conocía', 'Era un soldado experimentado', 'Odiaba a sus enemigos'],
+        correctAnswer: 'No estaba seguro de querer pelear contra gente que no conocía',
+      },
+      {
+        id: 'alld-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cualidad común tienen Ayelén y Martín que se menciona al principio?',
+        options: ['Ambos tienen el pelo oscuro', 'Ambos ríen de la misma manera', 'A los dos les gusta la nieve', 'Viven en la misma ciudad'],
+        correctAnswer: 'Ambos ríen de la misma manera',
       },
     ],
   },

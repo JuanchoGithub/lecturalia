@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const caballito: Story = {
@@ -41,6 +42,13 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         options: ['Porque había muchos caballos en la zona', 'Porque los chicos que conocían al caballo de la calesita lo saludaban diciendo "Hola, caballito"', 'Porque el primer habitante se apellidaba Caballito', 'Porque tenía forma de caballo'],
         correctAnswer: 'Porque los chicos que conocían al caballo de la calesita lo saludaban diciendo "Hola, caballito"',
       },
+      {
+        id: 'cab-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué pregunta le hace Maxi a su mamá al final del cuento?',
+        options: ['Si el cuento es de verdad', 'Si pueden ir a la calesita', 'Qué es una "chaca"', 'Si le cuenta otro cuento'],
+        correctAnswer: 'Qué es una "chaca"',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -49,6 +57,20 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         questionText: '¿Qué hizo el caballo justo después de convertirse en uno de verdad?',
         options: ['Se fue a dormir', 'Volvió a subirse a la calesita', 'Esperó a que llegara la noche y se fue a recorrer el campo', 'Saludó a los otros juguetes'],
         correctAnswer: 'Esperó a que llegara la noche y se fue a recorrer el campo',
+      },
+      {
+        id: 'cab-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué vio el caballo después de mirar más allá del parque y las calles empedradas?',
+        options: ['Otro parque con una calesita', 'El mar', 'Grandes extensiones de campo abierto y ranchos', 'Muchos edificios altos'],
+        correctAnswer: 'Grandes extensiones de campo abierto y ranchos',
+      },
+      {
+        id: 'cab-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasó antes de que la mamá le contara la historia a Maxi?',
+        options: ['Maxi se durmió', 'Maxi le preguntó por qué su barrio se llamaba Caballito', 'La mamá le leyó un libro', 'Fueron al Parque Rivadavia'],
+        correctAnswer: 'Maxi le preguntó por qué su barrio se llamaba Caballito',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -59,6 +81,20 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         options: ['Cubiertos por pasto', 'Que tenían pasto en los costados', 'Lejos del pasto', 'Hechos de pasto'],
         correctAnswer: 'Que tenían pasto en los costados',
       },
+      {
+        id: 'cab-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El cuento habla de "calles empedradas". ¿Qué significa "empedradas"?',
+        options: ['Calles de tierra', 'Calles cubiertas de piedras para pavimentarlas', 'Calles con muchos árboles', 'Calles muy anchas'],
+        correctAnswer: 'Calles cubiertas de piedras para pavimentarlas',
+      },
+      {
+        id: 'cab-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'En el campo había "ranchos con chimeneas". ¿Qué es un rancho?',
+        options: ['Un edificio muy alto', 'Una casa de campo humilde', 'Un palacio', 'Una carpa'],
+        correctAnswer: 'Una casa de campo humilde',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -67,6 +103,20 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         questionText: '¿Cuál es la idea principal de la historia que cuenta la mamá?',
         options: ['Una explicación fantástica sobre el origen del nombre del barrio Caballito.', 'La vida de un niño llamado Maxi.', 'Cómo funcionan las calesitas.', 'La importancia de los parques.'],
         correctAnswer: 'Una explicación fantástica sobre el origen del nombre del barrio Caballito.',
+      },
+      {
+        id: 'cab-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué motivó al caballito a bajarse de la calesita?',
+        options: ['El aburrimiento de dar siempre la misma vuelta y el deseo de conocer lugares nuevos.', 'Tenía hambre.', 'Los otros juguetes lo molestaban.', 'La calesita se rompió.'],
+        correctAnswer: 'El aburrimiento de dar siempre la misma vuelta y el deseo de conocer lugares nuevos.',
+      },
+      {
+        id: 'cab-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué la mamá le cuenta esta historia a Maxi?',
+        options: ['Porque es una historia real y documentada.', 'Para responder a su pregunta de una manera creativa y entretenida.', 'Para que Maxi se duerma rápido.', 'Porque es el único cuento que se sabe.'],
+        correctAnswer: 'Para responder a su pregunta de una manera creativa y entretenida.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -77,6 +127,20 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         options: ['Porque un mago lo hechizó', 'Porque se cayó de la calesita', 'Porque su deseo de conocer otros lugares fue muy grande', 'Porque ya estaba muy viejo'],
         correctAnswer: 'Porque su deseo de conocer otros lugares fue muy grande',
       },
+      {
+        id: 'cab-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué demuestra la pregunta final de Maxi sobre "Chacarita"?',
+        options: ['Que no entendió el cuento.', 'Que tiene mucha imaginación y aplicó la misma lógica a otro barrio.', 'Que está enojado con su mamá.', 'Que quiere visitar otro barrio.'],
+        correctAnswer: 'Que tiene mucha imaginación y aplicó la misma lógica a otro barrio.',
+      },
+      {
+        id: 'cab-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿La mamá cree que la historia que contó es cierta?',
+        options: ['Sí, está completamente segura.', 'No, ella misma dice "no sé si es cierta" y que le gusta inventar cuentos.', 'No está segura, pero sospecha que sí.', 'Sí, porque se la contó su abuela.'],
+        correctAnswer: 'No, ella misma dice "no sé si es cierta" y que le gusta inventar cuentos.',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -85,6 +149,20 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         questionText: '¿Cómo es el caballito de la historia?',
         options: ['Perezoso y aburrido', 'Aventurero y curioso', 'Miedoso y tímido', 'Gruñón y solitario'],
         correctAnswer: 'Aventurero y curioso',
+      },
+      {
+        id: 'cab-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué dos palabras describen a la mamá de Maxi?',
+        options: ['Seria y estricta', 'Ocupada y distraída', 'Creativa y cariñosa', 'Sabia y científica'],
+        correctAnswer: 'Creativa y cariñosa',
+      },
+      {
+        id: 'cab-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo es Maxi?',
+        options: ['No le gusta aprender', 'Es un niño que no tiene imaginación', 'Es curioso e imaginativo', 'Es tímido y no hace preguntas'],
+        correctAnswer: 'Es curioso e imaginativo',
       },
     ],
   },

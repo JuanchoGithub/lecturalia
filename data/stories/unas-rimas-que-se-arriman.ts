@@ -66,6 +66,13 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         options: ['Lo atacó', 'Se escondió', 'Lo saludó con una sonrisa y le dijo una rima graciosa', 'Le preguntó qué le pasaba'],
         correctAnswer: 'Lo saludó con una sonrisa y le dijo una rima graciosa',
       },
+      {
+        id: 'urqsa-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué animal fue el último en la cadena de peleas antes de que llegara el mono?',
+        options: ['El cuis', 'El zorro', 'El perro', 'La rana'],
+        correctAnswer: 'La rana',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -73,6 +80,20 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         category: QuestionCategory.SEQUENCING,
         questionText: 'En la cadena de peleas, ¿quién atacó al ratón?',
         options: ['El perro', 'La liebre', 'El cuis', 'El zorro'],
+        correctAnswer: 'La liebre',
+      },
+      {
+        id: 'urqsa-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hicieron todos los animales después de que el zorro empezara a reír a carcajadas?',
+        options: ['Se enojaron con él', 'Se acercaron atraídos por el sonido de la risa', 'Siguieron peleando', 'Se fueron a dormir'],
+        correctAnswer: 'Se acercaron atraídos por el sonido de la risa',
+      },
+      {
+        id: 'urqsa-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: 'En la cadena de mal humor, ¿qué animal es atacado después del perro?',
+        options: ['El zorro', 'El ratón', 'La liebre', 'El cuis'],
         correctAnswer: 'La liebre',
       },
     ],
@@ -84,6 +105,20 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         options: ['Muy contenta', 'Muy cansada', 'Muy enojada o furiosa', 'Muy asustada'],
         correctAnswer: 'Muy enojada o furiosa',
       },
+      {
+        id: 'urqsa-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El mono le iba a dar al zorro un "mamporro". ¿Qué es un mamporro?',
+        options: ['Un abrazo', 'Un regalo', 'Un golpe o porrazo', 'Una rima'],
+        correctAnswer: 'Un golpe o porrazo',
+      },
+      {
+        id: 'urqsa-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El zorro tenía la expresión "desencajada" de tanto reír. ¿Qué significa "desencajada"?',
+        options: ['Muy seria', 'Triste', 'Fuera de su sitio o posición normal, descompuesta', 'Muy pálida'],
+        correctAnswer: 'Fuera de su sitio o posición normal, descompuesta',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -92,6 +127,20 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         questionText: '¿Cuál es el mensaje principal de la historia?',
         options: ['El mal humor es contagioso, pero la risa y la alegría lo son aún más y pueden romper el ciclo de enojo.', 'Los animales del bosque siempre pelean.', 'Los monos son más graciosos que los zorros.', 'Es malo levantarse de mal humor.'],
         correctAnswer: 'El mal humor es contagioso, pero la risa y la alegría lo son aún más y pueden romper el ciclo de enojo.',
+      },
+      {
+        id: 'urqsa-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo se transmite el mal humor entre los animales?',
+        options: ['A través de un virus', 'Cada animal que es atacado, ataca al siguiente que encuentra', 'Hablando mal de los otros', 'El mono los contagia a todos'],
+        correctAnswer: 'Cada animal que es atacado, ataca al siguiente que encuentra',
+      },
+      {
+        id: 'urqsa-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo logra el mono cambiar el ambiente de enojo?',
+        options: ['Peleando y ganándole a todos', 'Contando rimas graciosas y sin sentido que provocan la risa', 'Llamando a un guardabosques', 'Dándoles comida a todos'],
+        correctAnswer: 'Contando rimas graciosas y sin sentido que provocan la risa',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -102,6 +151,20 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         options: ['Porque eran enemigos naturales.', 'Porque estaban jugando a pelear.', 'Porque cada uno descargaba el enojo que sentía con el siguiente que encontraba.', 'Porque competían por la comida.'],
         correctAnswer: 'Porque cada uno descargaba el enojo que sentía con el siguiente que encontraba.',
       },
+      {
+        id: 'urqsa-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el zorro se sintió "paralizado por un gran desconcierto" al ver la sonrisa del mono?',
+        options: ['Porque el mono tenía dientes muy grandes', 'Porque hacía mucho tiempo que solo veía enojo y peleas, y una sonrisa era algo inesperado', 'Porque pensó que el mono se burlaba de él', 'Porque el mono era de un color extraño'],
+        correctAnswer: 'Porque hacía mucho tiempo que solo veía enojo y peleas, y una sonrisa era algo inesperado',
+      },
+      {
+        id: 'urqsa-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué al final a los animales "no les quedó lugar para volver a imaginar una pelea"?',
+        options: ['Porque estaban demasiado cansados', 'Porque estaban ocupados divirtiéndose, riendo e inventando rimas', 'Porque el mono se los prohibió', 'Porque se hicieron de noche'],
+        correctAnswer: 'Porque estaban ocupados divirtiéndose, riendo e inventando rimas',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -110,6 +173,20 @@ Una noche sopló una brisa que venía de las estrellas, y el mono desapareció s
         questionText: '¿Cómo es el mono de la historia?',
         options: ['Gruñón y peleador', 'Alegre, ingenioso y pacificador', 'Tímido y miedoso', 'Serio y aburrido'],
         correctAnswer: 'Alegre, ingenioso y pacificador',
+      },
+      {
+        id: 'urqsa-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué actitud tenían todos los animales antes de la llegada del mono?',
+        options: ['Eran amigables y tranquilos', 'Eran agresivos y estaban siempre listos para pelear', 'Estaban tristes y dormían todo el día', 'Estaban organizando una fiesta'],
+        correctAnswer: 'Eran agresivos y estaban siempre listos para pelear',
+      },
+      {
+        id: 'urqsa-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué representa la desaparición del mono "sin dejar huellas"?',
+        options: ['Que se fue enojado', 'Que su misión pacificadora había terminado y quizás era un ser mágico', 'Que los otros animales lo echaron', 'Que se perdió en el bosque'],
+        correctAnswer: 'Que su misión pacificadora había terminado y quizás era un ser mágico',
       },
     ],
   },

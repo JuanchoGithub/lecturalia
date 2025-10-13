@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const bisaVuela: Story = {
@@ -83,6 +84,13 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
         options: ['Su pueblo y sus bisnietos', 'El mar y la playa', 'La ciudad de Nueva York, pirámides y una carroza de mariposas', 'Nubes y pájaros'],
         correctAnswer: 'La ciudad de Nueva York, pirámides y una carroza de mariposas',
       },
+      {
+        id: 'bisa-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasó inmediatamente después de que Bisa aterrizara en el pueblo extraño?',
+        options: ['Pachimú empezó a cantar', 'Bisa se quitó las gafas', 'Los niños del lugar se acercaron a recibirla con cariño', 'El avión se quedó sin combustible'],
+        correctAnswer: 'Los niños del lugar se acercaron a recibirla con cariño',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -99,6 +107,13 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
         options: ['Recién pintado', 'Cubierto de óxido', 'Listo para volar', 'Lleno de flores'],
         correctAnswer: 'Cubierto de óxido',
       },
+      {
+        id: 'bisa-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Bisa se "encasquetó" la gorra. ¿Qué significa "encasquetar"?',
+        options: ['Quitarse algo de la cabeza', 'Ponerse algo en la cabeza, ajustándolo bien', 'Lavar algo', 'Planchar algo'],
+        correctAnswer: 'Ponerse algo en la cabeza, ajustándolo bien',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -107,6 +122,20 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
         questionText: '¿Cuál es la idea principal de esta historia?',
         options: ['La importancia de aprender otros idiomas', 'La amistad entre una anciana y los niños, y cómo la imaginación permite vivir grandes aventuras', 'Cómo arreglar un avión viejo', 'La vida de los grillos traductores'],
         correctAnswer: 'La amistad entre una anciana y los niños, y cómo la imaginación permite vivir grandes aventuras',
+      },
+      {
+        id: 'bisa-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué representan las antiparras mágicas en el cuento?',
+        options: ['Un simple trofeo viejo', 'La capacidad de ver el mundo de una manera fantástica y maravillosa', 'Un problema de visión', 'Un regalo sin importancia'],
+        correctAnswer: 'La capacidad de ver el mundo de una manera fantástica y maravillosa',
+      },
+      {
+        id: 'bisa-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué Bisa sigue viajando de pueblo en pueblo al final del cuento?',
+        options: ['Porque no encuentra su casa', 'Porque le gusta conocer nuevos niños y tener nuevas aventuras', 'Porque su avión no puede detenerse', 'Porque Pachimú se lo pide'],
+        correctAnswer: 'Porque le gusta conocer nuevos niños y tener nuevas aventuras',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -124,6 +153,13 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
         options: ['Porque Pachimú sabía todos los idiomas', 'Porque los niños entendían el lenguaje de los animales', 'Porque, como dice el cuento, "los grillos cantan en un idioma universal"', 'Porque les hizo señas'],
         correctAnswer: 'Porque, como dice el cuento, "los grillos cantan en un idioma universal"',
       },
+      {
+        id: 'bisa-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué nos enseña el cuento sobre la vejez?',
+        options: ['Que los ancianos ya no pueden divertirse', 'Que la edad no es un impedimento para tener espíritu aventurero y hacer amigos', 'Que los ancianos deben vivir solos', 'Que es difícil aprender cosas nuevas cuando se es mayor'],
+        correctAnswer: 'Que la edad no es un impedimento para tener espíritu aventurero y hacer amigos',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -139,6 +175,13 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
         questionText: '¿Cómo son los niños de la historia?',
         options: ['Egoístas y traviesos', 'Cariñosos, colaboradores y aventureros', 'Tímidos y estudiosos', 'Aburridos y sin imaginación'],
         correctAnswer: 'Cariñosos, colaboradores y aventureros',
+      },
+      {
+        id: 'bisa-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué papel juega Pachimú en la historia?',
+        options: ['Es solo una mascota', 'Es el piloto del avión', 'Es un compañero leal y un ayudante importante que facilita la comunicación', 'Es el villano del cuento'],
+        correctAnswer: 'Es un compañero leal y un ayudante importante que facilita la comunicación',
       },
     ],
   },

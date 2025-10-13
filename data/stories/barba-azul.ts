@@ -90,6 +90,13 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
         options: ['Un tesoro escondido', 'Montones de oro y joyas', 'Los cuerpos de las esposas anteriores de Barba Azul', 'Un pasadizo secreto'],
         correctAnswer: 'Los cuerpos de las esposas anteriores de Barba Azul',
       },
+      {
+        id: 'bb-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Cómo supo Barba Azul que su esposa había entrado al gabinete prohibido?',
+        options: ['Porque la vio una sirvienta', 'Porque encontró la puerta abierta', 'Porque la llave mágica estaba manchada de sangre', 'Porque ella se lo confesó'],
+        correctAnswer: 'Porque la llave mágica estaba manchada de sangre',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -98,6 +105,20 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
         questionText: '¿Qué hizo Barba Azul justo después de entregarle las llaves a su esposa?',
         options: ['La encerró en la casa', 'Se fue de viaje por un negocio importante', 'Le mostró sus riquezas', 'Organizó una gran fiesta'],
         correctAnswer: 'Se fue de viaje por un negocio importante',
+      },
+      {
+        id: 'bb-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo la esposa INMEDIATAMENTE después de descubrir los cuerpos en el gabinete?',
+        options: ['Salió corriendo del castillo', 'Creyó morir de miedo y se le cayó la llave', 'Llamó a su hermana Ana', 'Limpió la sangre del piso'],
+        correctAnswer: 'Creyó morir de miedo y se le cayó la llave',
+      },
+      {
+        id: 'bb-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Quiénes llegaron justo a tiempo para salvar a la esposa de Barba Azul?',
+        options: ['Los guardias del rey', 'Sus hermanos', 'Sus padres', 'Las vecinas'],
+        correctAnswer: 'Sus hermanos',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -108,14 +129,42 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
         options: ['Un tipo de madera', 'Un cuero muy suave', 'Una tela de seda con dibujos en relieve', 'Un metal brillante'],
         correctAnswer: 'Una tela de seda con dibujos en relieve',
       },
+      {
+        id: 'bb-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La esposa bajó por una escalera "angosta". ¿Qué significa "angosta"?',
+        options: ['Ancha y espaciosa', 'Estrecha', 'Larga', 'Oscura'],
+        correctAnswer: 'Estrecha',
+      },
+      {
+        id: 'bb-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Barba Azul le dice a su esposa: "todo lo podéis esperar de mi cólera". ¿Qué es la "cólera"?',
+        options: ['Alegría', 'Tristeza', 'Gran enojo o ira', 'Indiferencia'],
+        correctAnswer: 'Gran enojo o ira',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'bb-main1',
         category: QuestionCategory.MAIN_IDEA,
         questionText: '¿Cuál es la lección principal de esta historia?',
-        options: ['No hay que casarse con hombres ricos', 'Los viajes de negocios son peligrosos', 'La curiosidad puede tener consecuencias terribles', 'Siempre hay que tener las llaves limpias'],
-        correctAnswer: 'La curiosidad puede tener consecuencias terribles',
+        options: ['No hay que casarse con hombres ricos', 'Los viajes de negocios son peligrosos', 'La curiosidad y la desobediencia pueden tener consecuencias terribles', 'Siempre hay que tener las llaves limpias'],
+        correctAnswer: 'La curiosidad y la desobediencia pueden tener consecuencias terribles',
+      },
+      {
+        id: 'bb-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué simboliza la llave mágica manchada de sangre?',
+        options: ['La riqueza de Barba Azul', 'Un secreto que no se puede ocultar', 'La torpeza de la esposa', 'La mala suerte'],
+        correctAnswer: 'Un secreto que no se puede ocultar',
+      },
+      {
+        id: 'bb-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el propósito del diálogo entre la esposa y su hermana Ana en la torre?',
+        options: ['Mostrar que las hermanas se quieren mucho', 'Describir el paisaje', 'Crear suspenso y darle tiempo a los hermanos para llegar', 'Demostrar que Ana tiene buena vista'],
+        correctAnswer: 'Crear suspenso y darle tiempo a los hermanos para llegar',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -133,6 +182,13 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
         options: ['Porque la esposa no la limpió bien', 'Porque la llave era mágica y estaba hecha para revelar la desobediencia', 'Porque no usó el jabón correcto', 'Porque la sangre estaba muy seca'],
         correctAnswer: 'Porque la llave era mágica y estaba hecha para revelar la desobediencia',
       },
+      {
+        id: 'bb-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué Barba Azul le dio a su esposa la llave del gabinete prohibido si no quería que entrara?',
+        options: ['Porque se equivocó de llave', 'Porque era una prueba para ver si ella era curiosa y desobediente', 'Porque quería que encontrara el tesoro', 'Porque no le importaba'],
+        correctAnswer: 'Porque era una prueba para ver si ella era curiosa y desobediente',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -148,6 +204,13 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
         questionText: '¿Cuál es el principal rasgo de carácter de la esposa de Barba Azul que la mete en problemas?',
         options: ['La pereza', 'La codicia', 'La curiosidad', 'La valentía'],
         correctAnswer: 'La curiosidad',
+      },
+      {
+        id: 'bb-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué papel juega la hermana Ana en la historia?',
+        options: ['Intenta detener a Barba Azul', 'Es la vigilante que anuncia la llegada de la ayuda', 'Ayuda a su hermana a limpiar la llave', 'Escapa del castillo para buscar ayuda'],
+        correctAnswer: 'Es la vigilante que anuncia la llegada de la ayuda',
       },
     ],
   },

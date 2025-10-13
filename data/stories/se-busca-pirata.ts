@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const seBuscaPirata: Story = {
@@ -73,6 +74,13 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         options: ['Un teléfono', 'Una computadora', 'Un diario', 'Un libro de historia'],
         correctAnswer: 'Un diario',
       },
+      {
+        id: 'sbp-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le dio Sebastián a Arnoldo para que pudiera volver al mar?',
+        options: ['Un mapa', 'Una brújula', 'Un bote de goma inflable', 'Un barco de madera'],
+        correctAnswer: 'Un bote de goma inflable',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -81,6 +89,20 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         questionText: '¿Qué hizo Sebastián justo después de que Arnoldo le dijera que necesitaba ganarse el sustento?',
         options: ['Le ofreció dinero', 'Le dio su bote', 'Fue a buscar un diario para buscar avisos de trabajo', 'Le trajo una caña de pescar'],
         correctAnswer: 'Fue a buscar un diario para buscar avisos de trabajo',
+      },
+      {
+        id: 'sbp-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué fue lo primero que hizo Sebastián al encontrar al pirata en la orilla?',
+        options: ['Salió corriendo asustado', 'Llamó a la policía', 'Corrió a buscarle agua y algo de comer', 'Le preguntó su nombre'],
+        correctAnswer: 'Corrió a buscarle agua y algo de comer',
+      },
+      {
+        id: 'sbp-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo Arnoldo después de explicar qué era un verdadero pirata y antes de que Sebastián le ofreciera una embarcación?',
+        options: ['Se enojó y se fue', 'Le pidió ayuda para volver a su mundo', 'Se puso a pescar', 'Le contó la historia de su naufragio'],
+        correctAnswer: 'Le pidió ayuda para volver a su mundo',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -91,6 +113,20 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         options: ['El respeto de los demás', 'Un lugar para dormir', 'Lo necesario para vivir, como la comida', 'Nuevas ropas de pirata'],
         correctAnswer: 'Lo necesario para vivir, como la comida',
       },
+      {
+        id: 'sbp-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Sebastián y Arnoldo intercambiaron "conjeturas". ¿Qué es una conjetura?',
+        options: ['Un regalo', 'Una verdad comprobada', 'Una suposición o una idea basada en datos incompletos', 'Una promesa'],
+        correctAnswer: 'Una suposición o una idea basada en datos incompletos',
+      },
+      {
+        id: 'sbp-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El tiempo se había "resquebrajado" para permitir que Arnoldo cruzara los siglos. ¿Qué significa "resquebrajado"?',
+        options: ['Detenido por completo', 'Acelerado', 'Agrietado o roto', 'Congelado'],
+        correctAnswer: 'Agrietado o roto',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -100,6 +136,20 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         options: ['Un pirata que no sabe leer', 'Un niño que le tiene miedo a los piratas', 'Un pirata de otra época que no encuentra su lugar en el mundo moderno', 'Un pirata que busca un tesoro perdido'],
         correctAnswer: 'Un pirata de otra época que no encuentra su lugar en el mundo moderno',
       },
+      {
+        id: 'sbp-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué diferencia encuentra Arnoldo entre el concepto de "pirata" de su época y el de la época de Sebastián?',
+        options: ['Que ahora usan barcos más modernos', 'Que en su época eran aventureros y en la de Sebastián son estafadores', 'Que ahora ya no usan parches en el ojo', 'Que en su época eran más ricos'],
+        correctAnswer: 'Que en su época eran aventureros y en la de Sebastián son estafadores',
+      },
+      {
+        id: 'sbp-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el propósito del encuentro entre Sebastián y Arnoldo?',
+        options: ['Mostrar que los piratas son peligrosos', 'Enseñar sobre la historia de la piratería', 'Contar una historia de amistad y ayuda entre dos personas de mundos muy diferentes', 'Demostrar que viajar en el tiempo es posible'],
+        correctAnswer: 'Contar una historia de amistad y ayuda entre dos personas de mundos muy diferentes',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -108,6 +158,20 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         questionText: '¿Por qué Arnoldo el Rojo se sintió indignado con los avisos de trabajo del diario?',
         options: ['Porque pagaban muy poco', 'Porque no entendía lo que decían', 'Porque el significado moderno de "pirata" era el de un estafador, y no el de un aventurero como él', 'Porque requerían saber leer'],
         correctAnswer: 'Porque el significado moderno de "pirata" era el de un estafador, y no el de un aventurero como él',
+      },
+      {
+        id: 'sbp-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué Sebastián supo inmediatamente que Arnoldo era un pirata?',
+        options: ['Porque se lo dijo Arnoldo', 'Porque había leído muchos libros de piratas y Arnoldo tenía parche, garfio y barba', 'Porque llevaba un tesoro', 'Porque hablaba de forma extraña'],
+        correctAnswer: 'Porque había leído muchos libros de piratas y Arnoldo tenía parche, garfio y barba',
+      },
+      {
+        id: 'sbp-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué significa que Arnoldo y Sebastián se quedaron "para siempre, como una presencia invisible, en el interior de cada uno"?',
+        options: ['Que se convirtieron en fantasmas', 'Que se volverían a encontrar pronto', 'Que el recuerdo y la amistad que formaron serían importantes para ambos por el resto de sus vidas', 'Que se olvidarían el uno del otro'],
+        correctAnswer: 'Que el recuerdo y la amistad que formaron serían importantes para ambos por el resto de sus vidas',
       },
     ],
     [QuestionCategory.CHARACTER]: [
@@ -124,6 +188,13 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
         questionText: '¿Cómo es Sebastián?',
         options: ['Miedoso y desconfiado', 'Amable, servicial e imaginativo', 'Egoísta y desinteresado', 'Burlón y travieso'],
         correctAnswer: 'Amable, servicial e imaginativo',
+      },
+      {
+        id: 'sbp-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué demuestra Sebastián al prometer que de grande será un pirata de planetas y estrellas?',
+        options: ['Que no entendió lo que dijo Arnoldo', 'Que comparte el espíritu aventurero de Arnoldo y lo adaptará a su propio mundo', 'Que le gustan las naves espaciales', 'Que no quiere ser como Arnoldo'],
+        correctAnswer: 'Que comparte el espíritu aventurero de Arnoldo y lo adaptará a su propio mundo',
       },
     ],
   },

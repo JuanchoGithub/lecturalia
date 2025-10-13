@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const laPlapla: Story = {
@@ -85,6 +86,13 @@ Qué le vamos a hacer, así es la vida. Las letras no han sido hechas para baila
           options: ['Todos los niños se pusieron a escribir Plaplas', 'La maestra castigó a Felipito', 'Nadie estudió y todos se dedicaron a mirar a la Plapla', 'La Plapla se escapó del cuaderno'],
           correctAnswer: 'Nadie estudió y todos se dedicaron a mirar a la Plapla',
         },
+        {
+          id: 'plapla-seq3',
+          category: QuestionCategory.SEQUENCING,
+          questionText: '¿Qué hizo Felipito después de hablar con la Plapla y escucharla cantar?',
+          options: ['La guardó en una caja', 'La borró con una goma', 'La dejó en el cuaderno y al día siguiente corrió a mostrársela a la maestra', 'Se olvidó de ella'],
+          correctAnswer: 'La dejó en el cuaderno y al día siguiente corrió a mostrársela a la maestra',
+        },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -101,6 +109,13 @@ Qué le vamos a hacer, así es la vida. Las letras no han sido hechas para baila
         options: ['Silencio', 'Aburrimiento', 'Agitación o alboroto', 'Alegría'],
         correctAnswer: 'Agitación o alboroto',
       },
+      {
+        id: 'plapla-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El cuento dice que hubo un gran "bochinche" en el colegio. ¿Qué es un "bochinche"?',
+        options: ['Un examen sorpresa', 'Una clase de música', 'Mucho ruido, desorden y alboroto', 'Un silencio absoluto'],
+        correctAnswer: 'Mucho ruido, desorden y alboroto',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -110,38 +125,66 @@ Qué le vamos a hacer, así es la vida. Las letras no han sido hechas para baila
         options: ['La importancia de hacer los deberes', 'El descubrimiento de algo mágico e inesperado en la vida cotidiana', 'Los diferentes tipos de letras', 'Cómo se comportan los niños en la escuela'],
         correctAnswer: 'El descubrimiento de algo mágico e inesperado en la vida cotidiana',
       },
+      {
+        id: 'plapla-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué se decide que la Plapla no figure en el abecedario?',
+        options: ['Porque era muy fea', 'Porque causaba desorden y distraía del estudio', 'Porque no sabía cantar bien', 'Porque era muy tímida'],
+        correctAnswer: 'Porque causaba desorden y distraía del estudio',
+      },
+      {
+        id: 'plapla-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué nos quiere decir la última frase del cuento: "Las letras no han sido hechas para bailar, sino para quedarse quietas una al lado de la otra, ¿no?"?',
+        options: ['Que las letras no deben moverse nunca', 'Que es una regla muy importante de la escritura', 'Es una pregunta irónica que critica la idea de que todo debe ser rígido y sin diversión', 'Que bailar es malo para las letras'],
+        correctAnswer: 'Es una pregunta irónica que critica la idea de que todo debe ser rígido y sin diversión',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
-      {
-        id: 'plapla-inf1',
-        category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que la Plapla ya no figura en el Abecedario?',
-        options: ['Porque era una letra muy difícil de escribir', 'Porque causaba mucha distracción y desorden en las escuelas', 'Porque a las maestras no les gustaba', 'Porque se fue a vivir a otro país'],
-        correctAnswer: 'Porque causaba mucha distracción y desorden en las escuelas',
-      },
-      {
-        id: 'plapla-inf2',
-        category: QuestionCategory.INFERENCE,
-        questionText: 'Al final, el cuento pregunta: "Las letras no han sido hechas para bailar... ¿no?". ¿Qué te parece que piensa la autora?',
-        options: ['Que las letras solo sirven para escribir', 'Que está de acuerdo con las maestras', 'Que quizás las letras sí podrían ser para bailar y jugar', 'Que las letras son aburridas'],
-        correctAnswer: 'Que quizás las letras sí podrían ser para bailar y jugar',
-      },
+        {
+            id: 'plapla-inf1',
+            category: QuestionCategory.INFERENCE,
+            questionText: '¿Por qué Felipito se puso tres pares de anteojos?',
+            options: ['Porque le gustaba cómo se veía', 'Porque no podía creer lo que estaba viendo y quería asegurarse', 'Porque sus anteojos no funcionaban bien', 'Porque era parte de un juego'],
+            correctAnswer: 'Porque no podía creer lo que estaba viendo y quería asegurarse',
+        },
+        {
+            id: 'plapla-inf2',
+            category: QuestionCategory.INFERENCE,
+            questionText: '¿Por qué la maestra guarda las Plaplas en una cajita en secreto?',
+            options: ['Porque las colecciona', 'Para evitar que se cause otro "bochinche" y los niños dejen de estudiar', 'Porque son valiosas', 'Para que no se escapen'],
+            correctAnswer: 'Para evitar que se cause otro "bochinche" y los niños dejen de estudiar',
+        },
+        {
+            id: 'plapla-inf3',
+            category: QuestionCategory.INFERENCE,
+            questionText: '¿Qué nos enseña esta historia sobre la imaginación y las reglas?',
+            options: ['Que siempre hay que seguir las reglas', 'Que la imaginación a veces choca con las reglas del mundo adulto', 'Que la escuela es un lugar aburrido', 'Que las letras no son importantes'],
+            correctAnswer: 'Que la imaginación a veces choca con las reglas del mundo adulto',
+        },
     ],
     [QuestionCategory.CHARACTER]: [
-      {
-        id: 'plapla-char1',
-        category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías a Felipito?',
-        options: ['Tímido y perezoso', 'Curioso y entusiasta', 'Gruñón y serio', 'Distraído y olvidadizo'],
-        correctAnswer: 'Curioso y entusiasta',
-      },
-      {
-        id: 'plapla-char2',
-        category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la personalidad de la Plapla?',
-        options: ['Tímida y callada', 'Enojada y antipática', 'Alegre, juguetona y un poco presumida', 'Triste y solitaria'],
-        correctAnswer: 'Alegre, juguetona y un poco presumida',
-      },
+        {
+            id: 'plapla-char1',
+            category: QuestionCategory.CHARACTER,
+            questionText: '¿Cómo es Felipito Tacatún?',
+            options: ['Es un niño que no le gusta hacer los deberes', 'Es un niño curioso y entusiasta', 'Es un niño miedoso que no habla', 'Es un niño que se porta mal en clase'],
+            correctAnswer: 'Es un niño curioso y entusiasta',
+        },
+        {
+            id: 'plapla-char2',
+            category: QuestionCategory.CHARACTER,
+            questionText: '¿Qué dos palabras describen mejor a la Plapla?',
+            options: ['Tímida y silenciosa', 'Enojada y gruñona', 'Alegre y juguetona', 'Triste y aburrida'],
+            correctAnswer: 'Alegre y juguetona',
+        },
+        {
+            id: 'plapla-char3',
+            category: QuestionCategory.CHARACTER,
+            questionText: '¿Cómo reacciona la maestra ante la Plapla?',
+            options: ['Se enoja y la borra', 'No le cree a Felipito', 'Primero se sorprende y luego decide controlarla para mantener el orden', 'Se pone a bailar con la Plapla'],
+            correctAnswer: 'Primero se sorprende y luego decide controlarla para mantener el orden',
+        },
     ],
   },
 };

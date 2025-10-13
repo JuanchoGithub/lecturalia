@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const sukimuki: Story = {
@@ -113,6 +114,13 @@ Así acaba, como ves, este cuento japonés.
         options: ['El Emperador lo declaró rey', 'El Príncipe le preguntó al Emperador si le permitía casarse con su hija', 'La princesa se escapó con el Príncipe', 'El Emperador llamó a más guardias'],
         correctAnswer: 'El Príncipe le preguntó al Emperador si le permitía casarse con su hija',
       },
+      {
+        id: 'suki-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo el Emperador al ver a la Mariposa sentada en su trono, antes de que se transformara?',
+        options: ['Se desmayó', 'La invitó a tomar el té', 'Agarró un matamoscas para aplastarla', 'Llamó a sus guardias'],
+        correctAnswer: 'Agarró un matamoscas para aplastarla',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -129,6 +137,13 @@ Así acaba, como ves, este cuento japonés.
         options: ['Muy colorida', 'Pequeña y débil', 'Atrevida y falta de respeto', 'Tímida y silenciosa'],
         correctAnswer: 'Atrevida y falta de respeto',
       },
+      {
+        id: 'suki-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La Princesa dice que si no se queda quieta, en el imperio habrá una "pataleta". ¿Qué es una pataleta?',
+        options: ['Una fiesta', 'Un gran enojo o berrinche', 'Una ley', 'Una canción'],
+        correctAnswer: 'Un gran enojo o berrinche',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -137,6 +152,20 @@ Así acaba, como ves, este cuento japonés.
         questionText: '¿Cuál es el mensaje principal de esta historia?',
         options: ['Las princesas deben obedecer siempre a sus padres', 'Es importante ser libre para jugar y divertirse, en lugar de seguir reglas aburridas', 'Las mariposas son mágicas', 'Los príncipes siempre ganan las peleas'],
         correctAnswer: 'Es importante ser libre para jugar y divertirse, en lugar de seguir reglas aburridas',
+      },
+      {
+        id: 'suki-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué la Princesa decide jugar con la mariposa?',
+        options: ['Porque su papá se lo permite', 'Porque está aburrida de no hacer nada y quiere divertirse', 'Porque la mariposa la obliga', 'Porque quiere enojar a su papá'],
+        correctAnswer: 'Porque está aburrida de no hacer nada y quiere divertirse',
+      },
+      {
+        id: 'suki-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo se resuelve el conflicto entre el Príncipe y el Emperador?',
+        options: ['Se hacen amigos', 'El Príncipe vence a los guardias y el Emperador, asustado, le permite casarse con su hija', 'El Emperador encierra al Príncipe', 'La Princesa los convence de no pelear'],
+        correctAnswer: 'El Príncipe vence a los guardias y el Emperador, asustado, le permite casarse con su hija',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -154,6 +183,13 @@ Así acaba, como ves, este cuento japonés.
         options: ['Porque se quedó sin voz de tanto gritar', 'Porque el Príncipe lo hechizó', 'Porque tenía miedo del Príncipe después de que venciera a todos', 'Porque se puso triste'],
         correctAnswer: 'Porque tenía miedo del Príncipe después de que venciera a todos',
       },
+      {
+        id: 'suki-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué representa la transformación de la Mariposa en Príncipe?',
+        options: ['Un truco de magia', 'Que la belleza y la libertad (mariposa) traen el amor y la aventura (príncipe)', 'Un error en el cuento', 'Que la mariposa era un príncipe disfrazado'],
+        correctAnswer: 'Que la belleza y la libertad (mariposa) traen el amor y la aventura (príncipe)',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -169,6 +205,13 @@ Así acaba, como ves, este cuento japonés.
         questionText: '¿Cómo es el Príncipe Kinoto Fukasuka?',
         options: ['Miedoso y débil', 'Valiente, decidido y simpático', 'Serio y aburrido', 'Cruel y antipático'],
         correctAnswer: 'Valiente, decidido y simpático',
+      },
+      {
+        id: 'suki-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo cambia la Princesa Sukimuki a lo largo de la historia?',
+        options: ['Se vuelve más obediente', 'Se cansa de jugar', 'Pasa de ser una niña pasiva y aburrida a ser alguien que toma sus propias decisiones y busca la felicidad', 'Se convierte en una guerrera'],
+        correctAnswer: 'Pasa de ser una niña pasiva y aburrida a ser alguien que toma sus propias decisiones y busca la felicidad',
       },
     ],
   },

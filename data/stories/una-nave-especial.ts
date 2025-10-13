@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const unaNaveEspecial: Story = {
@@ -68,6 +69,13 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         options: ['Una estrella fugaz', 'Un cometa', 'Una nave especial con forma de plato volador', 'Un avión muy grande'],
         correctAnswer: 'Una nave especial con forma de plato volador',
       },
+      {
+        id: 'ne-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué hicieron los animales al final de la historia?',
+        options: ['Se escondieron de los tripulantes', 'Lucharon contra los visitantes', 'Subieron a la nave y dieron una vuelta por el universo', 'Invitaron a los tripulantes a su fiesta'],
+        correctAnswer: 'Subieron a la nave y dieron una vuelta por el universo',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -76,6 +84,20 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         questionText: '¿Qué pasó justo cuando la nave aterrizó?',
         options: ['Los animales se escondieron', 'Sonaron doce campanadas y todos se saludaron por el nuevo milenio', 'Los tripulantes empezaron a hablar', 'Empezó a llover'],
         correctAnswer: 'Sonaron doce campanadas y todos se saludaron por el nuevo milenio',
+      },
+      {
+        id: 'ne-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hicieron los animales mientras la nave descendía?',
+        options: ['Se quedaron en silencio', 'Prepararon una fiesta de bienvenida', 'Cada uno dio su opinión sobre cómo serían los tripulantes', 'Construyeron un refugio'],
+        correctAnswer: 'Cada uno dio su opinión sobre cómo serían los tripulantes',
+      },
+      {
+        id: 'ne-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué sucedió inmediatamente después de que los tripulantes bajaran de la nave?',
+        options: ['Los animales se asustaron y huyeron', 'Los tripulantes invitaron a los animales a dar un paseo', 'Comenzó una gran fiesta', 'La nave despegó de nuevo'],
+        correctAnswer: 'Los tripulantes invitaron a los animales a dar un paseo',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -86,6 +108,20 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         options: ['Oscura y opaca', 'Que emite un brillo muy intenso', 'Muy larga', 'Que hace mucho ruido'],
         correctAnswer: 'Que emite un brillo muy intenso',
       },
+      {
+        id: 'ne-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Los animales se llenaron de "interrogantes". ¿Qué son los interrogantes?',
+        options: ['Alegría', 'Comida', 'Regalos', 'Preguntas o dudas'],
+        correctAnswer: 'Preguntas o dudas',
+      },
+      {
+        id: 'ne-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Muchos animales estaban "desconcertados". ¿Qué significa estar desconcertado?',
+        options: ['Muy contento', 'Muy cansado', 'Confundido o perplejo', 'Muy enojado'],
+        correctAnswer: 'Confundido o perplejo',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -94,6 +130,20 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         questionText: '¿Cuál es la idea principal de la historia?',
         options: ['Cómo los animales imaginan a los extraterrestres basándose en sí mismos y cómo la realidad es diferente y sorprendente.', 'Que los leones son fuertes y las serpientes inteligentes.', 'La importancia de celebrar el año nuevo.', 'Una descripción de diferentes tipos de animales.'],
         correctAnswer: 'Cómo los animales imaginan a los extraterrestres basándose en sí mismos y cómo la realidad es diferente y sorprendente.',
+      },
+      {
+        id: 'ne-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el descubrimiento más importante que hacen los animales al final?',
+        options: ['Que los extraterrestres son peligrosos', 'Que existen otros seres diferentes a ellos y que el universo es inmenso', 'Que su bosque es el mejor lugar del mundo', 'Que los platos voladores son rojos'],
+        correctAnswer: 'Que existen otros seres diferentes a ellos y que el universo es inmenso',
+      },
+      {
+        id: 'ne-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué mensaje nos deja la forma en que cada animal imagina a los visitantes?',
+        options: ['Que los animales no tienen imaginación', 'Que tendemos a pensar que lo desconocido es similar a lo que ya conocemos', 'Que todos los animales quieren ser leones', 'Que los extraterrestres no existen'],
+        correctAnswer: 'Que tendemos a pensar que lo desconocido es similar a lo que ya conocemos',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -104,6 +154,20 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         options: ['Porque todos eran muy egoístas', 'Porque solo conocían su propia forma de ser y pensaban que era la mejor', 'Porque un mago los hechizó', 'Porque no tenían imaginación'],
         correctAnswer: 'Porque solo conocían su propia forma de ser y pensaban que era la mejor',
       },
+      {
+        id: 'ne-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Cómo se sintieron los animales al descubrir que los tripulantes eran totalmente diferentes a lo que imaginaban?',
+        options: ['Decepcionados', 'Asustados', 'Sorprendidos y luego felices por la nueva experiencia', 'Enojados'],
+        correctAnswer: 'Sorprendidos y luego felices por la nueva experiencia',
+      },
+      {
+        id: 'ne-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué nos enseña el final de la historia sobre lo desconocido?',
+        options: ['Que hay que temerle a lo desconocido', 'Que lo desconocido es siempre peligroso', 'Que lo desconocido puede ser diferente, amistoso y maravilloso', 'Que es mejor no conocer cosas nuevas'],
+        correctAnswer: 'Que lo desconocido puede ser diferente, amistoso y maravilloso',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -112,6 +176,20 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
         questionText: '¿Cómo resultaron ser los tripulantes de la nave?',
         options: ['Peligrosos y agresivos', 'Iguales a los leones', 'Diferentes a todo lo que los animales imaginaban, pero amistosos', 'No hablaban el mismo idioma'],
         correctAnswer: 'Diferentes a todo lo que los animales imaginaban, pero amistosos',
+      },
+      {
+        id: 'ne-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cualidad comparten todos los animales del bosque?',
+        options: ['Son miedosos', 'Son curiosos y sociables', 'Son egoístas', 'Son silenciosos'],
+        correctAnswer: 'Son curiosos y sociables',
+      },
+      {
+        id: 'ne-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué actitud muestra el león al opinar sobre los tripulantes?',
+        options: ['Humildad', 'Miedo', 'Orgullo, al pensar que deben ser fuertes como él', 'Inteligencia'],
+        correctAnswer: 'Orgullo, al pensar que deben ser fuertes como él',
       },
     ],
   },

@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const elPatitoFeo: Story = {
@@ -150,6 +151,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         options: ['Un pajarraco gris y desmañado', 'Un pato más grande y fuerte', 'Un hermoso cisne blanco', 'No se reconoció a sí mismo'],
         correctAnswer: 'Un hermoso cisne blanco',
       },
+      {
+        id: 'p-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le dijeron los niños al ver al patito convertido en cisne?',
+        options: ['¡Qué feo eras antes!', '¡Ahora sí eres bonito!', '¡Ese nuevo es el más bonito de todos!', '¡Vete de aquí!'],
+        correctAnswer: '¡Ese nuevo es el más bonito de todos!',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -165,6 +173,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         questionText: 'Después de que el patito huyera de la casa de la anciana, ¿qué estación del año llegó?',
         options: ['La primavera', 'El verano', 'El otoño', 'El invierno'],
         correctAnswer: 'El otoño',
+      },
+      {
+        id: 'p-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué le pasó al patito durante la noche más fría del invierno?',
+        options: ['Encontró un refugio cálido', 'Un campesino lo rescató cuando estaba a punto de morir congelado', 'Los cisnes lo llevaron a un lugar cálido', 'Se escondió bajo la nieve'],
+        correctAnswer: 'Un campesino lo rescató cuando estaba a punto de morir congelado',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -182,6 +197,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         options: ['Enojado y agresivo', 'Tímido y avergonzado', 'Orgulloso y presumido', 'Aburrido e indiferente'],
         correctAnswer: 'Tímido y avergonzado',
       },
+      {
+        id: 'p-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Al final, el patito se alegró de haber pasado por tantas "tribulaciones". ¿Qué son las "tribulaciones"?',
+        options: ['Fiestas divertidas', 'Viajes largos', 'Penas, disgustos o preocupaciones', 'Comidas deliciosas'],
+        correctAnswer: 'Penas, disgustos o preocupaciones',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -197,6 +219,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         questionText: '¿Por qué el patito era infeliz la mayor parte del tiempo?',
         options: ['Porque no le gustaba el agua', 'Porque todos lo rechazaban y se burlaban de él por ser diferente y "feo"', 'Porque extrañaba a sus hermanos', 'Porque siempre tenía hambre'],
         correctAnswer: 'Porque todos lo rechazaban y se burlaban de él por ser diferente y "feo"',
+      },
+      {
+        id: 'p-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué significa la frase "Nada importaba haber nacido en un corral, si uno procedía de un huevo de cisne"?',
+        options: ['Que los corrales son malos lugares para nacer', 'Que lo importante no es dónde naces, sino quién eres realmente en tu interior', 'Que los cisnes son mejores que los patos', 'Que los huevos de cisne son especiales'],
+        correctAnswer: 'Que lo importante no es dónde naces, sino quién eres realmente en tu interior',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -214,6 +243,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         options: ['Porque quería pelear con ellos', 'Porque ya no le importaba vivir y prefería morir a manos de esas bellas criaturas que seguir sufriendo', 'Porque pensó que podría esconderse entre ellos', 'Porque los niños lo obligaron a ir'],
         correctAnswer: 'Porque ya no le importaba vivir y prefería morir a manos de esas bellas criaturas que seguir sufriendo',
       },
+      {
+        id: 'p-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el patito huyó de la casa del campesino?',
+        options: ['Porque no le gustaba la comida', 'Porque los niños querían jugar bruscamente con él y tuvo miedo', 'Porque extrañaba el pantano', 'Porque la campesina lo echó'],
+        correctAnswer: 'Porque los niños querían jugar bruscamente con él y tuvo miedo',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -229,6 +265,13 @@ El patito se sintió cohibido y escondió la cabeza bajo las alas. No sabía qu�
         questionText: '¿Cómo son la gallina y el gato de la casita con el patito?',
         options: ['Comprensivos y amables', 'Indiferentes y perezosos', 'Protectores y cariñosos', 'Arrogantes y críticos, porque no es como ellos'],
         correctAnswer: 'Arrogantes y críticos, porque no es como ellos',
+      },
+      {
+        id: 'p-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo se siente el patito feo al final de la historia?',
+        options: ['Orgulloso y arrogante por su nueva belleza', 'Muy feliz, pero sin orgullo, recordando su pasado', 'Triste por haber dejado a su familia', 'Enojado con los que lo maltrataron'],
+        correctAnswer: 'Muy feliz, pero sin orgullo, recordando su pasado',
       },
     ],
   },

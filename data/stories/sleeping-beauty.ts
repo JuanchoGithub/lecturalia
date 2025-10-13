@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const sleepingBeauty: Story = {
@@ -107,6 +108,13 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           options: ['Hizo que la princesa no se pinchara', 'Convirtió la muerte en un sueño de cien años', 'Escondió todos los husos del reino', 'Le dio un antídoto a la princesa'],
           correctAnswer: 'Convirtió la muerte en un sueño de cien años',
         },
+        {
+          id: 'sb-lit3',
+          category: QuestionCategory.LITERAL,
+          questionText: '¿Qué hizo el rey para intentar evitar la maldición después de que el hada buena la modificara?',
+          options: ['Encerró a la princesa en una torre', 'Prohibió hilar con huso en todo el reino bajo pena de muerte', 'Envió a la princesa a otro país', 'Hizo que todas las hadas protegieran a la princesa'],
+          correctAnswer: 'Prohibió hilar con huso en todo el reino bajo pena de muerte',
+        },
     ],
     [QuestionCategory.SEQUENCING]: [
         {
@@ -115,6 +123,20 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           questionText: '¿Qué hizo la hada buena justo después de que la princesa cayera dormida?',
           options: ['Se fue del castillo', 'Despertó a la princesa', 'Tocó con su varita a todos en el castillo para que durmieran también', 'Construyó un muro de espinas'],
           correctAnswer: 'Tocó con su varita a todos en el castillo para que durmieran también',
+        },
+        {
+          id: 'sb-seq2',
+          category: QuestionCategory.SEQUENCING,
+          questionText: '¿Qué pasó en el castillo justo en el momento en que la princesa se pinchó el dedo y cayó dormida?',
+          options: ['El rey y la reina empezaron a llorar', 'El hada buena llegó inmediatamente', 'Todo el castillo, incluyendo personas y animales, se durmió también', 'El príncipe llegó al castillo'],
+          correctAnswer: 'Todo el castillo, incluyendo personas y animales, se durmió también',
+        },
+        {
+          id: 'sb-seq3',
+          category: QuestionCategory.SEQUENCING,
+          questionText: 'Después de que el príncipe despertó a la princesa, ¿qué fue lo primero que hicieron?',
+          options: ['Salieron a pasear por el bosque', 'Se casaron en la capilla del castillo', 'Comieron porque todos tenían hambre', 'Huyeron del castillo'],
+          correctAnswer: 'Se casaron en la capilla del castillo',
         },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -125,6 +147,20 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           options: ['Un poema', 'Una carta personal', 'Una ley o decreto publicado por una autoridad', 'Un cuento'],
           correctAnswer: 'Una ley o decreto publicado por una autoridad',
         },
+        {
+          id: 'sb-voc2',
+          category: QuestionCategory.VOCABULARY,
+          questionText: 'La princesa cayó en un "prolongado letargo". ¿Qué es un "letargo"?',
+          options: ['Un sueño muy corto', 'Un estado de sueño profundo y prolongado', 'Una enfermedad', 'Una fiesta'],
+          correctAnswer: 'Un estado de sueño profundo y prolongado',
+        },
+        {
+          id: 'sb-voc3',
+          category: QuestionCategory.VOCABULARY,
+          questionText: 'El príncipe se sintió "enardecido" al escuchar la historia. ¿Qué significa "enardecido"?',
+          options: ['Asustado', 'Confundido', 'Entusiasmado o excitado', 'Cansado'],
+          correctAnswer: 'Entusiasmado o excitado',
+        },
     ],
     [QuestionCategory.MAIN_IDEA]: [
         {
@@ -133,6 +169,20 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           questionText: '¿Cuál es el conflicto principal en la segunda parte de la historia, después de que la princesa despierta?',
           options: ['El príncipe debe encontrar un nuevo castillo', 'La madre del príncipe, que es una ogresa, quiere comerse a la reina y a sus hijos', 'La princesa y el príncipe no se aman', 'El reino está en guerra'],
           correctAnswer: 'La madre del príncipe, que es una ogresa, quiere comerse a la reina y a sus hijos',
+        },
+        {
+          id: 'sb-main2',
+          category: QuestionCategory.MAIN_IDEA,
+          questionText: '¿Cuál es la idea principal de la primera parte de la historia (antes del despertar)?',
+          options: ['Que no se debe invitar a hadas a las fiestas', 'El destino es inevitable, a pesar de los esfuerzos por cambiarlo', 'Que los reyes son muy protectores', 'Que los husos son peligrosos'],
+          correctAnswer: 'El destino es inevitable, a pesar de los esfuerzos por cambiarlo',
+        },
+        {
+          id: 'sb-main3',
+          category: QuestionCategory.MAIN_IDEA,
+          questionText: '¿Por qué la madre del príncipe es un personaje importante en la segunda parte?',
+          options: ['Porque ayuda a la princesa a gobernar', 'Porque representa un nuevo peligro para la princesa y sus hijos', 'Porque celebra la boda', 'Porque se hace amiga de la princesa'],
+          correctAnswer: 'Porque representa un nuevo peligro para la princesa y sus hijos',
         },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -143,6 +193,20 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           options: ['Porque no le gustó la comida', 'Porque se sintió despreciada al no recibir un estuche de oro como las demás hadas', 'Porque no quería a la princesa', 'Porque llegó tarde a la fiesta'],
           correctAnswer: 'Porque se sintió despreciada al no recibir un estuche de oro como las demás hadas',
         },
+        {
+          id: 'sb-inf2',
+          category: QuestionCategory.INFERENCE,
+          questionText: '¿Por qué el príncipe no le contó a su madre ogresa sobre su matrimonio con la princesa?',
+          options: ['Porque quería que fuera una sorpresa', 'Porque le tenía miedo y sospechaba de sus inclinaciones de ogro', 'Porque se le olvidó', 'Porque la princesa se lo prohibió'],
+          correctAnswer: 'Porque le tenía miedo y sospechaba de sus inclinaciones de ogro',
+        },
+        {
+          id: 'sb-inf3',
+          category: QuestionCategory.INFERENCE,
+          questionText: '¿Cómo logró el mayordomo engañar a la reina ogresa dos veces?',
+          options: ['Le dio de comer verduras en lugar de carne', 'Escondió a los niños y le sirvió un corderito y un cabrito en su lugar', 'Le dijo que los niños se habían escapado', 'La durmió con una poción'],
+          correctAnswer: 'Escondió a los niños y le sirvió un corderito y un cabrito en su lugar',
+        },
     ],
     [QuestionCategory.CHARACTER]: [
         {
@@ -151,6 +215,20 @@ Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el re
           questionText: '¿Qué dos palabras describen mejor a la madre del príncipe?',
           options: ['Amable y cariñosa', 'Cruel y caníbal', 'Inteligente y sabia', 'Tímida y miedosa'],
           correctAnswer: 'Cruel y caníbal',
+        },
+        {
+          id: 'sb-char2',
+          category: QuestionCategory.CHARACTER,
+          questionText: '¿Qué cualidad describe mejor al mayordomo del príncipe?',
+          options: ['Cruel y obediente', 'Valiente y compasivo', 'Miedoso y torpe', 'Ambicioso y traicionero'],
+          correctAnswer: 'Valiente y compasivo',
+        },
+        {
+          id: 'sb-char3',
+          category: QuestionCategory.CHARACTER,
+          questionText: 'Aparte de bella, ¿cómo se muestra la princesa al final cuando enfrenta al mayordomo?',
+          options: ['Asustada y débil', 'Valiente y resignada a su destino para proteger a sus hijos', 'Enojada y vengativa', 'Astuta y tramposa'],
+          correctAnswer: 'Valiente y resignada a su destino para proteger a sus hijos',
         },
     ],
   },

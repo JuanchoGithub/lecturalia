@@ -175,7 +175,7 @@ Sin embargo, la Bella se reprochaba el pesar que así causaba a su pobre monstru
 
 “¿No soy yo bien perversa”, se dijo, “pues le causo tanto pesar cuando de tal modo me quiere? ¿Tiene acaso la culpa de su fealdad y su falta de inteligencia? Su buen corazón importa más que todo lo otro. ¿Por qué no he de casarme con él? Seré mucho más feliz que mis hermanas con sus maridos. Ni la belleza ni la inteligencia hacen que una mujer viva contenta con su esposo, sino la bondad de carácter, la virtud y el deseo de agradar; y la Bestia posee todas estas cualidades. Aunque no amor, sí le tengo estimación y amistad. ¿Por qué he de ser la causa de su desdicha, si luego me reprocharía mi ingratitud toda la vida?”
 
-Con estas palabras la Bella se levantó, puso su sortija sobre la mesa y volvió a acostarse. Apenas se tendió sobre la cama se quedó dormida, y al despertarse a la mañana siguiente vio con alegría que se hallaba en el castillo de la Bestia. Se vistió con todo esplendor por darle gusto, y creyó morir de impacencia en espera de que fuesen las nueve de la noche; pero el monstruo no apareció al dar el reloj la hora. Creyó entonces que le habría causado la muerte, y exhalando profundos suspiros, a punto de desesperarse, recorrió la Bella el castillo entero, buscando inútilmente por todas partes. Recordó entonces su sueño y corrió por el jardín hacia el estanque junto al cual lo viera en sueños. Allí encontró a la pobre Bestia sobre la hierba, perdido el conocimiento, y pensó que había muerto. Sin el menor asomo de horror se dejó caer a su lado, y al sentir que aún le latía el corazón, tomó un poco de agua del estanque y le roció la cabeza. Abrió la Bestia los ojos y dijo a la Bella:
+Con estas palabras la Bella se levantó, puso su sortija sobre la mesa y volvió a acostarse. Apenas se tendió sobre la cama se quedó dormida, y al despertarse a la mañana siguiente vio con alegría que se hallaba en el castillo de la Bestia. Se vistió con todo esplendor por darle gusto, y creyó morir de impaciencia en espera de que fuesen las nueve de la noche; pero el monstruo no apareció al dar el reloj la hora. Creyó entonces que le habría causado la muerte, y exhalando profundos suspiros, a punto de desesperarse, recorrió la Bella el castillo entero, buscando inútilmente por todas partes. Recordó entonces su sueño y corrió por el jardín hacia el estanque junto al cual lo viera en sueños. Allí encontró a la pobre Bestia sobre la hierba, perdido el conocimiento, y pensó que había muerto. Sin el menor asomo de horror se dejó caer a su lado, y al sentir que aún le latía el corazón, tomó un poco de agua del estanque y le roció la cabeza. Abrió la Bestia los ojos y dijo a la Bella:
 
 -Olvidaste tu promesa, y el dolor de haberte perdido me llevó a dejarme morir de hambre. Pero ahora moriré contento, pues tuve la dicha de verte una vez más.
 -No, mi Bestia querida, no vas a morirte -le dijo la Bella-, sino que vivirás para ser mi esposo. Desde este momento te prometo mi mano, y juro que no perteneceré a nadie sino a ti. ¡Ah, yo creía que sólo te tenía amistad, pero el dolor que he sentido me ha hecho ver que no podría vivir sin verte!
@@ -208,6 +208,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             options: ['Que se casaría con él al volver', 'Que le traería un regalo', 'Que regresaría en ocho días', 'Que nunca más se iría'],
             correctAnswer: 'Que regresaría en ocho días',
         },
+        {
+            id: 'bb-lit3',
+            category: QuestionCategory.LITERAL,
+            questionText: '¿Qué soñó la Bella la noche que llegó al castillo?',
+            options: ['Que la Bestia la atacaba', 'Que su padre regresaba a buscarla', 'Que una dama le decía que su buena acción sería recompensada', 'Que se perdía en el bosque'],
+            correctAnswer: 'Que una dama le decía que su buena acción sería recompensada',
+        },
     ],
     [QuestionCategory.SEQUENCING]: [
         {
@@ -223,6 +230,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             questionText: '¿Qué sucedió inmediatamente después de que la Bella le dijo a la Bestia que sería su esposo?',
             options: ['La Bestia murió', 'El palacio se iluminó y la Bestia se transformó en un príncipe', 'El padre de la Bella llegó al castillo', 'Sus hermanas se convirtieron en estatuas'],
             correctAnswer: 'El palacio se iluminó y la Bestia se transformó en un príncipe',
+        },
+        {
+            id: 'bb-seq3',
+            category: QuestionCategory.SEQUENCING,
+            questionText: '¿Qué encontró la Bella cuando regresó al castillo después de los 10 días?',
+            options: ['El castillo estaba vacío', 'La Bestia la esperaba con una fiesta', 'Encontró a la Bestia a punto de morir en el jardín', 'El príncipe ya se había liberado del hechizo'],
+            correctAnswer: 'Encontró a la Bestia a punto de morir en el jardín',
         },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -240,6 +254,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             options: ['Amenazas', 'Regalos caros', 'Alabanzas exageradas para agradar a alguien', 'Mentiras'],
             correctAnswer: 'Alabanzas exageradas para agradar a alguien',
         },
+        {
+            id: 'bb-voc3',
+            category: QuestionCategory.VOCABULARY,
+            questionText: 'La Bestia le decía a la Bella que su conversación era llena de buen sentido pero no de "ingenio". ¿Qué es el "ingenio"?',
+            options: ['Maldad', 'Tristeza', 'La capacidad de discurrir o inventar con prontitud y facilidad', 'Aburrimiento'],
+            correctAnswer: 'La capacidad de discurrir o inventar con prontitud y facilidad',
+        },
     ],
     [QuestionCategory.MAIN_IDEA]: [
         {
@@ -255,6 +276,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             questionText: '¿Por qué la Bestia se enamoró de la Bella?',
             options: ['Porque era la mujer más hermosa que había visto', 'Porque fue la única persona que pudo ver más allá de su fealdad y apreciar su buen corazón', 'Porque ella le trajo una rosa', 'Porque ella era una princesa'],
             correctAnswer: 'Porque fue la única persona que pudo ver más allá de su fealdad y apreciar su buen corazón',
+        },
+        {
+            id: 'bb-main3',
+            category: QuestionCategory.MAIN_IDEA,
+            questionText: '¿Por qué la Bella finalmente se da cuenta de que ama a la Bestia?',
+            options: ['Porque él le regala muchas joyas', 'Porque sueña que él está muriendo y siente un gran dolor al pensar en perderlo', 'Porque sus hermanas le dicen que lo haga', 'Porque su padre se lo pide'],
+            correctAnswer: 'Porque sueña que él está muriendo y siente un gran dolor al pensar en perderlo',
         },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -272,6 +300,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             options: ['Porque él era muy aburrido', 'Porque su horrible apariencia le impedía ver sus otras cualidades', 'Porque ella amaba a otra persona', 'Porque él no era rico'],
             correctAnswer: 'Porque su horrible apariencia le impedía ver sus otras cualidades',
         },
+        {
+            id: 'bb-inf3',
+            category: QuestionCategory.INFERENCE,
+            questionText: '¿Qué nos enseña el castigo del hada a las hermanas de la Bella?',
+            options: ['Que no se debe ser envidioso', 'Que la envidia y la maldad son defectos muy difíciles de corregir', 'Que las estatuas son un buen castigo', 'Que las hadas son muy poderosas'],
+            correctAnswer: 'Que la envidia y la maldad son defectos muy difíciles de corregir',
+        },
     ],
     [QuestionCategory.CHARACTER]: [
         {
@@ -287,6 +322,13 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             questionText: '¿Cuál es la cualidad más importante de la Bella que la lleva a su final feliz?',
             options: ['Su inteligencia', 'Su gran belleza física', 'Su capacidad para ver la bondad en los demás más allá de las apariencias', 'Su habilidad para cantar'],
             correctAnswer: 'Su capacidad para ver la bondad en los demás más allá de las apariencias',
+        },
+        {
+            id: 'bb-char3',
+            category: QuestionCategory.CHARACTER,
+            questionText: '¿Cómo demuestra la Bestia su bondad a pesar de su apariencia?',
+            options: ['Forzando a la Bella a quedarse', 'Tratándola como la dueña del castillo, llenándola de atenciones y respetando sus decisiones', 'Encerrándola en una torre', 'Ignorándola por completo'],
+            correctAnswer: 'Tratándola como la dueña del castillo, llenándola de atenciones y respetando sus decisiones',
         },
     ],
   },

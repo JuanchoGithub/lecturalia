@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const cinderella: Story = {
@@ -129,6 +130,13 @@ Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró má
         options: ['Se casó con el príncipe', 'Sacó la otra zapatilla de su bolsillo', 'Perdonó a sus hermanas', 'Huyó del lugar'],
         correctAnswer: 'Sacó la otra zapatilla de su bolsillo',
       },
+      {
+        id: 'cin-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hicieron las hermanastras cuando reconocieron a Cenicienta al final?',
+        options: ['Se burlaron de ella', 'Huyeron del palacio', 'Se arrojaron a sus pies para pedirle perdón', 'La acusaron de ladrona'],
+        correctAnswer: 'Se arrojaron a sus pies para pedirle perdón',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -144,6 +152,13 @@ Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró má
         questionText: 'La madrina le advierte a Cenicienta que no se quede ni un minuto más o sus ropas "recuperarían su forma primitiva". ¿Qué significa "primitiva"?',
         options: ['Más bella', 'Nueva', 'Original o primera', 'Mágica'],
         correctAnswer: 'Original o primera',
+      },
+      {
+        id: 'cin-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Cuando Cenicienta llegó a casa "sofocada", ¿cómo se sentía?',
+        options: ['Muy contenta', 'Muy cansada y con dificultad para respirar', 'Muy elegante', 'Muy triste'],
+        correctAnswer: 'Muy cansada y con dificultad para respirar',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
@@ -161,6 +176,13 @@ Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró má
         options: ['Porque era la única que podía usar la zapatilla', 'Porque era muy rica', 'Por su gran belleza y su gracia al bailar', 'Porque su padre se lo ordenó'],
         correctAnswer: 'Por su gran belleza y su gracia al bailar',
       },
+      {
+        id: 'cin-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué Cenicienta es un personaje virtuoso?',
+        options: ['Porque es la más bella del reino', 'Porque a pesar de ser maltratada, es paciente, buena y perdona a sus hermanas', 'Porque se casa con un príncipe', 'Porque tiene un hada madrina'],
+        correctAnswer: 'Porque a pesar de ser maltratada, es paciente, buena y perdona a sus hermanas',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -177,6 +199,13 @@ Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró má
         options: ['Que es débil', 'Que tiene un gran corazón y no es rencorosa', 'Que les tiene miedo', 'Que quiere el dinero de sus maridos'],
         correctAnswer: 'Que tiene un gran corazón y no es rencorosa',
       },
+      {
+        id: 'cin-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el hada madrina decidió ayudar a Cenicienta?',
+        options: ['Porque se lo pidió el príncipe', 'Porque era su obligación como hada', 'Porque vio que Cenicienta era buena y sufría injustamente', 'Porque quería ir al baile'],
+        correctAnswer: 'Porque vio que Cenicienta era buena y sufría injustamente',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -192,6 +221,13 @@ Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró má
         questionText: '¿Cómo son las hermanastras de Cenicienta?',
         options: ['Amables y generosas', 'Tímidas y trabajadoras', 'Orgullosas y malvadas', 'Inteligentes y creativas'],
         correctAnswer: 'Orgullosas y malvadas',
+      },
+      {
+        id: 'cin-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué podemos decir del padre de Cenicienta?',
+        options: ['Que es valiente y la defiende', 'Que es bueno pero débil, ya que su esposa lo domina por completo', 'Que no quiere a Cenicienta', 'Que es igual de cruel que la madrastra'],
+        correctAnswer: 'Que es bueno pero débil, ya que su esposa lo domina por completo',
       },
     ],
   },

@@ -31,6 +31,13 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         options: ['Porque la película se cortó', 'Porque el cine se había quedado sin combustible', 'Porque la sala estaba llena', 'Porque la pantalla se rompió'],
         correctAnswer: 'Porque el cine se había quedado sin combustible',
       },
+      {
+        id: 'uvdp-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le preguntaron a la narradora en un cartel durante la película?',
+        options: ['Si quería palomitas de maíz', 'Si le estaba gustando la película', 'Si estaba dispuesta a seguir viendo la película por varios días y usar un casco de traducción', 'Si quería cambiar de asiento'],
+        correctAnswer: 'Si estaba dispuesta a seguir viendo la película por varios días y usar un casco de traducción',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -39,6 +46,20 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         questionText: '¿Qué sucedió justo después de que la narradora se diera cuenta de que el cine era como un tren?',
         options: ['La película terminó', 'El cine pegó un sacudón y aparecieron paisajes insólitos', 'El acomodador le pidió el boleto', 'Apareció un actor en la pantalla'],
         correctAnswer: 'El cine pegó un sacudón y aparecieron paisajes insólitos',
+      },
+      {
+        id: 'uvdp-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasó después de que la narradora se diera cuenta de que había corriente de aire por las pantallas?',
+        options: ['Se cambió de asiento', 'Pidió que apagaran el aire', 'El acomodador les dijo que tenían que trasbordar a otro cine', 'La película se detuvo'],
+        correctAnswer: 'El acomodador les dijo que tenían que trasbordar a otro cine',
+      },
+      {
+        id: 'uvdp-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo la narradora al final de la historia cuando le propusieron continuar el viaje?',
+        options: ['Se negó porque tenía que volver a casa', 'Dijo que sí sin pensarlo dos veces', 'Pidió hablar con el director del cine', 'Se bajó en la siguiente estación'],
+        correctAnswer: 'Dijo que sí sin pensarlo dos veces',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -49,6 +70,20 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         options: ['Muy comunes y aburridos', 'Raros, poco comunes, extraordinarios', 'Feos y desagradables', 'Muy conocidos'],
         correctAnswer: 'Raros, poco comunes, extraordinarios',
       },
+      {
+        id: 'uvdp-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El actor hablaba un idioma "incomprensible". ¿Qué significa "incomprensible"?',
+        options: ['Muy fácil de entender', 'Que no se puede entender', 'Muy antiguo', 'Muy poético'],
+        correctAnswer: 'Que no se puede entender',
+      },
+      {
+        id: 'uvdp-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Tuvieron que "trasbordar" a otro cine. ¿Qué es trasbordar?',
+        options: ['Comprar otra entrada', 'Cambiar de película', 'Pasar de un vehículo a otro', 'Salir del cine'],
+        correctAnswer: 'Pasar de un vehículo a otro',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -57,6 +92,20 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         questionText: '¿Cuál es la idea central de esta historia?',
         options: ['Una crítica a los cines modernos.', 'La descripción de una película de ciencia ficción.', 'Una experiencia surrealista y fantástica donde ir al cine se convierte en un verdadero viaje en tren por el espacio.', 'Los problemas de transporte en la ciudad.'],
         correctAnswer: 'Una experiencia surrealista y fantástica donde ir al cine se convierte en un verdadero viaje en tren por el espacio.',
+      },
+      {
+        id: 'uvdp-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo se mezcla la idea de "cine" y "viaje en tren" en la historia?',
+        options: ['La película trataba sobre trenes', 'La boletería, el portaequipajes, las pantallas como ventanas, el sacudón y el trasbordo son elementos de un tren aplicados al cine', 'El cine estaba dentro de una estación de tren', 'La narradora se durmió y soñó que viajaba en tren'],
+        correctAnswer: 'La boletería, el portaequipajes, las pantallas como ventanas, el sacudón y el trasbordo son elementos de un tren aplicados al cine',
+      },
+      {
+        id: 'uvdp-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué tipo de película estaba viendo la narradora?',
+        options: ['Una comedia romántica', 'Un documental de viajes', 'Una de aventuras interplanetarias', 'Una película de terror'],
+        correctAnswer: 'Una de aventuras interplanetarias',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -67,6 +116,20 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         options: ['Porque está dormida y es un sueño', 'Porque estaba "en tren de divertirme" y aceptó todo como parte de una experiencia diferente', 'Porque ya le había pasado antes', 'Porque pensó que era una broma'],
         correctAnswer: 'Porque estaba "en tren de divertirme" y aceptó todo como parte de una experiencia diferente',
       },
+      {
+        id: 'uvdp-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué la narradora no se dio cuenta de que estaba en un tren al principio?',
+        options: ['Porque estaba muy oscuro y pensó que los paisajes eran parte de la película', 'Porque el acomodador la engañó', 'Porque se quedó dormida', 'Porque el cine olía a tren'],
+        correctAnswer: 'Porque estaba muy oscuro y pensó que los paisajes eran parte de la película',
+      },
+      {
+        id: 'uvdp-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué significa la frase "yo siempre fui loca por el cine"?',
+        options: ['Que no le gusta el cine', 'Que le apasiona tanto el cine que está dispuesta a vivir una aventura increíble por él', 'Que trabaja en un cine', 'Que ve películas de terror'],
+        correctAnswer: 'Que le apasiona tanto el cine que está dispuesta a vivir una aventura increíble por él',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -75,6 +138,20 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
         questionText: '¿Cómo es la narradora de la historia?',
         options: ['Miedosa y desconfiada', 'Abierta a la aventura y con mucha imaginación', 'Crítica y quejosa', 'Distraída y olvidadiza'],
         correctAnswer: 'Abierta a la aventura y con mucha imaginación',
+      },
+      {
+        id: 'uvdp-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo reacciona la narradora ante los eventos extraños?',
+        options: ['Con miedo y pánico', 'Con enojo y protestas', 'Con naturalidad y aceptación, sin asustarse', 'Con indiferencia'],
+        correctAnswer: 'Con naturalidad y aceptación, sin asustarse',
+      },
+      {
+        id: 'uvdp-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué nos dice la decisión final de la narradora sobre su personalidad?',
+        options: ['Es irresponsable', 'Es aventurera y no le teme a lo desconocido', 'Es muy influenciable', 'No le gusta tomar decisiones'],
+        correctAnswer: 'Es aventurera y no le teme a lo desconocido',
       },
     ],
   },

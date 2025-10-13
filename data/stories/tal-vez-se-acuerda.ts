@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const talVezSeAcuerda: Story = {
@@ -80,6 +81,13 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         options: ['Un bandoneón', 'Un clarinete', 'Una guitarra', 'Unos platillos'],
         correctAnswer: 'Una guitarra',
       },
+      {
+        id: 'tvsa-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Por qué el cliente rechazó el clarinete?',
+        options: ['Porque le sonaba a elefante', 'Porque le daba idea de claridad y necesitaba oscuridad para dormir', 'Porque era muy caro', 'Porque no le gustó el sonido'],
+        correctAnswer: 'Porque le daba idea de claridad y necesitaba oscuridad para dormir',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -88,6 +96,20 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         questionText: '¿Qué tipo de instrumento le ofreció el vendedor después de los de viento?',
         options: ['De cuerda', 'De teclado', 'De percusión', 'Ninguno'],
         correctAnswer: 'De percusión',
+      },
+      {
+        id: 'tvsa-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué instrumento rechazó el cliente justo antes de que le ofrecieran un bandoneón?',
+        options: ['La trompeta', 'El teclado', 'Los platillos', 'El órgano'],
+        correctAnswer: 'El órgano',
+      },
+      {
+        id: 'tvsa-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pasó cuando el vendedor le dijo al cliente la palabra "cuerda"?',
+        options: ['El cliente pensó en una soga', 'El cliente finalmente recordó que quería una guitarra', 'El cliente se enojó', 'El cliente pidió un violín'],
+        correctAnswer: 'El cliente finalmente recordó que quería una guitarra',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -98,6 +120,20 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         options: ['Nuevo y brillante', 'Que ha perdido su color y limpieza original', 'Musical y sonoro', 'Muy grande'],
         correctAnswer: 'Que ha perdido su color y limpieza original',
       },
+      {
+        id: 'tvsa-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El vendedor dice que los instrumentos de viento no producen efectos "climáticos". ¿A qué se refiere con "climáticos"?',
+        options: ['Relacionados con los colores', 'Relacionados con el clima y el tiempo (lluvia, viento, etc.)', 'Relacionados con la música', 'Relacionados con el cuerpo'],
+        correctAnswer: 'Relacionados con el clima y el tiempo (lluvia, viento, etc.)',
+      },
+      {
+        id: 'tvsa-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Al final, el cliente salió "rebosante" de felicidad. ¿Qué significa "rebosante"?',
+        options: ['Con un poco de felicidad', 'Sin nada de felicidad', 'Muy lleno, a punto de derramarse', 'Con miedo'],
+        correctAnswer: 'Muy lleno, a punto de derramarse',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -106,6 +142,20 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         questionText: '¿Cuál es la idea principal de la historia?',
         options: ['Un diálogo humorístico basado en malentendidos y juegos de palabras sobre instrumentos musicales.', 'La dificultad de comprar un instrumento musical.', 'Una crítica a los vendedores de tiendas de música.', 'La descripción de diferentes tipos de instrumentos.'],
         correctAnswer: 'Un diálogo humorístico basado en malentendidos y juegos de palabras sobre instrumentos musicales.',
+      },
+      {
+        id: 'tvsa-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el principal recurso de humor que utiliza el autor en el diálogo?',
+        options: ['Los chistes sobre músicos', 'La torpeza del vendedor', 'El cliente interpreta el nombre de los instrumentos de forma literal y absurda', 'La música que toca el vendedor'],
+        correctAnswer: 'El cliente interpreta el nombre de los instrumentos de forma literal y absurda',
+      },
+      {
+        id: 'tvsa-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo se resuelve finalmente la confusión del cliente?',
+        options: ['El vendedor se rinde y lo echa de la tienda', 'El cliente decide no comprar nada', 'El vendedor dice la palabra "cuerda" y el cliente "se acuerda" de que quería una guitarra', 'El cliente llama a su amigo'],
+        correctAnswer: 'El vendedor dice la palabra "cuerda" y el cliente "se acuerda" de que quería una guitarra',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -116,6 +166,20 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         options: ['Porque en realidad no quiere comprar nada.', 'Porque interpreta los nombres de los instrumentos de forma literal y graciosa.', 'Porque es muy indeciso.', 'Porque no tiene suficiente dinero.'],
         correctAnswer: 'Porque interpreta los nombres de los instrumentos de forma literal y graciosa.',
       },
+      {
+        id: 'tvsa-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: 'Cuando la guitarra le canta al oído, ¿crees que eso pasó de verdad o es parte de la imaginación del cliente?',
+        options: ['Pasó de verdad, la guitarra era mágica.', 'Es parte de la imaginación del cliente, mostrando su gran felicidad y conexión con el instrumento.', 'El vendedor le hizo una broma.', 'Era una guitarra con un parlante escondido.'],
+        correctAnswer: 'Es parte de la imaginación del cliente, mostrando su gran felicidad y conexión con el instrumento.',
+      },
+      {
+        id: 'tvsa-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el autor se detiene a pensar si la palabra "sonriente" es correcta?',
+        options: ['Porque no sabe escribir bien.', 'Para añadir más humor y mostrar cómo el personaje principal se distrae con las palabras.', 'Porque es una palabra muy difícil.', 'Porque la vendedora se lo pidió.'],
+        correctAnswer: 'Para añadir más humor y mostrar cómo el personaje principal se distrae con las palabras.',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -124,6 +188,20 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
         questionText: '¿Cómo es el cliente de la tienda?',
         options: ['Muy conocedor de la música', 'Imaginativo y con mucho sentido del humor', 'Serio y apurado', 'Tímido y callado'],
         correctAnswer: 'Imaginativo y con mucho sentido del humor',
+      },
+      {
+        id: 'tvsa-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué dos palabras describen al vendedor?',
+        options: ['Impaciente y grosero', 'Paciente y amable', 'Aburrido y distraído', 'Ignorante y confundido'],
+        correctAnswer: 'Paciente y amable',
+      },
+      {
+        id: 'tvsa-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué nos muestra el cliente al rechazar el órgano diciendo "Todos mis órganos están en perfecto estado"?',
+        options: ['Que es muy saludable', 'Que no sabe qué es un órgano musical', 'Que juega con el doble significado de las palabras', 'Que no le gusta la música de órgano'],
+        correctAnswer: 'Que juega con el doble significado de las palabras',
       },
     ],
   },

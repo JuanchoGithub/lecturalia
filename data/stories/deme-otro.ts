@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const demeOtro: Story = {
@@ -64,6 +65,13 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         options: ['Si tendrá juguetes', 'Si hay tele', 'Si tendrá un perro', 'Si puede seguir jugando'],
         correctAnswer: 'Si hay tele',
       },
+      {
+        id: 'do-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le dice la mamá a Fernando al despedirse de él?',
+        options: ['"Te voy a extrañar mucho"', '"Pórtate bien con tu nueva familia y ven a visitarnos"', '"No vuelvas nunca más"', '"Espero que aprendas la lección"'],
+        correctAnswer: '"Pórtate bien con tu nueva familia y ven a visitarnos"',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -79,7 +87,14 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         questionText: '¿Qué pasa al final del cuento?',
         options: ['Fernando se va a casa con su mamá', 'La mamá y Elena se van juntas, y la maestra se queda con Fernando', 'Todos se van a sus casas', 'La mamá se arrepiente y se lleva a Fernando'],
         correctAnswer: 'La mamá y Elena se van juntas, y la maestra se queda con Fernando',
-      }
+      },
+      {
+        id: 'do-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hace Elena al ser llamada por la maestra?',
+        options: ['Corre feliz hacia su nueva mamá', 'Se queja porque está jugando pero finalmente va', 'Se esconde', 'Empieza a llorar'],
+        correctAnswer: 'Se queja porque está jugando pero finalmente va',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -95,6 +110,13 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         questionText: 'La niña va al salón "resoplando contrariada". ¿Qué significa "contrariada"?',
         options: ['Contenta y feliz', 'Triste y llorando', 'Enojada o disgustada por algo que no quiere hacer', 'Cansada y con sueño'],
         correctAnswer: 'Enojada o disgustada por algo que no quiere hacer',
+      },
+      {
+        id: 'do-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La maestra "intercepta" a la madre a la salida. ¿Qué significa "interceptar"?',
+        options: ['Saludar amablemente', 'Ignorar', 'Detener en su camino', 'Acompañar'],
+        correctAnswer: 'Detener en su camino',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
@@ -112,6 +134,13 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         options: ['Porque ya no lo quiere', 'Porque está cansada de que se porte mal y no sabe qué más hacer', 'Porque la maestra se lo sugiere', 'Porque quiere una niña'],
         correctAnswer: 'Porque está cansada de que se porte mal y no sabe qué más hacer',
       },
+      {
+        id: 'do-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el propósito de la historia?',
+        options: ['Enseñar cómo educar a los niños', 'Mostrar una situación realista en una escuela', 'Provocar risa a través de una situación exagerada y absurda', 'Criticar a las maestras'],
+        correctAnswer: 'Provocar risa a través de una situación exagerada y absurda',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -128,6 +157,13 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         options: ['Sí, porque la mamá se fue con Elena', 'No, probablemente es una broma o una lección para Fernando', 'Sí, porque Fernando se portaba muy mal', 'No se sabe'],
         correctAnswer: 'No, probablemente es una broma o una lección para Fernando',
       },
+      {
+        id: 'do-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué la maestra finalmente acepta el "cambio" de niños?',
+        options: ['Porque odiaba a Fernando', 'Porque le tenía miedo a la mamá', 'Porque sigue el juego absurdo de la mamá', 'Porque las reglas de la escuela lo permiten'],
+        correctAnswer: 'Porque sigue el juego absurdo de la mamá',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -143,6 +179,13 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
         questionText: '¿Cómo reacciona Fernando durante toda la conversación?',
         options: ['Grita y protesta', 'Se ríe de la situación', 'No dice nada y mira hacia abajo', 'Le pide perdón a su mamá'],
         correctAnswer: 'No dice nada y mira hacia abajo',
+      },
+      {
+        id: 'do-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué nos muestra la reacción de Elena ("¿Y hay tele?") sobre los niños en general?',
+        options: ['Que son muy educados', 'Que se adaptan fácilmente a las nuevas situaciones si hay algo que les interesa', 'Que no les importan sus padres', 'Que solo piensan en jugar'],
+        correctAnswer: 'Que se adaptan fácilmente a las nuevas situaciones si hay algo que les interesa',
       },
     ],
   },

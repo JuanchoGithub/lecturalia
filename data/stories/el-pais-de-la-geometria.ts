@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const elPaisDeLaGeometria: Story = {
@@ -102,6 +103,13 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
         options: ['El Rey se enojó con ella', 'El Rey se puso a cantar y bailar un poquito', 'El Rey se fue a buscar la flor otra vez', 'El Rey se comió la sopita de tiza'],
         correctAnswer: 'El Rey se puso a cantar y bailar un poquito',
       },
+      {
+        id: 'geo-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo el Rey al regresar de la expedición sin encontrar la flor?',
+        options: ['Organizó otra expedición', 'Se encerró en su cuarto, triste y amargado', 'Renunció a ser rey', 'Se puso a jugar al fútbol'],
+        correctAnswer: 'Se encerró en su cuarto, triste y amargado',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -118,6 +126,13 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
         options: ['Que eran muy perfectos', 'Que eran aburridos y limitados, sin poder pensar en algo redondo', 'Que eran muy fuertes', 'Que tenían cuatro lados'],
         correctAnswer: 'Que eran aburridos y limitados, sin poder pensar en algo redondo',
       },
+      {
+        id: 'geo-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Los Trapecios llegaron "maltrechos y melancólicos". ¿Qué significa "maltrechos"?',
+        options: ['Contentos y energéticos', 'Lastimados y en mal estado', 'Limpios y ordenados', 'Aburridos'],
+        correctAnswer: 'Lastimados y en mal estado',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -126,6 +141,20 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
         questionText: '¿Cuál es la lección más importante de la historia?',
         options: ['Que la geometría es muy divertida', 'Que a veces la solución a nuestros problemas está en nosotros mismos y la encontramos a través de la creatividad y la alegría', 'Que los reyes no deben estar tristes', 'Que las flores son difíciles de encontrar'],
         correctAnswer: 'Que a veces la solución a nuestros problemas está en nosotros mismos y la encontramos a través de la creatividad y la alegría',
+      },
+      {
+        id: 'geo-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el principal problema del Rey Compás?',
+        options: ['No tiene amigos', 'Su ejército es débil', 'Está obsesionado con encontrar algo que cree que le falta para ser feliz', 'No le gusta su palacio'],
+        correctAnswer: 'Está obsesionado con encontrar algo que cree que le falta para ser feliz',
+      },
+      {
+        id: 'geo-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué representa la Flor Redonda en la historia?',
+        options: ['Una flor real que crece en el campo', 'La felicidad y la creatividad que el Rey no podía encontrar', 'Un tesoro escondido', 'Un enemigo del reino'],
+        correctAnswer: 'La felicidad y la creatividad que el Rey no podía encontrar',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -143,6 +172,13 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
         options: ['Porque él tampoco sabía la respuesta', 'Porque pensaba que era una pregunta tonta y que la belleza de una flor es su propia razón de ser', 'Porque no le gustaba que le hicieran preguntas', 'Porque lo distraían de su búsqueda'],
         correctAnswer: 'Porque pensaba que era una pregunta tonta y que la belleza de una flor es su propia razón de ser',
       },
+      {
+        id: 'geo-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el Rey Compás era el único que podía crear la Flor Redonda?',
+        options: ['Porque era el Rey', 'Porque tenía una pata que pinchaba y otra que no, lo que le permitía girar y dibujar círculos', 'Porque era más inteligente que los demás', 'Porque encontró un lápiz mágico'],
+        correctAnswer: 'Porque tenía una pata que pinchaba y otra que no, lo que le permitía girar y dibujar círculos',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -158,6 +194,13 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
         questionText: '¿Qué cualidad demuestra la señorita Línea al final de la historia?',
         options: ['Es miedosa', 'Es gruñona', 'Es sabia y amable al darle un buen consejo al Rey', 'Es muy recta'],
         correctAnswer: 'Es sabia y amable al darle un buen consejo al Rey',
+      },
+      {
+        id: 'geo-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo son los súbditos del Rey (Rombos, Triángulos, etc.)?',
+        options: ['Son rebeldes y desobedientes', 'Son leales y obedientes, pero limitados en su forma de pensar', 'Son más inteligentes que el Rey', 'Son perezosos y no quieren trabajar'],
+        correctAnswer: 'Son leales y obedientes, pero limitados en su forma de pensar',
       },
     ],
   },

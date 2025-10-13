@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const laBellaDurmienteGrimm: Story = {
@@ -93,6 +94,13 @@ Entonces se celebraron con gran pompa las bodas del príncipe y la Bella Durmien
         options: ['Le gritó su nombre', 'Le dio un beso', 'La sacudió suavemente', 'Le dio agua mágica'],
         correctAnswer: 'Le dio un beso',
       },
+      {
+        id: 'bdg-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hicieron todos en el castillo cuando la princesa y el príncipe se despertaron?',
+        options: ['Se fueron de vacaciones', 'Siguieron durmiendo', 'Se despertaron también y continuaron con sus tareas', 'Organizaron una fiesta'],
+        correctAnswer: 'Se despertaron también y continuaron con sus tareas',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -109,6 +117,13 @@ Entonces se celebraron con gran pompa las bodas del príncipe y la Bella Durmien
         options: ['Susurrar en secreto', 'Publicar oficialmente una ley para que todos la cumplan', 'Escribir una carta', 'Cancelar una orden'],
         correctAnswer: 'Publicar oficialmente una ley para que todos la cumplan',
       },
+      {
+        id: 'bdg-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'En la frase "se celebraron con gran pompa las bodas", ¿qué significa "pompa"?',
+        options: ['Con mucha prisa', 'En secreto', 'Con lujo y esplendor', 'Con tristeza'],
+        correctAnswer: 'Con lujo y esplendor',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -117,6 +132,20 @@ Entonces se celebraron con gran pompa las bodas del príncipe y la Bella Durmien
         questionText: '¿Cuál es la razón principal por la que la decimotercera hada maldijo a la princesa?',
         options: ['Porque odiaba a los reyes', 'Porque no fue invitada a la fiesta y se sintió ofendida', 'Porque era malvada por naturaleza', 'Porque quería el reino para ella'],
         correctAnswer: 'Porque no fue invitada a la fiesta y se sintió ofendida',
+      },
+      {
+        id: 'bdg-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué simboliza el despertar del castillo entero junto con la princesa?',
+        options: ['Que el tiempo se había detenido y ahora volvía a correr', 'Que todos estaban bajo el mismo hechizo', 'Que era un sueño', 'Que el castillo era mágico'],
+        correctAnswer: 'Que el tiempo se había detenido y ahora volvía a correr',
+      },
+      {
+        id: 'bdg-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el tema principal de esta versión de la historia?',
+        options: ['La venganza de un hada', 'El poder del amor verdadero para romper un hechizo y vencer el tiempo', 'La importancia de tener platos de oro', 'El peligro de los castillos antiguos'],
+        correctAnswer: 'El poder del amor verdadero para romper un hechizo y vencer el tiempo',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -134,6 +163,13 @@ Entonces se celebraron con gran pompa las bodas del príncipe y la Bella Durmien
         options: ['Porque el hada mala los maldijo a todos', 'Porque estaban muy cansados por la fiesta', 'Para que cuando la princesa despertara, la vida pudiera continuar como si nada hubiera pasado', 'Porque la viejita los durmió a todos'],
         correctAnswer: 'Para que cuando la princesa despertara, la vida pudiera continuar como si nada hubiera pasado',
       },
+      {
+        id: 'bdg-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué los otros príncipes no pudieron llegar al castillo antes?',
+        options: ['Porque no encontraron el camino', 'Porque la zarza espinosa se aferraba a ellos y no los dejaba pasar', 'Porque el rey se lo prohibió', 'Porque no eran lo suficientemente valientes'],
+        correctAnswer: 'Porque la zarza espinosa se aferraba a ellos y no los dejaba pasar',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -149,6 +185,13 @@ Entonces se celebraron con gran pompa las bodas del príncipe y la Bella Durmien
         questionText: '¿Qué cualidad describe mejor al príncipe?',
         options: ['Miedoso', 'Perezoso', 'Valiente y decidido', 'Codicioso'],
         correctAnswer: 'Valiente y decidido',
+      },
+      {
+        id: 'bdg-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cualidad describe a la duodécima hada?',
+        options: ['Vengativa', 'Bondadosa y previsora', 'Indiferente', 'Impaciente'],
+        correctAnswer: 'Bondadosa y previsora',
       },
     ],
   },

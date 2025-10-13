@@ -79,6 +79,13 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         options: ['Un lobo', 'Un oso', 'Un zorro', 'Un perro grande'],
         correctAnswer: 'Un zorro',
       },
+      {
+        id: 'ps-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Cómo se burló Pulgarcito de los guardias en la cámara del tesoro?',
+        options: ['Escondiéndose en un cofre', 'Apagando las luces', 'Saltando de un rincón a otro y gritando "¡Estoy aquí!"', 'Tirándoles monedas'],
+        correctAnswer: 'Saltando de un rincón a otro y gritando "¡Estoy aquí!"',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -94,6 +101,13 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         questionText: '¿Cuál de estas aventuras le ocurrió a Pulgarcito PRIMERO?',
         options: ['Ayudó a los ladrones a robar el tesoro del rey', 'Fue tragado por una vaca', 'Trabajó para un maestro artesano', 'Fue tragado por un zorro'],
         correctAnswer: 'Trabajó para un maestro artesano',
+      },
+      {
+        id: 'ps-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué le pasó a Pulgarcito después de ser tragado por la vaca y antes de ser embutido en la morcilla?',
+        options: ['Logró escapar por la boca de la vaca', 'La vaca fue sacrificada y él fue a parar con la carne para embutido', 'La vaca lo escupió', 'Gritó y el granjero lo sacó'],
+        correctAnswer: 'La vaca fue sacrificada y él fue a parar con la carne para embutido',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -111,6 +125,13 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         options: ['La comida del rey', 'Los animales del rey', 'Un conjunto de dinero, joyas u otros objetos de valor', 'La ropa del rey'],
         correctAnswer: 'Un conjunto de dinero, joyas u otros objetos de valor',
       },
+      {
+        id: 'ps-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La mujer del maestro quiso golpear a Pulgarcito con un "trapo". ¿Qué es un trapo en este contexto?',
+        options: ['Un plato', 'Un pedazo de tela viejo o usado para limpiar', 'Un palo', 'Un zapato'],
+        correctAnswer: 'Un pedazo de tela viejo o usado para limpiar',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -119,6 +140,20 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         questionText: '¿Cuál es la lección principal de esta historia?',
         options: ['No hay que trabajar en posadas', 'Ser pequeño no impide ser valiente e ingenioso', 'Los zorros son animales muy astutos', 'Robar es una buena forma de conseguir dinero'],
         correctAnswer: 'Ser pequeño no impide ser valiente e ingenioso',
+      },
+      {
+        id: 'ps-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es la característica principal de Pulgarcito que le permite sobrevivir a tantas aventuras?',
+        options: ['Su fuerza física', 'Su capacidad para correr rápido', 'Su ingenio y su valentía para hablar en los momentos justos', 'Su suerte'],
+        correctAnswer: 'Su ingenio y su valentía para hablar en los momentos justos',
+      },
+      {
+        id: 'ps-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué nos muestra la variedad de trabajos y situaciones que vive Pulgarcito?',
+        options: ['Que la vida es muy peligrosa', 'Que el mundo está lleno de aventuras y desafíos', 'Que no se debe confiar en nadie', 'Que es mejor quedarse en casa'],
+        correctAnswer: 'Que el mundo está lleno de aventuras y desafíos',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -136,6 +171,13 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         options: ['Porque le tenía miedo a Pulgarcito', 'Porque las gallinas eran un mejor alimento que un sastrecillo tan pequeño', 'Porque el padre de Pulgarcito era su amigo', 'Porque no le gustaba el sabor de los sastres'],
         correctAnswer: 'Porque las gallinas eran un mejor alimento que un sastrecillo tan pequeño',
       },
+      {
+        id: 'ps-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el padre de Pulgarcito prefirió a su hijo antes que a las gallinas?',
+        options: ['Porque las gallinas no ponían huevos', 'Porque el amor por un hijo es más importante que cualquier bien material', 'Porque el zorro le dio pena', 'Porque no le gustaban las gallinas'],
+        correctAnswer: 'Porque el amor por un hijo es más importante que cualquier bien material',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -151,6 +193,13 @@ Se lo prometió, llevó el zorro a su casa y éste se quedó con todas las galli
         questionText: '¿Cómo es el padre de Pulgarcito?',
         options: ['Cruel y egoísta', 'Tonto y descuidado', 'Bueno y apoya a su hijo en sus deseos de recorrer el mundo', 'Rico y poderoso'],
         correctAnswer: 'Bueno y apoya a su hijo en sus deseos de recorrer el mundo',
+      },
+      {
+        id: 'ps-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo son la mayoría de los personajes que se encuentra Pulgarcito?',
+        options: ['Todos son amables y lo ayudan', 'La mayoría intenta aprovecharse de él o deshacerse de él', 'Todos le tienen miedo', 'Todos son pequeños como él'],
+        correctAnswer: 'La mayoría intenta aprovecharse de él o deshacerse de él',
       },
     ],
   },

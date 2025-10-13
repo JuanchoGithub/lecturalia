@@ -43,6 +43,13 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         options: ['A la dirección a buscar un mapa', 'Al patio a buscar una regla', 'A la biblioteca a buscar el globo terráqueo', 'Al kiosco a comprar tizas'],
         correctAnswer: 'A la biblioteca a buscar el globo terráqueo',
       },
+      {
+        id: 'pndm-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué vio la narradora en el río mágico?',
+        options: ['Un barco pirata', 'Un puente de madera', 'Peces plateados y dorados que saltaban y plantas acuáticas', 'Otros niños nadando'],
+        correctAnswer: 'Peces plateados y dorados que saltaban y plantas acuáticas',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -51,6 +58,20 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         questionText: '¿Qué pasó justo después de que la narradora fuera empujada hacia el globo terráqueo?',
         options: ['Sonó el timbre del recreo', 'Se encontró en un lugar encantador junto a un río hermoso', 'Se despertó en su asiento', 'La maestra la fue a buscar'],
         correctAnswer: 'Se encontró en un lugar encantador junto a un río hermoso',
+      },
+      {
+        id: 'pndm-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo la narradora al llegar a la biblioteca, antes de ser transportada?',
+        options: ['Se puso a leer un libro', 'Se sentó a esperar', 'Demoró los pasos, llegó a la puerta, llamó y como nadie contestó, entró', 'Volvió al aula porque se arrepintió'],
+        correctAnswer: 'Demoró los pasos, llegó a la puerta, llamó y como nadie contestó, entró',
+      },
+      {
+        id: 'pndm-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo la narradora justo después de mirar el reloj en el lugar mágico?',
+        options: ['Decidió quedarse allí para siempre', 'Se puso a nadar en el río', 'Regresó misteriosamente a la biblioteca y corrió hacia el aula', 'Se escondió para no volver a clase'],
+        correctAnswer: 'Regresó misteriosamente a la biblioteca y corrió hacia el aula',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -61,6 +82,20 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         options: ['Una montaña muy alta', 'Un lugar en el desierto con agua y vegetación', 'Una tormenta de arena', 'Un espejismo'],
         correctAnswer: 'Un lugar en el desierto con agua y vegetación',
       },
+      {
+        id: 'pndm-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La clase era de una "monotonía" que la aburría. ¿Qué es la monotonía?',
+        options: ['Mucha diversión', 'Falta de variedad, uniformidad, que produce aburrimiento', 'Un tipo de música', 'Una clase muy difícil'],
+        correctAnswer: 'Falta de variedad, uniformidad, que produce aburrimiento',
+      },
+      {
+        id: 'pndm-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El viaje al lugar mágico fue "vertiginoso". ¿Qué significa "vertiginoso"?',
+        options: ['Muy lento y aburrido', 'Muy ruidoso', 'Muy rápido e intenso', 'Muy oscuro'],
+        correctAnswer: 'Muy rápido e intenso',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -69,6 +104,20 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         questionText: '¿Cuál es la idea principal del relato?',
         options: ['Una crítica a las clases de geografía.', 'Una aventura fantástica que ocurre durante un momento aburrido en la escuela.', 'La descripción de un río mágico.', 'La importancia de los recreos.'],
         correctAnswer: 'Una aventura fantástica que ocurre durante un momento aburrido en la escuela.',
+      },
+      {
+        id: 'pndm-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el conflicto de la narradora al final de la historia?',
+        options: ['Su deseo de quedarse en el lugar mágico contra su deseo de no perderse el recreo', 'Su miedo al río contra su curiosidad', 'Su enojo con la maestra contra su obligación de obedecer', 'Su cansancio contra sus ganas de jugar'],
+        correctAnswer: 'Su deseo de quedarse en el lugar mágico contra su deseo de no perderse el recreo',
+      },
+      {
+        id: 'pndm-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué representa el viaje a través del globo terráqueo?',
+        options: ['Un castigo de la maestra', 'Un sueño que tuvo en clase', 'Una escapada de la imaginación para huir del aburrimiento de la clase', 'Un accidente en la biblioteca'],
+        correctAnswer: 'Una escapada de la imaginación para huir del aburrimiento de la clase',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -79,6 +128,20 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         options: ['Porque se asustó', 'Porque la maestra la llamó', 'Porque miró su reloj y se dio cuenta de que no quería perderse el recreo', 'Porque el globo terráqueo la trajo de vuelta'],
         correctAnswer: 'Porque miró su reloj y se dio cuenta de que no quería perderse el recreo',
       },
+      {
+        id: 'pndm-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué a la narradora le gustaba andar sola por los pasillos durante la clase?',
+        options: ['Porque le gustaba el silencio', 'Porque sentía que la escuela le pertenecía por completo en esos momentos', 'Porque buscaba lugares para esconderse', 'Porque quería escaparse de la escuela'],
+        correctAnswer: 'Porque sentía que la escuela le pertenecía por completo en esos momentos',
+      },
+      {
+        id: 'pndm-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué podemos deducir sobre la personalidad de la narradora por su decisión final?',
+        options: ['Que no le gustan las aventuras', 'Que es muy obediente', 'Que, a pesar de su gran imaginación, valora mucho las cosas simples y reales de su vida escolar, como el recreo.', 'Que le tiene miedo a la maestra'],
+        correctAnswer: 'Que, a pesar de su gran imaginación, valora mucho las cosas simples y reales de su vida escolar, como el recreo.',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -87,6 +150,20 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
         questionText: '¿Qué es lo que más valora la narradora en ese momento de su vida escolar?',
         options: ['Aprender geografía', 'La aventura y la imaginación', 'El silencio de la biblioteca', 'El recreo y el tiempo libre'],
         correctAnswer: 'El recreo y el tiempo libre',
+      },
+      {
+        id: 'pndm-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo cambia el estado de ánimo de la narradora cuando la maestra la envía a la biblioteca?',
+        options: ['Se pone más aburrida', 'Se enoja con la maestra', 'Pasa del aburrimiento a sentir que "volvía a la vida"', 'Se pone nerviosa'],
+        correctAnswer: 'Pasa del aburrimiento a sentir que "volvía a la vida"',
+      },
+      {
+        id: 'pndm-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: 'Además de imaginativa, ¿qué otra cualidad tiene la narradora?',
+        options: ['Es desobediente', 'Es una niña típica de su edad, que disfruta de jugar en el recreo', 'Es muy estudiosa', 'Es muy tímida'],
+        correctAnswer: 'Es una niña típica de su edad, que disfruta de jugar en el recreo',
       },
     ],
   },

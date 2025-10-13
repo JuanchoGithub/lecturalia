@@ -36,6 +36,13 @@ Repentinamente, Zulema se desprendió los botones del abrigo y se lo sacó. Para
         options: ['Se fue a su casa a cambiarse', 'Faltó al trabajo', 'Compró un abrigo y se lo puso a pesar del calor', 'Intentó limpiar la mancha con agua'],
         correctAnswer: 'Compró un abrigo y se lo puso a pesar del calor',
       },
+      {
+        id: 'jalm-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Por qué Zulema no fue a su casa a cambiarse la blusa?',
+        options: ['Porque no tenía otra blusa limpia', 'Porque la haría llegar tarde al trabajo', 'Porque su casa estaba muy lejos', 'Porque no le importaba la mancha'],
+        correctAnswer: 'Porque la haría llegar tarde al trabajo',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -44,6 +51,20 @@ Repentinamente, Zulema se desprendió los botones del abrigo y se lo sacó. Para
         questionText: '¿Qué pasó justo después de que Zulema les dijera a sus compañeros que sentía mucho frío?',
         options: ['Se sacó el abrigo', 'Se desmayó', 'Trató de imaginarse que estaba en el Polo Sur', 'El jefe la retó'],
         correctAnswer: 'Trató de imaginarse que estaba en el Polo Sur',
+      },
+      {
+        id: 'jalm-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pensó Zulema justo antes de decidir sacarse el abrigo?',
+        options: ['"Qué calor que hace"', '"Mis compañeros se van a reír"', '"Y si me ven con la blusa manchada, ¿qué?"', '"Debería haberme ido a casa"'],
+        correctAnswer: '"Y si me ven con la blusa manchada, ¿qué?"',
+      },
+      {
+        id: 'jalm-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo Zulema después de comprar el abrigo?',
+        options: ['Se fue a su casa', 'Se lo puso, lo abotonó y fue a la oficina', 'Lo guardó en su cartera', 'Volvió a la tienda a devolverlo'],
+        correctAnswer: 'Se lo puso, lo abotonó y fue a la oficina',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -54,6 +75,20 @@ Repentinamente, Zulema se desprendió los botones del abrigo y se lo sacó. Para
         options: ['Desordenado', 'Muy colorido', 'Perfecto, sin ningún defecto', 'Cómodo'],
         correctAnswer: 'Perfecto, sin ningún defecto',
       },
+      {
+        id: 'jalm-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Cuando Zulema se sintió "sofocada", ¿cómo se sentía?',
+        options: ['Con mucho frío', 'Muy feliz', 'Como si le faltara el aire', 'Muy triste'],
+        correctAnswer: 'Como si le faltara el aire',
+      },
+      {
+        id: 'jalm-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La blusa de Zulema era "inmaculadamente" blanca. ¿Qué significa "inmaculadamente"?',
+        options: ['Casi blanca', 'De un color apagado', 'Perfectamente limpia, sin ninguna mancha', 'Un poco sucia'],
+        correctAnswer: 'Perfectamente limpia, sin ninguna mancha',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -63,14 +98,42 @@ Repentinamente, Zulema se desprendió los botones del abrigo y se lo sacó. Para
         options: ['Hay que tener cuidado con los colectivos', 'No hay que preocuparse tanto por las pequeñas imperfecciones o accidentes, porque a los demás no les importan tanto como uno cree.', 'Siempre hay que llevar un abrigo extra.', 'Es malo llegar tarde al trabajo.'],
         correctAnswer: 'No hay que preocuparse tanto por las pequeñas imperfecciones o accidentes, porque a los demás no les importan tanto como uno cree.',
       },
+      {
+        id: 'jalm-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el problema principal de Zulema en la historia?',
+        options: ['El calor del verano', 'Su excesiva preocupación por tener una apariencia perfecta', 'Tener que ir a trabajar', 'El conductor del colectivo'],
+        correctAnswer: 'Su excesiva preocupación por tener una apariencia perfecta',
+      },
+      {
+        id: 'jalm-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué descubre Zulema al final de la historia?',
+        options: ['Que a nadie le gustó su abrigo', 'Que su jefe estaba enojado', 'Que su pequeña mancha no era importante para nadie más que para ella', 'Que debería haber faltado al trabajo'],
+        correctAnswer: 'Que su pequeña mancha no era importante para nadie más que para ella',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'jalm-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Zulema prefirió "cocinarse bajo el abrigo" antes que mostrar la mancha?',
+        questionText: '¿Por qué prefirió "cocinarse bajo el abrigo" antes que mostrar la mancha?',
         options: ['Porque realmente tenía frío.', 'Porque le daba mucha vergüenza y le importaba demasiado su apariencia.', 'Porque le gustaba mucho el abrigo nuevo.', 'Porque sus compañeros se burlan de ella.'],
         correctAnswer: 'Porque le daba mucha vergüenza y le importaba demasiado su apariencia.',
+      },
+      {
+        id: 'jalm-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué sus compañeros la miraron extrañados?',
+        options: ['Porque llegó tarde', 'Porque estaba muy transpirada', 'Porque era verano, hacía mucho calor y ella llevaba puesto un abrigo', 'Porque estaba enojada'],
+        correctAnswer: 'Porque era verano, hacía mucho calor y ella llevaba puesto un abrigo',
+      },
+      {
+        id: 'jalm-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué significa la última frase "Y lo que es más importante aún, el mundo siguió andando"?',
+        options: ['Que la Tierra siguió girando', 'Que su problema era tan pequeño que no afectó en nada el curso normal de las cosas', 'Que todos en la oficina siguieron caminando', 'Que Zulema decidió ir a caminar'],
+        correctAnswer: 'Que su problema era tan pequeño que no afectó en nada el curso normal de las cosas',
       },
     ],
     [QuestionCategory.CHARACTER]: [
@@ -80,6 +143,20 @@ Repentinamente, Zulema se desprendió los botones del abrigo y se lo sacó. Para
         questionText: '¿Cómo es Zulema al principio de la historia?',
         options: ['Relajada y despreocupada', 'Muy preocupada por la puntualidad, el orden y la apariencia', 'Alegre y divertida', 'Triste y solitaria'],
         correctAnswer: 'Muy preocupada por la puntualidad, el orden y la apariencia',
+      },
+      {
+        id: 'jalm-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo reaccionaron los compañeros de Zulema cuando se sacó el abrigo?',
+        options: ['Se rieron de la mancha', 'Se preocuparon por ella', 'No le prestaron atención a la mancha', 'Le ofrecieron una blusa limpia'],
+        correctAnswer: 'No le prestaron atención a la mancha',
+      },
+      {
+        id: 'jalm-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cambio de actitud tiene Zulema al final?',
+        options: ['Se vuelve más descuidada', 'Decide no ir más a trabajar', 'Pasa de estar muy preocupada por la opinión de los demás a darle menos importancia', 'Se enoja con sus compañeros'],
+        correctAnswer: 'Pasa de estar muy preocupada por la opinión de los demás a darle menos importancia',
       },
     ],
   },

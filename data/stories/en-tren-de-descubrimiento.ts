@@ -52,6 +52,13 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         options: ['Un cliente', 'La esposa de Pandolfi', 'Un amigo vago', 'Rodolfo, el fabricante de trenes'],
         correctAnswer: 'Rodolfo, el fabricante de trenes',
       },
+      {
+        id: 'etdd-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué hacía la esposa de Pandolfi para investigar a un cliente?',
+        options: ['Lo seguía por la calle', 'Se disfrazó de vendedora', 'Se disfrazó de encuestadora', 'Lo llamaba por teléfono'],
+        correctAnswer: 'Se disfrazó de encuestadora',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -60,6 +67,20 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         questionText: '¿Qué hizo Pandolfi justo después de que la palabra "gata" le hiciera recordar algo?',
         options: ['Llamó a la policía', 'Fue a hablar con Rodolfo', 'Se reunió con su esposa y se dio cuenta de que nadie tenía pistas', 'Se fue a dormir'],
         correctAnswer: 'Se reunió con su esposa y se dio cuenta de que nadie tenía pistas',
+      },
+      {
+        id: 'etdd-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo Pandolfi después de darse cuenta de que no había pistas sobre el ladrón?',
+        options: ['Cerró la juguetería', 'Compró otro tren', 'Se levantó de golpe al recordar la conversación con Rodolfo', 'Se puso a llorar'],
+        correctAnswer: 'Se levantó de golpe al recordar la conversación con Rodolfo',
+      },
+      {
+        id: 'etdd-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Cuál fue el primer paso de la investigación de Pandolfi?',
+        options: ['Ir a la policía', 'Llamó a su esposa y a un amigo para que lo ayudaran', 'Interrogar a Rodolfo', 'Poner una cámara de seguridad'],
+        correctAnswer: 'Llamó a su esposa y a un amigo para que lo ayudaran',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -70,6 +91,20 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         options: ['Aburrido', 'Muy unido e identificado con algo', 'Distraído', 'En desacuerdo'],
         correctAnswer: 'Muy unido e identificado con algo',
       },
+      {
+        id: 'etdd-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Pandolfi temía que su economía se fuera a "descarrilar". ¿Qué significa esa expresión?',
+        options: ['Mejorar rápidamente', 'Mantenerse igual', 'Ir por mal camino, fracasar', 'Hacerse muy famosa'],
+        correctAnswer: 'Ir por mal camino, fracasar',
+      },
+      {
+        id: 'etdd-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Las palabras que acudían a la mente de Pandolfi eran "inconexas". ¿Qué significa "inconexas"?',
+        options: ['Que estaban muy bien ordenadas', 'Que eran muy largas', 'Que no tienen relación o conexión entre sí', 'Que eran de otro idioma'],
+        correctAnswer: 'Que no tienen relación o conexión entre sí',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -78,6 +113,20 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         questionText: '¿Cuál es el misterio principal que Pandolfi intenta resolver en la historia?',
         options: ['Por qué los niños no quieren jugar', 'Quién roba los trenes eléctricos de su juguetería', 'Cómo fabricar mejores trenes', 'Cómo vender más juguetes'],
         correctAnswer: 'Quién roba los trenes eléctricos de su juguetería',
+      },
+      {
+        id: 'etdd-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál era el motivo de Rodolfo para llevarse los trenes?',
+        options: ['Tenía un deseo incontrolable de mejorarlos cada vez que iban a ser vendidos', 'Quería revenderlos', 'No le gustaba que Pandolfi los vendiera', 'Coleccionaba trenes'],
+        correctAnswer: 'Tenía un deseo incontrolable de mejorarlos cada vez que iban a ser vendidos',
+      },
+      {
+        id: 'etdd-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué pista clave le permite a Pandolfi resolver el misterio?',
+        options: ['La confesión de un cliente', 'Las huellas encontradas en la juguetería', 'El hecho de que Rodolfo supiera que las luces del tren estaban encendidas', 'La gata que vio la noche del robo'],
+        correctAnswer: 'El hecho de que Rodolfo supiera que las luces del tren estaban encendidas',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -88,6 +137,20 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         options: ['La esposa de Pandolfi lo vio', 'Rodolfo confesó sin que le preguntaran', 'Pandolfi se dio cuenta de que Rodolfo sabía que las luces del tren estaban encendidas, algo que no debería saber', 'Una gata se lo dijo realmente'],
         correctAnswer: 'Pandolfi se dio cuenta de que Rodolfo sabía que las luces del tren estaban encendidas, algo que no debería saber',
       },
+      {
+        id: 'etdd-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué Pandolfi dice que la gata se lo contó, si no fue así?',
+        options: ['Porque estaba confundido', 'Es una forma poética de decir que recordar a la gata le hizo recordar un detalle clave', 'Porque quería proteger al verdadero informante', 'Porque la gata realmente podía hablar'],
+        correctAnswer: 'Es una forma poética de decir que recordar a la gata le hizo recordar un detalle clave',
+      },
+      {
+        id: 'etdd-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el amigo de Pandolfi terminó vendiendo una Biblia en lugar de investigar?',
+        options: ['Porque se olvidó de la investigación', 'Porque se hizo pasar por vendedor de Biblias y la familia fue tan cortés que le compró una', 'Porque necesitaba dinero', 'Porque era su verdadero trabajo'],
+        correctAnswer: 'Porque se hizo pasar por vendedor de Biblias y la familia fue tan cortés que le compró una',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -96,6 +159,20 @@ Era tarde cuando tocó el timbre de la casa de Rodolfo.
         questionText: '¿Por qué Rodolfo robaba los trenes?',
         options: ['Para venderlos más caros', 'Porque odiaba a Pandolfi', 'Por su deseo obsesivo de mejorar constantemente los modelos que fabricaba', 'Porque coleccionaba trenes'],
         correctAnswer: 'Por su deseo obsesivo de mejorar constantemente los modelos que fabricaba',
+      },
+      {
+        id: 'etdd-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué cualidad de Pandolfi, inspirada en Sherlock Holmes, le ayuda a resolver el caso?',
+        options: ['Su fuerza física', 'Su capacidad de disfrazarse', 'Su capacidad de observación y de conectar detalles aparentemente inconexos', 'Su lupa de detective'],
+        correctAnswer: 'Su capacidad de observación y de conectar detalles aparentemente inconexos',
+      },
+      {
+        id: 'etdd-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo describirías a Rodolfo?',
+        options: ['Es un ladrón malintencionado', 'Es un inventor perfeccionista y obsesivo', 'Es un mal amigo', 'Es un hombre de negocios astuto'],
+        correctAnswer: 'Es un inventor perfeccionista y obsesivo',
       },
     ],
   },

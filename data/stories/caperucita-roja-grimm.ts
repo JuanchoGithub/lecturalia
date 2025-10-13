@@ -72,6 +72,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         options: ['Le gritó para asustarlo', 'Cogió unas tijeras y le abrió la barriga', 'Le tiró una piedra', 'Se fue a buscar ayuda'],
         correctAnswer: 'Cogió unas tijeras y le abrió la barriga',
       },
+      {
+        id: 'rr-grimm-lit2',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué le llevó Caperucita a su abuela en esta versión?',
+        options: ['Una torta y mantequilla', 'Pan y queso', 'Un trozo de torta y una botella de vino', 'Flores y miel'],
+        correctAnswer: 'Un trozo de torta y una botella de vino',
+      },
+      {
+        id: 'rr-grimm-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Qué llenaron dentro de la barriga del lobo para que se matara?',
+        options: ['Hojas y ramas', 'Paja', 'Grandes piedras', 'Agua'],
+        correctAnswer: 'Grandes piedras',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
@@ -80,6 +94,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         questionText: '¿Qué hizo el lobo justo después de tragarse a la abuela?',
         options: ['Se fue del bosque', 'Se puso la ropa de la abuela y se metió en la cama', 'Se comió la torta y el vino', 'Se durmió inmediatamente'],
         correctAnswer: 'Se puso la ropa de la abuela y se metió en la cama',
+      },
+      {
+        id: 'rr-grimm-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo el cazador después de sacar a Caperucita y a la abuela de la barriga del lobo?',
+        options: ['Mató al lobo con su escopeta', 'Llenó la barriga del lobo con piedras', 'Se llevó la piel del lobo y se fue', 'Celebró con una fiesta'],
+        correctAnswer: 'Llenó la barriga del lobo con piedras',
+      },
+      {
+        id: 'rr-grimm-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué pensó Caperucita al final del cuento, como lección aprendida?',
+        options: ['Que no volvería a visitar a su abuela', 'Que los lobos son malos', 'Que nunca más se apartaría del camino', 'Que los cazadores son héroes'],
+        correctAnswer: 'Que nunca más se apartaría del camino',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -90,6 +118,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         options: ['Muy contenta y saltando', 'Asustada y mirando a todos lados', 'Distraída y pensando en sus propias cosas', 'Corriendo muy rápido'],
         correctAnswer: 'Distraída y pensando en sus propias cosas',
       },
+      {
+        id: 'rr-grimm-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Cuando el lobo hubo saciado su "voraz" apetito, ¿qué significa "voraz"?',
+        options: ['Que come muy poco', 'Que come con muchas ganas y en gran cantidad', 'Que come muy despacio', 'Que come solo verduras'],
+        correctAnswer: 'Que come con muchas ganas y en gran cantidad',
+      },
+      {
+        id: 'rr-grimm-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'Caperucita era una dulce "coquetuela". ¿Qué significa "coquetuela"?',
+        options: ['Una niña muy seria', 'Una niña que busca agradar y ser atractiva', 'Una niña llorona', 'Una niña muy alta'],
+        correctAnswer: 'Una niña que busca agradar y ser atractiva',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
@@ -98,6 +140,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         questionText: '¿Cuál es la lección que Caperucita Roja piensa al final de la historia?',
         options: ['Que no debe llevarle vino a su abuela', 'Que debe obedecer a su madre y no apartarse del camino', 'Que los cazadores son buenos amigos', 'Que las flores del bosque son las más bonitas'],
         correctAnswer: 'Que debe obedecer a su madre y no apartarse del camino',
+      },
+      {
+        id: 'rr-grimm-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es la principal diferencia de esta versión con la de Perrault?',
+        options: ['El lobo es bueno', 'Caperucita se come al lobo', 'Caperucita y su abuela son rescatadas por un cazador', 'No hay cazador'],
+        correctAnswer: 'Caperucita y su abuela son rescatadas por un cazador',
+      },
+      {
+        id: 'rr-grimm-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué el cazador decide usar tijeras en lugar de su escopeta?',
+        options: ['Porque no tenía balas', 'Porque pensó que el lobo se había comido a la anciana y que tal vez podría salvarla', 'Porque le daba pena el lobo', 'Porque las tijeras eran más silenciosas'],
+        correctAnswer: 'Porque pensó que el lobo se había comido a la anciana y que tal vez podría salvarla',
       },
     ],
     [QuestionCategory.INFERENCE]: [
@@ -108,6 +164,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         options: ['Porque quería darle un regalo a la abuela', 'Para distraerla y tener tiempo de llegar antes a casa de la abuela', 'Porque pensó que Caperucita estaba triste', 'Porque a él le gustaban mucho las flores'],
         correctAnswer: 'Para distraerla y tener tiempo de llegar antes a casa de la abuela',
       },
+      {
+        id: 'rr-grimm-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Cómo se sentía Caperucita al entrar a la casa y ver a su "abuela" con aspecto extraño?',
+        options: ['Alegre y confiada', 'Asustada y extrañada', 'Enojada', 'Indiferente'],
+        correctAnswer: 'Asustada y extrañada',
+      },
+      {
+        id: 'rr-grimm-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el lobo, lleno de piedras, se cayó y se mató al intentar levantarse?',
+        options: ['Porque se tropezó', 'Porque el cazador le disparó', 'Porque el gran peso de las piedras no lo dejó moverse y lo hizo caer', 'Porque se sintió mareado'],
+        correctAnswer: 'Porque el gran peso de las piedras no lo dejó moverse y lo hizo caer',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -116,6 +186,20 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         questionText: '¿Qué cualidad describe mejor al cazador en esta versión del cuento?',
         options: ['Miedoso y débil', 'Inteligente y Valiente', 'Perezoso y descuidado', 'Gruñón y solitario'],
         correctAnswer: 'Inteligente y Valiente',
+      },
+      {
+        id: 'rr-grimm-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿En qué se diferencia la Caperucita de esta versión de la de Perrault al final del cuento?',
+        options: ['Sigue siendo igual de inocente', 'Aprende una lección sobre la obediencia', 'Se vuelve una cazadora', 'Decide no volver al bosque'],
+        correctAnswer: 'Aprende una lección sobre la obediencia',
+      },
+      {
+        id: 'rr-grimm-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: 'El lobo en esta versión es...',
+        options: ['Astuto pero finalmente derrotado', 'Fuerte pero no muy inteligente', 'Amable al principio', 'Un animal incomprendido'],
+        correctAnswer: 'Astuto pero finalmente derrotado',
       },
     ],
   },

@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const elGatoConBotas: Story = {
@@ -106,6 +107,13 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         options: ['El ogro se convirtió en un león', 'El rey llegó al castillo', 'El gato se comió al ogro', 'El amo se casó con la princesa'],
         correctAnswer: 'El ogro se convirtió en un león',
       },
+      {
+        id: 'gcb-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Cuál fue el último paso del plan del gato para asegurar la fortuna de su amo?',
+        options: ['Hacer que su amo se bañara en el río', 'Regalarle perdices al rey', 'Convencer al ogro de transformarse en rata y comérselo', 'Amenazar a los campesinos'],
+        correctAnswer: 'Convencer al ogro de transformarse en rata y comérselo',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
@@ -121,6 +129,13 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         questionText: 'El rey le dice al marqués: "Tenéis aquí una hermosa heredad". ¿Qué es una "heredad"?',
         options: ['Una casa pequeña', 'Un caballo', 'Un terreno o propiedad grande', 'Una cosecha'],
         correctAnswer: 'Un terreno o propiedad grande',
+      },
+      {
+        id: 'gcb-voc3',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El hijo menor del molinero se lamentaba de su "mísera" herencia. ¿Qué significa "mísera"?',
+        options: ['Muy valiosa', 'Muy grande', 'Muy pobre o de poco valor', 'Misteriosa'],
+        correctAnswer: 'Muy pobre o de poco valor',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
@@ -138,6 +153,13 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         options: ['Los gatos son mejores que los burros', 'El ingenio y la astucia pueden ser más valiosos que una gran herencia', 'Siempre hay que obedecer a los gatos', 'Los ogros no son de fiar'],
         correctAnswer: 'El ingenio y la astucia pueden ser más valiosos que una gran herencia',
       },
+      {
+        id: 'gcb-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cómo logra el gato que el rey piense que su amo es muy rico?',
+        options: ['Mostrándole un mapa del tesoro', 'Regalándole animales cazados y haciendo que los campesinos digan que las tierras son de su amo', 'Vistiéndolo con ropa de oro', 'Contándole historias inventadas'],
+        correctAnswer: 'Regalándole animales cazados y haciendo que los campesinos digan que las tierras son de su amo',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -154,6 +176,13 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         options: ['Porque le gustaban más las ratas que los leones', 'Para engañarlo, ya que un gato puede comerse una rata pero no un león', 'Porque quería ver si era verdad que podía transformarse en animales pequeños', 'Porque los leones le daban miedo'],
         correctAnswer: 'Para engañarlo, ya que un gato puede comerse una rata pero no un león',
       },
+      {
+        id: 'gcb-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el amo del gato le hace caso, aunque no entiende su plan?',
+        options: ['Porque le tiene miedo al gato', 'Porque no tiene nada que perder y ha visto que el gato es muy ágil y astuto', 'Porque el gato lo hipnotizó', 'Porque es muy obediente'],
+        correctAnswer: 'Porque no tiene nada que perder y ha visto que el gato es muy ágil y astuto',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -169,6 +198,13 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         questionText: '¿Cómo es el amo del gato al principio de la historia?',
         options: ['Valiente y optimista', 'Pobre y desesperanzado', 'Rico y orgulloso', 'Alegre y trabajador'],
         correctAnswer: 'Pobre y desesperanzado',
+      },
+      {
+        id: 'gcb-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué podemos decir sobre el rey en la historia?',
+        options: ['Es muy desconfiado', 'Es sabio y justo', 'Se deja impresionar fácilmente por las apariencias y la riqueza', 'Es un guerrero valiente'],
+        correctAnswer: 'Se deja impresionar fácilmente por las apariencias y la riqueza',
       },
     ],
   },
