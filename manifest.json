@@ -1,0 +1,16 @@
+{
+  "name": "Aventura de Lectura",
+  "short_name": "Lectura",
+  "description": "Una aplicación interactiva para ayudar a los estudiantes de tercer grado a mejorar sus habilidades de comprensión lectora con historias atractivas y preguntas específicas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FB",
+  "theme_color": "#3A86FF",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

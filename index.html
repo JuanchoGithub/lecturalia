@@ -2,9 +2,12 @@
 <html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comprensión Lectora para 3er Grado</title>
+    <meta name="theme-color" content="#3A86FF"/>
+    <title>Aventura de Lectura</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon.svg">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -36,5 +39,16 @@
   <body class="bg-light-bg">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('Service Worker registrado con éxito:', registration);
+          }).catch(registrationError => {
+            console.log('Error en el registro del Service Worker:', registrationError);
+          });
+        });
+      }
+    </script>
   </body>
 </html>
