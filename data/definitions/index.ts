@@ -1,3 +1,4 @@
+
 import { definitions as leoTheLighthouseLionDefinitions } from './leo-the-lighthouse-lion';
 import { definitions as snowWhiteDefinitions } from './snow-white';
 import { definitions as caperucitaRojaDefinitions } from './caperucita-roja';
@@ -36,6 +37,11 @@ import { definitions as porNadaDelMundoDefinitions } from './por-nada-del-mundo'
 import { definitions as unViajeDePeliculaDefinitions } from './un-viaje-de-pelicula';
 import { definitions as unasRimasQueSeArrimanDefinitions } from './unas-rimas-que-se-arriman';
 import { definitions as enTrenDeDescubrimientoDefinitions } from './en-tren-de-descubrimiento';
+import { definitions as juanSinMiedoDefinitions } from './juan-sin-miedo';
+import { definitions as sastrecilloValienteDefinitions } from './sastrecillo-valiente';
+import { definitions as losMusicosDeBremaDefinitions } from './los-musicos-de-brema';
+import { definitions as elSoldaditoDePlomoDefinitions } from './el-soldadito-de-plomo';
+import { definitions as elTrajeNuevoDelEmperadorDefinitions } from './el-traje-nuevo-del-emperador';
 
 export const allDefinitions: { [storyId: string]: { [word: string]: { explanation: string } } } = {
   'leo-the-lighthouse-lion': leoTheLighthouseLionDefinitions,
@@ -76,4 +82,9 @@ export const allDefinitions: { [storyId: string]: { [word: string]: { explanatio
   'un-viaje-de-pelicula': unViajeDePeliculaDefinitions,
   'unas-rimas-que-se-arriman': unasRimasQueSeArrimanDefinitions,
   'en-tren-de-descubrimiento': enTrenDeDescubrimientoDefinitions,
+  'juan-sin-miedo': juanSinMiedoDefinitions,
+  'sastrecilloValiente': sastrecilloValienteDefinitions,
+  'los-musicos-de-brema': losMusicosDeBremaDefinitions,
+  'el-soldadito-de-plomo': elSoldaditoDePlomoDefinitions,
+  'el-traje-nuevo-del-emperador': elTrajeNuevoDelEmperadorDefinitions,
 };

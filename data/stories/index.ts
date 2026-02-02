@@ -1,3 +1,4 @@
+
 import { Story } from '../../types';
 import { leoTheLighthouseLion } from './leo-the-lighthouse-lion';
 import { snowWhite } from './snow-white';
@@ -37,6 +38,11 @@ import { porNadaDelMundo } from './por-nada-del-mundo';
 import { unViajeDePelicula } from './un-viaje-de-pelicula';
 import { unasRimasQueSeArriman } from './unas-rimas-que-se-arriman';
 import { enTrenDeDescubrimiento } from './en-tren-de-descubrimiento';
+import { juanSinMiedo } from './juan-sin-miedo';
+import { sastrecilloValiente } from './sastrecillo-valiente';
+import { losMusicosDeBrema } from './los-musicos-de-brema';
+import { elSoldaditoDePlomo } from './el-soldadito-de-plomo';
+import { elTrajeNuevoDelEmperador } from './el-traje-nuevo-del-emperador';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -77,4 +83,9 @@ export const stories: Story[] = [
   unViajeDePelicula,
   unasRimasQueSeArriman,
   enTrenDeDescubrimiento,
+  juanSinMiedo,
+  sastrecilloValiente,
+  losMusicosDeBrema,
+  elSoldaditoDePlomo,
+  elTrajeNuevoDelEmperador,
 ].sort((a, b) => a.title.localeCompare(b.title));
