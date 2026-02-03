@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 interface ButtonProps {
@@ -7,6 +8,7 @@ interface ButtonProps {
   size?: 'sm' | 'md' | 'lg';
   className?: string;
   type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -16,6 +18,7 @@ const Button: React.FC<ButtonProps> = ({
   size = 'md',
   className = '',
   type = 'button',
+  disabled = false,
 }) => {
   const baseClasses = 'font-bold py-2 px-4 rounded-full shadow-md transform transition-transform duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2';
   
@@ -34,7 +37,8 @@ const Button: React.FC<ButtonProps> = ({
     <button
       type={type}
       onClick={onClick}
-      className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
+      disabled={disabled}
+      className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className} ${disabled ? 'opacity-50 cursor-not-allowed transform-none' : ''}`}
     >
       {children}
     </button>

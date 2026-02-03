@@ -43,6 +43,7 @@ import { sastrecilloValiente } from './sastrecillo-valiente';
 import { losMusicosDeBrema } from './los-musicos-de-brema';
 import { elSoldaditoDePlomo } from './el-soldadito-de-plomo';
 import { elTrajeNuevoDelEmperador } from './el-traje-nuevo-del-emperador';
+import { kirbyForgottenLand } from './kirby-forgotten-land';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -88,4 +89,5 @@ export const stories: Story[] = [
   losMusicosDeBrema,
   elSoldaditoDePlomo,
   elTrajeNuevoDelEmperador,
+  kirbyForgottenLand,
 ].sort((a, b) => a.title.localeCompare(b.title));

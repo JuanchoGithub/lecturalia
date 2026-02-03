@@ -1,15 +1,16 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { Story, ReadingSession } from '../types';
 import Card from './ui/Card';
 import Button from './ui/Button';
 import { allDefinitions } from '../data/definitions';
+import { speakText } from '../lib/gemini';
 
 interface ReadingViewProps {
   story: Story;
   onFinishReading: () => void;
 }
 
-// --- Updated Explanation Popup Component ---
 interface ExplanationPopupProps {
     word: string;
     explanation: string;
@@ -26,18 +27,13 @@ const ExplanationPopup: React.FC<ExplanationPopupProps> = ({ word, explanation, 
                 onClose();
             }
         };
-
-        // Add a slight delay to prevent the same click that opens from closing it
         setTimeout(() => document.addEventListener('mousedown', handleClickOutside), 10);
-        
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, [onClose]);
 
-    // Adjust position to stay within viewport
     const adjustedLeft = Math.max(10, Math.min(position.left, window.innerWidth - 300));
-    
     const transformStyle = placement === 'top' ? { transform: 'translateY(-100%)' } : {};
 
     return (
@@ -53,14 +49,10 @@ const ExplanationPopup: React.FC<ExplanationPopupProps> = ({ word, explanation, 
         </div>
     );
 };
-// --- End of Updated Component ---
 
 const paginateStory = (story: Story): string[] => {
     const content = story.content;
     const isAdelaBasch = story.author === 'Adela Basch';
-
-    // Las historias de Adela Basch usan saltos de línea simples para los párrafos. Otras usan dobles.
-    // También se ajustan los párrafos por página para una mejor legibilidad.
     const splitRegex = isAdelaBasch ? /\n/ : /\n\s*\n/;
     const joiner = isAdelaBasch ? '\n' : '\n\n';
     const paragraphsPerPage = isAdelaBasch ? 5 : 2;
@@ -82,6 +74,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     const [pages, setPages] = useState<string[]>([]);
     const [currentPageIndex, setCurrentPageIndex] = useState(0);
     const [isExplainMode, setIsExplainMode] = useState(false);
+    const [isSpeaking, setIsSpeaking] = useState(false);
     const [explanationPopup, setExplanationPopup] = useState<{
         word: string;
         explanation: string;
@@ -89,7 +82,6 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         placement: 'top' | 'bottom';
     } | null>(null);
     const [storyDefinitions, setStoryDefinitions] = useState<{ [word: string]: { explanation: string } }>({});
-
 
     useEffect(() => {
         const definitions = allDefinitions[story.id] || {};
@@ -101,14 +93,9 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
             const sessionStr = localStorage.getItem('activeReadingSession');
             if (sessionStr && pages.length > 0) {
                 const session: ReadingSession = JSON.parse(sessionStr);
-                
-                // Solo guardar si la sesión pertenece a la historia actual
                 if(session.storyId !== story.id) return;
-
                 const duration = Date.now() - session.pageStartTime;
-                
                 const existingPageIndex = session.pageTimings.findIndex(p => p.pageIndex === session.currentPageIndex);
-                
                 if (existingPageIndex > -1) {
                     session.pageTimings[existingPageIndex].duration += duration;
                 } else {
@@ -120,7 +107,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                         });
                     }
                 }
-                session.pageStartTime = Date.now(); // Reiniciar para la siguiente interacción/recarga
+                session.pageStartTime = Date.now();
                 localStorage.setItem('activeReadingSession', JSON.stringify(session));
             }
         } catch (error) {
@@ -136,7 +123,6 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
             const sessionStr = localStorage.getItem('activeReadingSession');
             if (sessionStr) {
                 const session: ReadingSession = JSON.parse(sessionStr);
-                // Asegurar que el índice de página de la sesión sea válido para el contenido paginado
                 if (session.storyId === story.id && session.currentPageIndex < paginatedContent.length) {
                     setCurrentPageIndex(session.currentPageIndex);
                 } else {
@@ -148,18 +134,15 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         }
 
         window.addEventListener('beforeunload', saveProgress);
-
         return () => {
             saveProgress();
             window.removeEventListener('beforeunload', saveProgress);
         };
     }, [story, saveProgress]);
     
-    // Al cambiar de página, cerrar el popup
     useEffect(() => {
         setExplanationPopup(null);
     }, [currentPageIndex]);
-
 
     const updateSessionAndNavigate = (newPageIndex: number) => {
         try {
@@ -168,14 +151,12 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 const session: ReadingSession = JSON.parse(sessionStr);
                 const duration = Date.now() - session.pageStartTime;
                 const wordCount = countWords(pages[currentPageIndex]);
-    
                 const existingIndex = session.pageTimings.findIndex(p => p.pageIndex === currentPageIndex);
                 if (existingIndex > -1) {
                     session.pageTimings[existingIndex].duration += duration;
                 } else {
                     session.pageTimings.push({ pageIndex: currentPageIndex, duration, wordCount });
                 }
-    
                 session.currentPageIndex = newPageIndex;
                 session.pageStartTime = Date.now();
                 localStorage.setItem('activeReadingSession', JSON.stringify(session));
@@ -203,20 +184,22 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         onFinishReading();
     };
 
+    const handleSpeakPage = async () => {
+        if (isSpeaking) return;
+        setIsSpeaking(true);
+        await speakText(pages[currentPageIndex]);
+        setIsSpeaking(false);
+    };
+
     const handleWordClick = (word: string, event: React.MouseEvent<HTMLSpanElement>) => {
         const lowerCaseWord = word.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
         if (storyDefinitions[lowerCaseWord]) {
             const rect = event.currentTarget.getBoundingClientRect();
-
-            // Check if there is enough space below the element in the viewport.
-            // Assuming an average popup height of around 150px.
             const spaceBelow = window.innerHeight - rect.bottom;
             const shouldPlaceAbove = spaceBelow < 150 && rect.top > 150;
-
             const topPosition = shouldPlaceAbove
-                ? rect.top + window.scrollY - 8 // Position at the top of the word, minus a small margin
-                : rect.bottom + window.scrollY + 8; // Position at the bottom of the word, plus a small margin
-            
+                ? rect.top + window.scrollY - 8
+                : rect.bottom + window.scrollY + 8;
             const leftPosition = rect.left + window.scrollX;
 
             setExplanationPopup({
@@ -230,13 +213,8 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
 
     const renderPageContent = () => {
         const pageText = pages[currentPageIndex];
-        if (!isExplainMode) {
-            return pageText;
-        }
-
-        // Regex to split by spaces, newlines, and punctuation, but keeping them.
+        if (!isExplainMode) return pageText;
         const wordsAndSeparators = pageText.split(/([ \n.,;¡!¿?:—"“”()])/);
-
         return wordsAndSeparators.map((segment, index) => {
             const lowerCaseWord = segment.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
             if (storyDefinitions[lowerCaseWord]) {
@@ -254,9 +232,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         });
     };
 
-    if (pages.length === 0) {
-        return <div>Cargando historia...</div>;
-    }
+    if (pages.length === 0) return <div>Cargando historia...</div>;
 
     const isFirstPage = currentPageIndex === 0;
     const isLastPage = currentPageIndex === pages.length - 1;
@@ -274,12 +250,15 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
             )}
             <Card>
                 <div className="p-6 md:p-10 relative">
-                     <div className="absolute top-4 left-4 flex gap-2">
+                    <div className="absolute top-4 left-4 flex gap-2">
                         <Button onClick={() => setIsExplainMode(!isExplainMode)} variant={isExplainMode ? "primary" : "secondary"} size="sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                            </svg>
                            {isExplainMode ? 'Dejar de Explicar' : 'Explicar Palabras'}
+                        </Button>
+                        <Button onClick={handleSpeakPage} variant="secondary" size="sm" disabled={isSpeaking}>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clipRule="evenodd" />
+                            </svg>
+                            {isSpeaking ? 'Escuchando...' : 'Escuchar Página'}
                         </Button>
                     </div>
                     <div className="absolute top-4 right-4 text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">

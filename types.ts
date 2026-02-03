@@ -1,7 +1,15 @@
+
+export enum Grade {
+  THIRD = 3,
+  FOURTH = 4,
+}
+
 export enum AppState {
   SELECTING = 'selecting',
+  GRADE_SELECTION = 'grade_selection',
   READING = 'reading',
   QUIZZING = 'quizzing',
+  SUMMARIZING = 'summarizing',
   RESULTS = 'results',
   PARENT_DASHBOARD = 'parent_dashboard',
 }
@@ -37,6 +45,7 @@ export interface Story {
 export interface UserAnswer {
   questionId: string;
   answer: string;
+  hintUsed?: boolean;
 }
 
 export interface AnswerTiming {
@@ -52,6 +61,7 @@ export interface PageTiming {
 
 export interface Attempt {
   id: string; // timestamp
+  grade: Grade;
   readingDuration: number;
   pageTimings: PageTiming[];
   answers: UserAnswer[];
@@ -59,6 +69,8 @@ export interface Attempt {
   score: number;
   questions: Question[];
   shuffledOptionsPerQuestion: { [questionId: string]: string[] };
+  studentSummary?: string;
+  summaryFeedback?: string;
 }
 
 export interface StoryStats {
@@ -72,8 +84,9 @@ export interface AllStoryStats {
 
 export interface ReadingSession {
   storyId: string;
-  startTime: number; // Session start timestamp
+  grade: Grade;
+  startTime: number;
   currentPageIndex: number;
   pageTimings: PageTiming[];
-  pageStartTime: number; // Current page view start timestamp
+  pageStartTime: number;
 }
