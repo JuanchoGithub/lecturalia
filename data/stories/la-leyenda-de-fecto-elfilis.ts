@@ -35,7 +35,7 @@ En las Islas Aisladas de Forgo Dreams, un mundo de pesadillas, Soul Forgo rompi�
 
 En el Colisée, la batalla final suprema: teleports relámpago, spearheads púrpuras, slashes con ondas destructoras, tornados de Morpho, láseres de portales, swoops ardientes, clones curativos, asteroides... ¡y en su segunda forma, un vórtice succionador, cutters curvados, beams giratorios, lluvia de orbs, bounces con truenos! Música cósmica retumbaba. Kirby, con todo su coraje, expulsó el alma roja con domo mouth. ¡Victoria! Almas liberadas, Soul Forgo se unió voluntariamente a Elfilin, curando la herida eterna. Hermanos en paz bajo un cielo azul brillante.
 
-Y así, Juancho, la leyenda de Fecto Elfilis enseña que el poder más grande del universo no está en grietas dimensionales ni en posesiones oscuras, sino en el equilibrio del corazón, la voluntad inquebrantable como la de Meta Knight, y la amistad pura como la de Kirby y Elfilin. Incluso el caos estelar puede encontrar luz si luchás con coraje y ayudás a unir lo dividido. ¡Vos también sos un héroe cósmico, listo para cualquier aventura!
+Y así, querido lector, la leyenda de Fecto Elfilis enseña que el poder más grande del universo no está en grietas dimensionales ni en posesiones oscuras, sino en el equilibrio del corazón, la voluntad inquebrantable como la de Meta Knight, y la amistad pura como la de Kirby y Elfilin. Incluso el caos estelar puede encontrar luz si luchás con coraje y ayudás a unir lo dividido. ¡Vos también sos un héroe cósmico, listo para cualquier aventura!
     `,
   wordCount: 1105,
   level: '4to Grado (Nivel R)',
