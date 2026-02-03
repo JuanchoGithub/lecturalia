@@ -1,25 +1,28 @@
 
 const CACHE_NAME = 'lectura-app-v1';
-// List of files that make up the app shell
+// List of files that make up the app shell - updated to match .tsx/.ts project structure
 const urlsToCache = [
   '/',
   '/index.html',
   '/manifest.json',
   '/icon.svg',
-  '/index.js',
-  '/App.js',
-  '/types.js',
-  '/components/StorySelection.js',
-  '/components/ReadingView.js',
-  '/components/QuizView.js',
-  '/components/ResultsView.js',
-  '/components/PasswordModal.js',
-  '/components/ParentDashboard.js',
-  '/components/ui/Card.js',
-  '/components/ui/Button.js',
-  '/components/ui/ProgressBar.js',
-  '/data/stories/index.js',
-  '/data/definitions/index.js',
+  '/index.tsx',
+  '/App.tsx',
+  '/types.ts',
+  '/lib/gemini.ts',
+  '/components/StorySelection.tsx',
+  '/components/ReadingView.tsx',
+  '/components/QuizView.tsx',
+  '/components/ResultsView.tsx',
+  '/components/PasswordModal.tsx',
+  '/components/ParentDashboard.tsx',
+  '/components/GradeSelection.tsx',
+  '/components/SummaryView.tsx',
+  '/components/ui/Card.tsx',
+  '/components/ui/Button.tsx',
+  '/components/ui/ProgressBar.tsx',
+  '/data/stories/index.ts',
+  '/data/definitions/index.ts',
   'https://cdn.tailwindcss.com'
 ];
 
@@ -29,7 +32,6 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('Service Worker: Opening cache and caching the app shell');
-        // Use {cache: "reload"} to bypass browser's HTTP cache for these requests.
         const requests = urlsToCache.map(url => new Request(url, {cache: 'reload'}));
         return cache.addAll(requests);
       }).catch(error => {
@@ -40,7 +42,6 @@ self.addEventListener('install', (event) => {
 
 // Fetch event: serve from cache first, then network
 self.addEventListener('fetch', (event) => {
-  // We only want to handle GET requests for http/https protocols
   if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
     return;
   }
@@ -48,22 +49,17 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
-        // If response is in cache, return it
         if (response) {
           return response;
         }
 
-        // If not, fetch from network
         return fetch(event.request).then(
           (response) => {
-            // Check if we received a valid response
             if (!response || response.status !== 200 || response.type === 'error') {
               return response;
             }
 
-            // Clone the response because it's a one-time use stream
             const responseToCache = response.clone();
-
             caches.open(CACHE_NAME)
               .then((cache) => {
                 cache.put(event.request, responseToCache);
@@ -72,8 +68,7 @@ self.addEventListener('fetch', (event) => {
             return response;
           }
         ).catch(error => {
-          console.error('Service Worker: Fetch failed; returning offline page instead.', error);
-          // Optional: return a fallback offline page if a resource can't be fetched and isn't in cache
+          console.error('Service Worker: Fetch failed.', error);
         });
       })
   );
