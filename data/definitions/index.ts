@@ -44,6 +44,7 @@ import { definitions as elSoldaditoDePlomoDefinitions } from './el-soldadito-de-
 import { definitions as elTrajeNuevoDelEmperadorDefinitions } from './el-traje-nuevo-del-emperador';
 import { definitions as kirbyForgottenLandDefinitions } from './kirby-forgotten-land';
 import { definitions as laLeyendaDeFectoElfilisDefinitions } from './la-leyenda-de-fecto-elfilis';
+import { definitions as elGuardianDeLasLucesPerdidasDefinitions } from './el-guardian-de-las-luces-perdidas';
 
 export const allDefinitions: { [storyId: string]: { [word: string]: { explanation: string } } } = {
   'leo-the-lighthouse-lion': leoTheLighthouseLionDefinitions,
@@ -85,10 +86,11 @@ export const allDefinitions: { [storyId: string]: { [word: string]: { explanatio
   'unas-rimas-que-se-arriman': unasRimasQueSeArrimanDefinitions,
   'en-tren-de-descubrimiento': enTrenDeDescubrimientoDefinitions,
   'juan-sin-miedo': juanSinMiedoDefinitions,
-  'sastrecilloValiente': sastrecilloValienteDefinitions,
+  'sastrecillo-valiente': sastrecilloValienteDefinitions,
   'los-musicos-de-brema': losMusicosDeBremaDefinitions,
   'el-soldadito-de-plomo': elSoldaditoDePlomoDefinitions,
   'el-traje-nuevo-del-emperador': elTrajeNuevoDelEmperadorDefinitions,
   'kirby-forgotten-land': kirbyForgottenLandDefinitions,
   'la-leyenda-de-fecto-elfilis': laLeyendaDeFectoElfilisDefinitions,
+  'el-guardian-de-las-luces-perdidas': elGuardianDeLasLucesPerdidasDefinitions,
 };

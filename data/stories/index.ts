@@ -45,6 +45,7 @@ import { elSoldaditoDePlomo } from './el-soldadito-de-plomo';
 import { elTrajeNuevoDelEmperador } from './el-traje-nuevo-del-emperador';
 import { kirbyForgottenLand } from './kirby-forgotten-land';
 import { laLeyendaDeFectoElfilis } from './la-leyenda-de-fecto-elfilis';
+import { elGuardianDeLasLucesPerdidas } from './el-guardian-de-las-luces-perdidas';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -92,4 +93,5 @@ export const stories: Story[] = [
   elTrajeNuevoDelEmperador,
   kirbyForgottenLand,
   laLeyendaDeFectoElfilis,
+  elGuardianDeLasLucesPerdidas,
 ].sort((a, b) => a.title.localeCompare(b.title));
