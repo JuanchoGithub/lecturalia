@@ -2,9 +2,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Grade } from "../types";
 
-// Inicialización de la IA siguiendo las guías de seguridad y entorno
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
 /**
  * Utiliza la síntesis de voz nativa del navegador para leer el texto.
  * Es eficiente y funciona sin dependencias de red adicionales.
@@ -36,6 +33,8 @@ export const speakText = async (text: string) => {
  */
 export const getSmartHint = async (storyContent: string, questionText: string, wrongAnswer: string, grade: Grade) => {
   try {
+    // Inicialización justo antes de la llamada para evitar errores de carga
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Historia: ${storyContent}\nPregunta: ${questionText}\nRespuesta incorrecta: ${wrongAnswer}`,
@@ -63,6 +62,8 @@ export const evaluateSummary = async (storyContent: string, studentSummary: stri
   }
 
   try {
+    // Inicialización justo antes de la llamada
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Cuento original: ${storyContent}\nResumen del alumno: ${studentSummary}`,
