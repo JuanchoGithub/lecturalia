@@ -33,19 +33,26 @@ const ExplanationPopup: React.FC<ExplanationPopupProps> = ({ word, explanation, 
         };
     }, [onClose]);
 
-    const adjustedLeft = Math.max(10, Math.min(position.left, window.innerWidth - 300));
+    const adjustedLeft = Math.max(10, Math.min(position.left, window.innerWidth - 320));
     const transformStyle = placement === 'top' ? { transform: 'translateY(-100%)' } : {};
 
     return (
         <div 
             id="explanation-popup"
-            className="absolute z-20 bg-white p-4 rounded-lg shadow-xl border border-gray-200 w-72 animate-fade-in"
+            className="fixed z-50 bg-white p-6 rounded-3xl shadow-2xl border-2 border-brand-yellow w-[300px] animate-slide-up"
             style={{ top: position.top, left: adjustedLeft, ...transformStyle }}
             onClick={(e) => e.stopPropagation()}
         >
-            <h4 className="font-bold text-lg text-brand-purple mb-2 capitalize">{word}</h4>
-            <p className="text-sm text-dark-text whitespace-pre-wrap">{explanation}</p>
-            <button onClick={onClose} className="absolute top-1 right-2 text-gray-400 hover:text-gray-800 text-2xl font-bold">&times;</button>
+            <div className="flex items-center gap-2 mb-3">
+                <div className="w-8 h-8 rounded-full bg-brand-yellow/20 flex items-center justify-center text-brand-orange">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 16c1.255 0 2.443-.29 3.5-.804V4.804zM14.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 0114.5 16c1.255 0 2.443-.29 3.5-.804v-10A7.968 7.968 0 0014.5 4z" />
+                    </svg>
+                </div>
+                <h4 className="font-black text-xl text-brand-purple capitalize tracking-tighter">{word}</h4>
+            </div>
+            <p className="text-gray-600 leading-relaxed font-medium">{explanation}</p>
+            <button onClick={onClose} className="absolute -top-3 -right-3 bg-white border-2 border-gray-100 text-gray-400 hover:text-brand-pink rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors font-black text-2xl">&times;</button>
         </div>
     );
 };
@@ -226,7 +233,8 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         if (def) {
             const rect = (event.target as HTMLElement).getBoundingClientRect();
             const placement = rect.top > window.innerHeight / 2 ? 'top' : 'bottom';
-            const top = placement === 'top' ? rect.top + window.scrollY - 10 : rect.bottom + window.scrollY + 10;
+            // Adjust vertical positioning
+            const top = placement === 'top' ? rect.top + window.scrollY - 15 : rect.bottom + window.scrollY + 15;
             
             setExplanationPopup({
                 word: cleanWord,
@@ -247,7 +255,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 <span 
                     key={i}
                     onClick={(e) => handleWordClick(e, part)}
-                    className={`${isExplainMode && hasDefinition ? 'bg-brand-yellow/30 border-b-2 border-brand-orange cursor-help' : ''} transition-colors px-0.5 rounded`}
+                    className={`${isExplainMode && hasDefinition ? 'bg-brand-yellow/30 border-b-4 border-brand-orange cursor-help' : ''} transition-all px-0.5 rounded-sm`}
                 >
                     {part}
                 </span>
@@ -258,7 +266,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     if (pages.length === 0) return null;
 
     return (
-        <div className="max-w-3xl mx-auto pb-20 animate-fade-in relative">
+        <div className="max-w-4xl mx-auto pb-32 px-4 animate-fade-in relative">
             {explanationPopup && (
                 <ExplanationPopup 
                     {...explanationPopup} 
@@ -266,17 +274,17 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 />
             )}
 
-            <Card className="p-8 md:p-12 mb-8 min-h-[400px] border-t-8 border-brand-purple">
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-gray-100 pb-6 gap-4">
+            <Card className="p-8 md:p-16 mb-12 min-h-[500px] border-t-[12px] border-brand-purple shadow-2xl bg-white rounded-[40px]">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 border-b-2 border-gray-50 pb-8 gap-6">
                     <div>
-                        <h2 className="text-2xl font-bold text-brand-purple">{story.title}</h2>
-                        <p className="text-gray-500 text-sm italic">por {story.author}</p>
+                        <h2 className="text-3xl font-black text-brand-purple tracking-tight leading-none mb-2">{story.title}</h2>
+                        <p className="text-gray-400 font-bold uppercase text-xs tracking-widest">Escrito por {story.author}</p>
                     </div>
-                    <div className="flex gap-3">
+                    <div className="flex flex-wrap gap-4">
                         <button 
                             onClick={playAudio}
                             disabled={isGeneratingAudio}
-                            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-md transition-all font-bold text-sm ${isPlayingAudio ? 'bg-brand-pink text-white animate-pulse' : 'bg-white text-brand-pink border-2 border-brand-pink hover:bg-brand-pink/5'}`}
+                            className={`flex items-center gap-3 px-6 py-3 rounded-2xl shadow-lg transition-all font-black text-sm uppercase tracking-tighter ${isPlayingAudio ? 'bg-brand-pink text-white ring-4 ring-brand-pink/20' : 'bg-white text-brand-pink border-2 border-brand-pink hover:bg-brand-pink hover:text-white'}`}
                         >
                             {isGeneratingAudio ? (
                                 <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
@@ -285,65 +293,57 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                                 </svg>
                             ) : isPlayingAudio ? (
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M10 9v6m4-6v6" />
                                 </svg>
                             ) : (
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                                 </svg>
                             )}
-                            <span>{isPlayingAudio ? 'Parar' : 'Leer en voz alta'}</span>
+                            <span>{isPlayingAudio ? 'Parar Voz' : 'Escuchar'}</span>
                         </button>
                         <button 
                             onClick={() => setIsExplainMode(!isExplainMode)}
-                            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-md transition-all font-bold text-sm ${isExplainMode ? 'bg-brand-yellow text-brand-orange' : 'bg-white text-brand-orange border-2 border-brand-orange hover:bg-brand-yellow/5'}`}
-                            title="Modo Diccionario"
+                            className={`flex items-center gap-3 px-6 py-3 rounded-2xl shadow-lg transition-all font-black text-sm uppercase tracking-tighter ${isExplainMode ? 'bg-brand-yellow text-brand-orange ring-4 ring-brand-yellow/20' : 'bg-white text-brand-orange border-2 border-brand-orange hover:bg-brand-yellow hover:text-brand-orange'}`}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
                             <span>Diccionario</span>
                         </button>
                     </div>
                 </div>
 
-                <div className="text-xl md:text-2xl text-dark-text leading-relaxed whitespace-pre-wrap font-serif">
+                <div className="text-2xl md:text-3xl text-dark-text leading-[1.7] whitespace-pre-wrap font-serif selection:bg-brand-purple/20">
                     {renderTextWithClicks(pages[currentPageIndex])}
                 </div>
 
                 {isPlayingAudio && (
-                    <div className="mt-8 h-1 bg-gray-100 rounded-full overflow-hidden">
-                        <div 
-                            className="h-full bg-brand-pink transition-all duration-100" 
-                            style={{ width: `${audioProgress}%` }}
-                        ></div>
+                    <div className="mt-12">
+                        <div className="flex justify-between text-[10px] font-black text-brand-pink uppercase tracking-widest mb-2">
+                            <span>Reproduciendo página...</span>
+                            <span>{Math.round(audioProgress)}%</span>
+                        </div>
+                        <div className="h-3 bg-gray-100 rounded-full overflow-hidden shadow-inner">
+                            <div 
+                                className="h-full bg-gradient-to-r from-brand-pink to-brand-purple transition-all duration-300 ease-out" 
+                                style={{ width: `${audioProgress}%` }}
+                            ></div>
+                        </div>
                     </div>
                 )}
             </Card>
 
-            <div className="flex justify-between items-center mt-6">
-                <Button variant="secondary" onClick={handlePrevPage} disabled={currentPageIndex === 0}>
+            <div className="flex justify-between items-center gap-6">
+                <Button variant="secondary" onClick={handlePrevPage} disabled={currentPageIndex === 0} className="flex-1 max-w-[200px]">
                     &larr; Anterior
                 </Button>
-                <div className="text-sm font-bold text-gray-400">
-                    Página {currentPageIndex + 1} de {pages.length}
+                <div className="text-lg font-black text-gray-400 bg-white px-6 py-2 rounded-full shadow-sm border border-gray-100">
+                    {currentPageIndex + 1} / {pages.length}
                 </div>
-                <Button onClick={handleNextPage}>
-                    {currentPageIndex === pages.length - 1 ? '¡Terminar!' : 'Siguiente \u2192'}
+                <Button onClick={handleNextPage} className="flex-1 max-w-[200px]">
+                    {currentPageIndex === pages.length - 1 ? '¡Listo!' : 'Siguiente \u2192'}
                 </Button>
-            </div>
-
-            <div className="mt-12 flex items-center justify-center gap-4 bg-brand-blue/10 p-4 rounded-2xl border border-brand-blue/20">
-                <div className="p-2 bg-white rounded-full text-brand-blue">
-                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                   </svg>
-                </div>
-                <p className="text-sm text-brand-blue font-medium leading-tight">
-                    {isExplainMode 
-                        ? "¡Modo Diccionario activado! Toca las palabras resaltadas para ver qué significan."
-                        : "¡Leé tranquilo! Si encontrás una palabra difícil, activá el botón de Diccionario arriba."}
-                </p>
             </div>
         </div>
     );
