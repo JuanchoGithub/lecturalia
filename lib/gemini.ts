@@ -26,17 +26,16 @@ export async function decodeAudioData(
 
 /**
  * Genera audio a partir de texto usando el modelo TTS de Gemini.
- * Se inicializa GoogleGenAI justo antes de la llamada para capturar el API_KEY actual.
+ * Se inicializa GoogleGenAI con la clave directamente desde process.env.
  */
 export const getGeminiAudio = async (text: string): Promise<string | undefined> => {
-  const key = process.env.API_KEY;
-  if (!key) {
+  if (!process.env.API_KEY) {
     console.error("API_KEY no detectada. Por favor, configurala en el Portal para Padres.");
     return undefined;
   }
 
   try {
-    const ai = new GoogleGenAI({ apiKey: key });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash-preview-tts",
       contents: [{ parts: [{ text }] }],
@@ -52,11 +51,11 @@ export const getGeminiAudio = async (text: string): Promise<string | undefined> 
     
     return response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
   } catch (error: any) {
-    console.error("Error al llamar a Gemini TTS:", error);
-    // Si falla por entidad no encontrada, es probable que la key haya expirado o sea inválida
     if (error.message?.includes("Requested entity was not found")) {
-        console.warn("La clave API parece inválida o ha expirado.");
+        console.error("La clave API seleccionada no es válida o el proyecto no tiene habilitada la facturación.");
+        // Opcional: Podríamos emitir un evento para avisar al UI que resetee el estado
     }
+    console.error("Error al llamar a Gemini TTS:", error);
     return undefined;
   }
 };
@@ -65,11 +64,10 @@ export const getGeminiAudio = async (text: string): Promise<string | undefined> 
  * Genera una pista pedagógica basada en la pregunta y el error del alumno.
  */
 export const getSmartHint = async (storyContent: string, questionText: string, wrongAnswer: string, grade: Grade) => {
-  const key = process.env.API_KEY;
-  if (!key) return "¡Casi! Volvé a leer el texto con atención, el dato está ahí cerquita.";
+  if (!process.env.API_KEY) return "¡Casi! Volvé a leer el texto con atención, el dato está ahí cerquita.";
 
   try {
-    const ai = new GoogleGenAI({ apiKey: key });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Historia: ${storyContent}\nPregunta: ${questionText}\nRespuesta incorrecta: ${wrongAnswer}`,
@@ -82,7 +80,7 @@ export const getSmartHint = async (storyContent: string, questionText: string, w
       },
     });
     return response.text || "¡Buen intento! Volvé a leer la parte donde se habla de eso, seguro lo encontrás.";
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error obteniendo pista de Gemini:", error);
     return "¡Casi! Volvé a leer el texto con atención, el dato está ahí cerquita.";
   }
@@ -96,11 +94,10 @@ export const evaluateSummary = async (storyContent: string, studentSummary: stri
     return "El resumen es muy cortito. ¡Animate a contar un poco más de qué se trató la historia la próxima vez!";
   }
 
-  const key = process.env.API_KEY;
-  if (!key) return "¡Excelente esfuerzo al escribir tu resumen!";
+  if (!process.env.API_KEY) return "¡Excelente esfuerzo al escribir tu resumen!";
 
   try {
-    const ai = new GoogleGenAI({ apiKey: key });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Cuento original: ${storyContent}\nResumen del alumno: ${studentSummary}`,

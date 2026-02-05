@@ -238,20 +238,25 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
     const [selectedAttemptId, setSelectedAttemptId] = useState<string | null>(null);
     const [hasKey, setHasKey] = useState(false);
 
+    // Verificamos el estado de la clave de forma constante
     useEffect(() => {
         const checkKey = async () => {
             const selected = await (window as any).aistudio?.hasSelectedApiKey();
             setHasKey(!!selected);
         };
         checkKey();
+        // Agregamos un intervalo corto para refrescar el estado visual si la clave se selecciona en otra pestaña o similar
+        const interval = setInterval(checkKey, 3000);
+        return () => clearInterval(interval);
     }, []);
 
     const handleSelectKey = async () => {
         try {
             await (window as any).aistudio?.openSelectKey();
+            // Según las guías, debemos asumir éxito inmediatamente para evitar condiciones de carrera
             setHasKey(true);
         } catch (e) {
-            console.error("Error seleccionando clave", e);
+            console.error("Error al abrir el selector de claves", e);
         }
     };
 
@@ -344,8 +349,8 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
                 <div className="mb-8 p-4 bg-brand-yellow/10 border-2 border-brand-yellow rounded-2xl flex items-center gap-4 animate-pulse">
                     <span className="text-2xl">⚠️</span>
                     <p className="text-sm text-brand-orange font-bold">
-                        La inteligencia artificial no está conectada. El audio y el feedback pedagógico no funcionarán hasta que configures una clave de API (botón arriba).
-                        <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" className="ml-2 underline">Ver documentación de facturación</a>.
+                        La inteligencia artificial no está configurada correctamente. El audio y el feedback pedagógico requieren que selecciones una clave de API válida (botón superior).
+                        <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" className="ml-2 underline">Documentación de facturación</a>.
                     </p>
                 </div>
             )}
