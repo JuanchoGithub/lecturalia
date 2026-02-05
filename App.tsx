@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback, useEffect } from 'react';
 import { Story, AppState, UserAnswer, AllStoryStats, Question, QuestionCategory, Attempt, AnswerTiming, PageTiming, ReadingSession, Grade } from './types';
 import { stories } from './data/stories/index';
@@ -22,35 +21,12 @@ const App: React.FC = () => {
   const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
   const [inProgressStoryId, setInProgressStoryId] = useState<string | null>(null);
 
-  // Sync stored API key to environment
-  useEffect(() => {
-    const storedKey = localStorage.getItem('custom_gemini_api_key');
-    if (storedKey) {
-      process.env.API_KEY = storedKey;
-    }
-  }, []);
-
   // Load stats from localStorage on initialization
   const [stats, setStats] = useState<AllStoryStats>(() => {
     try {
       const savedStats = localStorage.getItem('readingAppStats');
       if (!savedStats) return {};
-      
-      const parsedStats: AllStoryStats = JSON.parse(savedStats);
-      
-      // Migration for old data formats
-      Object.keys(parsedStats).forEach(storyId => {
-        if (parsedStats[storyId] && parsedStats[storyId].attempts) {
-          parsedStats[storyId].attempts = parsedStats[storyId].attempts.map(attempt => ({
-            ...attempt,
-            grade: (attempt.grade === Grade.THIRD || attempt.grade === Grade.FOURTH) 
-                   ? attempt.grade 
-                   : Grade.THIRD
-          }));
-        }
-      });
-      
-      return parsedStats;
+      return JSON.parse(savedStats);
     } catch (error) {
       console.error("Could not load stats from localStorage", error);
       return {};
@@ -119,7 +95,6 @@ const App: React.FC = () => {
       return;
     }
 
-    // Attempt to resume session if it's the same story
     const sessionStr = localStorage.getItem('activeReadingSession');
     if (sessionStr) {
         try {
@@ -257,8 +232,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-brand-bg font-sans text-dark-text pb-20">
-      {/* App Header */}
+    <div className="min-h-screen bg-light-bg font-sans text-dark-text pb-20">
       <header className="bg-white shadow-sm mb-8">
         <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={handleRestart}>

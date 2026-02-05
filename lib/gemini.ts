@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Modality } from "@google/genai";
 import { Grade } from "../types";
 
@@ -26,9 +25,13 @@ export async function decodeAudioData(
 
 /**
  * Genera audio a partir de texto usando el modelo TTS de Gemini.
- * Se inicializa una nueva instancia de GoogleGenAI en cada llamada para asegurar el uso de la clave actual.
  */
 export const getGeminiAudio = async (text: string): Promise<string | undefined> => {
+  if (!process.env.API_KEY) {
+    console.error("API Key no configurada en el entorno.");
+    return undefined;
+  }
+  
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
@@ -55,6 +58,8 @@ export const getGeminiAudio = async (text: string): Promise<string | undefined> 
  * Genera una pista pedagógica basada en la pregunta y el contenido del cuento.
  */
 export const getSmartHint = async (storyContent: string, questionText: string, grade: Grade) => {
+  if (!process.env.API_KEY) return "¡Fijate bien en la historia! Seguro que la respuesta está escondida en algún párrafo.";
+
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
@@ -83,6 +88,8 @@ export const evaluateSummary = async (storyContent: string, studentSummary: stri
   if (!studentSummary || studentSummary.trim().length < 10) {
     return "El resumen es muy cortito. ¡Animate a contar un poco más de qué se trató la historia la próxima vez!";
   }
+
+  if (!process.env.API_KEY) return "¡Excelente esfuerzo con el resumen! Se nota que comprendiste los puntos clave del cuento.";
 
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
