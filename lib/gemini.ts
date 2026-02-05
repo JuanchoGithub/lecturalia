@@ -1,31 +1,60 @@
 
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI, Modality } from "@google/genai";
 import { Grade } from "../types";
 
-/**
- * Utiliza la síntesis de voz nativa del navegador para leer el texto.
- * Es eficiente y funciona sin dependencias de red adicionales.
- */
-export const speakText = async (text: string) => {
-  return new Promise((resolve) => {
-    window.speechSynthesis.cancel();
+// Funciones auxiliares para el manejo de audio PCM requerido por Gemini TTS
+function decodeBase64(base64: string): Uint8Array {
+  const binaryString = atob(base64);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  return bytes;
+}
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'es-AR';
-    utterance.rate = 0.9;
-    utterance.pitch = 1.1;
+export async function decodeAudioData(
+  data: Uint8Array,
+  ctx: AudioContext,
+  sampleRate: number = 24000,
+  numChannels: number = 1,
+): Promise<AudioBuffer> {
+  const dataInt16 = new Int16Array(data.buffer);
+  const frameCount = dataInt16.length / numChannels;
+  const buffer = ctx.createBuffer(numChannels, frameCount, sampleRate);
 
-    const voices = window.speechSynthesis.getVoices();
-    const spanishVoice = voices.find(v => v.lang.startsWith('es-AR')) || voices.find(v => v.lang.startsWith('es'));
-    if (spanishVoice) {
-      utterance.voice = spanishVoice;
+  for (let channel = 0; channel < numChannels; channel++) {
+    const channelData = buffer.getChannelData(channel);
+    for (let i = 0; i < frameCount; i++) {
+      channelData[i] = dataInt16[i * numChannels + channel] / 32768.0;
     }
+  }
+  return buffer;
+}
 
-    utterance.onend = () => resolve(true);
-    utterance.onerror = () => resolve(false);
-
-    window.speechSynthesis.speak(utterance);
-  });
+/**
+ * Genera audio a partir de texto usando el modelo TTS de Gemini.
+ */
+export const getGeminiAudio = async (text: string): Promise<string | undefined> => {
+  try {
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-flash-preview-tts",
+      contents: [{ parts: [{ text }] }],
+      config: {
+        responseModalities: [Modality.AUDIO],
+        speechConfig: {
+          voiceConfig: {
+            prebuiltVoiceConfig: { voiceName: 'Kore' },
+          },
+        },
+      },
+    });
+    return response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+  } catch (error) {
+    console.error("Error generating Gemini TTS:", error);
+    return undefined;
+  }
 };
 
 /**
@@ -33,7 +62,6 @@ export const speakText = async (text: string) => {
  */
 export const getSmartHint = async (storyContent: string, questionText: string, wrongAnswer: string, grade: Grade) => {
   try {
-    // Inicialización justo antes de la llamada para evitar errores de carga
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
@@ -62,7 +90,6 @@ export const evaluateSummary = async (storyContent: string, studentSummary: stri
   }
 
   try {
-    // Inicialización justo antes de la llamada
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',

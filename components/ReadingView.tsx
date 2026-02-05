@@ -1,10 +1,10 @@
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Story, ReadingSession } from '../types';
 import Card from './ui/Card';
 import Button from './ui/Button';
 import { allDefinitions } from '../data/definitions';
-import { speakText } from '../lib/gemini';
+import { getGeminiAudio, decodeAudioData } from '../lib/gemini';
 
 interface ReadingViewProps {
   story: Story;
@@ -74,7 +74,17 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     const [pages, setPages] = useState<string[]>([]);
     const [currentPageIndex, setCurrentPageIndex] = useState(0);
     const [isExplainMode, setIsExplainMode] = useState(false);
-    const [isSpeaking, setIsSpeaking] = useState(false);
+    
+    // Audio State
+    const [isGeneratingAudio, setIsGeneratingAudio] = useState(false);
+    const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+    const [audioProgress, setAudioProgress] = useState(0);
+    const audioContextRef = useRef<AudioContext | null>(null);
+    const sourceNodeRef = useRef<AudioBufferSourceNode | null>(null);
+    const startTimeRef = useRef<number>(0);
+    const durationRef = useRef<number>(0);
+    const progressIntervalRef = useRef<number | null>(null);
+
     const [explanationPopup, setExplanationPopup] = useState<{
         word: string;
         explanation: string;
@@ -86,6 +96,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     useEffect(() => {
         const definitions = allDefinitions[story.id] || {};
         setStoryDefinitions(definitions);
+        return () => stopAudio(); // Cleanup audio on unmount
     }, [story.id]);
 
     const saveProgress = useCallback(() => {
@@ -142,7 +153,74 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     
     useEffect(() => {
         setExplanationPopup(null);
+        stopAudio(); // Detener audio al cambiar de página
     }, [currentPageIndex]);
+
+    const stopAudio = () => {
+        if (sourceNodeRef.current) {
+            try { sourceNodeRef.current.stop(); } catch(e) {}
+            sourceNodeRef.current = null;
+        }
+        if (progressIntervalRef.current) {
+            window.clearInterval(progressIntervalRef.current);
+            progressIntervalRef.current = null;
+        }
+        setIsPlayingAudio(false);
+        setIsGeneratingAudio(false);
+        setAudioProgress(0);
+    };
+
+    const handleSpeakPage = async () => {
+        if (isPlayingAudio) {
+            stopAudio();
+            return;
+        }
+
+        setIsGeneratingAudio(true);
+        const base64Audio = await getGeminiAudio(pages[currentPageIndex]);
+        
+        if (!base64Audio) {
+            setIsGeneratingAudio(false);
+            alert("No se pudo generar el audio en este momento.");
+            return;
+        }
+
+        if (!audioContextRef.current) {
+            audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
+        }
+
+        const ctx = audioContextRef.current;
+        const binary = atob(base64Audio);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+
+        const buffer = await decodeAudioData(bytes, ctx, 24000, 1);
+        durationRef.ref = buffer.duration;
+
+        const source = ctx.createBufferSource();
+        source.buffer = buffer;
+        source.connect(ctx.destination);
+        
+        source.onended = () => {
+            stopAudio();
+        };
+
+        startTimeRef.current = ctx.currentTime;
+        durationRef.current = buffer.duration;
+        source.start(0);
+        sourceNodeRef.current = source;
+        
+        setIsGeneratingAudio(false);
+        setIsPlayingAudio(true);
+
+        progressIntervalRef.current = window.setInterval(() => {
+            if (ctx && durationRef.current > 0) {
+                const elapsed = ctx.currentTime - startTimeRef.current;
+                const progress = Math.min((elapsed / durationRef.current) * 100, 100);
+                setAudioProgress(progress);
+            }
+        }, 100);
+    };
 
     const updateSessionAndNavigate = (newPageIndex: number) => {
         try {
@@ -182,13 +260,6 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     const handleFinish = () => {
         saveProgress(); 
         onFinishReading();
-    };
-
-    const handleSpeakPage = async () => {
-        if (isSpeaking) return;
-        setIsSpeaking(true);
-        await speakText(pages[currentPageIndex]);
-        setIsSpeaking(false);
     };
 
     const handleWordClick = (word: string, event: React.MouseEvent<HTMLSpanElement>) => {
@@ -250,16 +321,35 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
             )}
             <Card>
                 <div className="p-6 md:p-10 relative">
-                    <div className="absolute top-4 left-4 flex gap-2">
-                        <Button onClick={() => setIsExplainMode(!isExplainMode)} variant={isExplainMode ? "primary" : "secondary"} size="sm">
-                           {isExplainMode ? 'Dejar de Explicar' : 'Explicar Palabras'}
-                        </Button>
-                        <Button onClick={handleSpeakPage} variant="secondary" size="sm" disabled={isSpeaking}>
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clipRule="evenodd" />
-                            </svg>
-                            {isSpeaking ? 'Escuchando...' : 'Escuchar Página'}
-                        </Button>
+                    <div className="absolute top-4 left-4 flex flex-col gap-2">
+                        <div className="flex gap-2">
+                            <Button onClick={() => setIsExplainMode(!isExplainMode)} variant={isExplainMode ? "primary" : "secondary"} size="sm">
+                               {isExplainMode ? 'Dejar de Explicar' : 'Explicar Palabras'}
+                            </Button>
+                            <Button 
+                                onClick={handleSpeakPage} 
+                                variant={isPlayingAudio ? "primary" : "secondary"} 
+                                size="sm" 
+                                disabled={isGeneratingAudio}
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    {isPlayingAudio ? (
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z" clipRule="evenodd" />
+                                    ) : (
+                                        <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217z" clipRule="evenodd" />
+                                    )}
+                                </svg>
+                                {isGeneratingAudio ? 'Generando...' : isPlayingAudio ? 'Detener' : 'Escuchar'}
+                            </Button>
+                        </div>
+                        {isPlayingAudio && (
+                            <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden mt-1">
+                                <div 
+                                    className="h-full bg-brand-purple transition-all duration-100 ease-linear" 
+                                    style={{ width: `${audioProgress}%` }}
+                                />
+                            </div>
+                        )}
                     </div>
                     <div className="absolute top-4 right-4 text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">
                         Página {currentPageIndex + 1} de {pages.length}
