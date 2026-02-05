@@ -85,6 +85,7 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     // Audio States
     const [isGeneratingAudio, setIsGeneratingAudio] = useState(false);
     const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+    const [isAudioPaused, setIsAudioPaused] = useState(false);
     const [audioProgress, setAudioProgress] = useState(0);
     const audioContextRef = useRef<AudioContext | null>(null);
     const sourceNodeRef = useRef<AudioBufferSourceNode | null>(null);
@@ -123,20 +124,39 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
             try { sourceNodeRef.current.stop(); } catch(e) {}
             sourceNodeRef.current = null;
         }
+        if (audioContextRef.current) {
+            // Ensure we resume before closing/ignoring to avoid issues with browser audio state
+            audioContextRef.current.resume().catch(() => {});
+        }
         if (progressIntervalRef.current) {
             clearInterval(progressIntervalRef.current);
             progressIntervalRef.current = null;
         }
         setIsPlayingAudio(false);
+        setIsAudioPaused(false);
         setAudioProgress(0);
     }, []);
 
     const playAudio = async () => {
-        if (isPlayingAudio) {
-            stopAudio();
+        // 1. If currently playing -> Suspend (Pause)
+        if (isPlayingAudio && !isAudioPaused) {
+            if (audioContextRef.current) {
+                await audioContextRef.current.suspend();
+                setIsAudioPaused(true);
+            }
             return;
         }
 
+        // 2. If currently paused -> Resume
+        if (isAudioPaused) {
+            if (audioContextRef.current) {
+                await audioContextRef.current.resume();
+                setIsAudioPaused(false);
+            }
+            return;
+        }
+
+        // 3. Not playing at all -> Generate and Start
         const textToSpeak = pages[currentPageIndex];
         setIsGeneratingAudio(true);
         const base64Audio = await getGeminiAudio(textToSpeak);
@@ -146,12 +166,19 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
 
         if (!audioContextRef.current) {
             audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
+        } else {
+            // Make sure the existing context is active
+            await audioContextRef.current.resume();
         }
 
         const audioData = Uint8Array.from(atob(base64Audio), c => c.charCodeAt(0));
         const audioBuffer = await decodeAudioData(audioData, audioContextRef.current);
 
-        stopAudio();
+        // Reset any previous node
+        if (sourceNodeRef.current) {
+            try { sourceNodeRef.current.stop(); } catch(e) {}
+        }
+        
         const source = audioContextRef.current.createBufferSource();
         source.buffer = audioBuffer;
         source.connect(audioContextRef.current.destination);
@@ -160,17 +187,23 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         startTimeRef.current = audioContextRef.current.currentTime;
         
         source.onended = () => {
-            setIsPlayingAudio(false);
-            setAudioProgress(0);
-            if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+            // Only reset if it's not a manual pause
+            if (audioContextRef.current?.state !== 'suspended') {
+                setIsPlayingAudio(false);
+                setIsAudioPaused(false);
+                setAudioProgress(0);
+                if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+            }
         };
 
         source.start();
         sourceNodeRef.current = source;
         setIsPlayingAudio(true);
+        setIsAudioPaused(false);
 
+        if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
         progressIntervalRef.current = window.setInterval(() => {
-            if (audioContextRef.current) {
+            if (audioContextRef.current && audioContextRef.current.state === 'running') {
                 const elapsed = audioContextRef.current.currentTime - startTimeRef.current;
                 setAudioProgress(Math.min((elapsed / durationRef.current) * 100, 100));
             }
@@ -233,7 +266,6 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
         if (def) {
             const rect = (event.target as HTMLElement).getBoundingClientRect();
             const placement = rect.top > window.innerHeight / 2 ? 'top' : 'bottom';
-            // Adjust vertical positioning
             const top = placement === 'top' ? rect.top + window.scrollY - 15 : rect.bottom + window.scrollY + 15;
             
             setExplanationPopup({
@@ -265,6 +297,14 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
 
     if (pages.length === 0) return null;
 
+    const audioButtonLabel = isGeneratingAudio 
+        ? 'Cargando...' 
+        : (isPlayingAudio && !isAudioPaused) 
+            ? 'Pausar' 
+            : isAudioPaused 
+                ? 'Seguir' 
+                : 'Escuchar';
+
     return (
         <div className="max-w-4xl mx-auto pb-32 px-4 animate-fade-in relative">
             {explanationPopup && (
@@ -291,16 +331,17 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                 </svg>
-                            ) : isPlayingAudio ? (
+                            ) : (isPlayingAudio && !isAudioPaused) ? (
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M10 9v6m4-6v6" />
                                 </svg>
                             ) : (
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             )}
-                            <span>{isPlayingAudio ? 'Parar Voz' : 'Escuchar'}</span>
+                            <span>{audioButtonLabel}</span>
                         </button>
                         <button 
                             onClick={() => setIsExplainMode(!isExplainMode)}
@@ -321,12 +362,12 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 {isPlayingAudio && (
                     <div className="mt-12">
                         <div className="flex justify-between text-[10px] font-black text-brand-pink uppercase tracking-widest mb-2">
-                            <span>Reproduciendo página...</span>
+                            <span>{isAudioPaused ? 'Audio pausado' : 'Reproduciendo página...'}</span>
                             <span>{Math.round(audioProgress)}%</span>
                         </div>
                         <div className="h-3 bg-gray-100 rounded-full overflow-hidden shadow-inner">
                             <div 
-                                className="h-full bg-gradient-to-r from-brand-pink to-brand-purple transition-all duration-300 ease-out" 
+                                className={`h-full bg-gradient-to-r from-brand-pink to-brand-purple transition-all duration-300 ease-out ${isAudioPaused ? 'opacity-50' : 'opacity-100'}`} 
                                 style={{ width: `${audioProgress}%` }}
                             ></div>
                         </div>

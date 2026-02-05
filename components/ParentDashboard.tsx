@@ -236,28 +236,15 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
 const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExit, onUnlockStory }) => {
     const [selectedStoryId, setSelectedStoryId] = useState<string | null>(null);
     const [selectedAttemptId, setSelectedAttemptId] = useState<string | null>(null);
-    const [hasKey, setHasKey] = useState(false);
+    const [manualApiKey, setManualApiKey] = useState(() => localStorage.getItem('custom_gemini_api_key') || '');
+    const [showKeyInput, setShowKeyInput] = useState(false);
+    const [saveStatus, setSaveStatus] = useState<'idle' | 'saved'>('idle');
 
-    // Verificamos el estado de la clave de forma constante
-    useEffect(() => {
-        const checkKey = async () => {
-            const selected = await (window as any).aistudio?.hasSelectedApiKey();
-            setHasKey(!!selected);
-        };
-        checkKey();
-        // Agregamos un intervalo corto para refrescar el estado visual si la clave se selecciona en otra pestaña o similar
-        const interval = setInterval(checkKey, 3000);
-        return () => clearInterval(interval);
-    }, []);
-
-    const handleSelectKey = async () => {
-        try {
-            await (window as any).aistudio?.openSelectKey();
-            // Según las guías, debemos asumir éxito inmediatamente para evitar condiciones de carrera
-            setHasKey(true);
-        } catch (e) {
-            console.error("Error al abrir el selector de claves", e);
-        }
+    const handleSaveApiKey = () => {
+      localStorage.setItem('custom_gemini_api_key', manualApiKey);
+      process.env.API_KEY = manualApiKey;
+      setSaveStatus('saved');
+      setTimeout(() => setSaveStatus('idle'), 2000);
     };
 
     const activeStory = stories.find(s => s.id === selectedStoryId);
@@ -338,21 +325,38 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
                   <p className="text-gray-500 font-medium">Seguimiento pedagógico y auditoría de lecturas</p>
                 </div>
                 <div className="flex gap-3">
-                  <Button onClick={handleSelectKey} variant={hasKey ? "secondary" : "primary"} size="sm">
-                    {hasKey ? "✓ IA Conectada" : "🔌 Conectar Inteligencia Artificial"}
+                  <Button onClick={() => setShowKeyInput(!showKeyInput)} variant="secondary" size="sm">
+                    {showKeyInput ? "Ocultar Ajustes" : "⚙️ Ajustes de IA"}
                   </Button>
                   <Button onClick={onExit} variant="secondary" size="sm">Cerrar Sesión</Button>
                 </div>
             </div>
 
-            {!hasKey && (
-                <div className="mb-8 p-4 bg-brand-yellow/10 border-2 border-brand-yellow rounded-2xl flex items-center gap-4 animate-pulse">
-                    <span className="text-2xl">⚠️</span>
-                    <p className="text-sm text-brand-orange font-bold">
-                        La inteligencia artificial no está configurada correctamente. El audio y el feedback pedagógico requieren que selecciones una clave de API válida (botón superior).
-                        <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" className="ml-2 underline">Documentación de facturación</a>.
-                    </p>
+            {showKeyInput && (
+              <Card className="mb-10 p-8 border-2 border-brand-yellow/30 bg-brand-yellow/5">
+                <div className="max-w-2xl">
+                  <h4 className="text-lg font-black text-brand-orange uppercase tracking-tight mb-2">Configuración de API Key</h4>
+                  <p className="text-sm text-gray-600 mb-6 font-medium">
+                    Ingresá manualmente tu clave de API de Gemini para habilitar las funciones de voz y tutoría inteligente. 
+                    La clave se guardará localmente en este navegador.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <input 
+                      type="password"
+                      value={manualApiKey}
+                      onChange={(e) => setManualApiKey(e.target.value)}
+                      placeholder="Pega tu API Key aquí..."
+                      className="flex-grow p-3 border-2 border-gray-200 rounded-xl focus:border-brand-orange outline-none font-mono text-sm"
+                    />
+                    <Button onClick={handleSaveApiKey} className="whitespace-nowrap">
+                      {saveStatus === 'saved' ? '✓ Guardado' : 'Guardar Clave'}
+                    </Button>
+                  </div>
+                  <p className="mt-4 text-xs text-gray-400">
+                    Obtené una clave gratuita en <a href="https://aistudio.google.com/app/apikey" target="_blank" className="underline text-brand-blue">Google AI Studio</a>.
+                  </p>
                 </div>
+              </Card>
             )}
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
