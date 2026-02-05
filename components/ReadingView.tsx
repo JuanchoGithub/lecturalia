@@ -70,10 +70,6 @@ const countWords = (text: string): number => {
     return text.trim().split(/\s+/).length;
 };
 
-/**
- * ReadingView Component
- * Fix: Complete implementation and add default export to resolve "Module has no default export" error in App.tsx
- */
 const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => {
     const [pages, setPages] = useState<string[]>([]);
     const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -270,29 +266,17 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 />
             )}
 
-            <div className="flex justify-between items-center mb-6">
-                <Button variant="secondary" onClick={handlePrevPage} disabled={currentPageIndex === 0}>
-                    &larr; Anterior
-                </Button>
-                <div className="text-sm font-bold text-gray-400">
-                    Página {currentPageIndex + 1} de {pages.length}
-                </div>
-                <Button onClick={handleNextPage}>
-                    {currentPageIndex === pages.length - 1 ? '¡Terminar!' : 'Siguiente \u2192'}
-                </Button>
-            </div>
-
-            <Card className="p-8 md:p-12 mb-8 min-h-[400px]">
-                <div className="flex justify-between items-start mb-8 border-b border-gray-100 pb-4">
+            <Card className="p-8 md:p-12 mb-8 min-h-[400px] border-t-8 border-brand-purple">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-gray-100 pb-6 gap-4">
                     <div>
                         <h2 className="text-2xl font-bold text-brand-purple">{story.title}</h2>
                         <p className="text-gray-500 text-sm italic">por {story.author}</p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex gap-3">
                         <button 
                             onClick={playAudio}
                             disabled={isGeneratingAudio}
-                            className={`p-3 rounded-full shadow-md transition-all ${isPlayingAudio ? 'bg-brand-pink text-white animate-pulse' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+                            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-md transition-all font-bold text-sm ${isPlayingAudio ? 'bg-brand-pink text-white animate-pulse' : 'bg-white text-brand-pink border-2 border-brand-pink hover:bg-brand-pink/5'}`}
                         >
                             {isGeneratingAudio ? (
                                 <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
@@ -300,23 +284,25 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                 </svg>
                             ) : isPlayingAudio ? (
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
                                 </svg>
                             ) : (
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                                 </svg>
                             )}
+                            <span>{isPlayingAudio ? 'Parar' : 'Leer en voz alta'}</span>
                         </button>
                         <button 
                             onClick={() => setIsExplainMode(!isExplainMode)}
-                            className={`p-3 rounded-full shadow-md transition-all ${isExplainMode ? 'bg-brand-yellow text-brand-orange' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+                            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-md transition-all font-bold text-sm ${isExplainMode ? 'bg-brand-yellow text-brand-orange' : 'bg-white text-brand-orange border-2 border-brand-orange hover:bg-brand-yellow/5'}`}
                             title="Modo Diccionario"
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
+                            <span>Diccionario</span>
                         </button>
                     </div>
                 </div>
@@ -335,7 +321,19 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 )}
             </Card>
 
-            <div className="flex items-center justify-center gap-4 bg-brand-blue/10 p-4 rounded-2xl border border-brand-blue/20">
+            <div className="flex justify-between items-center mt-6">
+                <Button variant="secondary" onClick={handlePrevPage} disabled={currentPageIndex === 0}>
+                    &larr; Anterior
+                </Button>
+                <div className="text-sm font-bold text-gray-400">
+                    Página {currentPageIndex + 1} de {pages.length}
+                </div>
+                <Button onClick={handleNextPage}>
+                    {currentPageIndex === pages.length - 1 ? '¡Terminar!' : 'Siguiente \u2192'}
+                </Button>
+            </div>
+
+            <div className="mt-12 flex items-center justify-center gap-4 bg-brand-blue/10 p-4 rounded-2xl border border-brand-blue/20">
                 <div className="p-2 bg-white rounded-full text-brand-blue">
                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -343,8 +341,8 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
                 </div>
                 <p className="text-sm text-brand-blue font-medium leading-tight">
                     {isExplainMode 
-                        ? "¡Modo Diccionario activado! Toca las palabras subrayadas para ver su significado."
-                        : "¡Leé tranquilo! Si encontrás una palabra difícil, activá el botón del librito arriba."}
+                        ? "¡Modo Diccionario activado! Toca las palabras resaltadas para ver qué significan."
+                        : "¡Leé tranquilo! Si encontrás una palabra difícil, activá el botón de Diccionario arriba."}
                 </p>
             </div>
         </div>
