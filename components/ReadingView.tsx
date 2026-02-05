@@ -70,12 +70,16 @@ const countWords = (text: string): number => {
     return text.trim().split(/\s+/).length;
 };
 
+/**
+ * ReadingView Component
+ * Fix: Complete implementation and add default export to resolve "Module has no default export" error in App.tsx
+ */
 const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => {
     const [pages, setPages] = useState<string[]>([]);
     const [currentPageIndex, setCurrentPageIndex] = useState(0);
     const [isExplainMode, setIsExplainMode] = useState(false);
     
-    // Audio State
+    // Audio States
     const [isGeneratingAudio, setIsGeneratingAudio] = useState(false);
     const [isPlayingAudio, setIsPlayingAudio] = useState(false);
     const [audioProgress, setAudioProgress] = useState(0);
@@ -94,292 +98,254 @@ const ReadingView: React.FC<ReadingViewProps> = ({ story, onFinishReading }) => 
     const [storyDefinitions, setStoryDefinitions] = useState<{ [word: string]: { explanation: string } }>({});
 
     useEffect(() => {
-        const definitions = allDefinitions[story.id] || {};
-        setStoryDefinitions(definitions);
-        return () => stopAudio(); // Cleanup audio on unmount
-    }, [story.id]);
+        const paginated = paginateStory(story);
+        setPages(paginated);
+        setStoryDefinitions(allDefinitions[story.id] || {});
 
-    const saveProgress = useCallback(() => {
-        try {
-            const sessionStr = localStorage.getItem('activeReadingSession');
-            if (sessionStr && pages.length > 0) {
+        const sessionStr = localStorage.getItem('activeReadingSession');
+        if (sessionStr) {
+            try {
                 const session: ReadingSession = JSON.parse(sessionStr);
-                if(session.storyId !== story.id) return;
-                const duration = Date.now() - session.pageStartTime;
-                const existingPageIndex = session.pageTimings.findIndex(p => p.pageIndex === session.currentPageIndex);
-                if (existingPageIndex > -1) {
-                    session.pageTimings[existingPageIndex].duration += duration;
-                } else {
-                     if (session.currentPageIndex < pages.length) {
-                        session.pageTimings.push({
-                            pageIndex: session.currentPageIndex,
-                            duration,
-                            wordCount: countWords(pages[session.currentPageIndex]),
-                        });
-                    }
-                }
-                session.pageStartTime = Date.now();
-                localStorage.setItem('activeReadingSession', JSON.stringify(session));
-            }
-        } catch (error) {
-            console.error("Failed to save reading progress", error);
-        }
-    }, [pages, story.id]);
-
-    useEffect(() => {
-        const paginatedContent = paginateStory(story);
-        setPages(paginatedContent);
-
-        try {
-            const sessionStr = localStorage.getItem('activeReadingSession');
-            if (sessionStr) {
-                const session: ReadingSession = JSON.parse(sessionStr);
-                if (session.storyId === story.id && session.currentPageIndex < paginatedContent.length) {
+                if (session.storyId === story.id) {
                     setCurrentPageIndex(session.currentPageIndex);
-                } else {
-                    setCurrentPageIndex(0);
                 }
+            } catch (e) {
+                console.error("Error parsing reading session", e);
             }
-        } catch (error) {
-            console.error("Failed to load session state", error)
         }
+    }, [story]);
 
-        window.addEventListener('beforeunload', saveProgress);
-        return () => {
-            saveProgress();
-            window.removeEventListener('beforeunload', saveProgress);
-        };
-    }, [story, saveProgress]);
-    
-    useEffect(() => {
-        setExplanationPopup(null);
-        stopAudio(); // Detener audio al cambiar de página
-    }, [currentPageIndex]);
-
-    const stopAudio = () => {
+    const stopAudio = useCallback(() => {
         if (sourceNodeRef.current) {
             try { sourceNodeRef.current.stop(); } catch(e) {}
             sourceNodeRef.current = null;
         }
         if (progressIntervalRef.current) {
-            window.clearInterval(progressIntervalRef.current);
+            clearInterval(progressIntervalRef.current);
             progressIntervalRef.current = null;
         }
         setIsPlayingAudio(false);
-        setIsGeneratingAudio(false);
         setAudioProgress(0);
-    };
+    }, []);
 
-    const handleSpeakPage = async () => {
+    const playAudio = async () => {
         if (isPlayingAudio) {
             stopAudio();
             return;
         }
 
+        const textToSpeak = pages[currentPageIndex];
         setIsGeneratingAudio(true);
-        const base64Audio = await getGeminiAudio(pages[currentPageIndex]);
-        
-        if (!base64Audio) {
-            setIsGeneratingAudio(false);
-            alert("No se pudo generar el audio en este momento.");
-            return;
-        }
+        const base64Audio = await getGeminiAudio(textToSpeak);
+        setIsGeneratingAudio(false);
+
+        if (!base64Audio) return;
 
         if (!audioContextRef.current) {
             audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
         }
 
-        const ctx = audioContextRef.current;
-        const binary = atob(base64Audio);
-        const bytes = new Uint8Array(binary.length);
-        for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+        const audioData = Uint8Array.from(atob(base64Audio), c => c.charCodeAt(0));
+        const audioBuffer = await decodeAudioData(audioData, audioContextRef.current);
 
-        const buffer = await decodeAudioData(bytes, ctx, 24000, 1);
-        durationRef.ref = buffer.duration;
-
-        const source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(ctx.destination);
+        stopAudio();
+        const source = audioContextRef.current.createBufferSource();
+        source.buffer = audioBuffer;
+        source.connect(audioContextRef.current.destination);
+        
+        durationRef.current = audioBuffer.duration;
+        startTimeRef.current = audioContextRef.current.currentTime;
         
         source.onended = () => {
-            stopAudio();
+            setIsPlayingAudio(false);
+            setAudioProgress(0);
+            if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
         };
 
-        startTimeRef.current = ctx.currentTime;
-        durationRef.current = buffer.duration;
-        source.start(0);
+        source.start();
         sourceNodeRef.current = source;
-        
-        setIsGeneratingAudio(false);
         setIsPlayingAudio(true);
 
         progressIntervalRef.current = window.setInterval(() => {
-            if (ctx && durationRef.current > 0) {
-                const elapsed = ctx.currentTime - startTimeRef.current;
-                const progress = Math.min((elapsed / durationRef.current) * 100, 100);
-                setAudioProgress(progress);
+            if (audioContextRef.current) {
+                const elapsed = audioContextRef.current.currentTime - startTimeRef.current;
+                setAudioProgress(Math.min((elapsed / durationRef.current) * 100, 100));
             }
         }, 100);
     };
 
-    const updateSessionAndNavigate = (newPageIndex: number) => {
-        try {
-            const sessionStr = localStorage.getItem('activeReadingSession');
-            if (sessionStr && pages.length > 0) {
+    const updateSession = useCallback((index: number) => {
+        const sessionStr = localStorage.getItem('activeReadingSession');
+        if (sessionStr) {
+            try {
                 const session: ReadingSession = JSON.parse(sessionStr);
-                const duration = Date.now() - session.pageStartTime;
-                const wordCount = countWords(pages[currentPageIndex]);
-                const existingIndex = session.pageTimings.findIndex(p => p.pageIndex === currentPageIndex);
-                if (existingIndex > -1) {
-                    session.pageTimings[existingIndex].duration += duration;
-                } else {
-                    session.pageTimings.push({ pageIndex: currentPageIndex, duration, wordCount });
-                }
-                session.currentPageIndex = newPageIndex;
-                session.pageStartTime = Date.now();
-                localStorage.setItem('activeReadingSession', JSON.stringify(session));
-                setCurrentPageIndex(newPageIndex);
+                const now = Date.now();
+                const duration = now - (session.pageStartTime || session.startTime);
+                
+                const newTiming = {
+                    pageIndex: currentPageIndex,
+                    duration,
+                    wordCount: countWords(pages[currentPageIndex])
+                };
+
+                const updatedSession: ReadingSession = {
+                    ...session,
+                    currentPageIndex: index,
+                    pageStartTime: now,
+                    pageTimings: [...(session.pageTimings || []), newTiming]
+                };
+                localStorage.setItem('activeReadingSession', JSON.stringify(updatedSession));
+            } catch (e) {
+                console.error("Error updating reading session", e);
             }
-        } catch (error) {
-            console.error("Failed to update session on navigation", error);
         }
-    };
+    }, [currentPageIndex, pages]);
 
     const handleNextPage = () => {
+        stopAudio();
         if (currentPageIndex < pages.length - 1) {
-            updateSessionAndNavigate(currentPageIndex + 1);
+            updateSession(currentPageIndex + 1);
+            setCurrentPageIndex(prev => prev + 1);
+            window.scrollTo(0, 0);
+        } else {
+            updateSession(currentPageIndex);
+            onFinishReading();
         }
     };
 
     const handlePrevPage = () => {
+        stopAudio();
         if (currentPageIndex > 0) {
-            updateSessionAndNavigate(currentPageIndex - 1);
+            setCurrentPageIndex(prev => prev - 1);
+            window.scrollTo(0, 0);
         }
     };
 
-    const handleFinish = () => {
-        saveProgress(); 
-        onFinishReading();
-    };
+    const handleWordClick = (event: React.MouseEvent, word: string) => {
+        if (!isExplainMode) return;
 
-    const handleWordClick = (word: string, event: React.MouseEvent<HTMLSpanElement>) => {
-        const lowerCaseWord = word.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
-        if (storyDefinitions[lowerCaseWord]) {
-            const rect = event.currentTarget.getBoundingClientRect();
-            const spaceBelow = window.innerHeight - rect.bottom;
-            const shouldPlaceAbove = spaceBelow < 150 && rect.top > 150;
-            const topPosition = shouldPlaceAbove
-                ? rect.top + window.scrollY - 8
-                : rect.bottom + window.scrollY + 8;
-            const leftPosition = rect.left + window.scrollX;
+        const cleanWord = word.toLowerCase().replace(/[.,!?;:()]/g, '');
+        const def = storyDefinitions[cleanWord];
 
+        if (def) {
+            const rect = (event.target as HTMLElement).getBoundingClientRect();
+            const placement = rect.top > window.innerHeight / 2 ? 'top' : 'bottom';
+            const top = placement === 'top' ? rect.top + window.scrollY - 10 : rect.bottom + window.scrollY + 10;
+            
             setExplanationPopup({
-                word: lowerCaseWord,
-                explanation: storyDefinitions[lowerCaseWord].explanation,
-                position: { top: topPosition, left: leftPosition },
-                placement: shouldPlaceAbove ? 'top' : 'bottom',
+                word: cleanWord,
+                explanation: def.explanation,
+                position: { top, left: rect.left },
+                placement
             });
         }
     };
 
-    const renderPageContent = () => {
-        const pageText = pages[currentPageIndex];
-        if (!isExplainMode) return pageText;
-        const wordsAndSeparators = pageText.split(/([ \n.,;¡!¿?:—"“”()])/);
-        return wordsAndSeparators.map((segment, index) => {
-            const lowerCaseWord = segment.toLowerCase().replace(/[^a-záéíóúüñ]/g, '');
-            if (storyDefinitions[lowerCaseWord]) {
-                return (
-                    <span 
-                        key={index} 
-                        className="bg-brand-yellow/50 cursor-pointer rounded px-1 py-0.5"
-                        onClick={(e) => handleWordClick(segment, e)}
-                    >
-                        {segment}
-                    </span>
-                );
-            }
-            return segment;
+    const renderTextWithClicks = (text: string) => {
+        return text.split(/(\s+)/).map((part, i) => {
+            if (/\s+/.test(part)) return part;
+            const cleanWord = part.toLowerCase().replace(/[.,!?;:()]/g, '');
+            const hasDefinition = !!storyDefinitions[cleanWord];
+            
+            return (
+                <span 
+                    key={i}
+                    onClick={(e) => handleWordClick(e, part)}
+                    className={`${isExplainMode && hasDefinition ? 'bg-brand-yellow/30 border-b-2 border-brand-orange cursor-help' : ''} transition-colors px-0.5 rounded`}
+                >
+                    {part}
+                </span>
+            );
         });
     };
 
-    if (pages.length === 0) return <div>Cargando historia...</div>;
-
-    const isFirstPage = currentPageIndex === 0;
-    const isLastPage = currentPageIndex === pages.length - 1;
+    if (pages.length === 0) return null;
 
     return (
-        <div className="max-w-4xl mx-auto">
-             {explanationPopup && (
+        <div className="max-w-3xl mx-auto pb-20 animate-fade-in relative">
+            {explanationPopup && (
                 <ExplanationPopup 
-                    word={explanationPopup.word}
-                    explanation={explanationPopup.explanation}
-                    position={explanationPopup.position}
-                    placement={explanationPopup.placement}
-                    onClose={() => setExplanationPopup(null)}
+                    {...explanationPopup} 
+                    onClose={() => setExplanationPopup(null)} 
                 />
             )}
-            <Card>
-                <div className="p-6 md:p-10 relative">
-                    <div className="absolute top-4 left-4 flex flex-col gap-2">
-                        <div className="flex gap-2">
-                            <Button onClick={() => setIsExplainMode(!isExplainMode)} variant={isExplainMode ? "primary" : "secondary"} size="sm">
-                               {isExplainMode ? 'Dejar de Explicar' : 'Explicar Palabras'}
-                            </Button>
-                            <Button 
-                                onClick={handleSpeakPage} 
-                                variant={isPlayingAudio ? "primary" : "secondary"} 
-                                size="sm" 
-                                disabled={isGeneratingAudio}
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor">
-                                    {isPlayingAudio ? (
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z" clipRule="evenodd" />
-                                    ) : (
-                                        <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217z" clipRule="evenodd" />
-                                    )}
+
+            <div className="flex justify-between items-center mb-6">
+                <Button variant="secondary" onClick={handlePrevPage} disabled={currentPageIndex === 0}>
+                    &larr; Anterior
+                </Button>
+                <div className="text-sm font-bold text-gray-400">
+                    Página {currentPageIndex + 1} de {pages.length}
+                </div>
+                <Button onClick={handleNextPage}>
+                    {currentPageIndex === pages.length - 1 ? '¡Terminar!' : 'Siguiente \u2192'}
+                </Button>
+            </div>
+
+            <Card className="p-8 md:p-12 mb-8 min-h-[400px]">
+                <div className="flex justify-between items-start mb-8 border-b border-gray-100 pb-4">
+                    <div>
+                        <h2 className="text-2xl font-bold text-brand-purple">{story.title}</h2>
+                        <p className="text-gray-500 text-sm italic">por {story.author}</p>
+                    </div>
+                    <div className="flex gap-2">
+                        <button 
+                            onClick={playAudio}
+                            disabled={isGeneratingAudio}
+                            className={`p-3 rounded-full shadow-md transition-all ${isPlayingAudio ? 'bg-brand-pink text-white animate-pulse' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+                        >
+                            {isGeneratingAudio ? (
+                                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                 </svg>
-                                {isGeneratingAudio ? 'Generando...' : isPlayingAudio ? 'Detener' : 'Escuchar'}
-                            </Button>
-                        </div>
-                        {isPlayingAudio && (
-                            <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden mt-1">
-                                <div 
-                                    className="h-full bg-brand-purple transition-all duration-100 ease-linear" 
-                                    style={{ width: `${audioProgress}%` }}
-                                />
-                            </div>
-                        )}
-                    </div>
-                    <div className="absolute top-4 right-4 text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">
-                        Página {currentPageIndex + 1} de {pages.length}
-                    </div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-brand-purple mb-2 text-center mt-12">{story.title}</h2>
-                    <p className="text-gray-500 mb-6 text-center">por {story.author}</p>
-                    <div
-                        className="prose prose-lg max-w-none text-dark-text text-justify min-h-[300px]"
-                        style={{ whiteSpace: 'pre-wrap' }}
-                    >
-                        {renderPageContent()}
+                            ) : isPlayingAudio ? (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
+                                </svg>
+                            ) : (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                                </svg>
+                            )}
+                        </button>
+                        <button 
+                            onClick={() => setIsExplainMode(!isExplainMode)}
+                            className={`p-3 rounded-full shadow-md transition-all ${isExplainMode ? 'bg-brand-yellow text-brand-orange' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+                            title="Modo Diccionario"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-            </Card>
-            <div className={`mt-8 flex items-center ${isFirstPage ? 'justify-end' : 'justify-between'}`}>
-                {!isFirstPage && (
-                    <Button onClick={handlePrevPage} variant="secondary">
-                        Anterior
-                    </Button>
-                )}
 
-                {isLastPage ? (
-                    <Button onClick={handleFinish} size="lg">
-                        ¡Terminé de Leer!
-                    </Button>
-                ) : (
-                    <Button onClick={handleNextPage} size="lg">
-                        Siguiente
-                    </Button>
+                <div className="text-xl md:text-2xl text-dark-text leading-relaxed whitespace-pre-wrap font-serif">
+                    {renderTextWithClicks(pages[currentPageIndex])}
+                </div>
+
+                {isPlayingAudio && (
+                    <div className="mt-8 h-1 bg-gray-100 rounded-full overflow-hidden">
+                        <div 
+                            className="h-full bg-brand-pink transition-all duration-100" 
+                            style={{ width: `${audioProgress}%` }}
+                        ></div>
+                    </div>
                 )}
+            </Card>
+
+            <div className="flex items-center justify-center gap-4 bg-brand-blue/10 p-4 rounded-2xl border border-brand-blue/20">
+                <div className="p-2 bg-white rounded-full text-brand-blue">
+                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                   </svg>
+                </div>
+                <p className="text-sm text-brand-blue font-medium leading-tight">
+                    {isExplainMode 
+                        ? "¡Modo Diccionario activado! Toca las palabras subrayadas para ver su significado."
+                        : "¡Leé tranquilo! Si encontrás una palabra difícil, activá el botón del librito arriba."}
+                </p>
             </div>
         </div>
     );

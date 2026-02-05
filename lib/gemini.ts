@@ -2,17 +2,10 @@
 import { GoogleGenAI, Modality } from "@google/genai";
 import { Grade } from "../types";
 
-// Funciones auxiliares para el manejo de audio PCM requerido por Gemini TTS
-function decodeBase64(base64: string): Uint8Array {
-  const binaryString = atob(base64);
-  const len = binaryString.length;
-  const bytes = new Uint8Array(len);
-  for (let i = 0; i < len; i++) {
-    bytes[i] = binaryString.charCodeAt(i);
-  }
-  return bytes;
-}
-
+/**
+ * Decodifica audio PCM crudo (Float32) devuelto por la API de Gemini.
+ * El SDK devuelve datos Int16 que deben normalizarse.
+ */
 export async function decodeAudioData(
   data: Uint8Array,
   ctx: AudioContext,
@@ -26,6 +19,7 @@ export async function decodeAudioData(
   for (let channel = 0; channel < numChannels; channel++) {
     const channelData = buffer.getChannelData(channel);
     for (let i = 0; i < frameCount; i++) {
+      // Normalización de Int16 a Float32 (-1.0 a 1.0)
       channelData[i] = dataInt16[i * numChannels + channel] / 32768.0;
     }
   }
@@ -34,10 +28,17 @@ export async function decodeAudioData(
 
 /**
  * Genera audio a partir de texto usando el modelo TTS de Gemini.
+ * Se inicializa GoogleGenAI aquí para asegurar que process.env.API_KEY esté disponible.
  */
 export const getGeminiAudio = async (text: string): Promise<string | undefined> => {
+  const key = process.env.API_KEY;
+  if (!key || key === "") {
+    console.error("DEBUG: API_KEY no encontrada o vacía en el navegador. Verificá la configuración del entorno.");
+    return undefined;
+  }
+
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: key });
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash-preview-tts",
       contents: [{ parts: [{ text }] }],
@@ -50,9 +51,14 @@ export const getGeminiAudio = async (text: string): Promise<string | undefined> 
         },
       },
     });
-    return response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+    
+    const base64Data = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+    if (!base64Data) {
+        console.warn("DEBUG: La respuesta de Gemini no contiene datos de audio.");
+    }
+    return base64Data;
   } catch (error) {
-    console.error("Error generating Gemini TTS:", error);
+    console.error("DEBUG: Error al llamar a Gemini TTS:", error);
     return undefined;
   }
 };
@@ -61,8 +67,11 @@ export const getGeminiAudio = async (text: string): Promise<string | undefined> 
  * Genera una pista pedagógica basada en la pregunta y el error del alumno.
  */
 export const getSmartHint = async (storyContent: string, questionText: string, wrongAnswer: string, grade: Grade) => {
+  const key = process.env.API_KEY;
+  if (!key) return "¡Casi! Volvé a leer el texto con atención, el dato está ahí cerquita.";
+
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: key });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Historia: ${storyContent}\nPregunta: ${questionText}\nRespuesta incorrecta: ${wrongAnswer}`,
@@ -89,8 +98,11 @@ export const evaluateSummary = async (storyContent: string, studentSummary: stri
     return "El resumen es muy cortito. ¡Animate a contar un poco más de qué se trató la historia la próxima vez!";
   }
 
+  const key = process.env.API_KEY;
+  if (!key) return "¡Excelente esfuerzo al escribir tu resumen! Es muy importante practicar la escritura para entender mejor lo que leemos.";
+
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: key });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `Cuento original: ${storyContent}\nResumen del alumno: ${studentSummary}`,
