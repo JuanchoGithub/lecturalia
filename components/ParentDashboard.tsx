@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AllStoryStats, Story, Attempt, QuestionCategory } from '../types';
 import Card from './ui/Card';
 import Button from './ui/Button';
@@ -26,7 +26,6 @@ const calculateWPM = (wordCount: number, durationMs: number) => {
   return Math.round(wordCount / minutes);
 };
 
-// Re-pagiante logic to show page text in dashboard
 const paginateStory = (story: Story): string[] => {
     const content = story.content;
     const isAdelaBasch = story.author === 'Adela Basch';
@@ -63,7 +62,6 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
         <h3 className="text-2xl font-bold text-brand-purple">Reporte: {story.title}</h3>
       </div>
 
-      {/* Overview Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
         <Card className="p-4 border-b-4 border-brand-blue bg-white">
           <p className="text-xs font-bold text-gray-400 uppercase">Puntaje Total</p>
@@ -83,7 +81,6 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
         </Card>
       </div>
 
-      {/* Detailed Reading Behavior */}
       <Card className="p-6 bg-white border border-gray-100 shadow-sm">
         <h4 className="text-lg font-bold mb-6 flex items-center gap-2 text-dark-text">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-brand-purple" viewBox="0 0 20 20" fill="currentColor">
@@ -136,7 +133,6 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
         </div>
       </Card>
 
-      {/* Quiz Audit Section */}
       <div className="space-y-4">
         <h4 className="text-lg font-bold flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-brand-orange" viewBox="0 0 20 20" fill="currentColor">
@@ -192,7 +188,6 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
         })}
       </div>
 
-      {/* AI Evaluation Summary - COLLAPSED AT THE END */}
       {attempt.studentSummary ? (
         <div className="pt-6">
           <button 
@@ -241,6 +236,24 @@ const AttemptDetail: React.FC<{ attempt: Attempt; story: Story; onBack: () => vo
 const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExit, onUnlockStory }) => {
     const [selectedStoryId, setSelectedStoryId] = useState<string | null>(null);
     const [selectedAttemptId, setSelectedAttemptId] = useState<string | null>(null);
+    const [hasKey, setHasKey] = useState(false);
+
+    useEffect(() => {
+        const checkKey = async () => {
+            const selected = await (window as any).aistudio?.hasSelectedApiKey();
+            setHasKey(!!selected);
+        };
+        checkKey();
+    }, []);
+
+    const handleSelectKey = async () => {
+        try {
+            await (window as any).aistudio?.openSelectKey();
+            setHasKey(true);
+        } catch (e) {
+            console.error("Error seleccionando clave", e);
+        }
+    };
 
     const activeStory = stories.find(s => s.id === selectedStoryId);
     const activeStats = selectedStoryId ? stats[selectedStoryId] : null;
@@ -314,13 +327,28 @@ const ParentDashboard: React.FC<ParentDashboardProps> = ({ stories, stats, onExi
 
     return (
         <div className="max-w-6xl mx-auto px-4 pt-6 animate-fade-in">
-            <div className="flex justify-between items-center mb-10">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-6">
                 <div>
                   <h2 className="text-4xl font-black text-brand-purple tracking-tight">Portal para Padres</h2>
                   <p className="text-gray-500 font-medium">Seguimiento pedagógico y auditoría de lecturas</p>
                 </div>
-                <Button onClick={onExit} variant="secondary">Cerrar Sesión</Button>
+                <div className="flex gap-3">
+                  <Button onClick={handleSelectKey} variant={hasKey ? "secondary" : "primary"} size="sm">
+                    {hasKey ? "✓ IA Conectada" : "🔌 Conectar Inteligencia Artificial"}
+                  </Button>
+                  <Button onClick={onExit} variant="secondary" size="sm">Cerrar Sesión</Button>
+                </div>
             </div>
+
+            {!hasKey && (
+                <div className="mb-8 p-4 bg-brand-yellow/10 border-2 border-brand-yellow rounded-2xl flex items-center gap-4 animate-pulse">
+                    <span className="text-2xl">⚠️</span>
+                    <p className="text-sm text-brand-orange font-bold">
+                        La inteligencia artificial no está conectada. El audio y el feedback pedagógico no funcionarán hasta que configures una clave de API (botón arriba).
+                        <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" className="ml-2 underline">Ver documentación de facturación</a>.
+                    </p>
+                </div>
+            )}
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {stories.map(story => {
