@@ -23,6 +23,8 @@ const urlsToCache = [
   '/components/ui/ProgressBar.tsx',
   '/data/stories/index.ts',
   '/data/definitions/index.ts',
+  '/data/stories/el-run-imposible-de-kirby-parte-2.ts',
+  '/data/definitions/el-run-imposible-de-kirby-parte-2.ts',
   'https://cdn.tailwindcss.com'
 ];
 

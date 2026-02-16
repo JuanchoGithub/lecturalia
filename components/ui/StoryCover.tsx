@@ -67,6 +67,7 @@ const StoryCover: React.FC<StoryCoverProps> = ({ storyId, title, className = "" 
       'una-asombrosa-llama-en-el-desierto': ['#EA580C', '#FDBA74'],
       'un-libro-de-ciencia-friccion': ['#4F46E5', '#818CF8'],
       'el-run-imposible-de-kirby': ['#FF85A1', '#F43F5E'],
+      'el-run-imposible-de-kirby-parte-2': ['#FF85A1', '#FF006E'],
       'el-guardian-de-las-luces-perdidas': ['#FFE259', '#FFA751'],
     };
 
@@ -303,6 +304,7 @@ const StoryCover: React.FC<StoryCoverProps> = ({ storyId, title, className = "" 
           </g>
         );
       case 'el-run-imposible-de-kirby':
+      case 'el-run-imposible-de-kirby-parte-2':
         return (
           <g className="animate-floaty">
              <circle cx="40" cy="50" r="25" fill="#FF85A1" stroke="#FF006E" strokeWidth="2" />
