@@ -130,6 +130,13 @@ Y Kirby aprendió algo importante, algo que nunca olvidaría: el poder más gran
         options: ['Porque llovió mucho', 'Porque los Waddle Dees plantaron semillas', 'Porque Kirby destruyó la oscuridad de Fecto Forgo con su corazón valiente', 'Porque el sol salió de nuevo'],
         correctAnswer: 'Porque Kirby destruyó la oscuridad de Fecto Forgo con su corazón valiente',
       },
+      {
+        id: 'kir-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué aprendió Kirby sobre la fuerza al final de la historia?',
+        options: ['Que ser gigante es lo más importante', 'Que el poder real no es estar solo y ser fuerte, sino tener amigos que te apoyen', 'Que es mejor no tener poderes', 'Que los Waddle Dees son débiles'],
+        correctAnswer: 'Que el poder real no es estar solo y ser fuerte, sino tener amigos que te apoyen',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -146,6 +153,13 @@ Y Kirby aprendió algo importante, algo que nunca olvidaría: el poder más gran
         options: ['Que todos los alienígenas son malos', 'Que incluso de algo peligroso puede nacer la bondad y la amistad', 'Que Elfilin es muy fuerte', 'Que los humanos cometieron un error'],
         correctAnswer: 'Que incluso de algo peligroso puede nacer la bondad y la amistad',
       },
+      {
+        id: 'kir-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Cómo se sintieron probablemente los Waddle Dees cuando construyeron su nuevo pueblo?',
+        options: ['Asustados de Kirby', 'Tristes por su hogar anterior', 'Seguros y agradecidos por tener un nuevo lugar feliz gracias a Kirby', 'Enojados con el Beast Pack'],
+        correctAnswer: 'Seguros y agradecidos por tener un nuevo lugar feliz gracias a Kirby',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -161,6 +175,13 @@ Y Kirby aprendió algo importante, algo que nunca olvidaría: el poder más gran
         questionText: '¿Qué cualidad de Kirby le permite usar el Mouthful Mode?',
         options: ['Su gran tamaño', 'Su capacidad para estirarse e inhalar objetos grandes como un auto o un cono', 'Su fuerza física', 'Su velocidad'],
         correctAnswer: 'Su capacidad para estirarse e inhalar objetos grandes como un auto o un cono',
+      },
+      {
+        id: 'kir-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué rasgo define mejor a Leongar al principio de la batalla final?',
+        options: ['Su sabiduría', 'Su bondad oculta', 'Estar poseído por una furia oscura y controlada', 'Su miedo a Kirby'],
+        correctAnswer: 'Estar poseído por una furia oscura y controlada',
       },
     ],
   },

@@ -31,7 +31,7 @@ Kirby frunció el ceño (o lo que sea que hace una bolita rosa para fruncir el c
 
 La batalla estalló como un trueno. Las islas de cristal comenzaron a girar lentamente, como un móvil gigante colgado del cielo. Luminara lanzaba fragmentos afilados de sus alas, que volaban como flechas negras. Kirby flotaba y esquiva, usando su forma spark para contraatacar con bolas de electricidad que explotaban al impacto. Bandana Waddle Dee no se quedaba atrás: giraba su lanza como un torbellino, rompiendo los fragmentos en el aire y protegiendo a Kirby de ataques sorpresa.
 
-Pero cada vez que un fragmento tocaba el suelo de cristal, nacía un Sombrasol, una criatura oscura con forma de estrella puntiaguda que se arrastraba hacia ellos, intentando apagar su brillo con tentáculos de sombra. “¡Kirby, son demasiados!”, gritó Bandana mientras lanzaba su lanza contra uno, haciendo que se disolviera en humo negro.
+Pero cada vez que un fragmento toca el suelo de cristal, nacía un Sombrasol, una criatura oscura con forma de estrella puntiaguda que se arrastraba hacia ellos, intentando apagar su brillo con tentáculos de sombra. “¡Kirby, son demasiados!”, gritó Bandana mientras lanzaba su lanza contra uno, haciendo que se disolviera en humo negro.
 
 Kirby cambió de táctica. Inhaló a un Sombrasol entero y se transformó en Dark Kirby, una versión suya con sombras rosadas que brillaban desde adentro, como una linterna en la noche. Con este poder, podía atravesar los escudos de oscuridad de Luminara y golpearla directamente en su esfera negra. ¡Pum! Un golpe hizo que el cristal de Luminara crujiera, y un pedacito de luz escapó de su pecho.
 
@@ -69,7 +69,7 @@ Luminara miró alrededor: las islas flotaban en armonía, las lámparas ardían 
 
 Juntos, Luminara, Luziel, Kirby y Bandana caminaron hasta la lámpara más grande del reino. Luminara puso sus manos en ella y dejó salir toda la luz que había acumulado por egoísmo. El cielo se llenó de auroras boreales, y un puente de luz eterna conectó la Tierra de las Luces Perdidas con Dream Land para siempre.
 
-Cuando volvieron a casa, los Waddle Dees bailaban con ojos chispeantes, las flores explotaban en colores nuevos, y hasta el rey Dedede, desde su castillo, soltó una risita al ver el sol más brillante que nunca. Meta Knight, oculto en las sombras, inclinó la cabeza en silencio, reconociendo el coraje de Kirby.
+Cuando volvieron a casa, los Waddle Dees bailaban con ojos chispeantes, las flores explotaban en colores nuevos, y hasta el rey Dedede, desde su castillo, soltó una risita al ver el sol más brillante que nunca. Meta Knight, oculto en las sombras, inclino la cabeza en silencio, reconociendo el coraje de Kirby.
 
 Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana fresca, feliz de que el mundo volviera a brillar con luz compartida.
     `,
@@ -160,6 +160,13 @@ Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana
         options: ['Porque tenía frío', 'Porque la tentó la idea de guardar la luz solo para ella', 'Porque Kirby la atacó', 'Porque se le rompieron las alas'],
         correctAnswer: 'Porque la tentó la idea de guardar la luz solo para ella',
       },
+      {
+        id: 'lp-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué lección aprendió Luminara al final de la aventura?',
+        options: ['Que Kirby es más fuerte', 'Que olvidó cómo era ser luz para los demás y que compartir es mejor que robar', 'Que los Waddle Dees son ruidosos', 'Que las esferas negras son malas'],
+        correctAnswer: 'Que olvidó cómo era ser luz para los demás y que compartir es mejor que robar',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -176,6 +183,13 @@ Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana
         options: ['Porque tenían sueño', 'Porque la luz representa la energía y la felicidad de Dream Land', 'Porque no les gustaba el color gris', 'Porque querían manzanas'],
         correctAnswer: 'Porque la luz representa la energía y la felicidad de Dream Land',
       },
+      {
+        id: 'lp-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué nos dice el hecho de que Luziel estuviera escondida al principio?',
+        options: ['Que era miedosa', 'Que era la última esperanza y necesitaba sobrevivir para poder ayudar después', 'Que no quería conocer a Kirby', 'Que estaba durmiendo'],
+        correctAnswer: 'Que era la última esperanza y necesitaba sobrevivir para poder ayudar después',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -191,6 +205,13 @@ Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana
         questionText: '¿Qué cualidad de Kirby se destaca más al final de la historia?',
         options: ['Su gran apetito', 'Su capacidad de perdonar y mostrar bondad incluso a un enemigo', 'Su velocidad para correr', 'Su habilidad con la lanza'],
         correctAnswer: 'Su capacidad de perdonar y mostrar bondad incluso a un enemigo',
+      },
+      {
+        id: 'lp-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo era Luminara antes de encontrar la esfera negra?',
+        options: ['Mala y egoísta', 'Brillante y compartía su luz pintando estrellas y auroras', 'Un ser de cristal roto', 'Una piedra oscura'],
+        correctAnswer: 'Brillante y compartía su luz pintando estrellas y auroras',
       },
     ],
   },

@@ -44,8 +44,14 @@ import { losMusicosDeBrema } from './los-musicos-de-brema';
 import { elSoldaditoDePlomo } from './el-soldadito-de-plomo';
 import { elTrajeNuevoDelEmperador } from './el-traje-nuevo-del-emperador';
 import { kirbyForgottenLand } from './kirby-forgotten-land';
+// Fix: Removed space in variable name
 import { laLeyendaDeFectoElfilis } from './la-leyenda-de-fecto-elfilis';
 import { elGuardianDeLasLucesPerdidas } from './el-guardian-de-las-luces-perdidas';
+import { nicoYoutuber } from './nico-youtuber';
+import { elRunImposibleDeKirby } from './el-run-imposible-de-kirby';
+// Fix: Removed space in variable name
+import { nicoYoutuberParte2 } from './nico-youtuber-parte-2';
+import { nicoYoutuberParte3 } from './nico-youtuber-parte-3';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -92,6 +98,12 @@ export const stories: Story[] = [
   elSoldaditoDePlomo,
   elTrajeNuevoDelEmperador,
   kirbyForgottenLand,
+  // Fix: Removed space in variable name
   laLeyendaDeFectoElfilis,
   elGuardianDeLasLucesPerdidas,
+  nicoYoutuber,
+  elRunImposibleDeKirby,
+  // Fix: Removed space in variable name
+  nicoYoutuberParte2,
+  nicoYoutuberParte3,
 ].sort((a, b) => a.title.localeCompare(b.title));

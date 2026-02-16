@@ -19,7 +19,7 @@ Entonces, llegó el día fatídico. Durante un experimento para probar su teletr
 
 Los humanos, asustados por su propia sobrepoblación, huyeron a través de portales que habían creado gracias a Fecto, dejando la Tierra Olvidada en ruinas: ciudades derruidas cubiertas de enredaderas, autos oxidados y un silencio eterno roto solo por el viento.
 
-Siglos pasaron. Forgo, desde su prisión larval, extendió ondas psíquicas como susurros malignos en los sueños de todos. Encontró a un león noble llamado Leon y lo doblegó: "¡Sírveme!", ordenó. Leon se convirtió en Leongar, un tirano con ojos rojos, líder del Beast Pack: lobos gruñones (Awoofies), conejos saltarines (Rabiroos), cocodrilos feroces (Gnawcodiles) y la leopardo Clawroline. Juntos, capturaban animales y construían fortalezas, todo para encontrar a Elfilin y fusionarse de nuevo.
+Siglos pasaron. Forgo, desde su prisión larval, extendió ondas psíquicas como susurros malignos en los sueños de todos. Encontró a un león noble llamado Leon lo doblegó: "¡Sírveme!", ordenó. Leon se convirtió en Leongar, un tirano con ojos rojos, líder del Beast Pack: lobos gruñones (Awoofies), conejos saltarines (Rabiroos), cocodrilos feroces (Gnawcodiles) y la leopardo Clawroline. Juntos, capturaban animales y construían fortalezas, todo para encontrar a Elfilin y fusionarse de nuevo.
 
 Forgo no se detuvo ahí. Abrió portales rosados sobre Dream Land, succionando Waddle Dees como esclavos para girar ruedas gigantes de energía. Pero también atrapó a dos héroes legendarios.
 
@@ -124,6 +124,13 @@ Y así, querido lector, la leyenda de Fecto Elfilis enseña que el poder más gr
         options: ['Porque Kirby usa pegamento', 'Porque las dos mitades (Elfilin y Forgo) finalmente encuentran la paz y la unión positiva', 'Porque los humanos volvieron a su planeta', 'Porque Meta Knight arregló su espada'],
         correctAnswer: 'Porque las dos mitades (Elfilin y Forgo) finalmente encuentran la paz y la unión positiva',
       },
+      {
+        id: 'fe-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Qué representan los dos hermanos al principio de la historia?',
+        options: ['La creación y la vida', 'La destrucción masiva y el caos cósmico', 'La paz del universo', 'Dos estrellas fugaces'],
+        correctAnswer: 'La destrucción masiva y el caos cósmico',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
       {
@@ -140,6 +147,13 @@ Y así, querido lector, la leyenda de Fecto Elfilis enseña que el poder más gr
         options: ['Que nadie puede ser perdonado', 'Que incluso un ser nacido de la destrucción puede encontrar la paz si se une a su parte buena', 'Que Kirby castiga a todos', 'Que los hermanos siempre pelean'],
         correctAnswer: 'Que incluso un ser nacido de la destrucción puede encontrar la paz si se une a su parte buena',
       },
+      {
+        id: 'fe-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué los humanos decidieron encerrar a Fecto en vez de ser sus amigos?',
+        options: ['Porque tenían miedo de su poder inestable y querían usarlo para viajar entre mundos', 'Porque no tenían espacio en sus casas', 'Porque Fecto era muy pequeño', 'Porque se los pidió Leon'],
+        correctAnswer: 'Porque tenían miedo de su poder inestable y querían usarlo para viajar entre mundos',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
       {
@@ -155,6 +169,13 @@ Y así, querido lector, la leyenda de Fecto Elfilis enseña que el poder más gr
         questionText: '¿Cómo es la personalidad de Elfilin?',
         options: ['Malvada y furiosa', 'Amable, buena y valiente junto a sus amigos', 'Miedosa y traicionera', 'Silenciosa y aburrida'],
         correctAnswer: 'Amable, buena y valiente junto a sus amigos',
+      },
+      {
+        id: 'fe-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué motiva a Meta Knight a luchar contra la oscuridad de Forgo?',
+        options: ['Ganar dinero', 'Su honor como caballero y su voluntad de hierro para proteger el mundo', 'Vengarse de Dedede', 'Conocer a Elfilin'],
+        correctAnswer: 'Su honor como caballero y su voluntad de hierro para proteger el mundo',
       },
     ],
   },

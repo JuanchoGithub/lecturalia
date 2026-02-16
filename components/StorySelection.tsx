@@ -2,6 +2,7 @@
 import React from 'react';
 import { Story, AllStoryStats } from '../types';
 import Card from './ui/Card';
+import StoryCover from './ui/StoryCover';
 
 interface StorySelectionProps {
   stories: Story[];
@@ -55,7 +56,7 @@ const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelec
               className={`group cursor-pointer transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative bg-white border-2 border-transparent hover:border-brand-purple/20 ${isLocked ? 'opacity-90' : ''}`}
             >
               {isLocked && (
-                <div className="absolute top-3 right-3 bg-brand-orange text-white p-2 rounded-full z-10 shadow-lg scale-90 group-hover:scale-100 transition-transform">
+                <div className="absolute top-3 right-3 bg-brand-orange text-white p-2 rounded-full z-20 shadow-lg scale-90 group-hover:scale-100 transition-transform">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
@@ -63,19 +64,15 @@ const StorySelection: React.FC<StorySelectionProps> = ({ stories, stats, onSelec
               )}
               
               {isInProgress && !isLocked && (
-                 <div className="absolute top-3 left-3 bg-brand-blue text-white px-3 py-1 rounded-full z-10 text-[10px] font-black shadow-lg animate-pulse">
+                 <div className="absolute top-3 left-3 bg-brand-blue text-white px-3 py-1 rounded-full z-20 text-[10px] font-black shadow-lg animate-pulse">
                    CONTINUAR
                  </div>
               )}
 
               <div className="h-48 overflow-hidden relative">
-                <img 
-                    src={story.coverImage} 
-                    alt={story.title} 
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                    <p className="text-white text-xs font-bold uppercase tracking-widest">Ver aventura &rarr;</p>
+                <StoryCover storyId={story.id} title={story.title} />
+                <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4 z-10 pointer-events-none">
+                    <p className="text-white text-xs font-bold uppercase tracking-widest">Empezar aventura &rarr;</p>
                 </div>
               </div>
 

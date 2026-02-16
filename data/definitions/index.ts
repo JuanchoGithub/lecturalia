@@ -43,8 +43,14 @@ import { definitions as losMusicosDeBremaDefinitions } from './los-musicos-de-br
 import { definitions as elSoldaditoDePlomoDefinitions } from './el-soldadito-de-plomo';
 import { definitions as elTrajeNuevoDelEmperadorDefinitions } from './el-traje-nuevo-del-emperador';
 import { definitions as kirbyForgottenLandDefinitions } from './kirby-forgotten-land';
+// Fix: Removed space in alias name
 import { definitions as laLeyendaDeFectoElfilisDefinitions } from './la-leyenda-de-fecto-elfilis';
 import { definitions as elGuardianDeLasLucesPerdidasDefinitions } from './el-guardian-de-las-luces-perdidas';
+import { definitions as nicoYoutuberDefinitions } from './nico-youtuber';
+import { definitions as elRunImposibleDeKirbyDefinitions } from './el-run-imposible-de-kirby';
+// Fix: Removed space in alias name
+import { definitions as nicoYoutuberParte2Definitions } from './nico-youtuber-parte-2';
+import { definitions as nicoYoutuberParte3Definitions } from './nico-youtuber-parte-3';
 
 export const allDefinitions: { [storyId: string]: { [word: string]: { explanation: string } } } = {
   'leo-the-lighthouse-lion': leoTheLighthouseLionDefinitions,
@@ -91,6 +97,12 @@ export const allDefinitions: { [storyId: string]: { [word: string]: { explanatio
   'el-soldadito-de-plomo': elSoldaditoDePlomoDefinitions,
   'el-traje-nuevo-del-emperador': elTrajeNuevoDelEmperadorDefinitions,
   'kirby-forgotten-land': kirbyForgottenLandDefinitions,
+  // Fix: Removed space in reference
   'la-leyenda-de-fecto-elfilis': laLeyendaDeFectoElfilisDefinitions,
   'el-guardian-de-las-luces-perdidas': elGuardianDeLasLucesPerdidasDefinitions,
+  'nico-youtuber': nicoYoutuberDefinitions,
+  'el-run-imposible-de-kirby': elRunImposibleDeKirbyDefinitions,
+  // Fix: Removed space in reference
+  'nico-youtuber-parte-2': nicoYoutuberParte2Definitions,
+  'nico-youtuber-parte-3': nicoYoutuberParte3Definitions,
 };
