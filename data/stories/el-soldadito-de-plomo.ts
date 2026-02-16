@@ -69,138 +69,228 @@ Entonces se abrió una puerta y la corriente de aire se llevó a la bailarina, q
       {
         id: 'sp-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuántos soldaditos de plomo venían en la caja original?',
-        options: ['Diez', 'Veinticinco', 'Cincuenta', 'Uno solo'],
-        correctAnswer: 'Veinticinco',
+        questionText: '¿Por qué el protagonista tenía solo una pierna?',
+        options: [
+          'Porque se le rompió durante una batalla contra los gatos.',
+          'Porque fue el último en fundirse y no alcanzó el metal.',
+          'Porque el niño la quitó para que pudiera entrar en el barco.',
+          'Porque nació así para parecerse a la bailarina de papel.'
+        ],
+        correctAnswer: 'Porque fue el último en fundirse y no alcanzó el metal.',
       },
       {
         id: 'sp-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿De qué material estaba hecho el castillo de juguete?',
-        options: ['Madera', 'Plástico', 'Papel', 'Metal'],
-        correctAnswer: 'Papel',
+        questionText: '¿Qué accesorio brillante lucía la bailarina sobre su hombro?',
+        options: [
+          'Una pequeña corona de oro fino.',
+          'Una brillante lentejuela de papel.',
+          'Una cinta azul de seda de muselina.',
+          'Un escudo de plata que simulaba un lago.'
+        ],
+        correctAnswer: 'Una brillante lentejuela de papel.',
       },
       {
         id: 'sp-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué animal se tragó al soldadito después de que el barco de papel se deshiciera?',
-        options: ['Una rata', 'Un pez', 'Un perro', 'Un gato'],
-        correctAnswer: 'Un pez',
+        questionText: '¿Qué animal le pidió el pasaporte al soldadito en la oscuridad?',
+        options: [
+          'Un enorme pez que vivía en el canal.',
+          'Una rata de agua que habitaba la alcantarilla.',
+          'Un duende negro que salió de la caja de bromas.',
+          'Un cisne de cera que nadaba en el pequeño lago.'
+        ],
+        correctAnswer: 'Una rata de agua que habitaba la alcantarilla.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'sp-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió justo después de que el soldadito cayera por la ventana?',
-        options: ['Lo encontró un pez', 'Empezó a llover con mucha fuerza', 'Se casó con la bailarina', 'El niño lo guardó en la caja'],
-        correctAnswer: 'Empezó a llover con mucha fuerza',
+        questionText: '¿Qué evento causó que el soldadito cayera a la calle por primera vez?',
+        options: [
+          'El niño lo tiró por la ventana durante un berrinche.',
+          'La ventana se abrió de golpe por el viento o el duende.',
+          'El barquito de papel chocó contra el cristal del cuarto.',
+          'Los otros soldaditos lo empujaron fuera de su caja.'
+        ],
+        correctAnswer: 'La ventana se abrió de golpe por el viento o el duende.',
       },
       {
         id: 'sp-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿En qué orden ocurrieron estos viajes del soldadito?',
-        options: ['Arroyo, alcantarilla, pez y cocina', 'Pez, arroyo, cocina y alcantarilla', 'Alcantarilla, pez, arroyo y cocina', 'Cocina, pez, alcantarilla y arroyo'],
-        correctAnswer: 'Arroyo, alcantarilla, pez y cocina',
+        questionText: '¿Cuál es el orden correcto de los lugares por los que viajó el personaje?',
+        options: [
+          'Ventana, alcantarilla, arroyo y estómago del pez.',
+          'Mesa, ventana, arroyo, alcantarilla y cocina.',
+          'Cocina, mercado, arroyo, ventana y chimenea.',
+          'Caja de cartón, barco, ventana y caja de rapé.'
+        ],
+        correctAnswer: 'Mesa, ventana, arroyo, alcantarilla y cocina.',
       },
       {
         id: 'sp-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué fue lo último que quedó del soldadito entre las cenizas de la chimenea?',
-        options: ['Su fusil', 'Su casco', 'Un pequeño corazón de plomo', 'Su bayoneta'],
-        correctAnswer: 'Un pequeño corazón de plomo',
+        questionText: '¿Qué ocurrió justo después de que la sirvienta abriera al pez en la cocina?',
+        options: [
+          'El soldadito de plomo lloró lágrimas de metal.',
+          'Llevó al soldadito a la sala para que todos lo vieran.',
+          'El niño lo arrojó inmediatamente al fuego del hogar.',
+          'La bailarina voló hacia él con un suspiro de alivio.'
+        ],
+        correctAnswer: 'Llevó al soldadito a la sala para que todos lo vieran.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'sp-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El vestido de la bailarina era de "muselina". ¿Qué significa muselina?',
-        options: ['Un tipo de metal pesado', 'Una tela de algodón muy fina y ligera', 'Un papel muy grueso', 'Una piedra preciosa'],
-        correctAnswer: 'Una tela de algodón muy fina y ligera',
+        questionText: 'El texto dice que el soldadito se mantenía firme "sin inmutarse". ¿Qué significa esto?',
+        options: [
+          'Que se sentía muy triste por estar en el agua.',
+          'Que se mantenía tranquilo sin mostrar ninguna emoción.',
+          'Que estaba pidiendo ayuda a los gritos por el canal.',
+          'Que se movía mucho para evitar que el papel se rompiera.'
+        ],
+        correctAnswer: 'Que se mantenía tranquilo sin mostrar ninguna emoción.',
       },
       {
         id: 'sp-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El soldadito sintió "vértigos" en el barco de papel. ¿Qué es tener vértigo?',
-        options: ['Sentir mucha alegría', 'Sentir hambre', 'Sentir mareo o desequilibrio', 'Sentir mucho frío'],
-        correctAnswer: 'Sentir mareo o desequilibrio',
+        questionText: '¿Qué le estaba pasando al barco de papel cuando estaba por "zozobrar"?',
+        options: [
+          'Que estaba navegando muy rápido por el arroyo seco.',
+          'Que estaba a punto de hundirse por el peso del agua.',
+          'Que estaba volando por el aire gracias a un gran viento.',
+          'Que estaba brillando mucho bajo la luz de la luna.'
+        ],
+        correctAnswer: 'Que estaba a punto de hundirse por el peso del agua.',
       },
       {
         id: 'sp-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El soldadito se puso "incandescente" en el fuego. ¿Qué significa incandescente?',
-        options: ['Que se pone blanco y brillante por el calor', 'Que se apaga por completo', 'Que se vuelve de hielo', 'Que se rompe en pedazos'],
-        correctAnswer: 'Que se pone blanco y brillante por el calor',
+        questionText: '¿Cómo estaba el soldadito al estar "incandescente" en la chimenea?',
+        options: [
+          'Estaba muy frío y duro como un cubito de hielo.',
+          'Estaba brillando intensamente por el calor del fuego.',
+          'Estaba cubierto de cenizas grises de la madera vieja.',
+          'Estaba flotando suavemente como una pluma de ave.'
+        ],
+        correctAnswer: 'Estaba brillando intensamente por el calor del fuego.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'sp-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de la historia del soldadito de plomo?',
-        options: ['La importancia de tener muchos juguetes', 'La valentía y la firmeza ante las dificultades y el amor', 'Por qué no se debe jugar con papel', 'Cómo fabricar barcos con periódicos'],
-        correctAnswer: 'La valentía y la firmeza ante las dificultades y el amor',
+        questionText: '¿Cuál es el valor principal que demuestra el soldadito durante sus aventuras?',
+        options: [
+          'Su gran inteligencia para construir barcos de diario.',
+          'Su firmeza y valentía para enfrentar cualquier peligro.',
+          'Su habilidad para hacer amigos en la oscura alcantarilla.',
+          'Su deseo de ser el juguete más importante de la casa.'
+        ],
+        correctAnswer: 'Su firmeza y valentía para enfrentar cualquier peligro.',
       },
       {
         id: 'sp-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué el soldadito se mantenía siempre firme sobre su pierna?',
-        options: ['Porque era de plomo y pesaba mucho', 'Porque era su deber como soldado y quería impresionar a la bailarina', 'Porque no sabía cómo sentarse', 'Porque tenía miedo de moverse'],
-        correctAnswer: 'Porque era su deber como soldado y quería impresionar a la bailarina',
+        questionText: '¿Por qué la historia termina con el hallazgo de un corazón de plomo?',
+        options: [
+          'Porque el niño decidió fundir al soldado con un molde nuevo.',
+          'Para simbolizar el amor verdadero que unía a los personajes.',
+          'Porque la mermelada del sastre se pegó a los restos del metal.',
+          'Para mostrar que el plomo es un material que no se quema.'
+        ],
+        correctAnswer: 'Para simbolizar el amor verdadero que unía a los personajes.',
       },
       {
         id: 'sp-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué simboliza el final donde el soldadito y la bailarina terminan juntos en el fuego?',
-        options: ['Que los juguetes son peligrosos', 'Que su amor y destino estaban unidos hasta el final', 'Que el niño era muy descuidado', 'Que el duende ganó la pelea'],
-        correctAnswer: 'Que su amor y destino estaban unidos hasta el final',
+        questionText: '¿Qué sentimiento predomina en el soldadito cuando vuelve a ver a la bailarina?',
+        options: [
+          'Enojo por haberlo dejado caer por la ventana de noche.',
+          'Una gran emoción y una profunda sensación de lealtad.',
+          'Miedo de que el duende negro lo atrape en la caja de rapé.',
+          'Aburrimiento por tener que estar de pie sobre una mesa.'
+        ],
+        correctAnswer: 'Una gran emoción y una profunda sensación de lealtad.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'sp-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el soldadito no gritó para pedir ayuda cuando cayó a la calle?',
-        options: ['Porque no tenía voz', 'Porque creía que no era apropiado para un soldado de uniforme dar gritos', 'Porque estaba desmayado', 'Porque quería irse de aventura'],
-        correctAnswer: 'Porque creía que no era apropiado para un soldado de uniforme dar gritos',
+        questionText: '¿Por qué el soldadito pensó que la bailarina era la pareja perfecta para él?',
+        options: [
+          'Porque ella también vivía en un castillo hecho de papel.',
+          'Porque creyó que ella también tenía una sola pierna.',
+          'Porque ella le sonreía desde la puerta del palacio real.',
+          'Porque el niño siempre los ponía a bailar juntos de noche.'
+        ],
+        correctAnswer: 'Porque creyó que ella también tenía una sola pierna.',
       },
       {
         id: 'sp-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la bailarina voló hacia la chimenea justo después del soldadito?',
-        options: ['Porque quería quemarse', 'Porque una corriente de aire la empujó, pero simboliza que quería seguir al soldadito', 'Porque el duende la empujó', 'Porque el papel vuela solo'],
-        correctAnswer: 'Porque una corriente de aire la empujó, pero simboliza que quería seguir al soldadito',
+        questionText: '¿Cómo se sintió el soldadito cuando estaba dentro del estómago del pez?',
+        options: [
+          'Divertido por estar en un lugar tan extraño y húmedo.',
+          'Firme y valiente, a pesar de estar en una oscuridad total.',
+          'Arrepentido de haber abandonado a sus hermanos en la caja.',
+          'Cansado y con ganas de pedirle el pasaporte a la rata.'
+        ],
+        correctAnswer: 'Firme y valiente, a pesar de estar en una oscuridad total.',
       },
       {
         id: 'sp-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Quién parece ser el responsable de las desgracias del soldadito?',
-        options: ['El niño', 'La criada', 'El duende de la caja de rapé', 'La rata de agua'],
-        correctAnswer: 'El duende de la caja de rapé',
+        questionText: '¿Quién parece ser el culpable de la mala suerte del protagonista?',
+        options: [
+          'La rata de agua por pedirle documentos sin sentido.',
+          'El duende de la caja de rapé que le lanzó una amenaza.',
+          'Los dos muchachos que lo pusieron en el barco de papel.',
+          'La sirvienta que removió las cenizas con las tenazas.'
+        ],
+        correctAnswer: 'El duende de la caja de rapé que le lanzó una amenaza.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'sp-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué palabras describen mejor al soldadito de plomo?',
-        options: ['Travieso y ruidoso', 'Paciente, firme y valiente', 'Miedoso y quejoso', 'Egoísta y orgulloso'],
-        correctAnswer: 'Paciente, firme y valiente',
+        questionText: '¿Qué rasgo define mejor la personalidad del soldadito?',
+        options: [
+          'Es un personaje muy ruidoso y quejoso frente al dolor.',
+          'Es alguien sumamente resistente, silencioso y orgulloso.',
+          'Es un juguete miedoso que prefiere estar dentro de la caja.',
+          'Es un aventurero que buscaba escaparse para ver el mundo.'
+        ],
+        correctAnswer: 'Es alguien sumamente resistente, silencioso y orgulloso.',
       },
       {
         id: 'sp-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿En qué se parecía la bailarina al soldadito según el pensamiento de él?',
-        options: ['En que los dos eran de papel', 'En que ella también parecía tener una sola pierna y se mantenía muy firme', 'En que a los dos les gustaba el pez', 'En que los dos vivían en una caja'],
-        correctAnswer: 'En que ella también parecía tener una sola pierna y se mantenía muy firme',
+        questionText: '¿Cómo se comporta la bailarina de papel durante todo el cuento?',
+        options: [
+          'Busca ayuda desesperadamente para salvar al soldado caído.',
+          'Permanece inmóvil y firme en su posición, igual que él.',
+          'Se burla del soldadito por tener una sola pierna de plomo.',
+          'Se escapa del castillo para buscar comida en la cocina.'
+        ],
+        correctAnswer: 'Permanece inmóvil y firme en su posición, igual que él.',
       },
       {
         id: 'sp-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo se comporta la rata de la alcantarilla?',
-        options: ['Amable y servicial', 'Exigente y molesta, pidiendo pasaportes y peajes', 'Miedosa ante el fusil', 'Triste por vivir a oscuras'],
-        correctAnswer: 'Exigente y molesta, pidiendo pasaportes y peajes',
+        questionText: '¿Qué cualidad de la rata de agua se destaca en su encuentro?',
+        options: [
+          'Su gran amabilidad al guiar al barco por la alcantarilla.',
+          'Su actitud autoritaria y exigente con los viajeros.',
+          'Su miedo al ver el enorme fusil del soldadito de plomo.',
+          'Su habilidad para nadar rápido y alcanzar al gran pez.'
+        ],
+        correctAnswer: 'Su actitud autoritaria y exigente con los viajeros.',
       },
     ],
   },

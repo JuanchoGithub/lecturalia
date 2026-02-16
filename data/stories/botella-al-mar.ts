@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const botellaAlMar: Story = {
@@ -27,138 +28,228 @@ Yo no quiero que el cuento termine. Yo quiero decirle a mi mamá que me lo cuent
       {
         id: 'bam-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué la niña no quería dormirse al principio?',
-        options: ['Porque no tenía sueño', 'Porque tenía miedo de cerrar los ojos como los muertos', 'Porque quería seguir jugando', 'Porque su mamá estaba enojada'],
-        correctAnswer: 'Porque tenía miedo de cerrar los ojos como los muertos',
+        questionText: '¿Por qué la niña tiene miedo de dormirse al inicio?',
+        options: [
+          'Porque no tiene nada de sueño.',
+          'Porque teme cerrar sus ojos.',
+          'Porque quiere seguir jugando.',
+          'Porque el cuarto está oscuro.'
+        ],
+        correctAnswer: 'Porque teme cerrar sus ojos.',
       },
       {
         id: 'bam-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué cuento le pide la niña a su mamá?',
-        options: ['El de la princesa y el sapo', 'El de la nena como un carozo', 'El del lobo y los tres cerditos', 'El de un barco en el mar'],
-        correctAnswer: 'El de la nena como un carozo',
+        questionText: '¿Qué historia elige la niña para escuchar?',
+        options: [
+          'La de una nena como un carozo.',
+          'La de un capitán en un barco.',
+          'La de un gigante en un bosque.',
+          'La de una princesa muy valiente.'
+        ],
+        correctAnswer: 'La de una nena como un carozo.',
       },
       {
         id: 'bam-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿De qué color eran las tapas del libro que lee la mamá?',
-        options: ['Rojas', 'Verdes', 'Azules', 'Amarillas'],
-        correctAnswer: 'Azules',
+        questionText: '¿De qué color es el libro que abre la mamá?',
+        options: [
+          'Es un gran libro de color rojo.',
+          'Es un libro viejo de color verde.',
+          'Es un libro de tapas muy azules.',
+          'Es un pequeño libro de oro.'
+        ],
+        correctAnswer: 'Es un libro de tapas muy azules.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'bam-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucede justo después de que la mamá empieza a leer el cuento?',
-        options: ['La niña se duerme', 'La voz de la mamá se vuelve cada vez más lejana', 'La niña le pide otro cuento', 'La niña interrumpe a la mamá'],
-        correctAnswer: 'La voz de la mamá se vuelve cada vez más lejana',
+        questionText: '¿Qué ocurre apenas la mamá comienza el relato?',
+        options: [
+          'La niña se duerme al instante.',
+          'La voz se empieza a sentir lejos.',
+          'La niña pide que cambie el libro.',
+          'La madre cierra la ventana fría.'
+        ],
+        correctAnswer: 'La voz se empieza a sentir lejos.',
       },
       {
         id: 'bam-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hace la niña antes de que su mamá le ofrezca contarle un cuento?',
-        options: ['Le pide un vaso de agua', 'Llora y dice que tiene miedo de dormir', 'Se ríe y juega en la cama', 'Le pide a su mamá que cante una canción'],
-        correctAnswer: 'Llora y dice que tiene miedo de dormir',
+        questionText: '¿Qué hace la niña justo antes de que la madre le ofrezca el cuento?',
+        options: [
+          'Se ríe con ganas en su cama.',
+          'Llora y explica su gran temor.',
+          'Busca un pétalo de rosa roja.',
+          'Se tapa con su manta gruesa.'
+        ],
+        correctAnswer: 'Llora y explica su gran temor.',
       },
       {
         id: 'bam-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: 'Al final del texto, ¿qué quiere hacer la niña pero no puede?',
-        options: ['Pedirle a su mamá que la abrace', 'Pedirle a su mamá que encienda la luz', 'Decirle a su mamá que le cuente el cuento otra vez', 'Decirle a su mamá que ya no tiene miedo'],
-        correctAnswer: 'Decirle a su mamá que le cuente el cuento otra vez',
+        questionText: '¿Qué desea hacer la niña cuando el cuento está terminando?',
+        options: [
+          'Pedir que lo cuente otra vez.',
+          'Encender la luz de su cuarto.',
+          'Cerrar el libro de tapas azules.',
+          'Abrazar a su mamá muy fuerte.'
+        ],
+        correctAnswer: 'Pedir que lo cuente otra vez.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'bam-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "una mujer que ansiaba tener una niña", ¿qué significa "ansiaba"?',
-        options: ['Odiaba', 'Temía', 'Deseaba con muchas ganas', 'Se olvidaba'],
-        correctAnswer: 'Deseaba con muchas ganas',
+        questionText: 'En el cuento se dice que la mujer "ansiaba" una niña. ¿Qué significa?',
+        options: [
+          'Que odiaba mucho esa idea.',
+          'Que tenía miedo de la nena.',
+          'Que deseaba eso con fuerza.',
+          'Que olvidaba pedir el deseo.'
+        ],
+        correctAnswer: 'Que deseaba eso con fuerza.',
       },
       {
         id: 'bam-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando la voz de la mamá se vuelve "cada vez más lejana", ¿qué quiere decir "lejana"?',
-        options: ['Que se oye más fuerte', 'Que se oye más triste', 'Que se oye como si viniera de muy lejos, más suave', 'Que se oye más rápido'],
-        correctAnswer: 'Que se oye como si viniera de muy lejos, más suave',
+        questionText: '¿Qué quiere decir que la voz se vuelve "lejana"?',
+        options: [
+          'Que se escucha más fuerte.',
+          'Que se oye con mucha furia.',
+          'Que se siente suave y distante.',
+          'Que se corta de repente.'
+        ],
+        correctAnswer: 'Que se siente suave y distante.',
       },
       {
         id: 'bam-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La niña del cuento era tan chiquita que "bastaba el pétalo de una rosa para cubrirla del frío". ¿Qué significa "bastaba"?',
-        options: ['Que no le gustaba', 'Que era demasiado', 'Que era suficiente', 'Que no era posible'],
-        correctAnswer: 'Que era suficiente',
+        questionText: 'El texto dice que "bastaba" un pétalo para cubrir a la nena. ¿Qué significa?',
+        options: [
+          'Que no servía para nada.',
+          'Que era algo insuficiente.',
+          'Que alcanzaba para hacerlo.',
+          'Que era demasiado grande.'
+        ],
+        correctAnswer: 'Que alcanzaba para hacerlo.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'bam-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta pequeña historia?',
-        options: ['Que a las niñas les gustan los cuentos de princesas', 'Que un cuento contado por una mamá puede calmar el miedo y traer el sueño', 'Que no es bueno leer por la noche', 'Que las mamás siempre tienen libros azules'],
-        correctAnswer: 'Que un cuento contado por una mamá puede calmar el miedo y traer el sueño',
+        questionText: '¿Cuál es el tema más importante de este relato?',
+        options: [
+          'La lectura calma los temores.',
+          'El mar es un lugar peligroso.',
+          'Los libros deben ser azules.',
+          'Crecer es algo que asusta.'
+        ],
+        correctAnswer: 'La lectura calma los temores.',
       },
       {
         id: 'bam-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué efecto tiene el cuento en la niña?',
-        options: ['Le da más miedo', 'La hace enojar', 'Le quita el miedo y le trae el sueño', 'Le da hambre'],
-        correctAnswer: 'Le quita el miedo y le trae el sueño',
+        questionText: '¿Cuál es el beneficio de la historia para la protagonista?',
+        options: [
+          'Le enseña palabras difíciles.',
+          'Le quita el miedo al descanso.',
+          'Le explica qué son los carozos.',
+          'Le permite jugar en el jardín.'
+        ],
+        correctAnswer: 'Le quita el miedo al descanso.',
       },
       {
         id: 'bam-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué es importante la voz de la mamá en la historia?',
-        options: ['Porque grita muy fuerte', 'Porque es la que cuenta la historia y tranquiliza a la niña', 'Porque canta una canción de cuna', 'Porque regaña a la niña por no dormir'],
-        correctAnswer: 'Porque es la que cuenta la historia y tranquiliza a la niña',
+        questionText: '¿Por qué la voz de la madre es fundamental aquí?',
+        options: [
+          'Porque grita muy fuerte.',
+          'Porque da paz y seguridad.',
+          'Porque canta una canción.',
+          'Porque lee sin equivocarse.'
+        ],
+        correctAnswer: 'Porque da paz y seguridad.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'bam-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que la niña no puede hablar al final?',
-        options: ['Porque está enojada con su mamá', 'Porque se quedó sin voz de tanto llorar', 'Porque se está quedando dormida gracias al cuento', 'Porque su mamá le dijo que se callara'],
-        correctAnswer: 'Porque se está quedando dormida gracias al cuento',
+        questionText: '¿Por qué la niña no puede hablar al final del cuento?',
+        options: [
+          'Porque el sueño la venció.',
+          'Porque le duele la garganta.',
+          'Porque se olvidó qué decir.',
+          'Porque su madre se enojó.'
+        ],
+        correctAnswer: 'Porque el sueño la venció.',
       },
       {
         id: 'bam-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se siente la niña mientras escucha el cuento?',
-        options: ['Asustada y nerviosa', 'Tranquila, segura y un poco triste de que termine', 'Aburrida e impaciente', 'Enojada y frustrada'],
-        correctAnswer: 'Tranquila, segura y un poco triste de que termine',
+        questionText: '¿Cómo se siente la niña mientras escucha el relato?',
+        options: [
+          'Siente nervios por la lluvia.',
+          'Siente alivio y tranquilidad.',
+          'Siente hambre por la fruta.',
+          'Siente ganas de irse de casa.'
+        ],
+        correctAnswer: 'Siente alivio y tranquilidad.',
       },
       {
         id: 'bam-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: 'El cuento dentro del cuento habla de "una niña pequeñita que no creciese nunca, para poder conservarla siempre a su lado...". ¿Por qué crees que a la mamá de la historia le gusta leer ese cuento?',
-        options: ['Porque es el único libro que tiene', 'Porque es una historia de aventuras', 'Porque quizás refleja el amor de una madre que quiere proteger a su hija siempre', 'Porque es un cuento muy corto'],
-        correctAnswer: 'Porque quizás refleja el amor de una madre que quiere proteger a su hija siempre',
+        questionText: '¿Por qué la mujer del cuento quería una nena que no creciera?',
+        options: [
+          'Para que use ropa de pétalos.',
+          'Para tenerla siempre con ella.',
+          'Para que quepa en un carozo.',
+          'Para no comprar libros nuevos.'
+        ],
+        correctAnswer: 'Para tenerla siempre con ella.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'bam-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la mamá de la historia?',
-        options: ['Impaciente y estricta', 'Cariñosa, paciente y comprensiva', 'Distraída y olvidadiza', 'Triste y cansada'],
-        correctAnswer: 'Cariñosa, paciente y comprensiva',
+        questionText: '¿Qué cualidad define mejor a la mamá del cuento?',
+        options: [
+          'Es una persona impaciente.',
+          'Es una madre muy afectuosa.',
+          'Es una mujer muy distraída.',
+          'Es una lectora muy veloz.'
+        ],
+        correctAnswer: 'Es una madre muy afectuosa.',
       },
       {
         id: 'bam-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la niña al principio de la historia?',
-        options: ['Alegre y juguetona', 'Tranquila y callada', 'Asustada y triste', 'Enojada y caprichosa'],
-        correctAnswer: 'Asustada y triste',
+        questionText: '¿Cómo está la niña al inicio de la historia?',
+        options: [
+          'Está muy alegre y saltando.',
+          'Está preocupada y llorosa.',
+          'Está aburrida de su libro.',
+          'Está cansada de leer sola.'
+        ],
+        correctAnswer: 'Está preocupada y llorosa.',
       },
       {
         id: 'bam-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué podemos decir sobre la relación entre la mamá y la niña?',
-        options: ['No se llevan bien', 'Es una relación de mucho amor y confianza', 'La mamá no entiende a la niña', 'Casi no hablan entre ellas'],
-        correctAnswer: 'Es una relación de mucho amor y confianza',
+        questionText: '¿Cómo es el vínculo entre la madre y su hija?',
+        options: [
+          'Es un vínculo de distancia.',
+          'Es una unión de mucha confianza.',
+          'Es una relación de peleas.',
+          'Es un trato de poca importancia.'
+        ],
+        correctAnswer: 'Es una unión de mucha confianza.',
       },
     ],
   },

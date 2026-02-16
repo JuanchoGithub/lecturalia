@@ -14,7 +14,7 @@ Un buen día la madre le dijo:
 
 — Lo haré todo muy bien, seguro — asintió Caperucita Roja, besando a su madre.
 
-La abuela vivía lejos, en el bosque, a media hora de la aldea. Cuando Caperucita Roja llegó al bosque, salió a su encuentro el lobo, pero la niña no sabía qué clase de fiera maligna era y no se asustó.
+La abuela vivía lejos, en el bosque, a media hora de la aldea. Cuando Caperucita Roja llegó al bosque, salió a su encuentro el lobo, pero la niña no sabía qué clase de fiera maligna era y no se asostó.
 — ¡Buenos días, Caperucita Roja! — la saludó el lobo.
 — ¡Buenos días, lobo!
 — ¿A dónde vas tan temprano, Caperucita Roja? —dijo el lobo.
@@ -22,7 +22,7 @@ La abuela vivía lejos, en el bosque, a media hora de la aldea. Cuando Caperucit
 — ¿Qué llevas en tu canastillo?
 — Torta y vino; ayer estuvimos haciendo pasteles en el horno; la abuela está enferma y débil y necesita algo bueno para fortalecerse.
 
-— Dime, Caperucita Roja, ¿dónde vive tu abuela?
+— Dime, Caperucita Roja, ¿donde vive tu abuela?
 — Hay que caminar todavía un buen cuarto de hora por el bosque; su casa se encuentra bajo las tres grandes encinas; están también los avellanos; pero eso, ya lo sabrás —dijo Caperucita Roja.
 
 El lobo pensó: "Esta joven y delicada cosita será un suculento bocado, y mucho más apetitoso que la vieja. Has de comportarte con astucia si quieres atrapar y tragar a las dos". Entonces acompañó un rato a la niña y luego le dijo:
@@ -52,7 +52,7 @@ Pero no obtuvo respuesta. Entonces se acercó a la cama, y volvió a abrir las c
 No había terminado de decir esto el lobo, cuando saltó fuera de la cama y devoró a la pobre Caperucita Roja.
 
 Cuando el lobo hubo saciado su voraz apetito, se metió de nuevo en la cama y comenzó a dar sonoros ronquidos. Acertó a pasar el cazador por delante de la casa, y pensó: "¡Cómo ronca la anciana!; debo entrar a mirar, no vaya a ser que le pase algo". Entonces, entró a la alcoba, y al acercarse a la cama, vio tumbado en ella al lobo.
-— ¡Mira dónde vengo a encontrarte, viejo pecador! – dijo -; hace tiempo que te busco.
+— ¡Mira donde vengo a encontrarte, viejo pecador! – dijo -; hace tiempo que te busco.
 
 Entonces le apuntó con su escopeta, pero de pronto se le ocurrió que el lobo podía haberse comido a la anciana y que tal vez podría salvarla todavía. Así es que no disparó sino que cogió unas tijeras y comenzó a abrir la barriga del lobo. Al dar un par de cortes, vio relucir la roja caperuza; dio otros cortes más y saltó la niña diciendo:
 — ¡Ay, qué susto he pasado, qué oscuro estaba en el vientre del lobo!
@@ -68,23 +68,38 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
       {
         id: 'rr-grimm-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué hizo el cazador en lugar de dispararle al lobo con su escopeta?',
-        options: ['Le gritó para asustarlo', 'Cogió unas tijeras y le abrió la barriga', 'Le tiró una piedra', 'Se fue a buscar ayuda'],
-        correctAnswer: 'Cogió unas tijeras y le abrió la barriga',
+        questionText: '¿Qué hizo el cazador en lugar de dispararle al lobo?',
+        options: [
+          'Le gritó muy fuerte para asustarlo.',
+          'Usó tijeras para abrirle la barriga.',
+          'Corrió al pueblo a buscar más ayuda.',
+          'Le tiró una piedra grande al lomo.'
+        ],
+        correctAnswer: 'Usó tijeras para abrirle la barriga.',
       },
       {
         id: 'rr-grimm-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le llevó Caperucita a su abuela en esta versión?',
-        options: ['Una torta y mantequilla', 'Pan y queso', 'Un trozo de torta y una botella de vino', 'Flores y miel'],
-        correctAnswer: 'Un trozo de torta y una botella de vino',
+        questionText: '¿Qué le llevó Caperucita a su abuela en esta historia?',
+        options: [
+          'Un poco de torta y una botella de vino.',
+          'Una canasta de pan y quesos frescos.',
+          'Mantequilla y muchas flores del campo.',
+          'Miel de abejas y un pastel de frutas.'
+        ],
+        correctAnswer: 'Un poco de torta y una botella de vino.',
       },
       {
         id: 'rr-grimm-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué llenaron dentro de la barriga del lobo para que se matara?',
-        options: ['Hojas y ramas', 'Paja', 'Grandes piedras', 'Agua'],
-        correctAnswer: 'Grandes piedras',
+        questionText: '¿Con qué llenaron la barriga del lobo para que muriera?',
+        options: [
+          'Con muchas ramas secas del bosque.',
+          'Con arena movediza de la montaña.',
+          'Con grandes piedras muy pesadas.',
+          'Con los trajes viejos de la abuela.'
+        ],
+        correctAnswer: 'Con grandes piedras muy pesadas.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
@@ -92,114 +107,189 @@ Los tres estaban contentos. El cazador le arrancó la piel al lobo y se la llev�
         id: 'rr-grimm-seq1',
         category: QuestionCategory.SEQUENCING,
         questionText: '¿Qué hizo el lobo justo después de tragarse a la abuela?',
-        options: ['Se fue del bosque', 'Se puso la ropa de la abuela y se metió en la cama', 'Se comió la torta y el vino', 'Se durmió inmediatamente'],
-        correctAnswer: 'Se puso la ropa de la abuela y se metió en la cama',
+        options: [
+          'Se fue del bosque a buscar más comida.',
+          'Se puso su ropa y se metió en la cama.',
+          'Se terminó la rica torta y el vino tinto.',
+          'Se quedó dormido roncando muy fuerte.'
+        ],
+        correctAnswer: 'Se puso su ropa y se metió en la cama.',
       },
       {
         id: 'rr-grimm-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el cazador después de sacar a Caperucita y a la abuela de la barriga del lobo?',
-        options: ['Mató al lobo con su escopeta', 'Llenó la barriga del lobo con piedras', 'Se llevó la piel del lobo y se fue', 'Celebró con una fiesta'],
-        correctAnswer: 'Llenó la barriga del lobo con piedras',
+        questionText: '¿Qué hizo el cazador al sacar a Caperucita del lobo?',
+        options: [
+          'Le disparó al animal con su escopeta.',
+          'Llenó la panza del lobo con piedras.',
+          'Se llevó a la niña rápido a su casa.',
+          'Buscó a los leñadores para avisarles.'
+        ],
+        correctAnswer: 'Llenó la panza del lobo con piedras.',
       },
       {
         id: 'rr-grimm-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pensó Caperucita al final del cuento, como lección aprendida?',
-        options: ['Que no volvería a visitar a su abuela', 'Que los lobos son malos', 'Que nunca más se apartaría del camino', 'Que los cazadores son héroes'],
-        correctAnswer: 'Que nunca más se apartaría del camino',
+        questionText: '¿Qué pensó Caperucita al final, como lección aprendida?',
+        options: [
+          'Que no volvería a visitar a su abuela.',
+          'Que nunca más se apartaría del camino.',
+          'Que los lobos eran animales muy tontos.',
+          'Que los cazadores eran sus mejores amigos.'
+        ],
+        correctAnswer: 'Que nunca más se apartaría del camino.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'rr-grimm-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "Andas ensimismada como si fueras a la escuela", ¿qué significa "ensimismada"?',
-        options: ['Muy contenta y saltando', 'Asustada y mirando a todos lados', 'Distraída y pensando en sus propias cosas', 'Corriendo muy rápido'],
-        correctAnswer: 'Distraída y pensando en sus propias cosas',
+        questionText: '¿Qué significa que Caperucita andaba "ensimismada"?',
+        options: [
+          'Que estaba muy feliz y saltando.',
+          'Que estaba distraída en sus cosas.',
+          'Que caminaba muy asustada del lobo.',
+          'Que corría a toda prisa por el bosque.'
+        ],
+        correctAnswer: 'Que estaba distraída en sus cosas.',
       },
       {
         id: 'rr-grimm-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando el lobo hubo saciado su "voraz" apetito, ¿qué significa "voraz"?',
-        options: ['Que come muy poco', 'Que come con muchas ganas y en gran cantidad', 'Que come muy despacio', 'Que come solo verduras'],
-        correctAnswer: 'Que come con muchas ganas y en gran cantidad',
+        questionText: '¿Qué quiere decir que el lobo tenía un apetito "voraz"?',
+        options: [
+          'Que casi no tenía nada de hambre.',
+          'Que comía con muchas ganas y rapidez.',
+          'Que solo le gustaba comer vegetales.',
+          'Que prefería dormir antes de almorzar.'
+        ],
+        correctAnswer: 'Que comía con muchas ganas y rapidez.',
       },
       {
         id: 'rr-grimm-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Caperucita era una dulce "coquetuela". ¿Qué significa "coquetuela"?',
-        options: ['Una niña muy seria', 'Una niña que busca agradar y ser atractiva', 'Una niña llorona', 'Una niña muy alta'],
-        correctAnswer: 'Una niña que busca agradar y ser atractiva',
+        questionText: 'Caperucita era una "coquetuela". ¿Qué significa esto?',
+        options: [
+          'Que era una niña muy seria y callada.',
+          'Que era una niña que quería verse linda.',
+          'Que era una niña muy alta y delgada.',
+          'Que era una niña miedosa y llorona.'
+        ],
+        correctAnswer: 'Que era una niña que quería verse linda.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'rr-grimm-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección que Caperucita Roja piensa al final de la historia?',
-        options: ['Que no debe llevarle vino a su abuela', 'Que debe obedecer a su madre y no apartarse del camino', 'Que los cazadores son buenos amigos', 'Que las flores del bosque son las más bonitas'],
-        correctAnswer: 'Que debe obedecer a su madre y no apartarse del camino',
+        questionText: '¿Cuál es la enseñanza final que nos deja esta historia?',
+        options: [
+          'No llevar botellas al medio del bosque.',
+          'Obedecer a los padres y seguir el camino.',
+          'Hacerse amigo de los cazadores valientes.',
+          'Juntar flores hermosas para los abuelos.'
+        ],
+        correctAnswer: 'Obedecer a los padres y seguir el camino.',
       },
       {
         id: 'rr-grimm-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la principal diferencia de esta versión con la de Perrault?',
-        options: ['El lobo es bueno', 'Caperucita se come al lobo', 'Caperucita y su abuela son rescatadas por un cazador', 'No hay cazador'],
-        correctAnswer: 'Caperucita y su abuela son rescatadas por un cazador',
+        questionText: '¿Qué diferencia a esta historia de la versión de Perrault?',
+        options: [
+          'El lobo es un animal mucho más bueno.',
+          'Caperucita y la abuela son rescatadas.',
+          'La niña no lleva ninguna capa roja.',
+          'No hay flores hermosas en el bosque.'
+        ],
+        correctAnswer: 'Caperucita y la abuela son rescatadas.',
       },
       {
         id: 'rr-grimm-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué el cazador decide usar tijeras en lugar de su escopeta?',
-        options: ['Porque no tenía balas', 'Porque pensó que el lobo se había comido a la anciana y que tal vez podría salvarla', 'Porque le daba pena el lobo', 'Porque las tijeras eran más silenciosas'],
-        correctAnswer: 'Porque pensó que el lobo se había comido a la anciana y que tal vez podría salvarla',
+        questionText: '¿Por qué el cazador decide no disparar su escopeta?',
+        options: [
+          'Porque no tenía balas en su cinturón.',
+          'Porque deseaba salvar a la anciana viva.',
+          'Porque le daba mucha pena matar al lobo.',
+          'Porque las tijeras eran mucho más rápidas.'
+        ],
+        correctAnswer: 'Porque deseaba salvar a la anciana viva.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'rr-grimm-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el lobo le sugirió a Caperucita Roja que recogiera flores?',
-        options: ['Porque quería darle un regalo a la abuela', 'Para distraerla y tener tiempo de llegar antes a casa de la abuela', 'Porque pensó que Caperucita estaba triste', 'Porque a él le gustaban mucho las flores'],
-        correctAnswer: 'Para distraerla y tener tiempo de llegar antes a casa de la abuela',
+        questionText: '¿Para qué el lobo le sugirió a la niña juntar flores?',
+        options: [
+          'Para que ella fuera feliz en el prado.',
+          'Para distraerla y llegar antes a la casa.',
+          'Para que la abuela se curara más rápido.',
+          'Para esconderse él detrás de los pétalos.'
+        ],
+        correctAnswer: 'Para distraerla y llegar antes a la casa.',
       },
       {
         id: 'rr-grimm-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se sentía Caperucita al entrar a la casa y ver a su "abuela" con aspecto extraño?',
-        options: ['Alegre y confiada', 'Asustada y extrañada', 'Enojada', 'Indiferente'],
-        correctAnswer: 'Asustada y extrañada',
+        questionText: '¿Qué sintió la niña al ver a su "abuela" con ese aspecto?',
+        options: [
+          'Mucha alegría por verla sana y fuerte.',
+          'Un gran miedo y una extraña sospecha.',
+          'Ganas de comerse la torta y el vino sola.',
+          'Enojo porque la abuela no le contestaba.'
+        ],
+        correctAnswer: 'Un gran miedo y una extraña sospecha.',
       },
       {
         id: 'rr-grimm-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el lobo, lleno de piedras, se cayó y se mató al intentar levantarse?',
-        options: ['Porque se tropezó', 'Porque el cazador le disparó', 'Porque el gran peso de las piedras no lo dejó moverse y lo hizo caer', 'Porque se sintió mareado'],
-        correctAnswer: 'Porque el gran peso de las piedras no lo dejó moverse y lo hizo caer',
+        questionText: '¿Por qué el lobo se cayó y se mató al final?',
+        options: [
+          'Porque el cazador le dio un gran empujón.',
+          'Porque el peso de las piedras lo venció.',
+          'Porque se tropezó con una raíz del árbol.',
+          'Porque estaba muy mareado por tanto sueño.'
+        ],
+        correctAnswer: 'Porque el peso de las piedras lo venció.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'rr-grimm-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad describe mejor al cazador en esta versión del cuento?',
-        options: ['Miedoso y débil', 'Inteligente y Valiente', 'Perezoso y descuidado', 'Gruñón y solitario'],
-        correctAnswer: 'Inteligente y Valiente',
+        questionText: '¿Qué cualidad define mejor al cazador del cuento?',
+        options: [
+          'Es una persona perezosa y descuidada.',
+          'Es alguien inteligente, atento y valiente.',
+          'Es un hombre muy miedoso y quejoso.',
+          'Es un vecino muy gruñón y solitario.'
+        ],
+        correctAnswer: 'Es alguien inteligente, atento y valiente.',
       },
       {
         id: 'rr-grimm-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿En qué se diferencia la Caperucita de esta versión de la de Perrault al final del cuento?',
-        options: ['Sigue siendo igual de inocente', 'Aprende una lección sobre la obediencia', 'Se vuelve una cazadora', 'Decide no volver al bosque'],
-        correctAnswer: 'Aprende una lección sobre la obediencia',
+        questionText: '¿Cómo cambia Caperucita al terminar la historia?',
+        options: [
+          'Sigue siendo igual de confiada y distraída.',
+          'Se vuelve más obediente y mucho más prudente.',
+          'Decide que quiere ser una gran cazadora.',
+          'Aprende a cocinar tortas para su abuelita.'
+        ],
+        correctAnswer: 'Se vuelve más obediente y mucho más prudente.',
       },
       {
         id: 'rr-grimm-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: 'El lobo en esta versión es...',
-        options: ['Astuto pero finalmente derrotado', 'Fuerte pero no muy inteligente', 'Amable al principio', 'Un animal incomprendido'],
-        correctAnswer: 'Astuto pero finalmente derrotado',
+        questionText: 'En esta versión, el lobo se muestra como alguien...',
+        options: [
+          'Muy astuto pero finalmente derrotado.',
+          'Muy fuerte pero con poco cerebro.',
+          'Muy amable con las niñas pequeñas.',
+          'Un animal incomprendido por la gente.'
+        ],
+        correctAnswer: 'Muy astuto pero finalmente derrotado.',
       },
     ],
   },

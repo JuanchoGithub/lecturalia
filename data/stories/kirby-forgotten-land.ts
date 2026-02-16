@@ -17,7 +17,7 @@ Cuando abrió los ojos, vio un mundo extraño y hermoso a la vez. Era la Tierra 
 
 Efectivamente, por las ruinas vagaban criaturas feroces del Beast Pack: lobos con colmillos afilados, búhos con ojos brillantes y leopardos sigilosos. Los lideraba Leongar, un león majestuoso pero poseído por una furia oscura. Habían capturado a cientos de Waddle Dees para usarlos como fuerza de trabajo en su plan de conquistar lo que quedaba del mundo.
 
-Kirby aprepó sus puñitos rosados. "¡No vamos a dejar que pase eso! Vamos a rescatarlos a todos". Y así comenzó la gran aventura.
+Kirby apretó sus puñitos rosados. "¡No vamos a dejar que pase eso! Vamos a rescatarlos a todos". Y así comenzó la gran aventura.
 
 Primero llegaron a las Praderas Naturales, un paraíso salvaje donde la naturaleza había reconquistado las ruinas humanas. Centros comerciales derruidos ahora eran jardines gigantes, con árboles creciendo por las ventanas rotas. Kirby y Bandana encontraron su primer gran descubrimiento: el Mouthful Mode. Al ver un auto oxidado, Kirby abrió su boca enorme y ¡zas! lo tragó entero. De repente se transformó en Car Kirby, un coche rosa velocísimo que derrapaba por las calles cubiertas de hierba, saltaba rampas y atropellaba a los Awoofies (perros salvajes gruñones).
 
@@ -44,144 +44,234 @@ La Tierra Olvidada renació: flores brotaron en las ruinas, el sol brilló cáli
 Y Kirby aprendió algo importante, algo que nunca olvidaría: el poder más grande no está en copiar habilidades ni en ser el más fuerte solo. Está en el coraje para ayudar aunque tengas miedo, en la amistad que te levanta cuando caes, y en creer que incluso un corazón pequeño y rosa puede cambiar un mundo entero olvidado.
     `,
   wordCount: 1085,
-  level: '4to Grado (Nivel Q)',
+  level: '3er Grado (Nivel Q)',
   questions: {
     [QuestionCategory.LITERAL]: [
       {
         id: 'kir-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo se llama el pueblo que construyen los Waddle Dees al ser rescatados?',
-        options: ['Dream Town', 'Waddle Dee Town', 'Ciudad Olvidada', 'Kirby Village'],
-        correctAnswer: 'Waddle Dee Town',
+        questionText: '¿Qué detalle físico menciona el texto que le ocurre a Kirby cuando está emocionado?',
+        options: [
+          'Sus ojos brillan como estrellas azules.',
+          'Sus mejillas se inflan como globos.',
+          'Su bandana roja brilla con intensidad.',
+          'Su cuerpo cambia de rosa a color oro.'
+        ],
+        correctAnswer: 'Sus mejillas se inflan como globos.',
       },
       {
         id: 'kir-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál es el nombre del líder del Beast Pack que ruge desde la torre?',
-        options: ['King Dedede', 'Gorimondo', 'Leongar', 'Fecto Forgo'],
-        correctAnswer: 'Leongar',
+        questionText: '¿Para qué quería Leongar utilizar a los cientos de Waddle Dees capturados?',
+        options: [
+          'Para que le enseñaran a usar la lanza mágica.',
+          'Como fuerza de trabajo en su plan de conquista.',
+          'Para que construyeran un nuevo cine en la costa.',
+          'Para alimentar a las fieras del Beast Pack.'
+        ],
+        correctAnswer: 'Como fuerza de trabajo en su plan de conquista.',
       },
       {
         id: 'kir-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué se transforma Kirby al inhalar un auto oxidado?',
-        options: ['Sword Kirby', 'Car Kirby', 'Wheel Kirby', 'Mouthful Kirby'],
-        correctAnswer: 'Car Kirby',
+        questionText: '¿Qué encontró Kirby en la playa dorada que resultó ser clave para la historia?',
+        options: [
+          'Una espada abandonada por un caballero.',
+          'Un ser azul llamado Elfilin que flotaba asustado.',
+          'Un maxim tomate gigante bajo una palmera.',
+          'Un carrusel que giraba solo con el viento.'
+        ],
+        correctAnswer: 'Un ser azul llamado Elfilin que flotaba asustado.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'kir-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿A qué lugar llegan Kirby y Bandana justo después de ser succionados por el portal?',
-        options: ['A la Ciudad Congelada', 'A las Praderas Naturales', 'Al Desierto Rojo', 'A una playa dorada'],
-        correctAnswer: 'A las Praderas Naturales',
+        questionText: '¿Cuál es el orden de las transformaciones que Kirby usa según los escenarios del viaje?',
+        options: [
+          'Auto rosa, espada afilada, tornado y luego hielo.',
+          'Hielo, auto rosa, tornado y finalmente espada.',
+          'Espada, hielo, auto rosa y finalmente tornado.',
+          'Tornado, espada, hielo y finalmente auto rosa.'
+        ],
+        correctAnswer: 'Auto rosa, espada afilada, tornado y luego hielo.',
       },
       {
         id: 'kir-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Dónde encuentran a Elfilin por primera vez?',
-        options: ['En el centro comercial', 'En una playa dorada', 'En el Laboratorio Redivivo', 'En la cima de un rascacielos'],
-        correctAnswer: 'En una playa dorada',
+        questionText: '¿Qué sucede inmediatamente después de que Kirby derrota a Tropic Woods?',
+        options: [
+          'Encuentra a Elfilin en una playa dorada.',
+          'Se transforma por primera vez en Car Kirby.',
+          'Los Waddle Dees empiezan a construir su ciudad.',
+          'Libera más Waddle Dees y el parque cobra vida.'
+        ],
+        correctAnswer: 'Libera más Waddle Dees y el parque cobra vida.',
       },
       {
         id: 'kir-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue la última transformación que usó Kirby para destruir la oscuridad?',
-        options: ['Sword Kirby', 'Ice Kirby', 'Estrella Hipernova', 'Car Kirby'],
-        correctAnswer: 'Estrella Hipernova',
+        questionText: '¿Qué hizo Kirby justo antes de lanzar la estrella hipernova final?',
+        options: [
+          'Absorbió el martillo de Phantom Forgo Dedede.',
+          'Recordó a todos sus amigos y su corazón brilló.',
+          'Usó un camión oxidado para embestir al jefe.',
+          'Atravesó un arcoíris de luz hacia Dream Land.'
+        ],
+        correctAnswer: 'Recordó a todos sus amigos y su corazón brilló.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'kir-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El portal dimensional era como un "vórtice" de tormenta. ¿Qué es un vórtice?',
-        options: ['Una montaña muy alta', 'Un remolino de mucha fuerza', 'Un tipo de cueva', 'Una nube de colores'],
-        correctAnswer: 'Un remolino de mucha fuerza',
+        questionText: 'En el texto, el parque de diversiones tiene montañas rusas "curvadas". ¿Qué significa?',
+        options: [
+          'Que están muy derechas y firmes.',
+          'Que tienen forma de arco o serpiente.',
+          'Que están rotas y caídas en el suelo.',
+          'Que son muy cortas y pequeñas.'
+        ],
+        correctAnswer: 'Que tienen forma de arco o serpiente.',
       },
       {
         id: 'kir-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Tropic Woods era un árbol "colosal". ¿Qué significa colosal?',
-        options: ['Muy pequeño', 'De tamaño gigantesco', 'Que tiene muchas flores', 'Que es muy viejo'],
-        correctAnswer: 'De tamaño gigantesco',
+        questionText: 'El Laboratorio Redivivo estaba lleno de energía "oscura". ¿Cómo era esa energía?',
+        options: [
+          'Una energía brillante que ayudaba a todos.',
+          'Una energía relacionada con la maldad o el misterio.',
+          'Una energía que olía a algodón de azúcar.',
+          'Una energía solar que calentaba las ruinas.'
+        ],
+        correctAnswer: 'Una energía relacionada con la maldad o el misterio.',
       },
       {
         id: 'kir-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La persecución de Clawroline fue "vertiginosa". ¿Qué significa vertiginosa?',
-        options: ['Muy lenta y aburrida', 'Muy rápida y que produce mareo', 'Silenciosa', 'Divertida'],
-        correctAnswer: 'Muy rápida y que produce mareo',
+        questionText: 'Waddle Dee Town es descrito como un lugar "acogedor". ¿Qué quiere decir?',
+        options: [
+          'Que es un lugar muy peligroso y frío.',
+          'Que es un sitio agradable donde uno se siente bien.',
+          'Que es una ciudad gigante con muchos rascacielos.',
+          'Que es un pueblo escondido bajo la arena roja.'
+        ],
+        correctAnswer: 'Que es un sitio agradable donde uno se siente bien.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
-        id: 'kir-main1',
+        id: 'rd-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de la odisea de Kirby?',
-        options: ['Aprender a manejar un auto rosa', 'Que el verdadero poder reside en la amistad y el coraje para ayudar a otros', 'Cómo sobrevivir en un desierto de arena', 'La historia de los humanos que vivían antes'],
-        correctAnswer: 'Que el verdadero poder reside en la amistad y el coraje para ayudar a otros',
+        questionText: '¿Cuál es la enseñanza más importante que Kirby descubre al final?',
+        options: [
+          'Que inhalar objetos es la única forma de ser valiente.',
+          'Que el poder de la amistad y el coraje valen más que la fuerza.',
+          'Que Dream Land es el lugar más seguro del universo.',
+          'Que los humanos cometieron un error al construir ciudades.'
+        ],
+        correctAnswer: 'Que el poder de la amistad y el coraje valen más que la fuerza.',
       },
       {
-        id: 'kir-main2',
+        id: 'rd-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la Tierra Olvidada vuelve a florecer al final?',
-        options: ['Porque llovió mucho', 'Porque los Waddle Dees plantaron semillas', 'Porque Kirby destruyó la oscuridad de Fecto Forgo con su corazón valiente', 'Porque el sol salió de nuevo'],
-        correctAnswer: 'Porque Kirby destruyó la oscuridad de Fecto Forgo con su corazón valiente',
+        questionText: '¿Cuál es el conflicto central que Kirby debe resolver en este mundo?',
+        options: [
+          'Encontrar comida suficiente para todos sus amigos.',
+          'Reparar las máquinas oxidadas de los antiguos humanos.',
+          'Rescatar a los Waddle Dees y detener a Fecto Forgo.',
+          'Aprender a manejar el camión rosa por las ruinas.'
+        ],
+        correctAnswer: 'Rescatar a los Waddle Dees y detener a Fecto Forgo.',
       },
       {
-        id: 'kir-main3',
+        id: 'rd-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué aprendió Kirby sobre la fuerza al final de la historia?',
-        options: ['Que ser gigante es lo más importante', 'Que el poder real no es estar solo y ser fuerte, sino tener amigos que te apoyen', 'Que es mejor no tener poderes', 'Que los Waddle Dees son débiles'],
-        correctAnswer: 'Que el poder real no es estar solo y ser fuerte, sino tener amigos que te apoyen',
+        questionText: '¿Qué representa el renacimiento de la Tierra Olvidada al final?',
+        options: [
+          'La llegada de nuevos humanos al planeta.',
+          'La victoria de la luz y la paz sobre la destrucción.',
+          'El inicio de un nuevo torneo de videojuegos.',
+          'Que Kirby decidió quedarse a vivir allí para siempre.'
+        ],
+        correctAnswer: 'La victoria de la luz y la paz sobre la destrucción.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'kir-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Kirby decidió rescatar a los Waddle Dees aunque no conocía ese mundo?',
-        options: ['Porque quería ser famoso', 'Porque su corazón puro no le permite dejar atrás a un amigo o a alguien en problemas', 'Porque se lo ordenó Bandana Waddle Dee', 'Porque buscaba comida'],
-        correctAnswer: 'Porque su corazón puro no le permite dejar atrás a un amigo o a alguien en problemas',
+        questionText: '¿Por qué Kirby pudo usar un camión para luchar si él es pequeño?',
+        options: [
+          'Porque Bandana Waddle Dee le ayudó a empujarlo.',
+          'Gracias al Mouthful Mode que le permite usar objetos grandes.',
+          'Porque el camión era un juguete de los Waddle Dees.',
+          'Porque Fecto Elfilis lo transformó por accidente.'
+        ],
+        correctAnswer: 'Gracias al Mouthful Mode que le permite usar objetos grandes.',
       },
       {
         id: 'kir-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos dice el hecho de que Elfilin sea la "parte buena" de un ser alienígena?',
-        options: ['Que todos los alienígenas son malos', 'Que incluso de algo peligroso puede nacer la bondad y la amistad', 'Que Elfilin es muy fuerte', 'Que los humanos cometieron un error'],
-        correctAnswer: 'Que incluso de algo peligroso puede nacer la bondad y la amistad',
+        questionText: '¿Por qué crees que Clawroline se unió al "lado bueno" tras la pelea?',
+        options: [
+          'Porque tenía miedo de que Kirby la inhalara de nuevo.',
+          'Porque la derrota rompió el control oscuro que había sobre ella.',
+          'Porque quería vivir en Waddle Dee Town con el cine.',
+          'Porque Elfilin le prometió un tesoro de la ciudad.'
+        ],
+        correctAnswer: 'Porque la derrota rompió el control oscuro que había sobre ella.',
       },
       {
         id: 'kir-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se sintieron probablemente los Waddle Dees cuando construyeron su nuevo pueblo?',
-        options: ['Asustados de Kirby', 'Tristes por su hogar anterior', 'Seguros y agradecidos por tener un nuevo lugar feliz gracias a Kirby', 'Enojados con el Beast Pack'],
-        correctAnswer: 'Seguros y agradecidos por tener un nuevo lugar feliz gracias a Kirby',
+        questionText: '¿Qué relación hay entre Elfilin y el villano Fecto Forgo?',
+        options: [
+          'Son dos hermanos que pelean por un juguete azul.',
+          'Son dos partes de un mismo ser que se dividió en el pasado.',
+          'Elfilin es el maestro que le enseñó magia a Fecto Forgo.',
+          'Fecto Forgo es una sombra creada por los miedos de Elfilin.'
+        ],
+        correctAnswer: 'Son dos partes de un mismo ser que se dividió en el pasado.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'kir-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías a Bandana Waddle Dee?',
-        options: ['Miedoso y perezoso', 'Leal, valiente y experto con su lanza', 'Un enemigo de Kirby', 'Alguien que solo piensa en comer'],
-        correctAnswer: 'Leal, valiente y experto con su lanza',
+        questionText: '¿Qué cualidad de Kirby lo hace un héroe según el autor?',
+        options: [
+          'Su capacidad de ser gigante y aterrador.',
+          'Su corazón puro y su valentía a pesar de ser pequeño.',
+          'Su habilidad para construir ciudades de cristal.',
+          'Su enojo constante contra el Beast Pack.'
+        ],
+        correctAnswer: 'Su corazón puro y su valentía a pesar de ser pequeño.',
       },
       {
         id: 'kir-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad de Kirby le permite usar el Mouthful Mode?',
-        options: ['Su gran tamaño', 'Su capacidad para estirarse e inhalar objetos grandes como un auto o un cono', 'Su fuerza física', 'Su velocidad'],
-        correctAnswer: 'Su capacidad para estirarse e inhalar objetos grandes como un auto o un cono',
+        questionText: '¿Cómo ayuda Bandana Waddle Dee a Kirby en las batallas?',
+        options: [
+          'Inhalando enemigos mientras Kirby descansa.',
+          'Distrayendo a los jefes y atacando con su lanza.',
+          'Buscando maxim tomates en medio del desierto.',
+          'Manejando el camión rosa mientras Kirby flota.'
+        ],
+        correctAnswer: 'Distrayendo a los jefes y atacando con su lanza.',
       },
       {
         id: 'kir-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué rasgo define mejor a Leongar al principio de la batalla final?',
-        options: ['Su sabiduría', 'Su bondad oculta', 'Estar poseído por una furia oscura y controlada', 'Su miedo a Kirby'],
-        correctAnswer: 'Estar poseído por una furia oscura y controlada',
+        questionText: '¿Cómo se describe la personalidad de Elfilin?',
+        options: [
+          'Como un guerrero agresivo que busca venganza.',
+          'Como un guía sabio pero muy miedoso y solitario.',
+          'Como la parte amable y buena del ser alienígena.',
+          'Como un robot que obedece las órdenes de Leongar.'
+        ],
+        correctAnswer: 'Como la parte amable y buena del ser alienígena.',
       },
     ],
   },

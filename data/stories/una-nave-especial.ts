@@ -36,11 +36,8 @@ El primer animal que habló dijo: —Creo que si vienen de otro planeta, deben s
 —Yo creo que tienen muchos colores, como nosotros, los picaflores.
 —Yo creo —dijo la osa— que son como yo, inteligente y valerosa.
 —Deben ser simpáticos y sanos, como nosotros, los gusanos.
-—Yo creo que son veloces como un rayo, igualito que nosotros, los caballos.
 —Yo creo que son como yo —dijo el canario— que tengo un canto extraordinario.
 —Yo creo que les encanta hacer macanas, igual que a mí —dijo la rana.
-—Yo creo que tienen una vida alegre y risueña, como nosotras, las cigüeñas.
-—Yo creo —dijo el grillo— que son como nosotros, musicales y sencillos.
 —Yo creo que tienen una voluntad de hierro, como nosotros, los perros.
 —Yo creo que son como los mosquitos, valientes y pequeñitos.
 —Yo creo que son como yo —dijo el jaguar— saben vivir en cualquier lugar.
@@ -58,138 +55,228 @@ Ese día tan especial los animales subieron a la nave espacial y con sus nuevos 
       {
         id: 'ne-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué estaban reunidos los animales en el bosque?',
-        options: ['Para celebrar un cumpleaños', 'Para festejar la llegada del año dos mil', 'Para planear un viaje', 'Para escapar de un peligro'],
-        correctAnswer: 'Para festejar la llegada del año dos mil',
+        questionText: '¿Cuál era el motivo principal del festejo de los animales?',
+        options: [
+          'La inauguración de un nuevo bosque fabuloso.',
+          'La llegada del año dos mil y un nuevo milenio.',
+          'El concurso de ingenio entre pájaros y leones.',
+          'La bienvenida a una bandada de loros de lejos.'
+        ],
+        correctAnswer: 'La llegada del año dos mil y un nuevo milenio.',
       },
       {
         id: 'ne-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué vieron los animales en el cielo que los sorprendió?',
-        options: ['Una estrella fugaz', 'Un cometa', 'Una nave especial con forma de plato volador', 'Un avión muy grande'],
-        correctAnswer: 'Una nave especial con forma de plato volador',
+        questionText: '¿Qué descripción física se le da al extraño objeto que aparece en el cielo?',
+        options: [
+          'Un avión rojo brillante con forma de pájaro gigante.',
+          'Una nave roja con forma de plato que deja huella dorada.',
+          'Una luna llena que se mueve rápido como un helicóptero.',
+          'Un cohete espacial azul que hace mucho ruido al bajar.'
+        ],
+        correctAnswer: 'Una nave roja con forma de plato que deja huella dorada.',
       },
       {
         id: 'ne-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué hicieron los animales al final de la historia?',
-        options: ['Se escondieron de los tripulantes', 'Lucharon contra los visitantes', 'Subieron a la nave y dieron una vuelta por el universo', 'Invitaron a los tripulantes a su fiesta'],
-        correctAnswer: 'Subieron a la nave y dieron una vuelta por el universo',
+        questionText: '¿Cómo trataron los tripulantes a los animales del bosque tras aterrizar?',
+        options: [
+          'Los asustaron con ruidos raros de otro planeta.',
+          'Fueron amistosos y los invitaron a dar un paseo.',
+          'Los ignoraron y se pusieron a estudiar las flores.',
+          'Les regalaron comida deliciosa de su propia galaxia.'
+        ],
+        correctAnswer: 'Fueron amistosos y los invitaron a dar un paseo.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'ne-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo cuando la nave aterrizó?',
-        options: ['Los animales se escondieron', 'Sonaron doce campanadas y todos se saludaron por el nuevo milenio', 'Los tripulantes empezaron a hablar', 'Empezó a llover'],
-        correctAnswer: 'Sonaron doce campanadas y todos se saludaron por el nuevo milenio',
+        questionText: '¿Qué evento marcó el inicio de los saludos y buenos deseos entre animales?',
+        options: [
+          'El momento en que la nave abrió su puerta principal.',
+          'El sonido de las doce campanadas de fin de año.',
+          'Cuando el picaflor gritó que era un plato volador.',
+          'Al aterrizar la nave brillante como un fuego rojo.'
+        ],
+        correctAnswer: 'El sonido de las doce campanadas de fin de año.',
       },
       {
         id: 'ne-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron los animales mientras la nave descendía?',
-        options: ['Se quedaron en silencio', 'Prepararon una fiesta de bienvenida', 'Cada uno dio su opinión sobre cómo serían los tripulantes', 'Construyeron un refugio'],
-        correctAnswer: 'Cada uno dio su opinión sobre cómo serían los tripulantes',
+        questionText: '¿Qué estaban haciendo los animales mientras la nave descendía poco a poco?',
+        options: [
+          'Preparaban una mesa con comida para compartir con todos.',
+          'Debatían cómo se imaginaba cada uno a los visitantes.',
+          'Se escondían detrás de los árboles por temor al aterrizaje.',
+          'Bailaban bajo las estrellas celebrando el milenio nuevo.'
+        ],
+        correctAnswer: 'Debatían cómo se imaginaba cada uno a los visitantes.',
       },
       {
         id: 'ne-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió inmediatamente después de que los tripulantes bajaran de la nave?',
-        options: ['Los animales se asustaron y huyeron', 'Los tripulantes invitaron a los animales a dar un paseo', 'Comenzó una gran fiesta', 'La nave despegó de nuevo'],
-        correctAnswer: 'Los tripulantes invitaron a los animales a dar un paseo',
+        questionText: '¿Qué ocurrió justo después de que los animales subieran a la nave?',
+        options: [
+          'Los tripulantes les enseñaron a hablar otros idiomas.',
+          'Dieron una vuelta y descubrieron la inmensidad del universo.',
+          'Se asustaron al notar que la nave era roja por fuera.',
+          'Regresaron al bosque para seguir con el gran festejo.'
+        ],
+        correctAnswer: 'Dieron una vuelta y descubrieron la inmensidad del universo.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'ne-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La nave dejaba una huella "refulgente". ¿Qué significa "refulgente"?',
-        options: ['Oscura y opaca', 'Que emite un brillo muy intenso', 'Muy larga', 'Que hace mucho ruido'],
-        correctAnswer: 'Que emite un brillo muy intenso',
+        questionText: 'La nave dejaba una huella "refulgente". ¿Qué significa esa palabra?',
+        options: [
+          'Que era algo muy oscuro y difícil de observar.',
+          'Que tenía un brillo muy intenso y resplandeciente.',
+          'Que era una marca de color verde como las hojas.',
+          'Que desaparecía rápidamente sin dejar ningún rastro.'
+        ],
+        correctAnswer: 'Que tenía un brillo muy intenso y resplandeciente.',
       },
       {
         id: 'ne-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Los animales se llenaron de "interrogantes". ¿Qué son los interrogantes?',
-        options: ['Alegría', 'Comida', 'Regalos', 'Preguntas o dudas'],
-        correctAnswer: 'Preguntas o dudas',
+        questionText: 'Los animales tenían muchos "interrogantes". ¿A qué se refiere?',
+        options: [
+          'A los regalos que trajeron para compartir en la mesa.',
+          'A las preguntas y dudas que sentían sobre la nave.',
+          'A los caminos secretos que atravesaban el bosque.',
+          'A los sonidos que hacían los grillos en la oscuridad.'
+        ],
+        correctAnswer: 'A las preguntas y dudas que sentían sobre la nave.',
       },
       {
         id: 'ne-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Muchos animales estaban "desconcertados". ¿Qué significa estar desconcertado?',
-        options: ['Muy contento', 'Muy cansado', 'Confundido o perplejo', 'Muy enojado'],
-        correctAnswer: 'Confundido o perplejo',
+        questionText: 'Varios animales estaban "desconcertados". ¿Cómo se sentían?',
+        options: [
+          'Muy contentos por la llegada del nuevo milenio.',
+          'Confundidos y sin saber bien qué estaba pasando.',
+          'Enojados porque la nave era de un color muy raro.',
+          'Cansados de esperar el festejo durante todo el día.'
+        ],
+        correctAnswer: 'Confundidos y sin saber bien qué estaba pasando.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'ne-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de la historia?',
-        options: ['Cómo los animales imaginan a los extraterrestres basándose en sí mismos y cómo la realidad es diferente y sorprendente.', 'Que los leones son fuertes y las serpientes inteligentes.', 'La importancia de celebrar el año nuevo.', 'Una descripción de diferentes tipos de animales.'],
-        correctAnswer: 'Cómo los animales imaginan a los extraterrestres basándose en sí mismos y cómo la realidad es diferente y sorprendente.',
+        questionText: '¿Cuál es el tema central que propone este cuento fantástico?',
+        options: [
+          'La competencia entre animales por ver quién es más inteligente.',
+          'La idea de que lo desconocido puede ser muy distinto a lo que esperamos.',
+          'Los preparativos necesarios para una gran fiesta en medio del bosque.',
+          'La descripción de los diferentes medios de transporte del futuro.'
+        ],
+        correctAnswer: 'La idea de que lo desconocido puede ser muy distinto a lo que esperamos.',
       },
       {
         id: 'ne-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el descubrimiento más importante que hacen los animales al final?',
-        options: ['Que los extraterrestres son peligrosos', 'Que existen otros seres diferentes a ellos y que el universo es inmenso', 'Que su bosque es el mejor lugar del mundo', 'Que los platos voladores son rojos'],
-        correctAnswer: 'Que existen otros seres diferentes a ellos y que el universo es inmenso',
+        questionText: '¿Qué descubren los animales sobre el universo al final de la historia?',
+        options: [
+          'Que es un lugar pequeño donde todos se parecen.',
+          'Que es inmenso y guarda muchas sorpresas desconocidas.',
+          'Que solo los leones y serpientes pueden viajar por él.',
+          'Que la Tierra es el único planeta que tiene una luna.'
+        ],
+        correctAnswer: 'Que es inmenso y guarda muchas sorpresas desconocidas.',
       },
       {
         id: 'ne-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué mensaje nos deja la forma en que cada animal imagina a los visitantes?',
-        options: ['Que los animales no tienen imaginación', 'Que tendemos a pensar que lo desconocido es similar a lo que ya conocemos', 'Que todos los animales quieren ser leones', 'Que los extraterrestres no existen'],
-        correctAnswer: 'Que tendemos a pensar que lo desconocido es similar a lo que ya conocemos',
+        questionText: '¿Cuál es el propósito de mostrar las opiniones de tantos animales?',
+        options: [
+          'Enseñar los nombres de todos los habitantes del bosque.',
+          'Reflejar que solemos imaginar lo nuevo basándonos en nosotros mismos.',
+          'Explicar por qué los mosquitos son más valientes que los perros.',
+          'Demostrar que todos los animales querían ser amigos de los loros.'
+        ],
+        correctAnswer: 'Reflejar que solemos imaginar lo nuevo basándonos en nosotros mismos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'ne-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué cada animal se imaginaba a los tripulantes como a sí mismo?',
-        options: ['Porque todos eran muy egoístas', 'Porque solo conocían su propia forma de ser y pensaban que era la mejor', 'Porque un mago los hechizó', 'Porque no tenían imaginación'],
-        correctAnswer: 'Porque solo conocían su propia forma de ser y pensaban que era la mejor',
+        questionText: '¿Por qué cada animal imaginaba a los tripulantes como a sí mismo?',
+        options: [
+          'Porque sabían que los visitantes eran sus parientes lejanos.',
+          'Porque es difícil imaginar algo que no se parece a nada conocido.',
+          'Porque los loros les habían dicho que los extraterrestres eran iguales.',
+          'Porque querían convencer al elefante de que él era el más elegante.'
+        ],
+        correctAnswer: 'Porque es difícil imaginar algo que no se parece a nada conocido.',
       },
       {
         id: 'ne-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se sintieron los animales al descubrir que los tripulantes eran totalmente diferentes a lo que imaginaban?',
-        options: ['Decepcionados', 'Asustados', 'Sorprendidos y luego felices por la nueva experiencia', 'Enojados'],
-        correctAnswer: 'Sorprendidos y luego felices por la nueva experiencia',
+        questionText: '¿Cómo se sintieron los animales al ver que los visitantes eran "totalmente diferentes"?',
+        options: [
+          'Decepcionados porque no tenían trompas ni plumas marrones.',
+          'Sorprendidos al notar que la realidad superaba su imaginación.',
+          'Asustados porque los tripulantes no sabían hablar su idioma.',
+          'Aburridos porque preferían seguir con la cena de fin de año.'
+        ],
+        correctAnswer: 'Sorprendidos al notar que la realidad superaba su imaginación.',
       },
       {
         id: 'ne-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos enseña el final de la historia sobre lo desconocido?',
-        options: ['Que hay que temerle a lo desconocido', 'Que lo desconocido es siempre peligroso', 'Que lo desconocido puede ser diferente, amistoso y maravilloso', 'Que es mejor no conocer cosas nuevas'],
-        correctAnswer: 'Que lo desconocido puede ser diferente, amistoso y maravilloso',
+        questionText: '¿Qué nos enseña la actitud amistosa de los tripulantes de la nave?',
+        options: [
+          'Que no hay que tener miedo a lo diferente o desconocido.',
+          'Que los extraterrestres siempre necesitan ayuda de los leones.',
+          'Que es mejor no alejarse del bosque fabuloso de noche.',
+          'Que las galaxias lejanas son lugares donde no hay reglas.'
+        ],
+        correctAnswer: 'Que no hay que tener miedo a lo diferente o desconocido.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'ne-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo resultaron ser los tripulantes de la nave?',
-        options: ['Peligrosos y agresivos', 'Iguales a los leones', 'Diferentes a todo lo que los animales imaginaban, pero amistosos', 'No hablaban el mismo idioma'],
-        correctAnswer: 'Diferentes a todo lo que los animales imaginaban, pero amistosos',
+        questionText: '¿Qué rasgo define mejor a los tripulantes de la nave espacial?',
+        options: [
+          'Eran seres miedosos que no querían bajar al bosque.',
+          'Eran amistosos y compartieron un viaje con los animales.',
+          'Eran guerreros que buscaban conquistar el año dos mil.',
+          'Eran robots que solo obedecían las órdenes del elefante.'
+        ],
+        correctAnswer: 'Eran amistosos y compartieron un viaje con los animales.',
       },
       {
         id: 'ne-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad comparten todos los animales del bosque?',
-        options: ['Son miedosos', 'Son curiosos y sociables', 'Son egoístas', 'Son silenciosos'],
-        correctAnswer: 'Son curiosos y sociables',
+        questionText: '¿Qué cualidad comparten los animales del bosque según el relato?',
+        options: [
+          'Son seres silenciosos a los que no les gusta conversar.',
+          'Son curiosos, sociables y les encanta festejar juntos.',
+          'Son egoístas y no querían que nadie subiera a la nave.',
+          'Son animales que solo se interesan por el clima y nada más.'
+        ],
+        correctAnswer: 'Son curiosos, sociables y les encanta festejar juntos.',
       },
       {
         id: 'ne-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué actitud muestra el león al opinar sobre los tripulantes?',
-        options: ['Humildad', 'Miedo', 'Orgullo, al pensar que deben ser fuertes como él', 'Inteligencia'],
-        correctAnswer: 'Orgullo, al pensar que deben ser fuertes como él',
+        questionText: '¿Qué actitud muestra la hormiga al opinar sobre los visitantes?',
+        options: [
+          'Piensa que deben ser solitarios y vivir bajo la tierra seca.',
+          'Cree que deben valorar la amistad, igual que hacen ellas.',
+          'Sostiene que deben ser gigantes para poder viajar en la nave.',
+          'Afirma que los tripulantes deben saber volar muy rápido.'
+        ],
+        correctAnswer: 'Cree que deben valorar la amistad, igual que hacen ellas.',
       },
     ],
   },

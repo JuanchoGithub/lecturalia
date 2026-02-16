@@ -34,7 +34,7 @@ Forgo Dedede volvió, debilitado pero enloquecido. Lanzó barriles gigantes que 
 —Lo logramos. Tres jefes seguidos sin un solo hit. Gente… el corazón me va a mil. Gracias por bancarme cada segundo. Mañana a las 21 hs seguimos con Leongar ultimate, el boss definitivo. Si paso sin daños… ¡sorteo una consola! ¿Se quedan hasta el final?
 
 La pantalla se puso negra con un texto blanco épico: “Continuará… Mañana 21 hs. No te lo pierdas. Esto se pone cada vez mejor”.
-    `,
+`,
   wordCount: 745,
   level: '4to Grado (Nivel Q)',
   questions: {
@@ -42,138 +42,228 @@ La pantalla se puso negra con un texto blanco épico: “Continuará… Mañana 
       {
         id: 'rk2-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuántos espectadores (viewers) alcanzó el stream en apenas unos minutos?',
-        options: ['100 mil', '180 mil', '250 mil', '500 mil'],
-        correctAnswer: '250 mil',
+        questionText: '¿Cuál fue la cifra máxima de espectadores mencionada al inicio del stream?',
+        options: [
+          'Unos 180 mil viewers.',
+          'Exactos 120 mil viewers.',
+          'Llegó a 250 mil viewers.',
+          'Superó el millón de viewers.'
+        ],
+        correctAnswer: 'Llegó a 250 mil viewers.',
       },
       {
         id: 'rk2-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué habilidad copió Kirby para dispararle a Forgo Dedede en la segunda fase?',
-        options: ['Espada de fuego', 'Martillo gigante', 'Space Ranger (rifle espacial)', 'Hielo'],
-        correctAnswer: 'Space Ranger (rifle espacial)',
+        questionText: '¿Qué habilidad especial usó Kirby para atacar a distancia a Forgo Dedede?',
+        options: [
+          'La gran espada de fuego.',
+          'El martillo de madera pesado.',
+          'El rifle espacial Space Ranger.',
+          'El aliento de hielo congelante.'
+        ],
+        correctAnswer: 'El rifle espacial Space Ranger.',
       },
       {
         id: 'rk2-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿A qué hora prometió Maxi continuar el stream al día siguiente?',
-        options: ['A las 12 hs', 'A las 20 hs', 'A las 21 hs', 'A la medianoche'],
-        correctAnswer: 'A las 21 hs',
+        questionText: '¿Qué objeto del escenario inhaló Kirby para derrotar a Phantom Clawroline?',
+        options: [
+          'Un barril de metal gigante.',
+          'Una de sus propias garras.',
+          'Una caja de bombas del piso.',
+          'Un foco de luz del circo.'
+        ],
+        correctAnswer: 'Una de sus propias garras.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'rk2-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó inmediatamente después de que Forgo Dedede fuera derrotado?',
-        options: ['Maxi se puso a llorar', 'Maxi se dejó caer hacia atrás y agradeció a sus seguidores', 'Apareció Phantom Clawroline', 'Kirby perdió sus poderes'],
-        correctAnswer: 'Maxi se dejó caer hacia atrás y agradeció a sus seguidores',
+        questionText: '¿Cuál es el orden correcto de los eventos durante la batalla final?',
+        options: [
+          'Invocación de clones, dash aéreo y sorteo.',
+          'Ataque de garra, pelea en el circo y victoria.',
+          'Giro de trompo, dash aéreo y huida al mar.',
+          'Venta de choripanes, pelea y reconexión.'
+        ],
+        correctAnswer: 'Ataque de garra, pelea en el circo y victoria.',
       },
       {
         id: 'rk2-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue el orden de los enemigos que enfrentó Kirby en esta parte?',
-        options: ['Phantom Clawroline y luego Forgo Dedede', 'Forgo Dedede, luego Phantom Clawroline y al final Forgo Dedede de nuevo', 'Leongar y luego Forgo Dedede', 'Gorimondo y Clawroline'],
-        correctAnswer: 'Forgo Dedede, luego Phantom Clawroline y al final Forgo Dedede de nuevo',
+        questionText: '¿Qué hizo Maxi inmediatamente después de que el jefe invocara a Phantom Clawroline?',
+        options: [
+          'Inhaló un bloque de hielo seco.',
+          'Rodó a un lado para esquivar zarpazos.',
+          'Se puso a cantar con sus seguidores.',
+          'Apagó la cámara por los nervios.'
+        ],
+        correctAnswer: 'Rodó a un lado para esquivar zarpazos.',
       },
       {
         id: 'rk2-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Maxi justo antes de realizar el dash aéreo perfecto con Kirby?',
-        options: ['Se puso a gritar', 'Tragó saliva con los dedos temblando sobre el control', 'Apagó la cámara', 'Pidió una donación'],
-        correctAnswer: 'Tragó saliva con los dedos temblando sobre el control',
+        questionText: '¿Qué sucedió justo antes de que Forgo Dedede se desvaneciera en luz?',
+        options: [
+          'Kirby quedó atrapado en un volcán.',
+          'Maxi sorteó una consola de juegos.',
+          'Kirby escapó de un torbellino púrpura.',
+          'Phantom Clawroline lanzó un barril.'
+        ],
+        correctAnswer: 'Kirby escapó de un torbellino púrpura.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'rk2-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En el texto se menciona que Maxi hizo un "dash". ¿Qué significa esto en un videojuego?',
-        options: ['Un salto muy alto', 'Un movimiento rápido y corto para esquivar o avanzar', 'Apagar la consola', 'Escribir en el chat'],
-        correctAnswer: 'Un movimiento rápido y corto para esquivar o avanzar',
+        questionText: 'En el cuento, ¿qué significa que la jugada fue "calculada al frame"?',
+        options: [
+          'Que fue una acción muy lenta.',
+          'Que fue hecha con precisión extrema.',
+          'Que se realizó usando un dibujo.',
+          'Que ocurrió fuera de la pantalla.'
+        ],
+        correctAnswer: 'Que fue hecha con precisión extrema.',
       },
       {
         id: 'rk2-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La pantalla cargó en el momento del "cliffhanger". ¿Qué es un cliffhanger?',
-        options: ['Un tipo de postre', 'Un momento de gran suspenso que queda sin resolver para que quieras ver más', 'Un error del juego', 'Una pantalla de ayuda'],
-        correctAnswer: 'Un momento de gran suspenso que queda sin resolver para que quieras ver más',
+        questionText: '¿Qué describe mejor la palabra "dash" en esta aventura de Kirby?',
+        options: [
+          'Un grito muy fuerte del personaje.',
+          'Un movimiento veloz para esquivar.',
+          'Una pausa para recuperar energía.',
+          'Un golpe dado con un martillo real.'
+        ],
+        correctAnswer: 'Un movimiento veloz para esquivar.',
       },
       {
         id: 'rk2-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Maxi dice que el desafío será una "maratón". ¿A qué se refiere?',
-        options: ['A que va a correr por la calle', 'A que será una sesión de juego muy larga y agotadora', 'A que va a jugar con amigos', 'A que el juego es de carreras'],
-        correctAnswer: 'A que será una sesión de juego muy larga y agotadora',
+        questionText: 'Maxi dice que la fase será una "maratón". ¿A qué se refiere?',
+        options: [
+          'A una carrera por la avenida.',
+          'A una sesión larga y agotadora.',
+          'A un video corto de pocos segundos.',
+          'A una competencia con trofeos.'
+        ],
+        correctAnswer: 'A una sesión larga y agotadora.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'rk2-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta segunda parte de la historia?',
-        options: ['Cómo ser un youtuber famoso', 'La superación del momento más tenso del desafío de Maxi y su victoria contra jefes difíciles sin recibir daño', 'La descripción de los poderes de Kirby', 'Una guía para vencer a Forgo Dedede'],
-        correctAnswer: 'La superación del momento más tenso del desafío de Maxi y su victoria contra jefes difíciles sin recibir daño',
+        questionText: '¿Cuál es el tema central de esta parte de la historia?',
+        options: [
+          'Cómo ganar dinero siendo un youtuber.',
+          'La tensión de mantener un récord perfecto.',
+          'La biografía del malvado Forgo Dedede.',
+          'La receta de los choripanes argentinos.'
+        ],
+        correctAnswer: 'La tensión de mantener un récord perfecto.',
       },
       {
         id: 'rk2-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué prometió Maxi si logra pasar el boss definitivo sin daños?',
-        options: ['Borrar su canal', 'Sorteo de una consola y un encuentro virtual con sus fans', 'Mudarse a la Costanera', 'No jugar más a Kirby'],
-        correctAnswer: 'Sorteo de una consola y un encuentro virtual con sus fans',
+        questionText: '¿Cuál es el objetivo final que persigue Maxi en su transmisión?',
+        options: [
+          'Llegar a un millón de suscriptores.',
+          'Terminar el nivel sin recibir daño alguno.',
+          'Aprender a programar sus propios juegos.',
+          'Visitar la Tierra Olvidada personalmente.'
+        ],
+        correctAnswer: 'Terminar el nivel sin recibir daño alguno.',
       },
       {
         id: 'rk2-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué sentimiento predomina en Maxi durante toda la transmisión?',
-        options: ['Aburrimiento', 'Gran tensión, emoción y concentración absoluta', 'Tristeza', 'Indiferencia'],
-        correctAnswer: 'Gran tensión, emoción y concentración absoluta',
+        questionText: '¿Qué importancia tiene el chat para el protagonista?',
+        options: [
+          'Le molesta y lo distrae de los golpes.',
+          'Le da apoyo y aumenta la emoción del reto.',
+          'Le enseña los trucos que él no conoce.',
+          'No le interesa porque solo mira a Kirby.'
+        ],
+        correctAnswer: 'Le da apoyo y aumenta la emoción del reto.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'rk2-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Maxi dice que se pondrá a vender choripanes si falla?',
-        options: ['Porque le gusta mucho cocinar', 'Es una forma exagerada de decir que su carrera como streamer depende del éxito de este desafío tan importante para él', 'Porque no tiene más dinero', 'Porque ya no quiere jugar'],
-        correctAnswer: 'Es una forma exagerada de decir que su carrera como streamer depende del éxito de este desafío tan importante para él',
+        questionText: '¿Por qué a Maxi le tiemblan los dedos sobre el Joy-Con?',
+        options: [
+          'Porque la habitación está muy fría.',
+          'Debido a la gran presión del desafío.',
+          'Porque el control tiene pilas viejas.',
+          'Por el cansancio de haber corrido.'
+        ],
+        correctAnswer: 'Debido a la gran presión del desafío.',
       },
       {
         id: 'rk2-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo crees que se sienten los seguidores de Maxi viendo el stream?',
-        options: ['Aburridos porque el juego es lento', 'Muy emocionados y nerviosos, compartiendo la tensión del "No Hit"', 'Enojados porque Maxi tarda mucho', 'Asustados por el ruido'],
-        correctAnswer: 'Muy emocionados y nerviosos, compartiendo la tensión del "No Hit"',
+        questionText: '¿Qué nos indica que Maxi es un jugador con mucha experiencia?',
+        options: [
+          'Que tiene una remera negra empapada.',
+          'Su capacidad de esquivar ataques al frame.',
+          'Que el Rey Dedede es su mejor amigo.',
+          'Su deseo de vender choripanes pronto.'
+        ],
+        correctAnswer: 'Su capacidad de esquivar ataques al frame.',
       },
       {
         id: 'rk2-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el "No Hit" es un desafío tan difícil?',
-        options: ['Porque el juego es muy largo', 'Porque requiere una precisión perfecta y un solo roce de cualquier enemigo arruina todo el progreso', 'Porque no se puede usar el joystick', 'Porque Kirby es muy lento'],
-        correctAnswer: 'Porque requiere una precisión perfecta y un solo roce de cualquier enemigo arruina todo el progreso',
+        questionText: '¿Por qué el autor usa palabras como "volcán" o "descontrolada" para el chat?',
+        options: [
+          'Para decir que los viewers están enojados.',
+          'Para mostrar la gran intensidad del momento.',
+          'Para explicar que el monitor se rompió.',
+          'Para describir un incendio real en la casa.'
+        ],
+        correctAnswer: 'Para mostrar la gran intensidad del momento.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'rk2-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad de Maxi destaca más en esta parte del relato?',
-        options: ['Su habilidad para contar chistes', 'Su increíble destreza, reflejos y capacidad para mantener la calma bajo presión', 'Su fuerza física', 'Su mala memoria'],
-        correctAnswer: 'Su increíble destreza, reflejos y capacidad para mantener la calma bajo presión',
+        questionText: '¿Cómo se siente Maxi al finalizar la batalla contra los dos jefes?',
+        options: [
+          'Aburrido porque el juego fue muy fácil.',
+          'Aliviado pero agotado por el esfuerzo.',
+          'Enojado con Kirby por moverse lento.',
+          'Triste por haber perdido su récord.'
+        ],
+        correctAnswer: 'Aliviado pero agotado por el esfuerzo.',
       },
       {
         id: 'rk2-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la relación de Maxi con su comunidad de seguidores?',
-        options: ['Es distante y fría', 'Es muy cercana; se apoya en ellos para tener fuerzas y les ofrece premios por su lealtad', 'No le importan sus seguidores', 'Les tiene miedo'],
-        correctAnswer: 'Es muy cercana; se apoya en ellos para tener fuerzas y les ofrece premios por su lealtad',
+        questionText: '¿Qué rasgo define la personalidad de Maxi en este texto?',
+        options: [
+          'La pereza ante las tareas difíciles.',
+          'La perseverancia y la pasión por ganar.',
+          'La timidez al hablar frente a la cámara.',
+          'La falta de interés en sus seguidores.'
+        ],
+        correctAnswer: 'La perseverancia y la pasión por ganar.',
       },
       {
         id: 'rk2-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué demuestra el hecho de que Maxi tenga ojeras y esté sudado?',
-        options: ['Que no sabe cuidarse', 'El enorme esfuerzo físico y mental que le está dedicando al desafío del videojuego', 'Que la habitación está caliente', 'Que acaba de despertarse'],
-        correctAnswer: 'El enorme esfuerzo físico y mental que le está dedicando al desafío del videojuego',
+        questionText: '¿Qué demuestra el hecho de que Maxi prometa sortear una consola?',
+        options: [
+          'Que tiene demasiado dinero ahorrado.',
+          'Su gratitud hacia su comunidad fiel.',
+          'Que no quiere jugar más con ese aparato.',
+          'Que el Rey Dedede se la regaló antes.'
+        ],
+        correctAnswer: 'Su gratitud hacia su comunidad fiel.',
       },
     ],
   },

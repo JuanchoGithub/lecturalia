@@ -36,138 +36,228 @@ De repente parecía un ángel y de repente parecía una nube gorda.
       {
         id: 'fresquete-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿De qué estaba hecho Don Fresquete?',
-        options: ['De helado', 'De nubes', 'De nieve', 'De papel'],
-        correctAnswer: 'De nieve',
+        questionText: '¿De qué material estaba fabricado Don Fresquete?',
+        options: [
+          'De helado de crema muy dulce.',
+          'De nubes blancas del cielo.',
+          'De bolitas de nieve fría.',
+          'De láminas de papel brillante.'
+        ],
+        correctAnswer: 'De bolitas de nieve fría.',
       },
       {
         id: 'fresquete-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué mensaje dejó Don Fresquete en la nieve cuando desapareció?',
-        options: ['Volveré pronto', 'Gracias por todo', 'Se ha marchado Don Fresquete a volar en barrilete', 'Adiós, amigos'],
-        correctAnswer: 'Se ha marchado Don Fresquete a volar en barrilete',
+        questionText: '¿Qué mensaje apareció escrito en el suelo blanco?',
+        options: [
+          'Que Don Fresquete tenía mucho frío.',
+          'Que se había marchado en un barrilete.',
+          'Que volvería a jugar por la tarde.',
+          'Que se había ido a una heladería.'
+        ],
+        correctAnswer: 'Que se había marchado en un barrilete.',
       },
       {
         id: 'fresquete-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Quiénes fabricaron a Don Fresquete?',
-        options: ['Una abuela', 'Unos magos', 'Los chicos', 'Cayó de la luna'],
-        correctAnswer: 'Los chicos',
+        questionText: '¿Quiénes fueron los creadores de este señor blanco?',
+        options: [
+          'Una abuela que vivía en la esquina.',
+          'Unos magos que bajaron de la luna.',
+          'Los chicos que jugaron toda la tarde.',
+          'Unos duendes que salieron del bosque.'
+        ],
+        correctAnswer: 'Los chicos que jugaron toda la tarde.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'fresquete-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron los chicos inmediatamente después de fabricar a Don Fresquete?',
-        options: ['Se fueron a dormir', 'Lo abrigaron con una bufanda', 'Bailaron y cantaron a su alrededor', 'Le dieron un nombre'],
-        correctAnswer: 'Bailaron y cantaron a su alrededor',
+        questionText: '¿Qué hicieron los chicos apenas terminaron de armarlo?',
+        options: [
+          'Se fueron a dormir porque era tarde.',
+          'Bailaron y cantaron a su alrededor.',
+          'Le pusieron una bufanda de lana roja.',
+          'Lo llevaron adentro para que no sufra.'
+        ],
+        correctAnswer: 'Bailaron y cantaron a su alrededor.',
       },
       {
         id: 'fresquete-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron los chicos a la mañana siguiente de crear a Don Fresquete?',
-        options: ['Salieron a jugar con él', 'Corrieron a la ventana para saludarlo y descubrieron que no estaba', 'Le contaron a la abuela', 'Le hicieron un amigo de nieve'],
-        correctAnswer: 'Corrieron a la ventana para saludarlo y descubrieron que no estaba',
+        questionText: '¿Qué hicieron los chicos a la mañana siguiente?',
+        options: [
+          'Salieron al patio para hacerle un amigo.',
+          'Corrieron a la ventana para saludarlo.',
+          'Le contaron a la abuela lo que pasó.',
+          'Buscaron al barrilete por todo el barrio.'
+        ],
+        correctAnswer: 'Corrieron a la ventana para saludarlo.',
       },
       {
         id: 'fresquete-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué fue lo último que vieron los chicos de Don Fresquete?',
-        options: ['Su mensaje en la nieve', 'Que se derretía con el sol', 'Que volaba muy lejos prendido de la cola de un barrilete', 'Que se escondía detrás de un árbol'],
-        correctAnswer: 'Que volaba muy lejos prendido de la cola de un barrilete',
+        questionText: '¿Qué fue lo último que los niños vieron de Don Fresquete?',
+        options: [
+          'Su cara reflejada en un charco de agua.',
+          'Que se derretía lentamente bajo el sol.',
+          'Que volaba prendido de un barrilete.',
+          'Que saludaba desde lo alto de la luna.'
+        ],
+        correctAnswer: 'Que volaba prendido de un barrilete.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'fresquete-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "volaba tan campante", ¿qué significa "campante"?',
-        options: ['Con mucho miedo', 'Muy rápido', 'Tranquilo y sin ninguna preocupación', 'Dando vueltas'],
-        correctAnswer: 'Tranquilo y sin ninguna preocupación',
+        questionText: 'En el cuento, ¿qué significa que volaba "tan campante"?',
+        options: [
+          'Que estaba muy asustado por el viento.',
+          'Que volaba con muchísima rapidez.',
+          'Que estaba muy tranquilo y sin miedo.',
+          'Que estaba cayendo hacia el suelo.'
+        ],
+        correctAnswer: 'Que estaba muy tranquilo y sin miedo.',
       },
       {
         id: 'fresquete-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Los chicos volaban un "barrilete". ¿Qué es un barrilete?',
-        options: ['Un avión de papel', 'Un globo', 'Una cometa', 'Un pájaro de juguete'],
-        correctAnswer: 'Una cometa',
+        questionText: '¿Qué objeto es un "barrilete" en esta historia?',
+        options: [
+          'Un avión de juguete muy ruidoso.',
+          'Una cometa que vuela con el viento.',
+          'Un globo de colores lleno de helio.',
+          'Un pájaro de metal que hace piruetas.'
+        ],
+        correctAnswer: 'Una cometa que vuela con el viento.',
       },
       {
         id: 'fresquete-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando los chicos hacían "escándalo", ¿qué estaban haciendo?',
-        options: ['Mucho silencio', 'Mucho ruido y alboroto', 'Estaban estudiando', 'Estaban durmiendo'],
-        correctAnswer: 'Mucho ruido y alboroto',
+        questionText: '¿Qué quiere decir que los chicos hacían "escándalo"?',
+        options: [
+          'Que estaban haciendo mucho silencio.',
+          'Que estaban gritando y haciendo ruido.',
+          'Que estaban estudiando con atención.',
+          'Que estaban caminando muy despacito.'
+        ],
+        correctAnswer: 'Que estaban gritando y haciendo ruido.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'fresquete-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de este cuento?',
-        options: ['Cómo hacer un muñeco de nieve', 'La historia de un muñeco de nieve mágico que se va volando en un barrilete', 'Una canción sobre un barrilete', 'Por qué no se debe jugar con la nieve'],
-        correctAnswer: 'La historia de un muñeco de nieve mágico que se va volando en un barrilete',
+        questionText: '¿De qué trata principalmente este relato?',
+        options: [
+          'De cómo hacer un muñeco de nieve real.',
+          'De un muñeco que cobra vida y se va.',
+          'De una abuela que se asoma a la puerta.',
+          'De los peligros de jugar con la nieve.'
+        ],
+        correctAnswer: 'De un muñeco que cobra vida y se va.',
       },
       {
         id: 'fresquete-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué es lo que hace a Don Fresquete diferente de otros señores de nieve?',
-        options: ['Que está hecho de nieve', 'Que no tiene piernas', 'Que puede moverse y tener aventuras', 'Que le gusta el frío'],
-        correctAnswer: 'Que puede moverse y tener aventuras',
+        questionText: '¿Qué hace que Don Fresquete sea un muñeco especial?',
+        options: [
+          'Que tiene una nariz de zanahoria roja.',
+          'Que es más grande que una casa entera.',
+          'Que puede moverse y vivir aventuras.',
+          'Que le gusta mucho comer helados fríos.'
+        ],
+        correctAnswer: 'Que puede moverse y vivir aventuras.',
       },
       {
         id: 'fresquete-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el evento más sorprendente del cuento?',
-        options: ['Que los chicos hicieron un muñeco de nieve', 'Que una abuela se asomó a la puerta', 'Que Don Fresquete desapareció y se fue volando', 'Que los chicos cantaron una canción'],
-        correctAnswer: 'Que Don Fresquete desapareció y se fue volando',
+        questionText: '¿Cuál es el momento más fantástico del cuento?',
+        options: [
+          'Cuando los niños se ponen a bailar.',
+          'Cuando la abuela abre la puerta.',
+          'Cuando el muñeco vuela en el cielo.',
+          'Cuando los chicos ven caer la nieve.'
+        ],
+        correctAnswer: 'Cuando el muñeco vuela en el cielo.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'fresquete-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el cuento dice que Don Fresquete era "muy sinvergüenza"?',
-        options: ['Porque era maleducado', 'Porque se escapó sin avisar, haciendo una travesura', 'Porque estaba mal hecho', 'Porque no quería a los niños'],
-        correctAnswer: 'Porque se escapó sin avisar, haciendo una travesura',
+        questionText: '¿Por qué el autor dice que el muñeco era un "sinvergüenza"?',
+        options: [
+          'Porque era una persona muy maleducada.',
+          'Porque hizo una travesura y se escapó.',
+          'Porque estaba mal hecho por los chicos.',
+          'Porque no quería jugar con los niños.'
+        ],
+        correctAnswer: 'Porque hizo una travesura y se escapó.',
       },
       {
         id: 'fresquete-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se sintieron los niños al ver a Don Fresquete volando?',
-        options: ['Enojados porque se fue', 'Tristes porque lo perdieron', 'Asombrados y quizás felices por su aventura', 'Asustados'],
-        correctAnswer: 'Asombrados y quizás felices por su aventura',
+        questionText: '¿Cómo se sintieron los niños al ver a su muñeco volar?',
+        options: [
+          'Enojados porque les robó el barrilete.',
+          'Tristes porque el sol lo iba a derretir.',
+          'Asombrados de ver algo tan maravilloso.',
+          'Asustados por el ruido que hacía el viento.'
+        ],
+        correctAnswer: 'Asombrados de ver algo tan maravilloso.',
       },
       {
         id: 'fresquete-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿De dónde crees que salió el barrilete?',
-        options: ['Lo fabricó Don Fresquete', 'Se lo encontró en el suelo', 'Probablemente era de los chicos que jugaban', 'Cayó del cielo'],
-        correctAnswer: 'Probablemente era de los chicos que jugaban',
+        questionText: '¿De dónde creen que salió el barrilete que usó el muñeco?',
+        options: [
+          'Lo fabricó Don Fresquete por la noche.',
+          'Lo trajo la abuela como un gran regalo.',
+          'Probablemente era de los chicos del barrio.',
+          'Bajó de la luna junto con las estrellas.'
+        ],
+        correctAnswer: 'Probablemente era de los chicos del barrio.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'fresquete-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Don Fresquete?',
-        options: ['Tímido y quieto', 'Aventurero y juguetón', 'Gruñón y solitario', 'Triste y frío'],
-        correctAnswer: 'Aventurero y juguetón',
+        questionText: '¿Qué dos rasgos definen mejor a Don Fresquete?',
+        options: [
+          'Es un ser muy miedoso y silencioso.',
+          'Es un personaje aventurero y pícaro.',
+          'Es un muñeco muy serio y muy quieto.',
+          'Es una nube triste que llora mucho.'
+        ],
+        correctAnswer: 'Es un personaje aventurero y pícaro.',
       },
       {
         id: 'fresquete-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo son los chicos del cuento?',
-        options: ['Aburridos y serios', 'Creativos y alegres', 'Egoístas y malos', 'Miedosos y tímidos'],
-        correctAnswer: 'Creativos y alegres',
+        questionText: '¿Cómo es la personalidad de los chicos del cuento?',
+        options: [
+          'Son aburridos y no les gusta jugar.',
+          'Son creativos, alegres y entusiastas.',
+          'Son egoístas y no comparten la nieve.',
+          'Son miedosos y se quedan en su casa.'
+        ],
+        correctAnswer: 'Son creativos, alegres y entusiastas.',
       },
       {
         id: 'fresquete-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué te parece que le gusta hacer a Don Fresquete?',
-        options: ['Quedarse quieto en un lugar', 'Dormir mucho', 'Explorar y vivir aventuras', 'Estar solo'],
-        correctAnswer: 'Explorar y vivir aventuras',
+        questionText: '¿Qué le gusta hacer a Don Fresquete según sus actos?',
+        options: [
+          'Quedarse quietito en un solo rincón.',
+          'Dormir mucho durante toda la mañana.',
+          'Explorar el mundo y vivir aventuras.',
+          'Hacer enojar a la abuela del barrio.'
+        ],
+        correctAnswer: 'Explorar el mundo y vivir aventuras.',
       },
     ],
   },

@@ -34,7 +34,7 @@ A la Princesa le gustó la idea y decidió, por una vez, desobedecer a su papá.
 En eso se asomó el Emperador al balcón y al no ver a su hija armó un escándalo de mil demonios.
 –¡Dónde está la Princesa! –chilló.
 Y llegaron todos sus sirvientes, sus soldados, sus vigilantes, sus cocineros, sus lustrabotas y sus tías para ver qué le pasaba.
-–¡Vayan todos a buscar a la Princesa! –rugió el Emperador con voz de trueno y ojos de relámpago.
+–¡Vayan todos a buscar a la Princesa! –rugió el Emperador con voz de trueno y ojos de relámapago.
 
 Y allá salieron todos corriendo y el Emperador se quedó solo en el salón.
 –¡Dónde estará la Princesa! –repitió.
@@ -72,7 +72,7 @@ El Príncipe fue hasta la ventana y le preguntó a la Princesa:
 Y así fue como la Princesa dejó de estar quietita y se casó con el Príncipe Kinoto Fukasuka. Los dos llegaron al templo en monopatín y luego dieron una fiesta en el jardín. Una fiesta que duró diez días y un enorme chupetín.
 
 Así acaba, como ves, este cuento japonés.
-  `,
+`,
   wordCount: 651,
   level: '3er Grado (Nivel N)',
   questions: {
@@ -80,138 +80,228 @@ Así acaba, como ves, este cuento japonés.
       {
         id: 'suki-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué era lo único que tenía que hacer la princesa Sukimuki todo el día?',
-        options: ['Cantar', 'Bailar', 'Quedarse quietita', 'Leer libros'],
-        correctAnswer: 'Quedarse quietita',
+        questionText: '¿Cuál era la regla principal que Sukimuki debía seguir para ser una verdadera princesa?',
+        options: [
+          'Ayudar a los sirvientes a pelar las ciruelas del jardín.',
+          'Permanecer quieta sin realizar ninguna actividad por sí misma.',
+          'Bailar con abanicos de seda durante las fiestas del palacio.',
+          'Sonarse la nariz únicamente cuando el Emperador lo ordenara.'
+        ],
+        correctAnswer: 'Permanecer quieta sin realizar ninguna actividad por sí misma.',
       },
       {
         id: 'suki-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué se transformó la mariposa cuando el Emperador intentó aplastarla?',
-        options: ['En un dragón', 'En un Príncipe', 'En un gato', 'En otra princesa'],
-        correctAnswer: 'En un Príncipe',
+        questionText: '¿En qué se transformó la mariposa justo después de que el Emperador agarrara el matamoscas?',
+        options: [
+          'En un dragón de colores con ojos de relámpago.',
+          'En un príncipe valiente, estudioso y con bigotito.',
+          'En una mucama japonesa que sabía bailar con abanico.',
+          'En un guerrero con armadura que hablaba en japonés.'
+        ],
+        correctAnswer: 'En un príncipe valiente, estudioso y con bigotito.',
       },
       {
         id: 'suki-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo llegaron la princesa y el príncipe al templo para casarse?',
-        options: ['En una carroza', 'Caminando', 'A caballo', 'En monopatín'],
-        correctAnswer: 'En monopatín',
+        questionText: '¿Qué medio de transporte utilizaron para llegar al templo el día de su boda?',
+        options: [
+          'Una elegante carroza tirada por caballos blancos.',
+          'Un monopatín veloz para llegar rápido a la fiesta.',
+          'Las alas de la mariposa mágica que volaba muy alto.',
+          'Un barco de papel que navegaba por los ríos de Siu Kiu.'
+        ],
+        correctAnswer: 'Un monopatín veloz para llegar rápido a la fiesta.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'suki-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo la princesa justo después de decidir desobedecer a su papá?',
-        options: ['Se escondió', 'Salió a correr y bailar por el jardín con la Mariposa', 'Se puso a llorar', 'Se fue del palacio'],
-        correctAnswer: 'Salió a correr y bailar por el jardín con la Mariposa',
+        questionText: '¿Qué ocurrió inmediatamente después de que la Princesa aceptara la invitación de la Mariposa?',
+        options: [
+          'El Emperador llamó a sus tías para que buscaran a su hija.',
+          'Salió a correr y bailar por el jardín desobedeciendo a su papá.',
+          'El Príncipe sacó su espada y peleó contra los vigilantes.',
+          'La Mariposa se sentó en el trono real para esperar al Emperador.'
+        ],
+        correctAnswer: 'Salió a correr y bailar por el jardín desobedeciendo a su papá.',
       },
       {
         id: 'suki-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió inmediatamente después de que el Príncipe venciera a los sirvientes del Emperador?',
-        options: ['El Emperador lo declaró rey', 'El Príncipe le preguntó al Emperador si le permitía casarse con su hija', 'La princesa se escapó con el Príncipe', 'El Emperador llamó a más guardias'],
-        correctAnswer: 'El Príncipe le preguntó al Emperador si le permitía casarse con su hija',
+        questionText: '¿Cuál fue el orden de las reacciones del Emperador al notar la ausencia de Sukimuki?',
+        options: [
+          'Se asomó al balcón, armó un escándalo y ordenó a todos buscarla.',
+          'Llamó a los cocineros, se puso anteojos y se fue a dormir tranquilo.',
+          'Se desmayó de rabia, buscó a la mariposa y luego llamó a las tías.',
+          'Salió al jardín, bailó con la mariposa y luego regresó al salón.'
+        ],
+        correctAnswer: 'Se asomó al balcón, armó un escándalo y ordenó a todos buscarla.',
       },
       {
         id: 'suki-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el Emperador al ver a la Mariposa sentada en su trono, antes de que se transformara?',
-        options: ['Se desmayó', 'La invitó a tomar el té', 'Agarró un matamoscas para aplastarla', 'Llamó a sus guardias'],
-        correctAnswer: 'Agarró un matamoscas para aplastarla',
+        questionText: '¿Qué hizo el Príncipe Kinoto Fukasuka justo antes de preguntarle a Sukimuki si quería casarse?',
+        options: [
+          'Se puso tres pares de anteojos para ver mejor a la princesa.',
+          'Venció a los servidores, vigilantes y cocineros en una pelea.',
+          'Le pidió al Emperador un enorme chupetín para la fiesta.',
+          'Se transformó de nuevo en una mariposa de muchos colores.'
+        ],
+        correctAnswer: 'Venció a los servidores, vigilantes y cocineros en una pelea.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'suki-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando la princesa estaba "papando moscas", ¿qué significa esa expresión?',
-        options: ['Cazando insectos para comer', 'Estando distraída y sin hacer nada de provecho', 'Pintando dibujos de moscas', 'Hablando con las moscas'],
-        correctAnswer: 'Estando distraída y sin hacer nada de provecho',
+        questionText: 'El texto dice que Sukimuki estaba "papando moscas" en el jardín. ¿Qué significa?',
+        options: [
+          'Que estaba cazando insectos para ayudar a los cocineros.',
+          'Que estaba distraída y sin hacer nada útil por el aburrimiento.',
+          'Que estaba comiendo frutas dulces debajo de los árboles.',
+          'Que estaba estudiando el comportamiento de las mariposas.'
+        ],
+        correctAnswer: 'Que estaba distraída y sin hacer nada útil por el aburrimiento.',
       },
       {
         id: 'suki-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El Emperador quería aplastar a la "insolente" Mariposa. ¿Qué significa insolente?',
-        options: ['Muy colorida', 'Pequeña y débil', 'Atrevida y falta de respeto', 'Tímida y silenciosa'],
-        correctAnswer: 'Atrevida y falta de respeto',
+        questionText: 'Una voz le dijo al Emperador que la Princesa estaba "de jarana". ¿Qué es estar de jarana?',
+        options: [
+          'Estar muy enferma por haber corrido bajo el sol.',
+          'Estar en medio de una fiesta, diversión o alboroto.',
+          'Estar escondida en una torre muy alta del palacio.',
+          'Estar trabajando como mucama o dentista en la ciudad.'
+        ],
+        correctAnswer: 'Estar en medio de una fiesta, diversión o alboroto.',
       },
       {
         id: 'suki-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La Princesa dice que si no se queda quieta, en el imperio habrá una "pataleta". ¿Qué es una pataleta?',
-        options: ['Una fiesta', 'Un gran enojo o berrinche', 'Una ley', 'Una canción'],
-        correctAnswer: 'Un gran enojo o berrinche',
+        questionText: 'El Príncipe tenía "pretensiones" de casarse con la hija del Rey. ¿Qué son pretensiones?',
+        options: [
+          'Deseos o intenciones de conseguir algo importante.',
+          'Miedos profundos a las espadas de los soldados.',
+          'Secretos que se guardan en una caja de fósforos.',
+          'Regalos caros que se entregan a los emperadores.'
+        ],
+        correctAnswer: 'Deseos o intenciones de conseguir algo importante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'suki-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el mensaje principal de esta historia?',
-        options: ['Las princesas deben obedecer siempre a sus padres', 'Es importante ser libre para jugar y divertirse, en lugar de seguir reglas aburridas', 'Las mariposas son mágicas', 'Los príncipes siempre ganan las peleas'],
-        correctAnswer: 'Es importante ser libre para jugar y divertirse, en lugar de seguir reglas aburridas',
+        questionText: '¿Cuál es el mensaje principal que transmite este cuento de María Elena Walsh?',
+        options: [
+          'Que las princesas deben ser siempre muy educadas y silenciosas.',
+          'Que la libertad y la alegría son más valiosas que las reglas rígidas.',
+          'Que los emperadores japoneses son personas muy valientes y fuertes.',
+          'Que es peligroso hablar con mariposas extrañas en los jardines.'
+        ],
+        correctAnswer: 'Que la libertad y la alegría son más valiosas que las reglas rígidas.',
       },
       {
         id: 'suki-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la Princesa decide jugar con la mariposa?',
-        options: ['Porque su papá se lo permite', 'Porque está aburrida de no hacer nada y quiere divertirse', 'Porque la mariposa la obliga', 'Porque quiere enojar a su papá'],
-        correctAnswer: 'Porque está aburrida de no hacer nada y quiere divertirse',
+        questionText: '¿Por qué la vida de Sukimuki cambió radicalmente al final?',
+        options: [
+          'Porque el Emperador decidió enviarla a una escuela de dentistas.',
+          'Porque encontró a alguien que la animó a ser feliz y actuar por sí misma.',
+          'Porque los sirvientes del palacio se cansaron de peinarla y vestirla.',
+          'Porque la ciudad de Siu Kiu fue invadida por mariposas gigantes.'
+        ],
+        correctAnswer: 'Porque encontró a alguien que la animó a ser feliz y actuar por sí misma.',
       },
       {
         id: 'suki-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cómo se resuelve el conflicto entre el Príncipe y el Emperador?',
-        options: ['Se hacen amigos', 'El Príncipe vence a los guardias y el Emperador, asustado, le permite casarse con su hija', 'El Emperador encierra al Príncipe', 'La Princesa los convence de no pelear'],
-        correctAnswer: 'El Príncipe vence a los guardias y el Emperador, asustado, le permite casarse con su hija',
+        questionText: '¿Qué critica el cuento sobre las costumbres de las princesas de esa época?',
+        options: [
+          'Que no sabían cocinar ni limpiar sus propias habitaciones.',
+          'Que la falta de actividad propia las convertía en seres aburridos.',
+          'Que gastaban mucho dinero en comprar anteojos para el Rey.',
+          'Que no tenían permiso para viajar en monopatín al templo.'
+        ],
+        correctAnswer: 'Que la falta de actividad propia las convertía en seres aburridos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'suki-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se sentía la princesa Sukimuki al principio del cuento?',
-        options: ['Feliz y contenta', 'Muy aburrida', 'Cansada de tanto jugar', 'Enojada con su papá'],
-        correctAnswer: 'Muy aburrida',
+        questionText: '¿Por qué Sukimuki le hablaba a la mariposa usando la "p" (mariposapa, nopo puepedopo)?',
+        options: [
+          'Porque era el idioma oficial que se hablaba en la ciudad de Siu Kiu.',
+          'Como un juego infantil o clave secreta para comunicarse con su amigo.',
+          'Porque tenía un problema en la lengua por estar tanto tiempo quieta.',
+          'Porque el Emperador le había prohibido hablar en japonés correcto.'
+        ],
+        correctAnswer: 'Como un juego infantil o clave secreta para comunicarse con su amigo.',
       },
       {
         id: 'suki-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el Emperador cambió su voz de "trueno" a "laucha" al final?',
-        options: ['Porque se quedó sin voz de tanto gritar', 'Porque el Príncipe lo hechizó', 'Porque tenía miedo del Príncipe después de que venciera a todos', 'Porque se puso triste'],
-        correctAnswer: 'Porque tenía miedo del Príncipe después de que venciera a todos',
+        questionText: '¿Qué le sucedió al poder del Emperador cuando el Príncipe lo enfrentó?',
+        options: [
+          'Se hizo más fuerte porque todos sus soldados lo defendieron muy bien.',
+          'Se debilitó por el miedo, pasando de tener voz de "trueno" a voz de "laucha".',
+          'Aumentó porque el Príncipe decidió regalarle su espada de oro fino.',
+          'Se mantuvo igual porque el Príncipe solo quería jugar a la mancha.'
+        ],
+        correctAnswer: 'Se debilitó por el miedo, pasando de tener voz de "trueno" a voz de "laucha".',
       },
       {
         id: 'suki-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué representa la transformación de la Mariposa en Príncipe?',
-        options: ['Un truco de magia', 'Que la belleza y la libertad (mariposa) traen el amor y la aventura (príncipe)', 'Un error en el cuento', 'Que la mariposa era un príncipe disfrazado'],
-        correctAnswer: 'Que la belleza y la libertad (mariposa) traen el amor y la aventura (príncipe)',
+        questionText: '¿Qué simboliza la transformación de la Mariposa en un Príncipe?',
+        options: [
+          'Que la belleza exterior es lo más importante en un cuento japonés.',
+          'Que la alegría y la magia pueden transformar una situación aburrida.',
+          'Que la Mariposa era un animal muy peligroso enviado por un enemigo.',
+          'Que el Rey se había vuelto loco por usar tres pares de anteojos.'
+        ],
+        correctAnswer: 'Que la alegría y la magia pueden transformar una situación aburrida.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'suki-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen al Emperador?',
-        options: ['Tranquilo y paciente', 'Autoritario y exagerado', 'Alegre y juguetón', 'Tímido y amable'],
-        correctAnswer: 'Autoritario y exagerado',
+        questionText: '¿Qué rasgos definen mejor la personalidad del Príncipe Kinoto Fukasuka?',
+        options: [
+          'Es un joven miedoso que prefiere esconderse bajo la alfombra.',
+          'Es alguien decidido, valiente y que lucha por lo que cree justo.',
+          'Es un personaje malvado que quiere robar el trono del Emperador.',
+          'Es un hombre serio que solo quiere estudiar medicina en el palacio.'
+        ],
+        correctAnswer: 'Es alguien decidido, valiente y que lucha por lo que cree justo.',
       },
       {
         id: 'suki-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el Príncipe Kinoto Fukasuka?',
-        options: ['Miedoso y débil', 'Valiente, decidido y simpático', 'Serio y aburrido', 'Cruel y antipático'],
-        correctAnswer: 'Valiente, decidido y simpático',
+        questionText: '¿Cómo era la actitud del Emperador frente a los deseos de su hija?',
+        options: [
+          'Comprensiva y cariñosa, siempre buscando su felicidad constante.',
+          'Autoritaria y estricta, basada en reglas que no tenían mucho sentido.',
+          'Indiferente, ya que dejaba que las tías se encargaran de educarla.',
+          'Miedosa, porque temía que Sukimuki se convirtiera en una mariposa.'
+        ],
+        correctAnswer: 'Autoritaria y estricta, basada en reglas que no tenían mucho sentido.',
       },
       {
         id: 'suki-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia la Princesa Sukimuki a lo largo de la historia?',
-        options: ['Se vuelve más obediente', 'Se cansa de jugar', 'Pasa de ser una niña pasiva y aburrida a ser alguien que toma sus propias decisiones y busca la felicidad', 'Se convierte en una guerrera'],
-        correctAnswer: 'Pasa de ser una niña pasiva y aburrida a ser alguien que toma sus propias decisiones y busca la felicidad',
+        questionText: '¿Qué cualidad de Sukimuki se destaca cuando decide desobedecer a su padre?',
+        options: [
+          'Su maldad y deseo de ver sufrir a los cocineros del palacio real.',
+          'Su valentía para buscar su propia felicidad y dejar de estar aburrida.',
+          'Su torpeza al correr por el jardín y tropezarse con los soldados.',
+          'Su falta de respeto hacia las tradiciones antiguas de las princesas.'
+        ],
+        correctAnswer: 'Su valentía para buscar su propia felicidad y dejar de estar aburrida.',
       },
     ],
   },

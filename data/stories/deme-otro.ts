@@ -16,10 +16,6 @@ Al finalizar el horario de clases llega una madre a buscar a su hijo. La interce
 —Sí, porque tampoco sé qué hacer.
 —Pero, es que no puede ser.
 —Con su padre ya le dijimos (mirando al niño), pero si él no quiere hacer caso… Qué, ¿no hay más niños?
-—Es que no se trata de eso, la escuela está llena de niños…
-—Pues cámbiemelo y listo.
-—(Dubitativa). No, pero…
-—Casi mejor pruebo con una niña, estoy pensando.
 —Es que se me desordena todo, señora, luego vendrá la madre de la niña…
 —Pero yo llegué primero.
 —Sí, ya sé, pero luego se quejan, no se crea. Y además (señala con la cabeza al niño) es pasarle el problema a otra familia.
@@ -54,138 +50,228 @@ El niño asintió otra vez, sin levantar la mirada. La madre saludó amablemente
       {
         id: 'do-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le pide la mamá a la maestra después de escuchar cómo se portó Fernando?',
-        options: ['Un castigo para Fernando', 'Hablar con el director', 'Que le dé otro niño', 'Llevarse a Fernando a casa'],
-        correctAnswer: 'Que le dé otro niño',
+        questionText: '¿Qué solución propone la madre ante el mal comportamiento de su hijo?',
+        options: [
+          'Solicitar un castigo ejemplar para que el niño aprenda.',
+          'Pedirle a la maestra que le entregue un alumno distinto.',
+          'Exigir una reunión urgente con el director de la escuela.',
+          'Llevarse a Fernando rápido para que no moleste a nadie.'
+        ],
+        correctAnswer: 'Pedirle a la maestra que le entregue un alumno distinto.',
       },
       {
         id: 'do-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué es lo primero que pregunta Elena al saber que se va con una nueva mamá?',
-        options: ['Si tendrá juguetes', 'Si hay tele', 'Si tendrá un perro', 'Si puede seguir jugando'],
-        correctAnswer: 'Si hay tele',
+        questionText: '¿Qué es lo primero que Elena quiere saber sobre su nueva casa?',
+        options: [
+          'Si va a tener muchos juguetes nuevos para ella sola.',
+          'Si en el salón de la nueva casa hay un televisor.',
+          'Si podrá seguir saltando y jugando en el patio verde.',
+          'Si sus verdaderos padres la irán a buscar muy pronto.'
+        ],
+        correctAnswer: 'Si en el salón de la nueva casa hay un televisor.',
       },
       {
         id: 'do-lit3',
         category: QuestionCategory.LITERAL,
         questionText: '¿Qué le dice la mamá a Fernando al despedirse de él?',
-        options: ['"Te voy a extrañar mucho"', '"Pórtate bien con tu nueva familia y ven a visitarnos"', '"No vuelvas nunca más"', '"Espero que aprendas la lección"'],
-        correctAnswer: '"Pórtate bien con tu nueva familia y ven a visitarnos"',
+        options: [
+          'Que lo va a extrañar mucho durante toda la semana.',
+          'Que se porte bien y los visite cuando él tenga ganas.',
+          'Que no vuelva nunca más a su antigua casa del barrio.',
+          'Que espera que finalmente aprenda la lección de hoy.'
+        ],
+        correctAnswer: 'Que se porte bien y los visite cuando él tenga ganas.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'do-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucede justo después de que la mamá le dice a la maestra "deme otro"?',
-        options: ['La maestra se ríe', 'La maestra se enoja', 'La maestra se sorprende y pregunta "¿Otro niño?"', 'La maestra llama a otro niño'],
-        correctAnswer: 'La maestra se sorprende y pregunta "¿Otro niño?"',
+        questionText: '¿Qué hace la maestra justo después de que la madre le dice "deme otro"?',
+        options: [
+          'Se ríe pensando que la madre está haciendo una broma.',
+          'Se sorprende mucho y le pregunta si quiere otro niño.',
+          'Llama de inmediato a Elena para que prepare su mochila.',
+          'Se enoja con la madre por tratar así al pobre Fernando.'
+        ],
+        correctAnswer: 'Se sorprende mucho y le pregunta si quiere otro niño.',
       },
       {
         id: 'do-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasa al final del cuento?',
-        options: ['Fernando se va a casa con su mamá', 'La mamá y Elena se van juntas, y la maestra se queda con Fernando', 'Todos se van a sus casas', 'La mamá se arrepiente y se lleva a Fernando'],
-        correctAnswer: 'La mamá y Elena se van juntas, y la maestra se queda con Fernando',
+        questionText: '¿Qué sucede al final del cuento, después de los saludos?',
+        options: [
+          'Fernando se va a su casa con su madre y su perro.',
+          'La madre se va con Elena y la maestra con Fernando.',
+          'Todos los niños se van a sus casas con sus familias.',
+          'La madre se arrepiente y decide llevarse a su hijo.'
+        ],
+        correctAnswer: 'La madre se va con Elena y la maestra con Fernando.',
       },
       {
         id: 'do-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hace Elena al ser llamada por la maestra?',
-        options: ['Corre feliz hacia su nueva mamá', 'Se queja porque está jugando pero finalmente va', 'Se esconde', 'Empieza a llorar'],
-        correctAnswer: 'Se queja porque está jugando pero finalmente va',
+        questionText: '¿Qué hace Elena cuando la maestra la llama para que deje de jugar?',
+        options: [
+          'Corre feliz hacia la señora para darle un gran abrazo.',
+          'Se queja y resopla porque quiere seguir con su juego.',
+          'Se esconde detrás de un árbol para que no la encuentren.',
+          'Empieza a llorar porque no conoce a su nueva madre.'
+        ],
+        correctAnswer: 'Se queja y resopla porque quiere seguir con su juego.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'do-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando la maestra está "(Dubitativa)", ¿qué significa?',
-        options: ['Enojada', 'Segura', 'Dudando o indecisa', 'Cansada'],
-        correctAnswer: 'Dudando o indecisa',
+        questionText: 'En el texto, la maestra está "dubitativa". ¿Qué significa esto?',
+        options: [
+          'Que se siente muy segura de lo que está haciendo allí.',
+          'Que tiene muchas dudas y no sabe bien qué decidir.',
+          'Que está muy enojada con la madre por su actitud.',
+          'Que tiene mucha prisa por terminar su día de clases.'
+        ],
+        correctAnswer: 'Que tiene muchas dudas y no sabe bien qué decidir.',
       },
       {
         id: 'do-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La niña va al salón "resoplando contrariada". ¿Qué significa "contrariada"?',
-        options: ['Contenta y feliz', 'Triste y llorando', 'Enojada o disgustada por algo que no quiere hacer', 'Cansada y con sueño'],
-        correctAnswer: 'Enojada o disgustada por algo que no quiere hacer',
+        questionText: 'Elena va al salón "resoplando contrariada". ¿Qué significa contrariada?',
+        options: [
+          'Estar muy contenta y feliz por una noticia buena.',
+          'Estar muy triste y llorando por algo que se perdió.',
+          'Estar enojada o disgustada por algo que no desea hacer.',
+          'Estar cansada y con ganas de dormir una siesta larga.'
+        ],
+        correctAnswer: 'Estar enojada o disgustada por algo que no desea hacer.',
       },
       {
         id: 'do-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La maestra "intercepta" a la madre a la salida. ¿Qué significa "interceptar"?',
-        options: ['Saludar amablemente', 'Ignorar', 'Detener en su camino', 'Acompañar'],
-        correctAnswer: 'Detener en su camino',
+        questionText: 'La maestra "intercepta" a la madre. ¿Qué significa interceptar?',
+        options: [
+          'Saludar amablemente a una persona que acaba de llegar.',
+          'Ignorar a alguien para no tener que hablar del tema.',
+          'Detener a alguien en su camino para decirle algo.',
+          'Acompañar a una persona hasta la puerta de salida.'
+        ],
+        correctAnswer: 'Detener a alguien en su camino para decirle algo.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'do-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué hace que esta historia sea humorística o graciosa?',
-        options: ['El mal comportamiento de Fernando', 'La tristeza de la mamá', 'La idea absurda de cambiar a un hijo como si fuera un objeto', 'La reacción de Elena'],
-        correctAnswer: 'La idea absurda de cambiar a un hijo como si fuera un objeto',
+        questionText: '¿Qué situación extraña o "absurda" presenta este cuento?',
+        options: [
+          'Que un niño se porte mal durante el recreo escolar.',
+          'Que una madre cambie a su hijo como si fuera un objeto.',
+          'Que una maestra no sepa el nombre de sus alumnos.',
+          'Que los niños prefieran ver televisión antes que jugar.'
+        ],
+        correctAnswer: 'Que una madre cambie a su hijo como si fuera un objeto.',
       },
       {
         id: 'do-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la mamá decide "cambiar" a su hijo?',
-        options: ['Porque ya no lo quiere', 'Porque está cansada de que se porte mal y no sabe qué más hacer', 'Porque la maestra se lo sugiere', 'Porque quiere una niña'],
-        correctAnswer: 'Porque está cansada de que se porte mal y no sabe qué más hacer',
+        questionText: '¿Por qué la madre decide finalmente realizar el cambio de niños?',
+        options: [
+          'Porque Elena es mucho más linda que su hijo Fernando.',
+          'Porque ya no sabe qué hacer con el mal comportamiento.',
+          'Porque la maestra le insiste para que pruebe con otro.',
+          'Porque siempre había deseado tener una hija mujer.'
+        ],
+        correctAnswer: 'Porque ya no sabe qué hacer con el mal comportamiento.',
       },
       {
         id: 'do-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el propósito de la historia?',
-        options: ['Enseñar cómo educar a los niños', 'Mostrar una situación realista en una escuela', 'Provocar risa a través de una situación exagerada y absurda', 'Criticar a las maestras'],
-        correctAnswer: 'Provocar risa a través de una situación exagerada y absurda',
+        questionText: '¿Cuál es el propósito principal de una historia como esta?',
+        options: [
+          'Enseñar a los padres cómo deben educar a sus hijos.',
+          'Contar una anécdota real que sucedió en una escuela.',
+          'Provocar risa mediante una situación exagerada y loca.',
+          'Criticar el trabajo que hacen las maestras de grado.'
+        ],
+        correctAnswer: 'Provocar risa mediante una situación exagerada y loca.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'do-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo crees que se siente Fernando al final de la historia?',
-        options: ['Feliz porque se queda en la escuela', 'Enojado con su mamá', 'Triste, arrepentido y quizás asustado', 'Indiferente'],
-        correctAnswer: 'Triste, arrepentido y quizás asustado',
+        questionText: '¿Por qué Fernando asiente con la mirada baja al final del cuento?',
+        options: [
+          'Porque tiene mucho sueño y quiere ir a dormir pronto.',
+          'Porque se siente triste o confundido por lo que sucede.',
+          'Porque está muy contento de quedarse a vivir allí.',
+          'Porque está buscando un juguete que se le cayó al suelo.'
+        ],
+        correctAnswer: 'Porque se siente triste o confundido por lo que sucede.',
       },
       {
         id: 'do-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Crees que la mamá y la maestra realmente intercambiaron a los niños para siempre?',
-        options: ['Sí, porque la mamá se fue con Elena', 'No, probablemente es una broma o una lección para Fernando', 'Sí, porque Fernando se portaba muy mal', 'No se sabe'],
-        correctAnswer: 'No, probablemente es una broma o una lección para Fernando',
+        questionText: '¿Qué nos sugiere el comportamiento final de la maestra?',
+        options: [
+          'Que ella también ha decidido entrar en el juego absurdo.',
+          'Que odia a Fernando y por eso se lo queda en la escuela.',
+          'Que tiene miedo de la madre y por eso no dice nada más.',
+          'Que las reglas de la escuela permiten cambiar alumnos.'
+        ],
+        correctAnswer: 'Que ella también ha decidido entrar en el juego absurdo.',
       },
       {
         id: 'do-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la maestra finalmente acepta el "cambio" de niños?',
-        options: ['Porque odiaba a Fernando', 'Porque le tenía miedo a la mamá', 'Porque sigue el juego absurdo de la mamá', 'Porque las reglas de la escuela lo permiten'],
-        correctAnswer: 'Porque sigue el juego absurdo de la mamá',
+        questionText: '¿Por qué Elena acepta irse con la señora tan rápido?',
+        options: [
+          'Porque ya conocía a la señora de antes del colegio.',
+          'Porque le prometen cosas que le gustan, como la tele.',
+          'Porque sus verdaderos padres no la querían en su casa.',
+          'Porque prefiere vivir en una casa que tenga un gato.'
+        ],
+        correctAnswer: 'Porque le prometen cosas que le gustan, como la tele.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'do-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a la mamá de Fernando?',
-        options: ['Paciente y tranquila', 'Exagerada y con un sentido del humor particular', 'Estricta y enojona', 'Indiferente y despreocupada'],
-        correctAnswer: 'Exagerada y con un sentido del humor particular',
+        questionText: '¿Qué rasgo define mejor a la madre en este relato?',
+        options: [
+          'Es una persona muy paciente, tranquila y cariñosa.',
+          'Es alguien muy práctica que toma decisiones extrañas.',
+          'Es una mujer muy estricta, enojona y gritona.',
+          'Es una madre indiferente a la que no le importa nada.'
+        ],
+        correctAnswer: 'Es alguien muy práctica que toma decisiones extrañas.',
       },
-       {
+      {
         id: 'do-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo reacciona Fernando durante toda la conversación?',
-        options: ['Grita y protesta', 'Se ríe de la situación', 'No dice nada y mira hacia abajo', 'Le pide perdón a su mamá'],
-        correctAnswer: 'No dice nada y mira hacia abajo',
+        questionText: '¿Cómo reacciona Fernando ante la noticia de que lo van a cambiar?',
+        options: [
+          'Empieza a gritar muy fuerte y a patear las puertas.',
+          'Se ríe de la situación porque piensa que es una broma.',
+          'Se queda callado y obedece sin decir una sola palabra.',
+          'Le pide perdón a su mamá y promete portarse muy bien.'
+        ],
+        correctAnswer: 'Se queda callado y obedece sin decir una sola palabra.',
       },
       {
         id: 'do-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué nos muestra la reacción de Elena ("¿Y hay tele?") sobre los niños en general?',
-        options: ['Que son muy educados', 'Que se adaptan fácilmente a las nuevas situaciones si hay algo que les interesa', 'Que no les importan sus padres', 'Que solo piensan en jugar'],
-        correctAnswer: 'Que se adaptan fácilmente a las nuevas situaciones si hay algo que les interesa',
+        questionText: '¿Qué podemos decir sobre Elena según sus pocas palabras?',
+        options: [
+          'Que es una niña muy educada y respetuosa con todos.',
+          'Que se interesa por las cosas materiales y la diversión.',
+          'Que está muy angustiada por tener que irse con otra madre.',
+          'Que es la mejor alumna de todo el tercer grado.'
+        ],
+        correctAnswer: 'Que se interesa por las cosas materiales y la diversión.',
       },
     ],
   },

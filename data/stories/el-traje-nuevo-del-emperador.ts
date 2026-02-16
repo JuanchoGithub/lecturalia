@@ -48,144 +48,234 @@ De este modo echó a andar el Emperador bajo el magnífico palio, mientras el ge
 Aquello inquietó al emperador, pues barruntaba que el pueblo tenía razón; mas pensó: «Hay que aguantar hasta el fin». Y siguió más altivo que antes; y las ayudas de cámara continuaron sosteniendo la inexistente cola.
 `,
   wordCount: 950,
-  level: '3er Grado (Nivel P)',
+  level: '4to Grado (Nivel Q)',
   questions: {
     [QuestionCategory.LITERAL]: [
       {
         id: 'tn-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál era la afición principal del emperador?',
-        options: ['Coleccionar monedas', 'Los trajes nuevos y elegantes', 'Hacer ejercicio con sus soldados', 'Ir al teatro todos los días'],
-        correctAnswer: 'Los trajes nuevos y elegantes',
+        questionText: '¿Qué uso especial quería darle el Emperador al nuevo traje además de lucirlo?',
+        options: [
+          'Ahorrar el dinero de las rentas del año.',
+          'Identificar a los funcionarios incapaces.',
+          'Protegerse de los extranjeros de la ciudad.',
+          'Dar una lección de humildad a sus soldados.'
+        ],
+        correctAnswer: 'Identificar a los funcionarios incapaces.',
       },
       {
         id: 'tn-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué propiedad mágica decían los tejedores que tenía la tela?',
-        options: ['Que brillaba en la oscuridad', 'Que nunca se ensuciaba', 'Que era invisible para los tontos o los ineptos para su cargo', 'Que cambiaba de color con el sol'],
-        correctAnswer: 'Que era invisible para los tontos o los ineptos para su cargo',
+        questionText: '¿Qué hicieron los tejedores con la seda y el oro que les dio el Emperador?',
+        options: [
+          'Los guardaron en sus propios bolsillos.',
+          'Los usaron para fabricar un manto real.',
+          'Los vendieron en el mercado de la ciudad.',
+          'Los quemaron para iluminar sus dieciséis lámparas.'
+        ],
+        correctAnswer: 'Los guardaron en sus propios bolsillos.',
       },
       {
         id: 'tn-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Quién fue la primera persona que el emperador envió a ver la tela?',
-        options: ['Su hijo pequeño', 'Su viejo y digno ministro', 'Un caballero de la guardia', 'Su esposa la reina'],
-        correctAnswer: 'Su viejo y digno ministro',
+        questionText: '¿Quién fue el primer personaje en decir públicamente que el rey estaba desnudo?',
+        options: [
+          'El viejo ministro con talento.',
+          'El funcionario de confianza.',
+          'Un niño pequeño entre la gente.',
+          'El padre del chiquillo inocente.'
+        ],
+        correctAnswer: 'Un niño pequeño entre la gente.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'tn-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron los tejedores justo después de recibir el adelanto en dinero?',
-        options: ['Empezaron a tejer lana de verdad', 'Montaron un telar y simularon trabajar en él, aunque estaba vacío', 'Compraron una tienda nueva', 'Se escaparon de la ciudad'],
-        correctAnswer: 'Montaron un telar y simularon trabajar en él, aunque estaba vacío',
+        questionText: '¿Cuál es el orden correcto de las visitas al taller de los tejedores?',
+        options: [
+          'Ministro, segundo funcionario y luego el Emperador.',
+          'Emperador, ministro y luego los soldados del séquito.',
+          'Segundo funcionario, el niño y luego el gran ministro.',
+          'Ministro, los extranjeros y finalmente el segundo funcionario.'
+        ],
+        correctAnswer: 'Ministro, segundo funcionario y luego el Emperador.',
       },
       {
         id: 'tn-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó durante la procesión cuando el emperador caminaba bajo el palio?',
-        options: ['Empezó a llover', 'Un niño gritó que el emperador no llevaba nada puesto', 'Los tejedores fueron arrestados', 'El emperador se tropezó con su capa'],
-        correctAnswer: 'Un niño gritó que el emperador no llevaba nada puesto',
+        questionText: '¿Qué hicieron los estafadores la noche anterior a la gran procesión?',
+        options: [
+          'Escaparon de la ciudad con todo el oro robado.',
+          'Fingieron trabajar bajo la luz de muchas lámparas.',
+          'Le contaron la verdad al viejo ministro honrado.',
+          'Cerraron el taller para descansar antes del desfile.'
+        ],
+        correctAnswer: 'Fingieron trabajar bajo la luz de muchas lámparas.',
       },
       {
         id: 'tn-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el emperador después de que todo el pueblo gritara que no llevaba nada?',
-        options: ['Salió corriendo a vestirse', 'Se puso a llorar de vergüenza', 'Siguió caminando más altivo que antes para terminar la procesión', 'Mandó a buscar al niño'],
-        correctAnswer: 'Siguió caminando más altivo que antes para terminar la procesión',
+        questionText: '¿Qué sucedió inmediatamente después de que el Emperador sospechara que el pueblo tenía razón?',
+        options: [
+          'Se puso a llorar frente a todo su séquito real.',
+          'Continuó la marcha con una actitud todavía más altiva.',
+          'Mandó a detener a los dos truhanes del palacio.',
+          'Pidió que alguien le trajera una casaca de verdad.'
+        ],
+        correctAnswer: 'Continuó la marcha con una actitud todavía más altiva.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'tn-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Los hombres que engañaron al emperador eran unos "truhanes". ¿Qué significa esa palabra?',
-        options: ['Expertos tejedores', 'Hombres muy honestos', 'Personas sinvergüenzas que engañan para vivir', 'Hombres muy ricos'],
-        correctAnswer: 'Personas sinvergüenzas que engañan para vivir',
+        questionText: 'En el cuento se menciona que los tejedores eran unos "fulleros". ¿Qué significa?',
+        options: [
+          'Personas que saben tejer telas muy finas.',
+          'Hombres que viajan por países extranjeros.',
+          'Personas tramposas que engañan a los demás.',
+          'Servidores que ayudan al rey a vestirse.'
+        ],
+        correctAnswer: 'Personas tramposas que engañan a los demás.',
       },
       {
         id: 'tn-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El emperador quería saber qué funcionarios eran "ineptos". ¿Qué es ser inepto?',
-        options: ['Ser muy rápido', 'No tener capacidad o aptitud para un cargo', 'Ser muy amable con todos', 'Tener mucha ropa'],
-        correctAnswer: 'No tener capacidad o aptitud para un cargo',
+        questionText: 'El Emperador "barruntaba" que el pueblo tenía razón. ¿Qué hacía el Emperador?',
+        options: [
+          'Gritaba muy fuerte para que todos se callaran.',
+          'Sospechaba o presentía la verdad de lo que pasaba.',
+          'Ordenaba a los ministros que le dieran un traje.',
+          'Se reía de las palabras que decía el niño.'
+        ],
+        correctAnswer: 'Sospechaba o presentía la verdad de lo que pasaba.',
       },
       {
         id: 'tn-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El emperador se sentía un poco "cohibido". ¿Qué significa estar cohibido?',
-        options: ['Muy cansado', 'Tener mucha hambre', 'Sentir vergüenza o falta de libertad para actuar', 'Estar muy seguro de algo'],
-        correctAnswer: 'Sentir vergüenza o falta de libertad para actuar',
+        questionText: 'El texto dice que los cortesanos estaban "extasiados". ¿Cómo estaban?',
+        options: [
+          'Muy cansados de tanto caminar en el desfile.',
+          'Sumamente asombrados o maravillados por algo.',
+          'Enojados porque no les habían dado ropa nueva.',
+          'Preocupados por el gasto de las rentas reales.'
+        ],
+        correctAnswer: 'Sumamente asombrados o maravillados por algo.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'tn-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de esta historia?',
-        options: ['La importancia de la costura', 'La vanidad y el miedo a parecer tonto que nos hace ocultar la verdad', 'Cómo fabricar telas invisibles', 'La sabiduría de los emperadores antiguos'],
-        correctAnswer: 'La vanidad y el miedo a parecer tonto que nos hace ocultar la verdad',
+        questionText: '¿Cuál es el tema central que critica esta historia de Andersen?',
+        options: [
+          'La falta de inteligencia de los niños pequeños.',
+          'La vanidad y el miedo a quedar mal ante los demás.',
+          'La dificultad de fabricar telas de seda y oro fino.',
+          'Los peligros de recibir a extranjeros en la ciudad.'
+        ],
+        correctAnswer: 'La vanidad y el miedo a quedar mal ante los demás.',
       },
       {
         id: 'tn-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué todos los adultos decían ver la tela aunque no hubiera nada?',
-        options: ['Porque era muy brillante', 'Por miedo a ser considerados tontos o incapaces para sus trabajos', 'Porque los tejedores eran sus amigos', 'Porque el sol los deslumbraba'],
-        correctAnswer: 'Por miedo a ser considerados tontos o incapaces para sus trabajos',
+        questionText: '¿Por qué la mentira de los tejedores duró tanto tiempo?',
+        options: [
+          'Porque la tela realmente era mágica y muy bella.',
+          'Porque nadie quería admitir que no podía ver nada.',
+          'Porque los tejedores eran amigos del viejo ministro.',
+          'Porque el Emperador amenazaba a quien no viera la tela.'
+        ],
+        correctAnswer: 'Porque nadie quería admitir que no quería ser considerado tonto.',
       },
       {
         id: 'tn-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa la voz del niño al final del cuento?',
-        options: ['La falta de respeto a los mayores', 'La verdad y la honestidad que no tiene miedo a los prejuicios', 'Que los niños no saben de moda', 'Un error en la historia'],
-        correctAnswer: 'La verdad y la honestidad que no tiene miedo a los prejuicios',
+        questionText: '¿Qué representa la reacción final del Emperador al seguir caminando?',
+        options: [
+          'Su valentía para enfrentar a los dos estafadores.',
+          'Su incapacidad de reconocer un error por puro orgullo.',
+          'Su gran amor por la procesión y las fiestas populares.',
+          'Su confianza ciega en las palabras del viejo ministro.'
+        ],
+        correctAnswer: 'Su incapacidad de reconocer un error por puro orgullo.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'tn-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el emperador mandó primero a su ministro en lugar de ir él mismo?',
-        options: ['Porque estaba muy ocupado', 'Para ponerse a prueba y ver si el ministro era capaz de ver la tela antes de arriesgarse él', 'Porque el ministro sabía mucho de telas', 'Porque quería darle una sorpresa al ministro'],
-        correctAnswer: 'Para ponerse a prueba y ver si el ministro era capaz de ver la tela antes de arriesgarse él',
+        questionText: '¿Por qué el Emperador se sentía "cohibido" de ir él mismo al principio?',
+        options: [
+          'Porque tenía miedo de que los tejedores le robaran.',
+          'Porque temía descubrir que él tampoco servía para su cargo.',
+          'Porque estaba muy ocupado probándose otros trajes nuevos.',
+          'Porque el camino hasta el taller era muy largo y difícil.'
+        ],
+        correctAnswer: 'Porque temía descubrir que él tampoco servía para su cargo.',
       },
       {
         id: 'tn-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué pensaban los tejedores de la gente de la ciudad?',
-        options: ['Que eran muy inteligentes', 'Que eran muy buenos amigos', 'Que eran vanidosos y fáciles de engañar con una mentira bien inventada', 'Que eran expertos en telas'],
-        correctAnswer: 'Que eran vanidosos y fáciles de engañar con una mentira bien inventada',
+        questionText: '¿Qué pensaban probablemente los tejedores de los ministros del rey?',
+        options: [
+          'Que eran hombres muy sabios y difíciles de engañar.',
+          'Que su orgullo los haría mentir para no parecer tontos.',
+          'Que eran muy buenos amigos que los ayudarían a escapar.',
+          'Que sabían mucho sobre la calidad de las telas de seda.'
+        ],
+        correctAnswer: 'Que su orgullo los haría mentir para no parecer tontos.',
       },
       {
         id: 'tn-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el emperador siguió la procesión aunque sospechaba que estaba desnudo?',
-        options: ['Porque no tenía otra ropa cerca', 'Porque su orgullo era tan grande que no podía admitir el error delante de todos', 'Porque le gustaba el aire fresco', 'Porque el niño lo convenció'],
-        correctAnswer: 'Porque su orgullo era tan grande que no podía admitir el error delante de todos',
+        questionText: '¿Por qué el niño fue el único capaz de decir la verdad?',
+        options: [
+          'Porque tenía mejor vista que todos los adultos del pueblo.',
+          'Porque su inocencia le impedía preocuparse por el qué dirán.',
+          'Porque quería burlarse del Emperador frente a su padre.',
+          'Porque los tejedores le habían contado el secreto en el taller.'
+        ],
+        correctAnswer: 'Porque su inocencia le impedía preocuparse por el qué dirán.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'tn-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías al emperador?',
-        options: ['Sabio y preocupado por su pueblo', 'Vanidoso, orgulloso y fácil de engañar', 'Valiente guerrero', 'Pobre y humilde'],
-        correctAnswer: 'Vanidoso, orgulloso y fácil de engañar',
+        questionText: '¿Cómo describirías la personalidad del Emperador?',
+        options: [
+          'Es un líder generoso que se preocupa por sus soldados.',
+          'Es un hombre vanidoso que solo piensa en su apariencia.',
+          'Es un rey sabio que pone a prueba a sus propios ministros.',
+          'Es un guerrero valiente que prefiere la vida en el campo.'
+        ],
+        correctAnswer: 'Es un hombre vanidoso que solo piensa en su apariencia.',
       },
       {
         id: 'tn-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué palabras definen mejor a los dos tejedores?',
-        options: ['Artistas generosos', 'Trabajadores incansables', 'Tramposos, astutos y estafadores', 'Amigos del emperador'],
-        correctAnswer: 'Tramposos, astutos y estafadores',
+        questionText: '¿Qué cualidad comparten el ministro y el segundo funcionario?',
+        options: [
+          'La honestidad absoluta frente a las órdenes del rey.',
+          'El miedo a perder su posición social y ser juzgados.',
+          'El conocimiento profundo sobre el arte de tejer telas.',
+          'La valentía para denunciar a los dos truhanes pícaros.'
+        ],
+        correctAnswer: 'El miedo a perder su posición social y ser juzgados.',
       },
       {
         id: 'tn-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿En qué se diferencia el niño de los cortesanos del emperador?',
-        options: ['En que el niño es más alto', 'En que el niño tiene mejor vista', 'En que el niño es sincero y dice lo que ve, mientras los cortesanos mienten para quedar bien', 'En que el niño no sabe hablar'],
-        correctAnswer: 'En que el niño es sincero y dice lo que ve, mientras los cortesanos mienten para quedar bien',
+        questionText: '¿Qué rasgo define mejor a los dos tejedores extranjeros?',
+        options: [
+          'Son artistas incomprendidos que buscan fama mundial.',
+          'Son estafadores astutos que aprovechan la debilidad ajena.',
+          'Son trabajadores humildes que fueron engañados por el rey.',
+          'Son magos reales que querían divertir a todo el pueblo.'
+        ],
+        correctAnswer: 'Son estafadores astutos que aprovechan la debilidad ajena.',
       },
     ],
   },

@@ -25,7 +25,7 @@ En la isla central, la más grande de todas, flotaba una figura alta y esbelta: 
 
 “Bienvenidos a mi reino apagado”, dijo con una voz que crujía como pasos en vidrio roto. “La luz es finita, como un tesoro que se acaba. Yo la necesito toda para sobrevivir. Vuestro mundo será el siguiente en oscurecerse.”
 
-Kirby frunció el ceño (o lo que sea que hace una bolita rosa para fruncir el ceño) y se preparó. Inhaló una ráfaga de viento brillante que flotaba cerca de una lámpara medio apagada y se transformó en Spark Kirby, con chispas eléctricas bailando alrededor de su cuerpo. Lanzó rayos que rebotaron por las islas de cristal, iluminando todo como un espectáculo de fuegos artificiales. Pero Luminara levantó una mano de cristal y creó un escudo de oscuridad que absorbió los rayos como si fueran gotas de lluvia en un desierto.
+Kirby frunció el ceño (o lo que sea que hace una bolita rosa para fruncir el ceño) y se preparó. Inhaló una ráfaga de viento brillante que flotaba cerca de una lámpara medio apagada y se transformó en Spark Kirby, con chispas eléctricas bailando alrededor de su cuerpo. Lanzó rayos que rebotaron por las islas de cristal, iluminando todo como un espectáculo de fuegos artificiales. Pero Luminara levantó una mano de cristal y creó un escudo de oscuridad que absorbíó los rayos como si fueran gotas de lluvia en un desierto.
 
 “¡No puedes vencerme con copias de luz robada!”, rugió Luminara. “¡Yo soy la ausencia misma de la luz! ¡La devoradora eterna!”
 
@@ -41,7 +41,7 @@ La pelea se volvió más intensa. Luminara flotaba entre las islas, teletranspor
 
 Pero estaban cansados. “¡No podemos seguir así solos!”, jadeó Bandana. Justo entonces, de una de las últimas lámparas que titilaba débilmente, surgió un resplandor suave. De él se formó una figura pequeña y delicada: Luziel, un sercito hecho de luz pura, con forma de libélula y ojos como luciérnagas vivas. Era la última guardiana de las luces perdidas, escondida para sobrevivir.
 
-“¡Deténganse!”, suplicó Luziel con una voz como campanitas. “Luminara no siempre fue así. Éramos amigas, las más brillantes de este mundo. Jugábamos a encender estrellas y a pintar auroras en el cielo. Pero un día, Luminara encontró la esfera negra, un antiguo artefacto de oscuridad que prometía luz infinita. La tentó: ‘Guarda la luz para ti, no la compartas’. Y se rompió por dentro, convirtiéndose en esto.”
+“¡Deténganse!”, suplicó Luziel con una voz como campanitas. “Luminara no siempre fue así. Éramos amigas, las más brillantes de este mundo. Jugábamos a encender estrellas y a pintar auroras en el cielo. Pero un día, Luminara encontró la esfera negra, un antiguo artefacto de oscuridad que prohibía compartir. La tentó: ‘Guarda la luz para ti, no la compartas’. Y se rompió por dentro, convirtiéndose en esto.”
 
 Luziel flotó hacia Kirby y le tocó la mejilla con una alita cálida. “Toma mi luz, héroe rosa. Úsala no para destruir, sino para sanar.”
 
@@ -72,7 +72,7 @@ Juntos, Luminara, Luziel, Kirby y Bandana caminaron hasta la lámpara más grand
 Cuando volvieron a casa, los Waddle Dees bailaban con ojos chispeantes, las flores explotaban en colores nuevos, y hasta el rey Dedede, desde su castillo, soltó una risita al ver el sol más brillante que nunca. Meta Knight, oculto en las sombras, inclino la cabeza en silencio, reconociendo el coraje de Kirby.
 
 Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana fresca, feliz de que el mundo volviera a brillar con luz compartida.
-    `,
+`,
   wordCount: 1184,
   level: '4to Grado (Nivel Q)',
   questions: {
@@ -80,138 +80,228 @@ Y Kirby, como siempre, se acostó en su nube favorita, mordisqueando una manzana
       {
         id: 'lp-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le pasaba a los Waddle Dees cuando perdían su luz?',
-        options: ['Se volvían gigantes', 'Se movían lentos como tortugas cansadas', 'Se convertían en mariposas', 'Se ponían a dormir en el suelo'],
-        correctAnswer: 'Se movían lentos como tortugas cansadas',
+        questionText: '¿Qué cambio físico notó Kirby en los Waddle Dees cuando les robaban la luz?',
+        options: [
+          'Se volvían pequeños y miedosos.',
+          'Sus pupilas se volvían opacas.',
+          'Les crecían alas de mariposa.',
+          'Se convertían en piedras de cristal.'
+        ],
+        correctAnswer: 'Sus pupilas se volvían opacas.',
       },
       {
         id: 'lp-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿De qué material estaban hechas las islas de la Tierra de las Luces Perdidas?',
-        options: ['De madera', 'De algodón de azúcar', 'De cristal puro', 'De metal oxidado'],
-        correctAnswer: 'De cristal puro',
+        questionText: '¿Cómo era el portal que llevaba a la Tierra de las Luces Perdidas?',
+        options: [
+          'Un remolino negro y ruidoso.',
+          'Un espejo plateado y transparente.',
+          'Una nube de algodón de azúcar.',
+          'Un túnel lleno de vegetación.'
+        ],
+        correctAnswer: 'Un espejo plateado y transparente.',
       },
       {
         id: 'lp-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál fue la última transformación de Kirby durante la batalla final?',
-        options: ['Spark Kirby', 'Dark Kirby', 'Crystal Kirby', 'Light Kirby'],
-        correctAnswer: 'Light Kirby',
+        questionText: '¿Cuál fue la última transformación de Kirby para salvar a Luminara?',
+        options: [
+          'Spark Kirby.',
+          'Dark Kirby.',
+          'Crystal Kirby.',
+          'Light Kirby.'
+        ],
+        correctAnswer: 'Light Kirby.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'lp-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que Kirby inhalara la esencia de Luziel?',
-        options: ['Luminara escapó', 'Se transformó en Light Kirby con alas de estrella', 'Bandana Waddle Dee atacó con su lanza', 'El portal se cerró'],
-        correctAnswer: 'Se transformó en Light Kirby con alas de estrella',
+        questionText: '¿Qué ocurrió inmediatamente después de que Kirby inhalara la esencia de Luziel?',
+        options: [
+          'Luminara recuperó sus alas.',
+          'Se transformó en un ser luminoso.',
+          'El portal de espejo se rompió.',
+          'Bandana lanzó su lanza al sol.'
+        ],
+        correctAnswer: 'Se transformó en un ser luminoso.',
       },
       {
         id: 'lp-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron Kirby y Bandana justo después de cruzar el portal de espejo?',
-        options: ['Se pelearon con un dragón', 'Cayeron suavemente en la Tierra de las Luces Perdidas', 'Comieron una manzana gigante', 'Rescataron a un Waddle Dee'],
-        correctAnswer: 'Cayeron suavemente en la Tierra de las Luces Perdidas',
+        questionText: '¿Qué acción realizó Kirby justo antes de entrar al portal con Bandana?',
+        options: [
+          'Comió un maxim tomate gigante.',
+          'Infló sus mejillas como un globo.',
+          'Luchó contra un grupo de Sombrasoles.',
+          'Saludó a Luziel en la pradera.'
+        ],
+        correctAnswer: 'Infló sus mejillas como un globo.',
       },
       {
         id: 'lp-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió inmediatamente después de que la esfera negra se rompiera?',
-        options: ['Luminara se volvió más mala', 'Ríos de brillo volvieron a las lámparas y estrellas', 'Kirby se fue a dormir', 'Luziel desapareció'],
-        correctAnswer: 'Ríos de brillo volvieron a las lámparas y estrellas',
+        questionText: '¿Qué sucedió al final, después de que Luminara pusiera sus manos en la lámpara grande?',
+        options: [
+          'Dream Land se volvió gris de nuevo.',
+          'Se formó un puente de luz eterna.',
+          'Kirby se convirtió en una estrella.',
+          'Meta Knight atacó a los Waddle Dees.'
+        ],
+        correctAnswer: 'Se formó un puente de luz eterna.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'lp-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Luminara tenía un pecho que brillaba "débilmente". ¿Qué significa débilmente?',
-        options: ['Con muchísima fuerza', 'Con un color muy fuerte', 'Con poca fuerza o intensidad', 'Que no brilla nada'],
-        correctAnswer: 'Con poca fuerza o intensidad',
+        questionText: 'En el cuento, ¿qué significa que la luz de este mundo es "finita"?',
+        options: [
+          'Que es muy delgada y brillante.',
+          'Que tiene un límite y se puede acabar.',
+          'Que es eterna y nunca se termina.',
+          'Que brilla con colores muy suaves.'
+        ],
+        correctAnswer: 'Que tiene un límite y se puede acabar.',
       },
       {
         id: 'lp-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La batalla fue "legendaria". ¿Qué significa legendaria en este cuento?',
-        options: ['Que duró muy poco', 'Muy importante, famosa y extraordinaria', 'Que pasó hace dos minutos', 'Que fue aburrida'],
-        correctAnswer: 'Muy importante, famosa y extraordinaria',
+        questionText: 'La batalla llegó a su "clímax". ¿Qué describe mejor este momento?',
+        options: [
+          'El inicio tranquilo de la aventura.',
+          'El punto de mayor emoción y peligro.',
+          'El descanso de los héroes en la nube.',
+          'La merienda de Kirby tras la pelea.'
+        ],
+        correctAnswer: 'El punto de mayor emoción y peligro.',
       },
       {
         id: 'lp-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Luziel era un ser hecho de luz "pura". ¿Qué significa pura?',
-        options: ['Sucia', 'Mezclada con sombras', 'Limpia, sin mezclas, auténtica', 'De muchos colores oscuros'],
-        correctAnswer: 'Limpia, sin mezclas, auténtica',
+        questionText: 'Luminara tenía una figura "esbelta". ¿Cómo era su cuerpo?',
+        options: [
+          'Bajo, ancho y muy pesado.',
+          'Alto, delgado y con forma elegante.',
+          'Redondo y rosado como el de Kirby.',
+          'Cubierto de metal y cables viejos.'
+        ],
+        correctAnswer: 'Alto, delgado y con forma elegante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'lp-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la enseñanza o moraleja principal de esta historia?',
-        options: ['Que los portales son peligrosos', 'Que la luz dura más y es más poderosa cuando se comparte con los demás', 'Que hay que comer muchos tomates', 'Que las lanzas son mejores que las espadas'],
-        correctAnswer: 'Que la luz dura más y es más poderosa cuando se comparte con los demás',
+        questionText: '¿Cuál es el mensaje central propuesto por la historia?',
+        options: [
+          'Que las esferas negras son poderosas.',
+          'Que compartir la luz la hace invencible.',
+          'Que Kirby siempre debe usar lanzas.',
+          'Que los espejos rotos traen mala suerte.'
+        ],
+        correctAnswer: 'Que compartir la luz la hace invencible.',
       },
       {
         id: 'lp-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué Luminara se volvió un monstruo de cristal quebrado al principio?',
-        options: ['Porque tenía frío', 'Porque la tentó la idea de guardar la luz solo para ella', 'Porque Kirby la atacó', 'Porque se le rompieron las alas'],
-        correctAnswer: 'Porque la tentó la idea de guardar la luz solo para ella',
+        questionText: '¿Por qué Luminara se convirtió en un monstruo al principio?',
+        options: [
+          'Porque perdió su camino en el portal.',
+          'Por la tentación de no compartir su luz.',
+          'Porque Kirby le robó sus alas rotas.',
+          'Porque Dream Land era demasiado ruidosa.'
+        ],
+        correctAnswer: 'Por la tentación de no compartir su luz.',
       },
       {
         id: 'lp-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué lección aprendió Luminara al final de la aventura?',
-        options: ['Que Kirby es más fuerte', 'Que olvidó cómo era ser luz para los demás y que compartir es mejor que robar', 'Que los Waddle Dees son ruidosos', 'Que las esferas negras son malas'],
-        correctAnswer: 'Que olvidó cómo era ser luz para los demás y que compartir es mejor que robar',
+        questionText: '¿Qué lección aprendió Luminara al final de su encuentro con Kirby?',
+        options: [
+          'Que Kirby es el guerrero más fuerte.',
+          'Que es mejor ser luz para los demás.',
+          'Que las estrellas muertas no reviven.',
+          'Que el Rey Dedede es un buen líder.'
+        ],
+        correctAnswer: 'Que es mejor ser luz para los demás.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'lp-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el abrazo de Kirby fue más efectivo que sus rayos eléctricos contra Luminara?',
-        options: ['Porque Kirby era más grande', 'Porque el amor y la calidez de compartir tocaron el corazón de Luminara y rompieron su egoísmo', 'Porque Kirby tenía mucha fuerza en los brazos', 'Porque Luminara se asustó'],
-        correctAnswer: 'Porque el amor y la calidez de compartir tocaron el corazón de Luminara y rompieron su egoísmo',
+        questionText: '¿Por qué el abrazo de Kirby fue más efectivo que sus rayos eléctricos?',
+        options: [
+          'Porque Kirby tiene mucha fuerza física.',
+          'Porque recordó a Luminara el valor del afecto.',
+          'Porque Luminara le tenía miedo a los abrazos.',
+          'Porque los rayos eléctricos no tenían potencia.'
+        ],
+        correctAnswer: 'Porque recordó a Luminara el valor del afecto.',
       },
       {
         id: 'lp-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué los Waddle Dees perdían su brillo y alegría cuando Luminara robaba la luz?',
-        options: ['Porque tenían sueño', 'Porque la luz representa la energía y la felicidad de Dream Land', 'Porque no les gustaba el color gris', 'Porque querían manzanas'],
-        correctAnswer: 'Porque la luz representa la energía y la felicidad de Dream Land',
+        questionText: '¿Qué representa la lluvia de gotitas que se apagaban al principio?',
+        options: [
+          'Una fiesta de bienvenida en el bosque.',
+          'La pérdida de la esperanza en el mundo.',
+          'Un truco de magia de los Waddle Dees.',
+          'La llegada de un invierno muy largo.'
+        ],
+        correctAnswer: 'La pérdida de la esperanza en el mundo.',
       },
       {
         id: 'lp-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos dice el hecho de que Luziel estuviera escondida al principio?',
-        options: ['Que era miedosa', 'Que era la última esperanza y necesitaba sobrevivir para poder ayudar después', 'Que no quería conocer a Kirby', 'Que estaba durmiendo'],
-        correctAnswer: 'Que era la última esperanza y necesitaba sobrevivir para poder ayudar después',
+        questionText: '¿Por qué Luziel decidió darle su esencia a Kirby y no a Bandana?',
+        options: [
+          'Porque Kirby era el más valiente de todos.',
+          'Porque Kirby podía absorber y usar su luz.',
+          'Porque Bandana ya tenía su propia lanza.',
+          'Porque Kirby tenía más hambre de cristales.'
+        ],
+        correctAnswer: 'Porque Kirby podía absorber y usar su luz.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'lp-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías a Luziel?',
-        options: ['Malvada y envidiosa', 'Amable, compasiva y dispuesta a ayudar', 'Miedosa y callada', 'Fuerte pero egoísta'],
-        correctAnswer: 'Amable, compasiva y dispuesta a ayudar',
+        questionText: '¿Qué cualidad define mejor a Luziel?',
+        options: [
+          'Es una guerrera que usa una espada.',
+          'Es una guía sabia, compasiva y generosa.',
+          'Es una enemiga que engaña a Luminara.',
+          'Es una Waddle Dee con una bandana azul.'
+        ],
+        correctAnswer: 'Es una guía sabia, compasiva y generosa.',
       },
       {
         id: 'lp-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad de Kirby se destaca más al final de la historia?',
-        options: ['Su gran apetito', 'Su capacidad de perdonar y mostrar bondad incluso a un enemigo', 'Su velocidad para correr', 'Su habilidad con la lanza'],
-        correctAnswer: 'Su capacidad de perdonar y mostrar bondad incluso a un enemigo',
+        questionText: '¿Cómo cambió la personalidad de Luminara al final?',
+        options: [
+          'Se volvió más orgullosa y poderosa.',
+          'Recuperó su bondad y su deseo de compartir.',
+          'Decidió irse a vivir sola a una estrella.',
+          'Se convirtió en una seguidora de Meta Knight.'
+        ],
+        correctAnswer: 'Recuperó su bondad y su deseo de compartir.',
       },
       {
         id: 'lp-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo era Luminara antes de encontrar la esfera negra?',
-        options: ['Mala y egoísta', 'Brillante y compartía su luz pintando estrellas y auroras', 'Un ser de cristal roto', 'Una piedra oscura'],
-        correctAnswer: 'Brillante y compartía su luz pintando estrellas y auroras',
+        questionText: '¿Qué demuestra Kirby al perdonar a Luminara en lugar de destruirla?',
+        options: [
+          'Que es distraído y olvida los ataques.',
+          'Que cree en las segundas oportunidades.',
+          'Que tiene miedo de pelear contra cristales.',
+          'Que prefiere comer manzanas antes que luchar.'
+        ],
+        correctAnswer: 'Que cree en las segundas oportunidades.',
       },
     ],
   },

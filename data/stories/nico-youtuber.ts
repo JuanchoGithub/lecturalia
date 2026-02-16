@@ -28,7 +28,7 @@ El chat se quedó mudo. Nico contuvo la respiración. Sus dedos se congelaron en
 El camión estaba a milímetros del jefe. Fecto Elfilis cargó un último rayo de energía purpúrea, una chispa que ya estaba lamiendo la pintura de Kirby.
 De repente, la pantalla de Nico parpadeó en negro.
 —¿Qué? ¡No! ¡NO, NO, NO! —gritó Nico, parándose de la silla, tirando el café.
-El monitor volvió a encenderse un segundo después, pero no estaba el juego. Había un glitch extraño, un patrón de interferencia que no pertenecía a Kirby y la Tierra Olvidada. Y en medio de la estática, una voz distorsionada, que no era la del juego, susurró a través de los parlantes:
+El monitor volvió a encenderse un segundo después, pero no estaba el juego. Había un glitch extraño, un patrón de interferencia que no pertenecía a Kirby y la Tierra Olvidada. Y en medio de la estática, una voz distorsionada, que no era del juego, susurró a través de los parlantes:
 "¿De verdad creíste que esto era solo un desafío, Nico?"
 Nico miró el joystick. Sus manos no respondían. En la pantalla, Kirby ya no estaba en el camión. Estaba parado en un vacío blanco, mirando fijamente hacia la cámara, como si pudiera ver a Nico a través del monitor.
 And el contador de daño, que había estado en cero durante quince horas, empezó a subir frenéticamente sin que nada tocara al personaje.
@@ -91,7 +91,7 @@ Cuando Nico abrió los ojos, estaba tirado en el piso. El silencio era total. Su
 
 Nico respiró hondo, temblando. Se fijó en su brazo. Ni un rasguño. El "No Hit" seguía en pie.
 
-—La re concha de la lora... —suspiró, dejándose caer contra la pared—. Nadie me va a creer esta secuencia.
+—La re concha de la lora... —susurró, dejándose caer contra la pared—. Nadie me va a creer esta secuencia.
 
 Se acercó a la PC, que milagrosamente seguía encendida. El stream seguía activo, pero la cámara web estaba apuntando al techo. El chat estaba en silencio absoluto.
 
@@ -124,143 +124,228 @@ FIN... ¿OCURRE ALGO MÁS?
       {
         id: 'ny-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿A qué hora estaba Nico haciendo su transmisión en vivo?',
-        options: ['A las doce de la noche', 'A las tres de la mañana', 'Al mediodía', 'A la puesta del sol'],
-        correctAnswer: 'A las tres de la mañana',
+        questionText: '¿Qué cambio específico ocurrió en el contador de daño antes de que Nico escuchara el ruido en el pasillo?',
+        options: [
+          'El contador se puso de color rojo brillante.',
+          'Empezó a subir rápidamente sin que nada tocara a Kirby.',
+          'El contador desapareció por completo de la pantalla.',
+          'Se quedó trabado en el número 999 para siempre.'
+        ],
+        correctAnswer: 'Empezó a subir rápidamente sin que nada tocara a Kirby.',
       },
       {
         id: 'ny-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué objeto utilizó Nico para defenderse en su habitación?',
-        options: ['Una espada de juguete', 'Un escudo de cartón', 'Un bate de béisbol de madera', 'El joystick de la consola'],
-        correctAnswer: 'Un bate de béisbol de madera',
+        questionText: '¿En qué objeto se transformó Kirby al absorber los restos de la puerta?',
+        options: [
+          'En un camión oxidado de la calle.',
+          'En una espada de fuego carmesí.',
+          'En un cono de tráfico naranja.',
+          'En una caja de explosivos del juego.'
+        ],
+        correctAnswer: 'En un cono de tráfico naranja.',
       },
       {
         id: 'ny-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué barrio de Buenos Aires vive Nico?',
-        options: ['Palermo', 'Almagro', 'Caballito', 'Recoleta'],
-        correctAnswer: 'Almagro',
+        questionText: '¿Qué mensaje exacto apareció en la notificación de logro de la computadora?',
+        options: [
+          'HAS GANADO EL MUNDIAL DE STREAMERS.',
+          'LOGRO DESBLOQUEADO: EL NUEVO ANFITRIÓN.',
+          'JUEGO TERMINADO: FELICIDADES NICO.',
+          'ERROR DE SISTEMA: FECTO ELFILIS DETECTADO.'
+        ],
+        correctAnswer: 'LOGRO DESBLOQUEADO: EL NUEVO ANFITRIÓN.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'ny-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que la pantalla de Nico se pusiera negra por primera vez?',
-        options: ['Nico se fue a dormir', 'El juego se reinició solo', 'Escuchó una voz distorsionada que le preguntaba si creía que era solo un desafío', 'Kirby salió de la televisión'],
-        correctAnswer: 'Escuchó una voz distorsionada que le preguntaba si creía que era solo un desafío',
+        questionText: '¿Cuál fue el orden exacto en el que Fecto Elfilis entró al mundo real?',
+        options: [
+          'TV explotó, ruido de lanza en el pasillo y el pomo de la puerta giró.',
+          'Ruido de lanza en el pasillo, pomo de la puerta giró y la TV explotó.',
+          'Pomo de la puerta giró, TV explotó y Kirby salió del portal.',
+          'Glitch en el monitor, Kirby salió del portal y ruido en el pasillo.'
+        ],
+        correctAnswer: 'Ruido de lanza en el pasillo, pomo de la puerta giró y la TV explotó.',
       },
       {
         id: 'ny-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Kirby después de salir del portal del televisor?',
-        options: ['Se puso a bailar', 'Absorbió los restos de la puerta y se convirtió en un cono de tráfico', 'Ayudó a Nico a apagar la tele', 'Se escapó por la ventana'],
-        correctAnswer: 'Absorbió los restos de la puerta y se convirtió en un cono de tráfico',
+        questionText: '¿Qué hizo Nico inmediatamente después de notar que sus manos tenían un aura dorada?',
+        options: [
+          'Empezó a correr por la habitación esquivando los disparos.',
+          'Llamó a sus seguidores de Twitch para pedirles ayuda.',
+          'Atacó con el bate y este se encendió con fuego carmesí.',
+          'Se fijó si su barra de daño seguía marcando cero puntos.'
+        ],
+        correctAnswer: 'Atacó con el bate y este se encendió con fuego carmesí.',
       },
       {
         id: 'ny-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál es el orden correcto de estos eventos?',
+        questionText: '¿Qué hizo el dedo de Nico al final de la historia, contra su voluntad?',
         options: [
-          'Aparición de Fecto Elfilis, pantalla negra, Nico usa el bate de fuego, logro "El Nuevo Anfitrión"',
-          'Pantalla negra, logro "El Nuevo Anfitrión", Nico usa el bate, aparición de Fecto',
-          'Aparición de Fecto, Nico usa el bate, pantalla negra, logro "El Nuevo Anfitrión"',
-          'Logro "El Nuevo Anfitrión", aparición de Fecto, pantalla negra, Nico usa el bate'
+          'Hizo clic en el botón de "Iniciar nueva partida".',
+          'Apagó la computadora para detener al alienígena.',
+          'Escribió un mensaje de despedida en el chat de Twitch.',
+          'Apretó el joystick para lanzar un ataque definitivo.'
         ],
-        correctAnswer: 'Aparición de Fecto Elfilis, pantalla negra, Nico usa el bate de fuego, logro "El Nuevo Anfitrión"',
+        correctAnswer: 'Hizo clic en el botón de "Iniciar nueva partida".',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'ny-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Nico manejaba a Kirby con una "precisión quirúrgica". ¿Qué significa esto?',
-        options: ['Que lo hacía con mucha fuerza', 'Que era extremadamente exacto y cuidadoso', 'Que jugaba muy rápido', 'Que Kirby estaba enfermo'],
-        correctAnswer: 'Que era extremadamente exacto y cuidadoso',
+        questionText: 'La historia dice que el chat de Twitch era un "incendio". ¿Qué significa esto?',
+        options: [
+          'Que el monitor de la PC se estaba quemando.',
+          'Que había muchísimos mensajes pasando muy rápido.',
+          'Que Nico estaba jugando un nivel con mucho fuego.',
+          'Que los seguidores estaban muy enojados con Nico.'
+        ],
+        correctAnswer: 'Que había muchísimos mensajes pasando muy rápido.',
       },
       {
         id: 'ny-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Apareció un "glitch" extraño en el monitor. ¿Qué es un glitch?',
-        options: ['Un nuevo personaje', 'Un error o falla técnica en un juego o programa', 'Una imagen muy bonita', 'Un mensaje de un amigo'],
-        correctAnswer: 'Un error o falla técnica en un juego o programa',
+        questionText: 'Nico se quedó "petrificado". ¿Cómo estaba Nico en ese momento?',
+        options: [
+          'Muy cansado por haber jugado quince horas seguidas.',
+          'Tan asustado que no podía moverse, como si fuera de piedra.',
+          'Enojado con los "haters" que le hackearon el stream.',
+          'Convertido en un personaje de videojuego de la Switch.'
+        ],
+        correctAnswer: 'Tan asustado que no podía moverse, como si fuera de piedra.',
       },
       {
         id: 'ny-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El bate de béisbol se prendió fuego con una llama "carmesí". ¿De qué color es el carmesí?',
-        options: ['Azul brillante', 'Verde oscuro', 'Rojo intenso', 'Amarillo patito'],
-        correctAnswer: 'Rojo intenso',
+        questionText: 'Nico llamó "logi" al intruso. ¿Qué tipo de palabra es "logi" en Argentina?',
+        options: [
+          'Un término científico para hablar de dimensiones.',
+          'Un insulto para decir que alguien es tonto o distraído.',
+          'El nombre de un poder especial de la Espada Morpho.',
+          'Una forma cariñosa de llamar a los amigos del chat.'
+        ],
+        correctAnswer: 'Un insulto para decir que alguien es tonto o distraído.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'ny-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de esta historia?',
-        options: ['La vida diaria de un youtuber argentino', 'Un desafío de videojuego que se vuelve una realidad peligrosa y sobrenatural', 'Cómo ganar una partida de Kirby sin recibir daño', 'La importancia de tomar café para quedarse despierto'],
-        correctAnswer: 'Un desafío de videojuego que se vuelve una realidad peligrosa y sobrenatural',
+        questionText: '¿Cuál es el conflicto central que vive Nico en esta historia?',
+        options: [
+          'La dificultad de ganar un juego de Kirby sin recibir daño.',
+          'El enfrentamiento real contra un jefe de videojuego en su propia casa.',
+          'La pelea contra un grupo de hackers que quieren borrar su canal.',
+          'Su problema para mantenerse despierto después de tantas horas.'
+        ],
+        correctAnswer: 'El enfrentamiento real contra un jefe de videojuego en su propia casa.',
       },
       {
         id: 'ny-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué significa el logro "El Nuevo Anfitrión" al final del cuento?',
-        options: ['Que Nico ganó el torneo de Twitch', 'Que Nico va a invitar a sus amigos a una fiesta', 'Que el villano Fecto Elfilis ha tomado el control del cuerpo de Nico', 'Que Nico compró una computadora nueva'],
-        correctAnswer: 'Que el villano Fecto Elfilis ha tomado el control del cuerpo de Nico',
+        questionText: '¿Qué nos enseña el final sobre el verdadero plan de Fecto Elfilis?',
+        options: [
+          'Que quería destruir el barrio de Almagro por completo.',
+          'Que buscaba a un jugador perfecto para poseer su cuerpo.',
+          'Que necesitaba un bate de béisbol para pelear contra Kirby.',
+          'Que solo quería jugar una partida amistosa con Nico.'
+        ],
+        correctAnswer: 'Que buscaba a un jugador perfecto para poseer su cuerpo.',
       },
       {
         id: 'ny-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa el contador de daño en cero durante toda la historia?',
-        options: ['Que el juego estaba roto', 'La perfección y habilidad de Nico, pero también la trampa que lo llevó a ser poseído', 'Que no había enemigos', 'Que Kirby era invencible'],
-        correctAnswer: 'La perfección y habilidad de Nico, pero también la trampa que lo llevó a ser poseído',
+        questionText: '¿Qué representa el contador en cero durante toda la trama?',
+        options: [
+          'La gran habilidad de Nico, que atrajo la atención del villano.',
+          'Un error del juego que Nico aprovechó para ganar dinero.',
+          'Que Kirby es un personaje que nunca puede ser lastimado.',
+          'La tranquilidad de Nico mientras esperaba el final del video.'
+        ],
+        correctAnswer: 'La gran habilidad de Nico, que atrajo la atención del villano.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'ny-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la voz de Fecto Elfilis le agradece a Nico por el "No Hit"?',
-        options: ['Porque a Fecto Elfilis le gusta ver streams', 'Porque ahora que posee el cuerpo de Nico, tiene un cuerpo "invicto" y muy resistente para sus planes', 'Porque Nico fue muy amable con él', 'Porque el juego se terminó'],
-        correctAnswer: 'Porque ahora que posee el cuerpo de Nico, tiene un cuerpo "invicto" y muy resistente para sus planes',
+        questionText: '¿Por qué el alienígena dice que el cuerpo de Nico es "más resistente que el anterior"?',
+        options: [
+          'Porque Nico hace mucho deporte y tiene mucha fuerza física.',
+          'Porque Nico demostró ser capaz de pasar 15 horas sin ser tocado.',
+          'Porque el alienígena prefiere a los humanos que a los leones.',
+          'Porque el bate de béisbol le dio una armadura especial a Nico.'
+        ],
+        correctAnswer: 'Porque Nico demostró ser capaz de pasar 15 horas sin ser tocado.',
       },
       {
         id: 'ny-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué a Nico le temblaban las manos al principio de la pelea?',
-        options: ['Porque tenía mucho frío', 'Por la mezcla de cansancio y la gran tensión de perder 15 horas de trabajo si cometía un error', 'Porque no sabía usar el joystick', 'Porque el café estaba muy caliente'],
-        correctAnswer: 'Por la mezcla de cansancio y la gran tensión de perder 15 horas de trabajo si cometía un error',
+        questionText: '¿Qué causó que el bate de béisbol se prendiera fuego carmesí?',
+        options: [
+          'La explosión del televisor que ocurrió justo al lado.',
+          'La transferencia de los poderes del videojuego a la realidad.',
+          'Que Nico le puso gasolina antes de que el jefe entrara.',
+          'Un truco de magia que Kirby realizó desde el portal.'
+        ],
+        correctAnswer: 'La transferencia de los poderes del videojuego a la realidad.',
       },
       {
         id: 'ny-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo logró Nico usar las habilidades del juego en la vida real?',
-        options: ['Porque era un mago', 'Porque el portal del televisor mezcló las reglas de la realidad con las del videojuego', 'Porque el bate era especial', 'Porque estaba soñando'],
-        correctAnswer: 'Porque el portal del televisor mezcló las reglas de la realidad con las del videojuego',
+        questionText: '¿Por qué el chat de Twitch se quedó en silencio absoluto tras la pelea?',
+        options: [
+          'Porque a los seguidores se les cortó la conexión de internet.',
+          'Porque estaban tan asombrados y aterrados que no podían escribir.',
+          'Porque Nico ya había apagado el micrófono y la cámara web.',
+          'Porque el alienígena borró a todos los usuarios del stream.'
+        ],
+        correctAnswer: 'Porque estaban tan asombrados y aterrados que no podían escribir.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'ny-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías a Nico como jugador?',
-        options: ['Despistado y lento', 'Muy habilidoso, persistente y apasionado por los desafíos difíciles', 'Alguien que juega solo por obligación', 'Miedoso y que abandona rápido'],
-        correctAnswer: 'Muy habilidoso, persistente y apasionado por los desafíos difíciles',
+        questionText: '¿Qué cualidad de Nico fue la que finalmente lo convirtió en la víctima del villano?',
+        options: [
+          'Su miedo a la oscuridad y a los ruidos del pasillo.',
+          'Su perfeccionismo extremo al jugar sin recibir daño.',
+          'Su mala costumbre de tomar café recalentado de noche.',
+          'Su desobediencia a las reglas de la Tierra Olvidada.'
+        ],
+        correctAnswer: 'Su perfeccionismo extremo al jugar sin recibir daño.',
       },
       {
         id: 'ny-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia la actitud de Nico cuando Fecto Elfilis entra a su habitación?',
-        options: ['Se pone a llorar y pide perdón', 'Se queda dormido inmediatamente', 'Supera su miedo inicial y usa su instinto de jugador para luchar', 'Llama a la policía por teléfono'],
-        correctAnswer: 'Supera su miedo inicial y usa su instinto de jugador para luchar',
+        questionText: '¿Cómo cambia la actitud de Nico cuando Fecto Elfilis atraviesa su puerta?',
+        options: [
+          'Pasa de ser un joven asustado a un guerrero con instintos de gamer.',
+          'Pasa de estar muy aburrido a sentir mucha alegría por la visita.',
+          'Decide rendirse inmediatamente para que no le rompan el cuarto.',
+          'Se pone a reír porque piensa que todo es una broma del chat.'
+        ],
+        correctAnswer: 'Pasa de ser un joven asustado a un guerrero con instintos de gamer.',
       },
       {
         id: 'ny-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué rasgo define a Fecto Elfilis en esta historia?',
-        options: ['Es un ser solitario', 'Es un villano astuto y poderoso que busca cuerpos resistentes para conquistar mundos', 'Es un amigo de Kirby', 'Es un virus de computadora'],
-        correctAnswer: 'Es un villano astuto y poderoso que busca cuerpos resistentes para conquistar mundos',
+        questionText: '¿Qué sentimiento parece motivar a Kirby al final de la historia?',
+        options: [
+          'El hambre por absorber los muebles de la habitación de Nico.',
+          'La lealtad hacia su jugador y el coraje para enfrentar al mal.',
+          'El deseo de escaparse de la televisión para vivir en Almagro.',
+          'El enojo por haber sido atrapado en un cono de tráfico.'
+        ],
+        correctAnswer: 'La lealtad hacia su jugador y el coraje para enfrentar al mal.',
       },
     ],
   },

@@ -65,7 +65,7 @@ Y mandó a uno de los suyos que fuese a ver lo que pasaba en la casa. El enviado
 
 El ladrón corrió a toda prisa hacia donde estaba su capitán y le dijo:
 
-—Hay en nuestra casa una horrorosa hechicera que me ha arañado, bufando, con sus largas uñas; junto a la puerta se halla un hombre armado de un enorme cuchillo, que me ha atravasado la pierna; se ha aposentado en el patio un monstruo negro que me ha aporreado con los golpes de su maza, y en lo alto del techo se ha colocado el juez que gritaba:
+—Hay en nuestra casa una horrorosa hechicera que me ha arañado, bufando, con sus largas uñas; junto a la puerta se halla un hombre armado de un enorme cuchillo, que me ha atravesado la pierna; se ha aposentado en el patio un monstruo negro que me ha aporreado con los golpes de su maza, y en lo alto del techo se ha colocado el juez que gritaba:
 
 —¡Traédmele aquí, traédmele aquí, delante de mí! —por lo que he creído debía huir.
 
@@ -78,138 +78,228 @@ Desde entonces no se atrevieron los ladrones a entrar más en la casa, y los cua
       {
         id: 'mb-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿A qué ciudad deciden ir los animales para convertirse en músicos?',
-        options: ['Berlín', 'Hamburgo', 'Brema', 'Múnich'],
-        correctAnswer: 'Brema',
+        questionText: '¿En qué lugar exacto del establo decidió dormir el asno?',
+        options: [
+          'Junto al hogar de la chimenea.',
+          'Detrás de la puerta de madera.',
+          'En el montón de estiércol.',
+          'En la viga más alta del techo.'
+        ],
+        correctAnswer: 'En el montón de estiércol.',
       },
       {
         id: 'mb-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué instrumento le propuso el asno al perro que tocara?',
-        options: ['La trompa', 'Los timbales', 'El violín', 'La flauta'],
-        correctAnswer: 'Los timbales',
+        questionText: '¿Qué instrumentos musicales planeaba tocar el asno para el grupo?',
+        options: [
+          'La trompa el asno y los timbales el perro.',
+          'El violín el gato y el piano el asno.',
+          'La trompeta el gallo y el tambor el perro.',
+          'Los timbales el asno y la trompa el gato.'
+        ],
+        correctAnswer: 'La trompa el asno y los timbales el perro.',
       },
       {
         id: 'mb-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué el ama quería cocinar al gallo?',
-        options: ['Porque ya no cantaba', 'Porque era domingo y habría una gran comida', 'Porque estaba enfermo', 'Porque se escapó del corral'],
-        correctAnswer: 'Porque era domingo y habría una gran comida',
+        questionText: '¿Con qué objeto intentó el ladrón encender su luz en la cocina?',
+        options: [
+          'Con un fósforo de madera largo.',
+          'Con una pequeña rama de árbol.',
+          'Con una pajuela de la chimenea.',
+          'Con una vela que estaba en la mesa.'
+        ],
+        correctAnswer: 'Con una pajuela de la chimenea.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'mb-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿En qué orden se encuentran los animales en el camino?',
-        options: ['Asno, Perro, Gato y Gallo', 'Gallo, Gato, Perro y Asno', 'Asno, Gato, Gallo y Perro', 'Perro, Asno, Gato y Gallo'],
-        correctAnswer: 'Asno, Perro, Gato y Gallo',
+        questionText: '¿Cuál fue el orden exacto en el que los animales se apilaron en la ventana?',
+        options: [
+          'Perro, Asno, Gato y finalmente el Gallo.',
+          'Asno abajo, Perro, Gato y el Gallo arriba.',
+          'Gallo abajo, Gato, Perro y el Asno arriba.',
+          'Asno abajo, Gato, Perro y el Gallo arriba.'
+        ],
+        correctAnswer: 'Asno abajo, Perro, Gato y el Gallo arriba.',
       },
       {
         id: 'mb-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Quién estaba arriba de todo en la torre que armaron los animales para asustar a los ladrones?',
-        options: ['El asno', 'El perro', 'El gato', 'El gallo'],
-        correctAnswer: 'El gallo',
+        questionText: '¿Qué ocurrió inmediatamente después de que los animales rompieran los vidrios?',
+        options: [
+          'Los ladrones atacaron a los animales con mazas.',
+          'Los ladrones huyeron asustados creyendo ver un espectro.',
+          'El capitán de los ladrones mandó a un enviado solo.',
+          'Los animales se acostaron a dormir en el estiércol.'
+        ],
+        correctAnswer: 'Los ladrones huyeron asustados creyendo ver un espectro.',
       },
       {
         id: 'mb-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que los ladrones escaparan al bosque por primera vez?',
-        options: ['Los animales se fueron a dormir', 'Los animales se sentaron a la mesa y comieron los manjares', 'El capitán mandó a un enviado', 'Salió el sol'],
-        correctAnswer: 'Los animales se sentaron a la mesa y comieron los manjares',
+        questionText: '¿Qué hizo el ladrón enviado ANTES de ser arañado por el gato?',
+        options: [
+          'Fue pateado por el asno rucio en el corral.',
+          'Confundió los ojos del gato con brasas encendidas.',
+          'Escuchó al juez gritar desde lo alto del techo.',
+          'Sintió el enorme cuchillo atravesarle la pierna.'
+        ],
+        correctAnswer: 'Confundió los ojos del gato con brasas encendidas.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'mb-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El amo quería "desollar" al asno. ¿Qué significa desollar?',
-        options: ['Quitarle la piel', 'Darle de comer', 'Llevarlo a pasear', 'Enseñarle música'],
-        correctAnswer: 'Quitarle la piel',
+        questionText: 'El asno comprendió que el viento soplaba de "mala parte". ¿Qué significa esto?',
+        options: [
+          'Que el clima estaba cambiando para llover.',
+          'Que la dirección del viento le impedía caminar.',
+          'Que se avecinaba un grave problema para él.',
+          'Que el amo quería mudarse a otro pueblo lejano.'
+        ],
+        correctAnswer: 'Que se avecinaba un grave problema para él.',
       },
       {
         id: 'mb-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El perro dijo que había "tomado las de Villadiego". ¿Qué significa esa frase?',
-        options: ['Que se fue a vivir a Villadiego', 'Que se escapó rápidamente para salvarse', 'Que compró ropa nueva', 'Que se puso a cantar'],
-        correctAnswer: 'Que se escapó rápidamente para salvarse',
+        questionText: 'El ladrón dice que un monstruo lo golpeó con su "maza". ¿Qué es una maza?',
+        options: [
+          'Una herramienta para amasar pan dulce.',
+          'Un arma pesada que sirve para aporrear.',
+          'Un tipo de soga muy gruesa y resistente.',
+          'Una herida causada por un cuchillo afilado.'
+        ],
+        correctAnswer: 'Un arma pesada que sirve para aporrear.',
       },
       {
         id: 'mb-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El asno miró por la ventana y vio muchos "manjares". ¿Qué son manjares?',
-        options: ['Libros viejos', 'Comidas muy ricas y exquisitas', 'Herramientas de trabajo', 'Botas de cuero'],
-        correctAnswer: 'Comidas muy ricas y exquisitas',
+        questionText: '¿A qué se refiere el texto cuando dice que los ojos parecían "ascuas"?',
+        options: [
+          'A que estaban llenos de lágrimas tristes.',
+          'A pedazos de leña encendida y brillante.',
+          'A pequeñas piedras preciosas del tesoro.',
+          'A manchas de barro seco en la oscuridad.'
+        ],
+        correctAnswer: 'A pedazos de leña encendida y brillante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'mb-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta historia?',
-        options: ['Que los animales no saben tocar música', 'Que los ladrones son muy valientes', 'Que la unión y la amistad ayudan a superar los problemas', 'Que es peligroso vivir en un bosque'],
-        correctAnswer: 'Que la unión y la amistad ayudan a superar los problemas',
+        questionText: '¿Cuál es el tema central que une a los cuatro animales?',
+        options: [
+          'El deseo de ser famosos músicos en una ciudad.',
+          'La búsqueda de una nueva vida tras ser rechazados.',
+          'La necesidad de encontrar un tesoro escondido.',
+          'La lucha por defender su granja de los ladrones.'
+        ],
+        correctAnswer: 'La búsqueda de una nueva vida tras ser rechazados.',
       },
       {
         id: 'mb-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué los animales decidieron irse de sus casas?',
-        options: ['Porque querían ser famosos', 'Porque sus dueños ya no los querían y estaban en peligro', 'Porque querían conocer el mundo', 'Porque no les gustaba la comida'],
-        correctAnswer: 'Porque sus dueños ya no los querían y estaban en peligro',
+        questionText: '¿Por qué la historia enfatiza que los animales ya eran viejos?',
+        options: [
+          'Para explicar por qué caminaban tan lento a Brema.',
+          'Para justificar por qué sus amos ya no los valoraban.',
+          'Porque solo los animales viejos saben tocar música.',
+          'Para mostrar que tenían mucha sabiduría en el bosque.'
+        ],
+        correctAnswer: 'Para justificar por qué sus amos ya no los valoraban.',
       },
       {
         id: 'mb-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué mensaje nos deja el final de la historia?',
-        options: ['Que los animales deben vivir en el bosque', 'Que trabajando juntos se puede encontrar un nuevo hogar feliz', 'Que los ladrones siempre vuelven', 'Que hay que tener miedo a las hechiceras'],
-        correctAnswer: 'Que trabajando juntos se puede encontrar un nuevo hogar feliz',
+        questionText: '¿Qué lección propone el cuento sobre el trabajo en equipo?',
+        options: [
+          'Que el asno debe mandar siempre por ser el más grande.',
+          'Que el miedo de uno puede arruinar el plan de todos.',
+          'Que unir fuerzas diferentes permite vencer amenazas.',
+          'Que los ladrones son más fuertes si están unidos.'
+        ],
+        correctAnswer: 'Que unir fuerzas diferentes permite vencer amenazas.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'mb-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué los ladrones pensaron que en la casa había una hechicera y un monstruo?',
-        options: ['Porque realmente los había', 'Porque el gato les arañó y el perro los mordió en la oscuridad, y su imaginación les hizo creer cosas horribles', 'Porque los animales usaron disfraces', 'Porque el gallo les gritó un hechizo'],
-        correctAnswer: 'Porque el gato les arañó y el perro los mordió en la oscuridad, y su imaginación les hizo creer cosas horribles',
+        questionText: '¿Quién era en realidad el "hombre con el cuchillo" que mencionó el ladrón?',
+        options: [
+          'El labrador que buscaba a su asno perdido.',
+          'El perro de caza que lo mordió en la pierna.',
+          'El gato que lo arañó con sus uñas largas.',
+          'El gallo que gritaba desde lo alto de la viga.'
+        ],
+        correctAnswer: 'El perro de caza que lo mordió en la pierna.',
       },
       {
         id: 'mb-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Crees que los animales realmente querían ser músicos de la municipalidad?',
-        options: ['Sí, era su gran sueño', 'Probablemente era una excusa para escapar y buscar una vida mejor juntos', 'No, solo querían robarle a los ladrones', 'Sí, pero no tenían instrumentos'],
-        correctAnswer: 'Probablemente era una excusa para escapar y buscar una vida mejor juntos',
+        questionText: '¿Por qué los ladrones pensaron que había un "juez" en el techo?',
+        options: [
+          'Porque el gallo cantó y ellos confundieron el sonido.',
+          'Porque vieron la sombra del asno contra las nubes.',
+          'Porque el gato gritaba leyes de la municipalidad.',
+          'Porque el perro ladraba avisando que la ley llegaba.'
+        ],
+        correctAnswer: 'Porque el gallo cantó y ellos confundieron el sonido.',
       },
       {
         id: 'mb-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué los ladrones no volvieron más a la casa?',
-        options: ['Porque encontraron un tesoro en el bosque', 'Porque estaban aterrorizados por lo que creían que vivía allí', 'Porque se mudaron de ciudad', 'Porque se hicieron amigos de los animales'],
-        correctAnswer: 'Porque estaban aterrorizados por lo que creían que vivía allí',
+        questionText: '¿Por qué el asno prefirió ir a una casa de ladrones en vez de seguir al bosque?',
+        options: [
+          'Porque reconoció a los ladrones de su antiguo pueblo.',
+          'Porque la posada del bosque era incómoda y tenía hambre.',
+          'Porque quería robar el oro para comprar instrumentos.',
+          'Porque el gallo le ordenó que entrara a buscar comida.'
+        ],
+        correctAnswer: 'Porque la posada del bosque era incómoda y tenía hambre.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'mb-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Quién es el líder del grupo de animales?',
-        options: ['El gallo', 'El gato', 'El perro', 'El asno'],
-        correctAnswer: 'El asno',
+        questionText: '¿Qué rasgo define mejor al asno en este relato?',
+        options: [
+          'Es un animal miedoso que huye de sus problemas.',
+          'Es un líder astuto que da esperanza a los demás.',
+          'Es un personaje egoísta que solo piensa en su piel.',
+          'Es un músico talentoso que toca varios instrumentos.'
+        ],
+        correctAnswer: 'Es un líder astuto que da esperanza a los demás.',
       },
       {
         id: 'mb-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad comparten todos los animales del grupo?',
-        options: ['Son jóvenes y fuertes', 'Son viejos y han sido maltratados, pero mantienen el coraje para buscar una vida nueva', 'Son muy buenos tocando el violín', 'Son miedosos'],
-        correctAnswer: 'Son viejos y han sido maltratados, pero mantienen el coraje para buscar una vida nueva',
+        questionText: '¿Cómo reaccionan los animales ante la vejez y el peligro de muerte?',
+        options: [
+          'Con mucha tristeza y esperando su final en el corral.',
+          'Con determinación para buscar un nuevo propósito.',
+          'Con enojo contra el labrador por ser tan injusto.',
+          'Con ganas de vengarse atacando a sus antiguos dueños.'
+        ],
+        correctAnswer: 'Con determinación para buscar un nuevo propósito.',
       },
       {
         id: 'mb-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo podrías describir a los ladrones de la historia?',
-        options: ['Valientes y organizados', 'Malvados pero cobardes y supersticiosos', 'Amables y generosos', 'Tontos pero muy fuertes'],
-        correctAnswer: 'Malvados pero cobardes y supersticiosos',
+        questionText: '¿Qué cualidad del gato le permitió defenderse tan bien del ladrón?',
+        options: [
+          'Su habilidad para esconderse bajo las cenizas calientes.',
+          'Su rapidez para arañar antes de que lo tocaran.',
+          'Su capacidad de hablar para engañar al hombre.',
+          'Su fuerza para empujar al ladrón hacia el asno.'
+        ],
+        correctAnswer: 'Su rapidez para arañar antes de que lo tocaran.',
       },
     ],
   },

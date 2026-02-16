@@ -50,138 +50,228 @@ Desde entonces Bisa vuela de pueblo en pueblo y de bisnietos en bisnietos. Ya ap
       {
         id: 'bisa-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo decidieron llamar los niños a la ancianita?',
-        options: ['Abuela', 'Bisa', 'Señora', 'Campeona'],
-        correctAnswer: 'Bisa',
+        questionText: '¿Por qué los niños decidieron llamar "Bisa" a la ancianita?',
+        options: [
+          'Porque era la campeona de las carreras.',
+          'Porque la adoptaron como su bisabuela.',
+          'Porque vivía sola en un mangrullo alto.',
+          'Porque sabía mucho sobre el ferrocarril.'
+        ],
+        correctAnswer: 'Porque la adoptaron como su bisabuela.',
       },
       {
         id: 'bisa-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué profesión había tenido Bisa en su juventud?',
-        options: ['Maestra', 'Mecánica', 'Aviadora', 'Exploradora'],
-        correctAnswer: 'Aviadora',
+        questionText: '¿Cuál era el nombre del avión de la famosa aviadora?',
+        options: [
+          'El Pájaro de Cristal',
+          'El Águila de Oro',
+          'El Grillo Pachimú',
+          'El Carro de Fuego'
+        ],
+        correctAnswer: 'El Águila de Oro',
       },
       {
         id: 'bisa-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Quién es Pachimú y qué trabajo hace en el pueblo extraño?',
-        options: ['Un gato que vuela', 'Un grillo que trabaja de traductor', 'Un perro que canta', 'Un pájaro que arregla aviones'],
-        correctAnswer: 'Un grillo que trabaja de traductor',
+        questionText: '¿Qué accidente tuvo Bisa que la obligó a jubilarse del vuelo?',
+        options: [
+          'Se estrelló contra un enorme ombú.',
+          'Atropelló a una pobre perdiz viuda.',
+          'Se le acabó el combustible en el mar.',
+          'Perdió su uniforme de astronauta.'
+        ],
+        correctAnswer: 'Atropelló a una pobre perdiz viuda.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'bisa-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron los niños junto a Bisa ANTES de que ella pudiera volar de nuevo?',
-        options: ['Le construyeron una casa', 'Limpiaron y aceitaron su viejo aeroplano', 'Le regalaron unas gafas', 'Le cantaron una canción'],
-        correctAnswer: 'Limpiaron y aceitaron su viejo aeroplano',
+        questionText: '¿Qué hicieron los niños justo después de reunirse en asamblea?',
+        options: [
+          'Adoptaron a la anciana como bisabuela.',
+          'Pusieron en marcha el motor del avión.',
+          'Aceitaron las hélices de los leones.',
+          'Pescaron renacuajos en el ferrocarril.'
+        ],
+        correctAnswer: 'Adoptaron a la anciana como bisabuela.',
       },
       {
         id: 'bisa-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué vio Bisa por sus antiparras justo después de despegar?',
-        options: ['Su pueblo y sus bisnietos', 'El mar y la playa', 'La ciudad de Nueva York, pirámides y una carroza de mariposas', 'Nubes y pájaros'],
-        correctAnswer: 'La ciudad de Nueva York, pirámides y una carroza de mariposas',
+        questionText: '¿Qué hizo Bisa justo antes de trepar a la diminuta cabina?',
+        options: [
+          'Abrió los portones del gran galpón.',
+          'Se probó las gafas de su madrina.',
+          'Aterrizó en una calle poco transitada.',
+          'Guardó a Pachimú en una caja blanca.'
+        ],
+        correctAnswer: 'Abrió los portones del gran galpón.',
       },
       {
         id: 'bisa-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó inmediatamente después de que Bisa aterrizara en el pueblo extraño?',
-        options: ['Pachimú empezó a cantar', 'Bisa se quitó las gafas', 'Los niños del lugar se acercaron a recibirla con cariño', 'El avión se quedó sin combustible'],
-        correctAnswer: 'Los niños del lugar se acercaron a recibirla con cariño',
+        questionText: '¿Cuál es el orden correcto de las ciudades que Bisa cree ver?',
+        options: [
+          'Bagdad, México y luego Nueva York.',
+          'Nueva York, México y luego Bagdad.',
+          'México, Bagdad y luego Nueva York.',
+          'Nueva York, Bagdad y luego México.'
+        ],
+        correctAnswer: 'Nueva York, México y luego Bagdad.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'bisa-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Bisa vivía en lo alto de un "mangrullo". ¿Qué es un mangrullo?',
-        options: ['Un árbol muy alto', 'Una montaña', 'Una torre de vigilancia', 'Un edificio de apartamentos'],
-        correctAnswer: 'Una torre de vigilancia',
+        questionText: '¿Qué es un "mangrullo" en esta historia?',
+        options: [
+          'Un tipo de baúl para guardar ropa.',
+          'Una torre alta para ver a lo lejos.',
+          'Un árbol con muchas hojas verdes.',
+          'Un pájaro que canta en el bosque.'
+        ],
+        correctAnswer: 'Una torre alta para ver a lo lejos.',
       },
       {
         id: 'bisa-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En el galpón había un viejo avión "herrumbrado". ¿Qué significa herrumbrado?',
-        options: ['Recién pintado', 'Cubierto de óxido', 'Listo para volar', 'Lleno de flores'],
-        correctAnswer: 'Cubierto de óxido',
+        questionText: '¿Qué significa que el avión estaba "herrumbrado"?',
+        options: [
+          'Que era muy veloz y brillante.',
+          'Que tenía óxido por ser muy viejo.',
+          'Que estaba lleno de flores azules.',
+          'Que pertenecía al Conquistador.'
+        ],
+        correctAnswer: 'Que tenía óxido por ser muy viejo.',
       },
       {
         id: 'bisa-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Bisa se "encasquetó" la gorra. ¿Qué significa "encasquetar"?',
-        options: ['Quitarse algo de la cabeza', 'Ponerse algo en la cabeza, ajustándolo bien', 'Lavar algo', 'Planchar algo'],
-        correctAnswer: 'Ponerse algo en la cabeza, ajustándolo bien',
+        questionText: 'En el texto, ¿qué son las "antiparras"?',
+        options: [
+          'Unas herramientas para los motores.',
+          'Unas gafas para proteger la vista.',
+          'Unas medallas de oro ganadas.',
+          'Unas alas mecánicas de repuesto.'
+        ],
+        correctAnswer: 'Unas gafas para proteger la vista.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'bisa-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta historia?',
-        options: ['La importancia de aprender otros idiomas', 'La amistad entre una anciana y los niños, y cómo la imaginación permite vivir grandes aventuras', 'Cómo arreglar un avión viejo', 'La vida de los grillos traductores'],
-        correctAnswer: 'La amistad entre una anciana y los niños, y cómo la imaginación permite vivir grandes aventuras',
+        questionText: '¿Cuál es el mensaje más importante de esta historia?',
+        options: [
+          'Que los aviones viejos son peligrosos.',
+          'Que la imaginación nos permite viajar.',
+          'Que es mejor vivir en casas de árboles.',
+          'Que los grillos son buenos traductores.'
+        ],
+        correctAnswer: 'Que la imaginación nos permite viajar.',
       },
       {
         id: 'bisa-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representan las antiparras mágicas en el cuento?',
-        options: ['Un simple trofeo viejo', 'La capacidad de ver el mundo de una manera fantástica y maravillosa', 'Un problema de visión', 'Un regalo sin importancia'],
-        correctAnswer: 'La capacidad de ver el mundo de una manera fantástica y maravillosa',
+        questionText: '¿Qué cambió en la vida de Bisa cuando llegaron los niños?',
+        options: [
+          'Empezó a estudiar muchos idiomas.',
+          'Recuperó su alegría y sus ganas de volar.',
+          'Decidió mudarse a la ciudad de Bagdad.',
+          'Se convirtió en una doctora famosa.'
+        ],
+        correctAnswer: 'Recuperó su alegría y sus ganas de volar.',
       },
       {
         id: 'bisa-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué Bisa sigue viajando de pueblo en pueblo al final del cuento?',
-        options: ['Porque no encuentra su casa', 'Porque le gusta conocer nuevos niños y tener nuevas aventuras', 'Porque su avión no puede detenerse', 'Porque Pachimú se lo pide'],
-        correctAnswer: 'Porque le gusta conocer nuevos niños y tener nuevas aventuras',
+        questionText: '¿Por qué la historia dice que Bisa vuela de "bisnietos en bisnietos"?',
+        options: [
+          'Porque tiene una familia muy numerosa.',
+          'Porque cada pueblo nuevo la adopta con amor.',
+          'Porque su avión solo vuela distancias cortas.',
+          'Porque Pachimú conoce a todos los chicos.'
+        ],
+        correctAnswer: 'Porque cada pueblo nuevo la adopta con amor.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'bisa-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Bisa creía que sus anteojos "se han vuelto locos"?',
-        options: ['Porque estaban rotos', 'Porque al ponérselos, veía cosas fantásticas en lugar de la realidad', 'Porque no le permitían ver bien', 'Porque le daban dolor de cabeza'],
-        correctAnswer: 'Porque al ponérselos, veía cosas fantásticas en lugar de la realidad',
+        questionText: '¿Por qué los niños no veían nada a través de las antiparras de Bisa?',
+        options: [
+          'Porque las gafas tenían un hechizo.',
+          'Porque les faltaba la fantasía de Bisa.',
+          'Porque el motor todavía estaba frío.',
+          'Porque no tenían los 54 bolsillos.'
+        ],
+        correctAnswer: 'Porque les faltaba la fantasía de Bisa.',
       },
       {
         id: 'bisa-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Pachimú podía ser entendido por los niños que hablaban otro idioma?',
-        options: ['Porque Pachimú sabía todos los idiomas', 'Porque los niños entendían el lenguaje de los animales', 'Porque, como dice el cuento, "los grillos cantan en un idioma universal"', 'Porque les hizo señas'],
-        correctAnswer: 'Porque, como dice el cuento, "los grillos cantan en un idioma universal"',
+        questionText: '¿Qué sintieron los niños cuando vieron despegar el avión?',
+        options: [
+          'Mucha risa por el ruido del motor.',
+          'Miedo de que Bisa tuviera un accidente.',
+          'Enojo porque Bisa no los llevó con ella.',
+          'Hambre porque ya era hora del almuerzo.'
+        ],
+        correctAnswer: 'Miedo de que Bisa tuviera un accidente.',
       },
       {
         id: 'bisa-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos enseña el cuento sobre la vejez?',
-        options: ['Que los ancianos ya no pueden divertirse', 'Que la edad no es un impedimento para tener espíritu aventurero y hacer amigos', 'Que los ancianos deben vivir solos', 'Que es difícil aprender cosas nuevas cuando se es mayor'],
-        correctAnswer: 'Que la edad no es un impedimento para tener espíritu aventurero y hacer amigos',
+        questionText: '¿Cómo logra Bisa comunicarse con la gente de otros países?',
+        options: [
+          'A través de la música universal de Pachimú.',
+          'Usando un diccionario de su antepasado.',
+          'Escribiendo mensajes en el cielo azul.',
+          'Apretando manivelas en su cabina vieja.'
+        ],
+        correctAnswer: 'A través de la música universal de Pachimú.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'bisa-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Bisa?',
-        options: ['Tímida y miedosa', 'Aventurera y cariñosa', 'Gruñona y solitaria', 'Perezosa y aburrida'],
-        correctAnswer: 'Aventurera y cariñosa',
+        questionText: '¿Cómo describirías la personalidad de Bisa?',
+        options: [
+          'Es una mujer miedosa y muy solitaria.',
+          'Es una persona soñadora y aventurera.',
+          'Es una anciana gruñona que no juega.',
+          'Es una aviadora que siempre tiene sueño.'
+        ],
+        correctAnswer: 'Es una persona soñadora y aventurera.',
       },
       {
         id: 'bisa-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo son los niños de la historia?',
-        options: ['Egoístas y traviesos', 'Cariñosos, colaboradores y aventureros', 'Tímidos y estudiosos', 'Aburridos y sin imaginación'],
-        correctAnswer: 'Cariñosos, colaboradores y aventureros',
+        questionText: '¿Cómo son los niños que aparecen en el relato?',
+        options: [
+          'Son egoístas y no cuidan sus juguetes.',
+          'Son creativos, cariñosos y muy unidos.',
+          'Son traviesos y rompieron el aeroplano.',
+          'Son aburridos y no les gusta el ajedrez.'
+        ],
+        correctAnswer: 'Son creativos, cariñosos y muy unidos.',
       },
       {
         id: 'bisa-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué papel juega Pachimú en la historia?',
-        options: ['Es solo una mascota', 'Es el piloto del avión', 'Es un compañero leal y un ayudante importante que facilita la comunicación', 'Es el villano del cuento'],
-        correctAnswer: 'Es un compañero leal y un ayudante importante que facilita la comunicación',
+        questionText: '¿Qué cualidad de Pachimú lo hace un buen compañero?',
+        options: [
+          'Que sabe mucho sobre los astronautas.',
+          'Que es pequeño, discreto y muy leal.',
+          'Que sabe arreglar motores de leones.',
+          'Que tiene una cola de pavo real bella.'
+        ],
+        correctAnswer: 'Que es pequeño, discreto y muy leal.',
       },
     ],
   },

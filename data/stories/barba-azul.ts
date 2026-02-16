@@ -13,7 +13,7 @@ Una vecina suya, dama distinguida, tenía dos hijas hermosísimas. Él le pidió
 
 Barba Azul, para conocerlas, las llevó con su madre y tres o cuatro de sus mejores amigas, y algunos jóvenes de la comarca, a una de sus casas de campo, donde permanecieron ocho días completos. El tiempo se les iba en paseos, cacerías, pesca, bailes, festines, meriendas y cenas; nadie dormía y se pasaban la noche entre bromas y diversiones. En fin, todo marchó tan bien que la menor de las jóvenes empezó a encontrar que el dueño de casa ya no tenía la barba tan azul y que era un hombre muy correcto.
 
-Tan pronto hubieron llegado a la ciudad, quedó arreglada la boda. Al cabo de un mes, Barba Azul le dijo a su mujer que tenía que viajar a provincia por seis semanas a lo menos debido a un negocio importante; le pidió que se divirtiera en su ausencia, que hiciera venir a sus buenas amigas, que las llevara al campo si lo deseaban, que se diera gusto.
+Tan pronto hubieron llegado a la ciudad, quedó arreglada la boda. Al cabo de un mes, Barba Azul le dijo a su mujer que tenía que viajar a provincia por seis semanas a lo menos debido a un negocio importante; le pidió que se divirtiera en su ausencia, que hiciera venir a sus buenas amigas, que las llevara al campo si lo deseaban, que se dase gusto.
 
 —He aquí, le dijo, las llaves de los dos guardamuebles, éstas son las de la vajilla de oro y plata que no se ocupa todos los días, aquí están las de los estuches donde guardo mis pedrerías, y ésta es la llave maestra de todos los aposentos. En cuanto a esta llavecita, es la del gabinete al fondo de la galería de mi departamento: abrid todo, id a todos lados, pero os prohibo entrar a este pequeño gabinete, y os lo prohibo de tal manera que si llegáis a abrirlo, todo lo podéis esperar de mi cólera.
 
@@ -31,7 +31,7 @@ Creyó que se iba a morir de miedo, y la llave del gabinete que había sacado de
 
 Habiendo observado que la llave del gabinete estaba manchada de sangre, la limpió dos o tres veces, pero la sangre no se iba; por mucho que la lavara, la sangre siempre estaba allí, porque la llave era mágica, y no había forma de limpiarla del todo.
 
-Barba Azul regresó de su viaje esa misma tarde. Al día siguiente, él le pidió que le devolviera las llaves y ella se las dio, pero con una mano tan temblorosa que él adivinó sin esfuerzo todo lo que había pasado.
+Barba Azul regresa de su viaje esa misma tarde. Al día siguiente, él le pidió que le devolviera las llaves y ella se las dio, pero con una mano tan temblorosa que él adivinó sin esfuerzo todo lo que había pasado.
 —¿Por qué hay sangre en esta llave? —le preguntó.
 —No lo sé —respondió la pobre mujer, pálida como una muerta.
 —No lo sabéis —repuso Barba Azul—, pero yo sé muy bien. ¡Habéis tratado de entrar al gabinete! Pues bien, señora, entraréis y ocuparéis vuestro lugar junto a las damas que allí habéis visto.
@@ -79,138 +79,228 @@ Ocurrió que Barba Azul no tenía herederos, de modo que su esposa pasó a ser d
       {
         id: 'bb-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le prohibió Barba Azul a su esposa?',
-        options: ['Salir de la casa', 'Recibir visitas', 'Entrar a un pequeño gabinete', 'Usar la vajilla de oro'],
-        correctAnswer: 'Entrar a un pequeño gabinete',
+        questionText: '¿Cuál de las siguientes acciones le prohibió Barba Azul a su esposa?',
+        options: [
+          'Viajar a la ciudad durante su ausencia.',
+          'Recibir visitas de sus mejores amigas.',
+          'Entrar a un pequeño gabinete apartado.',
+          'Usar la vajilla de oro de los festines.'
+        ],
+        correctAnswer: 'Entrar a un pequeño gabinete apartado.',
       },
       {
         id: 'bb-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué vio la esposa dentro del gabinete prohibido?',
-        options: ['Un tesoro escondido', 'Montones de oro y joyas', 'Los cuerpos de las esposas anteriores de Barba Azul', 'Un pasadizo secreto'],
-        correctAnswer: 'Los cuerpos de las esposas anteriores de Barba Azul',
+        questionText: '¿Qué descubrió la esposa dentro del cuarto prohibido?',
+        options: [
+          'Un gran cofre lleno de monedas de oro.',
+          'Muchos estuches con piedras preciosas.',
+          'Los cuerpos de las esposas anteriores.',
+          'Un pasadizo que llevaba hasta el campo.'
+        ],
+        correctAnswer: 'Los cuerpos de las esposas anteriores.',
       },
       {
         id: 'bb-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo supo Barba Azul que su esposa había entrado al gabinete prohibido?',
-        options: ['Porque la vio una sirvienta', 'Porque encontró la puerta abierta', 'Porque la llave mágica estaba manchada de sangre', 'Porque ella se lo confesó'],
-        correctAnswer: 'Porque la llave mágica estaba manchada de sangre',
+        questionText: '¿Cómo se dio cuenta Barba Azul de la desobediencia de su mujer?',
+        options: [
+          'Porque la hermana Ana le contó todo.',
+          'Porque encontró la puerta mal cerrada.',
+          'Porque la llave mágica tenía sangre.',
+          'Porque las vecinas hablaron con él.'
+        ],
+        correctAnswer: 'Porque la llave mágica tenía sangre.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'bb-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Barba Azul justo después de entregarle las llaves a su esposa?',
-        options: ['La encerró en la casa', 'Se fue de viaje por un negocio importante', 'Le mostró sus riquezas', 'Organizó una gran fiesta'],
-        correctAnswer: 'Se fue de viaje por un negocio importante',
+        questionText: '¿Qué hizo Barba Azul inmediatamente después de darle las llaves a su mujer?',
+        options: [
+          'Subió a su carruaje y emprendió el viaje.',
+          'Le mostró todos los tesoros de su castillo.',
+          'Invitó a los hermanos a un gran banquete.',
+          'Se encerró a trabajar en su gabinete.'
+        ],
+        correctAnswer: 'Subió a su carruaje y emprendió el viaje.',
       },
       {
         id: 'bb-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo la esposa INMEDIATAMENTE después de descubrir los cuerpos en el gabinete?',
-        options: ['Salió corriendo del castillo', 'Creyó morir de miedo y se le cayó la llave', 'Llamó a su hermana Ana', 'Limpió la sangre del piso'],
-        correctAnswer: 'Creyó morir de miedo y se le cayó la llave',
+        questionText: '¿Qué ocurrió justo después de que la esposa viera los cuerpos en la habitación?',
+        options: [
+          'Corrió hacia la torre para buscar a Ana.',
+          'Salió y limpió la llave varias veces.',
+          'Se le cayó la llavecita de la mano.',
+          'Barba Azul regresó de forma inesperada.'
+        ],
+        correctAnswer: 'Se le cayó la llavecita de la mano.',
       },
       {
         id: 'bb-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Quiénes llegaron justo a tiempo para salvar a la esposa de Barba Azul?',
-        options: ['Los guardias del rey', 'Sus hermanos', 'Sus padres', 'Las vecinas'],
-        correctAnswer: 'Sus hermanos',
+        questionText: '¿En qué momento aparecen los hermanos de la esposa para ayudarla?',
+        options: [
+          'Cuando ella les mandó una carta secreta.',
+          'Cuando Barba Azul estaba por matarla.',
+          'Cuando las vecinas fueron a dar aviso.',
+          'Cuando la hermana Ana bajó de la torre.'
+        ],
+        correctAnswer: 'Cuando Barba Azul estaba por matarla.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'bb-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "muebles forrados en finísimo brocado", ¿qué es el "brocado"?',
-        options: ['Un tipo de madera', 'Un cuero muy suave', 'Una tela de seda con dibujos en relieve', 'Un metal brillante'],
-        correctAnswer: 'Una tela de seda con dibujos en relieve',
+        questionText: 'El texto dice que los muebles tenían "finísimo brocado". ¿Qué es el brocado?',
+        options: [
+          'Una madera oscura muy resistente.',
+          'Una tela de seda con hilos de oro.',
+          'Un cuero suave traído de la comarca.',
+          'Un barniz brillante de color azul.'
+        ],
+        correctAnswer: 'Una tela de seda con hilos de oro.',
       },
       {
         id: 'bb-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La esposa bajó por una escalera "angosta". ¿Qué significa "angosta"?',
-        options: ['Ancha y espaciosa', 'Estrecha', 'Larga', 'Oscura'],
-        correctAnswer: 'Estrecha',
+        questionText: 'La esposa bajó por una escalera "angosta". ¿Qué significa esa palabra?',
+        options: [
+          'Que era muy ancha y cómoda.',
+          'Que era estrecha y de poco espacio.',
+          'Que estaba rota por la humedad.',
+          'Que tenía muchos adornos dorados.'
+        ],
+        correctAnswer: 'Que era estrecha y de poco espacio.',
       },
       {
         id: 'bb-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Barba Azul le dice a su esposa: "todo lo podéis esperar de mi cólera". ¿Qué es la "cólera"?',
-        options: ['Alegría', 'Tristeza', 'Gran enojo o ira', 'Indiferencia'],
-        correctAnswer: 'Gran enojo o ira',
+        questionText: 'Barba Azul habla de su "cólera". ¿Qué significa "cólera" en este cuento?',
+        options: [
+          'Un gran sentimiento de tristeza.',
+          'Una enorme riqueza acumulada.',
+          'Un enojo o una ira muy violenta.',
+          'Una enfermedad de las provincias.'
+        ],
+        correctAnswer: 'Un enojo o una ira muy violenta.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'bb-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección principal de esta historia?',
-        options: ['No hay que casarse con hombres ricos', 'Los viajes de negocios son peligrosos', 'La curiosidad y la desobediencia pueden tener consecuencias terribles', 'Siempre hay que tener las llaves limpias'],
-        correctAnswer: 'La curiosidad y la desobediencia pueden tener consecuencias terribles',
+        questionText: '¿Cuál es el mensaje más importante que deja esta historia?',
+        options: [
+          'Que las llaves mágicas son muy valiosas.',
+          'Que el dinero ayuda a superar los miedos.',
+          'Que la curiosidad puede ser muy peligrosa.',
+          'Que los viajes largos traen mala suerte.'
+        ],
+        correctAnswer: 'Que la curiosidad puede ser muy peligrosa.',
       },
       {
         id: 'bb-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué simboliza la llave mágica manchada de sangre?',
-        options: ['La riqueza de Barba Azul', 'Un secreto que no se puede ocultar', 'La torpeza de la esposa', 'La mala suerte'],
-        correctAnswer: 'Un secreto que no se puede ocultar',
+        questionText: '¿Qué representa la mancha de sangre que no se borra de la llave?',
+        options: [
+          'La gran riqueza del dueño de casa.',
+          'Un secreto que ha sido descubierto.',
+          'La mala limpieza de la habitación.',
+          'Un hechizo hecho por las amigas.'
+        ],
+        correctAnswer: 'Un secreto que ha sido descubierto.',
       },
       {
         id: 'bb-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el propósito del diálogo entre la esposa y su hermana Ana en la torre?',
-        options: ['Mostrar que las hermanas se quieren mucho', 'Describir el paisaje', 'Crear suspenso y darle tiempo a los hermanos para llegar', 'Demostrar que Ana tiene buena vista'],
-        correctAnswer: 'Crear suspenso y darle tiempo a los hermanos para llegar',
+        questionText: '¿Por qué es fundamental la escena de Ana en lo alto de la torre?',
+        options: [
+          'Para mostrar el hermoso paisaje local.',
+          'Para explicar que Ana no tenía miedo.',
+          'Para crear suspenso antes del rescate.',
+          'Para vigilar que los vecinos no lleguen.'
+        ],
+        correctAnswer: 'Para crear suspenso antes del rescate.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'bb-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la hermana menor decidió casarse con Barba Azul, a pesar de su miedo inicial?',
-        options: ['Porque su madre la obligó', 'Porque él le prometió muchas joyas', 'Porque después de una fiesta de ocho días, le pareció un hombre correcto y no tan terrible', 'Porque quería descubrir su secreto'],
-        correctAnswer: 'Porque después de una fiesta de ocho días, le pareció un hombre correcto y no tan terrible',
+        questionText: '¿Por qué la hermana menor aceptó casarse con Barba Azul finalmente?',
+        options: [
+          'Porque él la obligó a elegirlo.',
+          'Porque lo vio como un hombre gentil.',
+          'Porque quería robarle sus riquezas.',
+          'Porque su madre le dio un consejo.'
+        ],
+        correctAnswer: 'Porque lo vio como un hombre gentil.',
       },
       {
         id: 'bb-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la mancha de sangre no desaparecía de la llave?',
-        options: ['Porque la esposa no la limpió bien', 'Porque la llave era mágica y estaba hecha para revelar la desobediencia', 'Porque no usó el jabón correcto', 'Porque la sangre estaba muy seca'],
-        correctAnswer: 'Porque la llave era mágica y estaba hecha para revelar la desobediencia',
+        questionText: '¿Por qué la esposa no se divertía viendo las riquezas con sus amigas?',
+        options: [
+          'Porque estaba preocupada por el dinero.',
+          'Porque sus amigas eran muy envidiosas.',
+          'Porque solo pensaba en el cuarto prohibido.',
+          'Porque extrañaba mucho a su marido.'
+        ],
+        correctAnswer: 'Porque solo pensaba en el cuarto prohibido.',
       },
       {
         id: 'bb-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Barba Azul le dio a su esposa la llave del gabinete prohibido si no quería que entrara?',
-        options: ['Porque se equivocó de llave', 'Porque era una prueba para ver si ella era curiosa y desobediente', 'Porque quería que encontrara el tesoro', 'Porque no le importaba'],
-        correctAnswer: 'Porque era una prueba para ver si ella era curiosa y desobediente',
+        questionText: '¿Para qué le dio Barba Azul todas las llaves a su esposa si no quería que entrara al gabinete?',
+        options: [
+          'Porque se confundió de llavecita.',
+          'Porque quería ponerla a prueba.',
+          'Porque pensó que ella era cobarde.',
+          'Porque confiaba plenamente en ella.'
+        ],
+        correctAnswer: 'Porque quería ponerla a prueba.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'bb-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Barba Azul?',
-        options: ['Amable y generoso', 'Tímido y solitario', 'Cruel y engañoso', 'Alegre y divertido'],
-        correctAnswer: 'Cruel y engañoso',
+        questionText: '¿Cuál es el rasgo que mejor describe a Barba Azul?',
+        options: [
+          'Es un hombre generoso y amable.',
+          'Es alguien muy solitario y triste.',
+          'Es una persona cruel y despiadada.',
+          'Es un rey que protege su comarca.'
+        ],
+        correctAnswer: 'Es una persona cruel y despiadada.',
       },
       {
         id: 'bb-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cuál es el principal rasgo de carácter de la esposa de Barba Azul que la mete en problemas?',
-        options: ['La pereza', 'La codicia', 'La curiosidad', 'La valentía'],
-        correctAnswer: 'La curiosidad',
+        questionText: '¿Qué cualidad de la esposa es la que desencadena el conflicto?',
+        options: [
+          'Su gran paciencia.',
+          'Su intensa curiosidad.',
+          'Su amor por las joyas.',
+          'Su miedo a las torres.'
+        ],
+        correctAnswer: 'Su intensa curiosidad.',
       },
       {
         id: 'bb-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué papel juega la hermana Ana en la historia?',
-        options: ['Intenta detener a Barba Azul', 'Es la vigilante que anuncia la llegada de la ayuda', 'Ayuda a su hermana a limpiar la llave', 'Escapa del castillo para buscar ayuda'],
-        correctAnswer: 'Es la vigilante que anuncia la llegada de la ayuda',
+        questionText: '¿Cómo ayuda la hermana Ana a que la historia termine bien?',
+        options: [
+          'Ella es la que limpia la llave mágica.',
+          'Ella convence a Barba Azul de viajar.',
+          'Ella vigila si viene la ayuda esperada.',
+          'Ella pelea con su espada contra el ogro.'
+        ],
+        correctAnswer: 'Ella vigila si viene la ayuda esperada.',
       },
     ],
   },

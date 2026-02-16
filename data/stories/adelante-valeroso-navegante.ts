@@ -53,138 +53,228 @@ Una vez tomada la decisión, en un instante deshizo el nudo que ataba la soga a 
       {
         id: 'avn-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le impedía a Marco navegar al principio?',
-        options: ['No tenía un barco', 'No sabía nadar', 'Su miedo a los naufragios', 'No le gustaba el mar'],
-        correctAnswer: 'Su miedo a los naufragios',
+        questionText: '¿Por qué Marco nunca se había subido a un bote antes de la historia?',
+        options: [
+          'Porque no tenía dinero para comprar uno.',
+          'Porque prefería nadar cerca de la orilla.',
+          'Porque le daba terror perderse en el mar.',
+          'Porque sus tíos abuelos no lo dejaban.'
+        ],
+        correctAnswer: 'Porque le daba terror perderse en el mar.',
       },
       {
         id: 'avn-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué compró Marco para superar su miedo?',
-        options: ['Un salvavidas', 'Un barco más grande', 'Metros de una soga fuerte', 'Un mapa de navegación'],
-        correctAnswer: 'Metros de una soga fuerte',
+        questionText: '¿Cómo se llamaba la tienda donde Marco compró la soga?',
+        options: [
+          '“El navegante de los siete mares”',
+          '“El que nada no se ahoga”',
+          '“Artículos de pesca Froilán”',
+          '“Sogas y nudos del muelle”'
+        ],
+        correctAnswer: '“El que nada no se ahoga”',
       },
       {
         id: 'avn-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le impidió a Marco llegar a la isla que vio a lo lejos?',
-        options: ['Una tormenta', 'Un monstruo marino', 'La soga llegó al límite de su extensión', 'El velero se quedó sin viento'],
-        correctAnswer: 'La soga llegó al límite de su extensión',
+        questionText: '¿Qué animal marino lo acompañó un buen trecho durante su viaje?',
+        options: [
+          'Un grupo de mojarritas con gorrita.',
+          'Un pejerrey con marco de carey.',
+          'Una ballena de tamaño descomunal.',
+          'Un cardumen de salmones amistosos.'
+        ],
+        correctAnswer: 'Una ballena de tamaño descomunal.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'avn-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió justo después de que Marco se diera cuenta de que la soga no le permitía llegar a la isla?',
-        options: ['Volvió al muelle', 'Se puso a llorar', 'Se dio cuenta de que no quería abandonar su anhelo y decidió soltar la soga', 'Un delfín cortó la soga'],
-        correctAnswer: 'Se dio cuenta de que no quería abandonar su anhelo y decidió soltar la soga',
+        questionText: '¿Cuál es el orden correcto de los encuentros de Marco?',
+        options: [
+          'Delfín, ballena y luego marineros.',
+          'Ballena, marineros y luego delfín.',
+          'Marineros, delfín y luego ballena.',
+          'Delfín, isla y luego ballena.'
+        ],
+        correctAnswer: 'Delfín, ballena y luego marineros.',
       },
       {
         id: 'avn-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué fue lo primero que hizo Marco para poder navegar sintiéndose seguro?',
-        options: ['Contrató un capitán experto', 'Estudió mapas de navegación', 'Ató su velero a un muelle con una soga muy larga', 'Compró un bote salvavidas'],
-        correctAnswer: 'Ató su velero a un muelle con una soga muy larga',
+        questionText: '¿Qué pasó inmediatamente después de que el barco pegara un fuerte tirón?',
+        options: [
+          'Marco se puso a llorar por su mala suerte.',
+          'Marco comprendió que la soga se había terminado.',
+          'El velero chocó contra las rocas de la isla.',
+          'Unos marineros lo ayudaron a soltar el nudo.'
+        ],
+        correctAnswer: 'Marco comprendió que la soga se había terminado.',
       },
       {
         id: 'avn-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál de estos encuentros tuvo Marco primero durante su viaje?',
-        options: ['Con una ballena', 'Con otros marineros', 'Con un delfín', 'Con una isla'],
-        correctAnswer: 'Con un delfín',
+        questionText: '¿Qué hizo Marco justo antes de zarpar por primera vez?',
+        options: [
+          'Ató el velero al muelle con una soga inmensa.',
+          'Se despidió de sus tíos Froilán y Enrica.',
+          'Compró frutas sabrosas para el viaje.',
+          'Aprendió a hacer nudos con los marineros.'
+        ],
+        correctAnswer: 'Ató el velero al muelle con una soga inmensa.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'avn-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "se dedicó a pensar incesantemente", ¿qué significa "incesantemente"?',
-        options: ['Con mucho sueño', 'De vez en cuando', 'Sin parar', 'Con alegría'],
-        correctAnswer: 'Sin parar',
+        questionText: 'En el cuento, ¿qué significa que Marco estaba "asido" a un trozo de madera?',
+        options: [
+          'Que estaba flotando lejos de la madera.',
+          'Que estaba agarrado con mucha fuerza.',
+          'Que estaba buscando madera para su barco.',
+          'Que estaba construyendo una balsa nueva.'
+        ],
+        correctAnswer: 'Que estaba agarrado con mucha fuerza.',
       },
       {
         id: 'avn-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Marco "ansiaba" recorrer los mares. ¿Qué significa "ansiar"?',
-        options: ['Tener miedo', 'Olvidar', 'Desechar una idea', 'Desear algo con mucha fuerza'],
-        correctAnswer: 'Desear algo con mucha fuerza',
+        questionText: 'La brisa era "apacible". ¿Qué otra palabra significa lo mismo?',
+        options: [
+          'Peligrosa',
+          'Ruidosa',
+          'Tranquila',
+          'Fuerte'
+        ],
+        correctAnswer: 'Tranquila',
       },
       {
         id: 'avn-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La soga era tan extensa que podía cubrir una distancia "inmensa". ¿Qué significa "inmensa"?',
-        options: ['Muy pequeña', 'Muy corta', 'Muy grande', 'Muy delgada'],
-        correctAnswer: 'Muy grande',
+        questionText: '¿Qué quiere decir que los tíos de Marco pasaron la vida "surcando" océanos?',
+        options: [
+          'Que vivían debajo del agua.',
+          'Que dibujaban mapas del mar.',
+          'Que viajaban navegando por ellos.',
+          'Que limpiaban la arena de la playa.'
+        ],
+        correctAnswer: 'Que viajaban navegando por ellos.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'avn-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de la historia?',
-        options: ['Es importante tener barcos grandes', 'Hay que superar los miedos para cumplir los sueños', 'Las sogas son muy útiles para navegar', 'Los delfines y las ballenas son amistosos'],
-        correctAnswer: 'Hay que superar los miedos para cumplir los sueños',
+        questionText: '¿Cuál es el mensaje más importante de esta historia?',
+        options: [
+          'Que navegar con sogas es la forma más inteligente.',
+          'Que para ser feliz hay que dejar atrás los miedos.',
+          'Que los delfines y ballenas son los mejores amigos.',
+          'Que es mejor quedarse en el muelle que naufragar.'
+        ],
+        correctAnswer: 'Que para ser feliz hay que dejar atrás los miedos.',
       },
       {
         id: 'avn-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el principal conflicto interno de Marco?',
-        options: ['Su amor por el mar contra su miedo a navegar', 'Su deseo de ser rico contra su amor por la aventura', 'Su lealtad a su familia contra su deseo de viajar', 'Su gusto por nadar contra su gusto por navegar'],
-        correctAnswer: 'Su amor por el mar contra su miedo a navegar',
+        questionText: '¿Qué representa la soga para Marco al principio del viaje?',
+        options: [
+          'Un obstáculo que le impedía moverse.',
+          'Una herramienta para pescar salmones.',
+          'Una seguridad que le permitía no tener miedo.',
+          'Un regalo muy caro que debía cuidar.'
+        ],
+        correctAnswer: 'Una seguridad que le permitía no tener miedo.',
       },
       {
         id: 'avn-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa la soga en la historia?',
-        options: ['La conexión de Marco con su familia', 'Una herramienta para pescar', 'Al principio, una solución para su miedo, pero al final, un obstáculo para su libertad', 'Un regalo de sus tíos abuelos'],
-        correctAnswer: 'Al principio, una solución para su miedo, pero al final, un obstáculo para su libertad',
+        questionText: '¿Por qué Marco cambió de opinión sobre la soga al final?',
+        options: [
+          'Porque se dio cuenta de que lo limitaba.',
+          'Porque la soga se cortó por una tormenta.',
+          'Porque los marineros se burlaron de él.',
+          'Porque la ballena se enredó con la soga.'
+        ],
+        correctAnswer: 'Porque se dio cuenta de que lo limitaba.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'avn-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Marco se sintió decepcionado cuando el velero se detuvo?',
-        options: ['Porque el barco se rompió', 'Porque la soga que le daba seguridad ahora le impedía seguir su aventura', 'Porque no quería visitar la isla', 'Porque los otros marineros se rieron de él'],
-        correctAnswer: 'Porque la soga que le daba seguridad ahora le impedía seguir su aventura',
+        questionText: '¿Cómo se sentía Marco cuando navegaba atado al muelle?',
+        options: [
+          'Sentía que estaba en una verdadera aventura.',
+          'Se sentía tan seguro como si estuviera en su casa.',
+          'Tenía miedo de que el muelle se rompiera.',
+          'Estaba preocupado por el largo de la soga.'
+        ],
+        correctAnswer: 'Se sentía tan seguro como si estuviera en su casa.',
       },
       {
         id: 'avn-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué aprendió Marco durante su viaje atado con la soga?',
-        options: ['Que no le gustaba navegar', 'Que el mar no era tan peligroso como imaginaba y que disfrutaba mucho navegando', 'Que necesitaba una soga más larga', 'Que prefería nadar en la playa'],
-        correctAnswer: 'Que el mar no era tan peligroso como imaginaba y que disfrutaba mucho navegando',
+        questionText: '¿Qué significa que a Marco "no se le movió ni un pelo" al final?',
+        options: [
+          'Que no había viento en el océano.',
+          'Que ya no sentía miedo ante el desafío.',
+          'Que se había puesto una gorrita nueva.',
+          'Que estaba muy cansado para reaccionar.'
+        ],
+        correctAnswer: 'Que ya no sentía miedo ante el desafío.',
       },
       {
         id: 'avn-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significa que Marco al final era "el mismo Marco de siempre, pero al mismo tiempo era un Marco nuevo"?',
-        options: ['Que se había cambiado de ropa', 'Que había envejecido durante el viaje', 'Que seguía siendo la misma persona, pero había superado su miedo y ahora era más valiente', 'Que había olvidado su pasado'],
-        correctAnswer: 'Que seguía siendo la misma persona, pero había superado su miedo y ahora era más valiente',
+        questionText: '¿Por qué el autor dice que Marco era "el mismo de siempre pero un Marco nuevo"?',
+        options: [
+          'Porque se había cambiado de ropa en la isla.',
+          'Porque seguía siendo él, pero ahora era valiente.',
+          'Porque había envejecido durante el viaje.',
+          'Porque el delfín lo había confundido con otro.'
+        ],
+        correctAnswer: 'Porque seguía siendo él, pero ahora era valiente.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'avn-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia Marco a lo largo de la historia?',
-        options: ['Se vuelve más miedoso', 'Pasa de ser miedoso e inseguro a ser valiente y decidido', 'Decide que ya no quiere navegar', 'Se vuelve un experto en hacer nudos'],
-        correctAnswer: 'Pasa de ser miedoso e inseguro a ser valiente y decidido',
+        questionText: '¿Qué cualidad de Marco le permitió navegar por primera vez?',
+        options: [
+          'Su gran fuerza física para remar.',
+          'Su ingenio para inventar una solución.',
+          'Su falta de imaginación sobre el mar.',
+          'Su obediencia a los consejos de sus tíos.'
+        ],
+        correctAnswer: 'Su ingenio para inventar una solución.',
       },
       {
         id: 'avn-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: 'Al principio, ¿qué dos palabras describen mejor a Marco?',
-        options: ['Valiente y decidido', 'Soñador pero miedoso', 'Aburrido y sin ganas', 'Egoísta y solitario'],
-        correctAnswer: 'Soñador pero miedoso',
+        questionText: '¿Cómo describirías a los marineros que Marco cruzó en el mar?',
+        options: [
+          'Eran serios y no querían conversar.',
+          'Eran amables y compartían su alegría.',
+          'Estaban enojados por el tamaño de su bote.',
+          'Tenían envidia de la soga de Marco.'
+        ],
+        correctAnswer: 'Eran amables y compartían su alegría.',
       },
       {
         id: 'avn-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad demuestra Marco al encontrar una solución creativa (la soga) para su miedo?',
-        options: ['Pereza', 'Ingenio', 'Cobardía', 'Enojo'],
-        correctAnswer: 'Ingenio',
+        questionText: '¿Cuál era el mayor deseo de Marco en la vida?',
+        options: [
+          'Tener una colección de peces saltarines.',
+          'Vivir viajando y explorando nuevos lugares.',
+          'Construir el muelle más grande del mundo.',
+          'Trabajar en la tienda de navegación.'
+        ],
+        correctAnswer: 'Vivir viajando y explorando nuevos lugares.',
       },
     ],
   },

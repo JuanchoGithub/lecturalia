@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const unViajeDePelicula: Story = {
@@ -20,138 +21,228 @@ La verdad es que yo siempre fui loca por el cine y, como además había sacado u
       {
         id: 'uvdp-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le preguntó el acomodador a la narradora sobre su mochila?',
-        options: ['Que la dejara en la entrada', 'Que la pusiera en el portaequipajes', 'Que la guardara debajo del asiento', 'Que no podía entrar con mochila'],
-        correctAnswer: 'Que la pusiera en el portaequipajes',
+        questionText: '¿En qué lugar le indicó el acomodador que debía guardar su mochila?',
+        options: [
+          'En el portaequipajes, como si estuviera en un tren.',
+          'Debajo de su butaca para no molestar al resto.',
+          'En un armario especial al fondo de la sala oscura.',
+          'En el guardarropa que estaba junto a la boletería.'
+        ],
+        correctAnswer: 'En el portaequipajes, como si estuviera en un tren.',
       },
       {
         id: 'uvdp-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué tuvieron que "trasbordar" a otro cine?',
-        options: ['Porque la película se cortó', 'Porque el cine se había quedado sin combustible', 'Porque la sala estaba llena', 'Porque la pantalla se rompió'],
-        correctAnswer: 'Porque el cine se había quedado sin combustible',
+        questionText: '¿Cuál fue la razón técnica por la que debieron cambiar de sala de cine?',
+        options: [
+          'Porque la cinta de la película se había cortado de repente.',
+          'Porque la sala se había quedado sin combustible para seguir.',
+          'Porque el proyector de imágenes se había roto por el sacudón.',
+          'Porque el acomodador no encontraba los boletos de ida y vuelta.'
+        ],
+        correctAnswer: 'Porque la sala se había quedado sin combustible para seguir.',
       },
       {
         id: 'uvdp-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le preguntaron a la narradora en un cartel durante la película?',
-        options: ['Si quería palomitas de maíz', 'Si le estaba gustando la película', 'Si estaba dispuesta a seguir viendo la película por varios días y usar un casco de traducción', 'Si quería cambiar de asiento'],
-        correctAnswer: 'Si estaba dispuesta a seguir viendo la película por varios días y usar un casco de traducción',
+        questionText: '¿Qué le pedían que se colocara sobre la cabeza según el cartel con su nombre?',
+        options: [
+          'Una corona de estrellas para ser la reina del cosmos.',
+          'Un casco de traducción automática para entender el idioma.',
+          'Unos anteojos especiales para ver las galaxias de colores.',
+          'Una gorra de marinero para completar el viaje interplanetario.'
+        ],
+        correctAnswer: 'Un casco de traducción automática para entender el idioma.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'uvdp-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió justo después de que la narradora se diera cuenta de que el cine era como un tren?',
-        options: ['La película terminó', 'El cine pegó un sacudón y aparecieron paisajes insólitos', 'El acomodador le pidió el boleto', 'Apareció un actor en la pantalla'],
-        correctAnswer: 'El cine pegó un sacudón y aparecieron paisajes insólitos',
+        questionText: '¿Qué ocurrió inmediatamente después de que el cine pegara un sacudón?',
+        options: [
+          'La narradora vio paisajes conocidos de su propio barrio.',
+          'Aparecieron en las pantallas paisajes insólitos y extraños.',
+          'El actor empezó a hablar en un idioma incomprensible.',
+          'El acomodador le pidió que guardara su mochila arriba.'
+        ],
+        correctAnswer: 'Aparecieron en las pantallas paisajes insólitos y extraños.',
       },
       {
         id: 'uvdp-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó después de que la narradora se diera cuenta de que había corriente de aire por las pantallas?',
-        options: ['Se cambió de asiento', 'Pidió que apagaran el aire', 'El acomodador les dijo que tenían que trasbordar a otro cine', 'La película se detuvo'],
-        correctAnswer: 'El acomodador les dijo que tenían que trasbordar a otro cine',
+        questionText: '¿Cuál fue el orden de los descubrimientos que hizo la protagonista al entrar?',
+        options: [
+          'Vio las vías, sintió el sacudón y luego hizo el trasbordo.',
+          'Hizo el trasbordo, vio el cosmos y luego leyó su nombre.',
+          'Compró la entrada, leyó los subtítulos y vio su barrio.',
+          'Sintió aire frío, vio el sacudón y compró el boleto de ida.'
+        ],
+        correctAnswer: 'Vio las vías, sintió el sacudón y luego hizo el trasbordo.',
       },
       {
         id: 'uvdp-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo la narradora al final de la historia cuando le propusieron continuar el viaje?',
-        options: ['Se negó porque tenía que volver a casa', 'Dijo que sí sin pensarlo dos veces', 'Pidió hablar con el director del cine', 'Se bajó en la siguiente estación'],
-        correctAnswer: 'Dijo que sí sin pensarlo dos veces',
+        questionText: '¿Qué fue lo último que decidió hacer la narradora antes de que termine el relato?',
+        options: [
+          'Preguntar en la boletería si el viaje era muy largo.',
+          'Aceptar el desafío de seguir viendo la película por días.',
+          'Quejarse con el acomodador por la corriente de aire.',
+          'Llamar a un amigo para que la fuera a buscar al cine.'
+        ],
+        correctAnswer: 'Aceptar el desafío de seguir viendo la película por días.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'uvdp-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "paisajes tan insólitos", ¿qué significa "insólitos"?',
-        options: ['Muy comunes y aburridos', 'Raros, poco comunes, extraordinarios', 'Feos y desagradables', 'Muy conocidos'],
-        correctAnswer: 'Raros, poco comunes, extraordinarios',
+        questionText: 'La narradora vio paisajes "insólitos". ¿Qué describe mejor esta palabra?',
+        options: [
+          'Paisajes muy aburridos que ya conocía de antes.',
+          'Paisajes raros, poco comunes y sorprendentes.',
+          'Paisajes oscuros que no se veían por la falta de luz.',
+          'Paisajes pintados con colores muy suaves y tranquilos.'
+        ],
+        correctAnswer: 'Paisajes raros, poco comunes y sorprendentes.',
       },
       {
         id: 'uvdp-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El actor hablaba un idioma "incomprensible". ¿Qué significa "incomprensible"?',
-        options: ['Muy fácil de entender', 'Que no se puede entender', 'Muy antiguo', 'Muy poético'],
-        correctAnswer: 'Que no se puede entender',
+        questionText: 'Tuvieron que hacer un "trasbordo". ¿En qué consistió esta acción?',
+        options: [
+          'En devolver la entrada para que les den el dinero.',
+          'En pasar de una sala de cine a otra sala diferente.',
+          'En encender las luces para que todos pudieran salir.',
+          'En apagar las pantallas para que el actor descanse.'
+        ],
+        correctAnswer: 'En pasar de una sala de cine a otra sala diferente.',
       },
       {
         id: 'uvdp-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Tuvieron que "trasbordar" a otro cine. ¿Qué es trasbordar?',
-        options: ['Comprar otra entrada', 'Cambiar de película', 'Pasar de un vehículo a otro', 'Salir del cine'],
-        correctAnswer: 'Pasar de un vehículo a otro',
+        questionText: 'El idioma del actor era "incomprensible". ¿Qué le pasaba a la narradora?',
+        options: [
+          'Que le gustaba mucho cómo sonaban esas palabras.',
+          'Que no podía entender nada de lo que el actor decía.',
+          'Que el volumen de la película estaba demasiado bajo.',
+          'Que el actor hablaba muy rápido sobre las galaxias.'
+        ],
+        correctAnswer: 'Que no podía entender nada de lo que el actor decía.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'uvdp-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea central de esta historia?',
-        options: ['Una crítica a los cines modernos.', 'La descripción de una película de ciencia ficción.', 'Una experiencia surrealista y fantástica donde ir al cine se convierte en un verdadero viaje en tren por el espacio.', 'Los problemas de transporte en la ciudad.'],
-        correctAnswer: 'Una experiencia surrealista y fantástica donde ir al cine se convierte en un verdadero viaje en tren por el espacio.',
+        questionText: '¿Qué situación fantástica describe principalmente este cuento?',
+        options: [
+          'Un grupo de amigos que se pierde en una estación de tren.',
+          'Una visita al cine que se convierte en un viaje real al espacio.',
+          'La historia de un actor que se olvida sus líneas en una película.',
+          'El problema de un cine que no tiene calefacción en invierno.'
+        ],
+        correctAnswer: 'Una visita al cine que se convierte en un viaje real al espacio.',
       },
       {
         id: 'uvdp-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cómo se mezcla la idea de "cine" y "viaje en tren" en la historia?',
-        options: ['La película trataba sobre trenes', 'La boletería, el portaequipajes, las pantallas como ventanas, el sacudón y el trasbordo son elementos de un tren aplicados al cine', 'El cine estaba dentro de una estación de tren', 'La narradora se durmió y soñó que viajaba en tren'],
-        correctAnswer: 'La boletería, el portaequipajes, las pantallas como ventanas, el sacudón y el trasbordo son elementos de un tren aplicados al cine',
+        questionText: '¿Por qué se mezclan elementos del cine y de los viajes en el relato?',
+        options: [
+          'Porque la protagonista está soñando que viaja mientras duerme.',
+          'Para mostrar que la imaginación puede convertir una salida en una aventura.',
+          'Porque el cine estaba construido dentro de un viejo vagón abandonado.',
+          'Porque el actor de la película era en realidad un conductor de tren.'
+        ],
+        correctAnswer: 'Para mostrar que la imaginación puede convertir una salida en una aventura.',
       },
       {
         id: 'uvdp-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué tipo de película estaba viendo la narradora?',
-        options: ['Una comedia romántica', 'Un documental de viajes', 'Una de aventuras interplanetarias', 'Una película de terror'],
-        correctAnswer: 'Una de aventuras interplanetarias',
+        questionText: '¿Cuál es el motivo por el que la protagonista acepta todo lo que sucede?',
+        options: [
+          'Porque tiene miedo de que el acomodador la eche de la sala.',
+          'Por su gran pasión por el cine y su deseo de vivir aventuras.',
+          'Porque se olvidó la dirección de su casa y no tiene dónde ir.',
+          'Porque quiere recuperar el dinero de su entrada de ida y vuelta.'
+        ],
+        correctAnswer: 'Por su gran pasión por el cine y su deseo de vivir aventuras.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'uvdp-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la narradora no se extraña de las cosas raras que le pasan en el cine?',
-        options: ['Porque está dormida y es un sueño', 'Porque estaba "en tren de divertirme" y aceptó todo como parte de una experiencia diferente', 'Porque ya le había pasado antes', 'Porque pensó que era una broma'],
-        correctAnswer: 'Porque estaba "en tren de divertirme" y aceptó todo como parte de una experiencia diferente',
+        questionText: '¿Por qué a la narradora no le importaba que entrara aire por las pantallas?',
+        options: [
+          'Porque se había llevado un abrigo muy grueso al cine.',
+          'Porque la emoción de la película era más fuerte que el frío.',
+          'Porque pensaba que era parte de los efectos especiales del cine.',
+          'Porque el aire olía a las flores de su barrio conocido.'
+        ],
+        correctAnswer: 'Porque la emoción de la película era más fuerte que el frío.',
       },
       {
         id: 'uvdp-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la narradora no se dio cuenta de que estaba en un tren al principio?',
-        options: ['Porque estaba muy oscuro y pensó que los paisajes eran parte de la película', 'Porque el acomodador la engañó', 'Porque se quedó dormida', 'Porque el cine olía a tren'],
-        correctAnswer: 'Porque estaba muy oscuro y pensó que los paisajes eran parte de la película',
+        questionText: '¿Qué nos sugiere el hecho de que en las pantallas se viera el barrio de la protagonista?',
+        options: [
+          'Que el cine-tren recién estaba saliendo de la estación inicial.',
+          'Que la película era un documental sobre la vida de los vecinos.',
+          'Que el proyector estaba reflejando las ventanas de la calle.',
+          'Que los extraterrestres habían filmado su casa el día anterior.'
+        ],
+        correctAnswer: 'Que el cine-tren recién estaba saliendo de la estación inicial.',
       },
       {
         id: 'uvdp-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significa la frase "yo siempre fui loca por el cine"?',
-        options: ['Que no le gusta el cine', 'Que le apasiona tanto el cine que está dispuesta a vivir una aventura increíble por él', 'Que trabaja en un cine', 'Que ve películas de terror'],
-        correctAnswer: 'Que le apasiona tanto el cine que está dispuesta a vivir una aventura increíble por él',
+        questionText: '¿Por qué crees que el cartel con subtítulos mencionaba el nombre de ella?',
+        options: [
+          'Porque era una actriz famosa que no recordaba su papel.',
+          'Porque ella ya no era solo una espectadora, sino parte del viaje.',
+          'Porque el acomodador le había robado el documento de la mochila.',
+          'Porque el cine quería pedirle perdón por quedarse sin combustible.'
+        ],
+        correctAnswer: 'Porque ella ya no era solo una espectadora, sino parte del viaje.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'uvdp-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la narradora de la historia?',
-        options: ['Miedosa y desconfiada', 'Abierta a la aventura y con mucha imaginación', 'Crítica y quejosa', 'Distraída y olvidadiza'],
-        correctAnswer: 'Abierta a la aventura y con mucha imaginación',
+        questionText: '¿Cómo describirías la personalidad de la protagonista?',
+        options: [
+          'Es una persona muy miedosa que no se anima a los cambios.',
+          'Es alguien aventurera, entusiasta y con mucha imaginación.',
+          'Es una mujer muy distraída que siempre se confunde de lugar.',
+          'Es una espectadora crítica que solo busca errores en los actores.'
+        ],
+        correctAnswer: 'Es alguien aventurera, entusiasta y con mucha imaginación.',
       },
       {
         id: 'uvdp-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo reacciona la narradora ante los eventos extraños?',
-        options: ['Con miedo y pánico', 'Con enojo y protestas', 'Con naturalidad y aceptación, sin asustarse', 'Con indiferencia'],
-        correctAnswer: 'Con naturalidad y aceptación, sin asustarse',
+        questionText: '¿Qué actitud tiene el acomodador según el relato?',
+        options: [
+          'Actúa de forma misteriosa, como si fuera un guía de viaje.',
+          'Es un empleado muy gruñón que no deja que nadie hable.',
+          'Es una persona tonta que no sabe dónde están las salas.',
+          'Es un fantasma que desaparece cuando se apagan las luces.'
+        ],
+        correctAnswer: 'Actúa de forma misteriosa, como si fuera un guía de viaje.',
       },
       {
         id: 'uvdp-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué nos dice la decisión final de la narradora sobre su personalidad?',
-        options: ['Es irresponsable', 'Es aventurera y no le teme a lo desconocido', 'Es muy influenciable', 'No le gusta tomar decisiones'],
-        correctAnswer: 'Es aventurera y no le teme a lo desconocido',
+        questionText: '¿Qué demuestra la decisión final de la narradora de decir que "sí"?',
+        options: [
+          'Que es una persona irresponsable que no quiere volver a su casa.',
+          'Su total compromiso con la aventura y su amor por lo fantástico.',
+          'Que tiene mucha curiosidad por saber cuánto cuesta el casco.',
+          'Que está muy cansada y prefiere dormir en la nueva sala.'
+        ],
+        correctAnswer: 'Su total compromiso con la aventura y su amor por lo fantástico.',
       },
     ],
   },

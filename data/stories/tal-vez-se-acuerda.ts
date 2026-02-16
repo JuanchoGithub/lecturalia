@@ -70,138 +70,228 @@ La abracé con cuidado, le pagué al empleado y salí, rebosante de una felicida
       {
         id: 'tvsa-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué el cliente no quería un instrumento de viento?',
-        options: ['Porque son muy caros', 'Porque pensaba que podían provocar un huracán', 'Porque no le gustaba el sonido', 'Porque ya tenía uno'],
-        correctAnswer: 'Porque pensaba que podían provocar un huracán',
+        questionText: '¿Por qué el narrador no quería comprar un "instrumento de viento" al principio?',
+        options: [
+          'Porque tenía miedo de que provocara huracanes o ciclones.',
+          'Porque no quería gastar dinero en pagar un seguro caro.',
+          'Porque pensaba que le faltaba pintura blanca para brillar.',
+          'Porque ya tenía demasiados ventiladores en su oficina.'
+        ],
+        correctAnswer: 'Porque tenía miedo de que provocara huracanes o ciclones.',
       },
       {
         id: 'tvsa-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué instrumento decidió comprar el cliente al final?',
-        options: ['Un bandoneón', 'Un clarinete', 'Una guitarra', 'Unos platillos'],
-        correctAnswer: 'Una guitarra',
+        questionText: '¿A qué animal le recordaba la trompeta al protagonista de la historia?',
+        options: [
+          'A un pajarito que canta una milonga muy bonita.',
+          'A un elefante que tiene una trompa muy grande.',
+          'A un gato negro que juega con naipes en el salón.',
+          'A una ballena descomunal que vive en el océano.'
+        ],
+        correctAnswer: 'A un elefante que tiene una trompa muy grande.',
       },
       {
         id: 'tvsa-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué el cliente rechazó el clarinete?',
-        options: ['Porque le sonaba a elefante', 'Porque le daba idea de claridad y necesitaba oscuridad para dormir', 'Porque era muy caro', 'Porque no le gustó el sonido'],
-        correctAnswer: 'Porque le daba idea de claridad y necesitaba oscuridad para dormir',
+        questionText: '¿Qué revisó el cliente antes de rechazar la oferta de comprar un "órgano"?',
+        options: [
+          'El teclado de su computadora para ver si estaba roto.',
+          'El espejo para ver si su propio cuerpo estaba sano.',
+          'La billetera para ver si tenía cincuenta monedas.',
+          'La vidriera para encontrar una guitarra de madera.'
+        ],
+        correctAnswer: 'El espejo para ver si su propio cuerpo estaba sano.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'tvsa-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué tipo de instrumento le ofreció el vendedor después de los de viento?',
-        options: ['De cuerda', 'De teclado', 'De percusión', 'Ninguno'],
-        correctAnswer: 'De percusión',
+        questionText: '¿Qué tipo de instrumentos le ofreció el vendedor inmediatamente después de los de viento?',
+        options: [
+          'Instrumentos de cuerda como el violín y la guitarra.',
+          'Instrumentos de percusión como los ruidosos platillos.',
+          'Teclados electrónicos para conectar a la computadora.',
+          'Bandoneones antiguos para tocar una milonga triste.'
+        ],
+        correctAnswer: 'Instrumentos de percusión como los ruidosos platillos.',
       },
       {
         id: 'tvsa-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué instrumento rechazó el cliente justo antes de que le ofrecieran un bandoneón?',
-        options: ['La trompeta', 'El teclado', 'Los platillos', 'El órgano'],
-        correctAnswer: 'El órgano',
+        questionText: '¿Cuál fue el orden de los instrumentos de viento que el vendedor mencionó?',
+        options: [
+          'Mencionó primero el clarinete y después la trompeta.',
+          'Mencionó primero la trompeta y después el clarinete.',
+          'Mencionó el órgano, el bandoneón y luego la trompeta.',
+          'Mencionó los platillos y luego el clarinete de metal.'
+        ],
+        correctAnswer: 'Mencionó primero la trompeta y después el clarinete.',
       },
       {
         id: 'tvsa-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó cuando el vendedor le dijo al cliente la palabra "cuerda"?',
-        options: ['El cliente pensó en una soga', 'El cliente finalmente recordó que quería una guitarra', 'El cliente se enojó', 'El cliente pidió un violín'],
-        correctAnswer: 'El cliente finalmente recordó que quería una guitarra',
+        questionText: '¿Qué ocurrió justo antes de que el cliente eligiera la guitarra de la vidriera?',
+        options: [
+          'El vendedor tocó una milonga con el bandoneón nuevo.',
+          'El vendedor dijo la palabra "cuerda" al final de una lista.',
+          'El cliente se puso a pensar en un bando de luces neón.',
+          'El cliente se fijó si sus órganos estaban en buen estado.'
+        ],
+        correctAnswer: 'El vendedor dijo la palabra "cuerda" al final de una lista.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'tvsa-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El cliente no quería un instrumento de percusión porque le sonaba a "percudido". ¿Qué significa "percudido"?',
-        options: ['Nuevo y brillante', 'Que ha perdido su color y limpieza original', 'Musical y sonoro', 'Muy grande'],
-        correctAnswer: 'Que ha perdido su color y limpieza original',
+        questionText: 'El cliente no quería instrumentos de percusión porque le sonaban a "percudido". ¿Qué es algo percudido?',
+        options: [
+          'Algo que hace un ruido musical muy fuerte y agudo.',
+          'Algo que está gastado, sucio o que perdió su buen estado.',
+          'Algo que tiene muchas cuerdas de metal para tocar.',
+          'Algo que sirve para avisar que viene una gran tormenta.'
+        ],
+        correctAnswer: 'Algo que está gastado, sucio o que perdió su buen estado.',
       },
       {
         id: 'tvsa-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El vendedor dice que los instrumentos de viento no producen efectos "climáticos". ¿A qué se refiere con "climáticos"?',
-        options: ['Relacionados con los colores', 'Relacionados con el clima y el tiempo (lluvia, viento, etc.)', 'Relacionados con la música', 'Relacionados con el cuerpo'],
-        correctAnswer: 'Relacionados con el clima y el tiempo (lluvia, viento, etc.)',
+        questionText: '¿Qué es un "meteorólogo" según la conversación del cuento?',
+        options: [
+          'Un experto que vende seguros para instrumentos caros.',
+          'Una persona que sabe pronosticar cómo estará el tiempo.',
+          'Un músico que toca el bandoneón en las orquestas de tango.',
+          'Un sastre que cose jubones con agujas muy oxidadas.'
+        ],
+        correctAnswer: 'Una persona que sabe pronosticar cómo estará el tiempo.',
       },
       {
         id: 'tvsa-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Al final, el cliente salió "rebosante" de felicidad. ¿Qué significa "rebosante"?',
-        options: ['Con un poco de felicidad', 'Sin nada de felicidad', 'Muy lleno, a punto de derramarse', 'Con miedo'],
-        correctAnswer: 'Muy lleno, a punto de derramarse',
+        questionText: 'La música tenía "fusas y corcheas". ¿Qué son en este contexto?',
+        options: [
+          'Tipos de corchos para tapar las botellas de vidrio.',
+          'Nombres de notas o figuras que forman la música.',
+          'Diferentes marcas de teclados para computadoras.',
+          'Herramientas que usa el carpintero en su banco.'
+        ],
+        correctAnswer: 'Nombres de notas o figuras que forman la música.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'tvsa-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de la historia?',
-        options: ['Un diálogo humorístico basado en malentendidos y juegos de palabras sobre instrumentos musicales.', 'La dificultad de comprar un instrumento musical.', 'Una crítica a los vendedores de tiendas de música.', 'La descripción de diferentes tipos de instrumentos.'],
-        correctAnswer: 'Un diálogo humorístico basado en malentendidos y juegos de palabras sobre instrumentos musicales.',
+        questionText: '¿Cuál es el tema principal que genera humor en esta historia?',
+        options: [
+          'La pelea entre un cliente enojado y un vendedor miedoso.',
+          'La confusión por tomar el nombre de las cosas de forma literal.',
+          'El aburrimiento de trabajar en una oficina con mucho atraso.',
+          'La magia de una guitarra que puede hablar con las personas.'
+        ],
+        correctAnswer: 'La confusión por tomar el nombre de las cosas de forma literal.',
       },
       {
         id: 'tvsa-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el principal recurso de humor que utiliza el autor en el diálogo?',
-        options: ['Los chistes sobre músicos', 'La torpeza del vendedor', 'El cliente interpreta el nombre de los instrumentos de forma literal y absurda', 'La música que toca el vendedor'],
-        correctAnswer: 'El cliente interpreta el nombre de los instrumentos de forma literal y absurda',
+        questionText: '¿Qué intenta demostrar la autora con el diálogo del mostrador?',
+        options: [
+          'Que comprar instrumentos musicales es muy difícil.',
+          'Cómo las palabras pueden tener más de un significado.',
+          'Que los vendedores siempre intentan engañar a la gente.',
+          'La importancia de estudiar meteorología en la escuela.'
+        ],
+        correctAnswer: 'Cómo las palabras pueden tener más de un significado.',
       },
       {
         id: 'tvsa-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cómo se resuelve finalmente la confusión del cliente?',
-        options: ['El vendedor se rinde y lo echa de la tienda', 'El cliente decide no comprar nada', 'El vendedor dice la palabra "cuerda" y el cliente "se acuerda" de que quería una guitarra', 'El cliente llama a su amigo'],
-        correctAnswer: 'El vendedor dice la palabra "cuerda" y el cliente "se acuerda" de que quería una guitarra',
+        questionText: '¿Por qué el título es "Tal vez se acuerda"?',
+        options: [
+          'Porque el vendedor no recordaba el precio de la guitarra.',
+          'Porque la palabra "cuerda" hizo que el cliente recordara su compra.',
+          'Porque el cliente se olvidó su billetera en el mostrador.',
+          'Porque el cuento trata sobre un abuelo que pierde la memoria.'
+        ],
+        correctAnswer: 'Porque la palabra "cuerda" hizo que el cliente recordara su compra.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'tvsa-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el cliente rechaza cada instrumento que le ofrece el vendedor?',
-        options: ['Porque en realidad no quiere comprar nada.', 'Porque interpreta los nombres de los instrumentos de forma literal y graciosa.', 'Porque es muy indeciso.', 'Porque no tiene suficiente dinero.'],
-        correctAnswer: 'Porque interpreta los nombres de los instrumentos de forma literal y graciosa.',
+        questionText: '¿Por qué el narrador dice que el clarinete no lo dejaría dormir?',
+        options: [
+          'Porque hace un ruido tan fuerte que despierta a los vecinos.',
+          'Porque asocia el nombre del instrumento con la luz del día.',
+          'Porque prefiere tocar música de piano antes de ir a acostarse.',
+          'Porque el clarinete tiene forma de despertador antiguo.'
+        ],
+        correctAnswer: 'Porque asocia el nombre del instrumento con la luz del día.',
       },
       {
         id: 'tvsa-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: 'Cuando la guitarra le canta al oído, ¿crees que eso pasó de verdad o es parte de la imaginación del cliente?',
-        options: ['Pasó de verdad, la guitarra era mágica.', 'Es parte de la imaginación del cliente, mostrando su gran felicidad y conexión con el instrumento.', 'El vendedor le hizo una broma.', 'Era una guitarra con un parlante escondido.'],
-        correctAnswer: 'Es parte de la imaginación del cliente, mostrando su gran felicidad y conexión con el instrumento.',
+        questionText: '¿Cómo es la relación entre el vendedor y el cliente durante el cuento?',
+        options: [
+          'Es una relación violenta donde los dos terminan gritando.',
+          'Es una charla paciente donde el vendedor sigue ofreciendo opciones.',
+          'Es una conversación secreta para robar un tesoro del palacio.',
+          'Es un encuentro donde ninguno de los dos sabe hablar español.'
+        ],
+        correctAnswer: 'Es una charla paciente donde el vendedor sigue ofreciendo opciones.',
       },
       {
         id: 'tvsa-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el autor se detiene a pensar si la palabra "sonriente" es correcta?',
-        options: ['Porque no sabe escribir bien.', 'Para añadir más humor y mostrar cómo el personaje principal se distrae con las palabras.', 'Porque es una palabra muy difícil.', 'Porque la vendedora se lo pidió.'],
-        correctAnswer: 'Para añadir más humor y mostrar cómo el personaje principal se distrae con las palabras.',
+        questionText: '¿Qué nos sugiere el final cuando la guitarra le "habla" al cliente?',
+        options: [
+          'Que la guitarra tiene un micrófono escondido adentro.',
+          'Que el cliente tiene una conexión emocional muy fuerte con la música.',
+          'Que el vendedor le hizo una broma pesada al pobre hombre.',
+          'Que las guitarras de esa tienda son en realidad extraterrestres.'
+        ],
+        correctAnswer: 'Que el cliente tiene una conexión emocional muy fuerte con la música.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'tvsa-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el cliente de la tienda?',
-        options: ['Muy conocedor de la música', 'Imaginativo y con mucho sentido del humor', 'Serio y apurado', 'Tímido y callado'],
-        correctAnswer: 'Imaginativo y con mucho sentido del humor',
+        questionText: '¿Qué rasgo define mejor la personalidad del narrador?',
+        options: [
+          'Es una persona muy seria que no entiende los chistes.',
+          'Es alguien con una imaginación que se distrae con las palabras.',
+          'Es un músico experto que conoce todos los instrumentos.',
+          'Es un hombre muy apurado que no quiere escuchar a nadie.'
+        ],
+        correctAnswer: 'Es alguien con una imaginación que se distrae con las palabras.',
       },
       {
         id: 'tvsa-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen al vendedor?',
-        options: ['Impaciente y grosero', 'Paciente y amable', 'Aburrido y distraído', 'Ignorante y confundido'],
-        correctAnswer: 'Paciente y amable',
+        questionText: '¿Cómo describirías la actitud del vendedor de la tienda?',
+        options: [
+          'Como una persona amable, sonriente y muy tolerante.',
+          'Como un empleado malhumorado que quiere cerrar rápido.',
+          'Como un hombre confundido que no sabe qué es un teclado.',
+          'Como un sabio meteorólogo que advierte sobre los huracanes.'
+        ],
+        correctAnswer: 'Como una persona amable, sonriente y muy tolerante.',
       },
       {
         id: 'tvsa-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué nos muestra el cliente al rechazar el órgano diciendo "Todos mis órganos están en perfecto estado"?',
-        options: ['Que es muy saludable', 'Que no sabe qué es un órgano musical', 'Que juega con el doble significado de las palabras', 'Que no le gusta la música de órgano'],
-        correctAnswer: 'Que juega con el doble significado de las palabras',
+        questionText: '¿Qué demuestra el narrador al pensar si "sonriente" se escribe en plural?',
+        options: [
+          'Que no sabe gramática y cometió muchos errores de ortografía.',
+          'Que le gusta analizar cada detalle de las palabras que usa.',
+          'Que está muy preocupado por el trabajo que dejó en su casa.',
+          'Que el señor de la tienda en realidad eran dos personas.'
+        ],
+        correctAnswer: 'Que le gusta analizar cada detalle de las palabras que usa.',
       },
     ],
   },

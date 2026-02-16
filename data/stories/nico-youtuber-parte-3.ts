@@ -215,218 +215,228 @@ Nico miró la invitación. Miró a Kirby. Miró a la cámara.
       {
         id: 'ny3-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué monumento de Buenos Aires desaparece al principio de la batalla?',
-        options: ['La Casa Rosada', 'El Obelisco', 'El Congreso de la Nación', 'El Cabildo'],
-        correctAnswer: 'El Obelisco',
+        questionText: '¿Qué sucede exactamente con el Obelisco al inicio de la batalla contra Master Hand?',
+        options: [
+          'Se cae hacia un costado por un terremoto.',
+          'Se pixela y desaparece dejando un hueco de nada.',
+          'Se convierte en una espada gigante de luz neón.',
+          'Es destruido por un rayo del Presidente Haltmann.'
+        ],
+        correctAnswer: 'Se pixela y desaparece dejando un hueco de nada.',
       },
       {
         id: 'ny3-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál era la contraseña secreta del sobre de Smash?',
+        questionText: '¿Qué contenía el sobre de Smash que Nico recibió de Meta Knight?',
         options: [
-          'KIRBY_ES_EL_MEJOR',
-          'C0NTRA_VIENT0_Y_MARE4_N0_H1T',
-          'ALMAGRO_CAMPEON',
-          'SMASH_INVITATION_2025'
+          'Una carta de invitación al torneo oficial.',
+          'Un código de acceso al motor del juego.',
+          'Una foto de Kirby en Dream Land.',
+          'Un mapa secreto de la ciudad de Buenos Aires.'
         ],
-        correctAnswer: 'C0NTRA_VIENT0_Y_MARE4_N0_H1T',
+        correctAnswer: 'Un código de acceso al motor del juego.',
       },
       {
         id: 'ny3-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué objeto utilizó Magolor para cebar un mate?',
-        options: ['Un termo de acero inoxidable', 'Una pava eléctrica', 'Una calabaza mágica', 'Un vaso de cristal'],
-        correctAnswer: 'Un termo de acero inoxidable',
+        questionText: '¿Qué le entrega Magolor a Nico al final de toda la pelea?',
+        options: [
+          'Una Superestrella de repuesto.',
+          'Un termo para tomar un amargo.',
+          'Un celular nuevo con el chat abierto.',
+          'Una capa azul igual a la suya.'
+        ],
+        correctAnswer: 'Un termo para tomar un amargo.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'ny3-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Nico justo después de usar la Superestrella?',
+        questionText: '¿Cuál fue el orden de aparición de las manos gigantes en el cielo?',
         options: [
-          'Se fue a dormir',
-          'Atravesó el puño de la Master Hand dejando un agujero de luz',
-          'Llamó a su mamá',
-          'Entró al Administrador de Tareas'
+          'Primero Master Hand y luego Crazy Hand.',
+          'Primero Crazy Hand y luego Master Hand.',
+          'Aparecieron las dos manos al mismo tiempo.',
+          'Master Hand apareció después de vencer a Sephiroth.'
         ],
-        correctAnswer: 'Atravesó el puño de la Master Hand dejando un agujero de luz',
+        correctAnswer: 'Primero Master Hand y luego Crazy Hand.',
       },
       {
         id: 'ny3-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó inmediatamente después de que Kirby se tragara el contador físico de No-Hit?',
+        questionText: '¿Qué hizo Nico inmediatamente después de que Kirby le tirara la Superestrella?',
         options: [
-          'Kirby se enfermó',
-          'Kirby se convirtió en el Concepto de la Victoria y lanzó una onda expansiva de luz',
-          'Apareció un Game Over',
-          'Nico perdió el juego'
+          'Entró al subte Línea A para esconderse.',
+          'Dudó un segundo y luego saltó hacia la estrella.',
+          'Atravesó el Obelisco con su espada de neón.',
+          'Activó el Administrador de Tareas de Windows.'
         ],
-        correctAnswer: 'Kirby se convirtió en el Concepto de la Victoria y lanzó una onda expansiva de luz',
+        correctAnswer: 'Dudó un segundo y luego saltó hacia la estrella.',
       },
       {
         id: 'ny3-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿En qué orden ocurrieron estos ataques finales?',
+        questionText: '¿Qué ocurrió justo después de que Kirby se tragara la placa dorada del contador?',
         options: [
-          'Ataque de Master Hand, Nico entra al código, Lluvia de Errores de Haltmann, Kirby traga el contador',
-          'Kirby traga el contador, Nico entra al código, Master Hand, Lluvia de Errores',
-          'Nico entra al código, Kirby traga el contador, Lluvia de Errores, Master Hand',
-          'Master Hand, Kirby traga el contador, Nico entra al código, Lluvia de Errores'
+          'Kirby se enfermó por comer metal pesado.',
+          'Se convirtió en una nebulosa de colores y lanzó una onda expansiva.',
+          'El contador se reinició y marcó 100% de daño.',
+          'Nico perdió su armadura de Modo Dios de repente.'
         ],
-        correctAnswer: 'Ataque de Master Hand, Nico entra al código, Lluvia de Errores de Haltmann, Kirby traga el contador',
+        correctAnswer: 'Se convirtió en una nebulosa de colores y lanzó una onda expansiva.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'ny3-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Meta Knight dice que el "No-Hit" resonó en el "Nexo". ¿Qué significa Nexo?',
+        questionText: 'Nico dice que a los "haters" ya los tiene "junados". ¿Qué significa junados?',
         options: [
-          'Un lugar de conexión o unión entre mundos',
-          'Un tipo de comida espacial',
-          'Un botón de la computadora',
-          'Una música muy ruidosa'
+          'Que les tiene mucho miedo.',
+          'Que ya los conoce o los tiene identificados.',
+          'Que nunca leyó sus comentarios.',
+          'Que son sus mejores amigos en el chat.'
         ],
-        correctAnswer: 'Un lugar de conexión o unión entre mundos',
+        correctAnswer: 'Que ya los conoce o los tiene identificados.',
       },
       {
         id: 'ny3-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La Master Hand ve a Nico como una "anomalía". ¿Qué es una anomalía?',
+        questionText: 'El texto dice que los Phantoms son copias de "estática". ¿Cómo son estas copias?',
         options: [
-          'Un premio muy grande',
-          'Algo que es distinto a lo normal y se ve como un error',
-          'Un tipo de flor blanca',
-          'Un amigo nuevo'
+          'Hechas de madera muy resistente.',
+          'Hechas de ese ruido de puntitos blancos y negros de la tele.',
+          'Hechas de luz solar muy brillante.',
+          'Hechas de agua del dispenser de la oficina.'
         ],
-        correctAnswer: 'Algo que es distinto a lo normal y se ve como un error',
+        correctAnswer: 'Hechas de ese ruido de puntitos blancos y negros de la tele.',
       },
       {
         id: 'ny3-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Nico esquivaba pedazos de "mampostería". ¿Qué es la mampostería?',
+        questionText: 'Nico no quería "pechearla". En Argentina, ¿qué significa pechearla en un desafío?',
         options: [
-          'Comida para pájaros',
-          'Restos de piedras o ladrillos de una construcción',
-          'Ropa vieja',
-          'Juguetes de plástico'
+          'Ganar de forma muy fácil y rápida.',
+          'Fallar o perder en el momento más importante.',
+          'Usar trucos para engañar a los demás.',
+          'Jugar con mucha alegría y sin presión.'
         ],
-        correctAnswer: 'Restos de piedras o ladrillos de una construcción',
+        correctAnswer: 'Fallar o perder en el momento más importante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'ny3-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el mensaje más importante que Nico descubre al final?',
+        questionText: '¿Cuál es el conflicto emocional más fuerte que enfrenta Nico en el techo de la Casa Rosada?',
         options: [
-          'Que hay que jugar siempre sin recibir daño',
-          'Que la perfección numérica no importa tanto como la pasión y la lealtad hacia los amigos',
-          'Que los termos de acero inoxidable son los mejores',
-          'Que Almagro es el mejor barrio'
+          'Elegir entre su récord de perfección y la vida de sus amigos.',
+          'Aprender a usar el sobre de Smash antes de que se moje.',
+          'Convencer a la policía de que él no robó el Obelisco.',
+          'Lograr que Magolor le devuelva su termo de acero.'
         ],
-        correctAnswer: 'Que la perfección numérica no importa tanto como la pasión y la lealtad hacia los amigos',
+        correctAnswer: 'Elegir entre su récord de perfección y la vida de sus amigos.',
       },
       {
         id: 'ny3-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la perfección de Nico era un problema para el "servidor de la realidad"?',
+        questionText: '¿Qué representa la figura de "The_Creator" en esta historia?',
         options: [
-          'Porque el juego era muy viejo',
-          'Porque un humano sin errores era considerado un error de código que debía ser borrado',
-          'Porque gastaba mucha electricidad',
-          'Porque no dejaba jugar a los demás'
+          'Un hacker que quiere borrarle el canal de Twitch.',
+          'La obsesión de Nico por la perfección que lo hace infeliz.',
+          'El verdadero fabricante de los juegos de Kirby.',
+          'Un jefe final que viene de otra galaxia lejana.'
         ],
-        correctAnswer: 'Porque un humano sin errores era considerado un error de código que debía ser borrado',
+        correctAnswer: 'La obsesión de Nico por la perfección que lo hace infeliz.',
       },
       {
         id: 'ny3-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa el hecho de que Kirby se trague el contador de [0.00]?',
+        questionText: '¿Cuál es la lección final que aprende Nico sobre el juego?',
         options: [
-          'Que Kirby tenía mucha hambre',
-          'El sacrificio del récord individual para salvar la realidad y a los amigos',
-          'Que el contador era de chocolate',
-          'Un truco para ganar más puntos'
+          'Que los récords son lo único que importa en la vida.',
+          'Que la verdadera victoria es compartir y proteger a los demás.',
+          'Que es mejor no jugar juegos difíciles de noche.',
+          'Que Kirby es más fuerte que cualquier personaje de Smash.'
         ],
-        correctAnswer: 'El sacrificio del récord individual para salvar la realidad y a los amigos',
+        correctAnswer: 'Que la verdadera victoria es compartir y proteger a los demás.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'ny3-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la versión oscura de Nico (The_Creator) quería que él recibiera un golpe?',
+        questionText: '¿Por qué el contador de No-Hit se convirtió en una placa pesada en el cuello de Nico?',
         options: [
-          'Para que Nico perdiera el stream',
-          'Para tentarlo a abandonar el esfuerzo y volver a una vida normal sin el peso de la perfección',
-          'Para que Kirby se enojara',
-          'Para que Nico comprara otro juego'
+          'Porque Kirby le hizo una broma pesada.',
+          'Porque representaba cómo su obsesión lo estaba hundiendo.',
+          'Porque era un premio real que le envió el Presidente.',
+          'Porque las manos blancas querían que Nico no pudiera saltar.'
         ],
-        correctAnswer: 'Para tentarlo a abandonar el esfuerzo y volver a una vida normal sin el peso de la perfección',
+        correctAnswer: 'Porque representaba cómo su obsesión lo estaba hundiendo.',
       },
       {
         id: 'ny3-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significa que Nico sea un "Glitch viviente" al final?',
+        questionText: '¿Por qué Kirby decidió comerse el contador de daño al final?',
         options: [
-          'Que está enfermo',
-          'Que ahora es parte del mundo de los videojuegos y la realidad al mismo tiempo',
-          'Que su computadora no funciona bien',
-          'Que se convirtió en un robot'
+          'Porque tenía mucha hambre de objetos dorados.',
+          'Para liberar a Nico de la carga de ser perfecto y salvarlo.',
+          'Porque pensó que el contador era un dulce del torneo.',
+          'Para que nadie más pudiera ver el récord de Nico.'
         ],
-        correctAnswer: 'Que ahora es parte del mundo de los videojuegos y la realidad al mismo tiempo',
+        correctAnswer: 'Para liberar a Nico de la carga de ser perfecto y salvarlo.',
       },
       {
         id: 'ny3-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que apareció Mario al final de la historia?',
+        questionText: '¿Qué sugiere la aparición del Meta Knight "de verdad" al final de la historia?',
         options: [
-          'Porque se perdió buscando un taller',
-          'Sugiere que la aventura de Nico ahora continuará en otros mundos de videojuegos (como Mario Kart o Smash)',
-          'Porque es el dueño del departamento de Nico',
-          'Para venderle una pizza'
+          'Que Nico todavía está soñando en su habitación.',
+          'Que las aventuras de Nico en el mundo de los juegos recién empiezan.',
+          'Que Meta Knight quiere recuperar su espada Galaxia.',
+          'Que el Obelisco volvió a desaparecer en secreto.'
         ],
-        correctAnswer: 'Sugiere que la aventura de Nico ahora continuará en otros mundos de videojuegos (como Mario Kart o Smash)',
+        correctAnswer: 'Que las aventuras de Nico en el mundo de los juegos recién empiezan.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'ny3-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia la motivación de Nico desde el inicio hasta el final del cuento?',
+        questionText: '¿Cómo se describe a los "Phantoms" que atacan a Nico?',
         options: [
-          'Se cansa de jugar y quiere estudiar',
-          'Pasa de obsesionarse solo con el récord numérico a luchar por la salvación de sus amigos y su ciudad',
-          'Se vuelve un villano como Haltmann',
-          'Decide que prefiere ser jugador de fútbol'
+          'Como héroes que vienen a salvar Buenos Aires.',
+          'Como el odio y la frustración de la comunidad hechos píxeles.',
+          'Como robots construidos por la corporación Haltmann.',
+          'Como amigos de Kirby que se volvieron locos por el sol.'
         ],
-        correctAnswer: 'Pasa de obsesionarse solo con el récord numérico a luchar por la salvación de sus amigos y su ciudad',
+        correctAnswer: 'Como el odio y la frustración de la comunidad hechos píxeles.',
       },
       {
         id: 'ny3-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué rasgo de personalidad ayuda a Nico a entrar al agujero negro sin recibir daño?',
+        questionText: '¿Qué demuestra Nico al usar el contador como escudo en lugar de soltarlo?',
         options: [
-          'Su gran fuerza bruta',
-          'Su increíble capacidad de concentración y los reflejos entrenados por años de juego',
-          'Su mala suerte',
-          'Su habilidad para contar chistes'
+          'Que es muy orgulloso y no quiere perder nunca.',
+          'Su ingenio para usar sus problemas como una defensa.',
+          'Que no entendió el consejo de Meta Knight.',
+          'Que la placa de oro era en realidad muy liviana.'
         ],
-        correctAnswer: 'Su increíble capacidad de concentración y los reflejos entrenados por años de juego',
+        correctAnswer: 'Su ingenio para usar sus problemas como una defensa.',
       },
       {
         id: 'ny3-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo podrías describir a Magolor en esta parte de la historia?',
+        questionText: '¿Qué cualidad de Kirby se destaca cuando protege a Nico de los Phantoms?',
         options: [
-          'Como un enemigo que intenta engañar a Nico',
-          'Como un aliado misterioso, un poco bromista pero muy útil con la tecnología',
-          'Como un niño miedoso',
-          'Como un robot sin sentimientos'
+          'Su habilidad para transformarse en cono de tráfico.',
+          'Su lealtad incondicional hacia su amigo, sin importar el récord.',
+          'Su capacidad para comer mampostería de la Casa Rosada.',
+          'Su velocidad para correr por la Avenida 9 de Julio.'
         ],
-        correctAnswer: 'Como un aliado misterioso, un poco bromista pero muy útil con la tecnología',
+        correctAnswer: 'Su lealtad incondicional hacia su amigo, sin importar el récord.',
       },
     ],
   },

@@ -51,7 +51,7 @@ Y metiendo la mano en el bolsillo sacó el queso y lo apretó hasta sacarle todo
 El gigante no supo qué contestar, y apenas podía creer que hiciera tal cosa aquel hombrecillo. Tomando entonces otra piedra, la arrojó tan alto que la vista apenas podía seguirla. 
 -Anda, hombrecito, a ver si haces algo parecido. 
 -Un buen tiro -dijo el sastrecillo-, aunque la piedra volvió a caer a tierra. Ahora verás. 
-Y sacando al pájaro del bolsillo, lo lanzó al aire. El pájaro, encantado de verse libre, se elevó por los aires y se perdió de vista. 
+And sacando al pájaro del bolsillo, lo lanzó al aire. El pájaro, encantado de verse libre, se elevó por los aires y se perdió de vista. 
 -¿Qué te pareció este tiro, camarada? -preguntó el sastrecillo. 
 -Tirar piedras sí que sabes -admitió el gigante-. Ahora veremos si puedes soportar alguna carga digna de este nombre. 
 
@@ -151,46 +151,76 @@ Los criados, al oir estas palabras, salieron huyendo como alma que lleva el diab
       {
         id: 'sv-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿A qué animales mató realmente el sastrecillo de un solo golpe?',
-        options: ['Siete gigantes', 'Siete moscas', 'Siete leones', 'Siete lobos'],
-        correctAnswer: 'Siete moscas',
+        questionText: '¿A qué seres mató realmente el sastrecillo de un solo golpe?',
+        options: [
+          'A siete gigantes de la montaña.',
+          'A siete moscas que estaban sobre su pan.',
+          'A siete jinetes del ejército real.',
+          'A siete lobos feroces del bosque.'
+        ],
+        correctAnswer: 'A siete moscas que estaban sobre su pan.',
       },
       {
         id: 'sv-lit2',
         category: QuestionCategory.LITERAL,
         questionText: '¿Qué dos objetos se guardó el sastrecillo en el bolsillo antes de salir de su casa?',
-        options: ['Una aguja y un hilo', 'Un trozo de pan y mermelada', 'Un queso viejo y un pájaro', 'Cien monedas y una espada'],
-        correctAnswer: 'Un queso viejo y un pájaro',
+        options: [
+          'Una aguja de zurcir y un hilo de seda.',
+          'Un trozo de mermelada y un pan grande.',
+          'Un queso viejo y un pájaro enredado.',
+          'Cien monedas de oro y una espada de plata.'
+        ],
+        correctAnswer: 'Un queso viejo y un pájaro enredado.',
       },
       {
         id: 'sv-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué decía el bordado en el cinturón del sastrecillo?',
-        options: ['"El rey de los sastres"', '"¡Siete de un golpe!"', '"Valiente como un león"', '"Cazador de gigantes"'],
-        correctAnswer: '"¡Siete de un golpe!"',
+        questionText: '¿Qué mensaje exacto mandó bordar el sastrecillo en su cinturón?',
+        options: [
+          '«¡El rey de los sastres!»',
+          '«¡Siete de un golpe!»',
+          '«¡Cazador de gigantes valiente!»',
+          '«¡El caballero más fuerte del mundo!»'
+        ],
+        correctAnswer: '«¡Siete de un golpe!»',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'sv-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue la PRIMERA prueba que el gigante le puso al sastrecillo en la montaña?',
-        options: ['Cargar un árbol', 'Lanzar un pájaro al aire', 'Exprimir una piedra para sacarle agua', 'Saltar por encima de un cerezo'],
-        correctAnswer: 'Exprimir una piedra para sacarle agua',
+        questionText: '¿Cuál fue la PRIMERA prueba de fuerza que el gigante le propuso al sastrecillo?',
+        options: [
+          'Cargar un majestuoso roble en el hombro.',
+          'Lanzar una piedra tan alto que se perdiera de vista.',
+          'Exprimir una piedra hasta sacarle gotas de agua.',
+          'Saltar por encima de un cerezo lleno de frutas.'
+        ],
+        correctAnswer: 'Exprimir una piedra hasta sacarle gotas de agua.',
       },
       {
         id: 'sv-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el sastrecillo justo después de que los dos gigantes del bosque se mataran entre ellos?',
-        options: ['Salió corriendo asustado', 'Les dio unos tajos en el pecho con su espada y llamó a los jinetes', 'Se fue a dormir al árbol', 'Se llevó su oro'],
-        correctAnswer: 'Les dio unos tajos en el pecho con su espada y llamó a los jinetes',
+        questionText: '¿Qué hizo el sastrecillo justo después de que los dos gigantes del bosque se eliminaran entre ellos?',
+        options: [
+          'Salió corriendo muerto de miedo hacia el castillo.',
+          'Les asestó unos tajos en el pecho y llamó a los jinetes.',
+          'Se subió a la copa de un árbol para dormir tranquilo.',
+          'Les robó el cordero asado que estaban comiendo.'
+        ],
+        correctAnswer: 'Les asestó unos tajos en el pecho y llamó a los jinetes.',
       },
       {
         id: 'sv-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿En qué orden enfrentó el sastrecillo los desafíos del Rey?',
-        options: ['Unicornio, jabalí y gigantes', 'Gigantes, unicornio y jabalí', 'Jabalí, gigantes y unicornio', 'Gigantes, jabalí y unicornio'],
-        correctAnswer: 'Gigantes, unicornio y jabalí',
+        questionText: '¿En qué orden enfrentó el sastrecillo los desafíos que le impuso el Rey?',
+        options: [
+          'Unicornio salvaje, jabalí feroz y finalmente gigantes.',
+          'Dos gigantes, un unicornio y finalmente un jabalí.',
+          'Jabalí feroz, dos gigantes y finalmente un unicornio.',
+          'Gigantes de la cueva, jabalí y finalmente el unicornio.'
+        ],
+        correctAnswer: 'Dos gigantes, un unicornio y finalmente un jabalí.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -198,91 +228,151 @@ Los criados, al oir estas palabras, salieron huyendo como alma que lleva el diab
         id: 'sv-voc1',
         category: QuestionCategory.VOCABULARY,
         questionText: 'La campesina pasaba por la calle "pregonando" su mercancía. ¿Qué significa "pregonar"?',
-        options: ['Vender en silencio', 'Anunciar en voz alta para que todos oigan', 'Esconder los productos', 'Caminar muy rápido'],
-        correctAnswer: 'Anunciar en voz alta para que todos oigan',
+        options: [
+          'Vender en secreto para que nadie la descubra.',
+          'Anunciar algo en voz alta para que todos se enteren.',
+          'Pedir permiso al rey para entrar al taller de costura.',
+          'Caminar muy rápido cargando una cesta muy pesada.'
+        ],
+        correctAnswer: 'Anunciar algo en voz alta para que todos se enteren.',
       },
       {
         id: 'sv-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El sastre quería terminar su "jubón". ¿Qué es un jubón?',
-        options: ['Un tipo de postre', 'Una herramienta para coser', 'Una prenda de vestir que cubre el tronco', 'Un tipo de mermelada'],
-        correctAnswer: 'Una prenda de vestir que cubre el tronco',
+        questionText: 'El sastre quería terminar su "jubón". ¿Qué es un jubón en esta historia?',
+        options: [
+          'Un postre dulce hecho con mucha mermelada.',
+          'Una herramienta de metal para picar piedras.',
+          'Una prenda de vestir antigua que cubre el tronco.',
+          'Un tipo de ave que vive en los matorrales.'
+        ],
+        correctAnswer: 'Una prenda de vestir antigua que cubre el tronco.',
       },
       {
         id: 'sv-voc3',
         category: QuestionCategory.VOCABULARY,
         questionText: 'El sastrecillo se "ciñó" el cinturón. ¿Qué significa "ceñir"?',
-        options: ['Ajustar o apretar algo a la cintura', 'Lavar con agua y jabón', 'Romper en mil pedazos', 'Bordar con hilos de oro'],
-        correctAnswer: 'Ajustar o apretar algo a la cintura',
+        options: [
+          'Ajustar o apretar algo alrededor del cuerpo.',
+          'Lavar una tela con agua fría y jabón blanco.',
+          'Bordar letras grandes con hilos de colores.',
+          'Cortar un pedazo de cuero con tijeras afiladas.'
+        ],
+        correctAnswer: 'Ajustar o apretar algo alrededor del cuerpo.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'sv-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta historia?',
-        options: ['Que los gigantes son muy tontos', 'Que la inteligencia y la confianza en uno mismo pueden vencer a la fuerza física', 'Que es bueno comer mermelada para tener fuerza', 'Que los reyes siempre cumplen sus promesas'],
-        correctAnswer: 'Que la inteligencia y la confianza en uno mismo pueden vencer a la fuerza física',
+        questionText: '¿Cuál es la idea principal que transmite este cuento de los Grimm?',
+        options: [
+          'Que los gigantes son seres muy tontos y perezosos.',
+          'Que la inteligencia y la astucia vencen a la fuerza física.',
+          'Que es muy peligroso comer mermelada cerca de las moscas.',
+          'Que los reyes siempre cumplen su palabra con alegría.'
+        ],
+        correctAnswer: 'Que la inteligencia y la astucia vencen a la fuerza física.',
       },
       {
         id: 'sv-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cómo logra el sastrecillo convertirse en rey?',
-        options: ['Siendo el más fuerte del mundo', 'Usando su ingenio y astucia para hacer creer a todos que era un poderoso guerrero', 'Encontrando un tesoro escondido', 'Porque era el hijo perdido del rey'],
-        correctAnswer: 'Usando su ingenio y astucia para hacer creer a todos que era un poderoso guerrero',
+        questionText: '¿Cómo logra el sastrecillo convertirse en rey finalmente?',
+        options: [
+          'Demostrando que es el hombre más fuerte del mundo entero.',
+          'Haciendo creer a todos que era un gran guerrero mediante engaños.',
+          'Encontrando un tesoro de oro escondido en una ermita.',
+          'Porque el rey descubrió que era su hijo perdido hace años.'
+        ],
+        correctAnswer: 'Haciendo creer a todos que era un gran guerrero mediante engaños.',
       },
       {
         id: 'sv-main3',
         category: QuestionCategory.MAIN_IDEA,
         questionText: '¿Por qué el taller le resultaba "demasiado pequeño" al sastre al principio?',
-        options: ['Porque tenía muchas telas', 'Porque su valentía (según él mismo) era tan grande que necesitaba salir a conocer el mundo', 'Porque quería comprar una casa más grande', 'Porque no tenía ventanas'],
-        correctAnswer: 'Porque su valentía (según él mismo) era tan grande que necesitaba salir a conocer el mundo',
+        options: [
+          'Porque tenía muchísimas telas amontonadas por el suelo.',
+          'Porque su ambición y confianza en sí mismo eran muy grandes.',
+          'Porque quería mudarse a una casa con un jardín de cerezos.',
+          'Porque la mermelada atraía a demasiadas moscas molestas.'
+        ],
+        correctAnswer: 'Porque su ambición y confianza en sí mismo eran muy grandes.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'sv-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué los gigantes de la caverna salieron corriendo al ver al sastrecillo por la mañana?',
-        options: ['Porque el sastrecillo les gritó muy fuerte', 'Porque pensaron que era un ser invencible que no moría ni con un golpe de barra de hierro', 'Porque tenían hambre', 'Porque el rey llegó a buscarlos'],
-        correctAnswer: 'Porque pensaron que era un ser invencible que no moría ni con un golpe de barra de hierro',
+        questionText: '¿Por qué los gigantes de la caverna huyeron al ver al sastrecillo por la mañana?',
+        options: [
+          'Porque el sastrecillo los amenazó con su vara de medir.',
+          'Porque pensaron que era inmortal al sobrevivir al golpe de hierro.',
+          'Porque el rey llegó con cien jinetes para capturarlos.',
+          'Porque el sastrecillo les robó sus corderos asados.'
+        ],
+        correctAnswer: 'Porque pensaron que era inmortal al sobrevivir al golpe de hierro.',
       },
       {
         id: 'sv-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el rey le ponía tantas pruebas peligrosas al sastrecillo?',
-        options: ['Porque quería entrenarlo para la guerra', 'Porque le tenía miedo y quería que algún monstruo acabara con él para no tener que darle el reino', 'Porque no creía que supiera coser', 'Porque era un rey muy divertido'],
-        correctAnswer: 'Porque le tenía miedo y quería que algún monstruo acabara con él para no tener que darle el reino',
+        questionText: '¿Por qué el rey le ponía tantas pruebas peligrosas al protagonista?',
+        options: [
+          'Para que el sastre practicara sus habilidades de combate.',
+          'Porque le temía y quería que muriera para no darle el reino.',
+          'Porque quería comprobar si sabía coser vestidos de princesa.',
+          'Porque el unicornio y el jabalí eran sus animales favoritos.'
+        ],
+        correctAnswer: 'Porque le temía y quería que muriera para no darle el reino.',
       },
       {
         id: 'sv-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo supo la princesa que su marido había sido sastre?',
-        options: ['Porque lo vio cosiendo un botón', 'Porque lo escuchó hablar en sueños sobre telas, costura y varas de medir', 'Porque encontró su viejo cinturón', 'Porque el rey se lo contó'],
-        correctAnswer: 'Porque lo escuchó hablar en sueños sobre telas, costura y varas de medir',
+        questionText: '¿Cómo supo la princesa la verdadera profesión de su marido?',
+        options: [
+          'Porque lo encontró cosiendo en secreto en la ermita.',
+          'Porque lo escuchó hablar en sueños sobre telas y remiendos.',
+          'Porque vio el cinturón de "Siete de un golpe" en el armario.',
+          'Porque el escudero del rey le contó toda la verdad.'
+        ],
+        correctAnswer: 'Porque lo escuchó hablar en sueños sobre telas y remiendos.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'sv-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué palabras describen mejor la personalidad del sastrecillo?',
-        options: ['Tímido y callado', 'Astuto, presumido y valiente', 'Malo y egoísta', 'Fuerte pero tonto'],
-        correctAnswer: 'Astuto, presumido y valiente',
+        questionText: '¿Qué rasgos definen mejor la personalidad del sastrecillo?',
+        options: [
+          'Es un hombre tímido que prefiere no hablar con nadie.',
+          'Es alguien astuto, muy presumido y con gran confianza.',
+          'Es una persona malvada que busca arruinar a los gigantes.',
+          'Es un guerrero serio que nunca hace bromas ni canta.'
+        ],
+        correctAnswer: 'Es alguien astuto, muy presumido y con gran confianza.',
       },
       {
         id: 'sv-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo reaccionaba el sastrecillo ante los desafíos que parecían imposibles?',
-        options: ['Se ponía a llorar', 'Buscaba una solución inteligente usando lo que tenía a mano', 'Pedía ayuda a los soldados', 'Se escondía en el bosque'],
-        correctAnswer: 'Buscaba una solución inteligente usando lo que tenía a mano',
+        questionText: '¿Cómo reaccionaba el sastre ante desafíos que parecían imposibles?',
+        options: [
+          'Se ponía a llorar y pedía perdón al gigante de la montaña.',
+          'Buscaba una solución creativa usando los objetos que tenía.',
+          'Llamaba al ejército de jinetes para que pelearan por él.',
+          'Se escondía en el bosque hasta que el peligro pasara.'
+        ],
+        correctAnswer: 'Buscaba una solución creativa usando los objetos que tenía.',
       },
       {
         id: 'sv-char3',
         category: QuestionCategory.CHARACTER,
         questionText: '¿Qué cualidad del sastre le permitió engañar al primer gigante con la piedra?',
-        options: ['Su gran fuerza física', 'Su rapidez para usar el queso viejo en lugar de una piedra', 'Su magia para crear agua', 'Su habilidad para lanzar piedras'],
-        correctAnswer: 'Su rapidez para usar el queso viejo en lugar de una piedra',
+        options: [
+          'Su enorme fuerza física para aplastar cualquier objeto duro.',
+          'Su rapidez mental para cambiar el queso viejo por la piedra.',
+          'Su magia secreta para convertir el mineral en agua clara.',
+          'Su habilidad para lanzar objetos muy alto hacia las nubes.'
+        ],
+        correctAnswer: 'Su rapidez mental para cambiar el queso viejo por la piedra.',
       },
     ],
   },

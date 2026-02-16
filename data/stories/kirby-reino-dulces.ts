@@ -145,7 +145,7 @@ La marea de Kirbys pálidos era un espanto. No rodaban con elegancia; se arrastr
 
 En medio de la basura, una caja de madera podrida rebalsaba de íconos de comida que parpadeaban en un color verde radiactivo. El Rosa no lo pensó dos veces. Rodó esquivando manos y bocas, y se tragó lo primero que encontró: una Habilidad de Gelatina de Pera que olía a vinagre de manzana.
 
-—¡Uf, qué asco! ¡Me va a dar una patada al hígado! —exclamó El Rosa, pero al instante su cuerpo se volvió traslúcido y pegajoso.
+—¡Uf, qué asco! ¡Me va a dar una patada al hígado! —exclamó El Rosa, pero al instante su cuerpo se volvió traslucido y pegajoso.
 
 Se convirtió en una masa elástica y ácida. Los Kirbys del descarte que intentaban tocarlo se quedaban pegados o salían despedidos por el efecto rebote de la gelatina rancia. El Rosa aprovechó el envión, agarró al Negro de la mano y empezaron a rebotar por todas las paredes del depósito, aplastando Kirbys pálidos como si fueran moscas.
 
@@ -222,7 +222,7 @@ El Kirby Pálido no había parado la máquina para salvarlos. Había invertido e
 
 —¡Se va a tragar todo el Reino! —El Rosa vio cómo el palco real empezaba a resquebrajarse—. ¡Negro, si no frenamos ese eje, no queda ni el loro!
 
-—¿And qué querés que haga? ¡Soy una bola de masa, no un ingeniero!
+—¿Y qué querés que haga? ¡Soy una bola de masa, no un ingeniero!
 
 —¡Tenés que usar la Frutilla de Platino! —El Rosa vio la fruta abollada tirada cerca de una rejilla—. Todavía tiene energía de la que absorbí. Si la sobrecargamos con un choque térmico, podemos reventar el motor desde adentro.
 
@@ -239,7 +239,7 @@ Los dos se miraron desde extremos opuestos del estadio. El aire vibraba. El Kirb
 
 —¡A LA UNA...! ¡A LAS DOS...! —gritó El Rosa.
 
-—¡Y A LAS TRES! ¡DALE QUE SOMOS VOS Y YO!
+—¡Y A LAS TRES! ¡DALE que somos vos y yo!
 
 Salieron disparados como dos meteoritos. Uno azul, frío como un invierno en Tierra del Fuego; el otro rojo, caliente como el asfalto de Buenos Aires en enero. Cruzaron el estadio esquivando escombros, Waddle Dees y pedazos de bizcochuelo.
 
@@ -285,7 +285,7 @@ El Rosa y El Negro se miraron.
 El dron desplegó un cañón láser.
 
 —Bueno... parece que el buffet todavía no terminó. ¡A CORRER!
-    `,
+`,
   wordCount: 1950,
   level: '4to Grado (Nivel S)',
   questions: {
@@ -293,208 +293,228 @@ El dron desplegó un cañón láser.
       {
         id: 'rd-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál es el nombre del torneo en el que participan los Kirbys?',
-        options: ['Gran Torneo del Dulce', 'Gran Torneo del Atracón', 'Carrera de Panqueques', 'Mundial de Golosinas'],
+        questionText: '¿Cuál es el nombre exacto del torneo en el que compiten los Kirbys?',
+        options: [
+          'Gran Torneo Real de la Torta',
+          'Gran Torneo del Atracón',
+          'Campeonato del Almíbar',
+          'Mundial de la Tierra Olvidada'
+        ],
         correctAnswer: 'Gran Torneo del Atracón',
       },
       {
         id: 'rd-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué objeto es el premio final que corona la torta de mil capas?',
-        options: ['Una corona de oro', 'La Gran Frutilla de Platino', 'Un tenedor de diamantes', 'Un caramelo gigante'],
-        correctAnswer: 'La Gran Frutilla de Platino',
+        questionText: '¿Qué habilidad obtiene El Rosa justo antes de perforar la gran torta?',
+        options: [
+          'Piedra de Granito.',
+          'Habilidad de Taladro de Zanahoria.',
+          'Bola de Fuego de Ají.',
+          'Tornado de Crema Chantilly.'
+        ],
+        correctAnswer: 'Habilidad de Taladro de Zanahoria.',
       },
       {
         id: 'rd-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo se llama la máquina gigante que activa el Rey Dedede para triturar a los Kirbys?',
-        options: ['La Trituradora Real', 'La Licuadora Continental', 'La Picadora de Fruta 3000', 'El Horno Galáctico'],
-        correctAnswer: 'La Licuadora Continental',
+        questionText: '¿Cómo se llama la máquina que el Rey Dedede activa para atacar a los finalistas?',
+        options: [
+          'La Picadora de Fruta 3000.',
+          'La Licuadora Continental.',
+          'El Rallador de Kirbys.',
+          'El Horno Galáctico Haltmann.'
+        ],
+        correctAnswer: 'La Licuadora Continental.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'rd-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que El Rosa y El Negro chocaran en el aire por la Frutilla de Platino?',
-        options: ['Cayeron al vacío', 'Ocurrió una Fusión de Emergencia y se convirtieron en el Kirby Marmolado', 'El Rey Dedede los atrapó', 'Ganó el Kirby Amarillo'],
-        correctAnswer: 'Ocurrió una Fusión de Emergencia y se convirtieron en el Kirby Marmolado',
+        questionText: '¿Cuál es el orden de estos tres momentos durante la caída final?',
+        options: [
+          'Fusión de Emergencia, contacto con la Frutilla de Platino e impacto en la máquina.',
+          'Contacto con la Frutilla de Platino, Fusión de Emergencia e impacto en la máquina.',
+          'Impacto en la máquina, contacto con la Frutilla de Platino y Fusión de Emergencia.',
+          'Fusión de Emergencia, impacto en la máquina y contacto con la Frutilla de Platino.'
+        ],
+        correctAnswer: 'Contacto con la Frutilla de Platino, Fusión de Emergencia e impacto en la máquina.',
       },
       {
         id: 'rd-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál es el orden correcto de estos lugares en la historia?',
+        questionText: '¿Qué sucede inmediatamente después de que El Rosa y El Negro derrotan al Gólem de Chatarra?',
         options: [
-          'Línea de largada, Torta de mil capas, Depósito de Sobras, Campo de frutillas',
-          'Depósito de Sobras, Línea de largada, Torta de mil capas, Campo de frutillas',
-          'Torta de mil capas, Línea de largada, Campo de frutillas, Depósito de Sobras',
-          'Línea de largada, Depósito de Sobras, Campo de frutillas, Torta de mil capas'
+          'Aterrizan en un campo de frutillas naturales.',
+          'Escapan por un conducto de ventilación hacia la superficie.',
+          'El Rey Dedede les entrega el premio de platino.',
+          'Se transforman en el Kirby Marmolado.'
         ],
-        correctAnswer: 'Línea de largada, Torta de mil capas, Depósito de Sobras, Campo de frutillas',
+        correctAnswer: 'Escapan por un conducto de ventilación hacia la superficie.',
       },
       {
         id: 'rd-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron El Rosa y El Negro para destruir el eje de la licuadora?',
+        questionText: '¿Cuál es la secuencia de lugares que recorren los personajes?',
         options: [
-          'Le tiraron la Frutilla de Platino',
-          'Chocaron contra el eje al mismo tiempo usando las habilidades de Fuego y Hielo',
-          'Llamaron a los Waddle Dees',
-          'Apagaron el interruptor'
+          'Pista del torneo, Depósito de Sobras y Campo de frutillas.',
+          'Depósito de Sobras, Pista del torneo y Campo de frutillas.',
+          'Campo de frutillas, Pista del torneo y Depósito de Sobras.',
+          'Pista del torneo, Campo de frutillas y Depósito de Sobras.'
         ],
-        correctAnswer: 'Chocaron contra el eje al mismo tiempo usando las habilidades de Fuego y Hielo',
+        correctAnswer: 'Pista del torneo, Depósito de Sobras y Campo de frutillas.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'rd-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El texto dice que la atmósfera no era "empalagosa". ¿Qué significa empalagoso?',
+        questionText: 'El texto dice que la atmósfera no era "empalagosa". ¿Qué significa empalagoso en este contexto?',
         options: [
-          'Que es muy salado',
-          'Que causa fastidio por ser demasiado dulce',
-          'Que está muy frío',
-          'Que es muy divertido'
+          'Algo muy amargo y difícil de tragar.',
+          'Algo que cansa por ser demasiado dulce.',
+          'Algo que está muy frío y congelado.',
+          'Algo muy rápido y difícil de ver.'
         ],
-        correctAnswer: 'Que causa fastidio por ser demasiado dulce',
+        correctAnswer: 'Algo que cansa por ser demasiado dulce.',
       },
       {
         id: 'rd-voc2',
         category: QuestionCategory.VOCABULARY,
         questionText: 'El impacto contra las sierras fue "inminente". ¿Qué significa inminente?',
         options: [
-          'Que falta mucho tiempo para que pase',
-          'Que va a suceder de forma inmediata o muy pronto',
-          'Que es muy ruidoso',
-          'Que es un secreto'
+          'Que falta mucho tiempo para que ocurra.',
+          'Que está a punto de suceder de inmediato.',
+          'Que es una acción secreta que nadie ve.',
+          'Que es algo muy ruidoso y molesto.'
         ],
-        correctAnswer: 'Que va a suceder de forma inmediata o muy pronto',
+        correctAnswer: 'Que está a punto de suceder de inmediato.',
       },
       {
         id: 'rd-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Llamaron al robot "bicho de morondanga". ¿Qué significa morondanga en Argentina?',
+        questionText: 'Llaman al robot "bicho de morondanga". ¿Qué significa morondanga en Argentina?',
         options: [
-          'Algo de mucha calidad',
-          'Algo despreciable, de poco valor o mal hecho',
-          'Algo muy grande y fuerte',
-          'Un tipo de dulce'
+          'Algo de muchísima calidad y valor.',
+          'Algo despreciable, mal hecho o de poco valor.',
+          'Algo muy gigante y difícil de mover.',
+          'Un tipo de comida muy rica y sabrosa.'
         ],
-        correctAnswer: 'Algo despreciable, de poco valor o mal hecho',
+        correctAnswer: 'Algo despreciable, mal hecho o de poco valor.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'rd-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de esta aventura?',
+        questionText: '¿Cuál es el tema central de esta aventura?',
         options: [
-          'La importancia de ganar siempre las carreras',
-          'Cómo cocinar una torta de mil capas',
-          'La unión de antiguos rivales para luchar contra una injusticia y sobrevivir',
-          'El peligro de comer demasiados caramelos'
+          'La competencia por ser el más rápido del mundo.',
+          'La unión de antiguos rivales para sobrevivir a una injusticia.',
+          'El peligro de comer demasiados dulces industriales.',
+          'La construcción de un estadio en la Tierra Olvidada.'
         ],
-        correctAnswer: 'La unión de antiguos rivales para luchar contra una injusticia y sobrevivir',
+        correctAnswer: 'La unión de antiguos rivales para sobrevivir a una injusticia.',
       },
       {
         id: 'rd-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué descubre El Rosa sobre el verdadero propósito del torneo?',
+        questionText: '¿Qué descubre El Rosa sobre el verdadero propósito del torneo del Rey Dedede?',
         options: [
-          'Que es para encontrar al Kirby más fuerte',
-          'Que los ganadores son en realidad ingredientes para la comida del Rey',
-          'Que el premio es de chocolate de verdad',
-          'Que el Rey Dedede quiere ser su amigo'
+          'Que es una forma de entrenar soldados valientes.',
+          'Que el ganador es usado como ingrediente para una torta real.',
+          'Que los Kirbys negros son mejores jugadores que los rosas.',
+          'Que la Frutilla de Platino tiene poderes para curar enfermos.'
         ],
-        correctAnswer: 'Que los ganadores son en realidad ingredientes para la comida del Rey',
+        correctAnswer: 'Que el ganador es usado como ingrediente para una torta real.',
       },
       {
         id: 'rd-main3',
         category: QuestionCategory.MAIN_IDEA,
         questionText: '¿Qué representa el Depósito de Sobras en la historia?',
         options: [
-          'Un lugar de juegos',
-          'El lado oscuro y olvidado del reino donde terminan los que no sirven al interés del Rey',
-          'Una heladería gigante',
-          'El hogar de los Waddle Dees'
+          'Un lugar de descanso para los campeones retirados.',
+          'El olvido y el descarte de quienes ya no le sirven al Rey.',
+          'Una heladería secreta que solo conocen los Kirbys.',
+          'El taller donde se fabrican las medallas de platino.'
         ],
-        correctAnswer: 'El lado oscuro y olvidado del reino donde terminan los que no sirven al interés del Rey',
+        correctAnswer: 'El olvido y el descarte de quienes ya no le sirven al Rey.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'rd-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el Kirby Pálido odiaba al Rey Dedede?',
+        questionText: '¿Por qué el Kirby Pálido decidió detener la licuadora pero luego invirtió el motor?',
         options: [
-          'Porque le robó su tenedor',
-          'Porque el Rey lo olvidó y lo dejó en el descarte después de usarlo',
-          'Porque no lo invitó al torneo',
-          'Porque no le gustaban los dulces'
+          'Para salvar a El Rosa y El Negro por amistad.',
+          'Para tragarse todo el reino como venganza por haber sido olvidado.',
+          'Porque se le rompió el tenedor de metal oxidado.',
+          'Para que el Rey Dedede pudiera escapar del estadio.'
         ],
-        correctAnswer: 'Porque el Rey lo olvidó y lo dejó en el descarte después de usarlo',
+        correctAnswer: 'Para tragarse todo el reino como venganza por haber sido olvidado.',
       },
       {
         id: 'rd-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significa que El Rosa y El Negro "ganaron el derecho a no ser el postre de nadie"?',
+        questionText: '¿Por qué fallaron las sierras de la procesadora al intentar cortar al Kirby Marmolado?',
         options: [
-          'Que ya no tenían hambre',
-          'Que lograron su libertad y autonomía frente al control del Rey',
-          'Que se convirtieron en cocineros',
-          'Que no les gustaba la torta'
+          'Porque Kirby Marmolado usó una habilidad que lo hizo más duro que el acero.',
+          'Porque el Rey Dedede se arrepintió y las apagó a tiempo.',
+          'Porque el Kirby Negro las había limado antes de la carrera.',
+          'Porque estaban hechas de chocolate amargo muy blando.'
         ],
-        correctAnswer: 'Que lograron su libertad y autonomía frente al control del Rey',
+        correctAnswer: 'Porque Kirby Marmolado usó una habilidad que lo hizo más duro que el acero.',
       },
       {
         id: 'rd-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué fallaron las sierras de la procesadora al intentar cortar al Kirby Marmolado?',
+        questionText: '¿Qué significa que El Rosa y El Negro "ganaron el derecho a no ser el postre de nadie"?',
         options: [
-          'Porque las sierras estaban oxidadas',
-          'Porque el Kirby Marmolado usó la habilidad de Piedra de Granito, volviéndose más duro que el acero',
-          'Porque el Rey Dedede las apagó',
-          'Porque el Kirby Amarillo las rompió antes'
+          'Que ya no tenían hambre después del torneo.',
+          'Que lograron su libertad y ya no están bajo el control del Rey.',
+          'Que aprendieron a cocinar sus propias tortas de mil capas.',
+          'Que el Rey Dedede los nombró guardias oficiales del reino.'
         ],
-        correctAnswer: 'Porque el Kirby Marmolado usó la habilidad de Piedra de Granito, volviéndose más duro que el acero',
+        correctAnswer: 'Que lograron su libertad y ya no están bajo el control del Rey.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'rd-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia la relación entre El Rosa y El Negro a lo largo del cuento?',
+        questionText: '¿Cómo cambia la relación entre El Rosa y El Negro durante el cuento?',
         options: [
-          'Empiezan como amigos y terminan peleados',
-          'Empiezan como rivales que se odian y terminan como compañeros que confían el uno en el otro',
-          'Nunca se hablan',
-          'Se vuelven enemigos del Kirby Amarillo'
+          'Empiezan como amigos y terminan peleados por la medalla.',
+          'Pasan de ser enemigos que se odian a compañeros que confían entre sí.',
+          'Nunca se hablan y cada uno hace su camino por separado.',
+          'Se alían desde el principio para engañar al Kirby Amarillo.'
         ],
-        correctAnswer: 'Empiezan como rivales que se odian y terminan como compañeros que confían el uno en el otro',
+        correctAnswer: 'Pasan de ser enemigos que se odian a compañeros que confían entre sí.',
       },
       {
         id: 'rd-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad de El Rosa le permite idear el plan final para salvar el reino?',
+        questionText: '¿Qué cualidad de El Rosa fue la más importante para el éxito del plan final?',
         options: [
-          'Su gran fuerza física',
-          'Su capacidad de observar, pensar rápido y trabajar en equipo a pesar de la rivalidad',
-          'Que era el más rápido corriendo',
-          'Su voz fuerte para gritar'
+          'Su gran fuerza física para levantar al Kirby Negro.',
+          'Su capacidad de pensar rápido y trabajar en equipo bajo presión.',
+          'Su habilidad para comer más rápido que el Rey Dedede.',
+          'Su velocidad para correr por la rampa de panqueques.'
         ],
-        correctAnswer: 'Su capacidad de observar, pensar rápido y trabajar en equipo a pesar de la rivalidad',
+        correctAnswer: 'Su capacidad de pensar rápido y trabajar en equipo bajo presión.',
       },
       {
         id: 'rd-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías al Rey Dedede en esta versión de la historia?',
+        questionText: '¿Cuál es el rasgo de personalidad que mejor define al Rey Dedede en este relato?',
         options: [
-          'Un líder amable y justo',
-          'Un villano egoísta y cruel que usa a los demás para su propio beneficio (comida)',
-          'Un pingüino miedoso que no hace nada',
-          'Un experto en carreras de Kirbys'
+          'Un líder sabio que cuida a sus Waddle Dees.',
+          'Un villano egoísta que usa a los demás para su beneficio.',
+          'Un pingüino miedoso que no se atreve a salir de su palco.',
+          'Un gran deportista que ama las carreras de Kirbys.'
         ],
-        correctAnswer: 'Un villano egoísta y cruel que usa a los demás para su propio beneficio (comida)',
+        correctAnswer: 'Un villano egoísta que usa a los demás para su beneficio.',
       },
     ],
   },

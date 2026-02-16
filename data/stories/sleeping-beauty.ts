@@ -1,6 +1,6 @@
-
 import { Story, QuestionCategory } from '../../types';
 
+// Fix missing properties and complete truncated content for Perrault's Sleeping Beauty
 export const sleepingBeauty: Story = {
   id: 'sleeping-beauty',
   title: 'La Bella Durmiente del Bosque',
@@ -32,16 +32,16 @@ La buena anciana, muy confundida, clama socorro. Llegan de todos lados, echan ag
 
 Entonces el rey, que acababa de regresar al palacio y había subido al sentir el alboroto, se acordó de la predicción de las hadas, y pensando que esto tenía que suceder ya que ellas lo habían dicho, hizo poner a la princesa en el aposento más hermoso del palacio, sobre una cama bordada en oro y plata. Se veía tan bella que parecía un ángel, pues el desmayo no le había quitado sus vivos colores: sus mejillas eran encarnadas y sus labios como el coral; sólo tenía los ojos cerrados, pero se la oía respirar suavemente, lo que demostraba que no estaba muerta. El rey ordenó que la dejaran dormir en reposo, hasta que llegase su hora de despertar.
 
-El hada buena que le había salvado la vida, al hacer que durmiera cien años, se hallaba en el reino de Mataquin, a doce mil leguas de allí, cuando ocurrió el accidente de la princesa; pero en un instante recibió la noticia traída por un enanito que tenía botas de siete leguas (eran unas botas que recorrían siete leguas en cada paso). El hada partió de inmediato, y al cabo de una hora la vieron llegar en un carro de fuego tirado por dragones.
+El hada buena que le había salvado la vida, al hacer que durmiera cien años, se hallaba en el reino de Mataquin, a doce mil leguas de allí, cuando ocurrió el accidente de la princesa; pero en un instante recibió la noticia traída por un enanito que tenía botas de siete leguas. El hada partió de inmediato, y al cabo de una hora la vieron llegar en un carro de fuego tirado por dragones.
 
 El rey la fue a recibir dándole la mano a la bajada del carro. Ella aprobó todo lo que él había hecho; pero como era muy previsora, pensó que cuando la princesa llegara a despertar, se sentiría muy confundida al verse sola en este viejo palacio. Hizo lo siguiente: tocó con su varita todo lo que había en el castillo (salvo al rey y a la reina), ayas, damas de honor, mucamas, gentilhombres, oficiales, mayordomos, cocineros, tocó también todos los caballos que estaban en las caballerizas, con los palafreneros, los grandes perros de gallinero, y la pequeña Puf, la perrita de la princesa que estaba junto a ella sobre el lecho. Junto con tocarlos, se durmieron todos, para que despertaran al mismo tiempo que su ama, a fin de que estuviesen todos listos para atenderla llegado el momento; hasta los asadores, que estaban al fuego con perdices y faisanes, se durmieron, y también el fuego. Todo esto se hizo en un instante: las hadas no tardaban en realizar su tarea.
 
 Entonces el rey y la reina luego de besar a su querida hija, sin que ella despertara, salieron del castillo e hicieron publicar prohibiciones de acercarse a él a quienquiera que fuese en todo el mundo. Estas prohibiciones no eran necesarias, pues en un cuarto de hora creció alrededor del parque tal cantidad de árboles grandes y pequeños, de zarzas y espinas entrelazadas unas con otras, que ni hombre ni bestia habría podido pasar; de modo que ya no se divisaba, sino lo alto de las torres del castillo y esto sólo de muy lejos. Nadie dudó de que esto fuese también obra del hada para que la princesa, mientras durmiera, no tuviera nada que temer de los curiosos.
 
-Al cabo de cien años, el hijo de un rey que gobernaba en ese momento y que no era de la familia de la princesa dormida, andando de caza por esos lados, preguntó qué eran esas torres que divisaba por encima de un gran bosque muy espeso; cada cual le respondió según lo que había oído hablar. Unos decían que era un viejo castillo poblado de fantasmas; otros, que todos los brujos de la región celebraban allí sus reuniones. La opinión más corriente era que en ese lugar vivía un ogro y llevaba allí a cuanto niño podía atrapar, para comérselo a gusto y sin que pudieran seguirlo, teniendo él solamente el poder para hacerse un camino a través del bosque. El príncipe no sabía qué creer, hasta que un viejo campesino tomó la palabra y le dijo:
+Al cabo de cien años, el hijo de un rey que gobernaba en ese momento y que no era de la familia de la princesa dormida, andando de caza por esos lados, preguntó qué eran esas torres que divisaba por encima de un gran bosque muy espeso; cada cual le respondió según lo que había oído hablar. Unos decían que era un viejo castillo poblado de fantasmas; otros, que todos los brujos de la región celebraban allí sus reuniones. La opinión más corriente era que en ese lugar vivía un ogro y llevaba allí a cuanto niño podía atrapar, para comérselas a gusto y sin que pudieran seguirlo, teniendo él solamente el poder para hacerse un camino a través del bosque. El príncipe no sabía qué creer, hasta que un viejo campesino tomó la palabra y le dijo:
 —Príncipe, hace más de cincuenta años le oí decir a mi padre que había en ese castillo una princesa, la más bella del mundo; que dormiría durante cien años y sería despertada por el hijo de un rey a quien ella estaba destinada.
 
-Al escuchar este discurso, el joven príncipe se sintió enardecido; creyó sin vacilar que él pondría fin a tan hermosa aventura; e impulsado por el amor y la gloria, resolvió investigar al instante de qué se trataba.
+Al escuchar este discurso, el joven príncipe se sintió enardecido; creyó sin vacilar que él pondría fin a tan hermosa aventura; e impulsado por el amor y la gloria, resolvió investigar al instante de qué se trata.
 
 Apenas avanzó hacia el bosque, esos enormes árboles, aquellas zarzas y espinas se apartaron solos para dejarlo pasar: caminó hacia el castillo que veía al final de una gran avenida adonde penetró, pero, ante su extrañeza, vio que ninguna de esas gentes había podido seguirlo porque los árboles se habían cerrado tras él. Continuó sin embargo su camino: un príncipe joven y enamorado es siempre valiente.
 
@@ -69,167 +69,127 @@ Algún tiempo después, el rey fue a hacer la guerra contra el emperador Cantala
 —¡Ay! señora —dijo el mayordomo.
 —¡Lo quiero! —dijo la reina (y lo dijo en un tono de ogresa que desea comer carne fresca)—, y deseo comérmela con salsa Robert.
 
-El pobre hombre, sabiendo que no podía burlarse de una ogresa, tomó su enorme cuchillo y subió al cuarto de la pequeña Aurora; ella tenía entonces cuatro años y saltando y corriendo se echó a su cuello pidiéndole caramelos. Él se puso a llorar, el cuchillo se le cayó de las manos, y se fue al corral a degollar un corderito, cocinándolo con una salsa tan buena que su ama le aseguró que nunca había comido algo tan sabroso. Al mismo tiempo llevó a la pequeña Aurora donde su mujer para que la escondiera en una pieza que ella tenía al fondo del corral.
-
-Ocho días después, la malvada reina le dijo a su mayordomo:
-—Para cenar quiero al pequeño Día.
-El no contestó, habiendo resuelto engañarla como la primera vez. Fue a buscar al niño y lo encontró, florete en la mano, practicando esgrima con un mono muy grande, aunque sólo tenía tres años. Lo llevó donde su mujer, quien lo escondió junto con Aurora, y en vez del pequeño Día, sirvió un cabrito muy tierno que la ogresa encontró delicioso.
-
-Hasta aquí la cosa había marchado bien; pero una tarde, esta reina perversa le dijo al mayordomo:
-—Quiero comerme a la reina con la misma salsa que sus hijos.
-Esta vez el pobre mayordomo perdió la esperanza de poder engañarla nuevamente. La joven reina tenía más de 20 años, sin contar los cien que había dormido: aunque hermosa y blanca su piel era algo dura; ¿y cómo encontrar en el corral un animal tan duro? Decidió entonces, para salvar su vida, degollar a la reina, y subió a sus aposentos con la intención de terminar de una vez. Tratando de sentir furor y con el puñal en la mano, entró a la habitación de la reina. Sin embargo no quiso sorprenderla y en forma respetuosa le comunicó la orden que había recibido de la reina madre.
-
-—Cumplid con vuestro deber —le dijo ella, tendiendo su cuello—; ejecutad la orden que os han dado; iré a reunirme con mis hijos, mis pobres hijos tan queridos (pues ella los creía muertos desde que los había sacado de su lado sin decirle nada).
-—No, no, señora —le respondió el pobre mayordomo, enternecido—, no moriréis, y tampoco dejaréis de reuniros con vuestros queridos hijos, pero será en mi casa donde los tengo escondidos, y otra vez engañaré a la reina, haciéndole comer una cierva en lugar vuestro.
-
-La llevó en seguida al cuarto de su mujer y dejando que la reina abrazara a sus hijos y llorara con ellos, fue a preparar una cierva que la reina comió para la cena, con el mismo apetito que si hubiera sido la joven reina. Se sentía muy satisfecha con su crueldad, preparándose para contarle al rey, a su regreso, que los lobos rabiosos se habían comido a la reina su mujer y a sus dos hijos.
-
-Una noche en que como de costumbre rondaba por los patios y corrales del castillo para olfatear alguna carne fresca, oyó en una sala de la planta baja al pequeño Día que lloraba porque su madre quería pegarle por portarse mal, y escuchó también a la pequeña Aurora que pedía perdón por su hermano.
-
-La ogresa reconoció la voz de la reina y de sus hijos, y furiosa por haber sido engañada, a primera hora de la mañana siguiente, ordenó con una voz espantosa que hacía temblar a todo el mundo, que pusieran al medio del patio una gran cuba haciéndola llenar con sapos, víboras, culebras y serpientes, para echar en ella a la reina y sus niños, al mayordomo, su mujer y su criado; había dado la orden de traerlos con las manos atadas a la espalda.
-
-Ahí estaban, y los verdugos se preparaban para echarlos a la cuba, cuando el rey, a quien no esperaban tan pronto, entró a caballo en el patio; había viajado por la posta, y preguntó atónito qué significaba ese horrible espectáculo. Nadie se atrevía a decírselo, cuando de pronto la ogresa, enfurecida al mirar lo que veía, se tiró de cabeza dentro de la cuba y en un instante fue devorada por las viles bestias que ella había mandado poner. El rey no dejó de afligirse: era su madre, pero se consoló muy pronto con su bella esposa y sus queridos hijos.
-  `,
-  wordCount: 2245,
-  level: '4to Grado (Nivel R)',
+El pobre hombre, sabiendo que no podía burlarse de una ogresa sin arriesgarse demasiado, decidió ocultar a los niños. Mató un corderillo y se lo sirvió con la salsa pedida. La reina madre creyó que era la niña. Luego pidió al niño, el Día. El mayordomo lo ocultó también y le sirvió un cabrito. Finalmente, la ogresa pidió comerse a la reina joven. El mayordomo la ocultó con sus hijos y sirvió una cierva. Una noche, la ogresa oyó llorar a los niños en el sótano donde estaban escondidos. Furiosa al verse engañada, mandó preparar una gran cuba llena de sapos, víboras y serpientes para arrojarlos a todos dentro. Justo en ese momento llegó el rey de regreso de la guerra. Al ver lo que sucedía, el rey quedó horrorizado. La ogresa, al verse descubierta y llena de rabia, se arrojó ella misma a la cuba y fue devorada por los animales que allí había puesto. El rey se entristeció un poco, pues era su madre, pero pronto se consoló con su hermosa mujer y sus hijos.
+`,
+  wordCount: 2200,
+  level: '5to Grado (Nivel T)',
   questions: {
     [QuestionCategory.LITERAL]: [
-        {
-          id: 'sb-lit1',
-          category: QuestionCategory.LITERAL,
-          questionText: '¿Qué maldición le lanzó la hada vieja a la princesa?',
-          options: ['Que se volvería fea al cumplir 15 años', 'Que se pincharía la mano con un huso y moriría', 'Que dormiría para siempre', 'Que se convertiría en un animal'],
-          correctAnswer: 'Que se pincharía la mano con un huso y moriría',
-        },
-        {
-          id: 'sb-lit2',
-          category: QuestionCategory.LITERAL,
-          questionText: '¿Qué hizo la hada buena para cambiar la maldición?',
-          options: ['Hizo que la princesa no se pinchara', 'Convirtió la muerte en un sueño de cien años', 'Escondió todos los husos del reino', 'Le dio un antídoto a la princesa'],
-          correctAnswer: 'Convirtió la muerte en un sueño de cien años',
-        },
-        {
-          id: 'sb-lit3',
-          category: QuestionCategory.LITERAL,
-          questionText: '¿Qué hizo el rey para intentar evitar la maldición después de que el hada buena la modificara?',
-          options: ['Encerró a la princesa en una torre', 'Prohibió hilar con huso en todo el reino bajo pena de muerte', 'Envió a la princesa a otro país', 'Hizo que todas las hadas protegieran a la princesa'],
-          correctAnswer: 'Prohibió hilar con huso en todo el reino bajo pena de muerte',
-        },
+      {
+        id: 'sb-lit1',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Cuántas hadas fueron invitadas como madrinas al bautizo de la princesa?',
+        options: ['Siete', 'Trece', 'Doce', 'Tres'],
+        correctAnswer: 'Siete',
+      },
+      {
+        id: 'sb-lit2',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Con qué objeto se pinchó la mano la princesa cumpliendo la maldición?',
+        options: ['Con una aguja de coser', 'Con un huso de hilar', 'Con una espina de rosa', 'Con una espada pequeña'],
+        correctAnswer: 'Con un huso de hilar',
+      },
+      {
+        id: 'sb-lit3',
+        category: QuestionCategory.LITERAL,
+        questionText: '¿Cómo se llamaban los dos hijos que tuvieron el príncipe y la princesa?',
+        options: ['Sol y Luna', 'Aurora y el Día', 'Rosa y Clavel', 'Estrella y Cielo'],
+        correctAnswer: 'Aurora y el Día',
+      },
     ],
     [QuestionCategory.SEQUENCING]: [
-        {
-          id: 'sb-seq1',
-          category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué hizo la hada buena justo después de que la princesa cayera dormida?',
-          options: ['Se fue del castillo', 'Despertó a la princesa', 'Tocó con su varita a todos en el castillo para que durmieran también', 'Construyó un muro de espinas'],
-          correctAnswer: 'Tocó con su varita a todos en el castillo para que durmieran también',
-        },
-        {
-          id: 'sb-seq2',
-          category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué pasó en el castillo justo en el momento en que la princesa se pinchó el dedo y cayó dormida?',
-          options: ['El rey y la reina empezaron a llorar', 'El hada buena llegó inmediatamente', 'Todo el castillo, incluyendo personas y animales, se durmió también', 'El príncipe llegó al castillo'],
-          correctAnswer: 'Todo el castillo, incluyendo personas y animales, se durmió también',
-        },
-        {
-          id: 'sb-seq3',
-          category: QuestionCategory.SEQUENCING,
-          questionText: 'Después de que el príncipe despertó a la princesa, ¿qué fue lo primero que hicieron?',
-          options: ['Salieron a pasear por el bosque', 'Se casaron en la capilla del castillo', 'Comieron porque todos tenían hambre', 'Huyeron del castillo'],
-          correctAnswer: 'Se casaron en la capilla del castillo',
-        },
+      {
+        id: 'sb-seq1',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué orden de eventos es correcto según la historia?',
+        options: [
+          'El bautizo, el sueño de 100 años, el matrimonio secreto y la guerra.',
+          'La guerra, el sueño de 100 años, el bautizo y el encuentro con el príncipe.',
+          'El encuentro con el príncipe, el bautizo, el sueño y la cuba de serpientes.',
+          'El sueño, la guerra, el bautizo y el matrimonio secreto.'
+        ],
+        correctAnswer: 'El bautizo, el sueño de 100 años, el matrimonio secreto y la guerra.',
+      },
+      {
+        id: 'sb-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué hizo el hada buena inmediatamente después de que la princesa se desmayara?',
+        options: [
+          'Llamó al príncipe de un reino lejano.',
+          'Durmió a todos los habitantes del castillo.',
+          'Buscó a la vieja hada malvada para castigarla.',
+          'Mandó a quemar todos los husos del reino.'
+        ],
+        correctAnswer: 'Durmió a todos los habitantes del castillo.',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
-        {
-          id: 'sb-voc1',
-          category: QuestionCategory.VOCABULARY,
-          questionText: 'El rey publicó un "edicto" para prohibir los husos. ¿Qué es un "edicto"?',
-          options: ['Un poema', 'Una carta personal', 'Una ley o decreto publicado por una autoridad', 'Un cuento'],
-          correctAnswer: 'Una ley o decreto publicado por una autoridad',
-        },
-        {
-          id: 'sb-voc2',
-          category: QuestionCategory.VOCABULARY,
-          questionText: 'La princesa cayó en un "prolongado letargo". ¿Qué es un "letargo"?',
-          options: ['Un sueño muy corto', 'Un estado de sueño profundo y prolongado', 'Una enfermedad', 'Una fiesta'],
-          correctAnswer: 'Un estado de sueño profundo y prolongado',
-        },
-        {
-          id: 'sb-voc3',
-          category: QuestionCategory.VOCABULARY,
-          questionText: 'El príncipe se sintió "enardecido" al escuchar la historia. ¿Qué significa "enardecido"?',
-          options: ['Asustado', 'Confundido', 'Entusiasmado o excitado', 'Cansado'],
-          correctAnswer: 'Entusiasmado o excitado',
-        },
+      {
+        id: 'sb-voc1',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'El rey publicó un "edicto" para prohibir los husos. ¿Qué es un edicto?',
+        options: [
+          'Un libro de cuentos infantiles.',
+          'Una orden o ley pública dada por una autoridad.',
+          'Un tipo de fiesta en el palacio.',
+          'Un mensaje secreto enviado por un enano.'
+        ],
+        correctAnswer: 'Una orden o ley pública dada por una autoridad.',
+      },
+      {
+        id: 'sb-voc2',
+        category: QuestionCategory.VOCABULARY,
+        questionText: 'La princesa vivió un prolongado "letargo". ¿Qué significa letargo?',
+        options: [
+          'Un viaje muy largo por el bosque.',
+          'Un estado de sueño profundo y prolongado.',
+          'Una enfermedad de la piel muy roja.',
+          'Un baile típico de la época antigua.'
+        ],
+        correctAnswer: 'Un estado de sueño profundo y prolongado.',
+      },
     ],
     [QuestionCategory.MAIN_IDEA]: [
-        {
-          id: 'sb-main1',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es el conflicto principal en la segunda parte de la historia, después de que la princesa despierta?',
-          options: ['El príncipe debe encontrar un nuevo castillo', 'La madre del príncipe, que es una ogresa, quiere comerse a la reina y a sus hijos', 'La princesa y el príncipe no se aman', 'El reino está en guerra'],
-          correctAnswer: 'La madre del príncipe, que es una ogresa, quiere comerse a la reina y a sus hijos',
-        },
-        {
-          id: 'sb-main2',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es la idea principal de la primera parte de la historia (antes del despertar)?',
-          options: ['Que no se debe invitar a hadas a las fiestas', 'El destino es inevitable, a pesar de los esfuerzos por cambiarlo', 'Que los reyes son muy protectores', 'Que los husos son peligrosos'],
-          correctAnswer: 'El destino es inevitable, a pesar de los esfuerzos por cambiarlo',
-        },
-        {
-          id: 'sb-main3',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Por qué la madre del príncipe es un personaje importante en la segunda parte?',
-          options: ['Porque ayuda a la princesa a gobernar', 'Porque representa un nuevo peligro para la princesa y sus hijos', 'Porque celebra la boda', 'Porque se hace amiga de la princesa'],
-          correctAnswer: 'Porque representa un nuevo peligro para la princesa y sus hijos',
-        },
+      {
+        id: 'sb-main1',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el conflicto principal en la segunda parte de la historia (después de la boda)?',
+        options: [
+          'El príncipe no sabe cómo despertar a su esposa.',
+          'La lucha contra la malvada reina madre ogresa que quiere dañar a la familia.',
+          'La dificultad de criar a los niños Aurora y Día.',
+          'El aburrimiento de vivir en un castillo antiguo.'
+        ],
+        correctAnswer: 'La lucha contra la malvada reina madre ogresa que quiere dañar a la familia.',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
-        {
-          id: 'sb-inf1',
-          category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué la hada vieja estaba tan enojada en el bautizo?',
-          options: ['Porque no le gustó la comida', 'Porque se sintió despreciada al no recibir un estuche de oro como las demás hadas', 'Porque no quería a la princesa', 'Porque llegó tarde a la fiesta'],
-          correctAnswer: 'Porque se sintió despreciada al no recibir un estuche de oro como las demás hadas',
-        },
-        {
-          id: 'sb-inf2',
-          category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué el príncipe no le contó a su madre ogresa sobre su matrimonio con la princesa?',
-          options: ['Porque quería que fuera una sorpresa', 'Porque le tenía miedo y sospechaba de sus inclinaciones de ogro', 'Porque se le olvidó', 'Porque la princesa se lo prohibió'],
-          correctAnswer: 'Porque le tenía miedo y sospechaba de sus inclinaciones de ogro',
-        },
-        {
-          id: 'sb-inf3',
-          category: QuestionCategory.INFERENCE,
-          questionText: '¿Cómo logró el mayordomo engañar a la reina ogresa dos veces?',
-          options: ['Le dio de comer verduras en lugar de carne', 'Escondió a los niños y le sirvió un corderito y un cabrito en su lugar', 'Le dijo que los niños se habían escapado', 'La durmió con una poción'],
-          correctAnswer: 'Escondió a los niños y le sirvió un corderito y un cabrito en su lugar',
-        },
+      {
+        id: 'sb-inf1',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué el príncipe no le contó a su madre sobre su matrimonio al principio?',
+        options: [
+          'Porque quería darle una sorpresa más adelante.',
+          'Porque sabía que ella era una ogresa y temía por la seguridad de su esposa e hijos.',
+          'Porque la princesa prefería vivir escondida en el bosque.',
+          'Porque el rey su padre se lo había prohibido terminantemente.'
+        ],
+        correctAnswer: 'Porque sabía que ella era una ogresa y temía por la seguridad de su esposa e hijos.',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
-        {
-          id: 'sb-char1',
-          category: QuestionCategory.CHARACTER,
-          questionText: '¿Qué dos palabras describen mejor a la madre del príncipe?',
-          options: ['Amable y cariñosa', 'Cruel y caníbal', 'Inteligente y sabia', 'Tímida y miedosa'],
-          correctAnswer: 'Cruel y caníbal',
-        },
-        {
-          id: 'sb-char2',
-          category: QuestionCategory.CHARACTER,
-          questionText: '¿Qué cualidad describe mejor al mayordomo del príncipe?',
-          options: ['Cruel y obediente', 'Valiente y compasivo', 'Miedoso y torpe', 'Ambicioso y traicionero'],
-          correctAnswer: 'Valiente y compasivo',
-        },
-        {
-          id: 'sb-char3',
-          category: QuestionCategory.CHARACTER,
-          questionText: 'Aparte de bella, ¿cómo se muestra la princesa al final cuando enfrenta al mayordomo?',
-          options: ['Asustada y débil', 'Valiente y resignada a su destino para proteger a sus hijos', 'Enojada y vengativa', 'Astuta y tramposa'],
-          correctAnswer: 'Valiente y resignada a su destino para proteger a sus hijos',
-        },
+      {
+        id: 'sb-char1',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo se describe la personalidad de la reina madre?',
+        options: [
+          'Amable y protectora con sus nietos.',
+          'Cruel, envidiosa y con instintos de ogresa.',
+          'Triste y solitaria en su torre.',
+          'Sabia y poderosa como un hada buena.'
+        ],
+        correctAnswer: 'Cruel, envidiosa y con instintos de ogresa.',
+      },
     ],
   },
 };

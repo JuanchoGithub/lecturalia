@@ -1,4 +1,3 @@
-
 import { Story, QuestionCategory } from '../../types';
 
 export const cinderella: Story = {
@@ -13,221 +12,262 @@ El marido, por su lado, tenía una hija, pero de una dulzura y bondad sin par; l
 
 Junto con realizarse la boda, la madrastra dio libre curso a su mal carácter; no pudo soportar las cualidades de la joven, que hacían aparecer todavía más odiables a sus hijas. La obligó a las más viles tareas de la casa: ella era la que fregaba los pisos y la vajilla, la que limpiaba los cuartos de la señora y de las señoritas sus hijas; dormía en lo más alto de la casa, en una buhardilla, sobre una mísera pallasa, mientras sus hermanas ocupaban habitaciones con parquet, donde tenían camas a la última moda y espejos en que podían mirarse de cuerpo entero.
 
-La pobre muchacha aguantaba todo con paciencia, y no se atrevía a quejarse ante su padre, de miedo que le reprendiera pues su mujer lo dominaba por completo. Cuando terminaba sus quehaceres, se instalaba en el rincón de la chimenea, sentándose sobre las cenizas, lo que le había merecido el apodo de Culocenizón. La menor, que no era tan mala como la mayor, la llamaba Cenicienta; sin embargo Cenicienta, con sus míseras ropas, no dejaba de ser cien veces más hermosa que sus hermanas que andaban tan ricamente vestidas.
+La pobre muchacha aguantaba todo con paciencia, y no se atreía a quejarse ante su padre, de miedo que le reprendiera pues su mujer lo dominaba por completo. Cuando terminaba sus quehaceres, se instalaba en el rincón de la chimenea, sentándose sobre las cenizas, lo que le valió el apodo de Cenicienta.
 
-Sucedió que el hijo del rey dio un baile al que invitó a todas las personas distinguidas; nuestras dos señoritas también fueron invitadas, pues tenían mucho nombre en la comarca. Helas aquí muy satisfechas y preocupadas de elegir los trajes y peinados que mejor les sentaran; nuevo trabajo para Cenicienta pues era ella quien planchaba la ropa de sus hermanas y plisaba los adornos de sus vestidos. No se hablaba más que de la forma en que irían trajeadas.
+Sucedió que el hijo del rey dio un baile al que invitó a todas las personas distinguidas. Las dos hermanas también fueron invitadas. Cenicienta las ayudó a vestirse, a peinarse y a elegir sus mejores galas. Aunque se burlaban de ella, Cenicienta las atendía con su bondad habitual.
 
-—Yo, dijo la mayor, me pondré mi vestido de terciopelo rojo y mis adornos de Inglaterra.
-—Yo, dijo la menor, iré con mi falda sencilla; pero en cambio, me pondré mi abrigo con flores de oro y mi prendedor de brillantes, que no pasarán desapercibidos.
+Cuando partieron al palacio, Cenicienta se echó a llorar. Entonces apareció su hada madrina.
+—¿Te gustaría ir al baile? —le preguntó.
+—¡Oh, sí! —respondió Cenicienta suspirando.
+El hada madrina, con un toque de su varita, transformó una calabaza en una carroza dorada, seis ratones en hermosos caballos, una rata en un cochero y seis lagartos en lacayos. Finalmente, transformó los harapos de Cenicienta en un vestido de tela de oro y plata, adornado con pedrería, y le dio un par de zapatitos de cristal, los más bellos del mundo.
 
-Manos expertas se encargaron de armar los peinados de dos pisos y se compraron lunares postizos. Llamaron a Cenicienta para pedirle su opinión, pues tenía buen gusto. Cenicienta las aconsejó lo mejor posible, y se ofreció incluso para arreglarles el peinado, lo que aceptaron. Mientras las peinaba, ellas le decían:
-— Cenicienta, ¿te gustaría ir al baile?
-—Ay, señoritas, os estáis burlando, eso no es cosa para mí.
-—Tienes razón, se reirían bastante si vieran a un Culocenizón entrar al baile.
-Otra que Cenicienta las habría arreglado mal los cabellos, pero ella era buena y las peinó con toda perfección.
+Pero le advirtió:
+—No te quedes más allá de la medianoche, porque entonces la carroza volverá a ser calabaza, los caballos ratones y tus vestidos volverán a ser harapos.
 
-Tan contentas estaban que pasaron cerca de dos días sin comer. Más de doce cordones rompieron a fuerza de apretarlos para que el talle se les viera más fino, y se lo pasaban delante del espejo.
+Cenicienta llegó al palacio y su belleza deslumbró a todos. El príncipe no se apartó de ella en toda la noche. Al sonar las doce menos cuarto, Cenicienta hizo una gran reverencia y regresó a su casa.
 
-Finalmente, llegó el día feliz; partieron y Cenicienta las siguió con los ojos y cuando las perdió de vista se puso a llorar. Su madrina, que la vio anegada en lágrimas, le preguntó qué le pasaba.
-—Me gustaría... me gustaría...
-Lloraba tanto que no pudo terminar. Su madrina, que era un hada, le dijo:
-—¿Te gustaría ir al baile, no es cierto?
-—¡Ay, sí!, dijo Cenicienta suspirando.
-—¡Bueno, te portarás bien!, dijo su madrina, yo te haré ir.
+Al día siguiente, hubo otra fiesta. Cenicienta asistió aún más hermosa. Pero se divirtió tanto que olvidó la advertencia del hada. Al sonar la primera campanada de la medianoche, huyó del palacio como un ciervo. El príncipe corrió tras ella, pero no pudo alcanzarla; solo encontró uno de sus zapatitos de cristal que se le había caído al correr.
 
-La llevó a su cuarto y le dijo:
-—Ve al jardín y tráeme un zapallo.
-Cenicienta fue en el acto a coger el mejor que encontró y lo llevó a su madrina, sin poder adivinar cómo este zapallo podría hacerla ir al baile. Su madrina lo vació y dejándole solamente la cáscara, lo tocó con su varita mágica e instantáneamente el zapallo se convirtió en un bello carruaje todo dorado.
+Días después, el hijo del rey proclamó que se casaría con aquella persona a la que le calzara exactamente el zapatito. Lo probaron princesas, duquesas y toda la corte, pero sin éxito. Finalmente llegaron a casa de las dos hermanas. Ellas hicieron lo posible por introducir el pie en el zapato, pero no pudieron.
 
-En seguida miró dentro de la ratonera donde encontró seis ratas vivas. Le dijo a Cenicienta que levantara un poco la puerta de la trampa, y a cada rata que salía le daba un golpe con la varita, y la rata quedaba automáticamente transformada en un brioso caballo; lo que hizo un tiro de seis caballos de un hermoso color gris ratón. Como no encontraba con qué hacer un cochero:
-—Voy a ver, dijo Cenicienta, si hay algún ratón en la trampa, para hacer un cochero.
-—Tienes razón, dijo su madrina, anda a ver.
-Cenicienta le llevó la trampa donde había tres ratones gordos. El hada eligió uno por su imponente barba, y habiéndolo tocado quedó convertido en un cochero gordo con un precioso bigote. En seguida, ella le dijo:
-—Baja al jardín, encontrarás seis lagartos detrás de la regadera; tráemelos.
-Tan pronto los trajo, la madrina los trocó en seis lacayos que se subieron en seguida a la parte posterior del carruaje, con sus trajes galoneados, sujetándose a él como si en su vida hubieran hecho otra cosa. El hada dijo entonces a Cenicienta:
-—Bueno, aquí tienes para ir al baile, ¿no estás bien aperada?
-—Es cierto, pero, ¿podré ir así, con estos vestidos tan feos?
+Cenicienta, que las miraba, dijo riendo:
+—¿Puedo probar yo?
+Sus hermanas se echaron a reír y se burlaron de ella. Pero el gentilhombre encargado de la prueba vio que era muy hermosa y dijo que tenía orden de probárselo a todas las jóvenes. Cenicienta se sentó y, en cuanto acercó el zapato a su pie, vio que calzaba sin esfuerzo alguno.
 
-Su madrina no hizo más que tocarla con su varita, y al momento sus ropas se cambiaron en magníficos vestidos de paño de oro y plata, todos recamados con pedrerías; luego le dio un par de zapatillas de cristal, las más preciosas del mundo.
+La sorpresa de las hermanas fue grande, pero mayor aún cuando Cenicienta sacó de su bolsillo el otro zapatito y se lo puso. En ese momento apareció el hada madrina y, tocando con su varita los vestidos de Cenicienta, los volvió más magníficos que los anteriores.
 
-Una vez ataviada de este modo, Cenicienta subió al carruaje; pero su madrina le recomendó sobre todo que regresara antes de la medianoche, advirtiéndole que si se quedaba en el baile un minuto más, su carroza volvería a convertirse en zapallo, sus caballos en ratas, sus lacayos en lagartos, y que sus viejos vestidos recuperarían su forma primitiva. Ella prometió a su madrina que saldría del baile antes de la medianoche. Partió, loca de felicidad.
-
-El hijo del rey, a quien le avisaron que acababa de llegar una gran princesa que nadie conocía, corrió a recibirla; le dio la mano al bajar del carruaje y la llevó al salón donde estaban los comensales. Entonces se hizo un gran silencio: el baile cesó y los violines dejaron de tocar, tan absortos estaban todos contemplando la gran belleza de esta desconocida. Sólo se oía un confuso rumor:
-—¡Ah, qué hermosa es!
-
-El mismo rey, siendo viejo, no dejaba de mirarla y de decir por lo bajo a la reina que desde hacía mucho tiempo no veía una persona tan bella y graciosa. Todas las damas observaban con atención su peinado y sus vestidos, para tener al día siguiente otros semejantes, siempre que existieran telas igualmente bellas y manos tan diestras para confeccionarlos. El hijo del rey la colocó en el sitio de honor y en seguida la condujo al salón para bailar con ella. Bailó con tanta gracia que fue un motivo más de admiración.
-
-Trajeron exquisitos manjares que el príncipe no probó, ocupado como estaba en observarla. Ella fue a sentarse al lado de sus hermanas y les hizo mil atenciones; compartió con ellas los limones y naranjas que el príncipe le había obsequiado, lo que las sorprendió mucho, pues no la conocían. Charlando así estaban, cuando Cenicienta oyó dar las once tres cuartos; hizo al momento una gran reverenda a los asistentes y se fue a toda prisa.
-
-Apenas hubo llegado, fue a buscar a su madrina y después de darle las gracias, le dijo que desearía mucho ir al baile al día siguiente porque el príncipe se lo había pedido. Cuando le estaba contando a su madrina todo lo que había sucedido en el baile, las dos hermanas golpearon a su puerta; Cenicienta fue a abrir.
-—¡Cómo habéis tardado en volver! les dijo bostezando, frotándose los ojos y estirándose como si acabara de despertar; sin embargo no había tenido ganas de dormir desde que se separaron.
-—Si hubieras ido al baile, le dijo una de las hermanas, no te habrías aburrido; asistió la más bella princesa, la más bella que jamás se ha visto; nos hizo mil atenciones, nos dio naranjas y limones.
-
-Cenicienta estaba radiante de alegría. Les preguntó el nombre de esta princesa; pero contestaron que nadie la conocía, que el hijo del rey no se conformaba y que daría todo en el mundo por saber quién era. Cenicienta sonrió y les dijo:
-—¿Era entonces muy hermosa? Dios mío, felices vosotras, ¿no podría verla yo? Ay, señorita Javotte, prestadme el vestido amarillo que usáis todos los días.
-—Verdaderamente, dijo la señorita Javotte, ¡no faltaba más! Prestarle mi vestido a tan feo Culocenizón tendría que estar loca.
-
-Cenicienta esperaba esta negativa, y se alegró, pues se habría sentido bastante confundida si su hermana hubiese querido prestarle el vestido.
-
-Al día siguiente, las dos hermanas fueron al baile, y Cenicienta también, pero aún más ricamente ataviada que la primera vez. El hijo del rey estuvo constantemente a su lado y diciéndole cosas agradables; nada aburrida estaba la joven damisela y olvidó la recomendación de su madrina; de modo que oyó tocar la primera campanada de medianoche cuando creía que no eran ni las once. Se levantó y salió corriendo, ligera como una gacela. El príncipe la siguió, pero no pudo alcanzarla; ella había dejado caer una de sus zapatillas de cristal que el príncipe recogió con todo cuidado.
-
-Cenicienta llegó a casa sofocada, sin carroza, sin lacayos, con sus viejos vestidos, pues no le había quedado de toda su magnificencia sino una de sus zapatillas, igual a la que se le había caído.
-
-Preguntaron a los porteros del palacio si habían visto salir a una princesa; dijeron que no habían visto salir a nadie, salvo una muchacha muy mal vestida que tenía más aspecto de aldeana que de señorita.
-
-Cuando sus dos hermanas regresaron del baile, Cenicienta les preguntó si esta vez también se habían divertido y si había ido la hermosa dama. Dijeron que si, pero que había salido escapada al dar las doce, y tan rápidamente que había dejado caer una de sus zapatillas de cristal, la más bonita del mundo; que el hijo del rey la había recogido dedicándose a contemplarla durante todo el resto del baile, y que sin duda estaba muy enamorado de la bella personita dueña de la zapatilla. Y era verdad, pues a los pocos días el hijo del rey hizo proclamar al son de trompetas que se casaría con la persona cuyo pie se ajustara a la zapatilla.
-
-Empezaron probándola a las princesas, en seguida a las duquesas, y a toda la corte, pero inútilmente. La llevaron donde las dos hermanas, las que hicieron todo lo posible para que su pie cupiera en la zapatilla, pero no pudieron.
-
-Cenicienta, que las estaba mirando, y que reconoció su zapatilla, dijo riendo:
-—¿Puedo probar si a mí me calza?
-Sus hermanas se pusieron a reír y a burlarse de ella. El gentilhombre que probaba la zapatilla, habiendo mirado atentamente a Cenicienta y encontrándola muy linda, dijo que era lo justo, y que él tenía orden de probarla a todas las jóvenes. Hizo sentarse a Cenicienta y acercando la zapatilla a su piececito, vio que encajaba sin esfuerzo y que era hecha a su medida.
-
-Grande fue el asombro de las dos hermanas, pero más grande aún cuando Cenicienta sacó de su bolsillo la otra zapatilla y se la puso. En esto llegó la madrina que, habiendo tocado con su varita los vestidos de Cenicienta, los volvió más deslumbrantes aún que los anteriores.
-
-Entonces las dos hermanas la reconocieron como la persona que habían visto en el baile. Se arrojaron a sus pies para pedirle perdón por todos los malos tratos que le habían infligido. Cenicienta las hizo levantarse y les dijo, abrazándolas, que las perdonaba de todo corazón y les rogó que siempre la quisieran.
-
-Fue conducida ante el joven príncipe, vestida como estaba. Él la encontró más bella que nunca, y pocos días después se casaron. Cenicienta, que era tan buena como hermosa, hizo llevar a sus hermanas a morar en el palacio y las casó en seguida con dos grandes señores de la corte.
-  `,
-  wordCount: 1470,
-  level: '3er Grado (Nivel P)',
+Las hermanas reconocieron en ella a la hermosa joven que habían visto en el baile. Se arrojaron a sus pies pidiéndole perdón por los malos tratos. Cenicienta las abrazó y les dijo que las perdonaba de todo corazón. La llevaron ante el joven príncipe, quien la encontró más bella que nunca, y pocos días después se casaron.
+`,
+  // Added missing wordCount, level, and questions properties
+  wordCount: 712,
+  level: '3er Grado (Nivel O)',
   questions: {
     [QuestionCategory.LITERAL]: [
       {
         id: 'cin-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué apodo le pusieron a la joven por sentarse en las cenizas?',
-        options: ['Princesa de las Cenizas', 'Cenicienta', 'Culocenizón', 'La Sirvienta'],
-        correctAnswer: 'Culocenizón',
+        questionText: '¿Por qué llamaban a la joven "Cenicienta"?',
+        options: [
+          'Porque le gustaba comer pan quemado.',
+          'Porque se sentaba sobre las cenizas de la chimenea.',
+          'Porque sus vestidos eran de color gris ceniza.',
+          'Porque era el nombre de su madre.'
+        ],
+        correctAnswer: 'Porque se sentaba sobre las cenizas de la chimenea.',
       },
       {
         id: 'cin-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué objeto dejó caer Cenicienta al huir del baile a medianoche?',
-        options: ['Un guante', 'Un collar', 'Una de sus zapatillas de cristal', 'Un pañuelo'],
-        correctAnswer: 'Una de sus zapatillas de cristal',
+        questionText: '¿En qué transformó el hada madrina a los seis ratones?',
+        options: [
+          'En hermosos caballos.',
+          'En pequeños lacayos.',
+          'En un cochero gordo.',
+          'En sirvientes del palacio.'
+        ],
+        correctAnswer: 'En hermosos caballos.',
       },
       {
         id: 'cin-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué convirtió el hada madrina a los seis lagartos?',
-        options: ['Caballos', 'Un cochero', 'Seis lacayos', 'El carruaje'],
-        correctAnswer: 'Seis lacayos',
+        questionText: '¿Qué objeto perdió Cenicienta al huir del baile a medianoche?',
+        options: [
+          'Una cinta azul de su vestido.',
+          'Un zapatito de cristal.',
+          'Un collar de perlas.',
+          'Un guante de seda blanca.'
+        ],
+        correctAnswer: 'Un zapatito de cristal.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'cin-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el hada madrina justo después de convertir el zapallo en un carruaje?',
-        options: ['Convirtió el ratón en cochero', 'Convirtió las ratas en caballos', 'Le dio a Cenicienta un vestido nuevo', 'Le dio las zapatillas de cristal'],
-        correctAnswer: 'Convirtió las ratas en caballos',
+        questionText: '¿Qué hizo Cenicienta justo después de que sus hermanas partieran al palacio?',
+        options: [
+          'Se fue a dormir a la buhardilla.',
+          'Se puso a llorar de tristeza.',
+          'Buscó una calabaza en el jardín.',
+          'Limpió toda la cocina de nuevo.'
+        ],
+        correctAnswer: 'Se puso a llorar de tristeza.',
       },
       {
         id: 'cin-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Cenicienta inmediatamente después de que el príncipe le probara la zapatilla y le calzara perfectamente?',
-        options: ['Se casó con el príncipe', 'Sacó la otra zapatilla de su bolsillo', 'Perdonó a sus hermanas', 'Huyó del lugar'],
-        correctAnswer: 'Sacó la otra zapatilla de su bolsillo',
+        questionText: '¿Cuál fue el orden de las transformaciones del hada?',
+        options: [
+          'Calabaza, ratones, rata, lagartos y finalmente Cenicienta.',
+          'Cenicienta, calabaza, rata y luego los ratones.',
+          'Ratones, lagartos, calabaza y luego el zapato.',
+          'Cenicienta, zapato y luego la carroza dorada.'
+        ],
+        correctAnswer: 'Calabaza, ratones, rata, lagartos y finalmente Cenicienta.',
       },
       {
         id: 'cin-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hicieron las hermanastras cuando reconocieron a Cenicienta al final?',
-        options: ['Se burlaron de ella', 'Huyeron del palacio', 'Se arrojaron a sus pies para pedirle perdón', 'La acusaron de ladrona'],
-        correctAnswer: 'Se arrojaron a sus pies para pedirle perdón',
+        questionText: '¿Qué ocurrió inmediatamente después de que Cenicienta se probara el primer zapato?',
+        options: [
+          'El príncipe llegó a buscarla.',
+          'Sacó el segundo zapatito de su bolsillo.',
+          'Las hermanas huyeron de la casa.',
+          'El hada madrina desapareció.'
+        ],
+        correctAnswer: 'Sacó el segundo zapatito de su bolsillo.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'cin-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "la más altanera y orgullosa que jamás se haya visto", ¿qué significa "altanera"?',
-        options: ['Amable y simpática', 'Tímida y callada', 'Arrogante y soberbia', 'Alegre y divertida'],
-        correctAnswer: 'Arrogante y soberbia',
+        questionText: 'La madrastra era una mujer "altanera". ¿Qué significa esto?',
+        options: [
+          'Que era muy bajita y delgada.',
+          'Que era orgullosa y se creía superior.',
+          'Que sabía cocinar muy bien.',
+          'Que era muy amable con todos.'
+        ],
+        correctAnswer: 'Que era orgullosa y se creía superior.',
       },
       {
         id: 'cin-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La madrina le advierte a Cenicienta que no se quede ni un minuto más o sus ropas "recuperarían su forma primitiva". ¿Qué significa "primitiva"?',
-        options: ['Más bella', 'Nueva', 'Original o primera', 'Mágica'],
-        correctAnswer: 'Original o primera',
+        questionText: '¿Qué es una "buhardilla" en este cuento?',
+        options: [
+          'Un tipo de cama muy lujosa.',
+          'Un cuarto pequeño en lo alto de la casa.',
+          'Un zapato hecho de cristal fino.',
+          'Un salón donde se hacen bailes.'
+        ],
+        correctAnswer: 'Un cuarto pequeño en lo alto de la casa.',
       },
       {
         id: 'cin-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando Cenicienta llegó a casa "sofocada", ¿cómo se sentía?',
-        options: ['Muy contenta', 'Muy cansada y con dificultad para respirar', 'Muy elegante', 'Muy triste'],
-        correctAnswer: 'Muy cansada y con dificultad para respirar',
+        questionText: 'Cenicienta vestía "harapos" antes de la magia. ¿Qué son harapos?',
+        options: [
+          'Telas de oro y plata muy brillantes.',
+          'Ropa vieja, rota y muy gastada.',
+          'Vestidos de fiesta con pedrería.',
+          'Cintas de seda para el cabello.'
+        ],
+        correctAnswer: 'Ropa vieja, rota y muy gastada.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'cin-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección principal de la historia de Cenicienta?',
-        options: ['Es importante tener vestidos caros para ir a los bailes', 'La bondad y la gentileza son más valiosas que la belleza exterior', 'No se debe perder los zapatos', 'Las madrastras siempre son malas'],
-        correctAnswer: 'La bondad y la gentileza son más valiosas que la belleza exterior',
+        questionText: '¿Cuál es la lección más importante de la historia?',
+        options: [
+          'Que hay que tener zapatos de cristal para ser feliz.',
+          'Que la bondad y la paciencia son recompensadas.',
+          'Que no se debe ir a bailar a la medianoche.',
+          'Que las hermanas siempre son envidiosas.'
+        ],
+        correctAnswer: 'Que la bondad y la paciencia son recompensadas.',
       },
       {
         id: 'cin-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué el príncipe se enamora de Cenicienta?',
-        options: ['Porque era la única que podía usar la zapatilla', 'Porque era muy rica', 'Por su gran belleza y su gracia al bailar', 'Porque su padre se lo ordenó'],
-        correctAnswer: 'Por su gran belleza y su gracia al bailar',
+        questionText: '¿Por qué Cenicienta perdonó a sus hermanas al final?',
+        options: [
+          'Porque tenía miedo de que el príncipe se enojara.',
+          'Porque era una persona de gran dulzura y bondad.',
+          'Porque las hermanas le dieron muchos regalos.',
+          'Porque el hada madrina se lo ordenó.'
+        ],
+        correctAnswer: 'Porque era una persona de gran dulzura y bondad.',
       },
       {
         id: 'cin-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué Cenicienta es un personaje virtuoso?',
-        options: ['Porque es la más bella del reino', 'Porque a pesar de ser maltratada, es paciente, buena y perdona a sus hermanas', 'Porque se casa con un príncipe', 'Porque tiene un hada madrina'],
-        correctAnswer: 'Porque a pesar de ser maltratada, es paciente, buena y perdona a sus hermanas',
+        questionText: '¿Cuál es el conflicto principal de Cenicienta?',
+        options: [
+          'La pérdida de sus zapatos en el bosque.',
+          'El maltrato de su madrastra y hermanas.',
+          'La dificultad de encontrar una carroza.',
+          'La falta de comida en el palacio real.'
+        ],
+        correctAnswer: 'El maltrato de su madrastra y hermanas.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'cin-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que las hermanas no reconocieron a Cenicienta en el baile?',
-        options: ['Porque estaba muy oscuro', 'Porque Cenicienta usaba una máscara', 'Porque no podían imaginar que una "Culocenizón" pudiera verse tan hermosa y elegante', 'Porque el hada le cambió la cara'],
-        correctAnswer: 'Porque no podían imaginar que una "Culocenizón" pudiera verse tan hermosa y elegante',
+        questionText: '¿Por qué el hada le advirtió sobre la medianoche?',
+        options: [
+          'Porque a esa hora el palacio cerraba.',
+          'Porque el hechizo perdía su fuerza en ese momento.',
+          'Porque Cenicienta tenía que ir a trabajar.',
+          'Porque el príncipe se convertía en ratón.'
+        ],
+        correctAnswer: 'Porque el hechizo perdía su fuerza en ese momento.',
       },
       {
         id: 'cin-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué demuestra Cenicienta cuando perdona a sus hermanas al final?',
-        options: ['Que es débil', 'Que tiene un gran corazón y no es rencorosa', 'Que les tiene miedo', 'Que quiere el dinero de sus maridos'],
-        correctAnswer: 'Que tiene un gran corazón y no es rencorosa',
+        questionText: '¿Cómo se sintieron las hermanas al ver que el zapato le calzaba a Cenicienta?',
+        options: [
+          'Muy felices por el triunfo de su hermana.',
+          'Sumamente sorprendidas y probablemente avergonzadas.',
+          'Enojadas porque querían quedarse con el zapato.',
+          'Aburridas porque la prueba duró mucho tiempo.'
+        ],
+        correctAnswer: 'Sumamente sorprendidas y probablemente avergonzadas.',
       },
       {
         id: 'cin-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el hada madrina decidió ayudar a Cenicienta?',
-        options: ['Porque se lo pidió el príncipe', 'Porque era su obligación como hada', 'Porque vio que Cenicienta era buena y sufría injustamente', 'Porque quería ir al baile'],
-        correctAnswer: 'Porque vio que Cenicienta era buena y sufría injustamente',
+        questionText: '¿Por qué Cenicienta no se quejaba con su padre?',
+        options: [
+          'Porque su padre no vivía con ellas.',
+          'Porque sabía que su padre estaba dominado por la madrastra.',
+          'Porque no le importaba trabajar tanto.',
+          'Porque quería darle una sorpresa al final.'
+        ],
+        correctAnswer: 'Porque sabía que su padre estaba dominado por la madrastra.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'cin-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Cenicienta?',
-        options: ['Orgullosa y perezosa', 'Bondadosa y paciente', 'Enojona y envidiosa', 'Miedosa y triste'],
-        correctAnswer: 'Bondadosa y paciente',
+        questionText: '¿Qué rasgos definen mejor a Cenicienta?',
+        options: [
+          'Orgullosa y muy peleadora.',
+          'Dulce, paciente y bondadosa.',
+          'Tímida y con miedo a las hadas.',
+          'Vengativa con quienes la tratan mal.'
+        ],
+        correctAnswer: 'Dulce, paciente y bondadosa.',
       },
       {
         id: 'cin-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo son las hermanastras de Cenicienta?',
-        options: ['Amables y generosas', 'Tímidas y trabajadoras', 'Orgullosas y malvadas', 'Inteligentes y creativas'],
-        correctAnswer: 'Orgullosas y malvadas',
+        questionText: '¿Cómo era la personalidad de las hermanas mayores?',
+        options: [
+          'Eran trabajadoras y muy ordenadas.',
+          'Eran vanidosas, orgullosas y envidiosas.',
+          'Eran divertidas y les gustaba jugar.',
+          'Eran sabias y daban buenos consejos.'
+        ],
+        correctAnswer: 'Eran vanidosas, orgullosas y envidiosas.',
       },
       {
         id: 'cin-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué podemos decir del padre de Cenicienta?',
-        options: ['Que es valiente y la defiende', 'Que es bueno pero débil, ya que su esposa lo domina por completo', 'Que no quiere a Cenicienta', 'Que es igual de cruel que la madrastra'],
-        correctAnswer: 'Que es bueno pero débil, ya que su esposa lo domina por completo',
+        questionText: '¿Cómo es el hada madrina en esta historia?',
+        options: [
+          'Es una persona muy estricta y enojona.',
+          'Es un ser mágico, protector y compasivo.',
+          'Es una anciana que no sabe usar la magia.',
+          'Es la verdadera madre de Cenicienta.'
+        ],
+        correctAnswer: 'Es un ser mágico, protector y compasivo.',
       },
     ],
   },

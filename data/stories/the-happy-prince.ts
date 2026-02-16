@@ -21,7 +21,7 @@ Era admirado por todos: “Es tan hermoso como el gallo de una veleta” -afirma
 
 -“¡Ah, porque los hemos visto en sueños!” -contestaban los muchachos; y el maestro de matemáticas fruncía el ceño y tomaba una actitud muy seria porque no le gustaba que los niños soñasen.
 
-Una noche voló sobre la ciudad una golondrina. Sus compañeras ya habían partido hacia Egipto seis semanas antes, pero ella se retrasó porque estaba enamorada de un bellísimo junco. Lo había conocido al principio de la primavera cuando volaba sobre el río persiguiendo a una gran mariposa amarilla, y se sintió atraída de tal manera por su tallo esbelto, que se detuvo para hablarle.
+Una noche voló sobre la ciudad una golondrina. Sus compañeras ya habían partido hacia Egipto seis semanas antes, pero ella se retrasó porque estaba enamorada de un bellísimo junco. Lo había conocido al principio de la primavera cuando volaba sobre el río persidiendo a una gran mariposa amarilla, y se sintió atraída de tal manera por su tallo esbelto, que se detuvo para hablarle.
 
 -¿Aceptas mi amor? -le preguntó la golondrina que nunca se andaba con rodeos; y el junco hizo una ceremoniosa inclinación. Entonces la golondrina voló haciendo grandes círculos a su alrededor, rozaba la superficie de las aguas con las puntas de sus alas, dejando brillantes estelas de plata. Ésa era su manera de cortejar; y así transcurrió todo el verano.
 
@@ -109,7 +109,7 @@ Cuando salió la luna, voló de regreso al Príncipe Feliz.
 
 -“¡Ay, ya no tengo rubí!” -dijo el Príncipe-. “Mis ojos son todo lo que me queda. Están hechos con zafiros rarísimos, que fueron traídos de la India, hace mil años. Sácame uno, y llévaselo a él. Lo venderá a un joyero, y comprará leña, y podrá terminar su obra.
 
--“Querido Príncipe” -replicó la golondrina- “no puedo hacer eso” -y comenzó a llorar.
+-“Querido Príncipe” -replicó la golondrina- “no puede hacer eso” -y comenzó a llorar.
 
 -“Golondrina, golondrina, golondrinita” -insistió el Príncipe-. “Haz lo que te ordeno”.
 
@@ -220,138 +220,228 @@ Y lo tiraron sobre un montón de cenizas donde también se encontraba la golondr
         {
           id: 'hp-lit1',
           category: QuestionCategory.LITERAL,
-          questionText: '¿De qué estaban hechos los ojos del Príncipe Feliz?',
-          options: ['Rubíes', 'Diamantes', 'Zafiros', 'Esmeraldas'],
-          correctAnswer: 'Zafiros',
+          questionText: '¿De qué materiales estaban hechos originalmente los ojos del Príncipe Feliz?',
+          options: [
+            'De dos rubíes rojos traídos de la India.',
+            'De dos zafiros claros de gran brillantez.',
+            'De dos perlas blancas del fondo del río.',
+            'De dos esmeraldas verdes de un palacio.'
+          ],
+          correctAnswer: 'De dos zafiros claros de gran brillantez.',
         },
         {
           id: 'hp-lit2',
           category: QuestionCategory.LITERAL,
-          questionText: '¿Qué le llevó la golondrina a la costurera para su hijo enfermo?',
-          options: ['Un zafiro del ojo del príncipe', 'Una hoja de oro', 'El rubí del puño de la espada del príncipe', 'Unas naranjas'],
-          correctAnswer: 'El rubí del puño de la espada del príncipe',
+          questionText: '¿Qué joya específica le llevó la golondrina a la costurera?',
+          options: [
+            'Uno de los zafiros que el príncipe tenía en sus ojos.',
+            'El gran rubí que centelleaba en el puño de la espada.',
+            'Una de las finas hojas de oro que cubrían la estatua.',
+            'Una moneda de cobre que encontró en el mástil del barco.'
+          ],
+          correctAnswer: 'El gran rubí que centelleaba en el puño de la espada.',
         },
         {
           id: 'hp-lit3',
           category: QuestionCategory.LITERAL,
-          questionText: 'Al final, ¿qué dos cosas le pide Dios a uno de sus ángeles que le traiga de la ciudad?',
-          options: ['La estatua y el oro', 'El corazón de plomo y el pajarillo muerto', 'La espada y la corona', 'Dos joyas preciosas'],
-          correctAnswer: 'El corazón de plomo y el pajarillo muerto',
+          questionText: '¿Qué le sucede al corazón de plomo de la estatua cuando la golondrina muere?',
+          options: [
+            'Se funde en el gran horno por orden del Alcalde local.',
+            'Se parte en dos de forma ruidosa por la intensa helada.',
+            'Se vuelve de oro macizo gracias a una buena acción.',
+            'Desaparece misteriosamente para ir al Jardín del Paraíso.'
+          ],
+          correctAnswer: 'Se parte en dos de forma ruidosa por la intensa helada.',
         },
     ],
     [QuestionCategory.SEQUENCING]: [
         {
           id: 'hp-seq1',
           category: QuestionCategory.SEQUENCING,
-          questionText: '¿Cuál fue la primera joya que el Príncipe le pidió a la golondrina que entregara?',
-          options: ['El zafiro para el joven escritor', 'El rubí para la costurera', 'El otro zafiro para la vendedora de cerillos', 'Una hoja de oro'],
-          correctAnswer: 'El rubí para la costurera',
+          questionText: '¿Cuál fue el orden exacto de las entregas de joyas que hizo la golondrina?',
+          options: [
+            'Primero el rubí, luego el primer zafiro y al final el segundo zafiro.',
+            'Primero un zafiro, luego el rubí de la espada y al final el oro fino.',
+            'Primero las hojas de oro, luego el rubí y finalmente los dos zafiros.',
+            'Primero el rubí, luego las hojas de oro y finalmente el primer zafiro.'
+          ],
+          correctAnswer: 'Primero el rubí, luego el primer zafiro y al final el segundo zafiro.',
         },
         {
           id: 'hp-seq2',
           category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué sucedió justo después de que la golondrina murió a los pies del Príncipe?',
-          options: ['Llegó el Alcalde', 'El corazón de plomo de la estatua se partió en dos', 'Empezó a nevar', 'El príncipe lloró'],
-          correctAnswer: 'El corazón de plomo de la estatua se partió en dos',
+          questionText: '¿Qué evento ocurrió inmediatamente después de que el cuerpo del príncipe quedó gris y deslucido?',
+          options: [
+            'Llegó el Alcalde con los regidores a mirar la gran columna.',
+            'Llegó la nieve y las calles se cubrieron de una helada de plata.',
+            'La golondrina partió finalmente hacia las pirámides de Egipto.',
+            'El maestro de matemáticas prohibió que los niños soñaran más.'
+          ],
+          correctAnswer: 'Llegó la nieve y las calles se cubrieron de una helada de plata.',
         },
         {
           id: 'hp-seq3',
           category: QuestionCategory.SEQUENCING,
-          questionText: '¿Cuál fue la última buena acción que hizo la golondrina antes de morir?',
-          options: ['Le llevó el segundo zafiro a la vendedora de cerillos', 'Le llevó hojas de oro a los pobres', 'Le cantó una canción al Príncipe', 'Le besó los labios al Príncipe'],
-          correctAnswer: 'Le llevó hojas de oro a los pobres',
+          questionText: '¿Qué hicieron con los restos del príncipe tras bajarlo de la columna?',
+          options: [
+            'Los enterraron bajo el sauce llorón cerca de la catedral vieja.',
+            'Los fundieron en un horno y tiraron el corazón a las cenizas.',
+            'Los convirtieron en una estatua nueva con la cara del Alcalde.',
+            'Los regalaron a los pobres para que pudieran comprar pan fresco.'
+          ],
+          correctAnswer: 'Los fundieron en un horno y tiraron el corazón a las cenizas.',
         },
     ],
     [QuestionCategory.VOCABULARY]: [
         {
           id: 'hp-voc1',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'En la frase "Su cara se ve demacrada y triste", ¿qué significa "demacrada"?',
-          options: ['Alegre y sonriente', 'Ensuciada por el trabajo', 'Enflaquecida por falta de alimento o por enfermedad', 'Sonrojada'],
-          correctAnswer: 'Enflaquecida por falta de alimento o por enfermedad',
+          questionText: 'La costurera tenía una cara "demacrada". ¿Qué significa esa palabra en el texto?',
+          options: [
+            'Que estaba muy sucia por el trabajo con las pasionarias.',
+            'Que estaba muy flaca y pálida por el hambre o el cansancio.',
+            'Que estaba muy alegre porque pronto iría al baile real.',
+            'Que estaba muy enojada con su pequeño hijo por estar enfermo.'
+          ],
+          correctAnswer: 'Que estaba muy flaca y pálida por el hambre o el cansancio.',
         },
         {
           id: 'hp-voc2',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'El Alcalde dice que el Príncipe se ve "desaliñado". ¿qué significa "desaliñado"?',
-          options: ['Triste y solitario', 'Muy brillante', 'Desarreglado, falto de aliño y compostura', 'Muy alto'],
-          correctAnswer: 'Desarreglado, falto de aliño y compostura',
+          questionText: 'El Alcalde dice que la estatua se ve "desaliñada". ¿Qué quiere decir?',
+          options: [
+            'Que es una estatua muy antigua y respetada por los vecinos.',
+            'Que está descuidada, rota y con un aspecto muy pobre.',
+            'Que brilla demasiado y molesta a los pájaros que pasan.',
+            'Que es muy alta y difícil de alcanzar para los regidores.'
+          ],
+          correctAnswer: 'Que está descuidada, rota y con un aspecto muy pobre.',
         },
         {
           id: 'hp-voc3',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'La golondrina vio "las caras lívidas de niños hambrientos". ¿Qué significa "lívidas"?',
-          options: ['Felices y sonrientes', 'Amorotonadas o muy pálidas', 'Sucias', 'Rojas y calientes'],
-          correctAnswer: 'Amorotonadas o muy pálidas',
+          questionText: '¿Qué es una "buhardilla" según la descripción del lugar donde vivía el joven escritor?',
+          options: [
+            'Un gran salón de baile dentro del Palacio de Sans-Souci.',
+            'Un cuarto pequeño y pobre situado en lo más alto de una casa.',
+            'Una tienda de joyas donde vendían zafiros traídos de la India.',
+            'Un jardín secreto rodeado por una tapia altísima de piedra.'
+          ],
+          correctAnswer: 'Un cuarto pequeño y pobre situado en lo más alto de una casa.',
         },
     ],
     [QuestionCategory.MAIN_IDEA]: [
-        {
-          id: 'hp-main1',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es la lección principal de la historia?',
-          options: ['No se debe construir estatuas de oro', 'Las golondrinas deben migrar en otoño', 'La verdadera belleza se encuentra en la compasión y en ayudar a los demás', 'El oro no puede comprar la felicidad'],
-          correctAnswer: 'La verdadera belleza se encuentra en la compasión y en ayudar a los demás',
-        },
-        {
-          id: 'hp-main2',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Por qué el Príncipe Feliz lloraba a pesar de estar en una alta columna y cubierto de oro?',
-          options: ['Porque extrañaba su vida en el palacio', 'Porque desde su altura podía ver toda la miseria y el sufrimiento de la gente de su ciudad', 'Porque estaba solo', 'Porque le dolía el corazón de plomo'],
-          correctAnswer: 'Porque desde su altura podía ver toda la miseria y el sufrimiento de la gente de su ciudad',
-        },
-        {
-          id: 'hp-main3',
-          category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es el papel del Alcalde y los concejales en la historia?',
-          options: ['Representan la ayuda y la bondad', 'Muestran la indiferencia y la superficialidad de la sociedad', 'Son los que ayudan a la golondrina', 'Cuidan la estatua del Príncipe'],
-          correctAnswer: 'Muestran la indiferencia y la superficialidad de la sociedad',
-        },
+      {
+        id: 'hp-main1',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es la crítica principal que hace el autor a través de los concejales y el Alcalde?',
+        options: [
+          'Critica que la ciudad no tenga suficientes estatuas de ángeles.',
+          'Critica la superficialidad de quienes solo valoran lo que es útil o bello.',
+          'Critica que no se cuide a las golondrinas durante el frío invierno.',
+          'Critica la falta de oro y joyas en las coronas de los reyes antiguos.'
+        ],
+        correctAnswer: 'Critica la superficialidad de quienes solo valoran lo que es útil o bello.',
+      },
+      {
+        id: 'hp-main2',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Cuál es el tema central o mensaje de la obra de Oscar Wilde?',
+        options: [
+          'Que las aves deben viajar a Egipto para no morir de frío.',
+          'Que la verdadera nobleza reside en la generosidad y el sacrificio.',
+          'Que es peligroso vivir en un palacio donde la tristeza no entra.',
+          'Que el plomo es un metal que no se puede fundir en los hornos.'
+        ],
+        correctAnswer: 'Que la verdadera nobleza reside en la generosidad y el sacrificio.',
+      },
+      {
+        id: 'hp-main3',
+        category: QuestionCategory.MAIN_IDEA,
+        questionText: '¿Por qué el príncipe dejó de ser "Feliz" después de que lo convirtieran en estatua?',
+        options: [
+          'Porque extrañaba bailar con sus amigos en el jardín del palacio.',
+          'Porque al estar en alto pudo ver toda la miseria de su pueblo.',
+          'Porque la golondrina le robó el rubí de su espada sin permiso.',
+          'Porque el Alcalde decidió que ya no era una estatua útil.'
+        ],
+        correctAnswer: 'Porque al estar en alto pudo ver toda la miseria de su pueblo.',
+      },
     ],
     [QuestionCategory.INFERENCE]: [
         {
           id: 'hp-inf1',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué la golondrina decidió quedarse con el Príncipe, a pesar del frío y de su deseo de ir a Egipto?',
-          options: ['Porque se perdió y no sabía cómo llegar a Egipto', 'Porque el Príncipe se lo ordenó', 'Porque desarrolló un profundo amor por el Príncipe y se conmovió por su bondad', 'Porque le gustaba más el frío que el calor'],
-          correctAnswer: 'Porque desarrolló un profundo amor por el Príncipe y se conmovió por su bondad',
+          questionText: '¿Por qué la golondrina sintió "calor" a pesar del frío después de ayudar al niño?',
+          options: [
+            'Porque el esfuerzo de volar sobre el río la hizo transpirar.',
+            'Porque realizar una buena acción le dio una satisfacción interna.',
+            'Porque el rubí de la espada emitía una energía mágica y caliente.',
+            'Porque el sol de invierno empezó a brillar con mucha fuerza.'
+          ],
+          correctAnswer: 'Porque realizar una buena acción le dio una satisfacción interna.',
         },
         {
           id: 'hp-inf2',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué el corazón de plomo del Príncipe no se derritió en el horno?',
-          options: ['Porque el horno no estaba lo suficientemente caliente', 'Porque el plomo es un metal muy resistente', 'Simbólicamente, porque su corazón, lleno de amor y compasión, era lo único real y no podía ser destruido', 'Porque los trabajadores no lo vieron'],
-          correctAnswer: 'Simbólicamente, porque su corazón, lleno de amor y compasión, era lo único real y no podía ser destruido',
+          questionText: '¿Por qué Dios eligió el corazón de plomo y el pájaro muerto como lo más preciado?',
+          options: [
+            'Porque eran los únicos objetos de metal que quedaban en la plaza.',
+            'Porque representaban el amor puro, la compasión y la entrega total.',
+            'Porque el ángel no pudo encontrar el oro ni los zafiros de la estatua.',
+            'Porque eran las cosas más raras que se podían hallar en las cenizas.'
+          ],
+          correctAnswer: 'Porque representaban el amor puro, la compasión y la entrega total.',
         },
         {
           id: 'hp-inf3',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué Dios consideró el corazón de plomo y el pajarillo muerto las dos cosas más preciosas de la ciudad?',
-          options: ['Porque eran de oro y plomo', 'Porque eran los únicos objetos que quedaban de la estatua', 'Porque representaban el amor desinteresado, el sacrificio y la compasión', 'Porque el ángel no encontró nada más'],
-          correctAnswer: 'Porque representaban el amor desinteresado, el sacrificio y la compasión',
+          questionText: '¿Qué nos sugiere el hecho de que el príncipe no supiera lo que eran las lágrimas en el palacio?',
+          options: [
+            'Que era una persona de piedra que no tenía sentimientos humanos.',
+            'Que vivía en una burbuja de riqueza que ignoraba el dolor de los demás.',
+            'Que en su país estaba prohibido llorar por orden del Alcalde.',
+            'Que siempre usaba los zafiros para ocultar su mirada de los cortesanos.'
+          ],
+          correctAnswer: 'Que vivía en una burbuja de riqueza que ignoraba el dolor de los demás.',
         },
     ],
     [QuestionCategory.CHARACTER]: [
         {
           id: 'hp-char1',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Qué dos palabras describen mejor al Príncipe Feliz como estatua?',
-          options: ['Alegre y despreocupado', 'Compasivo y generoso', 'Triste y egoísta', 'Orgulloso y vanidoso'],
-          correctAnswer: 'Compasivo y generoso',
+          questionText: '¿Cómo cambia la personalidad de la golondrina a lo largo del cuento?',
+          options: [
+            'Pasa de ser orgullosa y egoísta a ser leal, sacrificada y compasiva.',
+            'Pasa de ser una gran viajera a ser un ave muy perezosa que no vuela.',
+            'Se vuelve una ladrona de joyas para enriquecer a sus parientes juncos.',
+            'Decide ser la jefa de los gorriones para mandar en el campanario.'
+          ],
+          correctAnswer: 'Pasa de ser orgullosa y egoísta a ser leal, sacrificada y compasiva.',
         },
         {
           id: 'hp-char2',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Cómo cambia la golondrina a lo largo de la historia?',
-          options: ['Se vuelve más egoísta y apurada', 'Pasa de ser un poco casquivana y centrada en sus propios planes a ser leal y sacrificada', 'Se cansa de viajar y decide quedarse quieta', 'Se olvida de su amor por el junco'],
-          correctAnswer: 'Pasa de ser un poco casquivana y centrada en sus propios planes a ser leal y sacrificada',
+          questionText: '¿Qué rasgo define mejor a los regidores y al Alcalde de la ciudad?',
+          options: [
+            'Son líderes humildes que solo piensan en el bienestar de los pobres.',
+            'Son personas superficiales que se preocupan más por su propia imagen.',
+            'Son sabios expertos en arte que cuidan los monumentos históricos.',
+            'Son hombres miedosos que le temen a los ángeles de mármol blanco.'
+          ],
+          correctAnswer: 'Son personas superficiales que se preocupan más por su propia imagen.',
         },
         {
           id: 'hp-char3',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Cómo son el Alcalde y los concejales de la ciudad?',
-          options: ['Preocupados por los pobres', 'Humildes y trabajadores', 'Superficiales, vanidosos y preocupados solo por las apariencias', 'Artísticos y sensibles'],
-          correctAnswer: 'Superficiales, vanidosos y preocupados solo por las apariencias',
+          questionText: '¿Qué cualidad del Príncipe Feliz lo diferencia de una estatua común?',
+          options: [
+            'Su capacidad para hablar en un idioma indescifrable para el Alcalde.',
+            'Su sensibilidad humana y su deseo de desprenderse de todo por los otros.',
+            'Su fuerza física para sostenerse en la columna durante las tormentas.',
+            'Su habilidad para hipnotizar a las golondrinas que vuelan hacia Egipto.'
+          ],
+          correctAnswer: 'Su sensibilidad humana y su deseo de desprenderse de todo por los otros.',
         },
     ],
   },

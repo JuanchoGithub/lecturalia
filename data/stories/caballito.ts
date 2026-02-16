@@ -32,137 +32,227 @@ La mamá le dijo que no sabía. Pero como le gustaba mucho inventar cuentos, ens
         id: 'cab-lit1',
         category: QuestionCategory.LITERAL,
         questionText: '¿De dónde se escapó el caballito de la historia?',
-        options: ['De un establo', 'De una juguetería', 'De una calesita en el Parque Rivadavia', 'De un circo'],
-        correctAnswer: 'De una calesita en el Parque Rivadavia',
+        options: [
+          'De un gran establo en las afueras.',
+          'De una vieja fábrica de juguetes.',
+          'De una calesita en el Parque Rivadavia.',
+          'De un circo que visitaba el barrio.'
+        ],
+        correctAnswer: 'De una calesita en el Parque Rivadavia.',
       },
       {
         id: 'cab-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: 'Según el cuento de la mamá, ¿por qué el barrio se llama Caballito?',
-        options: ['Porque había muchos caballos en la zona', 'Porque los chicos que conocían al caballo de la calesita lo saludaban diciendo "Hola, caballito"', 'Porque el primer habitante se apellidaba Caballito', 'Porque tenía forma de caballo'],
-        correctAnswer: 'Porque los chicos que conocían al caballo de la calesita lo saludaban diciendo "Hola, caballito"',
+        questionText: 'Según la historia, ¿por qué el barrio se llama así?',
+        options: [
+          'Porque había caballos reales en el parque.',
+          'Por los constantes saludos de los niños.',
+          'Porque el primer vecino se apellidaba así.',
+          'Porque las calles tienen forma de herradura.'
+        ],
+        correctAnswer: 'Por los constantes saludos de los niños.',
       },
       {
         id: 'cab-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué pregunta le hace Maxi a su mamá al final del cuento?',
-        options: ['Si el cuento es de verdad', 'Si pueden ir a la calesita', 'Qué es una "chaca"', 'Si le cuenta otro cuento'],
-        correctAnswer: 'Qué es una "chaca"',
+        questionText: '¿Qué palabra extraña le pregunta Maxi a su mamá?',
+        options: [
+          'Si la historia era realmente verdadera.',
+          'Si podían ir pronto a la calesita.',
+          'Qué es una "chaca" y de dónde viene.',
+          'Si ella podía contarle un nuevo cuento.'
+        ],
+        correctAnswer: 'Qué es una "chaca" y de dónde viene.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'cab-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el caballo justo después de convertirse en uno de verdad?',
-        options: ['Se fue a dormir', 'Volvió a subirse a la calesita', 'Esperó a que llegara la noche y se fue a recorrer el campo', 'Saludó a los otros juguetes'],
-        correctAnswer: 'Esperó a que llegara la noche y se fue a recorrer el campo',
+        questionText: '¿Qué hizo el caballo apenas se convirtió en uno real?',
+        options: [
+          'Se durmió profundamente bajo un árbol.',
+          'Volvió a subirse a su lugar en la calesita.',
+          'Esperó a la noche y trotó hacia el campo.',
+          'Saludó alegremente a los otros juguetes.'
+        ],
+        correctAnswer: 'Esperó a la noche y trotó hacia el campo.',
       },
       {
         id: 'cab-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué vio el caballo después de mirar más allá del parque y las calles empedradas?',
-        options: ['Otro parque con una calesita', 'El mar', 'Grandes extensiones de campo abierto y ranchos', 'Muchos edificios altos'],
-        correctAnswer: 'Grandes extensiones de campo abierto y ranchos',
+        questionText: '¿Qué vio el caballo luego de observar las calles de piedra?',
+        options: [
+          'Un enorme parque con otra calesita nueva.',
+          'Un mar azul que llegaba hasta el horizonte.',
+          'Grandes extensiones de campo abierto y ranchos.',
+          'Muchos edificios altos de colores brillantes.'
+        ],
+        correctAnswer: 'Grandes extensiones de campo abierto y ranchos.',
       },
       {
         id: 'cab-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó antes de que la mamá le contara la historia a Maxi?',
-        options: ['Maxi se durmió', 'Maxi le preguntó por qué su barrio se llamaba Caballito', 'La mamá le leyó un libro', 'Fueron al Parque Rivadavia'],
-        correctAnswer: 'Maxi le preguntó por qué su barrio se llamaba Caballito',
+        questionText: '¿Qué ocurrió antes de que la mamá relatara la historia?',
+        options: [
+          'Maxi se quedó dormido en su cama.',
+          'Maxi preguntó por el nombre de su barrio.',
+          'La mamá leyó un libro de geografía.',
+          'Fueron juntos a pasear al Parque Rivadavia.'
+        ],
+        correctAnswer: 'Maxi preguntó por el nombre de su barrio.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'cab-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "caminos de tierra bordeados por pasto", ¿qué significa "bordeados"?',
-        options: ['Cubiertos por pasto', 'Que tenían pasto en los costados', 'Lejos del pasto', 'Hechos de pasto'],
-        correctAnswer: 'Que tenían pasto en los costados',
+        questionText: 'En el cuento, ¿qué significa que los caminos estaban "bordeados" por pasto?',
+        options: [
+          'Que el pasto cubría todo el camino.',
+          'Que tenían pasto a ambos costados.',
+          'Que el pasto estaba lejos del camino.',
+          'Que los caminos estaban hechos de pasto.'
+        ],
+        correctAnswer: 'Que tenían pasto a ambos costados.',
       },
       {
         id: 'cab-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El cuento habla de "calles empedradas". ¿Qué significa "empedradas"?',
-        options: ['Calles de tierra', 'Calles cubiertas de piedras para pavimentarlas', 'Calles con muchos árboles', 'Calles muy anchas'],
-        correctAnswer: 'Calles cubiertas de piedras para pavimentarlas',
+        questionText: '¿Cómo son las calles "empedradas" que menciona el texto?',
+        options: [
+          'Calles simples que son solo de tierra.',
+          'Calles cubiertas con piedras o adoquines.',
+          'Calles que tienen muchos árboles frutales.',
+          'Calles muy anchas para que pasen barcos.'
+        ],
+        correctAnswer: 'Calles cubiertas con piedras o adoquines.',
       },
       {
         id: 'cab-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En el campo había "ranchos con chimeneas". ¿Qué es un rancho?',
-        options: ['Un edificio muy alto', 'Una casa de campo humilde', 'Un palacio', 'Una carpa'],
-        correctAnswer: 'Una casa de campo humilde',
+        questionText: 'En la historia, ¿qué es un "rancho" en el campo?',
+        options: [
+          'Un edificio de departamentos muy altos.',
+          'Una casa de campo pequeña y humilde.',
+          'Un palacio lujoso con muchas ventanas.',
+          'Una carpa de tela para ir de campamento.'
+        ],
+        correctAnswer: 'Una casa de campo pequeña y humilde.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'cab-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de la historia que cuenta la mamá?',
-        options: ['Una explicación fantástica sobre el origen del nombre del barrio Caballito.', 'La vida de un niño llamado Maxi.', 'Cómo funcionan las calesitas.', 'La importancia de los parques.'],
-        correctAnswer: 'Una explicación fantástica sobre el origen del nombre del barrio Caballito.',
+        questionText: '¿Cuál es el tema principal de esta historia?',
+        options: [
+          'La vida diaria de un niño llamado Maxi.',
+          'Un relato fantástico sobre un nombre de barrio.',
+          'Cómo se fabrican los caballos de madera.',
+          'La descripción de los parques de la ciudad.'
+        ],
+        correctAnswer: 'Un relato fantástico sobre un nombre de barrio.',
       },
       {
         id: 'cab-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué motivó al caballito a bajarse de la calesita?',
-        options: ['El aburrimiento de dar siempre la misma vuelta y el deseo de conocer lugares nuevos.', 'Tenía hambre.', 'Los otros juguetes lo molestaban.', 'La calesita se rompió.'],
-        correctAnswer: 'El aburrimiento de dar siempre la misma vuelta y el deseo de conocer lugares nuevos.',
+        questionText: '¿Por qué el caballito decidió abandonar la calesita?',
+        options: [
+          'Por aburrimiento y deseos de conocer el mundo.',
+          'Porque tenía mucha hambre y buscaba comida.',
+          'Porque los otros juguetes se burlaban de él.',
+          'Porque la calesita se rompió y dejó de girar.'
+        ],
+        correctAnswer: 'Por aburrimiento y deseos de conocer el mundo.',
       },
       {
         id: 'cab-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la mamá le cuenta esta historia a Maxi?',
-        options: ['Porque es una historia real y documentada.', 'Para responder a su pregunta de una manera creativa y entretenida.', 'Para que Maxi se duerma rápido.', 'Porque es el único cuento que se sabe.'],
-        correctAnswer: 'Para responder a su pregunta de una manera creativa y entretenida.',
+        questionText: '¿Cuál es el propósito de la mamá al contar el cuento?',
+        options: [
+          'Enseñar historia real de la ciudad de Buenos Aires.',
+          'Responder a Maxi con una historia llena de fantasía.',
+          'Lograr que Maxi se duerma lo más rápido posible.',
+          'Explicar que las calesitas son peligrosas para niños.'
+        ],
+        correctAnswer: 'Responder a Maxi con una historia llena de fantasía.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'cab-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el caballo de la calesita se convirtió en uno de verdad?',
-        options: ['Porque un mago lo hechizó', 'Porque se cayó de la calesita', 'Porque su deseo de conocer otros lugares fue muy grande', 'Porque ya estaba muy viejo'],
-        correctAnswer: 'Porque su deseo de conocer otros lugares fue muy grande',
+        questionText: '¿Por qué el caballo se convirtió en uno de verdad?',
+        options: [
+          'Porque un mago del parque lo hechizó.',
+          'Porque se cayó accidentalmente de la calesita.',
+          'Porque su deseo de aventura fue muy grande.',
+          'Porque ya estaba demasiado viejo para girar.'
+        ],
+        correctAnswer: 'Porque su deseo de aventura fue muy grande.',
       },
       {
         id: 'cab-inf2',
         category: QuestionCategory.INFERENCE,
         questionText: '¿Qué demuestra la pregunta final de Maxi sobre "Chacarita"?',
-        options: ['Que no entendió el cuento.', 'Que tiene mucha imaginación y aplicó la misma lógica a otro barrio.', 'Que está enojado con su mamá.', 'Que quiere visitar otro barrio.'],
-        correctAnswer: 'Que tiene mucha imaginación y aplicó la misma lógica a otro barrio.',
+        options: [
+          'Que el niño no prestó atención a su madre.',
+          'Que usa su imaginación para inventar otros nombres.',
+          'Que está muy enojado porque prefiere vivir allí.',
+          'Que desea visitar pronto la calesita de ese barrio.'
+        ],
+        correctAnswer: 'Que usa su imaginación para inventar otros nombres.',
       },
       {
         id: 'cab-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿La mamá cree que la historia que contó es cierta?',
-        options: ['Sí, está completamente segura.', 'No, ella misma dice "no sé si es cierta" y que le gusta inventar cuentos.', 'No está segura, pero sospecha que sí.', 'Sí, porque se la contó su abuela.'],
-        correctAnswer: 'No, ella misma dice "no sé si es cierta" y que le gusta inventar cuentos.',
+        questionText: '¿Qué piensa la mamá sobre el cuento que relata?',
+        options: [
+          'Que es una verdad histórica comprobada por todos.',
+          'Que es una invención propia que tal vez no sea cierta.',
+          'Que es un secreto que solo los abuelos conocen bien.',
+          'Que es una noticia que leyó esa mañana en el diario.'
+        ],
+        correctAnswer: 'Que es una invención propia que tal vez no sea cierta.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'cab-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el caballito de la historia?',
-        options: ['Perezoso y aburrido', 'Aventurero y curioso', 'Miedoso y tímido', 'Gruñón y solitario'],
-        correctAnswer: 'Aventurero y curioso',
+        questionText: '¿Cómo describirías al caballito de la calesita?',
+        options: [
+          'Como un animal muy perezoso y aburrido.',
+          'Como alguien aventurero, curioso y valiente.',
+          'Como un juguete miedoso que no quería bajar.',
+          'Como un personaje gruñón y que siempre está solo.'
+        ],
+        correctAnswer: 'Como alguien aventurero, curioso y valiente.',
       },
       {
         id: 'cab-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen a la mamá de Maxi?',
-        options: ['Seria y estricta', 'Ocupada y distraída', 'Creativa y cariñosa', 'Sabia y científica'],
-        correctAnswer: 'Creativa y cariñosa',
+        questionText: '¿Qué dos palabras definen a la mamá de Maxi?',
+        options: [
+          'Una mujer seria y muy estricta.',
+          'Una persona muy ocupada y distraída.',
+          'Alguien creativa y muy afectuosa.',
+          'Una madre sabia y muy científica.'
+        ],
+        correctAnswer: 'Alguien creativa y muy afectuosa.',
       },
       {
         id: 'cab-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es Maxi?',
-        options: ['No le gusta aprender', 'Es un niño que no tiene imaginación', 'Es curioso e imaginativo', 'Es tímido y no hace preguntas'],
-        correctAnswer: 'Es curioso e imaginativo',
+        questionText: '¿Cómo es la personalidad de Maxi?',
+        options: [
+          'Es un niño que no tiene interés en aprender.',
+          'Es un pequeño muy observador y con gran fantasía.',
+          'Es alguien muy tímido que no se anima a preguntar.',
+          'Es un chico que prefiere los libros de ciencias reales.'
+        ],
+        correctAnswer: 'Es un pequeño muy observador y con gran fantasía.',
       },
     ],
   },

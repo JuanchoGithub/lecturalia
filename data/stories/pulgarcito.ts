@@ -18,7 +18,7 @@ Por mucho que su marido le hiciera ver su gran pobreza, ella no podía permitirl
 
 Pulgarcito oyó todo lo que dijeron pues, habiendo escuchado desde su cama que hablaban de asuntos serios, se había levantado muy despacio y se deslizó debajo del taburete de su padre para oírlos sin ser visto. Volvió a la cama y no durmió más, pensando en lo que tenía que hacer.
 
-Se levantó de madrugada y fue hasta la orilla de un riachuelo donde se llenó los bolsillos con guijarros blancos, y en seguida regresó a casa. Partieron todos, y Pulgarcito no dijo nada a sus hermanos de lo que sabía. Fueron a un bosque muy tupido donde, a diez pasos de distancia, no se veían unos a otros. El leñador se puso a cortar leña y sus niños a recoger astillas para hacer atados. El padre y la madre, viéndolos preocupados de su trabajo, se alejaron de ellos sin hacerse notar y luego echaron a correr por un pequeño sendero desviado.
+Se levantó de madrugada y fue hasta la orilla de un riachuelo donde se llenó los bolsillos con guijarros blancos, y en seguida regresó a casa. Partieron todos, y Pulgarcito no dijo nada a sus hermanos de lo que sabía. Fueron a un bosque muy tupido donde, a diez pasos de distancia, no se veían unos a otros. El leñador se puso a cortar leña y sus niños a recoger astillas para hacer atados. El padre y la madre, viéndolos preocupaos de su trabajo, se alejaron de ellos sin hacerse notar y luego echaron a correr por un pequeño sendero desviado.
 
 Cuando los niños se vieron solos, se pusieron a bramar y a llorar a mares. Pulgarcito los dejaba gritar, sabiendo muy bien por dónde volverían a casa; pues al caminar había dejado caer a lo largo del camino los guijarros blancos que llevaba en los bolsillos. Entonces les dijo:
 —No teman, hermanos; mi padre y mi madre nos dejaron aquí, pero yo los llevaré de vuelta a casa, no tienen más que seguirme.
@@ -26,8 +26,8 @@ Lo siguieron y él los condujo a su morada por el mismo camino que habían hecho
 
 En el momento en que el leñador y la leñadora llegaron a su casa, el señor de la aldea les envió diez escudos que les estaba debiendo desde hacía tiempo y cuyo reembolso ellos ya no esperaban. Esto les devolvió la vida ya que los infelices se morían de hambre. El leñador mandó en el acto a su mujer a la carnicería. Como hacía tiempo que no comían, compró tres veces más carne de la que se necesitaba para la cena de dos personas. Cuando estuvieron saciados, la leñadora dijo:
 —¡Ay! ¿qué será de nuestros pobres hijos? Buena comida tendrían con lo que nos queda. Pero también, Guillermo, fuiste tú el que quisiste perderlos. Bien decía yo que nos arrepentiríamos. ¿Qué estarán haciendo en ese bosque? ¡Ay!: ¡Dios mío, quizás los lobos ya se los han comido! Eres harto inhumano de haber perdido así a tus hijos.
-El leñador se impacientó al fin, pues ella repitió más de veinte veces que se arrepentirían y que ella bien lo había dicho. Él la amenazó con pegarle si no se callaba. No era que el leñador no estuviese hasta más afligido que su mujer, sino que ella le machacaba la cabeza, y sentía lo mismo que muchos como él que gustan de las mujeres que dicen bien, pero que consideran inoportunas a las que siempre bien lo decían. La leñadora estaba deshecha en lágrimas.
-—¡Ay! ¿dónde están ahora mis hijos, mis pobres hijos? Una vez lo dijo tan fuerte que los niños, agolpados a la puerta, la oyeron y se pusieron a gritar todos juntos:
+El leñador se impacientó al fin, pues ella repitió más de veinte veces que se arrepentirían y que ella bien lo había dicho. Él la amenó con pegarle si no se callaba. No era que el leñador no estuviese hasta más afligido que su mujer, sino que ella le machacaba la cabeza, y sentía lo mismo que muchos como él que gustan de las mujeres que dicen bien, pero que consideran inoportunas a las que siempre bien lo decían. La leñadora estaba deshecha en lágrimas.
+—¡Ay! ¿donde están ahora mis hijos, mis pobres hijos? Una vez lo dijo tan fuerte que los niños, agolpados a la puerta, la oyeron y se pusieron a gritar todos juntos:
 —¡Aquí estamos, aquí estamos!
 Ella corrió de prisa a abrirles la puerta y les dijo abrazándolos:
 —¡Qué contenta estoy de volver a verlos, mis queridos niños! Están bien cansados y tienen hambre; y tú, Pierrot, mira cómo estás de embarrado, ven para limpiarte.
@@ -35,7 +35,7 @@ Este Pierrot era su hijo mayor al que amaba más que a todos los demás, porque 
 
 Se sentaron a la mesa y comieron con un apetito que deleitó al padre y la madre; contaban el susto que habían tenido en el bosque y hablaban todos casi al mismo tiempo. Estas buenas gentes estaban felices de ver nuevamente a sus hijos junto a ellos, y esta alegría duró tanto como duraron los diez escudos. Cuando se gastó todo el dinero, recayeron en su preocupación anterior y nuevamente decidieron perderlos; pero para no fracasar, los llevarían mucho más lejos que la primera vez.
 
-No pudieron hablar de esto tan en secreto como para no ser oídos por Pulgarcito, quien decidió arreglárselas igual que en la ocasión anterior; pero aunque se levantó de madrugada para ir a recoger los guijarros, no pudo hacerlo pues encontró la puerta cerrada con doble llave. No sabía que hacer; cuando la leñadora, les dio a cada uno un pedazo de pan como desayuno; pensó entonces que podría usar su pan en vez de los guijarros, dejándolo caer a migajas a lo largo del camino que recorrerían; lo guardo, pues, en el bolsillo.
+No pudieron hablar de esto tan en secreto como para no ser oídos por Pulgarcito, quien decidió arreglárselas igual que en la ocasión anterior; pero aunque se levantó de madrugada para ir a recoger los guijarros, no pudo hacerlo pues encontró la puerta cerrada con doble llave. No sabía qué hacer; cuando la leñadora, les dio a cada uno un pedazo de pan como desayuno; pensó entonces que podría usar su pan en vez de los guijarros, dejándolo caer a migajas a lo largo del camino que recorrerían; lo guardó, pues, en el bolsillo.
 
 El padre y la madre los llevaron al lugar más oscuro y tupido del bosque y junto con llegar, tomaron por un sendero apartado y dejaron a los niños.
 Pulgarcito no se afligió mucho porque creía que podría encontrar fácilmente el camino por medio de su pan que había diseminado por todas partes donde había pasado; pero quedó muy sorprendido cuando no pudo encontrar ni una sola miga; habían venido los pájaros y se lo habían comido todo.
@@ -57,10 +57,10 @@ Al decir estas palabras, se levantó de la mesa y fue derecho a la cama.
 Sacó a los niños de debajo de la cama, uno tras otro. Los pobres se arrodillaron pidiéndole misericordia; pero estaban ante el más cruel de los ogros quien, lejos de sentir piedad, los devoraba ya con los ojos y decía a su mujer que se convertirían en sabrosos bocados cuando ella les hiciera una buena salsa. Fue a coger un enorme cuchillo y mientras se acercaba a los infelices niños, lo afilaba en una piedra que llevaba en la mano izquierda. Ya había cogido a uno de ellos cuando su mujer le dijo:
 —¿Qué queréis hacer a esta hora? ¿No tendréis tiempo mañana por la mañana?
 —Cállate, repuso el ogro, así estarán más tiernos.
-—Pero todavía tenéis tanta carne, replicó la mujer; hay un ternero, dos corderos y la mitad de un puerco
+—Pero todavía tenéis tanta carne, replicó la mujer; hay un ternero, dos corderos y la mitad de un puerco.
 —Tienes razón, dijo el ogro; dales una buena cena para que no adelgacen, y llévalos a acostarse.
 
-La buena mujer se puso contentísima, y les trajo una buena comida, pero ellos no podían tragar. de puro susto. En cuanto al ogro, siguió bebiendo, encantado de tener algo tan bueno para festejar a sus amigos. Bebió unos doce tragos más que de costumbre, que se le fueron un poco a la cabeza, obligándolo a ir a acostarse.
+La buena mujer se puso contentísima, y les trajo una buena comida, pero ellos no podían tragar de puro susto. En cuanto al ogro, siguió bebiendo, encantado de tener algo tan bueno para festejar a sus amigos. Bebió unos doce tragos más que de costumbre, que se le fueron un poco a la cabeza, obligándolo a ir a acostarse.
 
 El ogro tenía siete hijas muy chicas todavía. Estas pequeñas ogresas tenían todas un lindo colorido pues se alimentaban de carne fresca, como su padre; pero tenían ojitos grises muy redondos, nariz ganchuda y boca grande con unos afilados dientes muy separados uno de otro. Aún no eran malvadas del todo, pero prometían bastante, pues ya mordían a los niños para chuparles la sangre.
 Las habían acostado temprano, y estaban las siete en una gran cama, cada una con una corona de oro en la cabeza. En el mismo cuarto había otra cama del mismo tamaño; ahí la mujer del ogro puso a dormir a los siete muchachos, después de lo cual se fue a acostar al lado de su marido.
@@ -79,11 +79,11 @@ Apenas Pulgarcito oyó los ronquidos del ogro, despertó a sus hermanos y les di
 
 El ogro, al despertar, dijo a su mujer:
 —Anda arriba a preparar a esos chiquillos de ayer.
-Muy sorprendida quedó la ogresa ante la bondad de su marido sin sospechar de qué manera entendía él que los preparara; y creyendo que le ordenaba vestirlos, subió y cuál no seria su asombro al ver a sus siete hijas degolladas y nadando en sangre. Empezó por desmayarse (que es lo primero que discurren casi todas las mujeres en circunstancias parecidas). El ogro, temiendo que la mujer tardara demasiado tiempo en realizar la tarea que le había encomendado, subió para ayudarla. Su asombro no fue menor que el de su mujer cuando vio este horrible espectáculo.
+Muy sorprendida quedó la ogresa ante la bondad de su marido sin sospechar de qué manera entendía él que los preparara; y creyendo que le ordenaba vestirlos, subió y cuál no sería su asombro al ver a sus siete hijas degolladas y nadando en sangre. Empezó por desmayarse (que es lo primero que discurren casi todas las mujeres en circunstancias parecidas). El ogro, temiendo que la mujer tardara demasiado tiempo en realizar la tarea que le había encomendado, subió para ayudarla. Su asombro no fue menor que el de su mujer cuando vio este horrible espectáculo.
 —¡Ay! ¿qué hice? exclamó. ¡Me la pagarán estos desgraciados, y en el acto!
 —Echó un tazón de agua en la nariz de su mujer y haciéndola volver en sí:
 —Dame pronto mis botas de siete leguas, le dijo, para ir a agarrarlos.
-Se puso en campaña, y después de haber recorrido lejos de uno a otro lado, tomó finalmente el camino por donde iban los pobres muchachos que ya estaban a sólo cien pasos de la casa de sus padres. Vieron al ogro ir de cerro en cerro, y atravesar ríos con tanta facilidad como si se tratara de arroyuelos. Pulgarcito, que descubrió una roca hueca cerca de donde estaban, hizo entrar a sus hermanos y se metió él también, sin perder de vista lo que hacia el ogro.
+Se puso en campaña, y después de haber recorrido lejos de uno a otro lado, tomó finalmente el camino por donde iban los pobres muchachos que ya estaban a sólo cien pasos de la casa de sus padres. Vieron al ogro ir de cerro en cerro, y atravesar ríos con tanta facilidad como si se tratara de arroyuelos. Pulgarcito, que descubrió una roca hueca cerca de donde estaban, hizo entrar a sus hermanos y se metió él también, sin perder de vista lo que hacía el ogro.
 
 Este, que estaba agotado de tanto caminar inútilmente (pues las botas de siete leguas son harto cansadoras), quiso reposar y por casualidad fue a sentarse sobre la roca donde se habían escondido los muchachos. Como no podía más de fatiga, se durmió después de reposar un rato, y se puso a roncar en forma tan espantosa que los niños se asustaron igual que cuando sostenía el enorme cuchillo para cortarles el pescuezo.
 
@@ -106,138 +106,228 @@ Después de hacer durante algún tiempo el oficio de correo, y de haber amasado 
       {
         id: 'pul-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué llamaban "Pulgarcito" al hijo menor del leñador?',
-        options: ['Porque era muy rápido', 'Porque le gustaban los pulgares', 'Porque al nacer no era más gordo que un pulgar', 'Porque era muy fuerte'],
-        correctAnswer: 'Porque al nacer no era más gordo que un pulgar',
+        questionText: '¿Por qué llamaban "Pulgarcito" al hijo menor de la familia?',
+        options: [
+          'Porque era el más rápido trepando árboles.',
+          'Porque al nacer no era más grande que un pulgar.',
+          'Porque su padre era un sastre muy famoso.',
+          'Porque nació el mismo día que sus seis hermanos.'
+        ],
+        correctAnswer: 'Porque al nacer no era más grande que un pulgar.',
       },
       {
         id: 'pul-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué usó Pulgarcito la primera vez para encontrar el camino de regreso del bosque?',
-        options: ['Migas de pan', 'Hojas de colores', 'Guijarros blancos', 'Ramas rotas'],
-        correctAnswer: 'Guijarros blancos',
+        questionText: '¿Qué objeto usó Pulgarcito en el PRIMER viaje al bosque para marcar el camino?',
+        options: [
+          'Migas de pan de su desayuno.',
+          'Piedras blancas que brillaban al sol.',
+          'Ramas secas de los árboles tupidos.',
+          'Monedas de oro que robó al ogro.'
+        ],
+        correctAnswer: 'Piedras blancas que brillaban al sol.',
       },
       {
         id: 'pul-lit3',
         category: QuestionCategory.LITERAL,
         questionText: '¿Qué tenían las siete hijas del ogro en sus cabezas cuando dormían?',
-        options: ['Sombreros de noche', 'Coronas de oro', 'Cintas de seda', 'Gorros de lana'],
-        correctAnswer: 'Coronas de oro',
+        options: [
+          'Gorros de lana para el frío.',
+          'Cintas de seda de colores.',
+          'Coronas de oro brillante.',
+          'Sombreros de noche bordados.'
+        ],
+        correctAnswer: 'Coronas de oro brillante.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'pul-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que el ogro se despertara a medianoche para matar a los niños?',
-        options: ['Se comió a sus propias hijas', 'Se dio cuenta del engaño y persiguió a los niños', 'Tanteó las cabezas, sintió las coronas de oro y pensó que eran sus hijas', 'Volvió a dormirse porque había bebido mucho'],
-        correctAnswer: 'Tanteó las cabezas, sintió las coronas de oro y pensó que eran sus hijas',
+        questionText: '¿Cuál fue el orden de las trampas que el ogro preparó para los niños?',
+        options: [
+          'Intentar matarlos de noche, mandarlos a dormir y luego afiló el cuchillo.',
+          'Sacarlos de abajo de la cama, mandarlos a cenar y luego afiló su cuchillo.',
+          'Perseguirlos con botas, encontrarlos en la roca y luego dormirse.',
+          'Pedir la cena, descubrir a los niños y luego comerse el cordero.'
+        ],
+        correctAnswer: 'Sacarlos de abajo de la cama, mandarlos a cenar y luego afiló su cuchillo.',
       },
       {
         id: 'pul-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Pulgarcito después de quitarle las botas al ogro dormido?',
-        options: ['Corrió a su casa con sus hermanos', 'Despertó al ogro para burlarse de él', 'Fue a la casa del ogro y engañó a la esposa para que le diera sus riquezas', 'Se escondió en una cueva'],
-        correctAnswer: 'Fue a la casa del ogro y engañó a la esposa para que le diera sus riquezas',
+        questionText: '¿Qué hizo Pulgarcito justo después de esconder a sus hermanos en la roca hueca?',
+        options: [
+          'Se puso a roncar igual que el ogro.',
+          'Le quitó las botas al ogro mientras dormía.',
+          'Corrió solo a la casa de sus padres.',
+          'Le pidió a la mujer del ogro sus riquezas.'
+        ],
+        correctAnswer: 'Le quitó las botas al ogro mientras dormía.',
       },
       {
         id: 'pul-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió con las migas de pan que Pulgarcito dejó la segunda vez que los llevaron al bosque?',
-        options: ['Se las comieron los lobos', 'Se las llevó el viento', 'Se las comieron los pájaros', 'Se deshicieron con la lluvia'],
-        correctAnswer: 'Se las comieron los pájaros',
+        questionText: '¿Qué ocurrió inmediatamente después de que los pájaros se comieran el pan en el segundo viaje?',
+        options: [
+          'Los niños se perdieron y empezaron a llorar.',
+          'Pulgarcito trepó a un árbol para buscar una luz.',
+          'Llegaron directamente a la casa del ogro.',
+          'Empezó a llover y el viento sopló fuerte.'
+        ],
+        correctAnswer: 'Los niños se perdieron y empezaron a llorar.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'pul-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "se llenó los bolsillos con guijarros blancos", ¿qué son los "guijarros"?',
-        options: ['Hojas secas', 'Piedras pequeñas y lisas', 'Conchas de caracol', 'Semillas'],
-        correctAnswer: 'Piedras pequeñas y lisas',
+        questionText: 'La historia dice que el ogro degolló a sus hijas "sin trepidar". ¿Qué significa esto?',
+        options: [
+          'Que lo hizo con mucho miedo y llanto.',
+          'Que lo hizo sin dudar ni un momento.',
+          'Que lo hizo haciendo un ruido espantoso.',
+          'Que lo hizo porque estaba muy cansado.'
+        ],
+        correctAnswer: 'Que lo hizo sin dudar ni un momento.',
       },
       {
         id: 'pul-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando los niños estaban solos en el bosque, se pusieron a "bramar". ¿Qué significa "bramar"?',
-        options: ['Cantar en voz baja', 'Reír a carcajadas', 'Gritar o llorar con mucha fuerza', 'Susurrar'],
-        correctAnswer: 'Gritar o llorar con mucha fuerza',
+        questionText: 'Los niños escucharon los aullidos de los lobos "bramar". ¿Qué hacían los lobos?',
+        options: [
+          'Cantaban una canción suave de noche.',
+          'Gritaban o hacían ruidos muy fuertes.',
+          'Corrían velozmente entre las ramas.',
+          'Se escondían para no ser descubiertos.'
+        ],
+        correctAnswer: 'Gritaban o hacían ruidos muy fuertes.',
       },
       {
         id: 'pul-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El ogro tenía botas de siete "leguas". ¿Qué es una "legua"?',
-        options: ['Un tipo de cuero', 'Un color brillante', 'Una medida de distancia muy larga', 'Un adorno mágico'],
-        correctAnswer: 'Una medida de distancia muy larga',
+        questionText: 'Las botas eran de siete "leguas". ¿A qué se refiere esta palabra?',
+        options: [
+          'A un tipo de cuero muy antiguo.',
+          'A una medida de distancia muy larga.',
+          'A un color de metal que brilla.',
+          'A una forma de magia de los ogros.'
+        ],
+        correctAnswer: 'A una medida de distancia muy larga.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'pul-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el principal problema de la familia al principio de la historia?',
-        options: ['No se querían entre ellos', 'La casa era muy pequeña', 'Eran muy pobres y no tenían suficiente comida para sus siete hijos', 'El padre era muy perezoso'],
-        correctAnswer: 'Eran muy pobres y no tenían suficiente comida para sus siete hijos',
+        questionText: '¿Cuál es la idea principal que demuestra Pulgarcito en toda la historia?',
+        options: [
+          'Que ser pequeño es peligroso en el bosque.',
+          'Que la inteligencia y la observación vencen a la fuerza.',
+          'Que los padres siempre saben qué es lo mejor.',
+          'Que el oro es lo más importante para ser feliz.'
+        ],
+        correctAnswer: 'Que la inteligencia y la observación vencen a la fuerza.',
       },
       {
         id: 'pul-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección más importante de esta historia?',
-        options: ['No se debe confiar en los ogros', 'El tamaño no importa, la inteligencia y la astucia son más valiosas', 'Siempre hay que llevar pan al bosque', 'Los hermanos mayores deben cuidar a los menores'],
-        correctAnswer: 'El tamaño no importa, la inteligencia y la astucia son más valiosas',
+        questionText: '¿Por qué los padres deciden abandonar a sus hijos en el bosque?',
+        options: [
+          'Porque querían irse a vivir a la gran ciudad.',
+          'Por la desesperación de no poder alimentarlos por la pobreza.',
+          'Porque los niños eran muy desobedientes y malos.',
+          'Porque el ogro les prometió riquezas si lo hacían.'
+        ],
+        correctAnswer: 'Por la desesperación de no poder alimentarlos por la pobreza.',
       },
       {
         id: 'pul-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué Pulgarcito siempre lograba salvar a sus hermanos?',
-        options: ['Porque era el más rápido', 'Porque era muy observador, escuchaba los planes y pensaba en soluciones ingeniosas', 'Porque tenía poderes mágicos', 'Porque sus hermanos le ayudaban mucho'],
-        correctAnswer: 'Porque era muy observador, escuchaba los planes y pensaba en soluciones ingeniosas',
+        questionText: '¿Qué representa el final de la historia para la familia de Pulgarcito?',
+        options: [
+          'Un castigo por haber sido tan crueles.',
+          'Una nueva vida de seguridad y comodidad.',
+          'El inicio de un viaje por todo el mundo.',
+          'Que ahora todos deben ser leñadores.'
+        ],
+        correctAnswer: 'Una nueva vida de seguridad y comodidad.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'pul-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que Pulgarcito hablaba poco pero escuchaba mucho?',
-        options: ['Porque era tímido', 'Porque era más inteligente y prefería observar y entender la situación antes de actuar', 'Porque le dolía la garganta', 'Porque sus hermanos no lo dejaban hablar'],
-        correctAnswer: 'Porque era más inteligente y prefería observar y entender la situación antes de actuar',
+        questionText: '¿Por qué Pulgarcito escuchaba mucho pero hablaba poco?',
+        options: [
+          'Porque era un niño muy miedoso y tímido.',
+          'Para entender los planes de los demás y estar preparado.',
+          'Porque no sabía cómo pronunciar las palabras.',
+          'Porque sus hermanos no lo dejaban hablar nunca.'
+        ],
+        correctAnswer: 'Para entender los planes de los demás y estar preparado.',
       },
       {
         id: 'pul-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el ogro confundió a sus hijas con los niños y las mató?',
-        options: ['Porque estaba muy oscuro en la habitación', 'Porque Pulgarcito había intercambiado las coronas de oro por los gorros de sus hermanos', 'Porque sus hijas se portaban mal', 'Porque la esposa del ogro le dijo que lo hiciera'],
-        correctAnswer: 'Porque Pulgarcito había intercambiado las coronas de oro por los gorros de sus hermanos',
+        questionText: '¿Cómo logró Pulgarcito que el ogro matara a sus propias hijas por error?',
+        options: [
+          'Le dijo una mentira al oído mientras el ogro dormía.',
+          'Intercambió los gorros de sus hermanos por las coronas de las niñas.',
+          'Apagó todas las luces de la habitación del castillo.',
+          'Escondió a las niñas debajo de la cama del ogro.'
+        ],
+        correctAnswer: 'Intercambió los gorros de sus hermanos por las coronas de las niñas.',
       },
       {
         id: 'pul-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la mujer del ogro le creyó a Pulgarcito cuando le dijo que su marido estaba en peligro?',
-        options: ['Porque era muy ingenua', 'Porque estaba muy asustada por sus hijas muertas y Pulgarcito llevaba las botas de siete leguas como prueba', 'Porque quería deshacerse de su oro', 'Porque Pulgarcito la amenazó'],
-        correctAnswer: 'Porque estaba muy asustada por sus hijas muertas y Pulgarcito llevaba las botas de siete leguas como prueba',
+        questionText: '¿Por qué el ogro no se comió a los niños apenas los encontró debajo de la cama?',
+        options: [
+          'Porque su mujer lo convenció de que los hiciera engordar.',
+          'Porque tenía miedo de que los lobos se los quitaran.',
+          'Porque el cuchillo no tenía suficiente filo esa noche.',
+          'Porque prefirió comerse al ternero y los corderos primero.'
+        ],
+        correctAnswer: 'Porque su mujer lo convenció de que los hiciera engordar.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'pul-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Pulgarcito?',
-        options: ['Miedoso y llorón', 'Astuto y valiente', 'Glotón y perezoso', 'Tímido y silencioso'],
-        correctAnswer: 'Astuto y valiente',
+        questionText: '¿Qué rasgo define mejor a la madre de Pulgarcito?',
+        options: [
+          'Una mujer cruel que odia a sus hijos pequeños.',
+          'Alguien que sufre por la pobreza pero se deja convencer.',
+          'Una persona muy sabia que siempre tiene un plan.',
+          'Una madre que prefiere vivir sola con el leñador.'
+        ],
+        correctAnswer: 'Alguien que sufre por la pobreza pero se deja convencer.',
       },
       {
         id: 'pul-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el ogro de la historia?',
-        options: ['Amable y generoso', 'Cruel, tonto y glotón', 'Inteligente y calculador', 'Triste y solitario'],
-        correctAnswer: 'Cruel, tonto y glotón',
+        questionText: '¿Cómo se describe al ogro de la historia?',
+        options: [
+          'Como un gigante tonto que solo quiere amigos.',
+          'Como un ser despiadado pero que puede ser engañado.',
+          'Como un hombre bueno que fue hechizado por botas.',
+          'Como un habitante del bosque que cuida a los niños.'
+        ],
+        correctAnswer: 'Como un ser despiadado pero que puede ser engañado.',
       },
       {
         id: 'pul-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Por qué el padre leñador acepta abandonar a sus hijos, aunque le da pena?',
-        options: ['Porque odiaba a sus hijos', 'Porque es débil de carácter y su esposa lo convence ante la desesperación del hambre', 'Porque quería más dinero para él solo', 'Porque el señor de la aldea se lo ordenó'],
-        correctAnswer: 'Porque es débil de carácter y su esposa lo convence ante la desesperación del hambre',
+        questionText: '¿Qué demuestra Pulgarcito al final cuando decide ayudar al Rey?',
+        options: [
+          'Que es muy ambicioso y solo quiere más oro.',
+          'Su capacidad de usar sus habilidades mágicas para el bien.',
+          'Que ya no quiere volver a vivir con sus padres.',
+          'Que tiene miedo de que el ogro se despierte.'
+        ],
+        correctAnswer: 'Su capacidad de usar sus habilidades mágicas para el bien.',
       },
     ],
   },

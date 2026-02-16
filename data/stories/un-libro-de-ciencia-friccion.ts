@@ -33,138 +33,228 @@ En ese momento pensé que lo mejor era llamar a mi amigo y pedirle que me aclara
       {
         id: 'cf-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué tipo de libro fue a buscar el narrador a la tienda?',
-        options: ['Un libro de historia', 'Un libro de cocina', 'Un libro de "ciencia fricción"', 'Un libro de poesía'],
-        correctAnswer: 'Un libro de "ciencia fricción"',
+        questionText: '¿Qué palabra usa la vendedora para explicar qué es el "género" en los libros?',
+        options: [
+          'Dice que se refiere a las categorías literarias.',
+          'Dice que se refiere a los tipos de telas finas.',
+          'Dice que se refiere al nombre de los autores.',
+          'Dice que se refiere a los libros de ciencia.'
+        ],
+        correctAnswer: 'Dice que se refiere a las categorías literarias.',
       },
       {
         id: 'cf-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué el narrador decide irse de la tienda al final?',
-        options: ['Porque la señora lo trató mal', 'Porque la tienda iba a cerrar', 'Porque no encontró el libro que buscaba y decidió llamar a su amigo para aclarar el nombre', 'Porque no tenía dinero'],
-        correctAnswer: 'Porque no encontró el libro que buscaba y decidió llamar a su amigo para aclarar el nombre',
+        questionText: '¿Por qué la vendedora asocia la "fricción" con producir una chispa?',
+        options: [
+          'Porque la fricción ocurre al frotar dos piedras.',
+          'Porque los libros de fricción tratan sobre el fuego.',
+          'Porque así se llaman los libros de ciencia atómica.',
+          'Porque es lo que sucede cuando se rompe un átomo.'
+        ],
+        correctAnswer: 'Porque la fricción ocurre al frotar dos piedras.',
       },
       {
         id: 'cf-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál es la última versión del nombre que el narrador cree correcta antes de rendirse?',
-        options: ['Ciencia fricción', 'Ciencia fisión', 'Ciencia afición', 'Ciencia ficción'],
-        correctAnswer: 'Ciencia ficción',
+        questionText: '¿Qué le recomienda la vendedora al narrador sobre la palabra "tipo"?',
+        options: [
+          'Que es mejor llamar al escritor "autor" por respeto.',
+          'Que "tipo" es una palabra que solo usan los amigos.',
+          'Que no debe usarla porque significa "extraterrestre".',
+          'Que debe usarla solo para hablar de géneros de tela.'
+        ],
+        correctAnswer: 'Que es mejor llamar al escritor "autor" por respeto.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'cf-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue la segunda versión incorrecta del nombre que dijo el narrador, después de "ciencia fricción"?',
-        options: ['Ciencia afición', 'Ciencia fisión', 'Ciencia ficción', 'Ciencia corrección'],
-        correctAnswer: 'Ciencia fisión',
+        questionText: '¿Cuál es el orden exacto de los términos que el narrador menciona buscando el correcto?',
+        options: [
+          'Fricción, fisión, afición y finalmente ficción.',
+          'Fricción, ficción, fisión y finalmente afición.',
+          'Fisión, fricción, afición y finalmente ficción.',
+          'Afición, fisión, ficción y finalmente fricción.'
+        ],
+        correctAnswer: 'Fricción, fisión, afición y finalmente ficción.',
       },
       {
         id: 'cf-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucede justo después de que la señora le explica al narrador qué es la "fricción"?',
-        options: ['El narrador se enoja', 'El narrador se da cuenta de su error y dice "ciencia fisión"', 'El narrador compra un libro sobre piedras', 'El narrador llama a su amigo'],
-        correctAnswer: 'El narrador se da cuenta de su error y dice "ciencia fisión"',
+        questionText: '¿Qué pasó inmediatamente después de que el narrador dijera correctamente "ciencia ficción"?',
+        options: [
+          'La vendedora le entregó el libro de su amigo.',
+          'El narrador rechazó el nombre por significar "imaginario".',
+          'La vendedora le explicó qué era la fisión de los átomos.',
+          'El narrador decidió irse a frotar piedras al jardín.'
+        ],
+        correctAnswer: 'El narrador rechazó el nombre por significar "imaginario".',
       },
       {
         id: 'cf-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál es el orden de los nombres incorrectos que usa el narrador?',
-        options: ['Fricción, fisión, ficción, afición', 'Fricción, fisión, afición, ficción', 'Afición, fisión, fricción, ficción', 'Fricción, afición, fisión, ficción'],
-        correctAnswer: 'Fricción, fisión, afición, ficción',
+        questionText: '¿Qué hizo el narrador justo antes de despedirse de la señora?',
+        options: [
+          'Le pidió perdón por hablar de géneros de telas.',
+          'Pensó que lo mejor era llamar a su amigo por teléfono.',
+          'Compró un libro sobre aficiones musicales.',
+          'Se puso a buscar un diccionario en el mostrador.'
+        ],
+        correctAnswer: 'Pensó que lo mejor era llamar a su amigo por teléfono.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'cf-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando la señora habla de "género" literario, ¿a qué se refiere?',
-        options: ['A si el autor es hombre o mujer', 'Al tipo de tela de la tapa del libro', 'A las diferentes categorías de libros (aventura, misterio, etc.)', 'Al tamaño del libro'],
-        correctAnswer: 'A las diferentes categorías de libros (aventura, misterio, etc.)',
+        questionText: 'Según la vendedora, ¿con qué se relaciona el término "fisión"?',
+        options: [
+          'Se relaciona con el estudio de los átomos.',
+          'Se relaciona con el roce de dos piedras.',
+          'Se relaciona con los gustos personales.',
+          'Se relaciona con las telas de los vestidos.'
+        ],
+        correctAnswer: 'Se relaciona con el estudio de los átomos.',
       },
       {
         id: 'cf-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La señora explica que la "fricción" es lo que ocurre cuando dos objetos se rozan. ¿Qué es "rozar"?',
-        options: ['Chocar fuertemente', 'Pasar tocándose suavemente', 'Estar muy lejos', 'Mirarse fijamente'],
-        correctAnswer: 'Pasar tocándose suavemente',
+        questionText: '¿Qué significa "afición" según el ejemplo que da la señora?',
+        options: [
+          'Tener interés o gusto por algo, como la música.',
+          'Escribir una historia sobre seres extraterrestres.',
+          'Clasificar los libros por su tamaño y color.',
+          'Equivocarse al decir el nombre de una ciencia.'
+        ],
+        correctAnswer: 'Tener interés o gusto por algo, como la música.',
       },
       {
         id: 'cf-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La señora dice que "afición" tiene que ver con algo que nos gusta. ¿Qué es un sinónimo de afición?',
-        options: ['Odio', 'Obligación', 'Pasatiempo o hobby', 'Trabajo'],
-        correctAnswer: 'Pasatiempo o hobby',
+        questionText: '¿A qué se refiere la vendedora cuando habla de una "obra literaria"?',
+        options: [
+          'A un libro escrito por un autor o escritor.',
+          'A una construcción de piedras para hacer chispas.',
+          'A una tienda donde se venden géneros y telas.',
+          'A una conversación entre un amigo y un tipo.'
+        ],
+        correctAnswer: 'A un libro escrito por un autor o escritor.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'cf-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el problema central de la historia?',
-        options: ['Un narrador que no sabe qué libro comprar', 'Una vendedora que no quiere ayudar', 'Una confusión graciosa basada en el juego de palabras entre "ficción", "fricción", "fisión" y "afición"', 'Un amigo que da malas recomendaciones'],
-        correctAnswer: 'Una confusión graciosa basada en el juego de palabras entre "ficción", "fricción", "fisión" y "afición"',
+        questionText: '¿Cuál es el motivo principal por el que no se logra concretar la compra?',
+        options: [
+          'Porque el narrador no tiene dinero suficiente.',
+          'Porque el narrador confunde las palabras y sus significados.',
+          'Porque la vendedora no tiene libros de ciencia en su tienda.',
+          'Porque el amigo le dio un nombre de libro que no existe.'
+        ],
+        correctAnswer: 'Porque el narrador confunde las palabras y sus significados.',
       },
       {
         id: 'cf-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el propósito del diálogo entre el narrador y la vendedora?',
-        options: ['Demostrar que el narrador no sabe nada', 'Vender un libro a toda costa', 'Crear humor a partir de los malentendidos', 'Explicar qué es la ciencia ficción'],
-        correctAnswer: 'Crear humor a partir de los malentendidos',
+        questionText: '¿Qué intenta demostrar la autora con esta historia de malentendidos?',
+        options: [
+          'Que es muy importante estudiar física y química.',
+          'Cómo una palabra parecida puede cambiar todo el sentido.',
+          'Que las vendedoras de libros son personas muy pacientes.',
+          'Que la ciencia ficción es un género muy aburrido.'
+        ],
+        correctAnswer: 'Cómo una palabra parecida puede cambiar todo el sentido.',
       },
       {
         id: 'cf-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la comunicación entre los personajes es tan difícil?',
-        options: ['Porque hablan diferentes idiomas', 'Porque no se escuchan el uno al otro', 'Porque el narrador no recuerda la palabra correcta y la vendedora interpreta literalmente cada error', 'Porque la tienda es muy ruidosa'],
-        correctAnswer: 'Porque el narrador no recuerda la palabra correcta y la vendedora interpreta literalmente cada error',
+        questionText: '¿Por qué el narrador se siente confundido con la palabra "género"?',
+        options: [
+          'Porque piensa que solo se usa para hablar de telas.',
+          'Porque no sabe leer las etiquetas de los libros.',
+          'Porque la vendedora lo trata como a un extraterrestre.',
+          'Porque prefiere la palabra "tipo" para los autores.'
+        ],
+        correctAnswer: 'Porque piensa que solo se usa para hablar de telas.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'cf-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el narrador rechaza la idea de "ciencia ficción" al final?',
-        options: ['Porque suena muy complicado', 'Porque malinterpreta la palabra "ficción" y no le gusta que la ciencia se mezcle con cosas imaginarias', 'Porque la señora le dijo que no existía', 'Porque su amigo le dijo que ese no era el nombre'],
-        correctAnswer: 'Porque malinterpreta la palabra "ficción" y no le gusta que la ciencia se mezcle con cosas imaginarias',
+        questionText: '¿Por qué el narrador cree que la vendedora lo tomó por un "extraterrestre"?',
+        options: [
+          'Por la cara de sorpresa que ella puso al escucharlo.',
+          'Porque él llevaba un disfraz de carnaval muy raro.',
+          'Porque él venía de otro planeta a buscar libros.',
+          'Porque la vendedora le preguntó de qué galaxia era.'
+        ],
+        correctAnswer: 'Por la cara de sorpresa que ella puso al escucharlo.',
       },
       {
         id: 'cf-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo crees que se siente la señora que atiende la tienda?',
-        options: ['Enojada y frustrada', 'Divertida por la situación', 'Un poco confundida pero tratando de ser amable y ayudar', 'Aburrida e indiferente'],
-        correctAnswer: 'Un poco confundida pero tratando de ser amable y ayudar',
+        questionText: '¿Qué podemos deducir sobre la forma de pensar del narrador?',
+        options: [
+          'Que es una persona muy literal que se distrae con las palabras.',
+          'Que es un experto en ciencia que busca errores en los libros.',
+          'Que no le gusta leer y solo va a la tienda por su amigo.',
+          'Que es un hombre muy maleducado que insulta a los autores.'
+        ],
+        correctAnswer: 'Que es una persona muy literal que se distrae con las palabras.',
       },
       {
         id: 'cf-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cuál es la palabra correcta que el amigo del narrador probablemente le recomendó?',
-        options: ['Ciencia fricción', 'Ciencia fisión', 'Ciencia afición', 'Ciencia ficción'],
-        correctAnswer: 'Ciencia ficción',
+        questionText: '¿Cuál es la ironía del final del cuento?',
+        options: [
+          'Que el hombre dice la palabra correcta pero la rechaza.',
+          'Que la vendedora finalmente no le quiso vender nada.',
+          'Que el amigo en realidad le había recomendado un libro de cocina.',
+          'Que el narrador se olvidó el teléfono para llamar a su amigo.'
+        ],
+        correctAnswer: 'Que el hombre dice la palabra correcta pero la rechaza.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'cf-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el narrador de la historia?',
-        options: ['Muy seguro de sí mismo', 'Un poco confundido pero persistente', 'Enojado e impaciente', 'Tímido y callado'],
-        correctAnswer: 'Un poco confundido pero persistente',
+        questionText: '¿Cómo describirías la actitud de la vendedora en el diálogo?',
+        options: [
+          'Es una persona paciente que intenta explicar cada término.',
+          'Es una mujer apurada que quiere que el cliente se vaya.',
+          'Es una vendedora distraída que no conoce sus propios libros.',
+          'Es alguien muy enojado porque el hombre no sabe hablar bien.'
+        ],
+        correctAnswer: 'Es una persona paciente que intenta explicar cada término.',
       },
       {
         id: 'cf-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen a la señora de la tienda?',
-        options: ['Grosera y apurada', 'Paciente y literal', 'Distraída y olvidadiza', 'Chistosa y burlona'],
-        correctAnswer: 'Paciente y literal',
+        questionText: '¿Qué rasgo define mejor al narrador de esta historia?',
+        options: [
+          'Su persistencia para encontrar el nombre exacto, aunque se equivoque.',
+          'Su timidez al hablar con personas que no conoce.',
+          'Su gran sabiduría sobre los átomos y la fricción de piedras.',
+          'Su desinterés total por los consejos que le da su amigo.'
+        ],
+        correctAnswer: 'Su persistencia para encontrar el nombre exacto, aunque se equivoque.',
       },
       {
         id: 'cf-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué actitud muestra el narrador ante sus propios errores?',
-        options: ['Se avergüenza y se va', 'Se enoja con la vendedora', 'Intenta corregirse y sigue probando otras opciones', 'Niega que se equivocó'],
-        correctAnswer: 'Intenta corregirse y sigue probando otras opciones',
+        questionText: '¿Por qué el narrador se molesta cuando le dicen "género"?',
+        options: [
+          'Porque él cree que está en una librería y no en una tienda de ropa.',
+          'Porque no le gusta que la vendedora le corrija su forma de hablar.',
+          'Porque piensa que los géneros son solo para los libros de historia.',
+          'Porque prefiere que le muestren libros de "ciencia fricción".'
+        ],
+        correctAnswer: 'Porque él cree que está en una librería y no en una tienda de ropa.',
       },
     ],
   },

@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const snowWhite: Story = {
@@ -17,7 +18,7 @@ Un año más tarde el rey tomó otra esposa. Era una mujer bella pero orgullosa 
 ¡Espejito, espejito de mi habitación!
 ¿Quién es la más hermosa de esta región?
 
-Entonces el espejo respondía:
+Entonces el espejo respondería:
 La Reina es la más hermosa de esta región.
 Ella quedaba satisfecha pues sabía que su espejo siempre decía la verdad.
 
@@ -43,7 +44,7 @@ Pensaba, sin embargo, que las fieras pronto la devorarían. No obstante, no tene
 
 El cocinero los cocinó con sal y la mala mujer los comió creyendo comer los pulmones y el hígado de Blancanieves.
 
-Por su parte, la pobre niña se encontraba en medio de los grandes bosques, abandonada por todos y con tal miedo que todas las hojas de los árboles la asustaban. No tenía idea de cómo arreglárselas y entonces corrió y corrió sobre guijarros filosos y a través de las zarzas. Los animales salvajes se cruzaban con ella pero no le hacían ningún daño. Corrió hasta la caída de la tarde: entonces vio una casita a la que entró para descansar.
+Por su parte, la pobre niña se encontraba en medio de los grandes bosques, abandonada por todos y con tal miedo que todas las hojas de los árboles la asustaban. No tenía idea de cómo arreglarse las y entonces corrió y corrió sobre guijarros filosos y a través de las zarzas. Los animales salvajes se cruzaban con ella pero no le hacían ningún daño. Corrió hasta la caída de la tarde: entonces vio una casita a la que entró para descansar.
 
 En la cabañita todo era pequeño, pero tan lindo y limpio como se pueda imaginar. Había una mesita pequeña con un mantel blanco y sobre él siete platitos, cada uno con su pequeña cuchara, más siete cuchillos, siete tenedores y siete vasos, todos pequeños. A lo largo de la pared estaban dispuestas, uno junto a la otra, siete camitas cubiertas con sábanas blancas como la nieve.
 
@@ -115,11 +116,11 @@ Cuando la reina volvió a su casa se puso frente al espejo y preguntó:
 ¿Quién es la más hermosa de esta región?
 
 Entonces, como la vez anterior, respondió:
-La Reina es la más hermosa de este lugar, pero pasando los bosques, en la casa de los enanos, la linda Blancanieves lo es mucho más.
-Cuando oyó estas palabras toda la sangre le afluyó al corazón. El terror la invadió, pues era claro que Blancanieves había recobrado la vida.
+La Reina es la hermosa de este lugar, pero pasando los bosques, en la casa de los enanos, la linda Blancanieves lo es mucho más.
+Cuando oyó estas palabras toda la sangre le afluyó al corazón. El terror la invidó, pues era claro que Blancanieves había recobrado la vida.
 
 - Pero ahora –dijo ella- voy a inventar algo que te hará perecer.
-Y con la ayuda de sortilegios, en los que era experta, fabricó un peine envenenado. Luego se disfrazó tomando el aspecto de otra vieja. Así vestida atravesó las siete montañas y llegó a la casa de los siete enanos. Golpeó la puerta y gritó:
+And con la ayuda de sortilegios, en los que era experta, fabricó un peine envenenado. Luego se disfrazó tomando el aspecto de otra vieja. Así vestida atravesó las siete montañas y llegó a la casa de los siete enanos. Golpeó la puerta y gritó:
 - ¡Vendo buena mercadería! ¡Vendo! ¡Vendo!
 
 Blancanieves miró desde adentro y dijo:
@@ -138,7 +139,7 @@ En cuanto llegó a su casa la reina se colocó frente al espejo y dijo:
 ¿Quién es la más hermosa de esta región?
 
 Y el espejito, respondió nuevamente:
-La Reina es la más hermosa de este lugar. Pero pasando los bosques, en la casa de los enanos, la linda Blancanieves lo es mucho más.
+La Reina es la hermosa de este lugar. Pero pasando los bosques, en la casa de los enanos, la linda Blancanieves lo es mucho más.
 La reina al oír hablar al espejo de ese modo, se estremeció y tembló de cólera.
 
 - Es necesario que Blancanieves muera –exclamó- aunque me cueste la vida a mí misma.
@@ -161,7 +162,7 @@ Vuelta a su casa interrogó al espejo:
 ¿Quién es la más hermosa de esta región?
 
 Y el espejo finalmente respondió.
-La Reina es la más hermosa de esta región.
+La Reina es la hermosa de esta región.
 Entonces su corazón envidioso encontró reposo, si es que los corazones envidiosos pueden encontrar alguna vez reposo.
 
 A la noche, al volver a la casa, los enanitos encontraron a Blancanieves tendida en el suelo sin que un solo aliento escapara de su boca: estaba muerta.
@@ -194,7 +195,7 @@ Entonces Blancanieves comenzó a sentir cariño por él y se preparó la boda co
 ¿Quién es la más hermosa de esta región?
 
 El espejo respondió:
-La Reina es la más hermosa de este lugar. Pero la joven Reina lo es mucho más.
+La Reina es la hermosa de este lugar. Pero la joven Reina lo es mucho más.
 Entonces la mala mujer lanzó un juramento y tuvo tanto, tanto miedo, que no supo qué hacer. Al principio no quería ir de ningún modo a la boda. Pero no encontró reposo hasta no ver a la joven reina.
 
 Al entrar reconoció a Blancanieves y la angustia y el espanto que le produjo el descubrimiento la dejaron clavada al piso sin poder moverse. Pero ya habían puesto zapatos de hierro sobre carbones encendidos y luego los colocaron delante de ella con tenazas. Se obligó a la bruja a entrar en esos zapatos incandescentes y a bailar hasta que le llegara la muerte.
@@ -206,138 +207,228 @@ Al entrar reconoció a Blancanieves y la angustia y el espanto que le produjo el
         {
           id: 'snow-lit1',
           category: QuestionCategory.LITERAL,
-          questionText: '¿Qué deseaba la reina después de pincharse el dedo y ver su sangre en la nieve?',
-          options: ['Un castillo más grande', 'Una niña blanca como la nieve, roja como la sangre y de cabello negro como el ébano', 'Un vestido nuevo', 'Que dejara de nevar'],
-          correctAnswer: 'Una niña blanca como la nieve, roja como la sangre y de cabello negro como el ébano',
+          questionText: '¿Qué combinación de colores deseaba la primera reina para su futura hija?',
+          options: [
+            'Blanca como la nieve, roja como la sangre y negra como el ébano.',
+            'Blanca como las nubes, roja como las rosas y negra como la noche.',
+            'Blanca como la seda, roja como las cerezas y negra como el carbón.',
+            'Blanca como el invierno, roja como el fuego y negra como el metal.'
+          ],
+          correctAnswer: 'Blanca como la nieve, roja como la sangre y negra como el ébano.',
         },
         {
           id: 'snow-lit2',
           category: QuestionCategory.LITERAL,
-          questionText: '¿Qué le llevó el cazador a la reina en lugar de los pulmones y el hígado de Blancanieves?',
-          options: ['Los de un ciervo', 'Los de un cerdito', 'No le llevó nada', 'Una manzana'],
-          correctAnswer: 'Los de un cerdito',
+          questionText: '¿Qué pruebas le entregó el cazador a la reina para engañarla sobre la muerte de la niña?',
+          options: [
+            'El corazón y el vestido de seda de la pequeña Blancanieves.',
+            'Los pulmones y el hígado de un cerdito que saltó en el bosque.',
+            'Una cinta multicolor empapada en sangre de un animal salvaje.',
+            'Los restos de un ciervo que encontró cerca de las siete montañas.'
+          ],
+          correctAnswer: 'Los pulmones y el hígado de un cerdito que saltó en el bosque.',
         },
         {
             id: 'snow-lit3',
             category: QuestionCategory.LITERAL,
-            questionText: '¿Cuál fue el tercer y último objeto envenenado que la reina usó para engañar a Blancanieves?',
-            options: ['Una cinta', 'Un peine', 'Una manzana', 'Un vaso de agua'],
-            correctAnswer: 'Una manzana',
+            questionText: '¿Cómo era el interior de la casita donde Blancanieves entró a descansar?',
+            options: [
+              'Grande y lujosa, con siete mesas redondas de madera oscura.',
+              'Pequeña, limpia y ordenada, con siete platitos y siete camitas.',
+              'Oscura y descuidada, con restos de comida sobre un mantel rojo.',
+              'Mágica y colorida, con ventanas de azúcar y puertas de pastel.'
+            ],
+            correctAnswer: 'Pequeña, limpia y ordenada, con siete platitos y siete camitas.',
         },
       ],
       [QuestionCategory.SEQUENCING]: [
         {
           id: 'snow-seq1',
           category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué sucedió justo después de que Blancanieves mordiera la manzana envenenada?',
-          options: ['Se sintió mareada', 'Llegaron los enanos', 'Cayó muerta al instante', 'El príncipe la encontró'],
-          correctAnswer: 'Cayó muerta al instante',
+          questionText: '¿Cuál fue el orden de los tres objetos que usó la reina para intentar matar a Blancanieves?',
+          options: [
+            'Primero un peine, luego una cinta y finalmente la manzana.',
+            'Primero una cinta de seda, luego un peine y al final la manzana.',
+            'Primero la manzana roja, luego la cinta y finalmente el peine.',
+            'Primero un espejo mágico, luego un peine y al final la cinta.'
+          ],
+          correctAnswer: 'Primero una cinta de seda, luego un peine y al final la manzana.',
         },
         {
           id: 'snow-seq2',
           category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué hicieron los enanos PRIMERO cuando encontraron a Blancanieves inconsciente por la cinta apretada?',
-          options: ['La acostaron en su cama', 'Cortaron la cinta que la oprimía', 'Fueron a buscar a la reina', 'Le dieron agua'],
-          correctAnswer: 'Cortaron la cinta que la oprimía',
+          questionText: '¿Qué hicieron los enanos cuando encontraron a Blancanieves dormida por primera vez?',
+          options: [
+            'La despertaron de inmediato para preguntarle su nombre.',
+            'Encendieron sus farolitos y la dejaron dormir por su belleza.',
+            'La llevaron a la montaña para que el príncipe la viera allí.',
+            'Llamaron al cazador para que les explicara qué hacía la niña.'
+          ],
+          correctAnswer: 'Encendieron sus farolitos y la dejaron dormir por su belleza.',
         },
         {
           id: 'snow-seq3',
           category: QuestionCategory.SEQUENCING,
-          questionText: 'Después de que el cazador la dejara en el bosque, ¿qué hizo Blancanieves?',
-          options: ['Construyó una cabaña', 'Corrió todo el día hasta que encontró la casa de los enanos', 'Volvió al castillo', 'Se encontró con el príncipe'],
-          correctAnswer: 'Corrió todo el día hasta que encontró la casa de los enanos',
+          questionText: '¿Qué causó que Blancanieves despertara finalmente de su muerte aparente?',
+          options: [
+            'El beso de amor verdadero que le dio el príncipe en el ataúd.',
+            'Un sacudón de los servidores que hizo saltar el trozo de manzana.',
+            'El llanto de los siete enanos que siempre estaban a su lado.',
+            'La luz del sol que brilló a través del cristal del ataúd de oro.'
+          ],
+          correctAnswer: 'Un sacudón de los servidores que hizo saltar el trozo de manzana.',
         },
       ],
       [QuestionCategory.VOCABULARY]: [
         {
           id: 'snow-voc1',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'En la frase "...la reina tuvo miedo y se puso amarilla y verde de envidia", ¿qué significa "envidia"?',
-          options: ['Alegría', 'Tristeza', 'Celos', 'Cansancio'],
-          correctAnswer: 'Celos',
+          questionText: 'La reina se puso "amarilla y verde de envidia". ¿Qué significa esa expresión?',
+          options: [
+            'Que estaba muy enferma por el frío del crudo invierno.',
+            'Que sentía un odio y unos celos profundos por la niña.',
+            'Que su piel cambió de color por un sortilegio del espejo.',
+            'Que estaba muy cansada de preguntarle siempre lo mismo.'
+          ],
+          correctAnswer: 'Que sentía un odio y unos celos profundos por la niña.',
         },
         {
           id: 'snow-voc2',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'Cuando la reina se disfrazó de "buhonera", ¿qué pretendía ser?',
-          options: ['Una cocinera', 'Una princesa', 'Una vendedora ambulante', 'Una jardinera'],
-          correctAnswer: 'Una vendedora ambulante',
+          questionText: 'El texto dice que la reina "urdió un plan". ¿Qué hizo ella exactamente?',
+          options: [
+            'Pidió ayuda al rey para organizar una fiesta en el bosque.',
+            'Preparó y pensó una trampa con malas intenciones en secreto.',
+            'Buscó en sus libros de magia cómo volverse una buhonera.',
+            'Limpió el espejo de su habitación para ver mejor el futuro.'
+          ],
+          correctAnswer: 'Preparó y pensó una trampa con malas intenciones en secreto.',
         },
         {
           id: 'snow-voc3',
           category: QuestionCategory.VOCABULARY,
-          questionText: 'El príncipe prometió que la "estimaré como a lo que más quiero". ¿Qué significa "estimar" en esta oración?',
-          options: ['Ignorar', 'Olvidar', 'Querer y valorar mucho', 'Medir'],
-          correctAnswer: 'Querer y valorar mucho',
+          questionText: '¿Qué es una "buhonera" según el contexto del cuento?',
+          options: [
+            'Una mujer que vive sola en lo alto de las siete montañas.',
+            'Una vendedora ambulante de objetos pequeños y ropa.',
+            'Una sirvienta del palacio encargada de limpiar la cocina.',
+            'Una campesina que cultiva manzanas rojas y blancas.'
+          ],
+          correctAnswer: 'Una vendedora ambulante de objetos pequeños y ropa.',
         },
       ],
       [QuestionCategory.MAIN_IDEA]: [
         {
           id: 'snow-main1',
           category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es la lección principal de la historia de Blancanieves?',
-          options: ['No se debe hablar con extraños', 'La envidia es un sentimiento peligroso y destructivo', 'Las manzanas rojas son peligrosas', 'Los príncipes siempre salvan a las princesas'],
-          correctAnswer: 'La envidia es un sentimiento peligroso y destructivo',
+          questionText: '¿Cuál es el tema central o conflicto principal de esta historia?',
+          options: [
+            'La lucha de siete trabajadores por encontrar oro en la montaña.',
+            'El peligro de vivir en un bosque lleno de animales salvajes.',
+            'La envidia destructiva contra la inocencia y la belleza pura.',
+            'La historia de un príncipe que buscaba un ataúd de cristal.'
+          ],
+          correctAnswer: 'La envidia destructiva contra la inocencia y la belleza pura.',
         },
         {
           id: 'snow-main2',
           category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Cuál es el conflicto principal en la historia?',
-          options: ['Blancanieves contra los animales del bosque', 'Los enanos contra el príncipe', 'La reina malvada contra la belleza y bondad de Blancanieves', 'El cazador contra la reina'],
-          correctAnswer: 'La reina malvada contra la belleza y bondad de Blancanieves',
+          questionText: '¿Por qué la reina madrastra nunca encontraba reposo ni paz?',
+          options: [
+            'Porque el espejo siempre le recordaba que no era la más bella.',
+            'Porque extrañaba mucho su vida antes de casarse con el rey.',
+            'Porque los siete enanos protegían a Blancanieves con magia.',
+            'Porque tenía miedo de que el cazador le contara la verdad al rey.'
+          ],
+          correctAnswer: 'Porque el espejo siempre le recordaba que no era la más bella.',
         },
         {
           id: 'snow-main3',
           category: QuestionCategory.MAIN_IDEA,
-          questionText: '¿Por qué los enanos pusieron a Blancanieves en un ataúd de cristal en lugar de enterrarla?',
-          options: ['Porque esperaban que un príncipe la encontrara', 'Porque se veía tan fresca y viva que no podían ponerla bajo tierra', 'Porque no tenían un lugar para enterrarla', 'Porque el cristal era mágico'],
-          correctAnswer: 'Porque se veía tan fresca y viva que no podían ponerla bajo tierra',
+          questionText: '¿Qué nos enseña el final de la historia sobre las acciones de la reina?',
+          options: [
+            'Que la maldad y el orgullo terminan recibiendo un castigo.',
+            'Que ser la más bella es lo más importante de toda la región.',
+            'Que las bodas reales son peligrosas para las personas mayores.',
+            'Que los espejos mágicos siempre causan muchos problemas.'
+          ],
+          correctAnswer: 'Que la maldad y el orgullo terminan recibiendo un castigo.',
         },
       ],
       [QuestionCategory.INFERENCE]: [
         {
           id: 'snow-inf1',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué crees que la reina siempre le preguntaba al espejo quién era la más hermosa?',
-          options: ['Porque no tenía otros amigos con quienes hablar', 'Porque era muy insegura y necesitaba que le dijeran que era la más bella', 'Porque el espejo le daba buenos consejos', 'Porque se le olvidaba la respuesta'],
-          correctAnswer: 'Porque era muy insegura y necesitaba que le dijeran que era la más bella',
+          questionText: '¿Por qué el cazador decidió no matar a Blancanieves en el bosque?',
+          options: [
+            'Porque tuvo miedo de que el rey lo castigara si se enteraba.',
+            'Porque su belleza despertó en él un sentimiento de piedad.',
+            'Porque Blancanieves le prometió que le daría mucho oro.',
+            'Porque pensó que era más fácil matar a un cerdito saltarín.'
+          ],
+          correctAnswer: 'Porque su belleza despertó en él un sentimiento de piedad.',
         },
         {
           id: 'snow-inf2',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Cómo se sintió probablemente el príncipe cuando Blancanieves despertó?',
-          options: ['Asustado porque pensó que era un fantasma', 'Enojado porque lo interrumpió', 'Sorprendido y muy feliz', 'Confundido porque no sabía quién era'],
-          correctAnswer: 'Sorprendido y muy feliz',
+          questionText: '¿Por qué Blancanieves cayó en las trampas de la reina tantas veces?',
+          options: [
+            'Porque era una niña desobediente que no quería trabajar.',
+            'Porque su naturaleza era confiada y no sospechaba de la maldad.',
+            'Porque los objetos de la reina eran mágicos e irresistibles.',
+            'Porque los enanos no le explicaron bien quién era su madrastra.'
+          ],
+          correctAnswer: 'Porque su naturaleza era confiada y no sospechaba de la maldad.',
         },
         {
           id: 'snow-inf3',
           category: QuestionCategory.INFERENCE,
-          questionText: '¿Por qué Blancanieves confió en la reina disfrazada varias veces, a pesar de las advertencias de los enanos?',
-          options: ['Porque era desobediente', 'Porque era muy inocente y no podía imaginar tanta maldad', 'Porque no entendió lo que le dijeron los enanos', 'Porque le gustaban los regalos'],
-          correctAnswer: 'Porque era muy inocente y no podía imaginar tanta maldad',
+          questionText: '¿Por qué la reina se disfrazaba para ir a la casa de los enanos?',
+          options: [
+            'Porque le gustaba jugar a actuar y usar ropas de colores.',
+            'Porque sabía que Blancanieves no dejaría entrar a gente del palacio.',
+            'Porque quería demostrarle al espejo que era muy inteligente.',
+            'Porque el camino por las siete montañas era sucio y polvoriento.'
+          ],
+          correctAnswer: 'Porque sabía que Blancanieves no dejaría entrar a gente del palacio.',
         },
       ],
       [QuestionCategory.CHARACTER]: [
         {
           id: 'snow-char1',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Qué dos palabras describen mejor a la reina malvada?',
-          options: ['Amable y generosa', 'Vanidosa y cruel', 'Tímida y miedosa', 'Alegre y divertida'],
-          correctAnswer: 'Vanidosa y cruel',
+          questionText: '¿Qué rasgos definen mejor la personalidad de los siete enanos?',
+          options: [
+            'Eran seres egoístas que solo querían que Blancanieves cocinara.',
+            'Eran personas trabajadoras, protectoras y de buen corazón.',
+            'Eran mineros miedosos que no se animaban a enfrentar a la reina.',
+            'Eran amigos del príncipe que sabían cómo resucitar personas.'
+          ],
+          correctAnswer: 'Eran personas trabajadoras, protectoras y de buen corazón.',
         },
         {
           id: 'snow-char2',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Qué cualidad describe mejor a Blancanieves a lo largo de la historia?',
-          options: ['Sospechosa', 'Enojada', 'Confiada y bondadosa', 'Inteligente y astuta'],
-          correctAnswer: 'Confiada y bondadosa',
+          questionText: '¿Cómo se describe la actitud de Blancanieves en casa de los enanos?',
+          options: [
+            'Como alguien que se quejaba del trabajo duro de la montaña.',
+            'Como una joven servicial que mantenía todo en orden y limpio.',
+            'Como una princesa orgullosa que esperaba que la sirvieran.',
+            'Como una niña asustada que nunca salía a mirar por la ventana.'
+          ],
+          correctAnswer: 'Como una joven servicial que mantenía todo en orden y limpio.',
         },
         {
           id: 'snow-char3',
           category: QuestionCategory.CHARACTER,
-          questionText: '¿Cómo demuestran los enanos que son buenos amigos para Blancanieves?',
-          options: ['La dejan sola para que aprenda a cuidarse', 'Le dan la bienvenida, la cuidan y la protegen de la reina', 'La envían de regreso al castillo', 'Le cobran por vivir en su casa'],
-          correctAnswer: 'Le dan la bienvenida, la cuidan y la protegen de la reina',
+          questionText: '¿Cuál era la debilidad principal de la reina madrastra?',
+          options: [
+            'Su amor por los objetos caros y los vestidos de seda.',
+            'Su vanidad extrema y su incapacidad de aceptar que alguien la superara.',
+            'Su miedo a los animales del bosque y a los espejos que mienten.',
+            'Su mala memoria para recordar el camino por las montañas.'
+          ],
+          correctAnswer: 'Su vanidad extrema y su incapacidad de aceptar que alguien la superara.',
         },
       ],
     },

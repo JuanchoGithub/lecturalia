@@ -24,7 +24,7 @@ Sus dos hijas mayores respondieron con la altivez que siempre demostraban en tod
 Puesto que debido a su soberbia nadie simpatizaba con ellas, las muchachas de los otros mercaderes y sus familias comentaban:
 -No merecen que les tengamos compasión. Al contrario, nos alegramos de verles abatido el orgullo. ¡Qué se hagan las grandes damas con las ovejas!
 
-Pero, al mismo tiempo, todo el mundo decía:
+But, al mismo tiempo, todo el mundo decía:
 -¡Qué pena, qué dolor nos da la desgracia de la Bella! ¡Esta sí que es una buena hija! ¡Con qué cortesía le habla a los pobres! ¡Es tan dulce, tan honesta!…
 
 No faltaron caballeros dispuestos a casarse con ella, aunque no tuviese un centavo; mas la joven agradecía pero respondía que le era imposible abandonar a su padre en desgracia, y que lo seguiría a la campiña para consolarlo y ayudarlo en sus trabajos. La pobre Bella no dejaba de afligirse por la pérdida de su fortuna, pero se decía a sí misma:
@@ -49,7 +49,7 @@ Nevaba fuertemente; el viento era tan impetuoso que por dos veces lo derribó de
 
 Se encaminó hacia aquel sitio y al acercarse observó que la luz salía de un gran palacio todo iluminado. Se apresuró a refugiarse allí; pero su sorpresa fue considerable cuando no encontró a persona alguna en los patios. Su caballo, que lo seguía, entró en una vasta caballeriza que estaba abierta, y habiendo hallado heno y avena, el pobre animal, que se moría de hambre, se puso a comer ávidamente. Después de dejarlo atado, el mercader pasó al castillo, donde tampoco vio a nadie; y por fin llegó a una gran sala en que había un buen fuego y una mesa cargada de viandas con un solo cubierto. Quizás pecaría de atrevido, pero se dirigió hacia allí. La tentación fue muy grande, pues la lluvia y la nieve lo habían calado hasta los huesos; se arrimó al fuego para secarse, diciéndose a sí mismo: “El dueño de esta casa y sus sirvientes, que no tardarán en dejarse ver, sin duda me perdonarán la libertad que me he tomado.”
 
-Se quedó aún esperando un rato largo, observaba hacia los otros recintos para tratar de ubicar a algún habitante en la mansión, pero cuando sonaron once campanadas sin que se apareciese nadie, no pudo ya resistir el hambre, y apoderándose de un pollo se lo comió con dos bocados a pesar de sus temblores. Bebió también algunas copas de vino, y ya con nueva audacia abandonó la sala y recorrió varios espaciosos aposentos, magníficamente amueblados. En uno de ellos encontró una cama dispuesta, y como era pasada la medianoche, y se sentía rendido de cansancio, entumecido y aturdido de la aventura pasada hasta encontrar este cobijo, decidió cerrar la puerta y acostarse a dormir.
+Se quedó aún esperando un rato largo, observaba hacia los otros recintos para tratar de ubicar a algún habitante en la mansión, pero cuando sonaron once campanadas sin que se aparepiese nadie, no pudo ya resistir el hambre, y apoderándose de un pollo se lo comió con dos bocados a pesar de sus temblores. Bebió también algunas copas de vino, y ya con nueva audacia abandonó la sala y recorrió varios espaciosos aposentos, magníficamente amueblados. En uno de ellos encontró una cama dispuesta, y como era pasada la medianoche, y se sentía rendido de cansancio, entumecido y aturdido de la aventura pasada hasta encontrar este cobijo, decidió cerrar la puerta y acostarse a dormir.
 
 Eran las diez de la mañana cuando se levantó al día siguiente, y no fue pequeña su sorpresa al encontrarse un traje como hecho a su medida en vez de sus viejas y gastadas ropas. “Sin duda”, se dijo, “o no he despertado, o este palacio pertenece a un hada buena que se ha apiadado de mí.”
 
@@ -85,7 +85,7 @@ Y enseguida contó a su familia la funesta aventura que acababa de sucederle. Al
 
 -No, hermana -dijeron sus tres hermanos-, tampoco es necesario que tú mueras; nosotros buscaremos a ese monstruo y lo mataremos o pereceremos bajo sus golpes.
 
--No hay que soñar, hijos míos -dijo el mercader-. El poderío de esa Bestia es tal que no tengo ninguna esperanza de matarla. Me conmueve el buen corazón de Bella, pero jamás la expondré a la muerte. Soy viejo, me queda poco tiempo de vida; sólo perderé unos cuantos años, de los que únicamente por ustedes siento desprenderme, mis hijos queridos.
+-No hay que soñar, hijos míos -dijo el mercader-. El poderío de esa Bestia es tal que no tengo ninguna esperanza de matarla. Me conmueve el buen corazón de Bella, pero jamás la exponé a la muerte. Soy viejo, me queda poco tiempo de vida; sólo perderé unos cuantos años, de los que únicamente por ustedes siento desprenderme, mis hijos queridos.
 
 -Te aseguro, padre mío -le dijo la Bella-, que no irás sin mí a ese palacio; tú no puedes impedirme que te siga. En parte fui responsable de tu desventura. Como soy joven, no le tengo gran apego a la vida, y prefiero que ese monstruo me devore a morirme de la pena y el remordimiento que me daría tu pérdida.
 
@@ -101,7 +101,7 @@ En cuanto terminaron de cenar se escuchó un gran estruendo y el mercader, llora
 -Adiós, señor -respondió la muchacha.
 Y enseguida se retiró la Bestia.
 
--¡Ah, hija mía -dijo el mercader, abrazando a la Bella- yo estoy casi muerto de espanto! Hazme caso y deja que me quede en tu sitio.
+-¡Ah, hija mía -dijo el mercader, abrazando a la Bella! ¡yo estoy casi muerto de espanto! Hazme caso y deja que me quede en tu sitio.
 -No, padre mío -le respondió la Bella con firmeza-, tú partirás por la mañana.
 
 Fueron después a acostarse, creyendo que no dormirían en toda la noche; mas sus ojos se cerraron apenas pusieron la cabeza en la almohada. Mientras dormía vio la Bella a una dama que le dijo:
@@ -145,7 +145,7 @@ Quiso suspirar al oírla el pobre monstruo, pero de su pecho no salió más que 
 
 Al quedarse sola, la Bella sintió una gran compasión por esta pobre Bestia. “¡Ah, qué pena”, se dijo, “que siendo tan bueno, sea tan feo!”
 
-Tres apacibles meses pasó la Bella en el castillo. Todas las tardes la Bestia la visitaba, y la entretenía y observaba mientras comía, con su conversación llena de buen sentido, pero jamás de aquello que en el mundo llaman ingenio. Cada día la Bella encontraba en el monstruo nuevas bondades, y la costumbre de verlo la había habituado tanto a su fealdad, que lejos de temer el momento de su visita, miraba con frecuencia el reloj para ver si eran las nueve, ya que la Bestia jamás dejaba de presentarse a esa hora, Sólo había una cosa que la apenaba, y era que la Bestia, cotidianamente antes de retirarse, le preguntaba cada noche si quería ser su esposa, y cuando ella rehusaba parecía traspasado de dolor. Un día le dijo:
+Tres apacibles meses pasó la Bella en el castillo. Todas las tardes la Bestia la visitaba, y la entretenía y observaba mientras comía, con su conversación llena de buen sentido, pero jamás de aquello que en el mundo llaman ingenio. Cada día la Bella encontra en el monstruo nuevas bondades, y la costumbre de verlo la había habituado tanto a su fealdad, que lejos de temer el momento de su visita, miraba con frecuencia el reloj para ver si eran las nueve, ya que la Bestia jamás dejaba de presentarse a esa hora, Sólo había una cosa que la apenaba, y era que la Bestia, cotidianamente antes de retirarse, le preguntaba cada noche si quería ser su esposa, y cuando ella rehusaba parecía traspasado de dolor. Un día le dijo:
 -Mucha pena me das, Bestia. Bien querría complacerte, pero soy demasiado sincera para permitirte creer que pudiese hacerlo nunca. Siempre he de ser tu amiga: trata de contentarte con esto.
 
 -Forzoso me será -dijo la Bestia-. Sé que en justicia soy horrible, pero mi amor es grande. Entretanto, me siento feliz de que quieras permanecer aquí. Prométeme que no me abandonarás nunca.
@@ -157,7 +157,7 @@ La Bella enrojeció al escuchar estas palabras. Había visto en el espejo que su
 -¡Oh, no -respondió la Bella, llorando-, te quiero demasiado para tolerarlo! Prometo regresar dentro de ocho días. Me has hecho ver que mis hermanas están casadas y mis hermanos en el ejército. Mi padre se ha quedado solo. Permíteme que pase una semana en su compañía.
 -Mañana estarás con él -dijo la Bestia-, pero acuérdate de tu promesa. Cuando quieras regresar no tienes más que poner tu sortija sobre la mesa a la hora del sueño. Adiós, Bella.
 
-La Bestia suspiró, según su costumbre, al decir estas palabras, y la Bella se acostó con la tristeza de verlo tan apesadumbrado. Cuando despertó a la mañana siguiente se hallaba en casa de su padre. Sonó a poco una campanilla que estaba junto a la cama y apareció la sirvienta, quien dio un gran grito al verla. Acudió rápidamente a sus voces el buen padre, y creyó morir de alegría porque recobraba a su querida hija, con la cual estuvo abrazado más de un cuarto de hora.
+La Bestia suspiró, según su costumbre, al decir estas palabras, y la Bella se acostó con la tristeza de verlo tan apesadumbrado. Cuando despertó a la mañana siguiente se hallaba en casa de su padre. Sonó a poco una campanilla que estaba junto a la cama y apareció la sirvienta, quien dio un gran grito al verla. Acudió rápidamente a sus voces el buen padre, y creyó morir de alegría porque recobra a su querida hija, con la cual estuvo abrazado más de un cuarto de hora.
 
 Luego de estas primeras efusiones, la Bella recordó que no tenía ropas con que vestirse, pero la sirvienta le dijo que en la vecina habitación había encontrado un cofre lleno de magníficos vestidos con adornos de oro y diamantes. Agradecida a las atenciones de la Bestia, pidió la Bella que le trajesen el más modesto de aquellos vestidos y que guardasen los otros para regalárselos a sus hermanas; pero apenas había dado esta orden desapareció el cofre. Su padre comentó que sin duda la Bestia quería que conservase para sí los regalos, y al instante reapareció el cofre donde estuviera antes.
 
@@ -189,7 +189,7 @@ La Bella, agradablemente sorprendida, tendió su mano al hermoso príncipe para 
 -Bella -le dijo esta dama, que era un hada poderosa-, ven a recibir el premio de tu buena elección: has preferido la virtud a la belleza y a la inteligencia, y por tanto mereces hallar todas estas cualidades reunidas en una sola persona. Vas a ser una gran reina: yo espero que tus virtudes no se desvanecerán en el trono. Y en cuanto a ustedes, señoras -agregó el hada, dirigiéndose a sus hermanas-, conozco sus corazones y toda la malicia que encierran. Conviértanse en estatuas, pero conserven la razón adentro de la piedra que va a envolverlas. Estarán a la puerta del palacio de la Bella, y no les pongo otra pena que la de ser testigos de su felicidad. No podrán volver a su primer estado hasta que reconozcan sus faltas; pero me temo mucho que no dejarán jamás de ser estatuas. Pues uno puede recobrarse del orgullo, la cólera, la gula y la pereza; pero es una especie de milagro que se corrija un corazón maligno y envidioso.
 
 En este punto dio el hada un golpe en el suelo con una varita y transportó a cuantos estaban en la sala al reino del príncipe. Sus súbditos lo recibieron con júbilo, y a poco se celebraron sus bodas con la Bella, quien vivió junto a él muy largos años en una felicidad perfecta, pues estaba fundada en la virtud.
-  `,
+`,
   wordCount: 3224,
   level: '5to Grado (Nivel T)',
   questions: {
@@ -198,137 +198,227 @@ En este punto dio el hada un golpe en el suelo con una varita y transportó a cu
             id: 'bb-lit1',
             category: QuestionCategory.LITERAL,
             questionText: '¿Qué le pidió la Bella a su padre que le trajera de su viaje?',
-            options: ['Un vestido de seda', 'Joyas y diamantes', 'Una rosa', 'Un libro de cuentos'],
-            correctAnswer: 'Una rosa',
+            options: [
+              'Un vestido de fina seda.',
+              'Joyas y diamantes caros.',
+              'Una rosa blanca del campo.',
+              'Un libro de cuentos sabios.'
+            ],
+            correctAnswer: 'Una rosa blanca del campo.',
         },
         {
             id: 'bb-lit2',
             category: QuestionCategory.LITERAL,
-            questionText: '¿Qué le prometió la Bella a la Bestia para poder visitar a su padre enfermo?',
-            options: ['Que se casaría con él al volver', 'Que le traería un regalo', 'Que regresaría en ocho días', 'Que nunca más se iría'],
-            correctAnswer: 'Que regresaría en ocho días',
+            questionText: '¿Qué le prometió la Bella a la Bestia para visitar a su padre?',
+            options: [
+              'Casarse con él al volver.',
+              'Traerle un regalo especial.',
+              'Regresar en ocho días.',
+              'Nunca más irse del castillo.'
+            ],
+            correctAnswer: 'Regresar en ocho días.',
         },
         {
             id: 'bb-lit3',
             category: QuestionCategory.LITERAL,
             questionText: '¿Qué soñó la Bella la noche que llegó al castillo?',
-            options: ['Que la Bestia la atacaba', 'Que su padre regresaba a buscarla', 'Que una dama le decía que su buena acción sería recompensada', 'Que se perdía en el bosque'],
-            correctAnswer: 'Que una dama le decía que su buena acción sería recompensada',
+            options: [
+              'Que la Bestia la atacaba.',
+              'Que su padre la buscaba.',
+              'Que una dama la premiaba.',
+              'Que se perdía en el bosque.'
+            ],
+            correctAnswer: 'Que una dama la premiaba.',
         },
     ],
     [QuestionCategory.SEQUENCING]: [
         {
             id: 'bb-seq1',
             category: QuestionCategory.SEQUENCING,
-            questionText: '¿Qué hizo el mercader justo después de encontrar un traje nuevo en su habitación en el palacio?',
-            options: ['Se fue a dormir otra vez', 'Salió a buscar a la Bestia', 'Tomó una taza de chocolate y luego fue a buscar su caballo', 'Llenó un cofre de oro'],
-            correctAnswer: 'Tomó una taza de chocolate y luego fue a buscar su caballo',
+            questionText: '¿Qué hizo el mercader tras hallar ropa nueva en su habitación?',
+            options: [
+              'Se fue a dormir otra vez.',
+              'Salió a buscar a la Bestia.',
+              'Tomó chocolate y buscó su caballo.',
+              'Llenó un gran cofre con oro.'
+            ],
+            correctAnswer: 'Tomó chocolate y buscó su caballo.',
         },
         {
             id: 'bb-seq2',
             category: QuestionCategory.SEQUENCING,
-            questionText: '¿Qué sucedió inmediatamente después de que la Bella le dijo a la Bestia que sería su esposo?',
-            options: ['La Bestia murió', 'El palacio se iluminó y la Bestia se transformó en un príncipe', 'El padre de la Bella llegó al castillo', 'Sus hermanas se convirtieron en estatuas'],
-            correctAnswer: 'El palacio se iluminó y la Bestia se transformó en un príncipe',
+            questionText: '¿Qué pasó justo después de que la Bella aceptara ser su esposa?',
+            options: [
+              'La Bestia murió de repente.',
+              'El castillo brilló y salió un príncipe.',
+              'Su padre llegó hasta el castillo.',
+              'Sus hermanas se volvieron estatuas.'
+            ],
+            correctAnswer: 'El castillo brilló y salió un príncipe.',
         },
         {
             id: 'bb-seq3',
             category: QuestionCategory.SEQUENCING,
-            questionText: '¿Qué encontró la Bella cuando regresó al castillo después de los 10 días?',
-            options: ['El castillo estaba vacío', 'La Bestia la esperaba con una fiesta', 'Encontró a la Bestia a punto de morir en el jardín', 'El príncipe ya se había liberado del hechizo'],
-            correctAnswer: 'Encontró a la Bestia a punto de morir en el jardín',
+            questionText: '¿Qué encontró la Bella al regresar al castillo tras el plazo fijado?',
+            options: [
+              'El castillo estaba vacío.',
+              'La Bestia daba una fiesta.',
+              'La Bestia moría en el jardín.',
+              'El príncipe ya era libre.'
+            ],
+            correctAnswer: 'La Bestia moría en el jardín.',
         },
     ],
     [QuestionCategory.VOCABULARY]: [
         {
             id: 'bb-voc1',
             category: QuestionCategory.VOCABULARY,
-            questionText: 'En la frase "Las dos hermanas mayores ostentaban con desprecio sus riquezas", ¿qué significa "ostentaban"?',
-            options: ['Escondían', 'Regalaban', 'Mostraban con orgullo y presunción', 'Contaban'],
-            correctAnswer: 'Mostraban con orgullo y presunción',
+            questionText: 'En el cuento, ¿qué significa que las hermanas "ostentaban" sus riquezas?',
+            options: [
+              'Que las guardaban con mucho secreto.',
+              'Que las daban a los que tenían menos.',
+              'Que las mostraban con mucho orgullo.',
+              'Que las perdieron todas en un momento.'
+            ],
+            correctAnswer: 'Que las mostraban con mucho orgullo.',
         },
         {
             id: 'bb-voc2',
             category: QuestionCategory.VOCABULARY,
-            questionText: 'La Bestia le dice al mercader que no espere conmoverlo con "lisonjas". ¿Qué son las "lisonjas"?',
-            options: ['Amenazas', 'Regalos caros', 'Alabanzas exageradas para agradar a alguien', 'Mentiras'],
-            correctAnswer: 'Alabanzas exageradas para agradar a alguien',
+            questionText: 'La Bestia dice que no quiere "lisonjas". ¿Qué son las lisonjas?',
+            options: [
+              'Amenazas para asustar.',
+              'Regalos de mucho valor.',
+              'Alabanzas para agradar.',
+              'Mentiras para engañar.'
+            ],
+            correctAnswer: 'Alabanzas para agradar.',
         },
         {
             id: 'bb-voc3',
             category: QuestionCategory.VOCABULARY,
-            questionText: 'La Bestia le decía a la Bella que su conversación era llena de buen sentido pero no de "ingenio". ¿Qué es el "ingenio"?',
-            options: ['Maldad', 'Tristeza', 'La capacidad de discurrir o inventar con prontitud y facilidad', 'Aburrimiento'],
-            correctAnswer: 'La capacidad de discurrir o inventar con prontitud y facilidad',
+            questionText: 'La Bestia no hablaba con "ingenio". ¿Qué es el ingenio en esta historia?',
+            options: [
+              'Maldad hacia los otros.',
+              'Tristeza por el hechizo.',
+              'Gracia para decir cosas.',
+              'Aburrimiento por la vida.'
+            ],
+            correctAnswer: 'Gracia para decir cosas.',
         },
     ],
     [QuestionCategory.MAIN_IDEA]: [
         {
             id: 'bb-main1',
             category: QuestionCategory.MAIN_IDEA,
-            questionText: '¿Cuál es la lección más importante de esta historia?',
-            options: ['Es peligroso perderse en el bosque', 'La virtud y la bondad del corazón son más importantes que la belleza exterior', 'No se deben cortar rosas de jardines ajenos', 'Las promesas siempre deben cumplirse'],
-            correctAnswer: 'La virtud y la bondad del corazón son más importantes que la belleza exterior',
+            questionText: '¿Cuál es el mensaje más importante de esta historia?',
+            options: [
+              'Es peligroso perderse en el bosque.',
+              'La bondad vale más que la belleza.',
+              'No se deben cortar rosas ajenas.',
+              'Las promesas se deben cumplir.'
+            ],
+            correctAnswer: 'La bondad vale más que la belleza.',
         },
         {
             id: 'bb-main2',
             category: QuestionCategory.MAIN_IDEA,
             questionText: '¿Por qué la Bestia se enamoró de la Bella?',
-            options: ['Porque era la mujer más hermosa que había visto', 'Porque fue la única persona que pudo ver más allá de su fealdad y apreciar su buen corazón', 'Porque ella le trajo una rosa', 'Porque ella era una princesa'],
-            correctAnswer: 'Porque fue la única persona que pudo ver más allá de su fealdad y apreciar su buen corazón',
+            options: [
+              'Por ser la más hermosa.',
+              'Por ver su buen corazón.',
+              'Por traerle una rosa.',
+              'Por ser hija de un rey.'
+            ],
+            correctAnswer: 'Por ver su buen corazón.',
         },
         {
             id: 'bb-main3',
             category: QuestionCategory.MAIN_IDEA,
-            questionText: '¿Por qué la Bella finalmente se da cuenta de que ama a la Bestia?',
-            options: ['Porque él le regala muchas joyas', 'Porque sueña que él está muriendo y siente un gran dolor al pensar en perderlo', 'Porque sus hermanas le dicen que lo haga', 'Porque su padre se lo pide'],
-            correctAnswer: 'Porque sueña que él está muriendo y siente un gran dolor al pensar en perderlo',
+            questionText: '¿Cómo descubre la Bella que ama a la Bestia?',
+            options: [
+              'Al recibir muchas joyas.',
+              'Al soñar que él moría.',
+              'Al hablar con sus hermanas.',
+              'Al ayudar a su padre.'
+            ],
+            correctAnswer: 'Al soñar que él moría.',
         },
     ],
     [QuestionCategory.INFERENCE]: [
         {
             id: 'bb-inf1',
             category: QuestionCategory.INFERENCE,
-            questionText: '¿Por qué las hermanas de la Bella intentaron retenerla en casa por más de ocho días?',
-            options: ['Porque la extrañaban mucho', 'Porque querían que la Bestia se enojara y la devorara por envidia', 'Porque necesitaban su ayuda en la casa', 'Porque querían robarle sus vestidos'],
-            correctAnswer: 'Porque querían que la Bestia se enojara y la devorara por envidia',
+            questionText: '¿Para qué las hermanas retuvieron a la Bella más de ocho días?',
+            options: [
+              'Porque la querían mucho.',
+              'Para que la Bestia la comiera.',
+              'Para que ayudara en la casa.',
+              'Para robarle sus vestidos.'
+            ],
+            correctAnswer: 'Para que la Bestia la comiera.',
         },
         {
             id: 'bb-inf2',
             category: QuestionCategory.INFERENCE,
-            questionText: '¿Por qué la Bella al principio sólo sentía amistad por la Bestia y no amor?',
-            options: ['Porque él era muy aburrido', 'Porque su horrible apariencia le impedía ver sus otras cualidades', 'Porque ella amaba a otra persona', 'Porque él no era rico'],
-            correctAnswer: 'Porque su horrible apariencia le impedía ver sus otras cualidades',
+            questionText: '¿Por qué la Bella solo sentía amistad por la Bestia al principio?',
+            options: [
+              'Porque él era aburrido.',
+              'Por su aspecto horrible.',
+              'Porque amaba a otro.',
+              'Porque él no era rico.'
+            ],
+            correctAnswer: 'Por su aspecto horrible.',
         },
         {
             id: 'bb-inf3',
             category: QuestionCategory.INFERENCE,
-            questionText: '¿Qué nos enseña el castigo del hada a las hermanas de la Bella?',
-            options: ['Que no se debe ser envidioso', 'Que la envidia y la maldad son defectos muy difíciles de corregir', 'Que las estatuas son un buen castigo', 'Que las hadas son muy poderosas'],
-            correctAnswer: 'Que la envidia y la maldad son defectos muy difíciles de corregir',
+            questionText: '¿Qué nos enseña el castigo final de las hermanas?',
+            options: [
+              'No se debe ser envidioso.',
+              'Es muy difícil corregir el mal.',
+              'Las estatuas son bellas.',
+              'Las hadas son poderosas.'
+            ],
+            correctAnswer: 'Es muy difícil corregir el mal.',
         },
     ],
     [QuestionCategory.CHARACTER]: [
         {
             id: 'bb-char1',
             category: QuestionCategory.CHARACTER,
-            questionText: '¿Qué dos palabras describen mejor a las hermanas de la Bella?',
-            options: ['Amables y trabajadoras', 'Envidiosas y superficiales', 'Tímidas y estudiosas', 'Valientes y aventureras'],
-            correctAnswer: 'Envidiosas y superficiales',
+            questionText: '¿Cómo son las hermanas de la Bella?',
+            options: [
+              'Amables y trabajadoras.',
+              'Envidiosas y orgullosas.',
+              'Tímidas y estudiosas.',
+              'Valientes y alegres.'
+            ],
+            correctAnswer: 'Envidiosas y orgullosas.',
         },
         {
             id: 'bb-char2',
             category: QuestionCategory.CHARACTER,
-            questionText: '¿Cuál es la cualidad más importante de la Bella que la lleva a su final feliz?',
-            options: ['Su inteligencia', 'Su gran belleza física', 'Su capacidad para ver la bondad en los demás más allá de las apariencias', 'Su habilidad para cantar'],
-            correctAnswer: 'Su capacidad para ver la bondad en los demás más allá de las apariencias',
+            questionText: '¿Cuál es la cualidad de la Bella que le da su final feliz?',
+            options: [
+              'Su gran inteligencia.',
+              'Su belleza exterior.',
+              'Su capacidad de amar.',
+              'Su voz al cantar.'
+            ],
+            correctAnswer: 'Su capacidad de amar.',
         },
         {
             id: 'bb-char3',
             category: QuestionCategory.CHARACTER,
-            questionText: '¿Cómo demuestra la Bestia su bondad a pesar de su apariencia?',
-            options: ['Forzando a la Bella a quedarse', 'Tratándola como la dueña del castillo, llenándola de atenciones y respetando sus decisiones', 'Encerrándola en una torre', 'Ignorándola por completo'],
-            correctAnswer: 'Tratándola como la dueña del castillo, llenándola de atenciones y respetando sus decisiones',
+            questionText: '¿Cómo muestra su bondad la Bestia?',
+            options: [
+              'Obligando a Bella a ir.',
+              'Respetando sus decisiones.',
+              'Encerrándola en la torre.',
+              'Ignorándola todo el día.'
+            ],
+            correctAnswer: 'Respetando sus decisiones.',
         },
     ],
   },

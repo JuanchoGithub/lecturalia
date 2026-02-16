@@ -28,7 +28,7 @@ Era un gigante muy egoísta.
 
 Los pobres niños no tenían ya dónde jugar. Intentaron jugar en la carretera, pero la carretera estaba muy polvorienta y llena de duros guijarros, y no les gustaba. Solían dar vueltas alrededor del alto muro cuando terminaban las clases y hablaban del bello jardín que había al otro lado.
 
--¡Qué felices éramos allí! -se decían.
+-¡Qué felices éramos allí! -se se decían.
 
 Luego llegó la primavera y todo el campo se llenó de florecillas y de pajarillos. Sólo en el jardín del gigante egoísta seguía siendo invierno. A los pájaros no les interesaba cantar en él, ya que no había niños, y los árboles se olvidaban de florecer. En una ocasión una hermosa flor levantó la cabeza por encima de la hierba, pero cuando vio el letrero sintió tanta pena por los niños que se volvió a deslizar en la tierra y se echó a dormir. Los únicos que se alegraron fueron la nieve y la escarcha.
 
@@ -104,138 +104,228 @@ Y cuando llegaron corriendo los niños aquella tarde, encontraron al gigante que
       {
         id: 'sg-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué el gigante construyó una alta tapia alrededor de su jardín?',
-        options: ['Para proteger las flores', 'Porque no quería que los niños jugaran en él', 'Para que no entraran animales', 'Porque se lo pidió el ogro de Cornualles'],
-        correctAnswer: 'Porque no quería que los niños jugaran en él',
+        questionText: '¿Cuál fue la razón principal por la que el gigante construyó la alta tapia?',
+        options: [
+          'Para proteger sus doce melocotoneros de los animales del bosque.',
+          'Porque deseaba que nadie más que él disfrutara de su propiedad.',
+          'Porque su amigo el ogro de Cornualles se lo había sugerido.',
+          'Para evitar que el Viento del Norte entrara a su castillo de noche.'
+        ],
+        correctAnswer: 'Porque deseaba que nadie más que él disfrutara de su propiedad.',
       },
       {
         id: 'sg-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué pasó en el jardín del gigante cuando los niños no podían entrar?',
-        options: ['Crecieron más flores que nunca', 'Se quedó siempre en invierno', 'El gigante plantó más árboles', 'Los pájaros cantaban más fuerte'],
-        correctAnswer: 'Se quedó siempre en invierno',
+        questionText: '¿Qué fenómeno climático permaneció en el jardín mientras los niños estuvieron ausentes?',
+        options: [
+          'Una lluvia constante que impedía que los frutos maduraran.',
+          'Un invierno permanente con nieve, escarcha, granizo y viento helado.',
+          'Una niebla espesa que no permitía ver los melocotoneros.',
+          'Un otoño eterno que hacía que las hojas cayeran sin cesar.'
+        ],
+        correctAnswer: 'Un invierno permanente con nieve, escarcha, granizo y viento helado.',
       },
       {
         id: 'sg-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué vio el gigante en las manos y los pies del niño pequeño al final de la historia?',
-        options: ['Manchas de pintura', 'Heridas de espinas', 'Las señales de dos clavos', 'Estaba descalzo'],
-        correctAnswer: 'Las señales de dos clavos',
+        questionText: '¿Qué marcas específicas observó el gigante en las manos y los pies del niño al final?',
+        options: [
+          'Manchas de pintura roja de las flores que había recolectado.',
+          'Pequeños rasguños causados por las ramas de plata del árbol.',
+          'Las señales de dos clavos en las palmas y en los pies.',
+          'Picaduras de los pájaros que cantaban en su ventana.'
+        ],
+        correctAnswer: 'Las señales de dos clavos en las palmas y en los pies.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'sg-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el gigante justo después de darse cuenta de lo egoísta que había sido?',
-        options: ['Se puso a llorar', 'Se fue de su castillo', 'Bajó, cogió al niño pequeño y lo subió a un árbol', 'Llamó a los niños para que volvieran'],
-        correctAnswer: 'Bajó, cogió al niño pequeño y lo subió a un árbol',
+        questionText: '¿Qué hizo el gigante inmediatamente después de ver al niño llorando en el rincón apartado?',
+        options: [
+          'Se asomó por la ventana y llamó a los demás niños.',
+          'Derribó la tapia con un hacha grande frente a todos.',
+          'Bajó suavemente, levantó al niño y lo ayudó a subir al árbol.',
+          'Se puso a llorar arrepentido en su habitación.'
+        ],
+        correctAnswer: 'Bajó suavemente, levantó al niño y lo ayudó a subir al árbol.',
       },
       {
         id: 'sg-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué fue lo PRIMERO que hizo el gigante al regresar a su castillo después de siete años?',
-        options: ['Construir una tapia', 'Echar a los niños que jugaban en su jardín', 'Plantar más flores', 'Irse a dormir'],
-        correctAnswer: 'Echar a los niños que jugaban en su jardín',
+        questionText: '¿Qué acción realizó el gigante apenas regresó de su visita de siete años?',
+        options: [
+          'Plantó doce melocotoneros nuevos en el centro del jardín.',
+          'Expulsó a los niños que jugaban y cercó el jardín con un muro.',
+          'Invitó a la nieve y la escarcha a vivir en su castillo.',
+          'Se puso a buscar a su amigo el ogro de Cornualles.'
+        ],
+        correctAnswer: 'Expulsó a los niños que jugaban y cercó el jardín con un muro.',
       },
       {
         id: 'sg-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: 'Después de que el gigante derribara la tapia, ¿qué hacía todas las tardes?',
-        options: ['Se sentaba a leer solo', 'Se iba de viaje', 'Jugaba con los niños en el jardín', 'Contaba sus monedas de oro'],
-        correctAnswer: 'Jugaba con los niños en el jardín',
+        questionText: '¿Qué ocurrió justo después de que el gigante derribara la tapia con su hacha?',
+        options: [
+          'La gente que iba al mercado lo vio jugando con los niños.',
+          'El niño pequeño lo besó y luego desapareció para siempre.',
+          'El invierno regresó al jardín por última vez.',
+          'Los músicos del rey pasaron por delante de su ventana.'
+        ],
+        correctAnswer: 'La gente que iba al mercado lo vio jugando con los niños.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'sg-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "gritó con voz muy bronca", ¿qué significa la palabra "bronca"?',
-        options: ['Suave y musical', 'Muy aguda y chillona', 'Áspera, grave y poco agradable', 'Rápida y alegre'],
-        correctAnswer: 'Áspera, grave y poco agradable',
+        questionText: 'En el texto, el gigante grita con "voz bronca". ¿Qué describe mejor este tipo de voz?',
+        options: [
+          'Una voz aguda y chillona que asusta a los pajarillos.',
+          'Una voz áspera, grave y que suena a enojo o molestia.',
+          'Una voz musical y suave como el canto del pardillo.',
+          'Una voz rápida y alegre que invita a los niños a jugar.'
+        ],
+        correctAnswer: 'Una voz áspera, grave y que suena a enojo o molestia.',
       },
       {
         id: 'sg-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La historia dice que el viento del Norte "bramaba" por el jardín. ¿Qué significa "bramar"?',
-        options: ['Susurrar suavemente', 'Cantar una canción', 'Hacer un ruido muy fuerte y continuo, como un animal furioso', 'Silbar una melodía'],
-        correctAnswer: 'Hacer un ruido muy fuerte y continuo, como un animal furioso',
+        questionText: 'La historia menciona que el viento del Norte "bramaba". ¿Qué significa esto?',
+        options: [
+          'Que el viento susurraba suavemente entre las ramas.',
+          'Que producía un sonido musical parecido a una flauta.',
+          'Que hacía un ruido muy fuerte y ruidoso, como un animal furioso.',
+          'Que soplaba de forma intermitente y con mucha calma.'
+        ],
+        correctAnswer: 'Que hacía un ruido muy fuerte y ruidoso, como un animal furioso.',
       },
       {
         id: 'sg-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando el gigante se arrepiente, baja las escaleras "cautelosamente". ¿Qué significa "cautelosamente"?',
-        options: ['Haciendo mucho ruido', 'Con mucho cuidado para no ser visto ni oído', 'Corriendo muy deprisa', 'Saltando de alegría'],
-        correctAnswer: 'Con mucho cuidado para no ser visto ni oído',
+        questionText: 'Cuando el gigante baja las escaleras "cautelosamente", ¿cómo lo hace?',
+        options: [
+          'Corriendo a toda prisa para alcanzar a los niños antes de que se vayan.',
+          'Con mucho cuidado y sin hacer ruido para no asustar a los presentes.',
+          'Saltando los escalones de dos en dos por la gran emoción que sentía.',
+          'Haciendo mucho ruido con sus pesadas botas para avisar que llegaba.'
+        ],
+        correctAnswer: 'Con mucho cuidado y sin hacer ruido para no asustar a los presentes.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'sg-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección más importante que aprende el gigante en esta historia?',
-        options: ['Que los muros altos son difíciles de construir', 'Que la felicidad viene de compartir y no del egoísmo', 'Que el invierno es una estación muy larga', 'Que los niños hacen mucho ruido'],
-        correctAnswer: 'Que la felicidad viene de compartir y no del egoísmo',
+        questionText: '¿Cuál es el mensaje central que propone Oscar Wilde en este cuento?',
+        options: [
+          'Que los muros altos son la mejor forma de proteger la naturaleza.',
+          'Que la verdadera felicidad y belleza nacen de compartir con los demás.',
+          'Que el invierno es necesario para que las flores descansen un tiempo.',
+          'Que los gigantes deben vivir solos en sus castillos para estar tranquilos.'
+        ],
+        correctAnswer: 'Que la verdadera felicidad y belleza nacen de compartir con los demás.',
       },
       {
         id: 'sg-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la primavera regresa finalmente al jardín del gigante?',
-        options: ['Porque el invierno se cansó', 'Porque los pájaros lo pidieron', 'Porque el gigante cambió su actitud egoísta y dejó entrar a los niños', 'Porque el sol empezó a calentar más'],
-        correctAnswer: 'Porque el gigante cambió su actitud egoísta y dejó entrar a los niños',
+        questionText: '¿Por qué la primavera decide volver finalmente al jardín del gigante?',
+        options: [
+          'Porque el Viento del Norte y el Granizo se aburrieron del lugar.',
+          'Porque el jardín reacciona a la alegría y la presencia de los niños.',
+          'Porque el gigante contrató a los músicos del rey para que tocaran.',
+          'Porque los pájaros decidieron cantar una melodía de perdón.'
+        ],
+        correctAnswer: 'Porque el jardín reacciona a la alegría y la presencia de los niños.',
       },
       {
         id: 'sg-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: 'Al final, el gigante dice: "los niños son las flores más hermosas". ¿Qué quiere decir con esto?',
-        options: ['Que los niños huelen bien como las flores', 'Que la alegría y la vida que traen los niños son más bellas que cualquier flor', 'Que los niños tienen ropa de muchos colores', 'Que no le gustan las flores de verdad'],
-        correctAnswer: 'Que la alegría y la vida que traen los niños son más bellas que cualquier flor',
+        questionText: 'Al decir "los niños son las flores más hermosas", ¿qué intenta expresar el gigante?',
+        options: [
+          'Que los niños huelen igual que las flores de su jardín.',
+          'Que la vida y el gozo que traen los niños superan la belleza de cualquier planta.',
+          'Que prefiere a los niños porque no se marchitan como las rosas.',
+          'Que los niños tienen ropas de colores tan brillantes como los pétalos.'
+        ],
+        correctAnswer: 'Que la vida y el gozo que traen los niños superan la belleza de cualquier planta.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'sg-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que el niño pequeño no huyó cuando el gigante se acercó?',
-        options: ['Porque era muy valiente', 'Porque no oyó al gigante', 'Porque sus ojos estaban tan llenos de lágrimas que no lo vio llegar', 'Porque quería ser amigo del gigante'],
-        correctAnswer: 'Porque sus ojos estaban tan llenos de lágrimas que no lo vio llegar',
+        questionText: '¿Por qué el niño pequeño no huyó junto con los otros niños cuando el gigante entró al jardín?',
+        options: [
+          'Porque era un niño muy valiente y quería enfrentar al gigante.',
+          'Porque estaba tan concentrado en su llanto que no notó la presencia del gigante.',
+          'Porque el árbol le había ordenado que se quedara allí esperando ayuda.',
+          'Porque quería ser el mejor amigo del gigante y jugar con él.'
+        ],
+        correctAnswer: 'Porque estaba tan concentrado en su llanto que no notó la presencia del gigante.',
       },
       {
         id: 'sg-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Quién crees que era realmente el niño pequeño que tenía heridas en las manos y los pies?',
-        options: ['Un príncipe de un reino lejano', 'Un niño que se había caído de un árbol', 'Una figura religiosa o un ángel', 'El hijo del ogro de Cornualles'],
-        correctAnswer: 'Una figura religiosa o un ángel',
+        questionText: 'Basándose en el final del cuento, ¿quién era realmente el niño pequeño?',
+        options: [
+          'Un príncipe de un reino lejano que se había perdido en el bosque.',
+          'El hijo del ogro de Cornualles que buscaba refugio en el castillo.',
+          'Una figura celestial o divina que vino a premiar el cambio del gigante.',
+          'Un niño común que tenía un disfraz muy extraño para la época.'
+        ],
+        correctAnswer: 'Una figura celestial o divina que vino a premiar el cambio del gigante.',
       },
       {
         id: 'sg-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el gigante amaba más al niño pequeño que a los demás?',
-        options: ['Porque era el más pequeño de todos', 'Porque era el único que no le tenía miedo', 'Porque fue el primero en mostrarle afecto (con un beso) y perdonarlo', 'Porque era el que mejor jugaba'],
-        correctAnswer: 'Porque fue el primero en mostrarle afecto (con un beso) y perdonarlo',
+        questionText: '¿Por qué el gigante amaba al niño pequeño más que a todos los demás?',
+        options: [
+          'Porque el niño fue el primero en demostrarle cariño y gratitud con un beso.',
+          'Porque era el más pequeño de todo el grupo y necesitaba más protección.',
+          'Porque el niño sabía jugar mejor que los otros niños de la escuela.',
+          'Porque el niño le había prometido llevarlo a un jardín en el paraíso.'
+        ],
+        correctAnswer: 'Porque el niño fue el primero en demostrarle cariño y gratitud con un beso.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'sg-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor al gigante al PRINCIPIO de la historia?',
-        options: ['Amable y generoso', 'Egoísta y gruñón', 'Tímido y miedoso', 'Alegre y juguetón'],
-        correctAnswer: 'Egoísta y gruñón',
+        questionText: '¿Cómo se describe la actitud del gigante al PRINCIPIO del relato?',
+        options: [
+          'Como un ser solitario que buscaba desesperadamente amigos.',
+          'Como alguien posesivo y egoísta que no permitía que otros disfrutaran de su bien.',
+          'Como un hombre tímido que temía que los niños dañaran sus flores.',
+          'Como un gigante alegre que regresaba con ganas de organizar fiestas.'
+        ],
+        correctAnswer: 'Como alguien posesivo y egoísta que no permitía que otros disfrutaran de su bien.',
       },
       {
         id: 'sg-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia el gigante a lo largo del cuento?',
-        options: ['Se vuelve más rico', 'Se hace más joven', 'Se vuelve más egoísta', 'Pasa de ser egoísta y solitario a ser cariñoso y generoso'],
-        correctAnswer: 'Pasa de ser egoísta y solitario a ser cariñoso y generoso',
+        questionText: '¿Cómo se manifiesta el cambio de personalidad del gigante a través de sus acciones?',
+        options: [
+          'Pasa de ser un dueño hostil a ser un compañero generoso que valora la compañía.',
+          'Pasa de ser un hombre rico a un hombre pobre que regala su jardín.',
+          'Pasa de ser alguien muy activo a ser un anciano que solo mira jugar.',
+          'Pasa de ser amigo del ogro de Cornualles a ser enemigo de la nieve.'
+        ],
+        correctAnswer: 'Pasa de ser un dueño hostil a ser un compañero generoso que valora la compañía.',
       },
       {
         id: 'sg-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad del niño pequeño le permite cambiar al gigante?',
-        options: ['Su fuerza física', 'Su capacidad para perdonar y mostrar amor', 'Su habilidad para correr rápido', 'Su voz fuerte para gritar'],
-        correctAnswer: 'Su capacidad para perdonar y mostrar amor',
+        questionText: '¿Qué cualidad del niño pequeño es la que logra transformar el corazón del gigante?',
+        options: [
+          'Su debilidad física que despierta la lástima del gigante.',
+          'Su capacidad de perdonar y ofrecer amor puro de forma espontánea.',
+          'Su inteligencia para saber exactamente qué árbol debía trepar.',
+          'Su valentía al no correr como los demás niños de la escuela.'
+        ],
+        correctAnswer: 'Su capacidad de perdonar y ofrecer amor puro de forma espontánea.',
       },
     ],
   },

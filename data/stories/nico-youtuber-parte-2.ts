@@ -120,7 +120,7 @@ Las cúpulas del Congreso empezaron a abrirse como pétalos de una flor mecánic
 
 —No me digas... —susurró Nico desde adentro.
 
-Del Congreso emergió una plataforma colosal. En ella, sentado en un trono de oro y cables, estaba el Presidente Haltmann. Pero no estaba solo. Tenía una terminal de control conectada a una supercomputadora que vibraba con una energía conocida.
+Del Congreso de la Nación emergió una plataforma colosal. En ella, sentado en un trono de oro y cables, estaba el Presidente Haltmann. Pero no estaba solo. Tenía una terminal de control conectada a una supercomputadora que vibraba con una energía conocida.
 
 —Ciudadanos de esta... "Argentina" —la voz de Haltmann retumbó por toda la ciudad—. Sus recursos son caóticos. Su economía es un error de sistema. Vamos a optimizar este país... empezando por borrar al usuario que se cree un dios.
 
@@ -180,7 +180,7 @@ Nico no lo pensó dos veces. Empezó a correr como nunca en su vida. A su lado, 
 
 La Plaza de los Dos Congresos era un caos. Los jacarandás habían sido reemplazados por torres de refrigeración de servidores que tiraban humo blanco. Miles de clones de Kirby metálicos bajaban como langostas.
 
-—¡No me toquen! ¡Ni se les ocurra tocarme! —Nico saltaba sobre los cables de alta tensión, hacía parkour sobre los restos de un 64 quemado y se deslizaba por debajo de los proyectiles láser.
+—¡No me toquen! ¡Ni se les ocurra tocarme! —Nico saltaba sobre los cables de alta tensión, hacía parkour sobre los restos de un 160 quemado y se deslizaba por debajo de los proyectiles láser.
 
 Cada movimiento era una "Frame Perfect". Nico sentía que sus años de vicio, de pasarse el Dark Souls con una alfombra de baile y de speedrunnear el Mario 64, lo habían preparado para este momento. Su cuerpo se movía solo.
 
@@ -244,185 +244,235 @@ Nico miró la invitación. Miró a Kirby. Miró a la cámara.
 
 [ TRANSMISIÓN FINALIZADA ]
     `,
-  wordCount: 1350,
+  wordCount: 1650,
   level: '4to Grado (Nivel S)',
   questions: {
     [QuestionCategory.LITERAL]: [
       {
         id: 'ny2-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué objeto llevaba Magolor bajo el brazo cuando apareció?',
-        options: ['Un joystick dorado', 'Un termo de acero inoxidable', 'Un libro de hechizos', 'Una espada de luz'],
+        questionText: '¿Qué objeto sostenía Magolor bajo su brazo cuando apareció para ayudar a Nico?',
+        options: [
+          'Un joystick dorado de colección.',
+          'Un termo de acero inoxidable.',
+          'Un libro de hechizos con píxeles.',
+          'Una espada de luz azul brillante.'
+        ],
         correctAnswer: 'Un termo de acero inoxidable',
       },
       {
         id: 'ny2-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué lugar de Buenos Aires se encontraba Nico al final de la batalla?',
-        options: ['En el Obelisco', 'En la Plaza de los Dos Congresos', 'En un Coto de Almagro', 'En la Casa Rosada'],
+        questionText: '¿En qué lugar exacto de la Ciudad de Buenos Aires ocurre la batalla final contra Haltmann?',
+        options: [
+          'En el balcón de la Casa Rosada.',
+          'En la Plaza de los Dos Congresos.',
+          'Dentro de un supermercado Coto.',
+          'En la punta del Obelisco.'
+        ],
         correctAnswer: 'En la Plaza de los Dos Congresos',
       },
       {
         id: 'ny2-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué decía la invitación que traía el verdadero Meta Knight?',
+        questionText: '¿Cómo logra Magolor quitarle el bicho alienígena (Fecto Elfilis) de encima a Nico?',
         options: [
-          'Invitación a una fiesta en Dream Land',
-          'Invitación con el logo de Super Smash Bros',
-          'Un cupón para pizza gratis',
-          'Un contrato para ser youtuber oficial'
+          'Usando el Administrador de Tareas de Windows.',
+          'Lanzando una Superestrella de invulnerabilidad.',
+          'Peleando contra él con un bate de fuego.',
+          'Cebándole un mate amargo muy fuerte.'
         ],
-        correctAnswer: 'Invitación con el logo de Super Smash Bros',
+        correctAnswer: 'Usando el Administrador de Tareas de Windows.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'ny2-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue el orden de aparición de estos personajes?',
+        questionText: '¿Cuál fue el orden de aparición de estos enemigos o obstáculos en la Avenida Rivadavia?',
         options: [
-          'Gorimondo, Meta Knight 2.0, Magolor, Meta Knight real',
-          'Magolor, Gorimondo, Meta Knight real, Meta Knight 2.0',
-          'Meta Knight real, Magolor, Gorimondo, Meta Knight 2.0',
-          'Gorimondo, Magolor, Meta Knight real, Meta Knight 2.0'
+          'Meta Knight 2.0, los lobos Awoofies y finalmente Gorimondo.',
+          'Los lobos Awoofies, Gorimondo y finalmente Meta Knight 2.0.',
+          'Haltmann, los clones de Kirby y finalmente los lobos.',
+          'Gorimondo, los drones de la policía y finalmente Magolor.'
         ],
-        correctAnswer: 'Gorimondo, Meta Knight 2.0, Magolor, Meta Knight real',
+        correctAnswer: 'Los lobos Awoofies, Gorimondo y finalmente Meta Knight 2.0.',
       },
       {
         id: 'ny2-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Magolor para ayudar a Nico a recuperar su cuerpo?',
+        questionText: '¿Qué pasó justo después de que Kirby se tragara a Nico frente al Congreso?',
         options: [
-          'Usó una varita mágica',
-          'Abrió el Administrador de Tareas y finalizó el proceso Fecto_Elfilis.exe',
-          'Le dio un mate amargo',
-          'Llamó por teléfono a Kirby'
+          'Apareció un mensaje de "Game Over" en el cielo.',
+          'Kirby se transformó en Maestro de Streamer con corona de oro.',
+          'Nico recuperó su bate de béisbol envuelto en llamas.',
+          'Haltmann escapó volando en su plataforma de cables.'
         ],
-        correctAnswer: 'Abrió el Administrador de Tareas y finalizó el proceso Fecto_Elfilis.exe',
+        correctAnswer: 'Kirby se transformó en Maestro de Streamer con corona de oro.',
       },
       {
         id: 'ny2-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que Kirby se tragara a Nico?',
-        options: ['Nico se asustó y escapó', 'Kirby brilló con color platino y Nico tomó el control mental del personaje', 'Se terminó el juego', 'Apareció el Presidente Haltmann'],
-        correctAnswer: 'Kirby brilló con color platino y Nico tomó el control mental del personaje',
+        questionText: '¿Qué hizo Nico inmediatamente después de ganar el desafío sin hits (No-Hit)?',
+        options: [
+          'Se fue a dormir porque no aguantaba más el sueño.',
+          'Se sentó en las escalinatas del Congreso a hablar con su stream.',
+          'Abrió el sobre rojo que le entregó el falso Meta Knight.',
+          'Llamó a su madre para contarle que estaba a salvo.'
+        ],
+        correctAnswer: 'Se sentó en las escalinatas del Congreso a hablar con su stream.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'ny2-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En el texto, Magolor dice que las distancias son un "embole". ¿Qué significa esa palabra en Argentina?',
-        options: ['Algo muy divertido', 'Algo muy rápido', 'Algo muy aburrido o molesto', 'Algo muy caro'],
-        correctAnswer: 'Algo muy aburrido o molesto',
+        questionText: 'Magolor dice que las distancias interdimensionales son un "embole". ¿Qué significa?',
+        options: [
+          'Algo muy emocionante y divertido.',
+          'Algo que es sumamente aburrido o molesto.',
+          'Algo que cuesta mucho dinero de pagar.',
+          'Algo que ocurre muy rápido y sin aviso.'
+        ],
+        correctAnswer: 'Algo que es sumamente aburrido o molesto.',
       },
       {
         id: 'ny2-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Haltmann quería "optimizar" el país. ¿Qué significa optimizar?',
+        questionText: 'Haltmann quería "optimizar" el país. ¿Qué pretendía hacer realmente?',
         options: [
-          'Hacer que algo funcione de la mejor manera posible',
-          'Destruir todo lo que existe',
-          'Cambiarle el nombre a las ciudades',
-          'Pintar todo de color dorado'
+          'Hacer que todo funcione de la forma más eficiente posible.',
+          'Regalarle computadoras nuevas a todos los ciudadanos.',
+          'Construir más parques y plazas en Buenos Aires.',
+          'Aprender a jugar al Kirby sin recibir ningún golpe.'
         ],
-        correctAnswer: 'Hacer que algo funcione de la mejor manera posible',
+        correctAnswer: 'Hacer que todo funcione de la forma más eficiente posible.',
       },
       {
         id: 'ny2-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Nico sintió que el tiempo se puso lento y de color "sepia". ¿Cómo es el color sepia?',
-        options: ['Azul brillante', 'Verde pasto', 'Un tono marrón rojizo, como las fotos antiguas', 'Negro total'],
-        correctAnswer: 'Un tono marrón rojizo, como las fotos antiguas',
+        questionText: 'Nico usó una "finta" lateral para esquivar el tornado. ¿Qué es una finta?',
+        options: [
+          'Un grito de guerra para asustar al enemigo robot.',
+          'Un movimiento de engaño para esquivar un golpe.',
+          'Una herramienta para arreglar el joystick roto.',
+          'Un tipo de salto muy alto hacia el espacio.'
+        ],
+        correctAnswer: 'Un movimiento de engaño para esquivar un golpe.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'ny2-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el conflicto principal de esta segunda parte?',
+        questionText: '¿Cuál es el conflicto más importante que Nico debe resolver en esta parte?',
         options: [
-          'Nico intentando arreglar su computadora rota',
-          'La lucha por salvar a Buenos Aires de ser "formateada" por la corporación Haltmann mientras Nico mantiene su desafío No-Hit',
-          'Una competencia de quién toma mejores mates',
-          'El viaje de Kirby para volver a su casa en las nubes'
+          'Recuperar su canal de Twitch que fue borrado por un hacker.',
+          'Salvar la realidad de ser "formateada" mientras mantiene su récord de No-Hit.',
+          'Aprender a usar los poderes de Magolor para viajar al espacio.',
+          'Convencer a la policía de que los drones no son peligrosos.'
         ],
-        correctAnswer: 'La lucha por salvar a Buenos Aires de ser "formateada" por la corporación Haltmann mientras Nico mantiene su desafío No-Hit',
+        correctAnswer: 'Salvar la realidad de ser "formateada" mientras mantiene su récord de No-Hit.',
       },
       {
         id: 'ny2-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué simboliza la ayuda de Magolor con el "Administrador de Tareas"?',
-        options: ['Que Nico no sabía usar su computadora', 'La mezcla de la realidad tecnológica con la magia del juego para resolver el problema de la posesión', 'Que el juego estaba fallando', 'Que era hora de apagar la PC'],
-        correctAnswer: 'La mezcla de la realidad tecnológica con la magia del juego para resolver el problema de la posesión',
+        questionText: '¿Qué representa el hecho de que Nico y Kirby peleen juntos al final?',
+        options: [
+          'Que Nico ya no necesita usar el joystick para ganar.',
+          'La unión definitiva entre el jugador y el personaje para vencer el mal.',
+          'Que Kirby es en realidad un robot creado por Haltmann.',
+          'Que el juego de la Tierra Olvidada tiene errores de código.'
+        ],
+        correctAnswer: 'La unión definitiva entre el jugador y el personaje para vencer el mal.',
       },
       {
         id: 'ny2-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección final para Nico sobre su habilidad como jugador?',
-        options: ['Que jugar no sirve para nada', 'Que su perseverancia y habilidad ("skill") pueden ayudarlo a superar incluso desafíos imposibles en el mundo real', 'Que siempre debe jugar solo', 'Que Kirby es su enemigo'],
-        correctAnswer: 'Su perseverancia y habilidad ("skill") pueden ayudarlo a superar incluso desafíos imposibles en el mundo real',
+        questionText: '¿Por qué el No-Hit era tan peligroso en la vida real?',
+        options: [
+          'Porque si Nico recibía daño, el servidor borraba su existencia real.',
+          'Porque Kirby perdía sus poderes de inhalar objetos del barrio.',
+          'Porque el Presidente Haltmann se volvía cada vez más rico.',
+          'Porque el Obelisco no volvería a aparecer nunca más.'
+        ],
+        correctAnswer: 'Porque si Nico recibía daño, el servidor borraba su existencia real.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'ny2-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Nico se sentía "infinito" cuando Kirby lo tragó?',
+        questionText: '¿Por qué Fecto-Nico decía que el No-Hit real era apenas el "tutorial"?',
         options: [
-          'Porque Kirby es muy grande por dentro',
-          'Porque se fusionó con Kirby, combinando su habilidad de jugador con el poder del héroe rosa',
-          'Porque se quedó dormido y empezó a soñar',
-          'Porque Kirby le dio un caramelo mágico'
+          'Porque quería enseñarle a Nico a manejar los botones del joystick.',
+          'Porque lo que venía después (la invasión de Haltmann) era mucho más difícil.',
+          'Porque el juego de Kirby siempre empieza con niveles de práctica.',
+          'Porque Nico todavía no había merendado su pizza fría.'
         ],
-        correctAnswer: 'Porque se fusionó con Kirby, combinando su habilidad de jugador con el poder del héroe rosa',
+        correctAnswer: 'Porque lo que venía después (la invasión de Haltmann) era mucho más difícil.',
       },
       {
         id: 'ny2-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos dice el final sobre el futuro de Nico?',
+        questionText: '¿Qué nos sugiere la aparición de Magolor con un termo de mate?',
         options: [
-          'Que va a dejar de jugar videojuegos',
-          'Que probablemente sea invitado a participar en un desafío aún más grande (Smash Bros)',
-          'Que se va a mudar a Dream Land para siempre',
-          'Que va a abrir una pizzería en Almagro'
+          'Que Magolor es un personaje que se ha adaptado a la cultura argentina.',
+          'Que Magolor tiene mucha sed por viajar entre tantas dimensiones.',
+          'Que Nico se imaginó a Magolor porque tenía hambre de mate.',
+          'Que en el mundo de Kirby todos toman mate para tener energía.'
         ],
-        correctAnswer: 'Que probablemente sea invitado a participar en un desafío aún más grande (Smash Bros)',
+        correctAnswer: 'Que Magolor es un personaje que se ha adaptado a la cultura argentina.',
       },
       {
         id: 'ny2-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Haltmann quería "borrar" a Nico primero?',
-        options: ['Porque le caía mal', 'Porque Nico era una "anomalía" que no podía ser controlada ni optimizada por su sistema', 'Porque Nico no pagó su suscripción', 'Porque Nico jugaba mejor que él'],
-        correctAnswer: 'Porque Nico era una "anomalía" que no podía ser controlada ni optimizada por su sistema',
+        questionText: '¿Por qué Haltmann consideraba que la economía argentina era un "error de sistema"?',
+        options: [
+          'Porque él es un villano que solo valora el orden matemático y la frialdad.',
+          'Porque no le gustaba que los ciudadanos usaran monedas estrella.',
+          'Porque quería comprar todas las empresas de colectivos de Almagro.',
+          'Porque el Star Dream le dijo que el país era muy divertido.'
+        ],
+        correctAnswer: 'Porque él es un villano que solo valora el orden matemático y la frialdad.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'ny2-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la actitud de Magolor en esta historia?',
+        questionText: '¿Cómo cambió la situación del Nico real cuando Magolor intervino?',
         options: [
-          'Muy serio y asustado',
-          'Relajado, con un toque de humor y gran conocimiento tecnológico/mágico',
-          'Malvado y quiere destruir a Nico',
-          'No habla y solo observa'
+          'Recuperó el control de su cuerpo y dejó de estar poseído.',
+          'Se convirtió en un robot plateado como Meta Knight 2.0.',
+          'Se volvió más fuerte que Fecto Elfilis usando una espada.',
+          'Decidió abandonar el stream para siempre por el susto.'
         ],
-        correctAnswer: 'Relajado, con un toque de humor y gran conocimiento tecnológico/mágico',
+        correctAnswer: 'Recuperó el control de su cuerpo y dejó de estar poseído.',
       },
       {
         id: 'ny2-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad destaca del Nico real al final de la batalla?',
-        options: ['Su gran fuerza física', 'Su coraje para retomar el control y guiar a Kirby en el momento más peligroso', 'Su capacidad de volar', 'Su inteligencia científica'],
-        correctAnswer: 'Su coraje para retomar el control y guiar a Kirby en el momento más peligroso',
+        questionText: '¿Qué cualidad de Nico le permitió vencer los "Errores de Lógica" de Haltmann?',
+        options: [
+          'Su capacidad de correr maratones por la Avenida Rivadavia.',
+          'Sus años de entrenamiento en videojuegos difíciles y reflejos rápidos.',
+          'Su habilidad para convencer a Magolor de que le diera mate.',
+          'Su gran fuerza física para levantar el robot de diez metros.'
+        ],
+        correctAnswer: 'Sus años de entrenamiento en videojuegos difíciles y reflejos rápidos.',
       },
       {
         id: 'ny2-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías al Presidente Haltmann?',
-        options: ['Un líder justo', 'Un villano frío y calculador que solo piensa en la eficiencia y el control absoluto', 'Un anciano confundido', 'Un amigo de Nico'],
-        correctAnswer: 'Un villano frío y calculador que solo piensa en la eficiencia y el control absoluto',
+        questionText: '¿Qué rasgo define mejor a este Meta Knight 2.0?',
+        options: [
+          'Un caballero honorable que busca un duelo justo con Nico.',
+          'Una unidad de limpieza fría y mecánica controlada por una computadora.',
+          'Un amigo de Kirby que vino a Buenos Aires de vacaciones.',
+          'Un villano que quiere robarse el Obelisco para su colección.'
+        ],
+        correctAnswer: 'Una unidad de limpieza fría y mecánica controlada por una computadora.',
       },
     ],
   },

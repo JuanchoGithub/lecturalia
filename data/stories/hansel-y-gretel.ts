@@ -29,7 +29,7 @@ Luego les dio un trocito de pan a cada uno diciéndoles:
 -Tengan, algo para el almuerzo; ¡pero no lo coman antes porque no tendrán nada más!
 Gretel puso todo el pan bajo su delantal porque Hansel tenía los bolsillos llenos con los guijarros. De inmediato todos emprendieron camino hacia el bosque. Al cabo de un corto trecho Hansel se detuvo y miró en dirección de la casa. Así hizo varias veces más hasta que el padre le dijo:
 -¿Qué tienes que mirar nada atrás? ¡Presta atención y apúrate!
--Lo que pasa, padre -respondió Hansel- es que miro a mi gatito blanco: está encima del techo y quiere decirme adiós.
+-Lo que pasa, padre -respondió Hansel - es que miro a mi gatito blanco: está encima del techo y quiere decirme adiós.
 -¡Tonto! -dijo la mujer-, no es tu gatito; es el sol de la mañana que brilla en la chimenea.
 Sin embargo, Hansel no miraba a su gatito sino que cada vez que se volvía arrojaba al camino uno de los guijarros blancos que llevaba en el bolsillo.
 
@@ -55,7 +55,7 @@ Pero la mujer no quiso escucharle en sus protestas, lo injurió y le hizo reproc
 Sin embargo, consoló a su hermanita y le dijo:
 -No llores Gretel y duerme tranquila; ¡Dios nos ayudará!
 
-Al amanecer la mujer vino a buscar a los niños al lecho. Les dio un trozo de pan que era más pequeño que el de la vez anterior. Mientras caminaba hacia el bosque Hansel lo desmigajó en su bolsillo y a cada rato se detenía y arrojaba una miga al suelo.
+Al amanecer la mujer vino a buscar a los niños al lecho. Les dio un trozo de pan que era más pequeño que el de la vez anterior. Mientras caminaba hacia el bosque Hansel lo desmigajó en su bolsillo y a cada rato se debajo y arrojaba una miga al suelo.
 -¡Hansel! ¿Por qué te detienes a mirar hacia atrás? -dijo el padre-. ¡Vamos, continúa tu camino!
 -Miro a mi palomita -respondió Hansel-; está sobre el tejado y quiere decirme adiós.
 -¡Tonto! -dijo la mujer-, no es tu palomita, es el sol que resplandece en la chimenea.
@@ -102,55 +102,69 @@ Al amanecer Gretel debió salir, colgar la marmita de agua y encender el fuego.
 -Primero -dijo la vieja- vamos a hacer el pan: ya prendí el horno y preparé la masa.
 Luego empujó a Gretel hacia el horno de donde salían llamas.
 -Entra -dijo la bruja- y ve si hay buena temperatura para hornear el pan.
-Cuando Gretel estuviera adentro ella cerraría la puerta, la asaría y se la comería a ella también.
-Pero la pequeña adivinó lo que la bruja pensaba y le dijo:
--No sé cómo hacer para entrar ahí adentro.
--¡Boba! -dijo la bruja-, la entrada es bastante grande: ¡fíjate, hasta yo misma podría entrar!
-Se acercó hasta el horno y metió la cabeza en la boca. Entonces Gretel la empujó con tanta energía que la bruja se fue hasta el fondo. Luego cerró la puerta de hierro y echó el cerrojo. La vieja lanzaba aullidos horribles pero Gretel escapó y la bruja malvada ardió miserablemente.
 
-Gretel corrió en busca de Hansel, abrió la puerta del establo y exclamó:
--¡Hansel nos hemos salvado!; la vieja bruja se murió.
-El pequeño saltó hacia afuera como un pájaro al que le abren la puerta de la jaula. La alegría de los niños fue enorme. Se abrazaban, brincaban de un lado para el otro, saltaban. Como no tenían ya nada que temer entraron a la casa de la bruja; en todos los rincones había cofres llenos de perlas y de piedras preciosas.
--Esto vale más que nuestros guijarritos –dijo Hansel y llenó tanto como pudo sus bolsillos.
--Yo también voy a llevar algo a nuestra casa - dijo Gretel mientras llenaba su delantalcito.
--Ahora hay que partir -dijo Hansel- para abandonar el bosque encantado.
-Después de caminar durante algunas horas llegaron al borde de un gran río.
--No podremos pasar -dijo Hansel- no veo pasarela ni puente.
--Tampoco hay bote -dijo Gretel- pero allá hay un pato blanco que está nadando: si se Io pido, nos ayudará a pasar.
-Entonces exclamó:
--Pato, patito, no hay vado ni puente. Te piden, patito. Hansel y Gretel que sobre tu lomo de pluma los lleves.
-El pato se aproximó. Hansel subió sobre sus alas y le dijo a su hermanita que hiciera lo mismo.
--No -respondió Gretel-, sería mucho peso para el patito: nos pasará a uno primero y al otro después.
-Así lo hizo la buena ave y cuando alcanzaron felizmente la orilla opuesta, después de hacer un pequeño tramo del camino, el bosque empezó a resultarles cada vez más conocido hasta que finalmente distinguieron la casa paterna.
+Cuando Gretel estuviera adentro ella cerraría la puerta y la niña se asaría allí mismo; luego la vieja se la comería. Pero Gretel adivinó sus intenciones y dijo:
+-No sabe cómo hacerlo; ¿cómo hago para entrar allí?
+-¡Tonta! -dijo la vieja-, la abertura es bastante grande; ¡mira, hasta yo misma podría pasar!
+Y se arrimó y metió la cabeza dentro del horno. Entonces Gretel le dio un fuerte empujón que la hizo caer adentro, cerró la puerta de hierro y echó el cerrojo. ¡Uh! ¡Qué aullidos espantosos lanzaba la bruja! Pero Gretel corrió a liberar a Hansel.
+-¡Hansel, estamos salvados!; ¡la vieja bruja ha muerto!
 
-Entonces se echaron a correr, se precipitaron en la sala y saltaron al cuello del padre. El hombre no había tenido un solo momento de alegría desde que había abandonado a los niños en el bosque. La mujer había muerto.
-Gretel sacudió su delantal de modo que perlas y piedras preciosas se pusieron a brincar en el suelo mientras que Hansel vaciando sus bolsillos, sacaba puñados y puñados.
-Se acabaron las preocupaciones y todos vivieron juntos y felices para siempre.
-  `,
-  wordCount: 1880,
-  level: '3er Grado (Nivel O)',
+Hansel saltó del establo como un pájaro de su jaula cuando se le abre la puerta. ¡Cómo se alegraron y cómo se abrazaron y saltaron de gozo! Y como ya no tenían nada que temer, entraron en la casa de la bruja y en todos los rincones encontraron cajas llenas de perlas y de piedras preciosas.
+-¡Esto vale mucho más que los guijarros! -dijo Hansel y llenó sus bolsillos.
+Gretel dijo: -Yo también quiero llevar algo a casa -y llenó su delantal.
+-Ahora -dijo Hansel- salgamos del bosque de la bruja.
+
+Cuando caminaron durante dos horas llegaron a una gran extensión de agua.
+-No podemos pasar -dijo Hansel-; no veo ningún puente.
+-Tampoco hay ninguna barca -respondió Gretel-; pero mira, allí nada un pato blanco: si se lo pido quizás nos ayude a pasar.
+Entonces gritó: —¡Patito, patito, Hansel y Gretel están aquí; no hay ningún puente, llévanos sobre tu espalda blanca!
+
+El patito se acercó y Hansel se sentó sobre él, pidiendo a su hermanita que hiciera lo mismo.
+-No -respondió Gretel-, sería una carga demasiado pesada para el patito; que nos pase de a uno por vez.
+Así lo hizo el buen animalito y cuando estuvieron del otro lado y caminaron un rato, el bosque les pareció cada vez más conocido y finalmente divisaron a lo lejos la casa de su padre.
+
+Entonces se pusieron a correr y entrando en la sala se echaron al cuello de su padre. El hombre no había tenido un solo momento de alegría desde que había abandonado a sus hijos en el bosque; entretanto la mujer había muerto.
+Gretel vació su delantal y las perlas y piedras preciosas saltaron por toda la sala; Hansel vació sus bolsillos a puñados. Entonces se acabaron todas sus preocupaciones y vivieron juntos en una alegría perfecta.
+`,
+  wordCount: 1850,
+  level: '3er Grado (Nivel P)',
   questions: {
     [QuestionCategory.LITERAL]: [
       {
         id: 'hg-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué usó Hansel la primera vez para marcar el camino de regreso a casa?',
-        options: ['Migas de pan', 'Pequeños guijarros blancos', 'Flores', 'Ramas rotas'],
-        correctAnswer: 'Pequeños guijarros blancos',
+        questionText: '¿Qué objeto usó Hansel la PRIMERA vez que los abandonaron para marcar el camino?',
+        options: [
+          'Trocitos de pan del almuerzo.',
+          'Guijarros blancos que brillaban.',
+          'Perlas y piedras preciosas.',
+          'Ramas secas de los árboles.'
+        ],
+        correctAnswer: 'Guijarros blancos que brillaban.',
       },
       {
         id: 'hg-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿De qué estaba hecha la casa de la bruja?',
-        options: ['De madera y piedra', 'De ladrillos y paja', 'De pan, pastel y azúcar', 'De oro y plata'],
-        correctAnswer: 'De pan, pastel y azúcar',
+        questionText: '¿De qué materiales estaban hechas las ventanas de la casita de la bruja?',
+        options: [
+          'De chocolate amargo.',
+          'De bizcochuelo tierno.',
+          'De pura azúcar dulce.',
+          'De pan y de pastel.'
+        ],
+        correctAnswer: 'De pura azúcar dulce.',
       },
       {
         id: 'hg-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le mostraba Hansel a la bruja cada día en lugar de su dedo?',
-        options: ['Un palo', 'Una zanahoria', 'Un huesito', 'Una pluma'],
-        correctAnswer: 'Un huesito',
+        questionText: '¿Qué animal ayudó a los niños a cruzar la extensión de agua al final?',
+        options: [
+          'Un enorme pez plateado.',
+          'Un pajarito blanco cantor.',
+          'Un pato blanco nadador.',
+          'Una rana verde del bosque.'
+        ],
+        correctAnswer: 'Un pato blanco nadador.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
@@ -158,114 +172,189 @@ Se acabaron las preocupaciones y todos vivieron juntos y felices para siempre.
         id: 'hg-seq1',
         category: QuestionCategory.SEQUENCING,
         questionText: '¿Qué pasó justo después de que los pájaros se comieran las migas de pan?',
-        options: ['Encontraron la casa de la bruja', 'Regresaron a su casa', 'Se perdieron en el bosque por tres días', 'Se encontraron con su padre'],
-        correctAnswer: 'Se perdieron en el bosque por tres días',
+        options: [
+          'Los niños encontraron las perlas.',
+          'Hansel y Gretel se perdieron por el bosque.',
+          'La bruja los invitó a entrar a cenar.',
+          'El leñador volvió a buscarlos rápido.'
+        ],
+        correctAnswer: 'Hansel y Gretel se perdieron por el bosque.',
       },
       {
         id: 'hg-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Gretel para derrotar a la bruja?',
-        options: ['Le tiró agua', 'La encerró en el establo', 'La empujó dentro del horno', 'La engañó para que se fuera'],
-        correctAnswer: 'La empujó dentro del horno',
+        questionText: '¿Qué hizo Gretel inmediatamente después de liberar a Hansel del establo?',
+        options: [
+          'Se pusieron a llorar de alegría.',
+          'Llenaron sus bolsillos de tesoros.',
+          'Buscaron al patito en el río.',
+          'Le pidieron perdón a su padre.'
+        ],
+        correctAnswer: 'Llenaron sus bolsillos de tesoros.',
       },
       {
         id: 'hg-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: 'Después de escapar de la bruja, ¿cómo cruzaron el gran río?',
-        options: ['Nadando', 'En un bote', 'Sobre el lomo de un pato blanco', 'Construyeron un puente'],
-        correctAnswer: 'Sobre el lomo de un pato blanco',
+        questionText: '¿Cuál fue el orden de las trampas de Hansel para no ser comido?',
+        options: [
+          'Piedras blancas, migas de pan y luego el huesito.',
+          'Migas de pan, el huesito y luego las perlas.',
+          'El huesito, las piedras y finalmente las migas.',
+          'Lágrimas, el huesito y luego el empujón.'
+        ],
+        correctAnswer: 'Piedras blancas, migas de pan y luego el huesito.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'hg-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La historia dice que Hansel recogió "guijarros". ¿Qué son los "guijarros"?',
-        options: ['Hojas secas', 'Piedras pequeñas y lisas', 'Conchas de caracol', 'Bellotas'],
-        correctAnswer: 'Piedras pequeñas y lisas',
+        questionText: 'El país sufría una gran "hambruna". ¿Qué le pasaba a la gente?',
+        options: [
+          'Que tenía mucho miedo de las brujas.',
+          'Que no tenía nada para poder comer.',
+          'Que quería mudarse lejos del bosque.',
+          'Que estaba muy cansada de trabajar.'
+        ],
+        correctAnswer: 'Que no tenía nada para poder comer.',
       },
       {
         id: 'hg-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La mano de la bruja se describe como "descarnada". ¿Qué significa "descarnada"?',
-        options: ['Suave y gorda', 'Muy fuerte', 'Con guantes', 'Muy flaca y huesuda'],
-        correctAnswer: 'Muy flaca y huesuda',
+        questionText: 'Hansel salió "furtivamente" a buscar piedras. ¿Cómo salió?',
+        options: [
+          'Haciendo mucho ruido con sus botas.',
+          'Gritando para que su hermana lo oiga.',
+          'En secreto para que no lo descubran.',
+          'Corriendo muy rápido por el jardín.'
+        ],
+        correctAnswer: 'En secreto para que no lo descubran.',
       },
       {
         id: 'hg-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La madrastra les dice "haraganes" a los niños. ¿Qué significa ser "haragán"?',
-        options: ['Ser muy inteligente', 'Ser perezoso, no querer trabajar', 'Ser muy rápido', 'Ser muy valiente'],
-        correctAnswer: 'Ser perezoso, no querer trabajar',
+        questionText: 'La bruja tenía una mano "descarnada". ¿Cómo era esa mano?',
+        options: [
+          'Una mano muy suave y pequeña.',
+          'Una mano muy fuerte y poderosa.',
+          'Una mano muy flaca, de puro hueso.',
+          'Una mano muy dulce y tibia.'
+        ],
+        correctAnswer: 'Una mano muy flaca, de puro hueso.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'hg-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el problema principal al comienzo de la historia?',
-        options: ['Los niños no querían ir al bosque', 'La familia era muy pobre y no tenía suficiente comida', 'El padre estaba enfermo', 'La casa era muy pequeña'],
-        correctAnswer: 'La familia era muy pobre y no tenía suficiente comida',
+        questionText: '¿Cuál es la lección más importante que nos deja este cuento?',
+        options: [
+          'Que las casas de dulces son peligrosas.',
+          'Que los pájaros siempre tienen mucha hambre.',
+          'Que el ingenio ayuda a superar los peligros.',
+          'Que nunca hay que confiar en los patos.'
+        ],
+        correctAnswer: 'Que el ingenio ayuda a superar los peligros.',
       },
       {
         id: 'hg-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección más importante de la historia?',
-        options: ['No se debe comer dulces', 'La astucia y la valentía pueden ayudar a superar grandes peligros', 'No hay que confiar en los pájaros', 'Siempre se debe obedecer a los padres'],
-        correctAnswer: 'La astucia y la valentía pueden ayudar a superar grandes peligros',
+        questionText: '¿Por qué la historia termina con los niños regresando a casa?',
+        options: [
+          'Porque ya no tenían miedo al bosque oscuro.',
+          'Porque ahora tenían riquezas y su padre los amaba.',
+          'Porque la bruja les regaló la casa de pan.',
+          'Porque el pato blanco los obligó a volver.'
+        ],
+        correctAnswer: 'Porque ahora tenían riquezas y su padre los amaba.',
       },
       {
         id: 'hg-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la bruja construyó su casa de pan y dulces?',
-        options: ['Porque era una excelente cocinera', 'Para atraer a los niños perdidos y comérselos', 'Porque no tenía otros materiales', 'Porque era un regalo para los niños del bosque'],
-        correctAnswer: 'Para atraer a los niños perdidos y comérselos',
+        questionText: '¿Qué motivó a los padres a abandonar a los niños?',
+        options: [
+          'El deseo de viajar por el mundo solos.',
+          'La desesperación causada por la pobreza extrema.',
+          'El enojo porque los niños eran haraganes.',
+          'La promesa de una bruja de darles oro.'
+        ],
+        correctAnswer: 'La desesperación causada por la pobreza extrema.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'hg-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la madrastra quería deshacerse de los niños?',
-        options: ['Porque eran muy ruidosos', 'Porque los odiaba', 'Porque no había suficiente comida para todos y era egoísta', 'Porque quería quedarse con la casa para ella sola'],
-        correctAnswer: 'Porque no había suficiente comida para todos y era egoísta',
+        questionText: '¿Por qué Hansel usaba un huesito para engañar a la bruja?',
+        options: [
+          'Porque quería jugar con ella un rato más.',
+          'Porque la bruja no veía bien y pensaba que era su dedo.',
+          'Porque Hansel se había quedado sin comida en el establo.',
+          'Porque el huesito era mágico y le daba mucha fuerza.'
+        ],
+        correctAnswer: 'Porque la bruja no veía bien y pensaba que era su dedo.',
       },
       {
         id: 'hg-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la bruja no se dio cuenta de que Hansel le mostraba un hueso en lugar de su dedo?',
-        options: ['Porque el hueso se parecía mucho a un dedo', 'Porque estaba muy oscuro en el establo', 'Porque tenía muy mala vista', 'Porque Hansel la engañó con un truco de magia'],
-        correctAnswer: 'Porque tenía muy mala vista',
+        questionText: '¿Por qué la bruja construyó una casita hecha de dulces?',
+        options: [
+          'Porque le gustaba mucho cocinar para sus amigos.',
+          'Para atraer a los niños y poder atraparlos.',
+          'Porque no tenía otros materiales para su hogar.',
+          'Para regalarle comida a la gente pobre del país.'
+        ],
+        correctAnswer: 'Para atraer a los niños y poder atraparlos.',
       },
       {
         id: 'hg-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: 'Al final de la historia, el padre se alegra de ver a sus hijos y la madrastra ha muerto. ¿Qué nos enseña esto?',
-        options: ['Que el padre era más fuerte que la madrastra', 'Que el bien triunfa sobre el mal y los malvados reciben su castigo', 'Que los bosques son peligrosos', 'Que los niños tuvieron suerte'],
-        correctAnswer: 'Que el bien triunfa sobre el mal y los malvados reciben su castigo',
+        questionText: '¿Qué sintió el padre cuando vio volver a sus hijos?',
+        options: [
+          'Miedo de que la madrastra lo regañara de nuevo.',
+          'Una inmensa alegría y alivio por recuperarlos.',
+          'Enojo porque habían tardado mucho en regresar.',
+          'Sorpresa por ver las joyas que traían en el delantal.'
+        ],
+        correctAnswer: 'Una inmensa alegría y alivio por recuperarlos.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'hg-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Hansel?',
-        options: ['Miedoso y llorón', 'Astuto y protector', 'Glotón y perezoso', 'Tímido y silencioso'],
-        correctAnswer: 'Astuto y protector',
+        questionText: '¿Cómo cambia la personalidad de Gretel en la historia?',
+        options: [
+          'Se vuelve más miedosa conforme pasan los días.',
+          'Pasa de llorar por miedo a actuar con valentía.',
+          'Decide que quiere ser una bruja como la anciana.',
+          'Se vuelve egoísta y no quiere compartir el tesoro.'
+        ],
+        correctAnswer: 'Pasa de llorar por miedo a actuar con valentía.',
       },
       {
         id: 'hg-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad describe mejor a Gretel al final de la historia?',
-        options: ['Asustadiza', 'Débil', 'Valiente e ingeniosa', 'Egoísta'],
-        correctAnswer: 'Valiente e ingeniosa',
+        questionText: '¿Qué rasgo define mejor a Hansel durante el relato?',
+        options: [
+          'Es un niño distraído que siempre se pierde.',
+          'Es alguien astuto que siempre tiene un plan.',
+          'Es un chico glotón que solo piensa en la casita.',
+          'Es una persona cruel con los animales del bosque.'
+        ],
+        correctAnswer: 'Es alguien astuto que siempre tiene un plan.',
       },
       {
         id: 'hg-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el padre en comparación con la madrastra?',
-        options: ['Es igual de cruel que ella', 'Es más inteligente que ella', 'Es débil y se deja convencer, pero quiere a sus hijos', 'Es más valiente que ella'],
-        correctAnswer: 'Es débil y se deja convencer, pero quiere a sus hijos',
+        questionText: '¿Cómo era la verdadera forma de ser de la anciana?',
+        options: [
+          'Era una abuela solitaria que buscaba compañía.',
+          'Era una bruja malvada que engañaba a los niños.',
+          'Era una maga buena que regalaba perlas finas.',
+          'Era una cocinera famosa que vivía en el bosque.'
+        ],
+        correctAnswer: 'Era una bruja malvada que engañaba a los niños.',
       },
     ],
   },

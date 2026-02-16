@@ -44,138 +44,228 @@ Y así, querido lector, la leyenda de Fecto Elfilis enseña que el poder más gr
       {
         id: 'fe-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo se llama la lanza mágica de Fecto Elfilis?',
-        options: ['Galaxia', 'Antares', 'Ares', 'Meteoro'],
-        correctAnswer: 'Antares',
+        questionText: '¿Cuál es el nombre específico de la lanza dorada que usa Fecto Elfilis?',
+        options: [
+          'Espada Galaxia de Meta Knight.',
+          'Lanza Antares, la serpiente dorada.',
+          'Lanza Ares, heredada de su hermano.',
+          'Cimitarra de la Tierra Olvidada.'
+        ],
+        correctAnswer: 'Lanza Antares, la serpiente dorada.',
       },
       {
         id: 'fe-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿En qué laboratorio encerraron los humanos a Fecto Elfilis?',
-        options: ['Laboratorio Dream', 'Laboratorio Discovera', 'Laboratorio Forgo', 'Laboratorio Estelar'],
-        correctAnswer: 'Laboratorio Discovera',
+        questionText: '¿Cómo llamaron los humanos a la cápsula donde encerraron al Ser Supremo?',
+        options: [
+          'ID-F86.',
+          'Laboratorio Discovera.',
+          'Proyecto Elfilis.',
+          'Cápsula de Eones.'
+        ],
+        correctAnswer: 'ID-F86.',
       },
       {
         id: 'fe-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué héroe legendario logró resistir las ondas psíquicas de Forgo?',
-        options: ['King Dedede', 'Bandana Waddle Dee', 'Meta Knight', 'Leongar'],
-        correctAnswer: 'Meta Knight',
+        questionText: '¿En qué lugar fue abandonado King Dedede por el portal rosado?',
+        options: [
+          'En las arenas ardientes del desierto.',
+          'En el Laboratorio Discovera central.',
+          'En las nieves de Winter Horns.',
+          'En las Islas Aisladas de pesadilla.'
+        ],
+        correctAnswer: 'En las nieves de Winter Horns.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'fe-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué evento causó que Fecto Elfilis se dividiera en dos?',
-        options: ['La llegada de Kirby', 'Un experimento de teletransportación fallido', 'Una batalla contra Genwel', 'El ataque de Meta Knight'],
-        correctAnswer: 'Un experimento de teletransportación fallido',
+        questionText: '¿Cuál es el orden cronológico de los estados de Fecto Elfilis?',
+        options: [
+          'Ser Supremo unificado, división en dos almas y finalmente fusión en Fecto Elfilis.',
+          'Fecto Forgo larval, división por experimento y nacimiento de Chaos Elfilis.',
+          'Elfilin azul, experimento de teletransportación y llegada a la Tierra Olvidada.',
+          'Fusión con Leongar, división en el espacio y regreso a Dream Land.'
+        ],
+        correctAnswer: 'Ser Supremo unificado, división en dos almas y finalmente fusión en Fecto Elfilis.',
       },
       {
         id: 'fe-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que Morpho Knight absorbiera a Soul Forgo?',
-        options: ['Fecto Elfilis despertó', 'Soul Forgo desapareció para siempre', 'Forgo reversionó el poder y nació Chaos Elfilis', 'Kirby regresó a Dream Land'],
-        correctAnswer: 'Forgo reversionó el poder y nació Chaos Elfilis',
+        questionText: '¿Qué ocurrió inmediatamente después de que Kirby rescatara a Elfilin del pecho del monstruo?',
+        options: [
+          'Fecto Elfilis se derritió y abrió un rift para chocar planetas.',
+          'Morpho Knight descendió para absorber el espíritu púrpura.',
+          'Nació Chaos Elfilis con su pelaje blanco y rojo.',
+          'Los Waddle Dees escaparon por el portal de plata.'
+        ],
+        correctAnswer: 'Fecto Elfilis se derritió y abrió un rift para chocar planetas.',
       },
       {
         id: 'fe-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue la última acción de Soul Forgo al final de la historia?',
-        options: ['Huyó al espacio', 'Se unió voluntariamente a Elfilin para curar la herida eterna', 'Atacó a Kirby una vez más', 'Se convirtió en una mariposa'],
-        correctAnswer: 'Se unió voluntariamente a Elfilin para curar la herida eterna',
+        questionText: '¿Qué hizo Soul Forgo al final de la batalla en el Colisée?',
+        options: [
+          'Se unió voluntariamente a Elfilin para estar en paz.',
+          'Absorbió a Morpho Knight por segunda vez.',
+          'Huyó a otra dimensión con la lanza Ares.',
+          'Poseyó nuevamente a King Dedede en las nieves.'
+        ],
+        correctAnswer: 'Se unió voluntariamente a Elfilin para estar en paz.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'fe-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La historia comienza hace "eones". ¿Qué significa eones?',
-        options: ['Hace pocos días', 'Un periodo de tiempo extremadamente largo', 'Mañana mismo', 'Durante una tormenta'],
-        correctAnswer: 'Un periodo de tiempo extremadamente largo',
+        questionText: 'En el texto se menciona que Fecto Forgo era una "quimera". ¿A qué se refiere?',
+        options: [
+          'A un ser formado por una mezcla desordenada de distintas criaturas.',
+          'A un fantasma que solo puede verse en los sueños de los leones.',
+          'A una máquina de guerra construida por la corporación Haltmann.',
+          'A una joya preciosa que los humanos guardaban en el laboratorio.'
+        ],
+        correctAnswer: 'A un ser formado por una mezcla desordenada de distintas criaturas.',
       },
       {
         id: 'fe-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Fecto Forgo se convirtió en una "quimera" horrorosa. ¿Qué es una quimera en este contexto?',
-        options: ['Un animal muy pequeño', 'Un ser compuesto por partes de distintos animales o criaturas', 'Una estatua de piedra', 'Un tipo de flor azul'],
-        correctAnswer: 'Un ser compuesto por partes de distintos animales o criaturas',
+        questionText: 'El narrador dice que Meta Knight tiene una voluntad "inquebrantable". ¿Qué significa?',
+        options: [
+          'Que su armadura brilla mucho bajo la luna.',
+          'Que es una voluntad tan fuerte que no se puede doblar ni vencer.',
+          'Que es un caballero que siempre llega tarde a las batallas.',
+          'Que su espada puede abrir portales a la Tierra Olvidada.'
+        ],
+        correctAnswer: 'Que es una voluntad tan fuerte que no se puede doblar ni vencer.',
       },
       {
         id: 'fe-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Meta Knight tiene una voluntad "inquebrantable". ¿Qué significa inquebrantable?',
-        options: ['Que se rompe fácil', 'Que es débil', 'Que no se puede doblar, torcer ni vencer', 'Que es muy ruidosa'],
-        correctAnswer: 'Que no se puede doblar, torcer ni vencer',
+        questionText: '¿Qué describe mejor el color "teal" mencionado en el pelaje de Fecto Elfilis?',
+        options: [
+          'Un rojo intenso parecido al fuego de Morpho Knight.',
+          'Un azul verdoso oscuro como el océano profundo.',
+          'Un blanco puro como el de las estrellas muertas.',
+          'Un violeta eléctrico parecido a las ondas psíquicas.'
+        ],
+        correctAnswer: 'Un azul verdoso oscuro como el océano profundo.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'fe-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la enseñanza principal de la leyenda de Fecto Elfilis?',
-        options: ['Que los portales dimensionales son divertidos', 'Que el verdadero poder reside en el equilibrio del corazón y la amistad', 'Que es mejor viajar solo por el universo', 'Que los laboratorios son lugares peligrosos'],
-        correctAnswer: 'Que el verdadero poder reside en el equilibrio del corazón y la amistad',
+        questionText: '¿Cuál es el tema central que explica el destino final de Fecto Elfilis?',
+        options: [
+          'La destrucción total de las galaxias por parte de Genwel.',
+          'La importancia de la tecnología humana para viajar entre mundos.',
+          'La búsqueda del equilibrio y la reconciliación entre las partes de uno mismo.',
+          'La rivalidad eterna entre Kirby y el caballero Meta Knight.'
+        ],
+        correctAnswer: 'La búsqueda del equilibrio y la reconciliación entre las partes de uno mismo.',
       },
       {
         id: 'fe-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué la historia de Fecto Elfilis es una historia de "unir lo dividido"?',
-        options: ['Porque Kirby usa pegamento', 'Porque las dos mitades (Elfilin y Forgo) finalmente encuentran la paz y la unión positiva', 'Porque los humanos volvieron a su planeta', 'Porque Meta Knight arregló su espada'],
-        correctAnswer: 'Porque las dos mitades (Elfilin y Forgo) finalmente encuentran la paz y la unión positiva',
+        questionText: '¿Por qué la historia enfatiza que Fecto Elfilis tenía un "destello de bondad"?',
+        options: [
+          'Para explicar por qué era más débil que su hermano Genwel.',
+          'Para mostrar que incluso en la oscuridad existía la posibilidad de paz.',
+          'Porque los humanos le enseñaron a ser amable en el laboratorio.',
+          'Porque Elfilin era el jefe secreto de todo el Beast Pack.'
+        ],
+        correctAnswer: 'Para mostrar que incluso en la oscuridad existía la posibilidad de paz.',
       },
       {
         id: 'fe-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representan los dos hermanos al principio de la historia?',
-        options: ['La creación y la vida', 'La destrucción masiva y el caos cósmico', 'La paz del universo', 'Dos estrellas fugaces'],
-        correctAnswer: 'La destrucción masiva y el caos cósmico',
+        questionText: '¿Qué representa el renacimiento final bajo el cielo azul brillante?',
+        options: [
+          'La construcción de una nueva ciudad flotante para los humanos.',
+          'La victoria definitiva de la luz sobre la división y el rencor.',
+          'Que Kirby decidió irse a vivir al espacio para siempre.',
+          'Que el Rey Dedede encontró finalmente su banquete real.'
+        ],
+        correctAnswer: 'La victoria definitiva de la luz sobre la división y el rencor.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'fe-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Forgo logró poseer a King Dedede pero no a Meta Knight?',
-        options: ['Porque Meta Knight era más rápido', 'Porque Dedede estaba distraído por el hambre mientras que Meta Knight tenía una mente de acero forjada en batallas', 'Porque Forgo no quería a Meta Knight', 'Porque Meta Knight usó un escudo mágico'],
-        correctAnswer: 'Porque Dedede estaba distraído por el hambre mientras que Meta Knight tenía una mente de acero forjada en batallas',
+        questionText: '¿Por qué el plan de Forgo para poseer a Meta Knight fracasó?',
+        options: [
+          'Porque Meta Knight usó un portal para escapar a Dream Land.',
+          'Porque su mente de acero y su honor le permitieron resistir las ilusiones.',
+          'Porque Forgo prefirió concentrarse en el hambre de King Dedede.',
+          'Porque la espada Galaxia absorbió toda la energía psíquica.'
+        ],
+        correctAnswer: 'Porque su mente de acero y su honor le permitieron resistir las ilusiones.',
       },
       {
         id: 'fe-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué nos dice el final de la historia sobre la redención (el perdón)?',
-        options: ['Que nadie puede ser perdonado', 'Que incluso un ser nacido de la destrucción puede encontrar la paz si se une a su parte buena', 'Que Kirby castiga a todos', 'Que los hermanos siempre pelean'],
-        correctAnswer: 'Que incluso un ser nacido de la destrucción puede encontrar la paz si se une a su parte buena',
+        questionText: '¿Por qué crees que los humanos abandonaron la Tierra Olvidada?',
+        options: [
+          'Porque Fecto Elfilis los expulsó con su lanza Antares.',
+          'Por temor a su propia sobrepoblación y gracias a la tecnología de portales.',
+          'Porque Kirby accidentalmente destruyó sus ciudades flotantes.',
+          'Porque querían buscar a Genwel Meteonelfilis en el espacio.'
+        ],
+        correctAnswer: 'Por temor a su propia sobrepoblación y gracias a la tecnología de portales.',
       },
       {
         id: 'fe-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué los humanos decidieron encerrar a Fecto en vez de ser sus amigos?',
-        options: ['Porque tenían miedo de su poder inestable y querían usarlo para viajar entre mundos', 'Porque no tenían espacio en sus casas', 'Porque Fecto era muy pequeño', 'Porque se los pidió Leon'],
-        correctAnswer: 'Porque tenían miedo de su poder inestable y querían usarlo para viajar entre mundos',
+        questionText: '¿Qué relación hay entre el hambre de King Dedede y su posesión?',
+        options: [
+          'Que Forgo le prometió comida infinita si capturaba a Elfilin.',
+          'Que su deseo de comer lo distrajo y debilitó su mente frente a Forgo.',
+          'Que Dedede quería comerse a los Waddle Dees del laboratorio.',
+          'Que Forgo solo puede poseer a personajes que son muy glotones.'
+        ],
+        correctAnswer: 'Que su deseo de comer lo distrajo y debilitó su mente frente a Forgo.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'fe-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad hacía a Fecto Elfilis único entre los monstruos estelares?',
-        options: ['Su gran tamaño', 'Su lanza Antares', 'Un destello de alma compasiva y bondad en su interior', 'Su capacidad de comer galletas'],
-        correctAnswer: 'Un destello de alma compasiva y bondad en su interior',
+        questionText: '¿Qué diferencia principal había entre Genwel y Fecto Elfilis?',
+        options: [
+          'Genwel era pequeño y Fecto era un gigante colosal.',
+          'Fecto tenía una parte compasiva, mientras Genwel era pura destrucción.',
+          'Genwel usaba la lanza Antares y Fecto usaba la lanza Ares.',
+          'Fecto vivía en el Laboratorio y Genwel en las colinas verdes.'
+        ],
+        correctAnswer: 'Fecto tenía una parte compasiva, mientras Genwel era pura destrucción.',
       },
       {
         id: 'fe-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la personalidad de Elfilin?',
-        options: ['Malvada y furiosa', 'Amable, buena y valiente junto a sus amigos', 'Miedosa y traicionera', 'Silenciosa y aburrida'],
-        correctAnswer: 'Amable, buena y valiente junto a sus amigos',
+        questionText: '¿Cómo cambió la personalidad de Leon al convertirse en Leongar?',
+        options: [
+          'Pasa de ser un león noble a ser un tirano controlado por Forgo.',
+          'Pasa de ser un lobo gruñón a ser el líder del Beast Pack.',
+          'Se vuelve un aliado de Kirby para derrotar a los humanos.',
+          'Aprende a usar la máscara de madera para curar a los animales.'
+        ],
+        correctAnswer: 'Pasa de ser un león noble a ser un tirano controlado por Forgo.',
       },
       {
         id: 'fe-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué motiva a Meta Knight a luchar contra la oscuridad de Forgo?',
-        options: ['Ganar dinero', 'Su honor como caballero y su voluntad de hierro para proteger el mundo', 'Vengarse de Dedede', 'Conocer a Elfilin'],
-        correctAnswer: 'Su honor como caballero y su voluntad de hierro para proteger el mundo',
+        questionText: '¿Qué cualidad de Kirby se destaca durante la pelea final contra Chaos Elfilis?',
+        options: [
+          'Su capacidad para construir máquinas en el Colisée.',
+          'Su coraje y perseverancia para liberar las almas divididas.',
+          'Su enojo contra la mariposa Morpho Knight.',
+          'Su habilidad para volar más alto que el Ser Supremo.'
+        ],
+        correctAnswer: 'Su coraje y perseverancia para liberar las almas divididas.',
       },
     ],
   },

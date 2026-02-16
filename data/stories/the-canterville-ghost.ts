@@ -27,7 +27,7 @@ Algunas semanas después se cerró el trato, y a fines de la estación el minist
 
 La señora Otis, que con el nombre de miss Lucrecía R. Táppan, de la calle West 53, había sido una célebre beldad de Nueva York, era todavía una mujer muy bella, de edad regular, con unos ojos hermosos y un perfil magnífico. Muchas damas americanas, cuando abandonan su país natal, adoptan aires de persona atacada de una enfermedad crónica y se figuran que eso es uno de los sellos de distinción europea; pero la señora Otis no cayó nunca en ese error. Tenía una naturaleza espléndida y una abundancia extraordinaria de vitalidad. A decir verdad, era completamente inglesa en muchos aspectos y era un ejemplo excelente para sostener la tesis de que lo tenemos todo en común con América hoy día excepto la lengua, como es de suponer. Su hijo mayor, bautizado con el nombre de Washington por sus padres, en un momento de patriotismo que él no cesaba de lamentar, era un muchacho rubio, de bastante buena figura, que había logrado que se le considerase candidato a la diplomacia, dirigiendo al grupo alemán en los festivales del casino de Newport durante tres temporadas seguidas, y aun en Londres pasaba por ser un bailarín excepcional. Sus únicas debilidades eran las gardenias y la nobleza; aparte de eso, era perfectamente sensato.
 
-Miss Virgina E. Otis era una muchachita de quince años, esbelta y graciosa como un cervatillo, con mirada francamente encantadora en sus grandes ojos azules. Amazona maravillosa, sobre su poney derrotó una vez en carreras al viejo lord Bilton, dando dos veces la vuelta al parque, ganándole por caballo y medio, precisamente frente a la estatua de Aquiles, lo cual provocó un entusiasmo tan grande en el joven duque de Cheshire, que le propuso matrimonjo allí mismo, y sus tutores tuvieron que mandarle aquella misma noche a Eton, bañado en lágrimas. Después de Virginia venían dos gemelos, a quienes llamaban Estrellas y Rayas porque se les encontraba siempre juntos. Eran unos niños encantadores y, con el ministro, los únicos verdaderos republicanos de la familia.
+Miss Virgina E. Otis era una muchachita de quince años, esbelta y graciosa como un cervatillo, con mirada francamente encantadora en sus grandes ojos azules. Amazona maravillosa, sobre su poney derrotó una vez en carreras al viejo lord Bilton, dando dos veces la vuelta al parque, ganándole por caballo y medio, precisamente frente a la estatua de Aquiles, lo cual provocó un entusiasmo tan grande en el joven duque de Cheshire, que le propuso matrimonjo allí mismo, y sus tutores tener que mandarle aquella misma noche a Eton, bañado en lágrimas. Después de Virginia venían dos gemelos, a quienes llamaban Estrellas y Rayas porque se les encontraba siempre juntos. Eran unos niños encantadores y, con el ministro, los únicos verdaderos republicanos de la familia.
 
 Como Canterville Chase está a siete millas de Ascot, la estación más próxima, míster Otis telegrafió que fueran a buscarle en coche descubierto, y emprendieron la marcha en medio de la mayor alegría. Era una noche encantadora de julio, y el aire estaba impregnado por el aroma de los pinos. De vez en cuando se oía una paloma arrullándose dulcemente, o se vislumbraba entre los helechos, la pechuga de oro bruñido de algún faisán. Ligeras ardillas les espiaban desde lo alto de las hayas a su paso; unos conejos corrían como exhalaciones a través de los matorrales o sobre los collados cubiertos de musgo, levantando su rabo blanco. Sin embargo, no bien. entraron en la avenida de Canterville Chase, el cielo se cubrió repentinamente de nubes. Un extraño silencio pareció invadir toda la atmósfera, una gran bandada de cornejas cruzó calladamente por encima de sus cabezas, y antes de que llegasen a la casa ya habían caído algunas gotas de lluvia.
 
@@ -110,7 +110,7 @@ El fantasma la miró con ojos llameantes de furor y se creyó en el deber de met
 
 Una vez en su habitación sintióse destrozado, presa de la agitación más violenta. La ordinariez de los gemelos, el grosero materialismo de la señora Otis, todo aquello resultaba realmente vejatorio; pero lo que más le humillaba era no tener ya fuerzas para llevar una armadura. Contaba con hacer impresión aun en unos americanos modernos, hacerles estremecer a la vista de un espectro acorazado, si no ya, por motivos razonables al menos por deferencia hacia su poeta nacional Longfellow, cuyas poesías, delicadas y atrayentes, le habían ayudado con frecuencia a matar el tiempo mientras los Canterville estaban en Londres. Además, era su propia armadura. La llevó con éxito en el torneo de Kenilworth, siendo felicitado calurosamente por la Reina Virgen en persona. Pero cuando quiso ponérsela quedó aplastado por completo con el peso de la enorme coraza y del yelmo de acero. Y se desplomó pesadamente sobre las losas de piedra, despellejándose las rodillas y contusionándose la muñeca derecha.
 
-Durante varios días estuvo malísimo y no pudo salir de su morada más que lo necesario para mantener en buen estado la mancha de sangre. No obstante, a fuerza de cuidados acabó por restablecerse y decidió hacer una tercera tentativa para aterrorizar al ministro de los Estados Unidos y a su familia. Eligió para su reaparición en escena el viernes 17 de agosto, consagrando gran parte del día a pasar revista a sus trajes. Su elección recayó al fin en un sombrero de ala levantada por un lado y caída del otro, con una pluma roja; en un sudario deshilachado en las mangas y el cuello y, por último, en un puñal mohoso.
+Durante varios día estuvo malísimo y no pudo salir de su morada más que lo necesario para mantener en buen estado la mancha de sangre. No obstante, a fuerza de cuidados acabó por restablecerse y decidió hacer una tercera tentativa para aterrorizar al ministro de los Estados Unidos y a su familia. Eligió para su reaparición en escena el viernes 17 de agosto, consagrando gran parte del día a pasar revista a sus trajes. Su elección recayó al fin en un sombrero de ala levantada por un lado y caída del otro, con una pluma roja; en un sudario deshilachado en las mangas y el cuello y, por último, en un puñal mohoso.
 
 Al atardecer estalló una gran tormenta. El viento era tan fuerte que sacudía y cerraba violentamente las puertas y ventanas de la vetusta casa. Realmente aquél era el tiempo que le convenía. He aquí lo que pensaba hacer: iría sigilosamente a la habitación de Washington Otis, le musitaría unas frases ininteligibles, quedándose al pie de la cama, y le hundiría tres veces seguidas el puñal en la garganta, a los sones de una música apagada. Odiaba sobre todo a Washington, porque sabía perfectamente que era él quien acostumbraba quitar la famosa mancha de sangre de Canterville, empleando el detergente Paragon de Pinkerton. Después de reducir al temerario y despreocupado joven a una condición de terror abyecto, entraría en la habitación que ocupaban el ministro de los Estados Unidos y su mujer. Una vez allí, colocaría una mano viscosa sobre la frente de la señora Otis y al mismo tiempo murmuraría, con voz sorda, al oído del ministro tembloroso, los secretos terribles del osario.
 
@@ -134,7 +134,7 @@ TODOS LOS DEMÁS ESTÁN FALSIFICADOS
 
 Y la entera verdad se le apareció como un relámpago. ¡Había sido burlado, chasqueado, engañado! La expresión característica de los Canterville reapareció en sus ojos, apretó las encías desdentadas y, levantando por encima de su cabeza sus manos amarillas, juró, según la fraseología pintoresca de la antigua escuela «que cuando el gallo tocase por dos veces el cuerno de su alegre llamada se perpetrarían crímenes sangrientos y que el asesinato, de callado paso, saldría entonces de su retiro». No había terminado de formular este juramento terrible criando de una alquería lejana, de tejado de ladrillo rojo, salió el canto de un gallo. Lanzó una larga risotada, lenta y amarga, y esperó. Esperó una hora y después otra; pero por alguna razón misteriosa no volvió a cantar el gallo.
 
-Por fin, a eso de las siete y media, la llegada de las criadas le obligó a abandonar su terrible guardia y regresó a su morada, con altivo paso, pensando en su vana esperanza y proyecto fracasado. Una vez allí consultó varios libros de caballería, cuya lectura le interesaba extraordinariamente, y pudo comprobar que el gallo cantó siempre dos veces en cuantas ocasiones se tuvo que recurrir a aquel juramento.
+Por fin, a eso de las siete y media, la llegada de las criadas le obligó a abandonar su terrible guardia y regresó a su morada, con altivo paso, pensando en su vana esperanza y proyecto fracado. Una vez allí consultó varios libros de caballería, cuya lectura le interesaba extraordinariamente, y pudo comprobar que el gallo cantó siempre dos veces en cuantas ocasiones se tuvo que recurrir a aquel juramento.
 
 -¡Que el diablo se lleve a ese infame volátil! -murmuró-. En otro tiempo hubiese caído sobre él con mi gran lanza, atravesándole el gañote y obligándole a cantar otra vez para . mi aunque reventara.
 Y dicho esto se retiró a su confortable ataúd de plomo y allí permaneció hasta la noche.
@@ -164,7 +164,7 @@ Lleno de pánico, cosa muy natural en aquellas circunstancias, se precipitó hac
 
 Desde aquella noche no volvió a vérsele nunca en expediciones nocturnas. Los gemelos se quedaron muchas veces en acecho para sorprenderle, sembrando de cáscaras de nuez los corredores todas las noches, con gran enojo de sus padres y de los criados. Pero fue inútil. Su amor propio estaba profundamente herido sin duda y no quería mostrarse. En vista de ello, míster Otis reanudó de nuevo el trabajo en su gran obra sobre la historia del partido demócrata, obra que había empezado tres años antes. La señora Otis organizó un clambake extraordinario, que dejó muy impresionados a todos los de la comarca. Los niños se dedicaron a jugar a la barra, al écarté, al póquer y a otros juegos típicos de América. Virginia dio paseos a caballo por caminos y veredas, en compañía del duque de Cheshire, que se hallaba en Canterville pasando su última semana de vacaciones.
 
-Todo el mundo se figuraba que el fantasma había desaparecido, y en consecuencia, míster Otis escribió una carta a lord Canterville para comunicárselo, y recibió en contestación otra carta en la que éste le testimoniaba el placer que le producía la noticia y enviaba sus más sinceras felicitaciones a la digna esposa del ministro. Pero los Otis se equivocaban.
+Todo el mundo se figuraba que el fantasma había desaparecido, y en consecuencia, míster Otis escribió una carta a lord Canterville para comunicárselo, y recibió en contestación otra carta en la que éste le testimoniaba el placer que le producía la noticia y enviaba sus más sinceras felicitaciones a la d¡gna esposa del ministro. Pero los Otis se equivocaban.
 
 El fantasma seguía en la casa, y aunque se hallaba muy delicado, no estaba dispuesto a retirarse, sobre todo después de saber que figuraba entre los invitados el duque de Cheshire, cuyo tío, lord Francis Stilton, apostó una vez cien guineas con el coronel Carbury a que jugaría a los dados con el fantasma de Canterville. A la mañana siguiente se encontraron a lord Stilton tendido sobre el suelo del salón de juego en un estado de parálisis tal, que, a pesar de la edad avanzada que alcanzó, no pudo ya nunca pronunciar más palabra que ésta:
 -¡Seis dobles!
@@ -244,7 +244,7 @@ Pero no sé lo que significan.
 
 Virginia no contestó y el fantasma retorcióse las manos en la violencia de su desesperación, sin dejar de mirar la rubia cabeza inclinada. De pronto se irguió la joven, muy pálida, con un fulgor extraño en los ojos.
 
--No tengo miedo -dijo con voz firme- y rogaré al ángel que se apiade de usted.
+-No tengo miedo -dijo con voz firme y rogaré al ángel que se apiade de usted.
 
 El fantasma, levantándose de su asiento y lanzando un débil grito de alegría, tomó su mano, e inclinándose sobre ella con la gracia de los viejos tiempos, la besó. Sus dedos estaban fríos como el hielo y sus labios abrasaban como el fuego, pero Virginia no flaqueó; después la hizo atravesar la estancia sombría. Sobre el tapiz de un verde apagado estaban bordados unos pequeños cazadores. Soplaban en sus cuernos adornados con borlas y con sus lindas manos le hacían señas de que retrocediese.
 
@@ -348,138 +348,228 @@ El duque se levantó inclinándose para besar amorosamente a su esposa.
       {
         id: 'cg-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le ofreció el Sr. Otis al fantasma la primera vez que se encontraron?',
-        options: ['Una taza de té', 'Una almohada', 'Un frasco de aceite para engrasar sus cadenas', 'Un libro para leer'],
-        correctAnswer: 'Un frasco de aceite para engrasar sus cadenas',
+        questionText: '¿Qué objeto específico le ofreció el Sr. Otis al fantasma para silenciar sus ruidos?',
+        options: [
+          'Un engrasador marca Sol Naciente para sus cadenas.',
+          'Un frasco de la tintura del doctor Dobell para su salud.',
+          'Una almohada voluminosa para tirarle a la cabeza.',
+          'Un frasco de aceite de pino para limpiar la biblioteca.'
+        ],
+        correctAnswer: 'Un engrasador marca Sol Naciente para sus cadenas.',
       },
       {
         id: 'cg-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué usaba Washington Otis para limpiar la mancha de sangre?',
-        options: ['Agua y jabón', 'El Limpiador Incomparable Campeón de Pinkerton', 'Un trapo mágico', 'Arena del jardín'],
-        correctAnswer: 'El Limpiador Incomparable Campeón de Pinkerton',
+        questionText: '¿Qué producto utilizó Washington Otis para limpiar la mancha de sangre por primera vez?',
+        options: [
+          'El Limpiador Incomparable Campeón marca Pinkerton.',
+          'Un poco de agua de colonia y un paño de seda blanca.',
+          'Jabón de glicerina traído desde los Estados Unidos.',
+          'Ceniza de la chimenea mezclada con aceite de cocina.'
+        ],
+        correctAnswer: 'El Limpiador Incomparable Campeón marca Pinkerton.',
       },
       {
         id: 'cg-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le regaló el fantasma a Virginia antes de morir?',
-        options: ['Una capa invisible', 'Un mapa del castillo', 'Un cofrecillo lleno de joyas', 'Una pluma mágica'],
-        correctAnswer: 'Un cofrecillo lleno de joyas',
+        questionText: '¿Qué contenía el regalo que el fantasma le entregó a Virginia antes de morir?',
+        options: [
+          'Un mapa de los pasadizos secretos del castillo.',
+          'Un pequeño cofrecillo lleno de joyas magníficas.',
+          'Una armadura antigua con el escudo de los Canterville.',
+          'Un diario escrito con extraños caracteres antiguos.'
+        ],
+        correctAnswer: 'Un pequeño cofrecillo lleno de joyas magníficas.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'cg-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió justo después de que Washington limpiara la mancha de sangre por primera vez?',
-        options: ['El fantasma apareció', 'La Sra. Umney se desmayó', 'Un relámpago iluminó la habitación y sonó un trueno', 'Empezó a llover'],
-        correctAnswer: 'Un relámpago iluminó la habitación y sonó un trueno',
+        questionText: '¿Qué fenómeno ocurrió inmediatamente después de que Washington limpiara la mancha?',
+        options: [
+          'El fantasma de Sir Simon apareció en el salón principal.',
+          'Un relámpago iluminó la estancia y sonó un trueno fuerte.',
+          'La señora Umney se retiró a su habitación renqueando.',
+          'Empezó a caer una lluvia de ceniza sobre la chimenea.'
+        ],
+        correctAnswer: 'Un relámpago iluminó la estancia y sonó un trueno fuerte.',
       },
       {
         id: 'cg-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue la primera broma que los gemelos le hicieron al fantasma?',
-        options: ['Le pusieron jabón en el piso', 'Le arrojaron una almohada a la cabeza', 'Le pusieron una jarra de agua sobre la puerta', 'Crearon un falso fantasma para asustarlo'],
-        correctAnswer: 'Le arrojaron una almohada a la cabeza',
+        questionText: '¿Cuál fue el orden de las bromas más pesadas que los gemelos le hicieron al fantasma?',
+        options: [
+          'Le tiraron una almohada, le pusieron jabón y usaron regaderas.',
+          'Le pusieron cuerdas en el pasillo, jabón y lo asustaron con un muñeco.',
+          'Usaron cerbatanas, le tiraron una jarra de agua y lo atraparon en un saco.',
+          'Cerraron la puerta con llave, le quitaron las botas y lo pintaron de verde.'
+        ],
+        correctAnswer: 'Le pusieron cuerdas en el pasillo, jabón y lo asustaron con un muñeco.',
       },
       {
         id: 'cg-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: 'Después de que Virginia desapareciera con el fantasma, ¿qué hizo su familia?',
-        options: ['Esperaron a que regresara sola', 'Se fueron a dormir tranquilamente', 'La buscaron por toda la casa y el parque, e incluso buscaron a unos gitanos', 'Llamaron a Lord Canterville'],
-        correctAnswer: 'La buscaron por toda la casa y el parque, e incluso buscaron a unos gitanos',
+        questionText: '¿Qué medidas tomó el Sr. Otis apenas se dio cuenta de que Virginia había desaparecido?',
+        options: [
+          'Llamó a Lord Canterville para pedirle que viniera desde Gales.',
+          'Registró la casa, avisó a la policía y buscó a una tribu de gitanos.',
+          'Hizo una cena triste y obligó a todos a dormir temprano.',
+          'Vació el estanque de las carpas y envió a su hijo a Londres.'
+        ],
+        correctAnswer: 'Registró la casa, avisó a la policía y buscó a una tribu de gitanos.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'cg-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "como hombre de la más escrupulosa honradez", ¿qué significa "escrupulosa"?',
-        options: ['Dudosa y poco fiable', 'Que pone mucho cuidado y atención en lo que hace para hacerlo bien', 'Rápida y sin pensar', 'Miedosa'],
-        correctAnswer: 'Que pone mucho cuidado y atención en lo que hace para hacerlo bien',
+        questionText: 'Lord Canterville es descrito como un hombre de "escrupulosa honradez". ¿Qué significa?',
+        options: [
+          'Que es una persona miedosa que cree en leyendas antiguas.',
+          'Que actúa con mucho cuidado, integridad y total exactitud.',
+          'Que es muy rico y le gusta presumir de sus posesiones reales.',
+          'Que tiene muchas deudas y necesita vender sus propiedades.'
+        ],
+        correctAnswer: 'Que actúa con mucho cuidado, integridad y total exactitud.',
       },
       {
         id: 'cg-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El fantasma se sintió "vejado" por el trato de la familia Otis. ¿Qué significa "vejado"?',
-        options: ['Contento', 'Ignorado', 'Maltratado y humillado', 'Confundido'],
-        correctAnswer: 'Maltratado y humillado',
+        questionText: 'El fantasma se sintió "vejado" por el trato de los americanos. ¿Cómo se sentía?',
+        options: [
+          'Muy entusiasmado por los nuevos habitantes de su casa.',
+          'Sumamente humillado, maltratado y herido en su orgullo.',
+          'Ignorado por completo por los niños y los sirvientes.',
+          'Confundido por no entender el idioma de los visitantes.'
+        ],
+        correctAnswer: 'Sumamente humillado, maltratado y herido en su orgullo.',
       },
       {
         id: 'cg-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El fantasma le dice a Virginia que detesta "la ramplona severidad de la ética abstracta". ¿Qué significa "ramplona"?',
-        options: ['Elegante y refinada', 'Complicada y difícil de entender', 'Vulgar, simple y de poca calidad', 'Alegre y divertida'],
-        correctAnswer: 'Vulgar, simple y de poca calidad',
+        questionText: 'La señora Umney saludó con una cortesía de los "buenos tiempos antiguos". ¿A qué se refiere?',
+        options: [
+          'A que gritó muy fuerte para que todos la escucharan bien.',
+          'A un modo de comportarse muy formal, respetuoso y elegante.',
+          'A que llevaba un traje de seda negra muy sucio y gastado.',
+          'A que preparó un té con leche siguiendo una receta secreta.'
+        ],
+        correctAnswer: 'A un modo de comportarse muy formal, respetuoso y elegante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'cg-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el conflicto principal de la historia?',
-        options: ['Una familia que quiere vender una casa embrujada', 'El choque entre la cultura tradicional y sobrenatural europea y la cultura moderna y práctica de los americanos', 'La historia de amor entre Virginia y el duque', 'La búsqueda de un tesoro escondido en el castillo'],
-        correctAnswer: 'El choque entre la cultura tradicional y sobrenatural europea y la cultura moderna y práctica de los americanos',
+        questionText: '¿Cuál es el choque cultural principal que genera humor en la historia?',
+        options: [
+          'La pelea entre los gitanos del parque y los soldados del rey.',
+          'La tradición gótica inglesa contra el pragmatismo moderno americano.',
+          'El deseo de Virginia de ser una duquesa y el republicanismo del padre.',
+          'La diferencia entre la comida inglesa y los banquetes de Nueva York.'
+        ],
+        correctAnswer: 'La tradición gótica inglesa contra el pragmatismo moderno americano.',
       },
       {
         id: 'cg-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el mensaje o tema más importante al final de la historia?',
-        options: ['Los fantasmas no existen', 'Los americanos son más valientes que los ingleses', 'El amor y la compasión son más fuertes que la muerte y pueden traer el perdón', 'Es importante mantener las casas limpias'],
-        correctAnswer: 'El amor y la compasión son más fuertes que la muerte y pueden traer el perdón',
+        questionText: '¿Qué lección o mensaje espiritual deja el final de la historia?',
+        options: [
+          'Que los fantasmas siempre terminan volviendo a sus castillos.',
+          'Que la compasión y el amor pueden traer paz a un alma atormentada.',
+          'Que los productos de limpieza americanos son superiores a los ingleses.',
+          'Que es mejor no comprar mansiones antiguas si tienen leyendas oscuras.'
+        ],
+        correctAnswer: 'Que la compasión y el amor pueden traer paz a un alma atormentada.',
       },
       {
         id: 'cg-main3',
         category: QuestionCategory.MAIN_IDEA,
         questionText: '¿Por qué el fantasma no lograba asustar a la familia Otis?',
-        options: ['Porque sus trucos eran muy viejos', 'Porque la familia no creía en fantasmas y trataba sus apariciones como problemas prácticos', 'Porque la casa tenía mucha luz', 'Porque los gemelos eran más aterradores que él'],
-        correctAnswer: 'Porque la familia no creía en fantasmas y trataba sus apariciones como problemas prácticos',
+        options: [
+          'Porque sus trucos eran demasiado infantiles para los adultos.',
+          'Porque la familia trataba sus apariciones como problemas prácticos de la casa.',
+          'Porque los gemelos eran en realidad más malvados que el fantasma.',
+          'Porque Sir Simon había olvidado cómo atravesar las paredes del hall.'
+        ],
+        correctAnswer: 'Porque la familia trataba sus apariciones como problemas prácticos de la casa.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'cg-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que la mancha de sangre cambiaba de color?',
-        options: ['Porque era una mancha mágica que reaccionaba al clima', 'Porque Virginia la pintaba de noche en secreto', 'Porque el fantasma usaba las pinturas de Virginia para restaurarla cada vez que la limpiaban', 'Porque la Sra. Umney usaba diferentes productos de limpieza'],
-        correctAnswer: 'Porque el fantasma usaba las pinturas de Virginia para restaurarla cada vez que la limpiaban',
+        questionText: '¿Por qué la mancha de sangre en la biblioteca cambiaba de color constantemente?',
+        options: [
+          'Porque era una mancha mágica que reaccionaba a la temperatura.',
+          'Porque el fantasma usaba las pinturas de Virginia para retocarla.',
+          'Porque la señora Umney la pintaba de noche para asustar a los niños.',
+          'Porque el detergente Pinkerton producía una extraña reacción química.'
+        ],
+        correctAnswer: 'Porque el fantasma usaba las pinturas de Virginia para retocarla.',
       },
       {
         id: 'cg-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el fantasma finalmente dejó de intentar asustar a la familia?',
-        options: ['Porque se hizo amigo de ellos', 'Porque se aburrió de la casa', 'Porque estaba constantemente frustrado, humillado y físicamente agotado por sus bromas', 'Porque encontró un nuevo lugar para embrujar'],
-        correctAnswer: 'Porque estaba constantemente frustrado, humillado y físicamente agotado por sus bromas',
+        questionText: '¿Por qué Virginia no se burlaba del fantasma como el resto de su familia?',
+        options: [
+          'Porque ella le tenía mucho miedo y prefería quedarse en su cuarto.',
+          'Porque tenía una naturaleza sensible y compasiva que le permitía entender su dolor.',
+          'Porque el fantasma le había prometido una caja de joyas si era buena.',
+          'Porque ella quería casarse con el duque y necesitaba un fantasma en su boda.'
+        ],
+        correctAnswer: 'Porque tenía una naturaleza sensible y compasiva que le permitía entender su dolor.',
       },
       {
         id: 'cg-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significó el florecimiento del almendro seco?',
-        options: ['Que llegaba la primavera', 'Que la casa ya no estaba embrujada', 'Que se cumplía la profecía y Dios había perdonado al fantasma gracias a Virginia', 'Que los gemelos habían regado el árbol'],
-        correctAnswer: 'Que se cumplía la profecía y Dios había perdonado al fantasma gracias a Virginia',
+        questionText: '¿Qué simboliza el florecimiento del almendro seco al final de la historia?',
+        options: [
+          'Que el invierno había terminado y la primavera llegaba al condado.',
+          'Que Sir Simon había sido finalmente perdonado por sus pecados.',
+          'Que la familia Otis había decidido quedarse a vivir en Canterville Chase.',
+          'Que los gemelos habían aprendido a cuidar la naturaleza del parque.'
+        ],
+        correctAnswer: 'Que Sir Simon había sido finalmente perdonado por sus pecados.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'cg-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor la actitud general de la familia Otis?',
-        options: ['Miedosa y supersticiosa', 'Práctica y moderna', 'Artística y soñadora', 'Antipática y grosera'],
-        correctAnswer: 'Práctica y moderna',
+        questionText: '¿Qué rasgo define mejor la personalidad de la familia Otis?',
+        options: [
+          'Eran personas supersticiosas que temían a las leyendas.',
+          'Eran pragmáticos, modernos y con una visión muy práctica de la vida.',
+          'Eran crueles y buscaban destruir las tradiciones de la nobleza.',
+          'Eran artistas soñadores que no se interesaban por el dinero.'
+        ],
+        correctAnswer: 'Eran pragmáticos, modernos y con una visión muy práctica de la vida.',
       },
       {
         id: 'cg-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad principal de Virginia le permitió ayudar al fantasma?',
-        options: ['Su curiosidad y astucia', 'Su valentía para enfrentar peligros', 'Su compasión, pureza e inocencia', 'Su habilidad para negociar'],
-        correctAnswer: 'Su compasión, pureza e inocencia',
+        questionText: '¿Cómo cambia el fantasma de Canterville desde el inicio hasta su encuentro con Virginia?',
+        options: [
+          'Se vuelve cada vez más violento y peligroso para los habitantes.',
+          'Pasa de ser un orgulloso artista del terror a un ser cansado que busca descanso.',
+          'Decide hacerse amigo de los gemelos para jugarles bromas de forma secreta.',
+          'Se transforma en un hombre moderno que desea viajar pronto a Nueva York.'
+        ],
+        correctAnswer: 'Pasa de ser un orgulloso artista del terror a un ser cansado que busca descanso.',
       },
       {
         id: 'cg-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia el fantasma de Sir Simon desde el principio hasta el final de la historia?',
-        options: ['Se vuelve más enojado y vengativo', 'Pasa de ser orgulloso y aterrador a estar cansado, triste y buscar la paz', 'Aprende a hacer bromas como los gemelos', 'Decide mudarse a América'],
-        correctAnswer: 'Pasa de ser orgulloso y aterrador a estar cansado, triste y buscar la paz',
+        questionText: '¿Qué cualidad de Meta Knight destaca en su comportamiento con el fantasma?',
+        options: [
+          'Su valentía incalculable para enfrentar monstruos de otro mundo.',
+          'Su lealtad a Virginia y su abnegación por encontrarla cuando se perdió.',
+          'Su gran sabiduría sobre los códigos de las computadoras antiguas.',
+          'Su capacidad para hablar en secreto con el fantasma de Sir Simon.'
+        ],
+        correctAnswer: 'Su lealtad a Virginia y su abnegación por encontrarla cuando se perdió.',
       },
     ],
   },

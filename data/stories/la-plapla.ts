@@ -52,139 +52,229 @@ Qué le vamos a hacer, así es la vida. Las letras no han sido hechas para baila
       {
         id: 'plapla-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué estaba haciendo Felipito Tacatún cuando descubrió a la Plapla?',
-        options: ['Jugando en el patio', 'Leyendo un libro', 'Haciendo los deberes', 'Dibujando'],
-        correctAnswer: 'Haciendo los deberes',
+        questionText: '¿Qué letras estaba practicando Felipito antes de ver a la Plapla?',
+        options: [
+          'Abecedarios completos y números largos.',
+          'Emes enruladas, eles orejudas y zetas.',
+          'Palabras difíciles con muchas tildes.',
+          'Nombres de sus compañeros de tercer grado.'
+        ],
+        correctAnswer: 'Emes enruladas, eles orejudas y zetas.',
       },
       {
         id: 'plapla-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo describió Felipito a la letra que caminaba?',
-        options: ['Como un pájaro de tinta', 'Como una araña de tinta', 'Como una flor de tinta', 'Como un punto de tinta'],
-        correctAnswer: 'Como una araña de tinta',
+        questionText: '¿Qué juego realizaba la Plapla sobre los renglones del cuaderno?',
+        options: [
+          'Jugaba a las escondidas entre las hojas.',
+          'Jugaba a la rayuela con los renglones.',
+          'Jugaba a la mancha con las otras letras.',
+          'Jugaba a saltar la soga con el margen.'
+        ],
+        correctAnswer: 'Jugaba a la rayuela con los renglones.',
       },
       {
         id: 'plapla-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué hace la maestra ahora cada vez que un niño escribe una Plapla?',
-        options: ['La borra inmediatamente', 'La guarda en una cajita', 'La muestra a toda la clase', 'Le pone una mala nota al niño'],
-        correctAnswer: 'La guarda en una cajita',
+        questionText: '¿A quiénes llamó la maestra para que vieran a la letra bailarina?',
+        options: [
+          'Solo a los alumnos de primer grado.',
+          'Llamó a los padres de Felipito Tacatún.',
+          'No llamó a nadie porque la guardó en una caja.',
+          'A todo el mundo, desde el portero hasta los nenes.'
+        ],
+        correctAnswer: 'A todo el mundo, desde el portero hasta los nenes.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
-        {
-          id: 'plapla-seq1',
-          category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué hizo Felipito justo después de ver que la letra se movía?',
-          options: ['Cerró el cuaderno', 'Le gritó a la letra', 'Se puso un par de anteojos', 'Llamó a su mamá'],
-          correctAnswer: 'Se puso un par de anteojos',
-        },
-        {
-          id: 'plapla-seq2',
-          category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué pasó en el colegio el día que Felipito mostró la Plapla?',
-          options: ['Todos los niños se pusieron a escribir Plaplas', 'La maestra castigó a Felipito', 'Nadie estudió y todos se dedicaron a mirar a la Plapla', 'La Plapla se escapó del cuaderno'],
-          correctAnswer: 'Nadie estudió y todos se dedicaron a mirar a la Plapla',
-        },
-        {
-          id: 'plapla-seq3',
-          category: QuestionCategory.SEQUENCING,
-          questionText: '¿Qué hizo Felipito después de hablar con la Plapla y escucharla cantar?',
-          options: ['La guardó en una caja', 'La borró con una goma', 'La dejó en el cuaderno y al día siguiente corrió a mostrársela a la maestra', 'Se olvidó de ella'],
-          correctAnswer: 'La dejó en el cuaderno y al día siguiente corrió a mostrársela a la maestra',
-        },
+      {
+        id: 'plapla-seq1',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿En qué momento exacto Felipito escuchó el grito de "¡Ay!"?',
+        options: [
+          'Apenas escribió la letra en el cuaderno.',
+          'Luego de ponerse el segundo par de anteojos.',
+          'Cuando la maestra abrió la cajita secreta.',
+          'Mientras corría entusiasmado hacia la escuela.'
+        ],
+        correctAnswer: 'Luego de ponerse el segundo par de anteojos.',
+      },
+      {
+        id: 'plapla-seq2',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Qué sucedió inmediatamente después de que la Plapla dijo su nombre?',
+        options: [
+          'Felipito le preguntó qué debía hacer con ella.',
+          'La letra se puso a cantar un vals de tinta.',
+          'La maestra le dijo que se había vuelto loco.',
+          'Felipito se puso el tercer par de anteojos.'
+        ],
+        correctAnswer: 'Felipito le preguntó qué debía hacer con ella.',
+      },
+      {
+        id: 'plapla-seq3',
+        category: QuestionCategory.SEQUENCING,
+        questionText: '¿Cuál fue el orden de las reacciones de la maestra?',
+        options: [
+          'La guardó en la caja, miró el cuaderno y se asustó.',
+          'Creyó que Felipito estaba loco, abrió el cuaderno y vio a la Plapla.',
+          'Llamó al portero, guardó la letra y felicitó a Felipito.',
+          'Abrió el cuaderno, se puso anteojos y borró a la letra.'
+        ],
+        correctAnswer: 'Creyó que Felipito estaba loco, abrió el cuaderno y vio a la Plapla.',
+      },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'plapla-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "se ponía a caminar muy oronda por el cuaderno", ¿qué significa "oronda"?',
-        options: ['Con mucho miedo', 'Muy rápido', 'Satisfecha y orgullosa de sí misma', 'Tropezándose'],
-        correctAnswer: 'Satisfecha y orgullosa de sí misma',
+        questionText: 'La letra caminaba "muy oronda" por el papel. ¿Qué significa "oronda" aquí?',
+        options: [
+          'Que caminaba muy rápido para escapar.',
+          'Que caminaba muy gorda y de forma lenta.',
+          'Que caminaba con mucho orgullo y satisfacción.',
+          'Que caminaba con miedo de ser borrada.'
+        ],
+        correctAnswer: 'Que caminaba con mucho orgullo y satisfacción.',
       },
       {
         id: 'plapla-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La historia dice que la Plapla causó mucho "revuelo" en el colegio. ¿Qué es "revuelo"?',
-        options: ['Silencio', 'Aburrimiento', 'Agitación o alboroto', 'Alegría'],
-        correctAnswer: 'Agitación o alboroto',
+        questionText: 'El cuento dice que la Plapla causó mucho "revuelo". ¿Qué es un revuelo?',
+        options: [
+          'Un gran silencio en toda la escuela.',
+          'Un estado de confusión y mucho alboroto.',
+          'Un tipo de baile que hacen los porteros.',
+          'Un examen muy difícil de geografía.'
+        ],
+        correctAnswer: 'Un estado de confusión y mucho alboroto.',
       },
       {
         id: 'plapla-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El cuento dice que hubo un gran "bochinche" en el colegio. ¿Qué es un "bochinche"?',
-        options: ['Un examen sorpresa', 'Una clase de música', 'Mucho ruido, desorden y alboroto', 'Un silencio absoluto'],
-        correctAnswer: 'Mucho ruido, desorden y alboroto',
+        questionText: 'La Plapla se "despatarraba" toda en la hoja. ¿Qué hacía la letra?',
+        options: [
+          'Se quedaba muy flaquita y derechita.',
+          'Se abría de piernas de forma desordenada.',
+          'Se ocultaba bajo los otros renglones.',
+          'Cambiaba de color verde a color rojo.'
+        ],
+        correctAnswer: 'Se abría de piernas de forma desordenada.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'plapla-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el tema principal de esta historia?',
-        options: ['La importancia de hacer los deberes', 'El descubrimiento de algo mágico e inesperado en la vida cotidiana', 'Los diferentes tipos de letras', 'Cómo se comportan los niños en la escuela'],
-        correctAnswer: 'El descubrimiento de algo mágico e inesperado en la vida cotidiana',
+        questionText: '¿Cuál es el tema central que propone María Elena Walsh en este cuento?',
+        options: [
+          'Los peligros de no estudiar para los exámenes.',
+          'La magia que puede aparecer en medio de lo cotidiano.',
+          'La forma correcta de usar tres pares de anteojos.',
+          'Cómo organizar los turnos para mirar un cuaderno.'
+        ],
+        correctAnswer: 'La magia que puede aparecer en medio de lo cotidiano.',
       },
       {
         id: 'plapla-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué se decide que la Plapla no figure en el abecedario?',
-        options: ['Porque era muy fea', 'Porque causaba desorden y distraía del estudio', 'Porque no sabía cantar bien', 'Porque era muy tímida'],
-        correctAnswer: 'Porque causaba desorden y distraía del estudio',
+        questionText: '¿Por qué la Plapla ya no figura oficialmente en el Abecedario?',
+        options: [
+          'Porque era una letra que no servía para escribir.',
+          'Porque distraía a los alumnos y nadie estudiaba.',
+          'Porque Felipito se olvidó de cómo dibujarla bien.',
+          'Porque la maestra perdió la llave de la cajita.'
+        ],
+        correctAnswer: 'Porque distraía a los alumnos y nadie estudiaba.',
       },
       {
         id: 'plapla-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué nos quiere decir la última frase del cuento: "Las letras no han sido hechas para bailar, sino para quedarse quietas una al lado de la otra, ¿no?"?',
-        options: ['Que las letras no deben moverse nunca', 'Que es una regla muy importante de la escritura', 'Es una pregunta irónica que critica la idea de que todo debe ser rígido y sin diversión', 'Que bailar es malo para las letras'],
-        correctAnswer: 'Es una pregunta irónica que critica la idea de que todo debe ser rígido y sin diversión',
+        questionText: '¿Qué crítica hace la autora al decir que las letras no deben bailar?',
+        options: [
+          'Que las letras bailan muy mal y es mejor que no lo hagan.',
+          'Que las reglas estrictas a veces nos quitan la diversión.',
+          'Que Felipito debería haber escrito letras más prolijas.',
+          'Que los maestros necesitan más cajas para guardar letras.'
+        ],
+        correctAnswer: 'Que las reglas estrictas a veces nos quitan la diversión.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
-        {
-            id: 'plapla-inf1',
-            category: QuestionCategory.INFERENCE,
-            questionText: '¿Por qué Felipito se puso tres pares de anteojos?',
-            options: ['Porque le gustaba cómo se veía', 'Porque no podía creer lo que estaba viendo y quería asegurarse', 'Porque sus anteojos no funcionaban bien', 'Porque era parte de un juego'],
-            correctAnswer: 'Porque no podía creer lo que estaba viendo y quería asegurarse',
-        },
-        {
-            id: 'plapla-inf2',
-            category: QuestionCategory.INFERENCE,
-            questionText: '¿Por qué la maestra guarda las Plaplas en una cajita en secreto?',
-            options: ['Porque las colecciona', 'Para evitar que se cause otro "bochinche" y los niños dejen de estudiar', 'Porque son valiosas', 'Para que no se escapen'],
-            correctAnswer: 'Para evitar que se cause otro "bochinche" y los niños dejen de estudiar',
-        },
-        {
-            id: 'plapla-inf3',
-            category: QuestionCategory.INFERENCE,
-            questionText: '¿Qué nos enseña esta historia sobre la imaginación y las reglas?',
-            options: ['Que siempre hay que seguir las reglas', 'Que la imaginación a veces choca con las reglas del mundo adulto', 'Que la escuela es un lugar aburrido', 'Que las letras no son importantes'],
-            correctAnswer: 'Que la imaginación a veces choca con las reglas del mundo adulto',
-        },
+      {
+        id: 'plapla-inf1',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué Felipito se puso tres pares de anteojos uno sobre otro?',
+        options: [
+          'Porque quería asustar a la letra con su mirada.',
+          'Porque estaba jugando a disfrazarse de abuelo.',
+          'Porque estaba tan asombrado que quería estar seguro de lo que veía.',
+          'Porque los anteojos que tenía estaban muy viejos y rotos.'
+        ],
+        correctAnswer: 'Porque estaba tan asombrado que quería estar seguro de lo que veía.',
+      },
+      {
+        id: 'plapla-inf2',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Qué sintió Felipito cuando la letra le contestó "Soy una Plapla"?',
+        options: [
+          'Mucha alegría porque ya no tenía que estudiar.',
+          'Una mezcla de susto e incredulidad por el misterio.',
+          'Enojo porque la letra no lo dejaba terminar los deberes.',
+          'Confusión porque pensó que era una araña real.'
+        ],
+        correctAnswer: 'Una mezcla de susto e incredulidad por el misterio.',
+      },
+      {
+        id: 'plapla-inf3',
+        category: QuestionCategory.INFERENCE,
+        questionText: '¿Por qué la maestra cuida que "nadie se entere" de que guarda Plaplas?',
+        options: [
+          'Porque las Plaplas son muy valiosas y quiere venderlas.',
+          'Para que la escuela vuelva a ser un lugar ordenado y de estudio.',
+          'Porque tiene miedo de que el portero le robe la caja.',
+          'Porque la Plapla le pidió que guardara el secreto para siempre.'
+        ],
+        correctAnswer: 'Para que la escuela vuelva a ser un lugar ordenado y de estudio.',
+      },
     ],
     [QuestionCategory.CHARACTER]: [
-        {
-            id: 'plapla-char1',
-            category: QuestionCategory.CHARACTER,
-            questionText: '¿Cómo es Felipito Tacatún?',
-            options: ['Es un niño que no le gusta hacer los deberes', 'Es un niño curioso y entusiasta', 'Es un niño miedoso que no habla', 'Es un niño que se porta mal en clase'],
-            correctAnswer: 'Es un niño curioso y entusiasta',
-        },
-        {
-            id: 'plapla-char2',
-            category: QuestionCategory.CHARACTER,
-            questionText: '¿Qué dos palabras describen mejor a la Plapla?',
-            options: ['Tímida y silenciosa', 'Enojada y gruñona', 'Alegre y juguetona', 'Triste y aburrida'],
-            correctAnswer: 'Alegre y juguetona',
-        },
-        {
-            id: 'plapla-char3',
-            category: QuestionCategory.CHARACTER,
-            questionText: '¿Cómo reacciona la maestra ante la Plapla?',
-            options: ['Se enoja y la borra', 'No le cree a Felipito', 'Primero se sorprende y luego decide controlarla para mantener el orden', 'Se pone a bailar con la Plapla'],
-            correctAnswer: 'Primero se sorprende y luego decide controlarla para mantener el orden',
-        },
+      {
+        id: 'plapla-char1',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Qué rasgo define mejor la personalidad de Felipito?',
+        options: [
+          'Un niño muy aburrido que odia la escuela.',
+          'Un pequeño curioso y muy observador.',
+          'Un alumno miedoso que no se anima a hablar.',
+          'Un chico distraído que siempre pierde los cuadernos.'
+        ],
+        correctAnswer: 'Un pequeño curioso y muy observador.',
+      },
+      {
+        id: 'plapla-char2',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo es la actitud de la Plapla frente a Felipito?',
+        options: [
+          'Miedosa y trata de esconderse en el estuche.',
+          'Enojada porque Felipito la mira con anteojos.',
+          'Natural, tranquila y un poco burlona.',
+          'Triste porque no tiene amigos en el abecedario.'
+        ],
+        correctAnswer: 'Natural, tranquila y un poco burlona.',
+      },
+      {
+        id: 'plapla-char3',
+        category: QuestionCategory.CHARACTER,
+        questionText: '¿Cómo cambia la opinión de la maestra sobre Felipito?',
+        options: [
+          'Pasa de creer que está loco a estar muy sorprendida.',
+          'Pasa de quererlo mucho a ponerle una mala nota.',
+          'Pasa de estar contenta a estar muy aburrida.',
+          'Nunca cambia de opinión y lo sigue retando.'
+        ],
+        correctAnswer: 'Pasa de creer que está loco a estar muy sorprendida.',
+      },
     ],
   },
 };

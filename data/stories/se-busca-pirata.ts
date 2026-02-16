@@ -8,7 +8,7 @@ export const seBuscaPirata: Story = {
   coverImage: `data:image/svg+xml;charset=utf-8,${encodeURIComponent('<svg width="600" height="400" viewBox="0 0 100 66.67" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#FF006E" /><g transform="rotate(27) translate(3)"><path d="M 0 0 L 50 0 L 50 50 L 0 50 Z" fill="#F7F9FB" opacity="0.5" transform="translate(0, 0)"/><path d="M 50 16 L 100 16 L 100 66 L 50 66 Z" fill="#8338EC" opacity="0.5" transform="translate(0, 0)"/></g></svg>')}`,
   content: `
 Todavía faltaba un par de horas para que oscureciera cuando Sebastián decidió ir a pasear por la playa con su perra Minerva. A los dos les encantaba ver cómo las olas se deshacían una y otra vez sobre la orilla para volver a rehacerse enseguida, siempre iguales y siempre distintas.
-Pero ninguno imaginó que esa tarde las olas los sorprenderían tanto. Porque de pronto, por entre la espuma y el agua salada que el mar lanzaba sobre la playa apareció la cabeza de un hombre barbudo. Y después el resto de su cuerpo aferrado a un trozo de madera. Cuando el hombre llegó a la orilla se tendió boca arriba con lo que parecían ser sus últimas fuerzas. Entonces el niño y la perra que lo miraban asombrados vieron que tenía un ojo cubierto por un parche y que una de sus manos había sido reemplazada por un garfio.
+Pero ninguno imaginaría que esa tarde las olas los sorprenderían tanto. Porque de pronto, por entre la espuma y el agua salada que el mar lanzaba sobre la playa apareció la cabeza de un hombre barbudo. Y después el resto de su cuerpo aferrado a un trozo de madera. Cuando el hombre llegó a la orilla se tendió boca arriba con lo que parecían ser sus últimas fuerzas. Entonces el niño y la perra que lo miraban asombrados vieron que tenía un ojo cubierto por un parche y que una de sus manos había sido reemplazada por un garfio.
 Sebastián había leído demasiados libros de piratas como para tener alguna duda acerca de ese hombretón enorme que el mar acababa de dejar sobre la arena.
 De todos modos, no tuvo tiempo para interrogantes. Enseguida oyó que el hombre lo llamaba con un hilo de voz.
 —Eh, muchacho, por favor acércate. ¿Quién eres? ¿Y qué mar es este?
@@ -26,7 +26,7 @@ Después de intercambiar unas cuantas preguntas, unas pocas respuestas y muchas 
 —Yo tampoco entiendo —dijo la voz del niño—. Y siempre tengo que entender antes de hacer.
 —Pero ahora no podemos enredarnos en la búsqueda de explicaciones —dijo Arnoldo con algo de desesperación en la garganta—. Estoy en un lugar y una época que no conozco, y tengo que recuperar el tiempo que perdí. Un pirata no puede vivir de la caridad ajena. Necesito ganarme el sustento.
 —Si quiere, puedo ayudarlo a encontrar trabajo.
-—¿Trabajo? Toda mi vida he sido un pirata. Y no hay ninguna otra cosa que pueda ser.
+—¿Trabajo? Toda mi vida he sido un pirata. y no hay ninguna otra cosa que pueda ser.
 —Vuelvo en un momento —dijo Sebastián y salió corriendo, seguido por Minerva.
 Efectivamente, niño y perra regresaron en un instante. Sebastián traía unos papeles bajo el brazo.
 —Es un diario —le aclaró. Aunque Arnoldo no había pronunciado ninguna pregunta, la expresión de su cara pedía una respuesta.
@@ -39,7 +39,7 @@ Sebastián levantó la mirada e interrumpió un momento la lectura. La expresió
 Arnoldo el Rojo asintió con un gesto. Estaba a punto de decir algo, pero Sebastián le ganó de mano.
 —Aquí hay otro más: “Inmobiliaria de prestigio busca piratas para venta de casas de construcción defectuosa bien disimulada. Enviar carta manuscrita con antecedentes y sueldo pretendido a...”.
 Ganado por un malestar cercano a la indignación, Arnoldo el Rojo lo interrumpió.
-—Creo que he venido a dar a una época en que se llama “pirata” a algo que no guarda ninguna relación con nosotros. Quiero decir, con la clase de pirata a la que pertenezco. Hay una confusión. Un pirata no es un vendedor ni un estafador. Un pirata es alguien que prefiere vivir según el rumbo que el mar le indica, y no de acuerdo con las reglas que impone a la sociedad humana el capricho de los poderosos. Un pirata es un buscador de tesoros, para el que son más importantes las aventuras propias de la búsqueda que el hallazgo en sí. Un pirata es un descubridor de horizontes nuevos, de islas desconocidas, de paisajes nunca vistos. Un pirata es un navegante que lleva en la sangre el desafío de no sucumbir a las tempestades para disfrutar de la calma que nace cuando la tormenta termina y prepararse para la próxima tempestad.
+—Creo que he venido a dar a una época en que se llama “pirata” a algo que no guarda ninguna relación con nosotros. Quiero decir, con la clase de pirata a la que pertenco. Hay una confusión. Un pirata no es un vendedor ni un estafador. Un pirata es alguien que prefiere vivir según el rumbo que el mar le indica, y no de acuerdo con las reglas que impone a la sociedad humana el capricho de los poderosos. Un pirata es un buscador de tesoros, para el que son más importantes las aventuras propias de la búsqueda que el hallazgo en sí. Un pirata es un descubridor de horizontes nuevos, de islas desconocidas, de paisajes nunca vistos. Un pirata es un navegante que lleva en la sangre el desafío de no sucumbir a las tempestades para disfrutar de la calma que nace cuando la tormenta termina y prepararse para la próxima tempestad.
 —Discúlpeme —dijo Sebastián con algo de temblor en la voz—. Yo solo quería ayudarlo a encontrar trabajo. No me di cuenta de que hoy ya casi nadie sabe qué es un verdadero pirata. Pero yo sí lo sé. Y cuando crezca, voy a ser un pirata como usted. Aunque tal vez navegue por los planetas y las estrellas, y no por el mar.
 —Te entiendo, muchacho. Y no hace falta que pidas disculpas. Pero sí necesito que me ayudes un poco más. Tengo que volver a mi mundo, necesito algo con que internarme en el mar y retornar al tiempo del que vengo y del que no sé cómo salí, pero al que creo saber regresar. Aún me quedan muchos días por vivir, pero sé que es allí donde tengo que estar.
 —Tengo una embarcación —anunció el niño.
@@ -63,138 +63,228 @@ Después los minutos se fueron deslizando hacia el abrazo final, del mismo modo 
       {
         id: 'sbp-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo se llamaba el pirata que apareció en la playa?',
-        options: ['Barbanegra', 'Sebastián el Feroz', 'Arnoldo el Rojo', 'Capitán Garfio'],
-        correctAnswer: 'Arnoldo el Rojo',
+        questionText: '¿Cómo reconoció Sebastián que el hombre era un pirata apenas lo vio?',
+        options: [
+          'Porque el hombre le dijo su nombre de inmediato.',
+          'Por el parche en el ojo y el garfio en su mano.',
+          'Porque traía una bandera negra con una calavera.',
+          'Porque llegó en una balsa de madera muy moderna.'
+        ],
+        correctAnswer: 'Por el parche en el ojo y el garfio en su mano.',
       },
       {
         id: 'sbp-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué usó Sebastián para intentar encontrarle trabajo al pirata?',
-        options: ['Un teléfono', 'Una computadora', 'Un diario', 'Un libro de historia'],
-        correctAnswer: 'Un diario',
+        questionText: '¿Qué tipo de diario pensó Arnoldo que le traía Sebastián?',
+        options: [
+          'Un diario con avisos para buscar trabajo.',
+          'Un diario de noticias sobre la ciudad de Almagro.',
+          'Un diario de a bordo, de los que llevan los capitanes.',
+          'Un libro de cuentos fantásticos sobre piratas antiguos.'
+        ],
+        correctAnswer: 'Un diario de a bordo, de los que llevan los capitanes.',
       },
       {
         id: 'sbp-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué le dio Sebastián a Arnoldo para que pudiera volver al mar?',
-        options: ['Un mapa', 'Una brújula', 'Un bote de goma inflable', 'Un barco de madera'],
-        correctAnswer: 'Un bote de goma inflable',
+        questionText: '¿Qué le pidió Arnoldo a Sebastián que le trajera además de agua?',
+        options: [
+          'Un mapa de los siete mares del mundo.',
+          'Una caña de pescar para buscar alimento.',
+          'Un traje de marinero para pasar desapercibido.',
+          'Un inflador para su bote de madera viejo.'
+        ],
+        correctAnswer: 'Una caña de pescar para buscar alimento.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'sbp-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Sebastián justo después de que Arnoldo le dijera que necesitaba ganarse el sustento?',
-        options: ['Le ofreció dinero', 'Le dio su bote', 'Fue a buscar un diario para buscar avisos de trabajo', 'Le trajo una caña de pescar'],
-        correctAnswer: 'Fue a buscar un diario para buscar avisos de trabajo',
+        questionText: '¿Cuál fue el orden de las soluciones que Sebastián ofreció para ayudar al pirata?',
+        options: [
+          'Primero le dio comida, luego le buscó trabajo y al final le dio un bote.',
+          'Primero le dio un bote, luego le buscó trabajo y al final le dio comida.',
+          'Primero le buscó trabajo, luego le dio un bote y al final le dio comida.',
+          'Primero le dio comida, luego le dio un bote y al final le buscó trabajo.'
+        ],
+        correctAnswer: 'Primero le dio comida, luego le buscó trabajo y al final le dio un bote.',
       },
       {
         id: 'sbp-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué fue lo primero que hizo Sebastián al encontrar al pirata en la orilla?',
-        options: ['Salió corriendo asustado', 'Llamó a la policía', 'Corrió a buscarle agua y algo de comer', 'Le preguntó su nombre'],
-        correctAnswer: 'Corrió a buscarle agua y algo de comer',
+        questionText: '¿Qué sucedió justo después de que Arnoldo escuchara los avisos clasificados del diario?',
+        options: [
+          'Arnoldo eligió el trabajo en la fábrica textil.',
+          'Arnoldo se sintió indignado y explicó qué es un verdadero pirata.',
+          'Sebastián le prestó su bote de goma de inmediato.',
+          'Minerva corrió a buscar más agua al fondo de la playa.'
+        ],
+        correctAnswer: 'Arnoldo se sintió indignado y explicó qué es un verdadero pirata.',
       },
       {
         id: 'sbp-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Arnoldo después de explicar qué era un verdadero pirata y antes de que Sebastián le ofreciera una embarcación?',
-        options: ['Se enojó y se fue', 'Le pidió ayuda para volver a su mundo', 'Se puso a pescar', 'Le contó la historia de su naufragio'],
-        correctAnswer: 'Le pidió ayuda para volver a su mundo',
+        questionText: '¿Qué hizo Sebastián la mañana después de conocer al pirata?',
+        options: [
+          'Fue a la biblioteca a leer más sobre fragatas.',
+          'Llegó a la playa arrastrando una caja con un bote inflable.',
+          'Compró el diario para ver si había nuevos avisos.',
+          'Se despidió de Arnoldo que ya se había ido nadando.'
+        ],
+        correctAnswer: 'Llegó a la playa arrastrando una caja con un bote inflable.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'sbp-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Arnoldo necesitaba "ganarse el sustento". ¿Qué significa "sustento"?',
-        options: ['El respeto de los demás', 'Un lugar para dormir', 'Lo necesario para vivir, como la comida', 'Nuevas ropas de pirata'],
-        correctAnswer: 'Lo necesario para vivir, como la comida',
+        questionText: 'Sebastián y Arnoldo intercambiaron "conjeturas". ¿Qué significa conjetura en este cuento?',
+        options: [
+          'Una pelea muy fuerte por dinero.',
+          'Una suposición basada en pistas pero sin estar seguros.',
+          'Una promesa de amistad eterna.',
+          'Un tipo de comida para piratas hambrientos.'
+        ],
+        correctAnswer: 'Una suposición basada en pistas pero sin estar seguros.',
       },
       {
         id: 'sbp-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Sebastián y Arnoldo intercambiaron "conjeturas". ¿Qué es una conjetura?',
-        options: ['Un regalo', 'Una verdad comprobada', 'Una suposición o una idea basada en datos incompletos', 'Una promesa'],
-        correctAnswer: 'Una suposición o una idea basada en datos incompletos',
+        questionText: 'Arnoldo sintió una gran "indignación". ¿Cómo se sentía?',
+        options: [
+          'Muy cansado por haber nadado tanto tiempo.',
+          'Muy agradecido por la ayuda de Sebastián.',
+          'Enojado por algo que le parecía injusto o incorrecto.',
+          'Triste por haber perdido su barco en la tormenta.'
+        ],
+        correctAnswer: 'Enojado por algo que le parecía injusto o incorrecto.',
       },
       {
         id: 'sbp-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El tiempo se había "resquebrajado" para permitir que Arnoldo cruzara los siglos. ¿Qué significa "resquebrajado"?',
-        options: ['Detenido por completo', 'Acelerado', 'Agrietado o roto', 'Congelado'],
-        correctAnswer: 'Agrietado o roto',
+        questionText: 'Arnoldo dice que no quiere "sucumbir" a las tempestades. ¿Qué significa sucumbir?',
+        options: [
+          'Rendirse o dejarse vencer por algo difícil.',
+          'Navegar muy rápido sobre las olas gigantes.',
+          'Gritar con fuerza cuando sopla mucho viento.',
+          'Esconderse bajo el agua para no ser visto.'
+        ],
+        correctAnswer: 'Rendirse o dejarse vencer por algo difícil.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'sbp-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el conflicto principal de la historia?',
-        options: ['Un pirata que no sabe leer', 'Un niño que le tiene miedo a los piratas', 'Un pirata de otra época que no encuentra su lugar en el mundo moderno', 'Un pirata que busca un tesoro perdido'],
-        correctAnswer: 'Un pirata de otra época que no encuentra su lugar en el mundo moderno',
+        questionText: '¿Cuál es el malentendido principal que ocurre en la historia?',
+        options: [
+          'Que Sebastián pensaba que Arnoldo era un actor de cine.',
+          'Que el diario usaba la palabra "pirata" para estafadores, y no para aventureros.',
+          'Que Arnoldo pensaba que Sebastián quería robarle su balsa.',
+          'Que la perra Minerva le tenía miedo al garfio del pirata.'
+        ],
+        correctAnswer: 'Que el diario usaba la palabra "pirata" para estafadores, y no para aventureros.',
       },
       {
         id: 'sbp-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué diferencia encuentra Arnoldo entre el concepto de "pirata" de su época y el de la época de Sebastián?',
-        options: ['Que ahora usan barcos más modernos', 'Que en su época eran aventureros y en la de Sebastián son estafadores', 'Que ahora ya no usan parches en el ojo', 'Que en su época eran más ricos'],
-        correctAnswer: 'Que en su época eran aventureros y en la de Sebastián son estafadores',
+        questionText: '¿Por qué para Arnoldo un pirata es alguien valioso?',
+        options: [
+          'Porque sabe ganar mucho dinero vendiendo medicinas.',
+          'Porque busca aventuras, descubre horizontes y enfrenta tormentas.',
+          'Porque es el único que puede naufragar sin asustarse.',
+          'Porque sabe leer los diarios de a bordo de los capitanes.'
+        ],
+        correctAnswer: 'Porque busca aventuras, descubre horizontes y enfrenta tormentas.',
       },
       {
         id: 'sbp-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el propósito del encuentro entre Sebastián y Arnoldo?',
-        options: ['Mostrar que los piratas son peligrosos', 'Enseñar sobre la historia de la piratería', 'Contar una historia de amistad y ayuda entre dos personas de mundos muy diferentes', 'Demostrar que viajar en el tiempo es posible'],
-        correctAnswer: 'Contar una historia de amistad y ayuda entre dos personas de mundos muy diferentes',
+        questionText: '¿Qué mensaje nos deja la relación entre el niño y el pirata?',
+        options: [
+          'Que es imposible ayudar a alguien de otra época.',
+          'Que la verdadera amistad puede unir a personas de mundos distintos.',
+          'Que los piratas no deben confiar nunca en los niños.',
+          'Que es mejor no leer diarios de avisos clasificados.'
+        ],
+        correctAnswer: 'Que la verdadera amistad puede unir a personas de mundos distintos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'sbp-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Arnoldo el Rojo se sintió indignado con los avisos de trabajo del diario?',
-        options: ['Porque pagaban muy poco', 'Porque no entendía lo que decían', 'Porque el significado moderno de "pirata" era el de un estafador, y no el de un aventurero como él', 'Porque requerían saber leer'],
-        correctAnswer: 'Porque el significado moderno de "pirata" era el de un estafador, y no el de un aventurero como él',
+        questionText: '¿Por qué Arnoldo tenía "hacia más de trescientos años" que había naufragado?',
+        options: [
+          'Porque era un fantasma que vivía en el fondo del mar.',
+          'Porque atravesó una grieta en el tiempo sin darse cuenta.',
+          'Porque le mintió a Sebastián para parecer más interesante.',
+          'Porque en esa época los relojes no funcionaban bien.'
+        ],
+        correctAnswer: 'Porque atravesó una grieta en el tiempo sin darse cuenta.',
       },
       {
         id: 'sbp-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Sebastián supo inmediatamente que Arnoldo era un pirata?',
-        options: ['Porque se lo dijo Arnoldo', 'Porque había leído muchos libros de piratas y Arnoldo tenía parche, garfio y barba', 'Porque llevaba un tesoro', 'Porque hablaba de forma extraña'],
-        correctAnswer: 'Porque había leído muchos libros de piratas y Arnoldo tenía parche, garfio y barba',
+        questionText: '¿Por qué Arnoldo insiste en volver a su mundo en lugar de quedarse?',
+        options: [
+          'Porque no le gusta la comida que le trajo Sebastián.',
+          'Porque siente que todavía tiene vida por vivir en su propio tiempo.',
+          'Porque tiene miedo de que la inmobiliaria lo contrate a la fuerza.',
+          'Porque el mar Atlántico Sur es demasiado frío para él.'
+        ],
+        correctAnswer: 'Porque siente que todavía tiene vida por vivir en su propio tiempo.',
       },
       {
         id: 'sbp-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué significa que Arnoldo y Sebastián se quedaron "para siempre, como una presencia invisible, en el interior de cada uno"?',
-        options: ['Que se convirtieron en fantasmas', 'Que se volverían a encontrar pronto', 'Que el recuerdo y la amistad que formaron serían importantes para ambos por el resto de sus vidas', 'Que se olvidarían el uno del otro'],
-        correctAnswer: 'Que el recuerdo y la amistad que formaron serían importantes para ambos por el resto de sus vidas',
+        questionText: '¿Qué quiere decir Sebastián cuando dice que será un "pirata de planetas y estrellas"?',
+        options: [
+          'Que se va a disfrazar de astronauta para el Carnaval.',
+          'Que mantendrá el espíritu de aventura de Arnoldo en el futuro.',
+          'Que va a robar tesoros de otros planetas lejanos.',
+          'Que no le gusta navegar por el mar porque hay olas.'
+        ],
+        correctAnswer: 'Que mantendrá el espíritu de aventura de Arnoldo en el futuro.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'sbp-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor a Arnoldo el Rojo?',
-        options: ['Moderno y flexible', 'Codicioso y mentiroso', 'Anticuado y con honor', 'Tímido y callado'],
-        correctAnswer: 'Anticuado y con honor',
+        questionText: '¿Qué rasgo define mejor la personalidad de Arnoldo el Rojo?',
+        options: [
+          'Es un hombre ambicioso que solo busca remuneración.',
+          'Es un navegante con honor que valora la libertad y la aventura.',
+          'Es una persona muy miedosa que no sabe qué hacer sin su barco.',
+          'Es un estafador que busca vender alimentos en mal estado.'
+        ],
+        correctAnswer: 'Es un navegante con honor que valora la libertad y la aventura.',
       },
       {
         id: 'sbp-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es Sebastián?',
-        options: ['Miedoso y desconfiado', 'Amable, servicial e imaginativo', 'Egoísta y desinteresado', 'Burlón y travieso'],
-        correctAnswer: 'Amable, servicial e imaginativo',
+        questionText: '¿Cómo se describe la actitud de Sebastián hacia el pirata?',
+        options: [
+          'Como alguien burlón que se ríe de que Arnoldo no sepa leer.',
+          'Como un niño generoso e imaginativo que quiere ayudar de verdad.',
+          'Como un pequeño desconfiado que llamó a la policía del condado.',
+          'Como un alumno que solo quería que Arnoldo le contara cuentos.'
+        ],
+        correctAnswer: 'Como un niño generoso e imaginativo que quiere ayudar de verdad.',
       },
       {
         id: 'sbp-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué demuestra Sebastián al prometer que de grande será un pirata de planetas y estrellas?',
-        options: ['Que no entendió lo que dijo Arnoldo', 'Que comparte el espíritu aventurero de Arnoldo y lo adaptará a su propio mundo', 'Que le gustan las naves espaciales', 'Que no quiere ser como Arnoldo'],
-        correctAnswer: 'Que comparte el espíritu aventurero de Arnoldo y lo adaptará a su propio mundo',
+        questionText: '¿Qué demuestra el hecho de que Sebastián le regale su bote inflable?',
+        options: [
+          'Que el bote estaba roto y ya no le servía para jugar.',
+          'Su desinterés y su deseo de que el pirata se vaya pronto.',
+          'Su enorme bondad y el respeto que siente por el sueño de Arnoldo.',
+          'Que tiene miedo de que Arnoldo lo ataque con su garfio.'
+        ],
+        correctAnswer: 'Su enorme bondad y el respeto que siente por el sueño de Arnoldo.',
       },
     ],
   },

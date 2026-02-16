@@ -77,7 +77,7 @@ Oyéndolo el posadero, se echó a reír, y dijo:
 —¡Cállate, por Dios! —exclamó la patrona—. Más de un temerario lo ha pagado ya con la vida. ¡Sería una pena que esos hermosos ojos no volviesen a ver la luz del día!
 Pero el muchacho replicó:
 —Por costoso que sea, quisiera saber lo que es el miedo; para esto me marché de casa.
-Y estuvo importunando al posadero, hasta que éste se decidió a contarle que, a poca distancia de allí, se levantaba un castillo encantado, donde, con toda seguridad, aprendería a conocer el miedo si estaba dispuesto a pasar tres noches en él. Le dijo que el Rey había prometido casar a su hija, que era la doncella más hermosa que alumbrara el sol, con el hombre que a ello se atreviese. Además, había en el castillo valiosos tesoros, capaces de enriquecer al más pobre, que estaban guardados por espíritus malos, y podrían recuperarse al desvanecerse el maleficio. Muchos lo habían intentado ya, pero ninguno había escapado con vida de la empresa.
+And estuvo importunando al posadero, hasta que éste se decidió a contarle que, a poca distancia de allí, se levantaba un castillo encantado, donde, con toda seguridad, aprendería a conocer el miedo si estaba dispuesto a pasar tres noches en él. Le dijo que el Rey había prometido casar a su hija, que era la doncella más hermosa que alumbrara el sol, con el hombre que a ello se atreviese. Además, había en el castillo valiosos tesoros, capaces de enriquecer al más pobre, que estaban guardados por espíritus malos, y podrían recuperarse al desvanecerse el maleficio. Muchos lo habían intentado ya, pero ninguno había escapado con vida de la empresa.
 
 A la mañana siguiente, el joven se presentó al Rey y le dijo que, si se le autorizaba, él se comprometía a pasarse tres noches en vela en el castillo encantado. Lo miró el Rey, y como su aspecto le resultara simpático, le dijo:
 —Puedes pedir tres cosas para llevarte al castillo, pero deben ser cosas inanimadas.
@@ -165,7 +165,7 @@ Al fin, aquella cantinela acabó por irritar a la princesa. Su camarera le dijo:
 —Yo lo arreglaré. Voy a enseñarle lo que es el miedo.
 Se dirigió al riachuelo que cruzaba el jardín y mandó que le llenaran un barreño de agua con muchos pececillos. Por la noche, mientras el joven dormía, su esposa, instruida por la camarera, le quitó bruscamente las ropas y le echó encima el cubo de agua fría con los peces, los cuales se pusieron a coletear sobre el cuerpo del muchacho. Éste despertó de súbito y echó a gritar:
 —¡Ah, qué miedo, qué miedo, mujercita mía! ¡Ahora sí que sé lo que es el miedo!
-    `,
+`,
   wordCount: 2315,
   level: '3er Grado (Nivel P)',
   questions: {
@@ -173,138 +173,228 @@ Se dirigió al riachuelo que cruzaba el jardín y mandó que le llenaran un barr
       {
         id: 'jsm-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué quería aprender Juan a toda costa?',
-        options: ['A trabajar en el campo', 'A tener miedo', 'A tocar las campanas', 'A jugar a los bolos'],
-        correctAnswer: 'A tener miedo',
+        questionText: '¿Por qué Juan decidió salir de su casa y recorrer el mundo?',
+        options: [
+          'Para encontrar el tesoro escondido del Rey.',
+          'Porque quería aprender qué era eso que todos llamaban "miedo".',
+          'Porque su hermano mayor lo obligó a irse del pueblo.',
+          'Para casarse con la hija del Rey y ser un príncipe rico.'
+        ],
+        correctAnswer: 'Porque quería aprender qué era eso que todos llamaban "miedo".',
       },
       {
         id: 'jsm-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué tres cosas pidió Juan al Rey para llevar al castillo?',
-        options: ['Comida, vino y una cama', 'Fuego, un torno y un banco de carpintero', 'Una espada, un escudo y un caballo', 'Oro, joyas y un mapa'],
-        correctAnswer: 'Fuego, un torno y un banco de carpintero',
+        questionText: '¿Qué objetos pidió Juan al Rey para llevar al castillo encantado?',
+        options: [
+          'Una espada afilada, un escudo de oro y un caballo veloz.',
+          'Fuego, un torno y un banco de carpintero con su cuchilla.',
+          'Mucha comida, una cama cómoda y una lámpara de aceite.',
+          'Cincuenta monedas de plata y un mapa del lugar.'
+        ],
+        correctAnswer: 'Fuego, un torno y un banco de carpintero con su cuchilla.',
       },
       {
         id: 'jsm-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo sintió finalmente Juan lo que es el miedo?',
-        options: ['Al ver un fantasma real', 'Al pelear con el viejo de la barba blanca', 'Cuando su esposa le tiró agua fría con peces mientras dormía', 'Al quedarse solo en el bosque'],
-        correctAnswer: 'Cuando su esposa le tiró agua fría con peces mientras dormía',
+        questionText: '¿De qué forma logró Juan asustarse finalmente al terminar el cuento?',
+        options: [
+          'Al ver al fantasma del viejo de barba blanca en el sótano.',
+          'Cuando su esposa le tiró agua fría con peces mientras dormía.',
+          'Al quedarse atrapado en un armario oscuro del castillo.',
+          'Cuando el muerto del ataúd intentó estrangularlo en la cama.'
+        ],
+        correctAnswer: 'Cuando su esposa le tiró agua fría con peces mientras dormía.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'jsm-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Juan justo después de que el sacristán se disfrazara de fantasma en el campanario?',
-        options: ['Salió corriendo asustado', 'Lo empujó escaleras abajo', 'Se puso a rezar', 'Lo invitó a cenar'],
-        correctAnswer: 'Lo empujó escaleras abajo',
+        questionText: '¿Qué evento ocurrió inmediatamente después de que Juan bajara a los ahorcados para calentarlos?',
+        options: [
+          'Los ahorcados le dieron las gracias y se fueron.',
+          'Sus harapos se prendieron fuego porque no tenían cuidado.',
+          'Llegó un carretero y lo llevó a una hospedería cercana.',
+          'Juan les pidió que le enseñaran a volar por el bosque.'
+        ],
+        correctAnswer: 'Sus harapos se prendieron fuego porque no tenían cuidado.',
       },
       {
         id: 'jsm-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó la segunda noche en el castillo encantado?',
-        options: ['Aparecieron gatos negros', 'Bajó un hombre partido en dos por la chimenea y Juan jugó a los bolos', 'Llegó el Rey a despertarlo', 'Juan encontró las arcas de oro'],
-        correctAnswer: 'Bajó un hombre partido en dos por la chimenea y Juan jugó a los bolos',
+        questionText: '¿Qué pasó en el castillo encantado durante la SEGUNDA noche?',
+        options: [
+          'Aparecieron dos gatos negros que querían jugar a los naipes.',
+          'Bajó un hombre partido en dos y Juan jugó a los bolos con calaveras.',
+          'Llegaron seis hombres cargando un ataúd con un cuerpo frío.',
+          'Apareció el viejo de barba blanca y lo llevó a la fragua.'
+        ],
+        correctAnswer: 'Bajó un hombre partido en dos y Juan jugó a los bolos con calaveras.',
       },
       {
         id: 'jsm-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: 'Después de atrapar la barba del viejo en el yunque, ¿qué hizo Juan?',
-        options: ['Lo mató de inmediato', 'Lo soltó a cambio de que le mostrara las riquezas', 'Llamó a los guardias', 'Se escapó del castillo'],
-        correctAnswer: 'Lo soltó a cambio de que le mostrara las riquezas',
+        questionText: '¿Cuál es el orden correcto de estos encuentros de Juan?',
+        options: [
+          'Ahorcados, el sacristán, el castillo y finalmente la princesa.',
+          'El sacristán, los ahorcados, el castillo y finalmente la princesa.',
+          'El castillo, la princesa, el sacristán y los ahorcados.',
+          'Los ahorcados, el castillo, la princesa y el sacristán.'
+        ],
+        correctAnswer: 'El sacristán, los ahorcados, el castillo y finalmente la princesa.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'jsm-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La gente decía que el hermano menor era un "zoquete". ¿Qué significa esa palabra?',
-        options: ['Una persona muy inteligente', 'Una persona tonta o a la que le cuesta aprender', 'Un guerrero valiente', 'Un tipo de zapato'],
-        correctAnswer: 'Una persona tonta o a la que le cuesta aprender',
+        questionText: 'Juan era considerado un "zoquete" por su familia. ¿Qué significa esto?',
+        options: [
+          'Que era una persona muy hábil y rápida para aprender.',
+          'Que era un chico al que le costaba mucho comprender las cosas.',
+          'Que tenía mucha fuerza física y era muy robusto.',
+          'Que siempre estaba metido en el rincón de la casa.'
+        ],
+        correctAnswer: 'Que era un chico al que le costaba mucho comprender las cosas.',
       },
       {
         id: 'jsm-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Juan se enfrentó al fantasma de forma "impertérrita". ¿Qué significa ser impertérrito?',
-        options: ['Estar muy asustado', 'Que no se asusta ni se altera por nada', 'Estar muy enojado', 'Tener mucha hambre'],
-        correctAnswer: 'Que no se asusta ni se altera por nada',
+        questionText: 'Juan se mantuvo "impertérrito" ante los fantasmas. ¿Cómo estaba él?',
+        options: [
+          'Estaba temblando de miedo y pedía ayuda a los gritos.',
+          'Estaba tranquilo y sin asustarse por nada de lo que veía.',
+          'Estaba muy enojado y quería pelear contra todo el mundo.',
+          'Estaba muy confundido y no sabía qué estaba pasando.'
+        ],
+        correctAnswer: 'Estaba tranquilo y sin asustarse por nada de lo que veía.',
       },
       {
         id: 'jsm-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El viejo llevó a Juan a una "fragua". ¿Qué es una fragua?',
-        options: ['Un jardín con flores', 'Un lugar donde se trabaja el hierro con fuego y yunques', 'Una habitación con muchos libros', 'Un tipo de barco'],
-        correctAnswer: 'Un lugar donde se trabaja el hierro con fuego y yunques',
+        questionText: 'El viejo llevó a Juan a una "fragua". ¿Qué tipo de lugar es?',
+        options: [
+          'Una biblioteca llena de libros sobre monstruos antiguos.',
+          'Un taller donde se trabaja el hierro con fuego y yunques.',
+          'Una habitación secreta con arcas llenas de monedas de oro.',
+          'Un dormitorio con una cama mágica que recorre el castillo.'
+        ],
+        correctAnswer: 'Un taller donde se trabaja el hierro con fuego y yunques.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'jsm-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal de esta historia?',
-        options: ['Que los fantasmas no existen', 'Que para ser feliz hay que casarse con una princesa', 'La búsqueda de un joven por conocer un sentimiento (el miedo) que los demás consideran normal', 'Que los sacristanes son bromistas'],
-        correctAnswer: 'La búsqueda de un joven por conocer un sentimiento (el miedo) que los demás consideran normal',
+        questionText: '¿Cuál es el conflicto central que motiva toda la aventura de Juan?',
+        options: [
+          'Su incapacidad para sentir una emoción que todos los demás conocen.',
+          'El deseo de hacerse rico para que su padre no lo llame "zoquete".',
+          'La necesidad de salvar el reino de los ataques de los fantasmas.',
+          'El miedo que le tiene a su hermano mayor por ser más listo.'
+        ],
+        correctAnswer: 'Su incapacidad para sentir una emoción que todos los demás conocen.',
       },
       {
         id: 'jsm-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué Juan logró desencantar el palacio?',
-        options: ['Porque era un gran mago', 'Porque no tenía miedo de las cosas que asustaban a los demás', 'Porque el Rey lo ayudó', 'Porque tenía mucha suerte'],
-        correctAnswer: 'Porque no tenía miedo de las cosas que asustaban a los demás',
+        questionText: '¿Por qué Juan logró sobrevivir las tres noches en el castillo encantado?',
+        options: [
+          'Porque era el guerrero más fuerte del ejército del Rey.',
+          'Porque al no tener miedo, no se dejaba impresionar por los trucos.',
+          'Porque los fantasmas eran sus amigos y querían que ganara.',
+          'Porque el Rey le dio armas mágicas antes de que subiera.'
+        ],
+        correctAnswer: 'Porque al no tener miedo, no se dejaba impresionar por los trucos.',
       },
       {
         id: 'jsm-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué nos enseña el final de la historia sobre el miedo?',
-        options: ['Que solo se puede sentir miedo en un castillo encantado', 'Que a veces las cosas más simples y reales pueden asustarnos más que los monstruos imaginarios', 'Que no es bueno aprender a tener miedo', 'Que el miedo desaparece con el agua'],
-        correctAnswer: 'Que a veces las cosas más simples y reales pueden asustarnos más que los monstruos imaginarios',
+        questionText: '¿Qué nos enseña la historia sobre el sentimiento del miedo?',
+        options: [
+          'Que solo las personas tontas pueden aprender a tener miedo.',
+          'Que a veces las cosas más simples nos afectan más que los monstruos.',
+          'Que es imposible aprender a tener miedo si uno no nace con él.',
+          'Que el miedo es necesario para poder casarse con una princesa.'
+        ],
+        correctAnswer: 'Que a veces las cosas más simples nos afectan más que los monstruos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'jsm-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Juan no sentía miedo cuando los fantasmas y muertos aparecían?',
-        options: ['Porque era ciego', 'Porque era tan inocente y valiente que los trataba como personas normales', 'Porque los fantasmas eran sus amigos', 'Porque estaba soñando'],
-        correctAnswer: 'Porque era tan inocente y valiente que los trataba como personas normales',
+        questionText: '¿Por qué Juan bajó a los ahorcados del árbol y los puso junto al fuego?',
+        options: [
+          'Porque pensaba que estaban vivos y sufrían por el viento helado.',
+          'Porque quería quemar sus ropas para que los fantasmas se fueran.',
+          'Porque necesitaba espacio en el árbol para poder dormir tranquilo.',
+          'Porque el hombre que lo envió le dijo que debía hacerlo así.'
+        ],
+        correctAnswer: 'Porque pensaba que estaban vivos y sufrían por el viento helado.',
       },
       {
         id: 'jsm-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo crees que se sentía el Rey al ver que Juan sobrevivía cada noche?',
-        options: ['Enojado porque quería que Juan muriera', 'Asombrado y esperanzado de que por fin alguien salvara su palacio', 'Triste porque Juan perdía dinero', 'Aburrido'],
-        correctAnswer: 'Asombrado y esperanzado de que por fin alguien salvara su palacio',
+        questionText: '¿Qué cualidad de Juan le permitió vencer al viejo de barba blanca en la fragua?',
+        options: [
+          'Su gran velocidad para esconderse detrás del yunque.',
+          'Su fuerza física combinada con su falta de impresión ante el ogro.',
+          'Su habilidad para pedir perdón y suplicar que no le pegara más.',
+          'Su conocimiento sobre cómo usar un hacha de carpintero.'
+        ],
+        correctAnswer: 'Su fuerza física combinada con su falta de impresión ante el ogro.',
       },
       {
         id: 'jsm-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la princesa se irritó finalmente con Juan?',
-        options: ['Porque Juan no la quería', 'Porque estaba harta de escucharlo decir siempre que quería aprender a tener miedo', 'Porque Juan gastaba todo el oro', 'Porque Juan no sabía jugar a los bolos'],
-        correctAnswer: 'Porque estaba harta de escucharlo decir siempre que quería aprender a tener miedo',
+        questionText: '¿Por qué el Rey decidió casar a su hija con Juan finalmente?',
+        options: [
+          'Porque Juan le entregó todas las arcas de oro que encontró.',
+          'Porque Juan fue el único capaz de sobrevivir y romper el maleficio.',
+          'Porque la princesa se enamoró de su valentía en el cementerio.',
+          'Porque el Rey le tenía miedo a Juan y no quería que se quedara allí.'
+        ],
+        correctAnswer: 'Porque Juan fue el único capaz de sobrevivir y romper el maleficio.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'jsm-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué palabras describen mejor la personalidad de Juan?',
-        options: ['Miedoso y perezoso', 'Valiente, ingenuo y compasivo', 'Malo y agresivo', 'Tímido y callado'],
-        correctAnswer: 'Valiente, ingenuo y compasivo',
+        questionText: '¿Cómo describirías la personalidad de Juan a lo largo del relato?',
+        options: [
+          'Es un chico muy miedoso que finge ser valiente por el tesoro.',
+          'Es alguien sumamente inocente que interpreta todo de forma literal.',
+          'Es un joven malvado que disfruta golpeando a sacristanes y gatos.',
+          'Es un personaje muy triste porque su padre no lo quiere en casa.'
+        ],
+        correctAnswer: 'Es alguien sumamente inocente que interpreta todo de forma literal.',
       },
       {
         id: 'jsm-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad muestra Juan cuando baja a los ahorcados para calentarlos?',
-        options: ['Su gran inteligencia', 'Su compasión, aunque fuera una idea un poco tonta', 'Su fuerza física', 'Su deseo de ganar dinero'],
-        correctAnswer: 'Su compasión, aunque fuera una idea un poco tonta',
+        questionText: '¿Qué rasgo define mejor al hermano mayor de Juan?',
+        options: [
+          'Es una persona muy bondadosa que siempre ayuda a su hermano.',
+          'Es alguien muy inteligente pero que se deja dominar por sus miedos.',
+          'Es un guerrero que quería ir al castillo encantado antes que Juan.',
+          'Es un joven que prefiere quedarse en el rincón tomando sopa.'
+        ],
+        correctAnswer: 'Es alguien muy inteligente pero que se deja dominar por sus miedos.',
       },
       {
         id: 'jsm-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿En qué se diferenciaba Juan de su hermano mayor?',
-        options: ['Juan era más rico', 'Su hermano era considerado "listo" mientras que Juan era visto como "zoquete"', 'A su hermano le gustaba el miedo', 'Juan era más viejo'],
-        correctAnswer: 'Su hermano era considerado "listo" mientras que Juan era visto como "zoquete"',
+        questionText: '¿Qué motiva a la princesa a tirarle agua fría a Juan al final?',
+        options: [
+          'Su enojo porque Juan no compartía el oro con la camarera.',
+          'El cansancio de escucharlo quejarse siempre por no tener miedo.',
+          'El deseo de despertarlo porque ya era hora de ir a la fragua.',
+          'Su miedo de que los fantasmas volvieran al castillo esa noche.'
+        ],
+        correctAnswer: 'El cansancio de escucharlo quejarse siempre por no tener miedo.',
       },
     ],
   },

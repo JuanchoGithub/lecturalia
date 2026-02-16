@@ -1,4 +1,3 @@
-
 import { Story, QuestionCategory } from '../../types';
 
 export const elGatoConBotas: Story = {
@@ -19,7 +18,7 @@ Aunque el amo del gato no abrigara sobre esto grandes ilusiones, le había visto
 
 Cuando el gato tuvo lo que había pedido, se colocó las botas y echándose la bolsa al cuello, sujetó los cordones de ésta con las dos patas delanteras, y se dirigió a un campo donde había muchos conejos. Puso afrecho y hierbas en su saco y tendiéndose en el suelo como si estuviese muerto, aguardó a que algún conejillo, poco conocedor aún de las astucias de este mundo, viniera a meter su hocico en la bolsa para comer lo que había dentro. No bien se hubo recostado, cuando se vio satisfecho. Un atolondrado conejillo se metió en el saco y el maestro gato, tirando los cordones, lo encerró y lo mató sin misericordia.
 
-Muy ufano con su presa, fuese donde el rey y pidió hablar con él. Lo hicieron subir a los aposentos de Su Majestad donde, al entrar, hizo una gran reverencia ante el rey, y le dijo:
+Muy ufano con su presa, fuese donde el rey y pidió hablar con él. Lo hicieron subir a los aposentos de Su Majestad donde, al entrar, hizo una gran referencia ante el rey, y le dijo:
 —He aquí, Majestad, un conejo de campo que el señor marqués de Carabás (era el nombre que inventó para su amo) me ha encargado obsequiaros de su parte.
 —Dile a tu amo —respondió el rey—, que le doy las gracias y que me agrada mucho.
 
@@ -65,7 +64,7 @@ El marqués ofreció la mano a la joven princesa y, siguiendo al rey que iba pri
 —Sólo dependerá de vos, señor marqués, que seáis mi yerno.
 
 El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey; y ese mismo día se casó con la princesa. El gato se convirtió en gran señor, y ya no corrió tras las ratas sino para divertirse.
-  `,
+`,
   wordCount: 1040,
   level: '3er Grado (Nivel O)',
   questions: {
@@ -74,22 +73,37 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         id: 'gcb-lit1',
         category: QuestionCategory.LITERAL,
         questionText: '¿Cuál fue la herencia que recibió el hijo menor del molinero?',
-        options: ['El molino', 'El burro', 'El gato', 'Diez monedas de oro'],
-        correctAnswer: 'El gato',
+        options: [
+          'El molino de viento.',
+          'El burro de carga.',
+          'El gato de la casa.',
+          'Diez sacos de trigo.'
+        ],
+        correctAnswer: 'El gato de la casa.',
       },
       {
         id: 'gcb-lit2',
         category: QuestionCategory.LITERAL,
         questionText: '¿En qué animal se transformó el ogro justo antes de que el gato se lo comiera?',
-        options: ['Un león', 'Un elefante', 'Un ratón', 'Una rata'],
-        correctAnswer: 'Una rata',
+        options: [
+          'En un león feroz.',
+          'En un elefante gris.',
+          'En un ratón veloz.',
+          'En una rata pequeña.'
+        ],
+        correctAnswer: 'En una rata pequeña.',
       },
       {
         id: 'gcb-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué nombre inventó el gato para su amo?',
-        options: ['Conde de la Comarca', 'Duque del Molino', 'Marqués de Carabás', 'Príncipe de los Campos'],
-        correctAnswer: 'Marqués de Carabás',
+        questionText: '¿Qué nombre inventó el gato para su amo ante el rey?',
+        options: [
+          'Conde de la Comarca.',
+          'Duque del Molino Viejo.',
+          'Marqués de Carabás.',
+          'Príncipe de los Campos.'
+        ],
+        correctAnswer: 'Marqués de Carabás.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
@@ -97,22 +111,37 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         id: 'gcb-seq1',
         category: QuestionCategory.SEQUENCING,
         questionText: '¿Qué hizo el gato justo después de recibir las botas y la bolsa?',
-        options: ['Fue a hablar con el rey', 'Cazó un conejo en un campo', 'Le pidió ropa nueva a su amo', 'Se fue a dormir'],
-        correctAnswer: 'Cazó un conejo en un campo',
+        options: [
+          'Fue a hablar con el rey.',
+          'Cazó un conejo de campo.',
+          'Le pidió ropa a su amo.',
+          'Se fue a dormir un rato.'
+        ],
+        correctAnswer: 'Cazó un conejo de campo.',
       },
       {
         id: 'gcb-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucedió ANTES de que el gato le pidiera al ogro que se convirtiera en una rata?',
-        options: ['El ogro se convirtió en un león', 'El rey llegó al castillo', 'El gato se comió al ogro', 'El amo se casó con la princesa'],
-        correctAnswer: 'El ogro se convirtió en un león',
+        questionText: '¿Qué sucedió ANTES de que el gato le pidiera al ogro que se convirtiera en rata?',
+        options: [
+          'El ogro se hizo un león.',
+          'El rey llegó al castillo.',
+          'El gato se comió al ogro.',
+          'El amo vio a la princesa.'
+        ],
+        correctAnswer: 'El ogro se hizo un león.',
       },
       {
         id: 'gcb-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál fue el último paso del plan del gato para asegurar la fortuna de su amo?',
-        options: ['Hacer que su amo se bañara en el río', 'Regalarle perdices al rey', 'Convencer al ogro de transformarse en rata y comérselo', 'Amenazar a los campesinos'],
-        correctAnswer: 'Convencer al ogro de transformarse en rata y comérselo',
+        questionText: '¿Cuál fue el último paso del plan del gato para asegurar la fortuna?',
+        options: [
+          'Hacer que su amo nade.',
+          'Regalar aves ricas al rey.',
+          'Comerse al dueño original.',
+          'Amenazar a los segadores.'
+        ],
+        correctAnswer: 'Comerse al dueño original.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
@@ -120,91 +149,151 @@ El marqués, haciendo grandes reverencias, aceptó el honor que le hacia el rey;
         id: 'gcb-voc1',
         category: QuestionCategory.VOCABULARY,
         questionText: 'Cuando el gato estaba "muy ufano con su presa", ¿qué significa "ufano"?',
-        options: ['Asustado', 'Triste', 'Orgulloso y satisfecho', 'Cansado'],
-        correctAnswer: 'Orgulloso y satisfecho',
+        options: [
+          'Estar asustado y con miedo.',
+          'Estar triste y muy cansado.',
+          'Estar orgulloso y satisfecho.',
+          'Estar aburrido y sin ganas.'
+        ],
+        correctAnswer: 'Estar orgulloso y satisfecho.',
       },
       {
         id: 'gcb-voc2',
         category: QuestionCategory.VOCABULARY,
         questionText: 'El rey le dice al marqués: "Tenéis aquí una hermosa heredad". ¿Qué es una "heredad"?',
-        options: ['Una casa pequeña', 'Un caballo', 'Un terreno o propiedad grande', 'Una cosecha'],
-        correctAnswer: 'Un terreno o propiedad grande',
+        options: [
+          'Una casa vieja y pequeña.',
+          'Un caballo de mucha raza.',
+          'Un terreno o campo grande.',
+          'Una cosecha de mucho trigo.'
+        ],
+        correctAnswer: 'Un terreno o campo grande.',
       },
       {
         id: 'gcb-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El hijo menor del molinero se lamentaba de su "mísera" herencia. ¿Qué significa "mísera"?',
-        options: ['Muy valiosa', 'Muy grande', 'Muy pobre o de poco valor', 'Misteriosa'],
-        correctAnswer: 'Muy pobre o de poco valor',
+        questionText: 'El hijo menor se lamentaba de su "mísera" herencia. ¿Qué significa "mísera"?',
+        options: [
+          'Que es de muchísimo valor.',
+          'Que es muy grande y buena.',
+          'Que es muy pobre y escasa.',
+          'Que es misteriosa y mágica.'
+        ],
+        correctAnswer: 'Que es muy pobre y escasa.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'gcb-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál fue el plan principal del gato para ayudar a su amo?',
-        options: ['Enseñarle a cazar ratones', 'Vender el molino y el burro', 'Hacerle creer al rey que su amo era un noble rico y poderoso', 'Robarle el castillo a un ogro'],
-        correctAnswer: 'Hacerle creer al rey que su amo era un noble rico y poderoso',
+        questionText: '¿Cuál fue el objetivo principal del gato durante toda la historia?',
+        options: [
+          'Enseñar a su amo a cazar.',
+          'Vender el molino familiar.',
+          'Hacer pasar al amo por noble.',
+          'Robar el oro de un castillo.'
+        ],
+        correctAnswer: 'Hacer pasar al amo por noble.',
       },
       {
         id: 'gcb-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección principal que se puede aprender de esta historia?',
-        options: ['Los gatos son mejores que los burros', 'El ingenio y la astucia pueden ser más valiosos que una gran herencia', 'Siempre hay que obedecer a los gatos', 'Los ogros no son de fiar'],
-        correctAnswer: 'El ingenio y la astucia pueden ser más valiosos que una gran herencia',
+        questionText: '¿Cuál es la enseñanza más importante que deja este cuento?',
+        options: [
+          'Los gatos son buenas mascotas.',
+          'La astucia vence a la pobreza.',
+          'Hay que obedecer a los animales.',
+          'Los ogros son siempre malvados.'
+        ],
+        correctAnswer: 'La astucia vence a la pobreza.',
       },
       {
         id: 'gcb-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cómo logra el gato que el rey piense que su amo es muy rico?',
-        options: ['Mostrándole un mapa del tesoro', 'Regalándole animales cazados y haciendo que los campesinos digan que las tierras son de su amo', 'Vistiéndolo con ropa de oro', 'Contándole historias inventadas'],
-        correctAnswer: 'Regalándole animales cazados y haciendo que los campesinos digan que las tierras son de su amo',
+        questionText: '¿Cómo logra el gato que el rey se asombre de las riquezas del amo?',
+        options: [
+          'Mostrando un mapa del lugar.',
+          'Usando mentiras y amenazas.',
+          'Dándole mucha ropa de seda.',
+          'Cantando canciones de reyes.'
+        ],
+        correctAnswer: 'Usando mentiras y amenazas.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'gcb-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la princesa se enamoró tan rápido del "Marqués de Carabás"?',
-        options: ['Porque el gato la hechizó', 'Porque él le dio muchos regalos', 'Porque él era muy apuesto con la ropa elegante que le dio el rey y ella creía que era muy rico', 'Porque el rey la obligó'],
-        correctAnswer: 'Porque él era muy apuesto con la ropa elegante que le dio el rey y ella creía que era muy rico',
+        questionText: '¿Por qué la princesa se enamoró tan rápido del amo del gato?',
+        options: [
+          'Porque el gato la convenció.',
+          'Porque él le dio mil regalos.',
+          'Por su ropa y supuesta riqueza.',
+          'Porque el rey se lo ordenó.'
+        ],
+        correctAnswer: 'Por su ropa y supuesta riqueza.',
       },
       {
         id: 'gcb-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el gato le pidió al ogro que se transformara en una rata después de haberse transformado en un león?',
-        options: ['Porque le gustaban más las ratas que los leones', 'Para engañarlo, ya que un gato puede comerse una rata pero no un león', 'Porque quería ver si era verdad que podía transformarse en animales pequeños', 'Porque los leones le daban miedo'],
-        correctAnswer: 'Para engañarlo, ya que un gato puede comerse una rata pero no un león',
+        questionText: '¿Por qué el gato le pidió al ogro que se transformara en una rata?',
+        options: [
+          'Porque prefería las ratas.',
+          'Para comerlo con facilidad.',
+          'Para ver si era muy veloz.',
+          'Porque le daba miedo el león.'
+        ],
+        correctAnswer: 'Para comerlo con facilidad.',
       },
       {
         id: 'gcb-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el amo del gato le hace caso, aunque no entiende su plan?',
-        options: ['Porque le tiene miedo al gato', 'Porque no tiene nada que perder y ha visto que el gato es muy ágil y astuto', 'Porque el gato lo hipnotizó', 'Porque es muy obediente'],
-        correctAnswer: 'Porque no tiene nada que perder y ha visto que el gato es muy ágil y astuto',
+        questionText: '¿Por qué el amo del gato sigue sus consejos sin entender el plan?',
+        options: [
+          'Porque le tiene mucho pánico.',
+          'No tiene nada que perder allí.',
+          'Porque el gato sabe magia real.',
+          'Porque es una persona tonta.'
+        ],
+        correctAnswer: 'No tiene nada que perder allí.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'gcb-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor al Gato con Botas?',
-        options: ['Perezoso y miedoso', 'Astuto y leal', 'Honesto y tímido', 'Gruñón y solitario'],
-        correctAnswer: 'Astuto y leal',
+        questionText: '¿Qué dos rasgos definen mejor a este gato con botas?',
+        options: [
+          'Es perezoso y muy miedoso.',
+          'Es astuto y muy buen aliado.',
+          'Es honesto y siempre tímido.',
+          'Es gruñón y camina solitario.'
+        ],
+        correctAnswer: 'Es astuto y muy buen aliado.',
       },
       {
         id: 'gcb-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es el amo del gato al principio de la historia?',
-        options: ['Valiente y optimista', 'Pobre y desesperanzado', 'Rico y orgulloso', 'Alegre y trabajador'],
-        correctAnswer: 'Pobre y desesperanzado',
+        questionText: '¿Cómo se siente el amo al recibir su herencia al principio?',
+        options: [
+          'Muy valiente y optimista.',
+          'Muy triste y desesperanzado.',
+          'Muy rico y bastante orgulloso.',
+          'Muy alegre y trabajador.'
+        ],
+        correctAnswer: 'Muy triste y desesperanzado.',
       },
       {
         id: 'gcb-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué podemos decir sobre el rey en la historia?',
-        options: ['Es muy desconfiado', 'Es sabio y justo', 'Se deja impresionar fácilmente por las apariencias y la riqueza', 'Es un guerrero valiente'],
-        correctAnswer: 'Se deja impresionar fácilmente por las apariencias y la riqueza',
+        questionText: '¿Qué podemos decir sobre el rey de esta historia?',
+        options: [
+          'Es un hombre desconfiado.',
+          'Es un rey muy sabio y justo.',
+          'Se fía solo de lo que mira.',
+          'Es un gran guerrero antiguo.'
+        ],
+        correctAnswer: 'Se fía solo de lo que mira.',
       },
     ],
   },

@@ -70,7 +70,7 @@ El jefe cargó el golpe final. Kirby estaba inmóvil. La garra bajaba. El chat e
 Pantalla negra. Texto blanco en el centro: “¿Querés saber cómo termina? Mañana a las 21 hs. No te lo vas a creer.”
 
 Y el stream se cortó. Fin… ¿ocurre algo más?
-    `,
+`,
   wordCount: 712,
   level: '4to Grado (Nivel Q)',
   questions: {
@@ -78,188 +78,228 @@ Y el stream se cortó. Fin… ¿ocurre algo más?
       {
         id: 'rk-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuál era el título del stream de Maxi?',
+        questionText: '¿Cuál era el objetivo final de Maxi según el título de su video?',
         options: [
-          'Jugando Kirby con amigos',
-          'KIRBY FORGOTTEN LAND – NO HIT RUN',
-          'Maxi contra los Waddle Dees',
-          'Tutorial de Kirby'
+          'Salvar a todos los Waddle Dees.',
+          'Ganar el juego sin recibir daño.',
+          'Superar su propio récord de tiempo.',
+          'Aprender habilidades de otros jefes.'
         ],
-        correctAnswer: 'KIRBY FORGOTTEN LAND – NO HIT RUN',
+        correctAnswer: 'Ganar el juego sin recibir daño.',
       },
       {
         id: 'rk-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cuántas personas estaban viendo el stream en el tercer capítulo?',
-        options: ['47.832', '120.000', '50.000', 'Un millón'],
-        correctAnswer: '120.000',
+        questionText: '¿Cuántos espectadores tenía el canal durante el tercer capítulo?',
+        options: [
+          'Aproximadamente 47 mil.',
+          'Alrededor de 50 mil.',
+          'Exactamente 120 mil.',
+          'Más de un millón.'
+        ],
+        correctAnswer: 'Exactamente 120 mil.',
       },
       {
         id: 'rk-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué habilidad copió Kirby para enfrentar a los Scarfies en el desierto?',
-        options: ['Espada', 'Hielo', 'Fuego', 'Tornado'],
-        correctAnswer: 'Fuego',
+        questionText: '¿Qué habilidad especial usó Kirby para pelear en el desierto?',
+        options: [
+          'La gran espada afilada.',
+          'El aliento de fuego ardiente.',
+          'Un escudo de hielo frío.',
+          'Un tornado que gira rápido.'
+        ],
+        correctAnswer: 'El aliento de fuego ardiente.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'rk-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿En qué orden enfrentó Maxi a los jefes?',
+        questionText: '¿En qué orden enfrentó Maxi a los jefes mencionados?',
         options: [
-          'Clawroline, Gorimondo, Leones mecánicos',
-          'Gorimondo, Clawroline, Rey de los leones mecánicos',
-          'Leones mecánicos, Gorimondo, Clawroline',
-          'Gorimondo, Leones mecánicos, Clawroline'
+          'Gorimondo, Clawroline y el León mecánico.',
+          'Clawroline, Gorimondo y el León mecánico.',
+          'El León mecánico, Gorimondo y Clawroline.',
+          'Gorimondo, el León mecánico y Clawroline.'
         ],
-        correctAnswer: 'Gorimondo, Clawroline, Rey de los leones mecánicos',
+        correctAnswer: 'Gorimondo, Clawroline y el León mecánico.',
       },
       {
         id: 'rk-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo antes de que el stream se cortara?',
+        questionText: '¿Qué mensaje apareció al final antes de cortarse la transmisión?',
         options: [
-          'Maxi ganó el juego',
-          'Apareció un texto que decía "Mañana a las 21 hs"',
-          'Kirby destruyó al jefe final',
-          'Maxi apagó la cámara por error'
+          'Un cartel de "Juego Terminado".',
+          'Un texto que decía "Continuará mañana".',
+          'Un mensaje de Kirby saludando.',
+          'Una invitación al sorteo del canal.'
         ],
-        correctAnswer: 'Apareció un texto que decía "Mañana a las 21 hs"',
+        correctAnswer: 'Un texto que decía "Continuará mañana".',
       },
       {
         id: 'rk-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué ocurrió justo cuando Gorimondo cargó su ataque final contra Kirby?',
-        options: ['Kirby se escapó corriendo', 'Maxi hizo que Kirby flotara sobre el puñetazo', 'El juego se cerró', 'Bandana Waddle Dee ayudó a Kirby'],
-        correctAnswer: 'Maxi hizo que Kirby flotara sobre el puñetazo',
+        questionText: '¿Qué hizo Kirby para esquivar el puñetazo final de Gorimondo?',
+        options: [
+          'Se ocultó bajo el suelo agrietado.',
+          'Flotó justo por encima del ataque.',
+          'Hizo un dash rápido hacia la derecha.',
+          'Corrió fuera de la pantalla roja.'
+        ],
+        correctAnswer: 'Flotó justo por encima del ataque.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'rk-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En el contexto del stream, ¿qué significa "NO HIT RUN"?',
+        questionText: 'Maxi dice que está en una "fábrica abandonada". ¿Qué significa abandonada?',
         options: [
-          'Correr muy rápido en el juego',
-          'Intentar terminar el juego sin recibir ningún daño o golpe',
-          'No usar ninguna habilidad especial',
-          'Jugar sin mirar la pantalla'
+          'Que está muy bien cuidada.',
+          'Que ya nadie vive o trabaja allí.',
+          'Que es una fábrica muy moderna.',
+          'Que está llena de ruidos alegres.'
         ],
-        correctAnswer: 'Intentar terminar el juego sin recibir ningún daño o golpe',
+        correctAnswer: 'Que ya nadie vive o trabaja allí.',
       },
       {
         id: 'rk-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: '¿Qué es un "viewers" en esta historia?',
+        questionText: '¿Qué son los "viewers" en el contexto de esta historia?',
         options: [
-          'Un tipo de enemigo en Kirby',
-          'Una persona que está mirando la transmisión en vivo',
-          'Un botón del joystick',
-          'Una vida extra'
+          'Enemigos que atacan a Kirby.',
+          'Personas que miran el video.',
+          'Botones especiales del control.',
+          'Puntos que se ganan al pelear.'
         ],
-        correctAnswer: 'Una persona que está mirando la transmisión en vivo',
+        correctAnswer: 'Personas que miran el video.',
       },
       {
         id: 'rk-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La música era "épica". ¿Qué significa esto?',
+        questionText: 'El texto menciona una música "épica". ¿Cómo suena esa música?',
         options: [
-          'Que era muy aburrida',
-          'Que era grandiosa, emocionante y heroica',
-          'Que estaba muy bajita',
-          'Que era música clásica'
+          'Muy aburrida y repetitiva.',
+          'Grandiosa y muy emocionante.',
+          'Triste y con poco volumen.',
+          'Lenta para poder dormir.'
         ],
-        correctAnswer: 'Que era grandiosa, emocionante y heroica',
+        correctAnswer: 'Grandiosa y muy emocionante.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'rk-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿De qué trata principalmente la historia?',
+        questionText: '¿Cuál es el tema central del cuento que leíste?',
         options: [
-          'De la historia de vida de Kirby',
-          'De un niño que aprende a programar juegos',
-          'De la tensión y emoción de un streamer intentando un desafío muy difícil',
-          'De cómo arreglar una computadora rota'
+          'Cómo aprender a jugar a los videojuegos.',
+          'La tensión de un desafío en vivo en internet.',
+          'La historia secreta de los Waddle Dees.',
+          'Los peligros de pasar mucho tiempo en la PC.'
         ],
-        correctAnswer: 'De la tensión y emoción de un streamer intentando un desafío muy difícil',
+        correctAnswer: 'La tensión de un desafío en vivo en internet.',
       },
       {
         id: 'rk-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué es importante el silencio en el stream durante los momentos difíciles?',
-        options: ['Porque no hay sonido en el juego', 'Porque refleja la concentración total de Maxi y la tensión de los espectadores', 'Porque Maxi se quedó sin voz', 'Porque se rompió el micrófono'],
-        correctAnswer: 'Porque refleja la concentración total de Maxi y la tensión de los espectadores',
+        questionText: '¿Por qué el autor usa palabras como "explotaba" para el chat?',
+        options: [
+          'Para decir que la pantalla se rompió.',
+          'Para mostrar que la gente estaba muy activa.',
+          'Para avisar que el juego era peligroso.',
+          'Para explicar que había fuego real ahí.'
+        ],
+        correctAnswer: 'Para mostrar que la gente estaba muy activa.',
       },
       {
         id: 'rk-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué peligro corría el canal de Maxi si fallaba el desafío?',
-        options: ['Tenía que pagar una multa', 'Lo iban a borrar', 'Iba a perder sus juegos', 'Le iban a quitar la cámara'],
-        correctAnswer: 'Lo iban a borrar',
+        questionText: '¿Cuál es la consecuencia si Maxi recibe un solo daño?',
+        options: [
+          'Debe empezar el nivel de nuevo.',
+          'Tiene que cerrar su canal de videos.',
+          'Pierde a su amigo Bandana Dee.',
+          'Se le corta el internet de la casa.'
+        ],
+        correctAnswer: 'Tiene que cerrar su canal de videos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'rk-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Maxi dice que el tercer jefe es el que lo va a matar?',
+        questionText: '¿Por qué Maxi dice que el tercer jefe lo va a matar?',
         options: [
-          'Porque el jefe es muy real',
-          'Porque es el más difícil de todos y un solo error arruina todo el trabajo previo',
-          'Porque se quedó sin batería en el control',
-          'Porque tiene sueño'
+          'Porque el jefe tiene armas reales.',
+          'Porque requiere una concentración total.',
+          'Porque se le rompió el joystick nuevo.',
+          'Porque ya tiene mucho sueño acumulado.'
         ],
-        correctAnswer: 'Porque es el más difícil de todos y un solo error arruina todo el trabajo previo',
+        correctAnswer: 'Porque requiere una concentración total.',
       },
       {
         id: 'rk-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué crees que el stream terminó de esa manera?',
+        questionText: '¿Cómo se siente Maxi al ver que su barra de vida baja al final?',
         options: [
-          'Porque se cortó la luz en la casa de Maxi',
-          'Probablemente para crear suspenso y que los espectadores vuelvan al día siguiente',
-          'Porque Maxi se enojó y rompió todo',
-          'Porque Kirby se escapó del juego'
+          'Feliz porque al fin puede descansar.',
+          'Aterrado por estar perdiendo su récord.',
+          'Aburrido porque el juego es muy fácil.',
+          'Triste porque extraña a los Waddle Dees.'
         ],
-        correctAnswer: 'Probablemente para crear suspenso y que los espectadores vuelvan al día siguiente',
+        correctAnswer: 'Aterrado por estar perdiendo su récord.',
       },
       {
         id: 'rk-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo se siente Maxi cuando la pantalla se congela frente al tercer jefe?',
-        options: ['Feliz porque puede descansar', 'Aterrado y frustrado, porque sabe que su desafío perfecto está en peligro por una falla técnica o un ataque inesperado', 'Indiferente', 'Aburrido'],
-        correctAnswer: 'Aterrado y frustrado, porque sabe que su desafío perfecto está en peligro por una falla técnica o un ataque inesperado',
+        questionText: '¿Para qué sirve el silencio en el stream durante los jefes?',
+        options: [
+          'Para que los viewers se duerman.',
+          'Para mostrar la gran tensión del momento.',
+          'Porque se rompió el sonido del juego.',
+          'Para que Maxi no grite a sus vecinos.'
+        ],
+        correctAnswer: 'Para mostrar la gran tensión del momento.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'rk-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo describirías la personalidad de Maxi mientras juega?',
+        questionText: '¿Cómo describirías a Maxi como jugador de Kirby?',
         options: [
-          'Tranquilo y silencioso',
-          'Muy apasionado, habilidoso y un poco gritón por la emoción',
-          'Aburrido y con ganas de terminar rápido',
-          'Miedoso y cobarde'
+          'Es un principiante que tiene mucha suerte.',
+          'Es un experto apasionado y muy habilidoso.',
+          'Es un chico perezoso que no presta atención.',
+          'Es un jugador que prefiere pelear solo.'
         ],
-        correctAnswer: 'Muy apasionado, habilidoso y un poco gritón por la emoción',
+        correctAnswer: 'Es un experto apasionado y muy habilidoso.',
       },
       {
         id: 'rk-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad destaca de Maxi al esquivar los golpes de Gorimondo?',
-        options: ['Su fuerza física', 'Su gran velocidad de reacción y concentración', 'Su suerte', 'Su capacidad de volar'],
-        correctAnswer: 'Su gran velocidad de reacción y concentración',
+        questionText: '¿Qué cualidad de Maxi le permitió esquivar a Gorimondo?',
+        options: [
+          'Su fuerza física para saltar en su cuarto.',
+          'Su rapidez mental y gran coordinación.',
+          'Su capacidad de hablar rápido en el stream.',
+          'Su amor por los gorilas gigantes de arena.'
+        ],
+        correctAnswer: 'Su rapidez mental y gran coordinación.',
       },
       {
         id: 'rk-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo es la relación de Maxi con su audiencia (el chat)?',
-        options: ['No les presta atención', 'Se comunica con ellos, los desafía y se alimenta de su energía y apoyo', 'Les tiene miedo', 'Los ignora por completo'],
-        correctAnswer: 'Se comunica con ellos, los desafía y se alimenta de su energía y apoyo',
+        questionText: '¿Qué demuestra el hecho de que Maxi cierre los ojos al final?',
+        options: [
+          'Que no le importa perder su canal de videos.',
+          'Su cansancio y desesperación por el error.',
+          'Que está haciendo un truco secreto de magia.',
+          'Que se quedó dormido frente a la pantalla.'
+        ],
+        correctAnswer: 'Su cansancio y desesperación por el error.',
       },
     ],
   },

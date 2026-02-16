@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const porNadaDelMundo: Story = {
@@ -9,7 +10,7 @@ export const porNadaDelMundo: Story = {
 En la época en que yo iba a la escuela hice muchos descubrimientos. Uno de ellos fue que la geografía podía ser divertida o aburridísima, y que todo dependía de cómo fuera la maestra.
 Ese día, la clase de geografía se me estaba haciendo una montaña difícil de escalar y prestar atención se me volvía una proeza insostenible. En ese momento, el aula era escenario de un eclipse de colores que no iba a salir en ningún diario. Yo esperaba la llegada del recreo con la impaciencia con que un caminante que atraviesa un desierto espera divisar un oasis.
 Cada tanto miraba a mi alrededor y me parecía que todos los chicos, incluida yo, nos estábamos poniendo pálidos, como si nos hubieran apartado del sol hacía muchos años.
-La maestra tenía un libro en la mano e iba diciendo nombres de ríos junto con algunas de sus características. Pero en realidad lo que ella llamaba ríos no eran más que rayitas dibujadas sobre el papel, rayitas que no tenían ninguno de los encantos de un verdadero río. Se me hacía difícil imaginar que en esas rayitas alguien pudiera zambullirse y nadar. O que hubiera distintas clases de peces. O que el agua produjera algún sonido al correr entre los juncos.
+La maestra tenía un libro en la mano e iba diciendo nombres de ríos junto con algunas de sus características. Pero en realidad lo que ella llamaba ríos no eran más que rayitas dibujadas sobre el papel, rayitas que no tenían ninguno de los encantos de un verdadero río. Se me hace difícil imaginar que en esas rayitas alguien pudiera zambullirse y nadar. Or que hubiera distintas clases de peces. O que el agua produjera algún sonido al correr entre los juncos.
 Yo esperaba el recreo como la tierra seca espera la llegada de la lluvia.
 Pero el recreo era un puerto que ni siquiera se insinuaba en el horizonte. Me sentía navegar en las opacas aguas de la monotonía, en las que cada minuto duraba siglos y el oleaje era siempre igual.
 Entonces ocurrió. De improviso apareció frente a mis ojos el contorno de una isla desconocida y la oportunidad de desembarcar para hacer un alto en el aburrimiento. La voz de la maestra sonó con unas palabras que me refrescaron el ánimo: “Mónica, por favor, andá a la biblioteca y traé el globo terráqueo”. Sentí que esos pocos sonidos me devolvían la luz del sol. Por un rato, apenas un ratito, tenía permiso para volver a la vida.
@@ -17,7 +18,7 @@ Me levanté y salí del aula como impulsada por un resorte. Me encantaba andar s
 Tardé todo lo que pude en llegar a la biblioteca, y cuando llamé a la puerta nadie me contestó. Entré y enseguida me asaltó la tentación de tomar alguno de los libros y quedarme a leer. Todos parecían estar esperándome, y cualquier cosa sería más divertida que una sucesión interminable de ríos secos y sin vida.
 Pero no pude ni acercarme a los libros. Algo invisible me empujó con fuerza inesperada hacia el globo terráqueo, y sin que yo atinara a darme cuenta de lo que pasaba, me hizo atravesar la superficie exterior, con el dibujo de los continentes y los océanos, y me llevó hacia adentro.
 Fue cuestión de segundos. Solo sentí un leve zumbido en la cabeza y, de pronto, sin saber cómo, me di cuenta de que había atravesado no sabía bien qué y había llegado a no sabía dónde. Pero ya no estaba en la biblioteca. Tampoco estaba en la escuela. Me encontraba al aire libre, en un lugar encantador, donde jamás había estado.
-Fue todo tan vertiginoso y tan sorprendente que no tuve tiempo de asustarme ni de reaccionar. Apenas alcancé a darme cuenta de que de algún modo misterioso me había trasladado a otro lugar en el espacio, cuando escuché claramente el sonido de agua que fluía con un suave murmullo musical. Giré la cabeza y, sin preámbulos, lo vi. Era el río más hermoso que yo hubiera visto jamás. Caudaloso, de color verde claro, casi transparente, estaba bordeado de juncos y flores silvestres que se entrelazaban en un conjunto delicioso. En el medio, peces plateados y dorados saltaban con piruetas acrobáticas que formaban perfectas figuras geométricas. Aquí y allá flotaban algunas pequeñas plantas acuáticas que se movían al ritmo de la melodía fantástica que dejaba oír la corriente.
+Fue todo tan vertiginoso y tan sorprendente que no tuve tiempo de asustarme ni de reaccionar. Apenas alcancé a darme cuenta de que de algún modo misterioso me había trasladado a otro lugar en el espacio, cuando escuché claramente el sonido de agua que fluía con un suave murmullo musical. Giré la cabeza y, sin preámbulos, lo vi. Era el río más hermoso que yo hubiera visto jamás. Caudaloso, de color verde claro, casi transparente, estaba bordeado de juncos y flores silvestres que se entrelazan en un conjunto delicioso. En el medio, peces plateados y dorados saltaban con piruetas acrobáticas que formaban perfectas figuras geométricas. Aquí y allá flotaban algunas pequeñas plantas acuáticas que se movían al ritmo de la melodía fantástica que dejaba oír la corriente.
 Tampoco tuve tiempo de preguntarme dónde estaba ni cómo había llegado allí. Y en realidad, en ese momento no había preguntas ni respuestas que me importaran demasiado. El lugar era hermosísimo y todo tenía tanta vida y era tan amistoso, que lo único que yo quería era disfrutar.
 No se me ocurría nada que me interesara más que quedarme allí contemplando ese río, con sus aguas, sus peces, sus plantas, sus orillas, su música y todas las sorpresas que todavía pudiera depararme.
 Pero me equivocaba.
@@ -32,138 +33,228 @@ No sé qué más habría podido conocer en ese río y lo más probable es que nu
       {
         id: 'pndm-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo se sentía la narradora durante la clase de geografía?',
-        options: ['Muy interesada y atenta', 'Aburridísima', 'Con mucho sueño', 'Asustada'],
-        correctAnswer: 'Aburridísima',
+        questionText: '¿A qué objeto de la clase comparaba la narradora con "rayitas sin vida" dibujadas en papel?',
+        options: [
+          'A los nombres de los alumnos en la lista.',
+          'A los ríos que mencionaba la maestra del libro.',
+          'A los continentes dibujados en el globo terráqueo.',
+          'A los horarios de las materias en el pizarrón.'
+        ],
+        correctAnswer: 'A los ríos que mencionaba la maestra del libro.',
       },
       {
         id: 'pndm-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿A dónde la mandó la maestra y qué tenía que buscar?',
-        options: ['A la dirección a buscar un mapa', 'Al patio a buscar una regla', 'A la biblioteca a buscar el globo terráqueo', 'Al kiosco a comprar tizas'],
-        correctAnswer: 'A la biblioteca a buscar el globo terráqueo',
+        questionText: '¿Qué le pidió exactamente la maestra a Mónica que hiciera?',
+        options: [
+          'Que fuera a la biblioteca a buscar un libro de cuentos.',
+          'Que fuera a la dirección a pedir un mapa nuevo.',
+          'Que fuera a la biblioteca y trajera el globo terráqueo.',
+          'Que saliera al patio a ver si ya era la hora del recreo.'
+        ],
+        correctAnswer: 'Que fuera a la biblioteca y trajera el globo terráqueo.',
       },
       {
         id: 'pndm-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué vio la narradora en el río mágico?',
-        options: ['Un barco pirata', 'Un puente de madera', 'Peces plateados y dorados que saltaban y plantas acuáticas', 'Otros niños nadando'],
-        correctAnswer: 'Peces plateados y dorados que saltaban y plantas acuáticas',
+        questionText: '¿Qué figuras geométricas formaban los peces al saltar en el río mágico?',
+        options: [
+          'Formaban círculos concéntricos en el agua.',
+          'Formaban triángulos de luz plateada y dorada.',
+          'Formaban perfectas figuras geométricas en el aire.',
+          'No formaban figuras, solo saltaban sobre los juncos.'
+        ],
+        correctAnswer: 'Formaban perfectas figuras geométricas en el aire.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'pndm-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que la narradora fuera empujada hacia el globo terráqueo?',
-        options: ['Sonó el timbre del recreo', 'Se encontró en un lugar encantador junto a un río hermoso', 'Se despertó en su asiento', 'La maestra la fue a buscar'],
-        correctAnswer: 'Se encontró en un lugar encantador junto a un río hermoso',
+        questionText: '¿Cuál fue el orden de los lugares por los que pasó Mónica al salir del aula?',
+        options: [
+          'Pasillos, escaleras, puerta de la biblioteca y globo terráqueo.',
+          'Escaleras, patio de juegos, biblioteca y globo terráqueo.',
+          'Pasillos, dirección de la escuela, biblioteca y río mágico.',
+          'Puerta de la escuela, pasillos, biblioteca y aula de clase.'
+        ],
+        correctAnswer: 'Pasillos, escaleras, puerta de la biblioteca y globo terráqueo.',
       },
       {
         id: 'pndm-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo la narradora al llegar a la biblioteca, antes de ser transportada?',
-        options: ['Se puso a leer un libro', 'Se sentó a esperar', 'Demoró los pasos, llegó a la puerta, llamó y como nadie contestó, entró', 'Volvió al aula porque se arrepintió'],
-        correctAnswer: 'Demoró los pasos, llegó a la puerta, llamó y como nadie contestó, entró',
+        questionText: '¿Qué hizo Mónica justo antes de ser succionada por el globo terráqueo?',
+        options: [
+          'Se puso a leer un libro de aventuras en la biblioteca.',
+          'Llamó a la puerta de la biblioteca y nadie le contestó.',
+          'Miró su reloj para ver cuánto faltaba para el timbre.',
+          'Le pidió permiso al bibliotecario para tocar el globo.'
+        ],
+        correctAnswer: 'Llamó a la puerta de la biblioteca y nadie le contestó.',
       },
       {
         id: 'pndm-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo la narradora justo después de mirar el reloj en el lugar mágico?',
-        options: ['Decidió quedarse allí para siempre', 'Se puso a nadar en el río', 'Regresó misteriosamente a la biblioteca y corrió hacia el aula', 'Se escondió para no volver a clase'],
-        correctAnswer: 'Regresó misteriosamente a la biblioteca y corrió hacia el aula',
+        questionText: '¿Qué ocurrió inmediatamente después de que Mónica regresó a la biblioteca del lugar mágico?',
+        options: [
+          'Se quedó pensando en los peces dorados un rato largo.',
+          'Caminó al aula a pasos agigantados con el globo en la mano.',
+          'La maestra fue a buscarla porque tardaba demasiado tiempo.',
+          'Se encontró con sus compañeros ya jugando en el patio.'
+        ],
+        correctAnswer: 'Caminó al aula a pasos agigantados con el globo en la mano.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'pndm-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La narradora esperaba el recreo con la impaciencia de un caminante que espera divisar un "oasis". ¿Qué es un oasis?',
-        options: ['Una montaña muy alta', 'Un lugar en el desierto con agua y vegetación', 'Una tormenta de arena', 'Un espejismo'],
-        correctAnswer: 'Un lugar en el desierto con agua y vegetación',
+        questionText: 'Mónica dice que prestar atención era una "proeza insostenible". ¿Qué significa proeza?',
+        options: [
+          'Algo muy aburrido que no termina nunca.',
+          'Una acción valerosa o que requiere mucho esfuerzo.',
+          'Una mentira que se le dice a los maestros.',
+          'Un tipo de examen que se toma en geografía.'
+        ],
+        correctAnswer: 'Una acción valerosa o que requiere mucho esfuerzo.',
       },
       {
         id: 'pndm-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La clase era de una "monotonía" que la aburría. ¿Qué es la monotonía?',
-        options: ['Mucha diversión', 'Falta de variedad, uniformidad, que produce aburrimiento', 'Un tipo de música', 'Una clase muy difícil'],
-        correctAnswer: 'Falta de variedad, uniformidad, que produce aburrimiento',
+        questionText: 'El tiempo afuera del aula se escurría "como un líquido por un colador". ¿Cómo pasaba el tiempo?',
+        options: [
+          'Pasaba muy lentamente, casi sin moverse.',
+          'Pasaba de forma muy rápida y difícil de atrapar.',
+          'Se detenía por completo cuando ella caminaba.',
+          'Pasaba haciendo un ruido parecido al del agua.'
+        ],
+        correctAnswer: 'Pasaba de forma muy rápida y difícil de atrapar.',
       },
       {
         id: 'pndm-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El viaje al lugar mágico fue "vertiginoso". ¿Qué significa "vertiginoso"?',
-        options: ['Muy lento y aburrido', 'Muy ruidoso', 'Muy rápido e intenso', 'Muy oscuro'],
-        correctAnswer: 'Muy rápido e intenso',
+        questionText: 'Mónica vio un río "caudaloso". ¿Qué significa esta palabra?',
+        options: [
+          'Que tiene mucha agua y corriente fuerte.',
+          'Que es muy angosto y tiene poca profundidad.',
+          'Que está lleno de piedras y juncos secos.',
+          'Que sus aguas son de color verde muy oscuro.'
+        ],
+        correctAnswer: 'Que tiene mucha agua y corriente fuerte.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'pndm-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la idea principal del relato?',
-        options: ['Una crítica a las clases de geografía.', 'Una aventura fantástica que ocurre durante un momento aburrido en la escuela.', 'La descripción de un río mágico.', 'La importancia de los recreos.'],
-        correctAnswer: 'Una aventura fantástica que ocurre durante un momento aburrido en la escuela.',
+        questionText: '¿Cuál es el conflicto principal de la narradora en esta historia?',
+        options: [
+          'No sabe cómo encontrar la biblioteca de la escuela.',
+          'Siente un aburrimiento extremo durante la clase de geografía.',
+          'Tiene miedo de los seres mágicos que viven en el globo.',
+          'No quiere llevar el globo terráqueo porque es muy pesado.'
+        ],
+        correctAnswer: 'Siente un aburrimiento extremo durante la clase de geografía.',
       },
       {
         id: 'pndm-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el conflicto de la narradora al final de la historia?',
-        options: ['Su deseo de quedarse en el lugar mágico contra su deseo de no perderse el recreo', 'Su miedo al río contra su curiosidad', 'Su enojo con la maestra contra su obligación de obedecer', 'Su cansancio contra sus ganas de jugar'],
-        correctAnswer: 'Su deseo de quedarse en el lugar mágico contra su deseo de no perderse el recreo',
+        questionText: '¿Qué representa el viaje al río mágico dentro del globo terráqueo?',
+        options: [
+          'Un error geográfico que Mónica encontró en el mapa.',
+          'Una aventura de la imaginación para escapar del aburrimiento.',
+          'Un castigo que la maestra le dio por no prestar atención.',
+          'Una película de ciencia ficción que Mónica recordó en clase.'
+        ],
+        correctAnswer: 'Una aventura de la imaginación para escapar del aburrimiento.',
       },
       {
         id: 'pndm-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa el viaje a través del globo terráqueo?',
-        options: ['Un castigo de la maestra', 'Un sueño que tuvo en clase', 'Una escapada de la imaginación para huir del aburrimiento de la clase', 'Un accidente en la biblioteca'],
-        correctAnswer: 'Una escapada de la imaginación para huir del aburrimiento de la clase',
+        questionText: '¿Cuál es la conclusión más importante del cuento?',
+        options: [
+          'Que los globos terráqueos son objetos muy peligrosos.',
+          'Que para la narradora, el recreo es el momento más valioso.',
+          'Que es mejor estudiar con libros que con mapas.',
+          'Que los ríos de verdad solo existen en otro planeta.'
+        ],
+        correctAnswer: 'Que para la narradora, el recreo es el momento más valioso.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'pndm-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué la narradora regresó tan rápido del lugar mágico a la biblioteca?',
-        options: ['Porque se asustó', 'Porque la maestra la llamó', 'Porque miró su reloj y se dio cuenta de que no quería perderse el recreo', 'Porque el globo terráqueo la trajo de vuelta'],
-        correctAnswer: 'Porque miró su reloj y se dio cuenta de que no quería perderse el recreo',
+        questionText: '¿Por qué Mónica decidió abandonar el río mágico a pesar de que le encantaba?',
+        options: [
+          'Porque tuvo miedo de quedarse atrapada para siempre.',
+          'Porque no quería perderse el tiempo de juego del recreo.',
+          'Porque la maestra empezó a llamarla a los gritos.',
+          'Porque se dio cuenta de que los peces no eran reales.'
+        ],
+        correctAnswer: 'Porque no quería perderse el tiempo de juego del recreo.',
       },
       {
         id: 'pndm-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué a la narradora le gustaba andar sola por los pasillos durante la clase?',
-        options: ['Porque le gustaba el silencio', 'Porque sentía que la escuela le pertenecía por completo en esos momentos', 'Porque buscaba lugares para esconderse', 'Porque quería escaparse de la escuela'],
-        correctAnswer: 'Porque sentía que la escuela le pertenecía por completo en esos momentos',
+        questionText: '¿Por qué Mónica sentía que los pasillos de la escuela le pertenecían?',
+        options: [
+          'Porque ella era la encargada de limpiar las escaleras.',
+          'Por la sensación de libertad al estar fuera del aula en horario de clase.',
+          'Porque sus padres eran los dueños del edificio escolar.',
+          'Porque sabía un camino secreto que nadie más conocía.'
+        ],
+        correctAnswer: 'Por la sensación de libertad al estar fuera del aula en horario de clase.',
       },
       {
         id: 'pndm-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué podemos deducir sobre la personalidad de la narradora por su decisión final?',
-        options: ['Que no le gustan las aventuras', 'Que es muy obediente', 'Que, a pesar de su gran imaginación, valora mucho las cosas simples y reales de su vida escolar, como el recreo.', 'Que le tiene miedo a la maestra'],
-        correctAnswer: 'Que, a pesar de su gran imaginación, valora mucho las cosas simples y reales de su vida escolar, como el recreo.',
+        questionText: '¿Qué nos sugiere la frase "el recreo era un puerto que ni siquiera se insinuaba en el horizonte"?',
+        options: [
+          'Que la escuela estaba muy cerca de un puerto real.',
+          'Que Mónica sentía que el tiempo del recreo estaba todavía muy lejos.',
+          'Que a Mónica no le gustaba jugar en los barcos del patio.',
+          'Que el aula de geografía no tenía ventanas para mirar afuera.'
+        ],
+        correctAnswer: 'Que Mónica sentía que el tiempo del recreo estaba todavía muy lejos.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'pndm-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué es lo que más valora la narradora en ese momento de su vida escolar?',
-        options: ['Aprender geografía', 'La aventura y la imaginación', 'El silencio de la biblioteca', 'El recreo y el tiempo libre'],
-        correctAnswer: 'El recreo y el tiempo libre',
+        questionText: '¿Cómo se describe la actitud de Mónica frente al estudio de la geografía en este cuento?',
+        options: [
+          'Como una alumna que prefiere la realidad viva a los dibujos secos.',
+          'Como una niña que odia a su maestra y no quiere obedecerla.',
+          'Como una experta en mapas que siempre corrige los libros.',
+          'Como una estudiante que solo quiere estar en la biblioteca.'
+        ],
+        correctAnswer: 'Como una alumna que prefiere la realidad viva a los dibujos secos.',
       },
       {
         id: 'pndm-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo cambia el estado de ánimo de la narradora cuando la maestra la envía a la biblioteca?',
-        options: ['Se pone más aburrida', 'Se enoja con la maestra', 'Pasa del aburrimiento a sentir que "volvía a la vida"', 'Se pone nerviosa'],
-        correctAnswer: 'Pasa del aburrimiento a sentir que "volvía a la vida"',
+        questionText: '¿Qué rasgo define mejor a la maestra según el relato de Mónica?',
+        options: [
+          'Es una persona muy divertida que cuenta historias de barcos.',
+          'Es alguien que enseña de forma monótona y poco interesante.',
+          'Es una mujer muy estricta que no deja que los niños se muevan.',
+          'Es una experta en viajes que conoce todos los ríos del mundo.'
+        ],
+        correctAnswer: 'Es alguien que enseña de forma monótona y poco interesante.',
       },
       {
         id: 'pndm-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: 'Además de imaginativa, ¿qué otra cualidad tiene la narradora?',
-        options: ['Es desobediente', 'Es una niña típica de su edad, que disfruta de jugar en el recreo', 'Es muy estudiosa', 'Es muy tímida'],
-        correctAnswer: 'Es una niña típica de su edad, que disfruta de jugar en el recreo',
+        questionText: '¿Qué cualidad de la personalidad de Mónica le permite vivir esta aventura?',
+        options: [
+          'Su gran fuerza física para cargar el globo terráqueo.',
+          'Su poderosa imaginación y su capacidad de asombro.',
+          'Su rapidez para correr por los pasillos sin ser vista.',
+          'Su mala memoria que la hace olvidar las reglas escolares.'
+        ],
+        correctAnswer: 'Su poderosa imaginación y su capacidad de asombro.',
       },
     ],
   },

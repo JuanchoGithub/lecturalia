@@ -48,7 +48,7 @@ En fin, ganaron los Triángulos por 1 a 0 (mérito singular si se tiene en cuent
 
 A la mañana tempranito el Rey pasó revista a sus tropas. Había decidido salir él mismo a la cabeza de la expedición. Rombos, Cuadrados, Triángulos, Trapecios y Líneas Rectas formaban fila, muertos de sueño y escoltados por unos cuantos Puntos enrolados como voluntarios.
 
-Allá se van todos, en busca de la famosa, misteriosa y caprichosa Flor Redonda. La expedición del Rey Compás atravesó páginas y cuadernos desolados, ríos de tinta china, espesas selvas de viruta de lápiz, cordilleras de gomas de borrar, buscando, siempre buscando a la dichosa flor. Registraron todos los ángulos, todos los rincones, todos los vericuetos, bajo el viento, la lluvia, el granizo y la resolana.
+La expedición del Rey Compás atravesó páginas y cuadernos desolados, ríos de tinta china, espesas selvas de viruta de lápiz, cordilleras de gomas de borrar, buscando, siempre buscando a la dichosa flor. Registraron todos los ángulos, todos los rincones, todos los vericuetos, bajo el viento, la lluvia, el granizo y la resolana.
 
 –Me doy por vencido –dijo por fin el Rey. Quizás ustedes tenían razón y la dichosa Flor Redonda no exista. Quizá no eran tan retontos como yo pensaba. Volvamos a casita.
 
@@ -61,7 +61,7 @@ Cuando la señorita Línea se hubo deslizado por debajo de la puerta, el Rey, qu
 Bailando, bailando, bailando, descubrió sorprendido que había dibujado una hermosa Flor Redonda sobre el piso de su cuarto. Y siguió bailando hasta dibujar flores y más flores redondas que pronto se convirtieron en un jardín.
 
 Jo, jo, jo, jo, jo y la Flor dibujó.
-  `,
+`,
   wordCount: 712,
   level: '4to Grado (Nivel Q)',
   questions: {
@@ -69,138 +69,228 @@ Jo, jo, jo, jo, jo y la Flor dibujó.
       {
         id: 'geo-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Quién era el rey del País de la Geometría?',
-        options: ['El Rey Rombo', 'El Rey Cuadrado', 'El Rey Compás', 'El Rey Triángulo'],
-        correctAnswer: 'El Rey Compás',
+        questionText: '¿Cuál de estas figuras geométricas representa al Rey del país de papel?',
+        options: [
+          'Un forzudo Trapecio.',
+          'Un elegante Compás.',
+          'Un Capitán Rombo.',
+          'Un Comandante Triángulo.'
+        ],
+        correctAnswer: 'Un elegante Compás.',
       },
       {
         id: 'geo-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Por qué estaba triste y preocupado el Rey?',
-        options: ['Porque su palacio era feo', 'Porque le faltaba encontrar a la famosa Flor Redonda', 'Porque su ejército no era poderoso', 'Porque no le gustaba el fútbol'],
-        correctAnswer: 'Porque le faltaba encontrar a la famosa Flor Redonda',
+        questionText: '¿Qué objetos encontraron los Trapecios en lugar de la Flor Redonda?',
+        options: [
+          'Hilos de seda y agujas de plata.',
+          'Páginas en blanco y tinta china.',
+          'Cubitos de hielo, dados y una regla.',
+          'Virutas de lápiz y gomas de borrar.'
+        ],
+        correctAnswer: 'Cubitos de hielo, dados y una regla.',
       },
       {
         id: 'geo-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo descubrió finalmente el Rey a la Flor Redonda?',
-        options: ['Un trapecio la encontró', 'La señorita Línea se la dibujó', 'La dibujó él mismo al ponerse a bailar', 'Creció en su jardín de repente'],
-        correctAnswer: 'La dibujó él mismo al ponerse a bailar',
+        questionText: '¿Cómo es el palacio donde vive el Rey Compás?',
+        options: [
+          'De cartulina con forma de icosaedro.',
+          'De cristal con forma de cilindro.',
+          'De madera con forma de cuadrado.',
+          'De papel con forma de triángulo.'
+        ],
+        correctAnswer: 'De cartulina con forma de icosaedro.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'geo-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el Rey después de que sus súbditos le organizaran un partido de fútbol?',
-        options: ['Se puso muy contento', 'Se fue a dormir', 'Decidió salir él mismo de expedición al día siguiente', 'Castigó al equipo perdedor'],
-        correctAnswer: 'Decidió salir él mismo de expedición al día siguiente',
+        questionText: '¿Qué hizo el Rey inmediatamente después del partido de fútbol?',
+        options: [
+          'Se puso a bailar para celebrar el triunfo.',
+          'Ordenó una expedición para el día siguiente.',
+          'Se fue a dormir porque estaba muy cansado.',
+          'Se puso a llorar junto al Capitán Rombo.'
+        ],
+        correctAnswer: 'Ordenó una expedición para el día siguiente.',
       },
       {
         id: 'geo-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que la señorita Línea le aconsejara al Rey cantar y bailar?',
-        options: ['El Rey se enojó con ella', 'El Rey se puso a cantar y bailar un poquito', 'El Rey se fue a buscar la flor otra vez', 'El Rey se comió la sopita de tiza'],
-        correctAnswer: 'El Rey se puso a cantar y bailar un poquito',
+        questionText: '¿Qué acción realizó el Rey justo antes de empezar a dibujar flores?',
+        options: [
+          'Subió a la atalaya de líneas paralelas.',
+          'Se encerró a tomar una sopita de tiza fría.',
+          'Siguió el consejo de cantar y bailar un poco.',
+          'Revisó los ángulos de todos los cuadernos.'
+        ],
+        correctAnswer: 'Siguió el consejo de cantar y bailar un poco.',
       },
       {
         id: 'geo-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo el Rey al regresar de la expedición sin encontrar la flor?',
-        options: ['Organizó otra expedición', 'Se encerró en su cuarto, triste y amargado', 'Renunció a ser rey', 'Se puso a jugar al fútbol'],
-        correctAnswer: 'Se encerró en su cuarto, triste y amargado',
+        questionText: '¿Cuál fue el orden de las personas que le preguntaron para qué servía la flor?',
+        options: [
+          'La Secretaria Línea, el Comandante y el Capitán.',
+          'El Capitán Rombo, el Comandante y la Secretaria.',
+          'Los forzudos Trapecios, el Rey y los Puntos.',
+          'El Comandante Triángulo, el Rey y los Rombos.'
+        ],
+        correctAnswer: 'El Capitán Rombo, el Comandante y la Secretaria.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'geo-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El Rey trepaba a las Verticales Paralelas que le servían de "atalaya". ¿Qué es una atalaya?',
-        options: ['Un tobogán', 'Un columpio', 'Una torre para vigilar a lo lejos', 'Una escalera'],
-        correctAnswer: 'Una torre para vigilar a lo lejos',
+        questionText: 'En el texto, ¿qué significa que las verticales servían de "atalaya"?',
+        options: [
+          'Un lugar alto para vigilar el horizonte.',
+          'Un tipo de flor redonda muy perfumada.',
+          'Una herramienta para dibujar rectángulos.',
+          'Un instrumento musical para los ejércitos.'
+        ],
+        correctAnswer: 'Un lugar alto para vigilar el horizonte.',
       },
       {
         id: 'geo-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Cuando el Rey se enoja, les dice a los Trapecios "¡Sois todos unos cuadrados!". En este cuento, ¿qué significa ese insulto?',
-        options: ['Que eran muy perfectos', 'Que eran aburridos y limitados, sin poder pensar en algo redondo', 'Que eran muy fuertes', 'Que tenían cuatro lados'],
-        correctAnswer: 'Que eran aburridos y limitados, sin poder pensar en algo redondo',
+        questionText: '¿Qué describe mejor la palabra "vericuetos" en este cuento?',
+        options: [
+          'Caminos directos y muy anchos de papel.',
+          'Lugares escondidos o difíciles de recorrer.',
+          'Frutas redondas que crecen en los jardines.',
+          'Soldados que forman parte del escuadrón.'
+        ],
+        correctAnswer: 'Lugares escondidos o difíciles de recorrer.',
       },
       {
         id: 'geo-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'Los Trapecios llegaron "maltrechos y melancólicos". ¿Qué significa "maltrechos"?',
-        options: ['Contentos y energéticos', 'Lastimados y en mal estado', 'Limpios y ordenados', 'Aburridos'],
-        correctAnswer: 'Lastimados y en mal estado',
+        questionText: 'La Secretaria tuvo la "imprudencia" de hablar al Rey. ¿Qué hizo ella?',
+        options: [
+          'Habló con mucho cuidado y gran respeto.',
+          'Habló sin pensar que el Rey se enojaría.',
+          'Habló en un idioma que nadie entendía.',
+          'Habló muy bajito para que nadie la oyera.'
+        ],
+        correctAnswer: 'Habló sin pensar que el Rey se enojaría.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'geo-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es la lección más importante de la historia?',
-        options: ['Que la geometría es muy divertida', 'Que a veces la solución a nuestros problemas está en nosotros mismos y la encontramos a través de la creatividad y la alegría', 'Que los reyes no deben estar tristes', 'Que las flores son difíciles de encontrar'],
-        correctAnswer: 'Que a veces la solución a nuestros problemas está en nosotros mismos y la encontramos a través de la creatividad y la alegría',
+        questionText: '¿Cuál es el mensaje principal de esta historia fantástica?',
+        options: [
+          'Que el fútbol es más divertido que buscar flores.',
+          'Que la alegría y el movimiento pueden crear belleza.',
+          'Que los reyes deben vivir siempre en icosaedros.',
+          'Que es imposible encontrar círculos en el papel.'
+        ],
+        correctAnswer: 'Que la alegría y el movimiento pueden crear belleza.',
       },
       {
         id: 'geo-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el principal problema del Rey Compás?',
-        options: ['No tiene amigos', 'Su ejército es débil', 'Está obsesionado con encontrar algo que cree que le falta para ser feliz', 'No le gusta su palacio'],
-        correctAnswer: 'Está obsesionado con encontrar algo que cree que le falta para ser feliz',
+        questionText: '¿Por qué el Rey Compás no podía ser "un rey completo" al principio?',
+        options: [
+          'Porque su ejército de rombos era muy pequeño.',
+          'Porque le faltaba aquello que él más deseaba.',
+          'Porque no sabía cómo ganar un partido de fútbol.',
+          'Porque su palacio de cartulina estaba muy viejo.'
+        ],
+        correctAnswer: 'Porque le faltaba aquello que él más deseaba.',
       },
       {
         id: 'geo-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué representa la Flor Redonda en la historia?',
-        options: ['Una flor real que crece en el campo', 'La felicidad y la creatividad que el Rey no podía encontrar', 'Un tesoro escondido', 'Un enemigo del reino'],
-        correctAnswer: 'La felicidad y la creatividad que el Rey no podía encontrar',
+        questionText: '¿Qué representa la transformación final del piso del cuarto?',
+        options: [
+          'El fracaso de todas las expediciones anteriores.',
+          'El descubrimiento de un jardín creado por el Rey.',
+          'La llegada de la primavera al país de los puntos.',
+          'Un error del Rey al tratar de cantar un vals.'
+        ],
+        correctAnswer: 'El descubrimiento de un jardín creado por el Rey.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'geo-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué ninguno de los súbditos del Rey (Rombos, Triángulos, etc.) podía encontrar la Flor Redonda?',
-        options: ['Porque la flor estaba muy bien escondida', 'Porque no buscaron bien', 'Porque al estar hechos de rectas y ángulos, no podían imaginar o crear una forma curva como una flor redonda', 'Porque la flor no existía en su país'],
-        correctAnswer: 'Porque al estar hechos de rectas y ángulos, no podían imaginar o crear una forma curva como una flor redonda',
+        questionText: '¿Por qué los soldados (rectas, rombos, triángulos) no hallaban la flor?',
+        options: [
+          'Porque la flor se escondía cuando ellos pasaban.',
+          'Porque solo conocían formas rectas y con ángulos.',
+          'Porque no querían que el Rey fuera feliz nunca.',
+          'Porque se distraían jugando con la pelota de cubo.'
+        ],
+        correctAnswer: 'Porque solo conocían formas rectas y con ángulos.',
       },
       {
         id: 'geo-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué se enojaba tanto el Rey cuando le preguntaban "para qué sirve una flor"?',
-        options: ['Porque él tampoco sabía la respuesta', 'Porque pensaba que era una pregunta tonta y que la belleza de una flor es su propia razón de ser', 'Porque no le gustaba que le hicieran preguntas', 'Porque lo distraían de su búsqueda'],
-        correctAnswer: 'Porque pensaba que era una pregunta tonta y que la belleza de una flor es su propia razón de ser',
+        questionText: '¿Qué característica física del Compás le permite dibujar la flor?',
+        options: [
+          'Tener dos patitas flacas que le permiten correr.',
+          'Tener una pata fija para girar y trazar círculos.',
+          'Tener un cuerpo de metal que brilla bajo el sol.',
+          'Tener la fuerza para vencer a todos los Trapecios.'
+        ],
+        correctAnswer: 'Tener una pata fija para girar y trazar círculos.',
       },
       {
         id: 'geo-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el Rey Compás era el único que podía crear la Flor Redonda?',
-        options: ['Porque era el Rey', 'Porque tenía una pata que pinchaba y otra que no, lo que le permitía girar y dibujar círculos', 'Porque era más inteligente que los demás', 'Porque encontró un lápiz mágico'],
-        correctAnswer: 'Porque tenía una pata que pinchaba y otra que no, lo que le permitía girar y dibujar círculos',
+        questionText: '¿Por qué el Rey llamó "cuadrados" a los Trapecios como insulto?',
+        options: [
+          'Porque tenían exactamente cuatro lados iguales.',
+          'Porque eran personas cerradas que no tenían ideas nuevas.',
+          'Porque se negaron a participar en la gran expedición.',
+          'Porque no sabían cómo patear una pelota en forma de cubo.'
+        ],
+        correctAnswer: 'Porque eran personas cerradas que no tenían ideas nuevas.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'geo-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: 'Al principio, ¿cómo es el Rey Compás?',
-        options: ['Alegre y divertido', 'Triste, obsesionado y un poco gruñón', 'Perezoso y tranquilo', 'Valiente y aventurero'],
-        correctAnswer: 'Triste, obsesionado y un poco gruñón',
+        questionText: '¿Cómo cambia el estado de ánimo del Rey Compás al final?',
+        options: [
+          'Pasa de estar amargado a sentirse creativo y feliz.',
+          'Pasa de estar alegre a sentirse solo en su palacio.',
+          'Pasa de ser un guerrero a ser un jugador de fútbol.',
+          'Pasa de ser muy valiente a tener miedo de los Rombos.'
+        ],
+        correctAnswer: 'Pasa de estar amargado a sentirse creativo y feliz.',
       },
       {
         id: 'geo-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad demuestra la señorita Línea al final de la historia?',
-        options: ['Es miedosa', 'Es gruñona', 'Es sabia y amable al darle un buen consejo al Rey', 'Es muy recta'],
-        correctAnswer: 'Es sabia y amable al darle un buen consejo al Rey',
+        questionText: '¿Qué cualidad define mejor a la señorita Línea?',
+        options: [
+          'Es una persona muy miedosa que siempre huye.',
+          'Es una consejera sabia que propone cambiar la actitud.',
+          'Es una excelente cocinera de sopas de tiza blanca.',
+          'Es la única que conoce dónde se oculta la flor.'
+        ],
+        correctAnswer: 'Es una consejera sabia que propone cambiar la actitud.',
       },
       {
         id: 'geo-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo son los súbditos del Rey (Rombos, Triángulos, etc.)?',
-        options: ['Son rebeldes y desobedientes', 'Son leales y obedientes, pero limitados en su forma de pensar', 'Son más inteligentes que el Rey', 'Son perezosos y no quieren trabajar'],
-        correctAnswer: 'Son leales y obedientes, pero limitados en su forma de pensar',
+        questionText: '¿Qué demuestra la reacción de los súbditos al organizar el partido?',
+        options: [
+          'Que no les importaba que el Rey estuviera sufriendo.',
+          'Que querían mucho al Rey e intentaban animarlo.',
+          'Que preferían jugar en vez de salir de expedición.',
+          'Que eran muy desobedientes y no seguían las reglas.'
+        ],
+        correctAnswer: 'Que querían mucho al Rey e intentaban animarlo.',
       },
     ],
   },

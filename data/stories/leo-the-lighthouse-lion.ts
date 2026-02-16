@@ -1,3 +1,4 @@
+
 import { Story, QuestionCategory } from '../../types';
 
 export const leoTheLighthouseLion: Story = {
@@ -26,68 +27,113 @@ Leo sonrió, con el corazón lleno de orgullo. Sabía que ser el guardián de un
         id: 'lit1',
         category: QuestionCategory.LITERAL,
         questionText: '¿Quién es el personaje principal de la historia?',
-        options: ['El capitán del barco', 'Un pez valiente', 'Leo el León', 'Una torre alta'],
+        options: [
+          'Leo el León',
+          'El Capitán del barquito',
+          'Un delfín saltarín',
+          'Un marinero del puerto'
+        ],
         correctAnswer: 'Leo el León',
       },
       {
         id: 'lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Dónde vivía Leo el león?',
-        options: ['En una cueva en la playa', 'En el barco del capitán', 'Dentro de un faro alto a rayas', 'En un bosque cercano'],
-        correctAnswer: 'Dentro de un faro alto a rayas',
+        questionText: '¿Dónde vivía Leo el león exactamente?',
+        options: [
+          'En una cueva de la playa.',
+          'Dentro de un faro a rayas.',
+          'En la cubierta de un gran barco.',
+          'En una torre hecha de madera.'
+        ],
+        correctAnswer: 'Dentro de un faro a rayas',
       },
       {
         id: 'lit3',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué hizo el capitán cuando su barco estuvo a salvo en el puerto?',
-        options: ['Se fue a dormir inmediatamente', 'Remó hasta la isla para agradecerle a Leo', 'Arregló su barco', 'Se olvidó de Leo'],
-        correctAnswer: 'Remó hasta la isla para agradecerle a Leo',
+        questionText: '¿Qué hizo el capitán cuando su barco llegó al puerto tranquilo?',
+        options: [
+          'Se fue a dormir de inmediato.',
+          'Remó hasta la isla para agradecer a Leo.',
+          'Buscó marineros para su próximo viaje.',
+          'Se puso a arreglar el cristal del faro.'
+        ],
+        correctAnswer: 'Remó hasta la isla para agradecer a Leo',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasó justo después de que comenzó la tormenta?',
-        options: ['Salió el sol', 'Leo vio un barco perdido en las olas', 'El capitán le agradeció a Leo', 'Leo se fue a dormir'],
-        correctAnswer: 'Leo vio un barco perdido en las olas',
+        questionText: '¿Qué hizo Leo inmediatamente después de escuchar la bocina débil?',
+        options: [
+          'Bajó a remar hacia el barco.',
+          'Se asomó por la ventana para ver qué pasaba.',
+          'Se puso a pulir el cristal de la lámpara.',
+          'Se escondió del viento de la tormenta.'
+        ],
+        correctAnswer: 'Se asomó por la ventana para ver qué pasaba.',
       },
       {
         id: 'seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Cuál de estas cosas ocurrió PRIMERO en la historia?',
-        options: ['Se desató una fuerte tormenta', 'El capitán le agradeció a Leo', 'Leo vio un barco en peligro', 'Leo encendía la lámpara cada noche'],
-        correctAnswer: 'Leo encendía la lámpara cada noche',
+        questionText: '¿Cuál de estas cosas ocurría habitualmente ANTES de la tormenta?',
+        options: [
+          'Leo escuchaba bocinas de barcos perdidos.',
+          'Leo encendía la gran lámpara cada noche.',
+          'El capitán le gritaba gracias a Leo.',
+          'El sol salía sobre el puerto tranquilo.'
+        ],
+        correctAnswer: 'Leo encendía la gran lámpara cada noche.',
       },
       {
         id: 'seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hizo Leo después de rugir para guiar al barco?',
-        options: ['Se escondió del viento', 'Apagó la luz del faro', 'Enfocó su luz para mostrarle al barco un camino seguro', 'Se puso a jugar'],
-        correctAnswer: 'Enfocó su luz para mostrarle al barco un camino seguro',
+        questionText: '¿Qué hizo Leo justo después de soltar su rugido más fuerte?',
+        options: [
+          'Se fue a dormir porque estaba cansado.',
+          'Enfocó su luz para mostrarle un camino al barco.',
+          'Llamó al capitán por una radio mágica.',
+          'Bajó la escalera de caracol corriendo.'
+        ],
+        correctAnswer: 'Enfocó su luz para mostrarle un camino al barco.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la oración: "Su luz se proyectaba sobre el agua", ¿qué significa "se proyectaba"?',
-        options: ['Parpadeaba débilmente', 'Hacía un sonido', 'Brillaba intensamente', 'Estaba escondida'],
-        correctAnswer: 'Brillaba intensamente',
+        questionText: 'La historia dice que Leo "pulió" el cristal. ¿Qué significa?',
+        options: [
+          'Que lo rompió sin querer.',
+          'Que lo frotó para que brillara.',
+          'Que lo pintó de muchos colores.',
+          'Que lo tapó para que no se moje.'
+        ],
+        correctAnswer: 'Que lo frotó para que brillara.',
       },
       {
         id: 'voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "El viento aullaba y las olas rompían", ¿qué significa "aullaba"?',
-        options: ['Cantaba suavemente', 'Hacía un sonido fuerte y largo como un lobo', 'Susurraba en silencio', 'Se reía a carcajadas'],
-        correctAnswer: 'Hacía un sonido fuerte y largo como un lobo',
+        questionText: 'En la frase "El viento aullaba", ¿qué significa "aullaba"?',
+        options: [
+          'Hacía un sonido suave como una canción.',
+          'Hacía un ruido fuerte y largo como un lobo.',
+          'No hacía ningún tipo de ruido.',
+          'Hacía un sonido parecido a una risa.'
+        ],
+        correctAnswer: 'Hacía un ruido fuerte y largo como un lobo.',
       },
       {
         id: 'voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La historia dice que Leo tenía "patas firmes". ¿Qué significa "firmes"?',
-        options: ['Que eran muy suaves', 'Que eran débiles y temblorosas', 'Que eran fuertes y estables', 'Que eran muy pequeñas'],
-        correctAnswer: 'Que eran fuertes y estables',
+        questionText: 'Leo tenía "patas firmes". ¿Qué significa "firmes" en este cuento?',
+        options: [
+          'Que eran muy suaves al tacto.',
+          'Que eran fuertes y seguras.',
+          'Que estaban mojadas por el mar.',
+          'Que eran débiles y temblorosas.'
+        ],
+        correctAnswer: 'Que eran fuertes y seguras.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
@@ -95,68 +141,113 @@ Leo sonrió, con el corazón lleno de orgullo. Sabía que ser el guardián de un
         id: 'main1',
         category: QuestionCategory.MAIN_IDEA,
         questionText: '¿Cuál es la lección más importante de esta historia?',
-        options: ['Los leones tienen rugidos fuertes', 'Las tormentas son muy peligrosas', 'Los faros son altos', 'Ser valiente y ayudar a los demás es importante'],
-        correctAnswer: 'Ser valiente y ayudar a los demás es importante',
+        options: [
+          'Que los leones son los mejores nadadores.',
+          'Ser valiente y responsable para ayudar a otros.',
+          'Que los faros deben ser siempre de colores.',
+          'Que las tormentas en el mar son muy divertidas.'
+        ],
+        correctAnswer: 'Ser valiente y responsable para ayudar a otros.',
       },
       {
         id: 'main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué título alternativo describiría mejor la historia?',
-        options: ['La Tormenta Fuerte', 'El León que Dormía Mucho', 'El Héroe del Faro', 'El Barco Perdido'],
-        correctAnswer: 'El Héroe del Faro',
+        questionText: '¿Qué título alternativo describe mejor el tema de la historia?',
+        options: [
+          'La Tormenta en el Puerto',
+          'El Guardián Valiente del Mar',
+          'El Barco que no tenía Brújula',
+          'El León que no podía Rugir'
+        ],
+        correctAnswer: 'El Guardián Valiente del Mar',
       },
       {
         id: 'main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Por qué es importante el trabajo de Leo en el faro?',
-        options: ['Porque mantiene la isla bonita', 'Porque evita que los barcos se estrellen contra las rocas', 'Porque asusta a los peces', 'Porque le gusta ver la luz'],
-        correctAnswer: 'Porque evita que los barcos se estrellen contra las rocas',
+        questionText: '¿Por qué el trabajo de Leo era el más importante de la isla?',
+        options: [
+          'Porque le gustaba ver el sol desde lo alto.',
+          'Porque evitaba que los barcos chocaran con las rocas.',
+          'Porque cuidaba a los delfines de la tormenta.',
+          'Porque era el único que sabía usar una escalera.'
+        ],
+        correctAnswer: 'Porque evitaba que los barcos chocaran con las rocas.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el capitán del barco estaba tan agradecido con Leo?',
-        options: ['Porque le gustaban los leones', 'Porque Leo le contó un chiste gracioso', 'Porque la luz de Leo salvó a su barco de chocar', 'Porque la tormenta terminó'],
-        correctAnswer: 'Porque la luz de Leo salvó a su barco de chocar',
+        questionText: '¿Por qué el rugido de Leo fue útil para el capitán?',
+        options: [
+          'Porque asustó a las olas gigantes.',
+          'Porque sirvió como una guía de sonido en la oscuridad.',
+          'Porque despertó a todos los habitantes del puerto.',
+          'Porque hizo que el viento dejara de soplar fuerte.'
+        ],
+        correctAnswer: 'Porque sirvió como una guía de sonido en la oscuridad.',
       },
       {
         id: 'inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Cómo crees que se sintió el capitán cuando vio la luz del faro en la tormenta?',
-        options: ['Enojado porque la luz era muy brillante', 'Asustado porque pensó que era un monstruo', 'Aliviado y con esperanza', 'Indiferente'],
-        correctAnswer: 'Aliviado y con esperanza',
+        questionText: '¿Cómo se sintió probablemente el capitán cuando vio la luz del faro?',
+        options: [
+          'Enojado porque la luz era demasiado brillante.',
+          'Aliviado porque por fin sabía hacia dónde ir.',
+          'Confundido porque pensó que era una estrella fugaz.',
+          'Triste porque no quería llegar al puerto todavía.'
+        ],
+        correctAnswer: 'Aliviado porque por fin sabía hacia dónde ir.',
       },
       {
         id: 'inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué Leo pulió el cristal de la lámpara durante la tormenta?',
-        options: ['Porque estaba aburrido y no tenía nada que hacer', 'Para que la luz fuera lo más brillante posible y pudiera ser vista', 'Porque le gusta que todo esté limpio', 'Para poder ver su reflejo'],
-        correctAnswer: 'Para que la luz fuera lo más brillante posible y pudiera ser vista',
+        questionText: '¿Para qué pulió Leo el cristal justo durante la tormenta?',
+        options: [
+          'Para que la luz se viera con la mayor claridad posible.',
+          'Para que el cristal no se rompiera con el viento.',
+          'Porque estaba aburrido y quería limpiar su casa.',
+          'Para poder ver su reflejo mientras rugía fuerte.'
+        ],
+        correctAnswer: 'Para que la luz se viera con la mayor claridad posible.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué dos palabras describen mejor la personalidad de Leo?',
-        options: ['Tonto y perezoso', 'Valiente y responsable', 'Tímido y callado', 'Gruñón y malo'],
-        correctAnswer: 'Valiente y responsable',
+        questionText: '¿Qué rasgos definen mejor a Leo el león?',
+        options: [
+          'Miedoso y muy solitario.',
+          'Valiente, atento y responsable.',
+          'Distraído y un poco perezoso.',
+          'Enojón y poco amigable.'
+        ],
+        correctAnswer: 'Valiente, atento y responsable.',
       },
       {
         id: 'char2',
         category: QuestionCategory.CHARACTER,
         questionText: '¿Cómo se siente Leo al final de la historia?',
-        options: ['Triste porque la tormenta terminó', 'Cansado y con ganas de dormir', 'Orgulloso y feliz por haber ayudado', 'Enojado con el capitán'],
-        correctAnswer: 'Orgulloso y feliz por haber ayudado',
+        options: [
+          'Cansado y con ganas de irse de la isla.',
+          'Feliz y orgulloso por haber cumplido su deber.',
+          'Triste porque ya no había más tormentas.',
+          'Preocupado porque el sol quemaba su melena.'
+        ],
+        correctAnswer: 'Feliz y orgulloso por haber cumplido su deber.',
       },
       {
         id: 'char3',
         category: QuestionCategory.CHARACTER,
-        questionText: 'Aparte de valiente y responsable, ¿qué otra cualidad demuestra Leo?',
-        options: ['Perezoso', 'Miedoso', 'Cuidadoso (al pulir el vidrio y enfocar la luz)', 'Egoísta'],
-        correctAnswer: 'Cuidadoso (al pulir el vidrio y enfocar la luz)',
+        questionText: '¿Qué demuestra Leo al encender la lámpara cada noche?',
+        options: [
+          'Que tiene miedo de quedarse a oscuras.',
+          'Su compromiso constante con la seguridad de otros.',
+          'Que le gusta gastar mucha electricidad.',
+          'Que quiere llamar la atención de los delfines.'
+        ],
+        correctAnswer: 'Su compromiso constante con la seguridad de otros.',
       },
     ],
   },

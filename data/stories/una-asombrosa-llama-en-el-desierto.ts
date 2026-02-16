@@ -34,138 +34,228 @@ Ayelén y Martín ya no se separan. Están unidos por una llamarada.
       {
         id: 'alld-lit1',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Cómo llaman Ayelén y Martín a la nieve, respectivamente?',
-        options: ['Hielo y frío', 'Pirré y nieve', 'Nieve y pirré', 'Blanco y frío'],
-        correctAnswer: 'Pirré y nieve',
+        questionText: '¿Cómo llaman Ayelén y Martín a la nieve en sus respectivos idiomas?',
+        options: [
+          'Ayelén la llama "nahuel" y Martín la llama "jaguar".',
+          'Ayelén la llama "pirré" y Martín la llama "nieve".',
+          'Ayelén la llama "mapu" y Martín la llama "pueblo".',
+          'Ayelén la llama "leufú" y Martín la llama "río".'
+        ],
+        correctAnswer: 'Ayelén la llama "pirré" y Martín la llama "nieve".',
       },
       {
         id: 'alld-lit2',
         category: QuestionCategory.LITERAL,
-        questionText: '¿Qué nace en el punto donde se encuentran los caminos de Ayelén y Martín?',
-        options: ['Un árbol', 'Un río', 'Una llama de amor', 'Una flor'],
-        correctAnswer: 'Una llama de amor',
+        questionText: '¿Qué nace exactamente cuando los caminos de los dos protagonistas se cruzan?',
+        options: [
+          'Nace un pájaro azul que vuela hacia el Río de la Plata.',
+          'Nace una llama de amor a partir de un chispazo inicial.',
+          'Nace una nueva ciudad con casas llamadas rucas blancas.',
+          'Nace un río transparente que derrite el hielo del sur.'
+        ],
+        correctAnswer: 'Nace una llama de amor a partir de un chispazo inicial.',
       },
       {
         id: 'alld-lit3',
         category: QuestionCategory.LITERAL,
-        questionText: 'Según el texto, ¿qué cosa hacían Ayelén y Martín de la misma manera a pesar de no conocerse?',
-        options: ['Hablar', 'Cantar', 'Reír', 'Llorar'],
-        correctAnswer: 'Reír',
+        questionText: '¿A qué lugar mandaron a Martín apenas se curó de su enfermedad?',
+        options: [
+          'Lo mandaron a vivir a una ruca cerca de la montaña.',
+          'Lo mandaron a un lugar muy lejano para ir a pelear.',
+          'Lo mandaron a buscar un nahuel al desierto helado.',
+          'Lo mandaron a estudiar las palabras que usaba Ayelén.'
+        ],
+        correctAnswer: 'Lo mandaron a un lugar muy lejano para ir a pelear.',
       },
     ],
     [QuestionCategory.SEQUENCING]: [
       {
         id: 'alld-seq1',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué sucede justo después de que la llama de amor se agiganta?',
-        options: ['Se apaga', 'Se transforma en un pájaro de increíbles alas', 'Calienta a Martín y Ayelén', 'Se convierte en un sol'],
-        correctAnswer: 'Se transforma en un pájaro de increíbles alas',
+        questionText: '¿Qué transformación sufre la llama de amor después de agigantarse?',
+        options: [
+          'Se convierte en un sol que ilumina todo el desierto.',
+          'Se transforma en un pájaro que posee alas increíbles.',
+          'Se vuelve un río caudaloso que apaga los cañones.',
+          'Se desvanece para dejar que el frío vuelva a la tierra.'
+        ],
+        correctAnswer: 'Se transforma en un pájaro que posee alas increíbles.',
       },
       {
         id: 'alld-seq2',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué hace el pájaro que nace de la llama?',
-        options: ['Vuela muy lejos', 'Canta una canción', 'Riega la tierra con una lluvia de pequeñas llamas', 'Construye un nido'],
-        correctAnswer: 'Riega la tierra con una lluvia de pequeñas llamas',
+        questionText: '¿Qué hace el pájaro inmediatamente después de levantar vuelo?',
+        options: [
+          'Canta una canción para que las armas dejen de sonar.',
+          'Riega la tierra con una lluvia de pequeñas llamas.',
+          'Busca a los niños de piel clara para darles abrigo.',
+          'Regresa al Río de la Plata para buscar a Martín.'
+        ],
+        correctAnswer: 'Riega la tierra con una lluvia de pequeñas llamas.',
       },
       {
         id: 'alld-seq3',
         category: QuestionCategory.SEQUENCING,
-        questionText: '¿Qué pasa al final con las armas?',
-        options: ['Disparan más fuerte', 'Se derriten con el calor', 'Se tragan el fuego que nunca dio calor', 'Se convierten en flores'],
-        correctAnswer: 'Se tragan el fuego que nunca dio calor',
+        questionText: '¿Qué sucede finalmente con las armas según el relato?',
+        options: [
+          'Se disparan solas hasta que se acaba el combustible.',
+          'Se tragan el fuego que nunca antes pudo calentar nada.',
+          'Se convierten en flores silvestres de muchos colores.',
+          'Se entierran en el mapa para que nadie las encuentre.'
+        ],
+        correctAnswer: 'Se tragan el fuego que nunca antes pudo calentar nada.',
       },
     ],
     [QuestionCategory.VOCABULARY]: [
       {
         id: 'alld-voc1',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'En la frase "todo se empezó a helar desmesuradamente", ¿qué significa "desmesuradamente"?',
-        options: ['Un poco', 'Lentamente', 'De forma exagerada o excesiva', 'De forma ordenada'],
-        correctAnswer: 'De forma exagerada o excesiva',
+        questionText: 'El texto dice que todo se helaba "desmesuradamente". ¿Qué significa?',
+        options: [
+          'Que se helaba de una forma muy lenta y tranquila.',
+          'Que se helaba de manera exagerada o sin ninguna medida.',
+          'Que solo se helaban las cosas pequeñas del desierto.',
+          'Que el hielo tenía una forma geométrica muy perfecta.'
+        ],
+        correctAnswer: 'Que se helaba de manera exagerada o sin ninguna medida.',
       },
       {
         id: 'alld-voc2',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'La llama produce un intenso calor que se "propaga". ¿Qué significa "propagar"?',
-        options: ['Desaparecer', 'Concentrarse en un solo punto', 'Extenderse o difundirse a muchos lugares', 'Enfriarse'],
-        correctAnswer: 'Extenderse o difundirse a muchos lugares',
+        questionText: 'La llama produce un calor que se "propaga". ¿Qué quiere decir esto?',
+        options: [
+          'Que el calor se queda encerrado en un solo lugar.',
+          'Que el calor se extiende y llega a muchas partes.',
+          'Que el calor desaparece cuando llega la noche fría.',
+          'Que el calor solo sirve para calentar las manos.'
+        ],
+        correctAnswer: 'Que el calor se extiende y llega a muchas partes.',
       },
       {
         id: 'alld-voc3',
         category: QuestionCategory.VOCABULARY,
-        questionText: 'El frío abría una "sombría" herida helada. ¿Qué significa "sombría"?',
-        options: ['Alegre y luminosa', 'Pequeña', 'Triste, oscura y melancólica', 'Caliente'],
-        correctAnswer: 'Triste, oscura y melancólica',
+        questionText: 'Martín buscaba el "amparo" de un hogar. ¿Qué buscaba Martín?',
+        options: [
+          'Buscaba un mapa para no perderse en el camino.',
+          'Buscaba protección, refugio o un lugar seguro.',
+          'Buscaba leña seca para vender en el pueblo lejano.',
+          'Buscaba una medicina para curarse de su herida.'
+        ],
+        correctAnswer: 'Buscaba protección, refugio o un lugar seguro.',
       },
     ],
     [QuestionCategory.MAIN_IDEA]: [
       {
         id: 'alld-main1',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Cuál es el mensaje principal de la historia?',
-        options: ['Que diferentes culturas tienen diferentes palabras para las mismas cosas', 'Que el amor es una fuerza poderosa capaz de superar el frío de la guerra y la indiferencia', 'Que los desiertos son lugares muy fríos', 'Que los pájaros pueden crear fuego'],
-        correctAnswer: 'Que el amor es una fuerza poderosa capaz de superar el frío de la guerra y la indiferencia',
+        questionText: '¿Cuál es el tema central o mensaje de esta historia?',
+        options: [
+          'La importancia de aprender idiomas de diferentes pueblos.',
+          'Cómo el amor y la unión pueden vencer el frío de la guerra.',
+          'Los peligros de viajar al sur cuando empieza a nevar.',
+          'La vida de los animales que habitan en el Río de la Plata.'
+        ],
+        correctAnswer: 'Cómo el amor y la unión pueden vencer el frío de la guerra.',
       },
       {
         id: 'alld-main2',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué problema común enfrentaban todas las personas en la historia?',
-        options: ['El hambre', 'Un frío intenso que lo congelaba todo', 'La falta de agua', 'Una enfermedad'],
-        correctAnswer: 'Un frío intenso que lo congelaba todo',
+        questionText: '¿Por qué el autor resalta que las armas no servían para calentar nada?',
+        options: [
+          'Porque las armas eran muy viejas y estaban oxidadas.',
+          'Para mostrar que la violencia no resuelve el sufrimiento humano.',
+          'Porque el fuego de los rifles era de un color azul muy frío.',
+          'Porque los soldados no sabían cómo encender una fogata.'
+        ],
+        correctAnswer: 'Para mostrar que la violencia no resuelve el sufrimiento humano.',
       },
       {
         id: 'alld-main3',
         category: QuestionCategory.MAIN_IDEA,
-        questionText: '¿Qué efecto tienen las pequeñas llamas que caen del pájaro sobre el mundo?',
-        options: ['Queman los árboles', 'Asustan a la gente', 'Derriten el hielo, calientan los corazones y traen alegría', 'No tienen ningún efecto'],
-        correctAnswer: 'Derriten el hielo, calientan los corazones y traen alegría',
+        questionText: '¿Qué problema compartido une a toda la gente en la historia?',
+        options: [
+          'Que nadie conocía el nombre de los pájaros voladores.',
+          'El frío intenso que congelaba tanto a personas como a campos.',
+          'El deseo de mudarse a una ruca más grande en el norte.',
+          'La falta de semillas para plantar flores en el desierto.'
+        ],
+        correctAnswer: 'El frío intenso que congelaba tanto a personas como a campos.',
       },
     ],
     [QuestionCategory.INFERENCE]: [
       {
         id: 'alld-inf1',
         category: QuestionCategory.INFERENCE,
-        questionText: 'El "frío que salía de las armas de fuego" es una metáfora. ¿Qué representa realmente ese frío?',
-        options: ['La nieve que caía', 'El metal de las armas', 'La muerte, la soledad y el sufrimiento causados por la guerra', 'El miedo de los soldados'],
-        correctAnswer: 'La muerte, la soledad y el sufrimiento causados por la guerra',
+        questionText: '¿Qué representa la "sombría herida helada" que las armas abrían en todos?',
+        options: [
+          'Un tipo de nieve que caía solamente durante las batallas.',
+          'El dolor, la tristeza y la separación que provoca la guerra.',
+          'Una marca física que los soldados se hacían en la piel.',
+          'El dibujo de un mapa que Martín no podía comprender bien.'
+        ],
+        correctAnswer: 'El dolor, la tristeza y la separación que provoca la guerra.',
       },
       {
         id: 'alld-inf2',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Por qué el autor menciona las diferentes palabras que usan Ayelén y Martín?',
-        options: ['Para enseñar otro idioma', 'Para mostrar que a pesar de sus diferencias culturales, pueden compartir sentimientos universales como el amor y el frío', 'Porque no se decidía por una palabra', 'Para confundir al lector'],
-        correctAnswer: 'Para mostrar que a pesar de sus diferencias culturales, pueden compartir sentimientos universales como el amor y el frío',
+        questionText: '¿Por qué el autor menciona que ambos "ríen igual" a pesar de hablar distinto?',
+        options: [
+          'Para demostrar que no hace falta hablar para ser amigos.',
+          'Para resaltar que los sentimientos humanos son universales.',
+          'Porque Martín y Ayelén eran parientes y no lo sabían.',
+          'Porque en el desierto los ruidos se escuchan más fuertes.'
+        ],
+        correctAnswer: 'Para resaltar que los sentimientos humanos son universales.',
       },
       {
         id: 'alld-inf3',
         category: QuestionCategory.INFERENCE,
-        questionText: '¿Qué simboliza el encuentro de Ayelén y Martín en medio de un contexto de pelea y frío?',
-        options: ['Una casualidad sin importancia', 'El inicio de una nueva guerra', 'La esperanza y la posibilidad de que el amor y la unión son más fuertes que el conflicto', 'Un momento de debilidad'],
-        correctAnswer: 'La esperanza y la posibilidad de que el amor y la unión son más fuertes que el conflicto',
+        questionText: '¿Qué nos sugiere el hecho de que Martín prefiriera no haberse curado?',
+        options: [
+          'Que la medicina de esa época tenía un sabor muy amargo.',
+          'Que no quería ser enviado a pelear contra gente desconocida.',
+          'Que le gustaba estar en la cama recibiendo cuidados.',
+          'Que tenía miedo de encontrarse con Ayelén en el sur.'
+        ],
+        correctAnswer: 'Que no quería ser enviado a pelear contra gente desconocida.',
       },
     ],
     [QuestionCategory.CHARACTER]: [
       {
         id: 'alld-char1',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué sentimiento une a Ayelén y Martín a pesar de sus diferencias?',
-        options: ['El miedo a la guerra', 'El amor que surge entre ellos', 'El odio hacia sus enemigos', 'La tristeza por el frío'],
-        correctAnswer: 'El amor que surge entre ellos',
+        questionText: '¿Cómo se describe la actitud de Martín respecto a la pelea?',
+        options: [
+          'Como un guerrero valiente que deseaba conquistar tierras.',
+          'Como alguien con dudas sobre lastimar a personas que no conoce.',
+          'Como un soldado experto en el uso de rifles y cañones.',
+          'Como un hombre enojado porque Ayelén usaba otras palabras.'
+        ],
+        correctAnswer: 'Como alguien con dudas sobre lastimar a personas que no conoce.',
       },
       {
         id: 'alld-char2',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Cómo era Martín antes de ser enviado a pelear?',
-        options: ['Era una persona agresiva que le gustaba pelear', 'No estaba seguro de querer pelear contra gente que no conocía', 'Era un soldado experimentado', 'Odiaba a sus enemigos'],
-        correctAnswer: 'No estaba seguro de querer pelear contra gente que no conocía',
+        questionText: '¿Qué cualidad de Ayelén se destaca al inicio de la historia?',
+        options: [
+          'Su habilidad para cazar jaguares y picaflores en el sur.',
+          'Su origen en un lugar diferente y su lenguaje propio.',
+          'Su gran riqueza y el tamaño de la ruca donde vivía.',
+          'Su miedo a la nieve y a los hombres de piel oscura.'
+        ],
+        correctAnswer: 'Su origen en un lugar diferente y su lenguaje propio.',
       },
       {
         id: 'alld-char3',
         category: QuestionCategory.CHARACTER,
-        questionText: '¿Qué cualidad común tienen Ayelén y Martín que se menciona al principio?',
-        options: ['Ambos tienen el pelo oscuro', 'Ambos ríen de la misma manera', 'A los dos les gusta la nieve', 'Viven en la misma ciudad'],
-        correctAnswer: 'Ambos ríen de la misma manera',
+        questionText: '¿Qué sentimiento acaba transformando a Ayelén y Martín al final?',
+        options: [
+          'La curiosidad por viajar juntos hacia el Río de la Plata.',
+          'Un amor profundo que genera calor y detiene el conflicto.',
+          'El miedo a morir congelados en medio del desierto solo.',
+          'La alegría de haber aprendido a usar armas de fuego.'
+        ],
+        correctAnswer: 'Un amor profundo que genera calor y detiene el conflicto.',
       },
     ],
   },
