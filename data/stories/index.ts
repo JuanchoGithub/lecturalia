@@ -51,6 +51,7 @@ import { elRunImposibleDeKirby } from './el-run-imposible-de-kirby';
 import { elRunImposibleDeKirbyParte2 } from './el-run-imposible-de-kirby-parte-2';
 import { nicoYoutuberParte2 } from './nico-youtuber-parte-2';
 import { nicoYoutuberParte3 } from './nico-youtuber-parte-3';
+import { kirbyReinoDulces } from './kirby-reino-dulces';
 
 export const stories: Story[] = [
   leoTheLighthouseLion,
@@ -104,4 +105,5 @@ export const stories: Story[] = [
   elRunImposibleDeKirbyParte2,
   nicoYoutuberParte2,
   nicoYoutuberParte3,
+  kirbyReinoDulces,
 ].sort((a, b) => a.title.localeCompare(b.title));

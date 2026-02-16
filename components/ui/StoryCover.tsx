@@ -69,6 +69,7 @@ const StoryCover: React.FC<StoryCoverProps> = ({ storyId, title, className = "" 
       'el-run-imposible-de-kirby': ['#FF85A1', '#F43F5E'],
       'el-run-imposible-de-kirby-parte-2': ['#FF85A1', '#FF006E'],
       'el-guardian-de-las-luces-perdidas': ['#FFE259', '#FFA751'],
+      'kirby-reino-dulces': ['#FBCFE8', '#F472B6'],
     };
 
     const defaultGradients = [
@@ -83,6 +84,35 @@ const StoryCover: React.FC<StoryCoverProps> = ({ storyId, title, className = "" 
 
   const renderIllustration = () => {
     switch (config.id) {
+      case 'kirby-reino-dulces':
+        return (
+          <g className="animate-floaty">
+            {/* The Big Cake */}
+            <rect x="45" y="60" width="45" height="25" fill="#FDE68A" rx="2" /> 
+            <path d="M45 60 Q67.5 52 90 60 L90 68 Q67.5 76 45 68 Z" fill="#F472B6" />
+            <rect x="52" y="40" width="30" height="20" fill="#FDE68A" rx="2" />
+            <path d="M52 40 Q67 35 82 40 L82 48 Q67 53 52 48 Z" fill="#FBCFE8" />
+            <circle cx="67" cy="35" r="5" fill="#EF4444" className="animate-pulse" /> {/* Cherry */}
+            
+            {/* Kirby reaching for it */}
+            <g transform="translate(10, 15)">
+              <circle cx="20" cy="55" r="18" fill="#FF85A1" stroke="#FF006E" strokeWidth="1.5" />
+              <ellipse cx="16" cy="50" rx="1.5" ry="4" fill="#1E293B" />
+              <ellipse cx="24" cy="50" rx="1.5" ry="4" fill="#1E293B" />
+              <path d="M16 62 Q20 66 24 62" fill="none" stroke="#1E293B" strokeWidth="2" strokeLinecap="round" />
+              <circle cx="10" cy="58" r="4" fill="#FF006E" opacity="0.3" />
+              <circle cx="30" cy="58" r="4" fill="#FF006E" opacity="0.3" />
+              {/* Hands */}
+              <circle cx="36" cy="50" r="5" fill="#FF85A1" className="animate-waves" />
+              <circle cx="4" cy="50" r="5" fill="#FF85A1" />
+            </g>
+
+            {/* Sprinkles */}
+            <rect x="55" y="65" width="2" height="4" fill="#3A86FF" transform="rotate(45 55 65)" />
+            <rect x="75" y="62" width="2" height="4" fill="#FFBE0B" transform="rotate(-30 75 62)" />
+            <rect x="65" y="70" width="2" height="4" fill="#8338EC" />
+          </g>
+        );
       case 'botella-al-mar':
         return (
           <g className="animate-floaty">

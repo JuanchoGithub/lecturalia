@@ -50,6 +50,7 @@ import { definitions as elRunImposibleDeKirbyDefinitions } from './el-run-imposi
 import { definitions as elRunImposibleDeKirbyParte2Definitions } from './el-run-imposible-de-kirby-parte-2';
 import { definitions as nicoYoutuberParte2Definitions } from './nico-youtuber-parte-2';
 import { definitions as nicoYoutuberParte3Definitions } from './nico-youtuber-parte-3';
+import { definitions as kirbyReinoDulcesDefinitions } from './kirby-reino-dulces';
 
 export const allDefinitions: { [storyId: string]: { [word: string]: { explanation: string } } } = {
   'leo-the-lighthouse-lion': leoTheLighthouseLionDefinitions,
@@ -103,4 +104,5 @@ export const allDefinitions: { [storyId: string]: { [word: string]: { explanatio
   'el-run-imposible-de-kirby-parte-2': elRunImposibleDeKirbyParte2Definitions,
   'nico-youtuber-parte-2': nicoYoutuberParte2Definitions,
   'nico-youtuber-parte-3': nicoYoutuberParte3Definitions,
+  'kirby-reino-dulces': kirbyReinoDulcesDefinitions,
 };
